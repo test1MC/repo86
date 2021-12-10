@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>This option lets you search for a topic within an HTML Help (CHM) file that you have added to your project. After you select this option, click the <span class="Emphasis">External File</span> button. In the Link to HTML Help dialog, you can do one of the following.</p>
+        <ul>
+            <li>
+                <p>Select <span class="Emphasis">Project Files</span> and then use the area below to navigate to the file that you want to link to and select it. By using the buttons in the local toolbar, you can view all files in a list, view files in their folder structure, and use other options.</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/SharePoint/Multi-View-Table3.flsnp" />
+            </li>
+            <li>Select <span class="Emphasis">Import Existing</span>. In the dialog that opens, find and double-click the CHM file. Then from the drop-down—which displays "(root folder)" by default, you can select a specific content folder in your project to place the CHM file.</li>
+        </ul>
+        <p>After the CHM file is selected, in the Topic field click <img src="../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. In the dialog that opens, find and double-click the topic that you want to link to.</p>
+        <p>When you are finished, click <span class="Emphasis">OK</span> in the Link to HTML Help dialog.</p>
+    </body>
+</html>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Words</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the number of words in the open file. If you highlight words in the file, this area shows you how many words are selected out of the total count. If a file contains snippets, the words from those snippets are not included in this word count, because those are separate files.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Go-First-Page-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the first page of the topic in Print Layout mode. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Go-Previous-Page-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the previous page of the topic in Print Layout mode.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Go-Next-Page-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the next page of the topic in Print Layout mode.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Go-Last-Page-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the last page of the topic in Print Layout mode. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Drop-Downs/Page-3-5-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the current page of the topic, as well as the total number of pages in the topic. You can enter another number in the field or use the arrow buttons to navigate to a different page. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Zoom-Scale-btn.png" />
+                        </p>
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Zoom-Scale-2-Pages-btn.png" />
+                        </p>
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Fit-Width-btn.png" />
+                        </p>
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/One-Page-btn.png" />
+                        </p>
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Two-Pages-btn.png" />
+                        </p>
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Four-Pages-btn.png" />
+                        </p>
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Eight-Pages-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">The Zoom/Scale button (which looks different depending on the current selection) opens a drop-down menu so that you can select from the following options:</p>
+                        <MadCap:snippetBlock src="Zoom-Scale-Options.flsnp">
+                        </MadCap:snippetBlock>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This option is available only if you are working in Print Layout mode. In this mode, additional pages are automatically created when you add content beyond that which can be held on a single page.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl/Interface/Buttons/Smaller-Font-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Reduces the scale of the font by 10% each time you click the button.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl/Interface/Buttons/Larger-Font-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Increases the scale of the font by 10% each time you click the button.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl/Interface/Drop-Downs/Font-Percentage-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Lets you select a specific percentage to scale the font.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Ca-Co-Fl-Mi/Interface/Ribbons-Toolbars-Menus/Hide-Show-Conditional-Indicators-Description.flsnp" class="TableText" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2 or Snippets.Snippet3]" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Blocks-Bar-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="Tag-Block-Bars-Description.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> See <MadCap:xref href="../../../../../../Flare/Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">About Structure Bars</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Spans-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Span-Bars-Description.flsnp" />
+                        <p class="TableText" MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">About Structure Bars</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet4">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Expand-Collapse-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enables or disables the feature to collapse and expand tags in the XML Editor.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Horizontal-Ruler-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Horizontal-Ruler-Description.flsnp" class="TableText" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Vertical-Ruler-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="Vertical-Ruler-Description.flsnp" class="TableText" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

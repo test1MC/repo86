@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>In order to successfully import CSV-formatted user data into the system, see the information in the table below:</p>
+        <table style="mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Column Name</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Format</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Required Column</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">FirstName</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">text</p>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Enter the first name of the user:</p>
+                            <p><span class="TypedEntry">Emily</span>
+                            </p>
+                        </div>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="PulseUserAcctFirstName.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">LastName</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableText">text</p>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Enter the last name of the user:</p>
+                            <p><span class="TypedEntry">Smith</span>
+                            </p>
+                        </div>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="PulseUserAcctLastName.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">EmailAddress</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">email address</p>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Enter a valid email address:</p>
+                            <p><span class="TypedEntry">emily@example.com</span>
+                            </p>
+                            <p>A valid email address includes the account (emily), the ampersand (@) and the domain (example.com).</p>
+                        </div>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p src="PulseUserAcctEmail.flsnp" class="TableText">
+                            <p>A valid email address.</p>
+                        </p>
+                        <div class="warning">
+                            <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">The email address is the unique identifier for the account. The email address cannot be changed once an account is created. </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Groups</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableText">text</p>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">To add the user to a single group, enter the group name. For example:</p>
+                            <p><span class="TypedEntry">Customers</span>
+                            </p>
+                            <p>To add the user to multiple groups, enter the group names and separate them with the semicolon. For example:</p>
+                            <p><span class="TypedEntry">Administrators;Employees</span>
+                            </p>
+                        </div>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText"> This in the group name (or names) in Pulse. </p>
+                        <p class="TableText">To add a user to multiple groups, separate the group names using a semicolon (;).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Location</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">text</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This can be used to specify the user location. This might be a facility, city, town, state, or region.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Title</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableText">text</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">This is the user's professional title. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Department</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">text</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This is the user's department.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Phone</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableText">telephone number</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">This is the account holder's telephone number. <MadCap:snippetText src="PulseImportAreaCodePrefixLine.flsnp" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Cell</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">telephone number</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This is the users mobile number. <MadCap:snippetText src="PulseImportAreaCodePrefixLine.flsnp" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Password</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-DarkerRows">
+                        <p class="TableText">text</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-DarkerRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../../Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-DarkerRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="PulseUserAcctPassword.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

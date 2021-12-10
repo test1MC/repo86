@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a TOC like this, with a finished PDF inserted between two topic entries:</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/PDF-Merging1.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Language-Support-Guide" />
+            <p>In the output, the stitched PDF is sandwiched after the first topic and before the second one.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/PDF-Merging2.png" class="MaxWidth90Percent" style="max-width: 1in;" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Language-Support-Guide" />
+            <p>If the existing PDF had not been included in the TOC, the second topic would normally have shown page 3 (page 1 = generated TOC, page 2 = first topic, page 3 = second topic). But because the stitched PDF has been included, the second topic starts on page 6 (page 1 = generated TOC, page 2 = first topic, pages 3-5 = stitched PDF, page 6 = second topic).</p>
+        </div>
+    </body>
+</html>

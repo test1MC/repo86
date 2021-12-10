@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Perforce.flmsp');">
+    <head>
+        <meta name="description" content="Describes how to merge source control files when using Perforce Helix Core." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control:merging;Merging:source control" />
+            <MadCap:concept term="FilterFeatures" />Merging Source Control Files<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Perforce Helix Core</MadCap:conditionalText></h1>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Merging-SC-Files-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Option-Use-Merge-Tool-Merge-Changes-Dialog.flsnp" />
+        <h2>How to Merge Source Control Files</h2>
+        <ol>
+            <li>Go through the process of getting the latest version of files from source control or submitting files. See <MadCap:xref href="Getting-Latest-Version-Source-Control-Files-Perforce.htm">Getting the Latest Version of Source Control Files—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="Submitting-Source-Control-Files-Perforce.htm">Submitting Source Control Files—Perforce Helix Core</MadCap:xref>. If your local copy of the file is different from the server copy (e.g., another author has already submitted the same file), the Resolve Conflicts dialog opens.</li>
+            <li>
+                <p>Click <span class="Emphasis">Auto Merge All</span>. If changes from the other author do not conflict with your changes, this will merge all changes. A message lets you know that a backup of your local copy has been made. This lets you restore that file if you do not want to keep the merged version<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../Backups/Backups.htm">Backups</MadCap:xref>) </MadCap:conditionalText>. You do not need to complete the rest of the steps below.</p>
+                <p>However, if your changes conflict with those from another author, a message displays to tell you. In this case, continue with the next step.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Click-Ok-Conflict-Message.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Resolve-Conflicts-Dialog-Click-Resolve.flsnp" />
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Merge-Changes-For-Me.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Merge-Changes-Merge-Tool.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Undo-My-Local-Changes.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Discard-External-Changes.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Option-Use-Merge-Tool-Merge-Changes-Dialog.flsnp" />
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Click-Change-Remote-Local.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Type-Content.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Previous-Next-Conflict.flsnp" />
+                    </li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you selected "Merge as Text" in the local toolbar and are working in the code, you can click on text with a hatched background to keep the change in it. After you click on text with a hatched background, the hatched lines are removed, leaving a solid color.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/After-All-Conflicts-Resolved.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Perforce" />
+        <div class="example">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Example-No-Conflicting-Changes.flsnp" />
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files8.png" class="MaxWidth100Percent" /> </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Perforce" />
+        <div class="example">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Source-Control/Example-Conflicting-Changes.flsnp" />
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files1.png" class="MaxWidth100Percent" /> </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Perforce" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Source-Control/Example-Conflicting-Changes-2.flsnp" />
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files2.png" class="MaxWidth75Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Source-Control/Example-Conflicting-Changes-3.flsnp" />
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files3.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Perforce" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Source-Control/Example-Conflicting-Changes-4.flsnp" />
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files4.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Perforce" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Source-Control/Example-Conflicting-Changes-5.flsnp" />
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files5.png" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files6.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Source-Control/Example-Conflicting-Changes-6.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Perforce" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Source-Control/Example-Conflicting-Changes-7.flsnp" />
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files7.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Source-Control/Example-Conflicting-Changes-8.flsnp" />
+        </div>
+    </body>
+</html>

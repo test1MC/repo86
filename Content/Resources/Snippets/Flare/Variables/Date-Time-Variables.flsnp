@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Online-Word.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Variables-Guide" />
+        <p>
+            <MadCap:snippetText src="Date-Time-Variables-Master-Pages.flsnp" />
+        </p>
+        <h2>How to Insert a Custom Date/Time Variable Into a Template Page</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Template-Pages/Open-Template-Page1.flsnp" />
+            </li>
+            <li>Place your cursor in the template page where you want to insert a custom date/time variable. If you insert it above the Topic Body proxy, the date and time are shown in the header (above the topic content). If you insert it below the Topic Body proxy, the date and time are shown in the footer (below the topic content).</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Insert &gt; Variable</b>. </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Insert-Variable-btn.png" class="ReduceButtonSize" />.</li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut </span>On your keyboard press <span class="Emphasis">CTRL+SHIFT+V</span>.</li>
+                </ul>
+                <p>The Variables dialog opens, with the variable set(s) on the left and the variables associated with the selected set on the right. </p>
+            </li>
+            <li>On the left side of the dialog, select the variable set that you created.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Template-Pages-Guide" />
+            <li>
+                <p>On the right side of the dialog, select the custom/date time variable that you want to insert.  When you insert a custom date/time variable into a template page, <MadCap:variable name="Other.Product" /> will insert the appropriate date and time (based on your variable's update settings) into the topic as if it were part of the topic itself.</p>
+                <MadCap:snippetBlock src="Example-Date-Time-Variables-Master-Pages.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Variables-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The custom date/time variable is added to the template page. </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Custom date/time variables are not supported in page layouts.</p>
+        </div>
+    </body>
+</html>

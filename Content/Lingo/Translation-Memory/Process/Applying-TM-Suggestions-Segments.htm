@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" description="How to apply translation memory to segments and entire projects in MadCap Lingo." class="" style="mc-master-page: url('../../../Resources/TemplatePages/Lingo/User-Guides-Videos/Lingo-Using-TM.flmsp');">
+    <head><title></title>
+        <meta name="description" content="MadCap Lingo suggestion translations, translation memory suggestions, translation suggestions, apply translation memory to segments" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Translation memory:suggestions;Suggestions" />Applying Translation Memory Suggestions</h1>
+        <p>You can automatically apply matching translations from a Translation Memory (TM) database  to segments in a project.  In other words, the target cell in the Translation Editor will be populated with the translation. This does not mean the translation is completed. You still need to confirm each one. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Translation-Memory.htm" MadCap:conditions="General.Online-Only">About Translation Memory</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>You can apply TM suggestions at the project, file, or segment level.</p>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/AkapVslLbIA" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+            <p class="more-videos"><a href="https://www.madcapsoftware.com/videos/lingo/#TranslationMemory" target="_blank">View More Videos in This Series</a>
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Apply Translation Memory to a Project—When Creating It</h2>
+        <ol>
+            <li>Begin the process of creating a project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Projects/Creating-Projects.htm">Creating New Projects</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p>On the third page of the wizard, select the TM. </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Pre-translate options</span> drop-down, select <span class="Emphasis">Pre-translate with TM</span>. This automatically applies TM&#160;suggestions to the segments in the project.</p>
+                <p>
+                    <img src="../../../Resources/Images/Lingo/Translation-Memory/Apply-Suggestions1.png" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Example-Pretranslate.flsnp" />
+            </li>
+            <li>Finish the steps for creating the project.</li>
+        </ol>
+        <h2>How to Apply Translation Memory to a Project—After It is Created</h2>
+        <ol>
+            <li>Open the project.</li>
+            <li>
+                <p>Select <b>Home &gt; Translate project with TM</b>.</p>
+                <p>A message lets you know if segments were applied, and how many.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Apply Translation Memory to a File</h2>
+        <ol>
+            <li>Open the file in the Translation Editor.</li>
+            <li>In the local toolbar click <img src="../../../Resources/Images/Lingo/Interface/Buttons/Translate-Project-TM-btn2.png" class="ReduceButtonSize" />. A message lets you know if segments were applied, and how many.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Apply Translation Memory to a Segment</h2>
+        <p>In the Translation Editor, click in the empty target cell. The matching suggestion is applied immediately to that cell.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/TM-MT-Languages.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2 or Snippets.Snippet3]" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">To confirm a segment, click in that Target cell and press <span class="Emphasis">ENTER</span>.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Note-Reduce-Fuzzy-Percentage.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Be aware that TM&#160;rankings take priority over fuzzy match percentages. If you set a minimum match percentage  and you ranked your TMs, a segment in the highest-ranked TM&#160;will take priority over a segment in the lower-ranked TM, even if the higher-ranked segment has a lower fuzzy match percentage. See <MadCap:xref href="../Other-Activities/Ranking-Translation-Memory.htm">Ranking Translation Memories</MadCap:xref>.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/Note-Accept-Exact-Matches.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Note-Pretranslate.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/Note-Apply-First-TM-Match-Found.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/Xliff-Alternate-TM-Source.flsnp" />
+    </body>
+</html>

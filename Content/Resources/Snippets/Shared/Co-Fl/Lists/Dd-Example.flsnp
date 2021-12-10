@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Here is a sample definition list.</p>
+            <p><span class="Emphasis">Basketball</span>
+            </p>
+            <p class="Indented">A game played with a hoop.</p>
+            <p><span class="Emphasis">Football</span>
+            </p>
+            <p class="Indented">A game with large men crashing into each other.</p>
+            <p><span class="Emphasis">Olympic Curling</span>
+            </p>
+            <p class="Indented">Nobody is exactly sure what this is.</p>
+            <p>Here is how the tag structure for that definition list might look behind the scenes.</p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;dl&gt;
+	&lt;dt&gt;Basketball&lt;/dt&gt;
+	&lt;dd&gt;A game played with a hoop.&lt;/dd&gt;
+	&lt;dt&gt;Football&lt;/dt&gt;
+	&lt;dd&gt;A game with large men crashing into each other.&lt;/dd&gt;
+	&lt;dt&gt;Olympic Curling&lt;/dt&gt;
+	&lt;dd&gt;Nobody is exactly sure what this is.&lt;/dd&gt;
+&lt;/dl&gt;</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <p>In this example, the font weight of the dt style is bold, and the dd style is indented by 20 pixels.</p>
+        </div>
+    </body>
+</html>

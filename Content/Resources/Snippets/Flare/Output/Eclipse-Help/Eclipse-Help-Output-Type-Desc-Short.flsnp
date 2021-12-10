@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The <MadCap:variable name="Outputs.EclipseHelp" /> output lets you generate Eclipse Help plug-ins using your Flare content as its source material. It displays your output content in the Eclipse Help Viewer.</p>
+        <p>
+            <img src="../../../../Images/Flare/Output/Eclipse-Help-Plugin-Created.png" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <p>The Eclipse Help Viewer uses an embedded Jetty server to provide your users with navigation features similar to other online viewers. Jetty is a Java-based web server implementation that tightly integrates with Eclipse and other open source projects. </p>
+        <p>
+            <img src="../../../../Images/Flare/Output/Eclipse-Help-Viewer.png" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <p>The viewer's features and user interface must be customized in Eclipse. To learn about your customization options, visit <a href="https://help.eclipse.org/" target="_blank">help.eclipse.org</a>.</p>
+    </body>
+</html>

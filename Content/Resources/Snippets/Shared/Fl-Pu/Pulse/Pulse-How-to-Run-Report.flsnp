@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="PulseDashLoginAdmin.flsnp" />
+                    </p>
+                </li>
+                <li>
+                    <p>Select <span class="Emphasis">Administration &gt; Reports</span>. The Reports page opens.</p>
+                </li>
+                <li>
+                    <p>Click the desired report name to open it. The available formatting options depend on whether you are running a community or system report.</p>
+                    <p class="Subheading">To format a community report</p>
+                    <p>Following are ways to format a community report.</p>
+                    <div class="IndentMedium">
+                        <p class="Subheading">select a community</p>
+                        <p>If the selected report supports the ability to filter data for each Flare community in your Pulse system, select one of your communities from the <span class="Emphasis">Community</span> list.</p>
+                        <p>
+                            <img src="../../../../Images/Shared/Fl-Pu/pulse_report_community_drop_down.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">select a chart style</p>
+                        <p>If the selected report supports the ability to select a style for rendering your chart data, select one of the available chart styles from the <span class="Emphasis">Styles</span> drop-down list. </p>
+                        <p>
+                            <img src="../../../../Images/Shared/Fl-Pu/pulse_report_chart_style.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:snippetBlock src="PulseReportStyle.flsnp" />
+                        <p class="Subheading">filter report records</p>
+                        <p>If the selected report supports the ability to filter the records that you include, select one of the listed options from the <span class="Emphasis">Records</span> drop-down list. </p>
+                        <p>
+                            <img src="../../../../Images/Shared/Fl-Pu/pulse_report_chart_records.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p>The table below describes the options in the drop-down list:</p>
+                        <table class="TableStyle-Fancy" cellspacing="0" style="width: 100%;margin-left: auto;margin-right: auto;mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');">
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+                            <tbody>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableTextEmphasis">All</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                        <p class="TableText">Includes all records in the report.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableTextEmphasis">Top 10</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                        <p class="TableText">Includes only the top 10 records.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableTextEmphasis">Top 25</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                        <p class="TableText">Includes only the top 25 records.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <p class="TableTextEmphasis">Top 50</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                        <p class="TableText">Includes only the top 50 records.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="Subheading">switch the chart view </p>
+                        <p>If the selected report supports the ability to filter the records that you include, select one of the listed options from the <span class="Emphasis">Chart</span> drop-down list. The options available depend on the report type. </p>
+                        <p>
+                            <img src="../../../../Images/Shared/Fl-Pu/pulse_report_chart_chart.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">select the report legend</p>
+                        <p>If the selected report supports the ability to include a report legend, select one of the listed options from the <span class="Emphasis">Legend</span> drop-down list. The options available depend on the data in the report. </p>
+                        <p>
+                            <img src="../../../../Images/Shared/Fl-Pu/pulse_report_chart_legend.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">enable the date filter</p>
+                        <p>If the selected report supports the ability to enable a data filter, do the following:</p>
+                        <ol style="list-style-type: lower-alpha;">
+                            <li>
+                                <p>Place a check mark in the <span class="Emphasis">Enable Date Filter</span> box. This reveals the <span class="Emphasis">Start Date</span> and <span class="Emphasis">End Date</span> fields. </p>
+                                <p>
+                                    <img src="../../../../Images/Shared/Fl-Pu/pulse_report_enable_date_filter.png" class="MaxWidth100Percent" />
+                                </p>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Most reports define the report period to the previous month by default.</p>
+                                </div>
+                            </li>
+                            <li>Place the mouse cursor in the <span class="Emphasis">Start Date</span> box to reveal a drop-down calendar where you can navigate to the desired start date. You can click the arrows to switch between months. </li>
+                            <li>Repeat the same action in the&#160;<span class="Emphasis">End Date</span> box. </li>
+                        </ol>
+                    </div>
+                    <p class="Subheading">To format a system report</p>
+                    <p>For system reports, the chart style for the report is predetermined. However, you do have the ability to specify the desired reporting period as follows:</p>
+                    <ol style="list-style-type: lower-alpha;">
+                        <li>Open the desired system report. This reveals the Start Date and End Date fields. </li>
+                        <li>Place the mouse cursor in the <span class="Emphasis">Start Date</span> box to reveal a drop-down calendar where you can navigate to the desired start date. You can click the arrows to switch between months. </li>
+                        <li>Repeat the same action in the&#160;<span class="Emphasis">End Date</span> box. </li>
+                    </ol>
+                    <li value="4">When ready to generate the report, click <span class="Emphasis">Run</span>.</li>
+                </li>
+            </ol>
+        </p>
+    </body>
+</html>

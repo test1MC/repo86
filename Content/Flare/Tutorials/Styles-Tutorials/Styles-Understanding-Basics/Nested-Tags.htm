@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video1-Intro.flmsp');">
+    <head>
+        <meta name="description" content="Editing nested tags. That is, when one HTML tag is contained within another, and can therfore inherit the style settings form the outer tag." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-Basic.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Nested Tags</h1>
+        <p>When one HTML tag is contained within another, it is nested and therefore can inherit the style settings from the outer tag.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Edit Nested Style Elements</h2>
+        <ol>
+            <li>From the Content Explorer, open <span class="Emphasis">Austin-City-Limits.htm</span>. </li>
+            <li>At the end of the "Format" section, create an empty paragraph.</li>
+            <li>From the <span class="Emphasis">Home</span> ribbon, click <img src="../../../../Resources/Images/Shared/Co-DB-Fl/Interface/Buttons/Group-Items-btn.png" />. This groups selected items.</li>
+            <li>
+                <p>From the Create Group dialog, select <span class="Emphasis">div</span>. Click <span class="Emphasis">OK</span>. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Nested-Div.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Type <span class="TypedEntry">Willie Nelson was the first featured performer</span>. Notice the default paragraph font color is black.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Nested-Willie1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Open <span class="Emphasis">Styles.css</span>.</li>
+            <li>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">All Styles</span>.</li>
+            <li>In the left pane tree structure, select the <span class="Emphasis">div</span> style.</li>
+            <li>From the local toolbar, <span class="Emphasis">Show</span> drop-down, select <span class="Emphasis">Show: Set (Locally) Properties - properties set in this stylesheet</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">Add Property</span> drop-down, select <span class="Emphasis">color</span>. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Factory-AddProperties.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Color Property</span> field, replace the default property "inherit," by typing a new value of <span class="TypedEntry">Purple</span>. Press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Nested-DivPurple.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You might not see the purple color display right away, and that is okay. When you press ENTER and save the stylesheet, those actions enforce the style update.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+            <li>
+                <p>Open the <span class="Emphasis">Austin City Limits</span> topic. Since the p element is within the div element (and the div is the wrapping container tag that holds the style), the paragraph text within the div inherits the div style of purple font.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Nested-Willie4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the stylesheet, select the <span class="Emphasis">p</span> style.</li>
+            <li>In the <span class="Emphasis">Add Property</span> drop-down, select <span class="Emphasis">color</span>. </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">Color Property</span> field, replace the default property "inherit," by typing a new value of <span class="TypedEntry">Gray</span>. Press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Nested-PGray.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Open the topic again. Since the p element is within the div element, it is “closer” to the source, and the text turns gray.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Nested-Willie3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Open <span class="Emphasis">Famous-Austin-Folks.htm</span>. Let’s change the color on the list styles so all the text in the project appears  the same.</p>
+            </li>
+            <li>Open <span class="Emphasis">Styles.css</span>.</li>
+            <li>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">List Styles</span>, and then select <span class="Emphasis">li</span>.</li>
+            <li>In the <span class="Emphasis">Add Property</span> drop-down, select <span class="Emphasis">color</span>. </li>
+            <li>In the <span class="Emphasis">Color Property</span> field, replace the default property "inherit," by typing a new value of <span class="TypedEntry">Gray</span>. Press <span class="Emphasis">ENTER</span>. </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+            <li>Go back to the <span class="Emphasis">Famous Austin Folks</span> topic to check the list items color update.</li>
+            <li>From the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Cascading stylesheet (CSS) rules account for cascading order, specificity, and inheritance. All of which determine the look and feel of the project.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../Styles/Basics-CSS/Cascading.htm">Cascading</MadCap:xref> and <MadCap:xref href="../../../Styles/Basics-CSS/CSS-Styles-Page-Structure.htm">CSS Styles and Page Structure</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End-Styles.flsnp" />
+        </div>
+    </body>
+</html>

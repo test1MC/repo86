@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p>The following steps show you how to set up your <MadCap:variable name="Outputs.WebHelp Plus" MadCap:conditions="Snippets.Snippet9" /><MadCap:variable name="Outputs.HTML5" MadCap:conditions="Snippets.Snippet10" /> target for server-based output.</p>
+        <div class="IndentMedium">
+            <h3>How to Set Up the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet9">Webhelp Plus</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet10">HTML5</MadCap:conditionalText> Target</h3>
+            <ol>
+                <li> In Flare, open the <MadCap:variable name="Outputs.WebHelp Plus" MadCap:conditions="Snippets.Snippet9" /><MadCap:variable name="Outputs.HTML5" MadCap:conditions="Snippets.Snippet10" /> target.The Target Editor opens.</li>
+                <li>Select the <span class="Emphasis">Publishing</span> tab. </li>
+                <li MadCap:conditions="Snippets.Snippet10">In the <span class="Emphasis">Server-based Output</span> section, click the check box.</li>
+                <li>
+                    <p>
+                        <MadCap:keyword term="WebHelp Plus:catalog;Catalog" MadCap:conditions="Snippets.Snippet9" />
+                        <MadCap:keyword term="HTML5:catalog;Catalog" MadCap:conditions="Snippets.Snippet10" />In the <span class="Emphasis">Indexing Service Catalog Name</span> field, type the catalog that you are using for the output. In most cases, this will be <span class="TypedEntry">Web</span>, which is the default value. However, if you or someone in your company (e.g., network administrator) creates a custom catalog, you need to enter that name in the field.</p>
+                    <p MadCap:conditions="Snippets.Snippet9">
+                        <img src="../../../Images/Flare/Output/Enabling-WHP.png" class="MaxWidth100Percent" />
+                    </p>
+                    <p>What is a catalog? Microsoft Indexing<MadCap:keyword term="Microsoft Indexing" /> Service stores all of its index information in catalogs. A catalog comprises index information and stored properties for a particular group of file system directories. If Internet Information Services (IIS) is installed, the Indexing Service also creates a web catalog, which contains an index of IIS, the default virtual server of the World Wide Web.</p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This step is necessary only for Windows Server 2003.</p>
+                    </div>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                </li>
+                <li>Generate the target.</li>
+                <li>
+                    <p>Publish the output to any location on the web server. If you want to use the default location that was created after you installed IIS, you can publish the output to C:\Inetpub\wwwroot. If you do this, you can use the "Default Web Site" folder that you will encounter when performing the next set of steps (i.e., configuring IIS on the production server).</p>
+                    <p>If you are working on your local machine for testing purposes, you do not need to publish the output. You can  simply view your <MadCap:variable name="Outputs.WebHelp Plus" /> output. <MadCap:snippetText src="WHP/MC-Preview-Folder.flsnp" MadCap:conditions="Snippets.Snippet9" /><MadCap:snippetText src="HTML5/MC-Preview-Folder-HTML5.flsnp" MadCap:conditions="Snippets.Snippet10" /></p>
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>

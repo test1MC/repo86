@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>NetHelp themes are designed to be fully customized. You can change virtually any aspect of a theme and add whatever effects and widgets you can think of. Many customizations can be done with the Theme Designer<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> (see <MadCap:xref href="../../../../../D2H/Themes/Using-NetHelp-Theme-Designer.htm">Using the NetHelp Theme Designer</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> (see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Using-NetHelp-Theme-Designer.htm">Using the NetHelp Theme Designer</MadCap:xref>)</MadCap:conditionalText>, but others can be done by manually editing files within the theme.</p>
+        <p>Before starting a customization, create a new theme. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/Customizing-NetHelp-Themes.htm">Customizing NetHelp Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Customizing-NetHelp-Themes.htm">Customizing NetHelp Themes</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>Manual customization is restricted to the following files (Tabs and Accordion themes only):</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">layout.html </span>to change the theme layout.</li>
+            <li><span class="SetOffFirstLevel">user.css </span>to change styles in the theme.</li>
+            <li><span class="SetOffFirstLevel">user.js </span>to add new scripts to the theme.</li>
+            <li><span class="SetOffFirstLevel">settings*.xml </span>This file should only be modified in an advanced scenario where you add new aspects to the theme and you want those aspects to be customizable by other users in the Theme Designer.</li>
+        </ul>
+        <p>Other files in the theme should not be edited because Doc-To-Help will overwrite them during an upgrade. All changes should be restricted to the four files above.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Customized themes (which include the files above) are stored by default on your computer in C:\Users\[username]\Documents\My Doc-To-Help Projects\Doc-To-Help\Themes\NetHelp 2.0\Themes\[name of theme]. Make sure to edit the files stored in the folder for your custom theme and not one of the default themes.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>Let's say you create a custom NetHelp theme named "Test." This is where it will be located. Manually edit the files in this folder.</p>
+                    <p>
+                        <img src="../../../../Images/D2H/Themes/Custom-Theme.png" height="354" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Examples—Changing the Stylesheet</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are examples for changing the theme stylesheet.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Header Font</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Header Font</p>
+                            <p class="Emphasis">Change in user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1headerText
+{
+	margin: 0;
+	font-family: Georgia, Times, "Times New Roman";
+	font-family: Tahoma, Arial, sans-serif;
+	font-style: italic;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Header Alignment</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Header Alignment</p>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1headerPanel
+{
+	width: 100%;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                            <p class="Emphasis">Change in user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1headerText
+{
+	margin: 0;
+	font-family: Georgia, Times, "Times New Roman";
+	font-style: italic;
+	text-align: right;
+	margin-right: 10px;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Font of the Left Panel Tabs</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Font of the Left Panel Tabs</p>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1sideTabsHeader li
+{
+	font-weight: bold;
+	font-style: italic;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Contents Panel Font</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Contents Panel Font</p>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1toc li
+{
+	font-family: Monotype Corsiva;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Index Panel Font</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Index Panel Font</p>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1index li
+{
+	font-family: Monotype Corsiva;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Search Panel Font</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Search Panel Font</p>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1search li
+{
+	font-family: Monotype Corsiva;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Highlighting Color of Search Hits</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Highlighting Color of Search Hits</p>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">.search-highlight
+{
+	background-color: Lime;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Breadcrumbs Font</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Breadcrumbs Font</p>
+                            <p class="Emphasis">Change in user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1breadcrumbs
+{
+	font-size: .9em;
+	font-family: Courier New;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Removing the Line Under the Breadcrumbs</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Removing the Line Under the Breadcrumbs</p>
+                            <p class="Emphasis">Change in user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1breadcrumbs
+{
+	border: none;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Changing the Link Font</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Changing the Link Font</p>
+                            <p class="Emphasis">Change in user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1topicPanel a[href],
+#c1topicPanel a[data-ref],
+.topic-popup a[href],
+.topic-popup a[data-ref],
+.aklinks-menu a 
+{
+	color: #1B75BB;
+	text-decoration: none;
+	font-style: italic;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Examples—Manual Customization</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are examples of manual customization (Tabs and Accordion themes only).</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Showing Some Text to the Right of the Header</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Showing Some Text to the Right of the Header</p>
+                            <p class="Emphasis">Change in layout.html:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;table id="c1headerPanel" border="0" cellpadding="0" cellspacing="0"&gt;
+	&lt;tr id="c1headerPanelRow0"&gt;
+		&lt;td id="c1headerLogoCell"&gt;
+			&lt;img id="c1headerLogo" src="images/d2h_logo_placeholder.png" alt="Logo" class="logo" /&gt;
+		&lt;/td&gt;
+		&lt;td id="c1headerTextCell"&gt;
+			&lt;h1 id="c1headerText"&gt;&lt;/h1&gt;
+		&lt;/td&gt;
+		&lt;td id="headerRightCell"&gt;
+			&lt;em&gt;Powered by Doc-To-Help&lt;/em&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1headerPanel 
+{
+	width: 100%;
+}
+#headerRightCell 
+{
+	text-align: right;
+	padding-right: 10px;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Adding a Footer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Adding a Footer</p>
+                            <p class="Emphasis">Add a &lt;div&gt; element to layout.html:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;div id="c1page" class="abs fill-h fill-v crop"&gt;
+	&lt;div id="c1header" class="abs fill-h crop ui-widget ui-state-hover"&gt;
+	....
+	&lt;/div&gt;
+	&lt;div id="c1main" class="abs fill-h"&gt;
+	....
+	&lt;/div&gt;
+	&lt;div id="mainFooter" class="crop ui-widget ui-state-hover"&gt;
+		Footer text
+	&lt;/div&gt;
+&lt;/div&gt;</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#mainFooter 
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+}
+#c1main 
+{
+	bottom: 32px;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Adding a Header and Footer to the Topic Panel</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Adding a Header and Footer to the Topic Panel</p>
+                            <p class="Emphasis">Add two &lt;div&gt; elements to HTML in layout.html:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;div id="c1topicPanelInner" class="abs fill-h fill-v scroll"&gt;
+	&lt;div id="topicHeader" class="ui-widget-content"&gt;
+		Topic header text
+	&lt;/div&gt;
+	&lt;div id="c1topicBar"&gt;
+		&lt;div id="c1breadcrumbs" style="display:none;"&gt;&lt;/div&gt;
+		&lt;div id="c1collapsiblePanel" style="display:none;"&gt;
+			&lt;span id="c1expandAll"&gt;&lt;span class="icon"&gt;&lt;/span&gt;&lt;a class="label"&gt;Expand All&lt;/a&gt;&lt;/span&gt;
+			&lt;span id="c1collapseAll"&gt;&lt;span class="icon"&gt;&lt;/span&gt;&lt;a class="label"&gt;Collapse All&lt;/a&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div id="c1topic"&gt;&lt;/div&gt;
+	&lt;div id="topicFooter" class="ui-widget-content"&gt;
+		Topic footer text
+	&lt;/div&gt;
+&lt;/div&gt;</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#topicHeader {
+	margin: 5px 20px;
+	border-width: 0 0 1px 0;
+}
+#topicFooter {
+	margin: 25px 20px 5px 20px;
+	border-width: 1px 0 0 0;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Example—Adding Nonscrolling Header and Footer into the Topic Panel</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Adding Nonscrolling Header and Footer Into the Topic Panel</p>
+                            <p class="Emphasis">Add two &lt;div&gt; elements to HTML in layout.html:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;div id="c1topicPanel" class="content-topic abs fill-h ui-corner-all topiconly-container" style="display:none;" data-c1-role="topic"&gt;
+	&lt;div id="topicHeader" class="ui-widget-content"&gt;Header text&lt;/div&gt;
+	&lt;div id="c1topicPanelInner" class="abs fill-h fill-v scroll"&gt;
+		&lt;div id="c1topicBar"&gt;
+			&lt;div id="c1breadcrumbs" style="display:none;"&gt;&lt;/div&gt;
+			&lt;div id="c1collapsiblePanel" style="display:none;"&gt;
+				&lt;button id="c1expandAll" class="flat ui-widget-content"&gt;
+					&lt;span id="c1expandAllIcon" class="icon"&gt;&lt;/span&gt;
+					&lt;span id="c1expandAllLabel" class="label"&gt;Expand All&lt;/span&gt;
+				&lt;/button&gt;
+				&lt;button id="c1collapseAll" class="flat ui-widget-content"&gt;
+					&lt;span id="c1collapseAllIcon" class="icon"&gt;&lt;/span&gt;
+					&lt;span id="c1collapseAllLabel" class="label"&gt;Collapse All&lt;/span&gt;
+				&lt;/button&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id="c1topic"&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div id="topicFooter" class="ui-widget-content"&gt;Footer text&lt;/div&gt;
+&lt;/div&gt;</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                            <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                            <p class="Emphasis">Add to user.css:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#topicHeader 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 2em;
+	border-width: 0 0 1px 0;
+}
+#topicFooter 
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 2em;
+	border-width: 1px 0 0 0;
+}
+#c1topicPanelInner 
+{
+	top: 2.2em;
+	bottom: 2.2em;
+}</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+    </body>
+</html>

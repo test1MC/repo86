@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Skins.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Settings for the topic area in HTML5 output." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Styles:HTML5;Output:HTML5;Skins:styles;Skins:HTML5;HTML5:styles" />Topics in HTML5 Skins</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>In Tripane skins, this section is used to control the look of the topic area of the output. This includes the container holding the topic content. It also includes the toolbar just above the topic content.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Topic-HTML5.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Interactive-Preview-Steps.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+        <h2>How to Specify Style Settings for the Topic Area in HTML5</h2>
+        <ol>
+            <li>Open an HTML5 skin (Tripane).</li>
+            <li>Select the <span class="Emphasis">Styles</span> tab.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Skin-Styles-Select-Medium1.flsnp" />&#160;<MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Skin-Styles-More-Info-Responsive-Output.flsnp" /></li>
+            <li>
+                <p>On the left side of the editor, in the <span class="Emphasis">Topic</span> section, expand any of the following styles:</p>
+                <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Topic Container</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the container holding topics in the output.</p>
+                                <p MadCap:conditions="General.Online-Only" class="TableText">
+                                    <img src="../../../Resources/Images/Flare/Skins/Topic-Container.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Toolbar Button</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are the buttons and other elements that are part of toolbars that you can add to output.</p>
+                                <p MadCap:conditions="General.Online-Only" class="TableText">
+                                    <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Toolbar-Buttons.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <p class="TableText">The Toolbar Button style has properties both at the root and on children nodes. If you want the setting(s) to be applied to all of the items (except the separator), select the Toolbar Button style itself. Otherwise, expand any of the child styles to apply settings to them individually. <MadCap:conditionalText MadCap:conditions="General.Online-Only"> For more information about root and children properties, see <MadCap:xref href="HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> For more information about root and children properties, see <MadCap:xref href="HTML5-Skin-Styles.htm#StylePrint">Style Sections and Root/Child Properties</MadCap:xref>.</MadCap:conditionalText></p>
+                                <p class="TableText">Following are the child styles that control individual elements in the toolbar:</p>
+                                <ul style="list-style-type: square;">
+                                    <li><span class="SetOffFirstLevel">Collapse All </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Collapse-All-Item.flsnp" /> This toggles with the Expand All button.</li>
+                                    <li><span class="SetOffFirstLevel">Current Topic Index </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Current-Topic-Index-Item.flsnp" />
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Edit User Profile </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Edit-User-Profile-Item.flsnp" /> This toggles with the Login button. The Edit User Profile button is shown if the user is already logged in.</li>
+                                    <li><span class="SetOffFirstLevel">Expand All </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Expand-All-Item.flsnp" /> This toggles with the Collapse All button.</li>
+                                    <li><span class="SetOffFirstLevel">Login </span>Lets users log in to Pulse or Feedback, if you have integrated it with the output. This toggles with the Edit User Profile button. The Login button is shown if the user is not yet logged in.</li>
+                                    <li><span class="SetOffFirstLevel">Next Topic </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Next-Topic-Item.flsnp" />
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Previous Topic </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Previous-Topic-Item.flsnp" />
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Print </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Print-Item.flsnp" />
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Remove Highlight </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Remove-Highlight-Item.flsnp" />
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Select Language </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Select-Language.flsnp" />
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Select Skin </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Select-Skin.flsnp" />
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Topic Ratings (full) </span>Displays ratings for a topic (if you have incorporated your output with MadCap Pulse or Feedback). For example, if a topic has been rated three out of five stars, "Topic Ratings (full)" lets you control how the three stars look.</li>
+                                    <li><span class="SetOffFirstLevel">Topic Ratings (empty) </span>This shows an empty rating (by default a non-colored star). For example, if a topic has been rated three out of five stars, "Topic Ratings (empty)" lets you control how the two stars look.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Toolbar Button Separator</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This controls any separators that you may have added to the toolbar. A separator is the divider between the toolbar buttons and the navigation pane.</p>
+                                <p MadCap:conditions="General.Online-Only" class="TableText">
+                                    <img src="../../../Resources/Images/Flare/Skins/Toolbar-Button-Separator-HTML5.png" class="MaxWidth100Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Toolbar Button Drop-down</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">This controls any drop-down menus that you may have added to the toolbar, such as the Select Language or Select Skin menus.</p>
+                                <p MadCap:conditions="General.Online-Only" class="TableText">
+                                    <img src="../../../Resources/Images/Flare/Skins/Toolbar-Button-Separator-HTML5.png" class="MaxWidth100Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In order to see these items in the output, you must include a WebHelp toolbar or topic toolbar in your project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Other-Activities/HTML5/Web-Toolbar-Settings-HTML5-Output1.htm">Specifying Web Toolbar Settings—HTML5 Output</MadCap:xref> and <MadCap:xref href="../../Nav-Links/Toolbars/Topic-Toolbars/Process/Inserting-Editing-Topic-Toolbar.htm">Inserting Topic Toolbar Proxies</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can add a custom toolbar button class by clicking <span class="Emphasis">Toolbar Button</span> and in the local toolbar selecting <span class="Emphasis">Add Class</span>.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-HTML5-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Expand-Nodes-Complete-Fields.flsnp" />&#160;<MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Nodes-Depend-Style.flsnp">&#160;</MadCap:snippetText></p>
+                <p class="Subheading">Background</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Background-Fields.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-HTML5-Guide" />
+                <p class="Subheading">Border</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Border-Fields.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-HTML5-Guide" />
+                <p class="Subheading">Box Shadow</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Box-Shadow-Fields.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-HTML5-Guide" />
+                <p class="Subheading">Event </p>
+                <p>You can provide a command for the item when it is clicked by the user.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to provide a command for an item (e.g., so that clicking the button opens a website). The following command opens the <MadCap:variable name="Other.CompanyName" /> website when a user clicks the button:</p>
+                    <p><span class="TypedEntry">window.open("http://www.madcapsoftware.com");</span>
+                    </p>
+                </div>
+                <p class="Subheading">General</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/General-Fields.flsnp" />
+                <p class="Subheading">Height</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Height-Field.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+                <p class="Subheading">Layout</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Display-Field.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-HTML5-Guide" />
+                <p class="Subheading">Padding</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Padding.flsnp" />
+                <p class="Subheading">Position</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Position-Fields.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also use the UI Text tab in the Skin Editor to change labels for some of these styles. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Other-Activities/HTML5/Changing-Text-Strings-HTML5-Skins.htm">Changing Text Strings in HTML5 Skins</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="For HTML5 output, search results display glossary terms if they are used as the search text. In order to use this feature, you must be using MadCap Search." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Search:glossaries;Search:optimization;Glossaries:search" />
+            <MadCap:concept term="FilterFeatures" />Including Glossary Terms in Search Results</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="Search:glossaries;Search:optimization;Glossaries:search" />Glossary Terms in Search Results</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Glossaries/Glossary-Terms-Search-Results1.flsnp" />
+        <p>
+            <img src="../../../Resources/Images/Flare/Glossaries/Glossary-Term-Search-Results1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide,Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Include Glossary Terms in Search Results</h2>
+        <ol>
+            <li>Open an HTML5 target.</li>
+            <li>In the Target Editor, select the <span class="Emphasis">Search</span> tab.</li>
+            <li>In the <span class="Emphasis">Search Engine</span> field, make sure <span class="Emphasis">MadCap Search</span> is selected.</li>
+            <li>Expand <b>Advanced Search Options</b>.</li>
+            <li>
+                <p>Select <span class="Emphasis">Include glossary results</span>.</p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../../Resources/Images/Flare/Glossaries/Glossary-Term-Search-Results2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In order for a glossary term to display in the search results, the end user's search text must match the glossary term exactly, with no additional words (although it is not case-sensitive). For example, in the example above, only the word "table" was included in the search; therefore, the glossary term "Table" was displayed. But if we had searched for "table topic," no glossary term would have been displayed in the search results.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you open a Side Navigation, Top Navigation, Tripane, or Search Results skin, you will notice Search Glossary styles that let you control the look of this new feature (e.g., change the font color to make it stand out from the other search results). The Search Glossary Result style is used to control the entire area displaying the glossary search result. The Search Glossary Term and Search Glossary Definition styles are used to control the look of only the term and definition, respectively. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Skins/HTML5-Skin-Styles/Search-Results-HTML5-Skins.htm">Search Results in HTML5 Skins</MadCap:xref>.</MadCap:conditionalText></p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Glossaries/Glossary-Term-Search-Results3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Glossaries/Glossary-Term-Search-Results4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Targets-Guide" />
+    </body>
+</html>

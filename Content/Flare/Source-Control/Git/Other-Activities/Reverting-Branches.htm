@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Git.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Describes how to revert, or undo a commit on your branch, when using Git." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:branch" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Revert" />
+            <MadCap:keyword term="Branch:revert" />
+            <MadCap:concept term="FilterFeatures" />Reverting Branches<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Git</MadCap:conditionalText></h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Reverting-Commits-Git.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Reverting-Commits-Git2.flsnp" />
+        <p>An advantage of reverting a prior commit on your branch is that it will back out any unwanted changes. If other writers are making changes on the same branch, any reverted commits will be picked up by the other writers when they pull from that branch. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Process/Pulling-Files-Remote.htm">Pulling Files from a Remote Repository—Git</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>But one disadvantage of reverting commits in your branch is that it will remove part of your branch history. The revert removes the part of your branch history that contained the commits that were undone.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git" />
+        <h2>How to Revert Commits in a Git Branch</h2>
+        <ol>
+            <li>In the Source Control Explorer, select your branch containing changes that you want to revert.</li>
+            <li>
+                <p>In the <span class="Emphasis">Source Control</span> ribbon, click <span class="Emphasis">Branch History</span>. The dialog that opens lets you view and revert specific commits within your branch.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Source-Control/Branch-History-Dialog.png" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Commit-History-Dialog-Columns.flsnp" />
+            </li>
+            <li>Select the row that contains the commit you want to back out.</li>
+            <li>
+                <p>Click <span class="Emphasis">Revert</span>.The Accept reverted modifications dialog is displayed.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Source-Control/Accept-Reverted-Modifications.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">Accept</span>.</li>
+            <li>A confirmation message confirms the revert was successful. Click <span class="Emphasis">OK</span>&#160;to close this dialog.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git" />
+    </body>
+</html>

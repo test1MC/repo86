@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a glossary term link for the term "screenshot." In a topic it might look like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links1.png" alt="" title="" />
+            </p>
+            <p>The link points to the "screenshot" term in your glossary file.</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Suppose you want to change the term from "screenshot" to "snapshot."</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+            <p class="Subheading">Option Enabled</p>
+            <div class="IndentSmall">
+                <p>In your glossary, you double-click the screenshot term. The Properties dialog opens. You change the term to <span class="TypedEntry">snapshot</span>. And at the bottom of the dialog, you make sure that <span class="Emphasis">Update matching glossary term links and save glossary</span> has a check mark.</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links3.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>A message lets you know that the files with related glossary term links have been updated.</p>
+                <p>Your glossary now looks like this:</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links4.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>And a topic containing the glossary term link looks like this:</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links5.png" alt="" title="" />
+                </p>
+                <p>In the output it might look like this:</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links6.png" alt="" title="" class="MaxWidth50Percent" />
+                </p>
+            </div>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+            <p class="Subheading">Option Disabled</p>
+            <div class="IndentSmall">
+                <p>Using this same scenario, you might disable the option if you are fine with existing topics keeping the term "screenshot," while changing the term in the glossary to "snapshot."</p>
+                <p>So after you change the term from "screenshot" to "snapshot" in your glossary, you disable the <span class="Emphasis">Update matching glossary term links and save glossary</span> check box.</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links7.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>Your glossary looks like this:</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links4.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>But a topic containing the glossary term link looks like this (with "screenshot" instead of "snapshot"):</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links8.png" alt="" title="" />
+                </p>
+                <p>And the output looks like this:</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Update-Matching-Glossary-Term-Links9.png" alt="" title="" class="MaxWidth60Percent" />
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

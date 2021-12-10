@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides-Tutorials-Videos/Flare-Styles-Video1-Intro.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Some fundamental terms and concepts you might encounter when working with styles." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="Styles:classes;Styles:tags;Styles:properties;Styles:values" />
+            <MadCap:concept term="FilterFeatures" />Important Style Terms and <MadCap:annotation MadCap:createDate="2020-02-29T10:33:00.8292202-08:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="Add Attributes to this topic?" MadCap:editor="pstoecklein" MadCap:editDate="2020-02-29T10:33:07.9851197-08:00">Concepts</MadCap:annotation></h1>
+        <p>Following are some of the fundamental terms and concepts that you will encounter when working with styles.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>
+            <MadCap:keyword term="Styles" /><a name="Styles"></a>Styles</h2>
+        <p MadCap:conditions="">In the Stylesheet Editor, you will notice several elements that already exist for your use. These are called "styles."</p>
+        <p MadCap:conditions="">
+            <img src="../../../Resources/Images/Flare/Styles/Styles1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="">
+            <img src="../../../Resources/Images/Flare/Styles/Styles2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="">A style is an element to which you assign a certain look and/or behavior. You can then apply that style to your content. Different kinds of styles are available in a stylesheet, to be used for various purposes in your content. See <MadCap:xref href="../General-Information/Types-Styles.htm">Types of Styles in Flare</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&lt;p&gt; is a common HTML&#160;tag, which is used for designating a paragraph. In your stylesheet, you can make changes to the p style, which is used to affect the look of those paragraphs. Another style is h2, which can be used to affect the look of second-level headings (&lt;h2&gt; tags) in your content. Yet another style is span, which can be used to affect the look of character-level content (e.g., a portion of a paragraph, but not the entire paragraph).</p>
+        </div>
+        <h2>
+            <MadCap:keyword term="Styles:properties;Styles:values" />Declarations, Properties, and Values</h2>
+        <p MadCap:conditions="">Every style has certain information that controls its look and behavior. The first piece of information is the selector, which is the XHTML element you want to style. See <MadCap:xref href="#Selectors">Selectors</MadCap:xref>.</p>
+        <p>The selector is followed by the following:</p>
+        <ul>
+            <li MadCap:conditions="">
+                <MadCap:microContent id="microcontent2">
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles1-Intro.flsnp" />
+                    <p><b class="topic-only">Declaration </b>A declaration describes how a selector should look or what it should do. It consists of a property and a value. A selector can have multiple declarations, which are separated by semi-colons.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Styles/CSS-Rule-Set.png" class="MaxWidth100Percent" />
+                    </p>
+                </MadCap:microContent>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <li MadCap:conditions="">
+                <MadCap:microContent id="microcontent3">
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles1-Intro.flsnp" />
+                    <p><b class="topic-only">Property </b>A property is the characteristic of the XHTML element that you want to change. Examples of common properties are color, font-size, and border-left. In the Advanced view of the Stylesheet Editor, properties can be organized into property groups (e.g., Font, Background, Border, Positioning).</p>
+                    <p class="micro-content-only">
+                        <img src="../../../Resources/Images/Flare/Styles/CSS-Rule-Set.png" class="MaxWidth100Percent" />
+                    </p>
+                </MadCap:microContent>
+                <p MadCap:conditions="">
+                    <img src="../../../Resources/Images/Flare/Styles/Selector4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <li MadCap:conditions="">
+                <MadCap:microContent id="microcontent4">
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles1-Intro.flsnp" />
+                    <p><b class="topic-only">Value </b>The value is precise information about a property (e.g., 12 px, italic, blue).</p>
+                    <p class="micro-content-only">
+                        <img src="../../../Resources/Images/Flare/Styles/CSS-Rule-Set.png" class="MaxWidth100Percent" />
+                    </p>
+                </MadCap:microContent>
+                <p MadCap:conditions="">
+                    <img src="../../../Resources/Images/Flare/Styles/Selector5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Styles:creating;Styles:stylesheets;Cascading stylesheets;Selectors:creating;Styles:selectors" /><a name="Selectors"></a>Selectors</h2>
+        <MadCap:microContent id="microcontent5">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Selector-Summary.flsnp" />
+            </p>
+        </MadCap:microContent>
+        <p MadCap:conditions="">A simple style element type such as h1 can be used as a selector all by itself. See <MadCap:xref href="../Main-Activities/Creating-Selectors.htm">Creating Selectors</MadCap:xref>.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Here is how an h1 selector could look in the Advanced view of the Stylesheet Editor after you define it.</p>
+            <p MadCap:conditions="">
+                <img src="../../../Resources/Images/Flare/Styles/Selector3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="">And here is how it would look in the Internal Text Editor.</p>
+            <p MadCap:conditions="">
+                <img src="../../../Resources/Images/Flare/Styles/Selector1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <p MadCap:conditions="">However, selectors can also be more advanced. See <MadCap:xref href="#AdvancedSelectors">Advanced Selectors</MadCap:xref>.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Here is an example of a selector that is much more complex.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector15.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <div class="IndentMedium">
+            <h3>Grouping Selectors</h3>
+            <p MadCap:conditions="">If you are comfortable with editing stylesheets in the Internal Text Editor<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../Interface/Editors/Internal-Text-Editor.htm">Internal Text Editor</MadCap:xref>)</MadCap:conditionalText>, you can group selectors together. That way, they can share the same definitions, which makes styling much quicker. To do this, separate each selector with a comma.</p>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want all of your paragraphs, h3 headings, and numbered lists to have red, bold text. You could enter this information separately for each of these styles in the stylesheet. But a more efficient method is to group them together by using <span class="TypedEntry">h3, ol, p</span> as the following shows.</p>
+                <p MadCap:conditions="">
+                    <img src="../../../Resources/Images/Flare/Styles/Selector2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </div>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Styles:advanced selectors;Selectors:advanced;Styles:selectors" /><a name="AdvancedSelectors"></a>Advanced Selectors</h2>
+        <MadCap:microContent id="microcontent1">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+            <p>An advanced (or "complex") selector lets you format content based on very specific criteria. There are many ways to create advanced selectors in CSS. For details, see:</p>
+            <p><a href="http://www.w3.org/community/webed/wiki/Advanced_CSS_selectors" target="_blank">http://www.w3.org/community/webed/wiki/Advanced_CSS_selectors</a>
+            </p>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Advanced-Selectors2.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Advanced-Selectors3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Advanced-Selectors4.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Styles:spans;Spans;Selectors:spans" />Spans</h2>
+        <MadCap:microContent id="microcontent12" MadCap:conditions="General.Online-Only">
+            <div>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+                <div class="Tiles-6-6-Microcontent">
+                    <div>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Span-Summary.flsnp" />
+                        </p>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Example-Span.flsnp" />
+                    </div>
+                    <div class="micro-content-only">
+                        <div class="video-wrap">
+                            <p class="center">
+                                <img src="../../../Resources/Images/Flare/Micro-Content/MLP-Span.gif" class="ThumbnailMicroContent" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <p class="topic-only" MadCap:conditions="General.Online-Only">
+            <img src="../../../Resources/Images/Flare/Micro-Content/MLP-Span.gif" class="MaxWidth100Percent" />
+        </p>
+        <div MadCap:conditions="General.Print-Only">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Span-Summary.flsnp" />
+            <p>
+                <img src="../../../Resources/Images/Flare/Micro-Content/MLP-Span.gif" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Example-Span.flsnp" />
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Styles:classes;Classes;Selectors:classes;Styles:selectors" /><a name="classes"></a>Classes</h2>
+        <MadCap:microContent id="microcontent6">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+            <p MadCap:conditions="">
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Classes1.flsnp" />
+            </p>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Classes2.flsnp" />
+        <div class="IndentMedium">
+            <h3>Creating Classes</h3>
+            <p>You can create selectors in the Stylesheet Editor by clicking the <span class="Emphasis">Add Selector</span> button in the local toolbar. This opens the Selector dialog. Then you can use the <span class="Emphasis">Class Name</span> field to create a class, but there are several additional advanced fields that you also have the option of using, depending on what you want to accomplish. See <MadCap:xref href="../Main-Activities/Creating-Selectors.htm">Creating Selectors</MadCap:xref>.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Styles/Selector8.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p MadCap:conditions="">When you create a class, it automatically takes on all of the same qualities from the parent style (e.g., color, alignment, size). However, you can change some of those for the class so that it is different from the parent in some ways. When you are all done, you will have a class selector.</p>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to create a special look for paragraph notes in order to provide additional information in a topic. In addition, you might want yet another special kind of paragraph to be used for tips. Perhaps you want a light blue background for your note paragraphs, and you want a light orange background for your tip paragraphs. Meanwhile, for your regular paragraphs, you do not want any colored background.</p>
+                <p MadCap:conditions="">
+                    <img src="../../../Resources/Images/Flare/Styles/Selector6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p MadCap:conditions="">Therefore, you could create a class of your parent p style and name it "Note."</p>
+                <p MadCap:conditions="">
+                    <img src="../../../Resources/Images/Flare/Styles/Selector9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+                <p MadCap:conditions="">Then you might create another class of your p style and name it "Tip."</p>
+                <p MadCap:conditions="">
+                    <img src="../../../Resources/Images/Flare/Styles/Selector10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p MadCap:conditions="">For the Note class, you could change the background property to display in light blue, and you could change the same property for the Tip class to display in light orange. But you would leave the background property for the parent p style as it is, without a color.</p>
+                <p MadCap:conditions="">
+                    <img src="../../../Resources/Images/Flare/Styles/Selector7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p MadCap:conditions="">In the end, both the Note and Tip classes would take on all of the style settings from its parent p style, with the exception of the background color that you have specified for each.</p>
+            </div>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <h3>Identifying Classes in the Stylesheet Editor</h3>
+            <p MadCap:conditions="">How can you distinguish between parent styles and classes? In the Simplified view of the Stylesheet Editor, classes are listed after the parent styles, and a period is added between the name of the parent style and the name of the class (e.g., p.Tip). </p>
+            <p MadCap:conditions="">
+                <img src="../../../Resources/Images/Flare/Styles/Base-Tags-Style-Classes-Simplified.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <p MadCap:conditions="">In the Advanced view of the Stylesheet editor, parent styles and classes are shown in a tree view. You can expand a parent style to see its classes.</p>
+            <p MadCap:conditions="">
+                <img src="../../../Resources/Images/Flare/Styles/Base-Tags-Style-Classes-Advanced.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <h3>
+                <MadCap:keyword term="Classes:generic;Generic classes" /><a name="GenericClasses"></a>Generic Classes</h3>
+            <MadCap:microContent id="microcontent7">
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Generic-Classes-Summary1.flsnp" />
+            </MadCap:microContent>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/CSS-Generic-Classes.flsnp" />
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Identifiers;Styles:identifiers;Selectors:identifiers" /><a name="Identifiers"></a>Identifiers</h2>
+        <MadCap:microContent id="microcontent8">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+            <p MadCap:conditions="">
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/ID-Summary.flsnp" />
+            </p>
+        </MadCap:microContent>
+        <p>In the New Selector dialog use the <span class="Emphasis">Identifier (ID)</span> field to give the ID&#160;a name. In the <span class="Emphasis">Advanced Selector</span> field, the ID name is added after #.</p>
+        <p>As with a class, an ID can be added after a specific HTML element, such as an h1 style.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector13.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector22.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector23.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <p>Like a class, an ID can also be generic, standing alone.</p>
+        <p MadCap:conditions="">
+            <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector14.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector24.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector25.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <p MadCap:conditions="">After creating an ID, you can apply it to content in much the same way you would apply a class. In the interface (e.g., Styles window pane, Styles field in Home ribbon), you can identify IDs by looking for the hash (#) before the name. You can right-click a structure bar in the XML Editor, and after selecting <span class="Emphasis">Style ID</span>, you can choose any available ID.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../Main-Activities/Applying-Styles-Content1.htm">Applying Styles to Content</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector19.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Styles:pseudo classes;Pseudo classes;Classes:pseudo" /><a name="PseudoClasses"></a>Pseudo Classes</h2>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:microContent id="microcontent9">
+                <div>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+                    <div class="Tiles-8-4">
+                        <div>
+                            <p MadCap:conditions="">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Pseudo-Classes1.flsnp" />
+                            </p>
+                            <p>
+                                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Pseudo-Classes2.flsnp" /> For details on the many kinds of pseudo classes that CSS lets you create, see <a href="http://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">http://www.w3schools.com/css/css_pseudo_classes.asp</a>.</p>
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Pseudo-Classes3.flsnp" />
+                        </div>
+                        <div>
+                            <p MadCap:conditions="" class="center">
+                                <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector1.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </MadCap:microContent>
+        </div>
+        <div MadCap:conditions="General.Print-Only">
+            <p MadCap:conditions="">
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Pseudo-Classes1.flsnp" />
+            </p>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Pseudo-Classes2.flsnp" /> For details on the many kinds of pseudo classes that CSS lets you create, see <a href="http://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">http://www.w3schools.com/css/css_pseudo_classes.asp</a>.</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Pseudo-Classes3.flsnp" />
+            <p>
+                <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Nav-Links/Example-Pseudo-Classes.flsnp" MadCap:conditions="" />
+        <div class="note">
+            <p class="Note-Text" MadCap:conditions="" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In order for &lt;a&gt; link pseudo classes to function properly, they must appear in the following order in the stylesheet (you can see this by opening the stylesheet in the Internal Text Editor).</p>
+            <p>a:link</p>
+            <p>a:visited</p>
+            <p>a:hover</p>
+            <p>a:focus</p>
+            <p>a:active</p>
+            <p>In order to avoid issues with this, and to ensure that your pseudo classes are working, you should explicitly set values on those pseudo classes, rather than expecting them to inherit settings from other tags.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Styles:pseudo classes;Pseudo classes;Classes:pseudo" /><a name="PseudoClassExpressions"></a>Pseudo Class Expressions</h2>
+        <MadCap:microContent id="microcontent10">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Pseudo-Class-Expressions.flsnp" />
+            </p>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Pseudo-Class-Expressions2.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Pseudo-Class-Expressions3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Styles:pseudo classes;Pseudo classes;Classes:pseudo" /><a name="PseudoElements"></a>Pseudo Elements</h2>
+        <MadCap:microContent id="microcontent11">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles4-Selectors.flsnp" />
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Pseudo-Elements1.flsnp" />
+            </p>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Pseudo-Elements2.flsnp" />
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Advanced-Selector8.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Pseudo-Elements3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Pseudo-Elements4.flsnp" />
+    </body>
+</html>

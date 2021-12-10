@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div>
+            <div class="Tiles-4-4-4">
+                <div>
+                    <h2>Infamous Build Errors</h2>
+                    <p>When building output, you might occasionally encounter an error such as the following:</p>
+                    <p class="Emphasis">10086 ID</p>
+                    <p class="Emphasis">build failed object reference not set to an instance of an object</p>
+                    <p>An error such as this can refer to any number of issues, preventing a target from generating successfully. If the description provides enough information (e.g., missing drop-down head), it is easier to pinpoint the cause, fix the problem, and rebuild. Other times the description is not detailed enough to understand the specific issue. </p>
+                    <p>If you continue to receive the error and are unable to resolve it, please contact <a href="http://www.madcapsoftware.com/support/contactoptions.aspx" target="_blank">MadCap Software Technical Support</a>.</p>
+                </div>
+                <div>
+                    <h2>Possible Solution #1</h2>
+                    <p>Often the problem can be something like a memory issue, which can resolve itself after a little time. Therefore, you can try rebuilding the target to see if the error is avoided on the subsequent build.</p>
+                </div>
+                <div>
+                    <h2>Possible Solution #2</h2>
+                    <MadCap:snippetBlock src="../../Troubleshooting/Remove-Files-Locate-Problems.flsnp" />
+                    <MadCap:snippetBlock src="../../Troubleshooting/Remove-Files-Locate-Problems-Steps.flsnp" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have changed your default settings to not automatically include paragraph items within each list item. However, you create a list and decide you want to add some new content between steps.</p>
+            <p>In the structure bars shown to the left of the content, notice that the entire list has an &lt;ol&gt; tag, and each line in the list has an &lt;li&gt; tag.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Paragraph-Item-List1.png" class="MaxWidth90Percent">
+                </img>
+            </p>
+            <p> Each time you press <span class="Emphasis">ENTER</span> after a line, a new &lt;li&gt; tag is created.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide" />
+            <p>You want to add some additional content after step 2, before continuing with step 3. So you right-click that <span class="Emphasis">li</span> tag bar and select <span class="Emphasis">Make Paragraph Item(s)</span>. This turns step 2 into a paragraph item (i.e., a &lt;p&gt; tag is added inside the &lt;li&gt; tag in that line).</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Paragraph-Item-List2.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide" />
+            <p>At the end of step 2, you press <span class="Emphasis">ENTER</span>, creating a new line with a number.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Paragraph-Item-List3.png" class="MaxWidth90Percent" />
+            </p>
+            <p>Then you press <span class="Emphasis">BACKSPACE</span>. Now you see a yellow icon and the number is removed.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Paragraph-Item-List4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide" />
+            <p>So you type the new content.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Paragraph-Item-List5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

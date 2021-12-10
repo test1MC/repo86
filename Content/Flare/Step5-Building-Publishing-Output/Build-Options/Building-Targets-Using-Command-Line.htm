@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Generating and publishing output in various ways using a command line." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Building:targets using command line;Targets:building output;Output:building targets;Command line:building targets;Batch:output;Output:batch" />Building and Publishing Targets Using the Command Line</h1>
+        <MadCap:microContent id="microcontent1">
+            <p><MadCap:variable name="Other.Product" />'s build engine is called “madbuild” and is used when generating and publishing output in various ways from the command line. With this method, you do not have to open <MadCap:variable name="Other.Product" /> at all.</p>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If a destination file is associated with a target, the output will automatically be published to that destination when using a madbuild command.</p>
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Commands and Arguments</h2>
+        <p>To build output from the command line, you need to write commands containing various arguments. The commands always start with the word “madbuild,” followed by the necessary arguments and values.</p>
+        <p>Here are the available arguments associated with madbuild.</p>
+        <table style="width: 100%; mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css'); margin-left: 0; margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">-batch</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter this before the name of the batch target you want to build.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">-centralPassword</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter this before your MadCap Central password if you are publishing a target directly to Central.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">-centralUsername</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter this before your MadCap Central user name if you are publishing a target directly to Central.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">-credentials</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter this before credentials that are added directly in the madbuild command. </p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you do not provide credentials, those from your registry (i.e., those you entered in the Destination Editor) will automatically be used. The -credentials and -credentials-file arguments give you a way to use a different set of credentials than those in your registry.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">-credentials-file</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter this before the path to a credentials (JSON) file, which contains the actual credentials.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">-export</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter this before the path and name of the Flare project file (.flprj) you want to export. See <MadCap:xref href="../../Exporting/Exporting-Projects-Using-Command-Line.htm">Exporting Projects Using the Command Line</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">-project</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter this before the path and name of the Flare project file (.flprj) containing the target(s) you want to build.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">-settings</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter this before the export project file name (.flexp) when exporting a project. See <MadCap:xref href="../../Exporting/Exporting-Projects-Using-Command-Line.htm">Exporting Projects Using the Command Line</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">-target</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Enter this before the name of the Flare target you want to build.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>
+            <MadCap:keyword term="Command line:building all targets" />How to Build All Targets</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Compile-First-Steps.flsnp" />
+        <ol>
+            <li value="3">
+                <p>
+                    <MadCap:keyword term="Madbuild" />Type the following and press <span class="Emphasis">ENTER</span> on your keyboard (entering the path to your project in place of the section in angle brackets):</p>
+                <p class="TypedEntry">madbuild -project [project]</p>
+                <p>A log file is generated and saved automatically at the root level of the output folder for that target, whether or not there are errors or warnings. See <MadCap:xref href="../Other-Activities-Features/Opening-Build-Logs.htm">Opening Build Logs</MadCap:xref>.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Projects/Note-Spaces-Quotation-Marks-Command-Line.flsnp" />
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If you have a <MadCap:variable name="Other.Product" /> project called "FictionSoftPro" that you have stored in a folder of the same name at the root level of the C: drive, you can type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project c:\fictionsoftpro\fictionsoftpro.flprj</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If you have a project called "FictionSoftPro" that you have stored in a folder named "My Projects" (with a space) at the root level of the C: drive, you would type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "c:\my projects\fictionsoftpro.flprj"</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <p>If you are using the command prompt window, the targets in that project generate immediately, and the output files are copied to the Output subfolder in your main project folder. </p>
+                <p>If you are creating a batch file in Notepad, it might look something like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Batch-File1.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>
+            <MadCap:keyword term="Command line:building one target" />How to Build a Specific Target</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Compile-First-Steps.flsnp" />
+        <ol>
+            <li value="3">
+                <p>Type the following and press <span class="Emphasis">ENTER</span> on your keyboard (entering the path to your project and the name of the target in place of the sections in square brackets):</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project [project] -target [target name]</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <p>A log file is generated and saved automatically at the root level of the output folder for that target, whether or not there are errors or warnings. See <MadCap:xref href="../Other-Activities-Features/Opening-Build-Logs.htm">Opening Build Logs</MadCap:xref>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The default location for targets is in the root Targets folder in the Project Organizer. However, you can create subfolders and place different targets in different folders (see <MadCap:xref href="../../Folders-Files/Creating-Subfolders.htm" target="" title="" alt="">Creating Subfolders</MadCap:xref>). If you do this, make sure you include the subfolder name in your command. You can do this by typing the name of the subfolder, followed by a slash, and then the name of the target (i.e., madbuild -project [project] -target [mysubfoldername/mytargetname]).</p>
+                </div>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Projects/Note-Spaces-Quotation-Marks-Command-Line.flsnp" />
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a project called "FictionSoftPro" that you have stored in a folder of the same name at the root level of the C: drive. If you want to build only the target named "Beginner" in that project, you can type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project c:\fictionsoftpro\fictionsoftpro.flprj -target Beginner</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If the project is located in a folder called "my projects" (with a space), you would type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "c:\my projects\fictionsoftpro.flprj" -target Beginner</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If the target is named "Beginner Online Help" (with spaces between words), you would type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "c:\my projects\fictionsoftpro.flprj" -target "Beginner Online Help"</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <p>If you are using the command prompt window, the targets in that project generate immediately, and the output files are copied to the Output subfolder in your main project folder.</p>
+                <p>If you are creating a batch file in Notepad, it might look something like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Batch-File2.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>
+            <MadCap:keyword term="Command line:batch targets;Batch targets:command line" />How to Build a Batch Target</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Compile-First-Steps.flsnp" />
+        <ol>
+            <li value="3">
+                <p>Type the following and press <span class="Emphasis">ENTER</span> on your keyboard (entering the path to your project and the name of the target in place of the sections in angle brackets):</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project [project] -batch [batch target name]</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <p>A log file is generated and saved automatically at the root level of the output folder for that target, whether or not there are errors or warnings. See <MadCap:xref href="../Other-Activities-Features/Opening-Build-Logs.htm">Opening Build Logs</MadCap:xref>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The default location for batch targets is in the root Targets folder in the Project Organizer. However, you can create subfolders and place different batch targets in different folders (see <MadCap:xref href="../../Folders-Files/Creating-Subfolders.htm" target="" title="" alt="">Creating Subfolders</MadCap:xref>). If you do this, make sure you include the subfolder name in your command. You can do this by typing the name of the subfolder, followed by a slash, and then the name of the batch target (i.e., madbuild -project [project] -batch [mysubfoldername/mybatchtargetname]).</p>
+                </div>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Projects/Note-Spaces-Quotation-Marks-Command-Line.flsnp" />
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a project called "FictionsoftPro" that you have stored in a folder of the same name at the root level of the C: drive. If you want to build the batch target named "MyBatchTarget" in that project, you can type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project c:\fictionsoftpro\fictionsoftpro.flprj -batch MyBatchTarget</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If the project is located in a folder called "my projects" (with a space), you would type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "c:\my projects\fictionsoftpro.flprj" -batch MyBatchTarget</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If the batch target is named "My Batch Target" (with spaces between words), you would type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "c:\my projects\fictionsoftpro.flprj" -batch "My Batch Target"</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <p>If you are using the command prompt window, the targets in that project generate immediately, and the output files are copied to the Output subfolder in your main project folder.</p>
+                <p>If you are creating a batch file in Notepad, it might look something like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Batch-File3.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>
+            <MadCap:keyword term="MadCap Central:publishing directly;Publishing:MadCap Central" />How to Publish Directly to MadCap Central</h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Ce-Fl/Central/Publish-Directly-Central-Summary2.flsnp" /> Also, you must be associated with the project on Central and have the “Run/Schedule Builds” permission. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Central/Central-Flare.htm">MadCap Central and Flare</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Compile-First-Steps.flsnp" />
+        <ol>
+            <li value="3">
+                <p>Type the following and press <span class="Emphasis">ENTER</span> on your keyboard (entering the correct information in place of the sections in square brackets):</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project [project] -centralUsername [email address] -centralPassword [password] -target [target]</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Projects/Note-Spaces-Quotation-Marks-Command-Line.flsnp" />
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your email address is bsmith@fictionsoft.com, and your Central password is R!ffraff22. You have a project called "FictionSoftPro" that you have stored in a folder of the same name at the root level of the C: drive. If you want to publish the target named "Beginner" to Central, you can type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project c:\fictionsoftpro\fictionsoftpro.flprj -centralUsername bsmith@fictionsoft.com -centralPassword R!ffraff22 -target Beginner</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If the project is located in a folder called "my projects,” and the target is named "Beginner Online Help" (with spaces between words), you would type this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "c:\my projects\fictionsoftpro.flprj" -centralUsername bsmith@fictionsoft.com -centralPassword R!ffraff22 -target "Beginner Online Help"</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+            </li>
+        </ol>
+        <h2>Passing Credentials in Madbuild</h2>
+        <p>If you are using the command line to publish output from Flare to another location, you can include credentials (i.e., user names, passwords) in your madbuild commands. You can put credential fields directly in a madbuild command, or you can put them in a separate JSON file, which is easier to read. </p>
+        <p>Passing credentials in madbuild can be done for:</p>
+        <ul>
+            <li>
+                <p>FTP</p>
+            </li>
+            <li>
+                <p>MadCap Central</p>
+            </li>
+            <li>
+                <p>Salesforce<span class="Registered-Trademark">®</span></p>
+            </li>
+            <li>
+                <p>ServiceNow<span class="Registered-Trademark">®</span></p>
+            </li>
+            <li>
+                <p>SFTP</p>
+            </li>
+            <li>
+                <p>Zendesk</p>
+            </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If a destination file is associated with a target, the output will automatically be published to that destination when using a madbuild command.</p>
+        </div>
+        <div class="IndentMedium">
+            <h3>Credential Fields</h3>
+            <p>Here are the supported credential fields.</p>
+            <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 25%;">
+                </col>
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 75%;">
+                </col>
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">username</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">The user name for basic authentication.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">password</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">The password for basic authentication.</p>
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For Salesforce<span class="Registered-Trademark">®</span>, the password is that you use in a command is actually the password plus the token appended at the end of it. You can generate the token in Salesforce<span class="Registered-Trademark">®</span> from <span class="Emphasis">My Settings &gt; Personal &gt; Reset My Security Token</span>.</p>
+                            </div>
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For Zendesk, "Password Access" needs to be enabled from API settings in Zendesk in order for it to work.</p>
+                                <p>Also, with Zendesk you have the option of using a token only, as opposed to using the username and password. For more details on this, see the following:</p>
+                                <p><a href="https://support.zendesk.com/hc/en-us/articles/203663836-Using-OAuth-authentication-with-your-application" target="_blank">https://support.zendesk.com/hc/en-us/articles/203663836-Using-OAuth-authentication-with-your-application</a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="General.Future">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">token</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">The token for OAuth authentication. This is used for publishing to Salesforce<span class="Registered-Trademark">®</span> or Zendesk.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="General.Future">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">cert</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">The certificate for SSL authentication. This refers to the hosts file for SFTP&#160;destinations.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="General.Future">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextEmphasis">pubcert</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                            <p class="TableText">The public certificate for SSL authentication. This refers to the hosts file for SFTP&#160;destinations.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Credential URL Formats</h3>
+            <p>Here are the formats for including credential fields, depending on the type of destination. </p>
+            <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 25%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 75%;" />
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">FTP and SFTP</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">https://[hosturl]/[directory]</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This is the same as what you enter in the Host Name and Directory fields in the Destination Editor.</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">MadCap Central</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">https://portal.madcapcentral.com/</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Salesforce<span class="Registered-Trademark">®</span></p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p>If your are publishing to a regular Salesforce<span class="Registered-Trademark">®</span> instance:</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">https://login.salesforce.com/services/oauth2/authorize</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                            <p>If you are publishing to a sandbox Salesforce<span class="Registered-Trademark">®</span> instance: </p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">https://test.salesforce.com/services/oauth2/authorize</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">ServiceNow<span class="Registered-Trademark">®</span></p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">https://[instance].service-now.com/oauth_token.do</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextEmphasis">Zendesk</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">https://[subdomain].zendesk.com/oauth/authorizations/new</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Passing Credentials in Madbuild Command</h3>
+            <p>In this case, you put the credentials directly into your madbuild command.</p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton>
+                </MadCap:codeSnippetCopyButton>
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\MyProjectFolder\MyProject.flprj" -target "MyTargetName" 
+-credentials  "{\"https://url.com/dir\": {\"username\":\"myusername\", \"password\": 
+\"mypassword\"}, \"https://anotherurl.com/dir\": {\"username\":\"myusername\", 
+\"password\":\"mypassword\"} }"</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <h4 MadCap:conditions="General.Future">Pubcert, Git</h4>
+            <MadCap:codeSnippet MadCap:conditions="General.Future">
+                <MadCap:codeSnippetCopyButton>
+                </MadCap:codeSnippetCopyButton>
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\MyProjectFolder\MyProject.flprj" -target "MyTargetName" 
+-credentials  "{\"C:\\MyFolder\\MySubfolder\\.git/C:\\MyFolder\\MySubfolder\":
+{\"cert\":\"C:\\Users\\My Name\\.ssh\\id_rsa\",\"pubcert\":\"C:\\Users\\
+My Name\\.ssh\\id_rsa.pub\"}}"</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <div class="note" MadCap:conditions="General.Future">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you wanted to use cert instead of pubcert, you would just enter it at that same location.</p>
+            </div>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– FTP</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton>
+                    </MadCap:codeSnippetCopyButton>
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials  "{\"https://docs.fictionsoft.com/flareoutputs/helpsystem\": 
+{\"username\":\"ldobler\", \"password\": \"sayanything\"} }"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– MadCap Central</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton>
+                    </MadCap:codeSnippetCopyButton>
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials  "{\"https://portal.madcapcentral.com/\": 
+{\"username\":\"breynolds@fictionsoft.com\", \"password\": \"Bandit77!\"} }"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– Salesforce<span class="Registered-Trademark">®</span></p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton>
+                    </MadCap:codeSnippetCopyButton>
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials  "{\"https://login.salesforce.com/services/oauth2/authorize\": 
+{\"username\":\"pete@fictionsoft.com\", \"password\": 
+\"HeDoneRunnoft!Fj4bGioaIWS9OPakVCedIjk2\"} }"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– ServiceNow<span class="Registered-Trademark">®</span></p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton>
+                    </MadCap:codeSnippetCopyButton>
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials  "{\"https://docs52164.service-now.com/oauth_token.do\": 
+{\"username\":\"steve.zissou\", \"password\": \"CompanyBondStooge!\"} }"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– SFTP</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton>
+                    </MadCap:codeSnippetCopyButton>
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials  "{\"https://myappserver05:0101/flareoutputs/helpsystem\": 
+{\"username\":\"jlebowski\", \"password\": \"thedudeabides\"} }"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+            <div class="example" MadCap:conditions="General.Future">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– Source Control (Local Git Repository)</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton>
+                    </MadCap:codeSnippetCopyButton>
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials  "{\"https://github.com/mystuff/myflareoutput.git/C:\\MyProjects\\github1\": 
+{\"username\":\"HIMcDunnough\", \"password\": \"OkayThen!\"} }"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– Zendesk</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton>
+                    </MadCap:codeSnippetCopyButton>
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials  "{\"https://docs-fictionsoft.zendesk.com/oauth/authorizations/new\": 
+{\"username\":\"westley@fictionsoft.com\", \"password\": \"AsYouWish!\"} }"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– Multiple Destinations (FTP&#160;and Salesforce<span class="Registered-Trademark">®</span>)</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials  "{\"https://docs.fictionsoft.com/flareoutputs/helpsystem\": 
+{\"username\":\"ldobler\", \"password\": \"sayanything\"}, 
+\"https://login.salesforce.com/services/oauth2/authorize\": 
+{\"username\":\"pete@fictionsoft.com\", \"password\": 
+\"HeDoneRunnoft!Fj4bGioaIWS9OPakVCedIjk2\"} }"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+            <h3>Passing Credentials in a JSON File</h3>
+            <p>In this case, you put the credentials into a JSON&#160;file. Then, in your madbuild command, you point to that file.</p>
+            <p>One of the benefits of placing commands in a JSON file is that it is easier to include (and read) multiple sets of URLs and credential information in one place if you have that need.</p>
+            <div class="IndentMedium">
+                <h4>JSON File</h4>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">{
+	"https://url.com/dir" : {
+	 "username": "myusername",
+	 "password": "mypassword"
+	},
+	
+	"https://anotherurl/dir": {
+	 "username": "myusername",
+	 "password": "mypassword"
+	}
+}</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <h4>Madbuild Command</h4>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\MyProjectFolder\MyProject.flprj" -target "MyTargetName" 
+-credentials-file "C:\MyCredentialsFolder\MyCredentialsFile.json"</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Multiple Destinations</p>
+                    <p>You create a file named "DestinationCredentials.json" and save it in a folder called "My-JSON-Files," at your root C: drive. In the DestinationCredentials.json file, you create commands for the different kinds of destinations (FTP, Salesforce<span class="Registered-Trademark">®</span>, ServiceNow<span class="Registered-Trademark">®</span>, SFTP, Zendesk) that can be associated with one or more projects and targets. The JSON file looks like this.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">{
+  "https://docs.fictionsoft.com/flareoutputs/helpsystem" : {
+  "username": "ldober",
+  "password": "sayanything"
+ },
+ 
+ "https://portal.madcapcentral.com/" : {
+ "username": "breynolds@fictionsoft.com",
+ "password": "Bandit77!"
+ },
+  
+  "https://login.salesforce.com/services/oauth2/authorize" : {
+  "username": "pete@fictionsoft.com",
+  "password": "HeDoneRunnoft!Fj4bGioaIWS9OPakVCedIjk2"
+ },
+  
+  "https://docs52164.service-now.com/oauth_token.do" : {
+  "username": "steve.zissou",
+  "password": "CompanyBondStooge!"
+ },
+ 
+  "https://myappserver05:0101/flareoutputs/helpsystem" : {
+  "username": "jlebowski",
+  "password": "thedudeabides"
+ },
+ 
+  "https://docs-fictionsoft.zendesk.com/oauth/authorizations/new" : {
+  "username": "westley@fictionsoft.com",
+  "password": "AsYouWish!"
+ }
+}</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>Then, you create a madbuild command like this:</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "C:\CoolProject\CoolProject.flprj" -target "HelpSystem" 
+-credentials-file "C:\My-JSON-Files\DestinationCredentials.json"</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>When you run this command the output is generated for the "HelpSystem" target, and the output files are copied and placed in each of the locations specified in the JSON file.</p>
+                </div>
+            </div>
+        </div>
+        <h2>Batch Files and Task Scheduler</h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Scheduled-Task.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Scheduled-Task-Steps.flsnp" />
+        <h2>ERRORLEVEL Global Variable</h2>
+        <p>If you generate output using the command line, <MadCap:variable name="Other.Product" /> sends a value to the command line's ERRORLEVEL global variable. This value indicates the success, or lack of success, of the compilation and/or publishing process. To see this value, type ECHO %ERRORLEVEL% at the command prompt after the compilation finishes. Only one value can be shown at a time.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Output/Command-Line-Error-Level.png" class="MaxWidth100Percent" />
+        </p>
+        <div class="warning">
+            <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">For more details on a particular error code, please refer to the log file that is generated. See <MadCap:xref href="../Other-Activities-Features/Opening-Build-Logs.htm">Opening Build Logs</MadCap:xref>.</p>
+        </div>
+        <p>Codes listed below in <span class="BoldWarning">red</span> indicate that the output did not compile at all. For the other codes, there may be issues (e.g., missing linked file), but the output is still able to finish compiling. </p>
+        <div class="IndentMedium">
+            <h3>Common Codes</h3>
+            <ul style="list-style-type: square;">
+                <li>0  = Success - No problems</li>
+                <li>
+                    <p class="TableTextRedBold">1  = One or more Target Builds failed – One or more of the targets failed to compile</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2  = One or more Publish Targets failed – One or more of the targets failed to compile</p>
+                </li>
+                <li>3  = Build completed with compiler warnings</li>
+                <li>4  = Compiler reported errors</li>
+                <li>5  = Failed to process one or more project import files</li>
+                <li>6  = Failed to load topic</li>
+                <li>7  = Missing linked file</li>
+            </ul>
+            <h3>Other Codes</h3>
+            <ul style="list-style-type: square;">
+                <li>
+                    <p class="TableTextRedBold">-1 = Application error – Something critical has forced <MadCap:variable name="Other.Product" /> to close</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">1000 = Zero arguments passed in</p>
+                </li>
+                <li>1001 = Show Help</li>
+                <li>
+                    <p class="TableTextRedBold">2000 = Unlicensed <MadCap:variable name="Other.Product" /></p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2001 =  <MadCap:variable name="Other.Product" /> not activated</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2002 = Invalid license activation code</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2003 = License expired</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2004 = Evaluation expired</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2005 = Trial expired</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2006 = Project does not exist</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2007 = Batch file does not exist</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2008 = Floating session request failed</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2009 = Floating session timeout</p>
+                </li>
+                <li>
+                    <p class="TableTextRedBold">2010 = Target not found</p>
+                </li>
+            </ul>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Mi/Output/Warning-Build-Errors-AV-Scan.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Output/Tip-Command-Line-Quotation-Marks.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After you build targets using the command line, you can do the following:</p>
+        <ul MadCap:conditions="General.Online-Only">
+            <li>
+                <MadCap:xref href="../Other-Activities-Features/Viewing-Output.htm">Viewing Output</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../Other-Activities-Features/Testing-Output.htm">Testing Output</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are working<MadCap:conditionalText MadCap:conditions="Products.Flare"> in a topic</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Contributor"> on a document in a review package</MadCap:conditionalText> where you need to apply a span style class to several words to change the text to blue. You highlight the first word and apply that style class using the Styles window pane. But instead of following those same steps to format all the other words, you use the repeat shortcut. You highlight the next word that needs to be blue and press <span class="Emphasis">F8</span>. The blue span style class is applied to that word. You highlight the next word and press <span class="Emphasis">F8</span> again. Once more, the blue span style class is applied. You continue doing this until all the appropriate words have that style class applied.</p>
+            <p MadCap:conditions="Products.Flare">Next, you realize that you need to turn several paragraphs in the topic into drop-downs. So you select the first group of relevant paragraphs and select <span class="Emphasis">Insert &gt; Drop-Town Text</span> to create a drop-down effect. You highlight the next group of relevant paragraphs, but instead of using the option in the Insert ribbon again, you press <span class="Emphasis">F8</span>. The drop-down effect is applied to those paragraphs. You continue to use the F8 shortcut until all the necessary content in the topic is turned into drop-downs.</p>
+        </div>
+    </body>
+</html>

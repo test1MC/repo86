@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Lingo/User-Guides-Videos/Lingo-Creating-TM.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Understanding the different statuses and matches used for translation memory segments in MadCap&#160;Lingo." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Translation memory:statuses and matches" />Statuses and Matches</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/Statuses-Matches-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2 MadCap:conditions="General.Online-Only">Table of Statuses and Matches</h2>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 40%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Name</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Default Color</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Definition</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Percentage Shown in Status Column</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Percentage Shown in TM Suggestions Tab</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Context Match</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../Resources/Images/Lingo/Translation-Memory/Color-Context-Match.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <MadCap:microContent id="microcontent1">
+                            <div>
+                                <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Micro-Content-Toolbars/User-Guides-Videos/Translation.flsnp" />
+                                <p>A context match is a segment that exactly matches a translation in TM, where its context (the segment before or after) is also an exact match.</p>
+                                <p>A context match gives you an additional level of confidence in the matching translation and therefore displays it as a 101% match. Context matches can be especially useful for those who translate files with recurring sentences and paragraphs (e.g., legal documents) and want to make sure the same section is translated just as they did it in another file.</p>
+                                <p>As soon as you accept a translated segment, it is considered a context (101%) match, because <MadCap:variable name="Other.Product" /> not only adds it to TM, but it also immediately saves the context separately.</p>
+                                <p>The contexts of the segments are also imported or exported when you import or export TMX&#160;files.</p>
+                            </div>
+                        </MadCap:microContent>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">101% if segment was added to TM <span class="EmphasisItalic">before</span> project was created</p>
+                        <p class="TableText">Original percentage (e.g., 0%, 81%, 100%) if segment was added to TM <span class="EmphasisItalic">after</span> project was created</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">101%</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Exact Match</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../Resources/Images/Lingo/Translation-Memory/Color-Exact-Match.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <MadCap:microContent id="microcontent2">
+                            <div>
+                                <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Micro-Content-Toolbars/User-Guides-Videos/Translation.flsnp" />
+                                <p class="TableText">An exact match is a segment that exactly matches a translation in TM, without regard to its context. </p>
+                            </div>
+                        </MadCap:microContent>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">100%</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">100% <span class="EmphasisItalic">before</span> you accept segment</p>
+                        <p class="TableText">100% or 101% <span class="EmphasisItalic">after</span> you accept segment</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Repetition</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../Resources/Images/Lingo/Translation-Memory/Color-Repetition.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <MadCap:microContent id="microcontent3">
+                            <div>
+                                <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Micro-Content-Toolbars/User-Guides-Videos/Translation.flsnp" />
+                                <p class="TableText">Repetition refers to an identical segment to a previous one in the same file, where a translation for the segment has already been uploaded to TM.</p>
+                            </div>
+                        </MadCap:microContent>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">100%</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">100% <span class="EmphasisItalic">before </span>you accept segment</p>
+                        <p class="TableText">101% <span class="EmphasisItalic">after</span> you accept segment</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Context Repetition</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../Resources/Images/Lingo/Translation-Memory/Color-Context-Match.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <MadCap:microContent id="microcontent4">
+                            <div>
+                                <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Micro-Content-Toolbars/User-Guides-Videos/Translation.flsnp" />
+                                <p class="TableText">Context repetition refers to a segment that is a combination of a context match and a repetition. It functions just like a regular repetition, except the match in TM also has context (i.e., the segment before or after it is also an exact match).</p>
+                            </div>
+                        </MadCap:microContent>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">101%</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">101%</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Fuzzy Match</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../Resources/Images/Lingo/Translation-Memory/Color-Fuzzy-Match.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <MadCap:microContent id="microcontent5">
+                            <div>
+                                <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Micro-Content-Toolbars/User-Guides-Videos/Translation.flsnp" />
+                                <p class="TableText">A fuzzy match is a segment that matches a translation in TM, but it is less than an exact match. In the Options dialog, the default setting is to show matches in the Translation Editor if they are at least 50%, but you can increase or decrease this percentage. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Other-Activities/Setting-Match-Options-Suggestions.htm">Setting Match Options for Suggestions</MadCap:xref>.</MadCap:conditionalText></p>
+                            </div>
+                        </MadCap:microContent>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Initially 0%, then less than 100% (e.g., 73%) once you select it for that segment</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p>Less than 100% (e.g., 73%) <span class="EmphasisItalic">before</span> you accept segment</p>
+                        <p>101% (and perhaps other matches less than 100%) <span class="EmphasisItalic">after</span> you accept segment</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Confirmed</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../Resources/Images/Lingo/Translation-Memory/Color-Accepted.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Confirmed refers to a segment where a translation has been entered and confirmed, thus sending that translation to TM if necessary.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Original percentage (e.g., 101%, 100%, 73%, 0%)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p>101% (and perhaps other matches)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Machine Translated</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextCenter">
+                            <img src="../../../Resources/Images/Lingo/Translation-Memory/Color-Machine-Translation.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <div>
+                            <p class="TableText">Machine translated is a segment that was supplied by a machine translation provider. Machine translated segments do not register as TM suggestions, and therefore do not show a percentage match in the Status column. </p>
+                            <p class="TableText">However, if you accept the machine translated suggestion, it is confirmed and added to the TM. If you use the suggestion again later—as a TM&#160;suggestion and not as an MT suggestion—it will show a TM&#160;status and percentage (e.g. context match, exact match).</p>
+                            <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Machine-Translation/Process/Translating-Projects-Machine-Translation.htm">Translating Projects with Machine Translation</MadCap:xref>.</p>
+                        </div>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">0%</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">0%</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+        <h2 MadCap:conditions="General.Online-Only">Examples</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/Examples-Status-Matches.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Formatting and punctuation differences might cause an exact text match to result in something less than 101% or 100% (e.g., because some words in the segment are in bold, it might be considered a 95% match instead).</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can change the color for any of the statuses via the Options dialog. See <MadCap:xref href="../Other-Activities/Changing-Segment-Status-Colors.htm">Changing Segment Status Colors</MadCap:xref>.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+    </body>
+</html>

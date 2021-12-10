@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Git.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control:pull;Source control:remote repository;Pull" />Pulling Files From a Remote Repository<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Git</MadCap:conditionalText></h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Update-Files-In-Database-Do-Pull.flsnp" />
+        <h2>How to Pull Files From a Remote Repository</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Pull</b>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>In the File List, right-click any file and select <span class="Emphasis">Source Control &gt; Project &gt; Pull</span>.</li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Local Toolbar </span>In the local toolbar of the File List, click <img src="../../../../Resources/Images/Shared/Ce-Fl-Li/Interface/Buttons/Source-Control-btn.png" />, then select <span class="Emphasis">Project &gt; Pull</span>. </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>(Optional) If you did not commit your files before starting the pull, a dialog asks if you want to commit your files. Click <span class="Emphasis">Yes</span> to continue. See <MadCap:xref href="Committing-Source-Control-Files-Git.htm">Committing Source Control Files—Git</MadCap:xref>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You must commit <span class="EmphasisItalic">all</span> modified files to proceed with the pull.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Select-Remote-Pull-Dialog-Opens.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Git" />
+            <li>
+                <p>(Optional) To add or remove a remote repository, click <img src="../../../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. The Remote Repositories dialog opens. </p>
+                <p class="Subheading">To Add a Remote Repository</p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Add-Remote-Repository.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                <p class="Subheading">To Remove a Remote Repository</p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Remove-Remote-Respository.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+            </li>
+            <li>In the Select Remote for Pull dialog, click <span class="Emphasis">OK</span>. <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Login-Dialog-Simple.flsnp" /></li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/If-Remote-Local-Files-Same.flsnp" />
+                <p>If a remote file is different from the version in your local database, the Resolve Conflicts dialog opens. If you want to accept all of the differences between the remote and local files, thus merging them, click <span class="Emphasis">Auto Merge All</span>. If you want to review the differences in the files side by side and resolve each conflict, click <span class="Emphasis">Resolve</span>. For more information about merging files and resolving conflicts, see <MadCap:xref href="Merging-Source-Control-Files-Git.htm">Merging Source Control Files—Git</MadCap:xref>.</p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Git" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Cloud-Forge-Git-Error.flsnp" />
+    </body>
+</html>

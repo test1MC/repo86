@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1126" MadCap:lastWidth="1511">
+    <body>
+        <p>You can use three different methods to display information that is initially not displayed in your output:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Expanded Text </span>This displays content immediately after a selected link.</li>
+            <li><span class="SetOffFirstLevel">Drop-Down Text </span>This displays content under a selected link.</li>
+            <li><span class="SetOffFirstLevel">Popup Text </span>This displays content in a popup window when the link is selected.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create Expanded, Drop-Down, or Popup Text</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Word source document, select the text you want to use as the link to open the hidden content.</li>
+                    <li>In the <span class="Emphasis">Doc-To-Help</span> ribbon, click the <span class="Emphasis">Inline Text</span> button. The Inline text dialog opens. The link text is displayed in the Selection area.</li>
+                    <li>In the <span class="Emphasis">Text</span> box, enter the text to be displayed when the link is clicked in the output.</li>
+                    <li>In the <span class="Emphasis">Options</span> section, choose one of the following, depending on the kind of feature you want to create:<ul><li><span class="SetOffFirstLevel">Expand text inline</span></li><li><span class="SetOffFirstLevel">Dropdown text</span></li><li><span class="SetOffFirstLevel">Show text in a popup</span></li></ul></li>
+                    <li>(Optional) If you would like the effect to be indicated as a comment in the source Word document, select <span class="Emphasis">Text in comment</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                    <li>Doc-To-Help displays a message box informing you that this is an invisible style (meaning the expanded, drop-down, or popup text added will be not be displayed in the Word source document—or in the output until the link is clicked). Since that is acceptable, click <span class="Emphasis">No</span> to close the message box.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> If you’d like to make this information visible, see <MadCap:xref href="../../../../../D2H/Styles/Showing-Hidden-Hotspots.htm">Showing Hidden Hotspots</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> If you’d like to make this information visible, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Styles/Showing-Hidden-Hotspots.htm">Showing Hidden Hotspots</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content"> If you’d like to make this information visible, see the online Help or the <span class="EmphasisItalic">Design Guide</span>.</MadCap:conditionalText></li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note"> In EPUB outputs, expanding and drop-down text may be displayed or hidden. The option you prefer can be set in the Help Targets dialog using the <span class="Emphasis">Show expanding text</span> and <span class="Emphasis">Show dropdown text</span> check boxes.</p>
+                <p class="note">It is also possible to create expanding/collapsing sections in HTML Help, NetHelp, Microsoft Help Viewer, and Help 2.0 targets.<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Nav-Links/Creating-Expanding-Collapsing-Section.htm">Creating Expanding/Collapsing Sections</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Creating-Expanding-Collapsing-Section.htm">Creating Expanding/Collapsing Sections</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

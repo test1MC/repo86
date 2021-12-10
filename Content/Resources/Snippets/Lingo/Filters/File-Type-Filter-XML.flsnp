@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li MadCap:conditions="Snippets.Snippet5">
+                <MadCap:snippetText src="Create-Project-Step-Filters.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet3] exclude[Snippets.Snippet1 or Snippets.Snippet2] " />
+            </li>
+            <li>From the <span class="Emphasis">Filter</span> drop-down, select <span class="Emphasis">Create New</span>.</li>
+            <li>
+                <MadCap:snippetText src="Enter-Name-Filter.flsnp" />
+            </li>
+            <li>(Optional) <MadCap:snippetText src="Existing-Filter.flsnp" /></li>
+            <MadCap:snippetBlock src="Filter-Options.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Getting-Started-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+            <li>
+                <p>(Optional) If you want to associate a DTD or XML&#160;schema with the XML file, click <span class="Emphasis"> <img src="../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /></span>. In the dialog that opens, locate the schema or DTD file you want to use, then click <span class="Emphasis">Open</span>.</p>
+                <p>
+                    <img src="../../../Images/Lingo/Filters/Filters-Select-Schema.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Getting-Started-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+            <li>
+                <p>In the <span class="Emphasis">Candidate Tags</span> section, select the tags from XML&#160;file that you want to translate. If a tag can be translated, it will be checked in the <span class="Emphasis">Translatable</span> column. If you do not want to translate a tag, remove the check mark from this column.</p>
+                <p>
+                    <img src="../../../Images/Lingo/Filters/XML-Filter2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>You might want to translate tags that are words, but tags that consist of all numbers might not be good candidates for translation. Suppose you have an XML file that includes tags named “price” and “pub_date,” which are used to display numbers only. So you create a new filter called “No Numbers” and you remove the check mark from the <span class="Emphasis">Translatable</span> column for these tags.</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Filters/XML-Filter3.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                    <p>Therefore, those tags will not be included in the project. </p>
+                </div>
+            </li>
+            <li>In the <span class="Emphasis">Add Tag</span> field, enter any additional tags you want to add to the XML&#160;file. These tags do not need to be in the XML&#160;file at this time, but if you know that they may be in the file in the future, you can add them here. Enter a name for the tag, then click <img src="../../../Images/Shared/Fl-Li/Interface/Buttons/Plus-btn.png" class="ReduceButtonSize" /> to add the tag. If you want to remove a tag, select it from the list, then click <img src="../../../Images/Lingo/Interface/Buttons/Remove-btn.png" class="ReduceButtonSize" />.</li>
+            <li>
+                <p>In the <span class="Emphasis">Candidate Attributes</span> section, select the attributes from XML&#160;file that you want to translate. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If a tag does not have any attributes, nothing displays in this section. If you do not see any attributes in the Candidate Attributes section, try selecting a different tag.</p>
+                </div>
+                <p>
+                    <img src="../../../Images/Lingo/Filters/XML-Filter1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>If you want to translate an attribute, select the check box in the <span class="Emphasis">Translatable</span> column. If you do not want to translate an attribute, remove the check mark from this column.</li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+            <li>In the <span class="Emphasis">Add Attribute</span> field, enter any additional attributes you want to associate with a tag. These attributes do not need to be in the XML&#160;file at this time, but if you know that they may be in the file in the future, you can add them here. Enter the name for the attribute, then click <img src="../../../Images/Shared/Fl-Li/Interface/Buttons/Plus-btn.png" class="ReduceButtonSize" /> to add the attribute. If you want to remove an attribute, select it from the list, then click <img src="../../../Images/Lingo/Interface/Buttons/Remove-btn.png" class="ReduceButtonSize" />.</li>
+            <li>
+                <p>(Optional) <MadCap:snippetText src="Restrictions-Summary.flsnp" /></p>
+                <p>
+                    <img src="../../../Images/Lingo/Interface/Dialogs/Filters-Attribute-Restriction1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Lingo-Guides.Lingo-Getting-Started-Guide" />
+                <p class="Subheading">to Add a Restriction to an XML&#160;Attribute</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="Attribute-Restriction1.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="Attribute-Restriction2.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="Attribute-Restriction3.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The restriction appears in the File Filters dialog.</p>
+                        <p>
+                            <img src="../../../Images/Lingo/Interface/Dialogs/Filters-Attribute-Restriction2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                </ol>
+                <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Lingo-Guides.Lingo-Getting-Started-Guide" />
+                <p class="Subheading">to Remove a Restriction from an XML Attribute</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                                In the <span class="Emphasis">Candidate Attributes</span> area of the File Filters dialog, select the attribute with a restriction.</li>
+                    <li>
+                        <MadCap:snippetText src="Attribute-Restriction1.flsnp" />
+                    </li>
+                    <li>
+                                    Click <span class="Emphasis">Clear Restriction</span>.
+                                </li>
+                </ol>
+            </li>
+            <li>
+               Click <span class="Emphasis">OK</span>.
+            </li>
+        </ol>
+    </body>
+</html>

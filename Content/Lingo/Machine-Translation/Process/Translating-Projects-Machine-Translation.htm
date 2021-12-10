@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Lingo/User-Guides-Videos/Lingo-Translation.flmsp');">
+    <head><title></title>
+        <meta name="description" content="Steps for choosing the TM&#160;(Translation Memory)&#160;database to use with a translation project." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="MT" />
+            <MadCap:keyword term="Machine Translation" />
+            <MadCap:concept term="FilterFeatures" />Translating Projects with Machine Translation</h1>
+        <p>After you have selected a machine translation provider for your project, you can automatically apply machine translation (MT)&#160;suggestions to segments in a project. In other words, the target cell in the Translation Editor will be populated with the translation from your machine translation provider. This does not mean the translation is completed. You still need to confirm each one. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Choosing-Machine-Translation-Provider.htm">Choosing a Machine Translation Provider</MadCap:xref> and <MadCap:xref href="../Machine-Translation.htm">About Machine Translation</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>You can apply MT suggestions at the project or segment level.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+        <h2>How to Apply MT Suggestions to an Entire Project—During Process of Creating Project</h2>
+        <ol>
+            <li>Begin the process of creating a project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Projects/Creating-Projects.htm">Creating New Projects</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>On the third page of the wizard, select the translation memory.</li>
+            <li>
+                <p>From the <span class="Emphasis">Select Machine Translation Providers</span> drop-down, select the provider you want to use. You can only select one provider when applying MT suggestions to the entire project. You may have to click off of the drop-down after making your selection.</p>
+                <p>If you have not yet entered credentials for the machine translation provider in the Options dialog (see <MadCap:xref href="Setting-Machine-Translation-Options.htm">Setting Machine Translation Options</MadCap:xref>), an additional dialog opens where you can provide your authentication information.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Pre-translate options</span> drop-down, select <span class="Emphasis">Pre-translate with TM then MT</span>. This will apply  matches from the translation memory to segments in the project, then apply machine translation to any segments that are not translated.</p>
+                <p>
+                    <img src="../../../Resources/Images/Lingo/Machine-Translation/Apply-Suggestions2.png" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Example-Pretranslate-MT.flsnp" />
+            </li>
+            <li>Finish the steps for creating the project.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+        <h2>How to Apply MT Suggestions to an Entire Project—After Project is Created</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Machine-Translation/MT-Apply-Suggestionsto-Project.flsnp" />
+        <h2>How to Apply MT Suggestions to Segments</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Machine-Translation/MT-Apply-Suggestions-Segment.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Machine-Translation/Confirm-MT-Suggestion.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Machine-Translation/Segments-Vs-Project-MT.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1]" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Machine-Translation/MT-Only-Applied.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/Xliff-Alternate-TM-Source.flsnp" />
+    </body>
+</html>

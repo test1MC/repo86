@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Launch <MadCap:variable name="Other.Product" />.</li>
+            <li>Select <span class="Emphasis">File &gt; Options</span>. The Options dialog opens.</li>
+            <li>Select the <span class="Emphasis">Plugins </span>tab. You should see a row that represents your DLL.</li>
+            <li>
+                <p>Click <span class="Emphasis">Enable</span>.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../Images/Flare/Plug-In-API/Plug-In2.png" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Plug-In-API/Note-Plug-In-API.flsnp" />
+            </li>
+            <li>Restart <MadCap:variable name="Other.Product" />.</li>
+        </ol>
+    </body>
+</html>

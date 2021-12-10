@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>In the Project Organizer, right-click on the <span class="Emphasis">Variables</span> folder and from the context menu select <span class="Emphasis">Add Variable Set</span>.</li>
+            <li>In the <span class="Emphasis">File Type</span> field at the top, make sure <span class="Emphasis">Variable Set</span> is selected.</li>
+            <li>
+                <MadCap:snippetText src="../Templates/In-Source-Area-Template1.flsnp" />
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../Templates/Template-Options1.flsnp" />
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../General/Select-Subfolder-Project-Organizer1.flsnp" />
+            </li>
+            <li>In the <span class="Emphasis">File Name</span> field, type a new name for the variable set.</li>
+            <li>(Optional) <MadCap:snippetText src="../Conditions/Select-Relevant-Condition-Tags.flsnp" /><MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>(Optional) <MadCap:snippetText src="../File-Tagging/Select-Relevant-File-Tags.flsnp" /><MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/File-Tagging/Associating-Tags-Files1.htm">Associating Tags with Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Click <span class="Emphasis">Add</span>. The variable set is added to the Variables folder in the Project Organizer. The Variable Set Editor opens to the right, with the variable entries shown.</li>
+        </ol>
+    </body>
+</html>

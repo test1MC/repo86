@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>NetHelp, Doc-To-Help’s browser-independent Help format, supports context-sensitive Help that can be used many ways: on web pages, in web applications, and in client applications on any platform written in any programming language. You can show NetHelp topics in a frame inside your application window or in a separate browser window. You also have control over what parts of the Help system you want to expose to the user. You can show topic text without navigational frames, or you may want to include full NetHelp navigation with the Contents, Index, and Search tabs. </p>
+        <p>NetHelp context-sensitive Help uses the same context IDs assigned to topics in your project as do the HTML Help targets.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/CSH/CSH.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/About-CSH-D2H.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-CSH-Guide">ShowHelp Function</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>ShowHelp Function</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To call NetHelp from your application or web pages, use one of the D2H_ctxt.* source files provided with Doc-To-Help; they define the ShowHelp function needed to enable context-sensitive Help . </p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The D2H_ctxt.* files are installed by default in the <MadCap:snippetText src="../../Projects/D2H-Path.flsnp" />Context-Sensitive Help folder.</p>
+                <p>Unless you need to change the functionality, do not modify the D2H_ctxt.* file. Simply add it to your application or web pages as it is. It is necessary to call the ShowHelp function in all environments. This function is all you need to enable context-sensitive NetHelp. It is implemented in different programming languages for different environments:</p>
+                <table border="0" style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 40%;" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Application</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Language</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">File</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">For More Information…</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Web applications and web pages</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">JavaScript </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">D2H_ctxt.js</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText" MadCap:conditions="Snippets.Snippet1">
+                                    <MadCap:xref href="../../../../../D2H/CSH/NetHelp/Function-ShowHelp-JavaScript-Web-Apps-Web-Pages.htm">Function ShowHelp in JavaScript Web Applications and Web Pages</MadCap:xref>
+                                </p>
+                                <p class="TableText" MadCap:conditions="Snippets.Snippet2">
+                                    <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/Function-ShowHelp- JavaScript-Web-Apps-Web-Pages.htm">Function ShowHelp in JavaScript (Web Applications and Web Pages)</MadCap:xref>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td rowspan="2" class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Windows client applications</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">C#</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">D2H_ctxt.cs</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows" rowspan="2">
+                                <p class="TableText" MadCap:conditions="Snippets.Snippet1">
+                                    <MadCap:xref href="../../../../../D2H/CSH/NetHelp/Function-ShowHelp-Windows-Client-Apps.htm">Function ShowHelp in Windows Client Applications</MadCap:xref>
+                                </p>
+                                <p class="TableText" MadCap:conditions="Snippets.Snippet2">
+                                    <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/Function-ShowHelp-Windows-Client-Apps.htm">Function ShowHelp in Windows Client Applications</MadCap:xref>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">VB.NET</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">D2H_ctxt.vb</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-CSH-Guide">Samples</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Samples</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Samples demonstrating how to use context-sensitive Help with NetHelp in each of these environments can be found in the <MadCap:snippetText src="../../Projects/D2H-Path.flsnp" />Context-Sensitive Help\Samples directory. For each sample, start by opening the files below, then run the program, if necessary, and follow the instructions listed on the page:</p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">CSharp </span>CSharp.csproj</p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">VB.NET </span>VB.NET.vbproj</p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">WebPages </span>index.html</p>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-CSH-Guide">NetHelp-supported Parameters</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>NetHelp-supported Parameters</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If your programming language is not listed above, you can still use NetHelp context-sensitive Help if you translate the code of the D2H_ShowHelp function to the language you are using. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/CSH/NetHelp/NetHelp-Supported-Parameters.htm">NetHelp-supported Parameters</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/NetHelp-Supported-Parameters-How-to-Use-Them.htm">NetHelp-Supported Parameters</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

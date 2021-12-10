@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="339" MadCap:lastWidth="1476">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:conditions="">If you use CloudForge Git as your remote repository, it may give you an incorrect URL. If you enter the incorrect URL&#160;in when binding your project, you will receive an error when you push or pull. </p>
+            <p MadCap:conditions="">To correct this error, change the URL&#160;from this format…</p>
+            <p class="Small">https://username@madcapsoftware.git.cloudforge.com/yourproject.git</p>
+            <p MadCap:conditions="">…to this format…</p>
+            <p class="Small">https://madcapsoftware.git.cloudforge.com/yourproject.git</p>
+            <p MadCap:conditions="">Removing the username@ section from the URL&#160;allows it to work properly when performing a push or pull.</p>
+        </div>
+    </body>
+</html>

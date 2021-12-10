@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="740" MadCap:lastWidth="1537">
+    <body>
+        <p>After you create a variable, you can insert it into your Word source document.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Insert a Variable</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Word source document, place your cursor where you want to insert a variable.</li>
+                    <li>Select the <span class="Emphasis">Doc-To-Help</span> ribbon.</li>
+                    <li>In the <span class="Emphasis">D2HML Styles</span> section, click <span class="Emphasis">Variable</span>. The Variable dialog opens.</li>
+                    <li>Select the appropriate variable from the grid.</li>
+                    <li>(Optional) In the <span class="Emphasis">Options</span> section,  select the <span class="Emphasis">Hide properties in document</span> check box to hide the tag. </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Tip</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip: &lt;/span&gt;&lt;/b&gt;">You can also insert variables by dragging them from the Variables window pane in the Doc-To-Help Project panel to your source document. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Nav-Links/Drag-Drop-Linking.htm">Drag-and-Drop Linking</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> and <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Variables-Window-Pane.htm">Variables Window Pane (Word)</MadCap:xref></MadCap:conditionalText>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Drag-Drop-Linking.htm">Drag-and-Drop Linking</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Variables-Window.htm">Variables Window Pane (Doc-To-Help)</MadCap:xref></MadCap:conditionalText>.</MadCap:conditionalText></p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">When your target is built, the value of the variable(s) used is automatically inserted in the output. For text variables, the value will have the same formatting (font, etc.) as its insertion point. For rich content variables, the variable will retain the formatting applied to the variable when it was created.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

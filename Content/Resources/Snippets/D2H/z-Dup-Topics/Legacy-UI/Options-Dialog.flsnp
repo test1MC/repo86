@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>This dialog lets you choose miscellaneous global settings. To open this dialog you must first have a Doc-To-Help project already open. Then, select <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Doc-To-Help Options</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet1">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options</span>.</p>
+        <p>
+            <img src="../../../../Images/D2H/Interface/Dialogs/Options-Dialog.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>general</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                    <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Prompts</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Set various confirmation prompts. <MadCap:conditionalText MadCap:conditions="General.Online-Only">If these check boxes are selected, in most cases a message box will be displayed when you perform these functions. These messages can also be turned off by selecting the "Don't show me this again" check box when the message box is displayed.</MadCap:conditionalText> </p>
+                                <ul>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Confirm editing properties of multiple topics </span>If you select more than one topic in the Topics window, and then click the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">Doc-To-Help</span> ribbon &gt; <span class="Emphasis">Topic Properties</span> button</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"><span class="Emphasis">Topics</span> ribbon &gt; <span class="Emphasis">Properties</span>button </MadCap:conditionalText>, you will be reminded that you  will be editing the properties for all selected topics.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Confirm adding documents outside source document folders </span>If adding a document to your project using drag-and-drop, you will be informed if the document is not stored in the correct folder. You should always copy documents to the correct folder before adding them so that the links don't break and the project is self-contained.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Confirm using Windows System colors </span>If you change the System background color for a JavaHelp or NetHelp target, you will be informed that system colors are specific to Windows and explain how this will be handled for the target.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Prompt installing Microsoft Help Viewer target after build </span>If you built a Microsoft Help Viewer target, you will be asked if you would like to install the target. If yes, it will open the Help Library Manager so you can add the project to the Microsoft Help Viewer and look at it.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Prompt viewing help target after build </span>After every build or rebuild, you will be asked if you would like to view the target.</p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><span class="SetOffFirstLevel">Prompt if Word add-in is disabled on startup</span> If this option is selected, you will be alerted if the Word add-in has been disabled for Doc-To-Help. If the add-in is disabled, you will not be able to use the Doc-To-Help features in Word. You will be able to re-enable the add-in from the prompt (you can also re-enable the add-in manually from the Word Options dialog). You can also navigate to C:\Program Files (x86)\MadCap Software\DocToHelp on your computer, and run D2H.EnableWordAddIn.exe to enable the add-in.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Build</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <ul>
+                                    <li><span class="SetOffFirstLevel">Display Progress Panel in all open Word documents during build </span>If this option is selected and 1) you start building a new target while the Doc-To-Help Build panel is closed OR 2) you start building a new target and close the Doc-To-Help Build panel, the Doc-To-Help Progress panel opens automatically in all open Word documents for this project. This panel displays build status messages and build progress percentages. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Progress-Window-Pane.htm">Doc-To-Help Progress Panel</MadCap:xref>.</MadCap:conditionalText></li>
+                                    <li><span class="SetOffFirstLevel">Display Build Log automatically for each build</span> This will display the build log at the bottom of Word while the build is in progress if this option is enabled.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Files</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                    <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Default location for Doc-To-Help projects</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Change the default location for Doc-To-Help projects.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">User-defined themes location</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Change the default location for Doc-To-Help custom themes.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Themes/Themes.htm">About Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/About-Themes.htm">About Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide"> See the online Help or the <span class="EmphasisItalic">Design Guide</span>.</MadCap:conditionalText></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Team</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                    <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Highlight new project items</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Change the default "new project" colors for your team projects. </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Checkout</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Set Check Out options.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring.htm">About Team Authoring</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/About-Team-Authoring.htm">About Team Authoring</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide"> See the online Help or the <span class="EmphasisItalic">Project Management Guide</span>.</MadCap:conditionalText></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>SharePoint</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                    <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Default when opening shared Word documents</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Change the defaults for opening shared Word documents  (open local copy, open document on server, or prompt to open document on server).</p>
+                                <p class="TableText" MadCap:conditions="General.Online-Only,Snippets.Snippet1">For more about SharePoint, see <MadCap:xref href="../../../../../D2H/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</p>
+                                <p class="TableText" MadCap:conditions="General.Online-Only,Snippets.Snippet2">For more about SharePoint, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</p>
+                                <p class="TableText" MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide"> For more information about SharePoint, see the online Help or the <span class="EmphasisItalic">Project Management Guide</span>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Check out Word documents when editing local copy</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">When selected, Word documents will be checked out of the SharePoint Library automatically when you open them in Doc-To-Help.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Synchronize Word documents with SharePoint Library</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Change the defaults for synchronizing Word documents with the SharePoint library (when document is opened, saved, or closed).</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Synchronize all shared documents with Library</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Change the defaults for synchronizing all shared documents with the SharePoint library (when target is built).</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Updates</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                    <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Check for latest Doc-To-Help version</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Select whether or not you want to check for updates when Doc-To-Help is opened. If you want to check for updates automatically, and a new version of Doc-To-Help is available, the Doc-To-Help Update dialog will open. The update number and new feature list will be displayed. Click <span class="Emphasis">Download</span> to download the update.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Viewers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                    <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Location of the Eclipse executable</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Specify the location of the Eclipse executable file (eclipse.exe) on your machine. Doc-To-Help requires this information to view Eclipse Help.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">EPUB reader executable</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Specify the location of the EPUB reader executable on your machine. Doc-To-Help requires this information to view EPUBs.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Use the following version of Microsoft Help Viewer</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Specify the version of the Microsoft Help Viewer to use when viewing Microsoft Help Viewer targets. Options available depend on your Visual Studio installation. </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

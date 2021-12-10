@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Multilingual Elasticsearch publishing<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> (see <MadCap:xref href="../../../../Flare/Translation-Localization/General-Information/Single-Multilingual-Targets/Multilingual-Output.htm">Multilingual Output</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../Flare/Search/Search-Engines/Elasticsearch/Elasticsearch.htm">Elasticsearch</MadCap:xref>)</MadCap:conditionalText> requires all targets to use the same GUID.<MadCap:conditionalText MadCap:conditions="Snippets.Snippet3"> This is set on the Search tab of the Target Editor<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Search/Search-Engines/Elasticsearch/Enabling-Elasticsearch-Target-Editor.htm">Enabling Elasticsearch Through the Target Editor</MadCap:xref>)</MadCap:conditionalText>.</MadCap:conditionalText> If the GUIDs in the targets are different, you might have empty targets on the portal or experience a publishing failing with error 400. If necessary, open targets in the <a href="../../../../Flare/Interface/Editors/Internal-Text-Editor.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Internal Text Editor</a> to modify the GUID.</p>
+        </div>
+    </body>
+</html>

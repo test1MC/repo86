@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="827" MadCap:lastWidth="1537">
+    <body>
+        <p>To add a new document or file to the team project, you must first add it to your working copy, then check the new file into the team project. After you check the file in, other team members can check out and edit the new file.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add a New File </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Add the document or file to your project as you normally would. At this point it only exists in your working copy. </li>
+                    <li>Save and close the file.</li>
+                    <li>In the Team Authoring window, select the new file.</li>
+                    <li>Click the <span class="Emphasis">Check In</span> button. The Check In dialog opens.</li>
+                    <li>
+                        <p>Confirm the check in and click the <span class="Emphasis">Check In</span> or <span class="Emphasis">OK</span> button.</p>
+                        <p>When you add a file to a project, you are making a change to the project (.d2h) file itself. Therefore, a message will display that informs you that the project file will be edited. Click <span class="Emphasis">OK</span> to confirm. For TFS projects, make sure to check the project file back in after you are done. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">For more on project files, see <MadCap:xref href="../../../../../D2H/Team-Authoring/Checking-Out-Project-File.htm">Checking out the Project File</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">For more on project files, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Checking-Out-Project-File.htm">Checking Out the Project File</MadCap:xref>.</MadCap:conditionalText></p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">New files that have not yet been checked into the repository will display in a different color to alert you. If you would like to change the text and highlight color, use the Doc-To-Help Options dialog (<span class="Emphasis" MadCap:conditions="Snippets.Snippet1">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options &gt; Team</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Options &gt; Team</span>).</p>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Team-Authoring/Working-Team-Project.htm">Working in a Team Project</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Working-in-Team-Project.htm">Working in a Team Project</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

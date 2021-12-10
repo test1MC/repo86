@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1103" MadCap:lastWidth="1485">
+    <body>
+        <p>To delete an existing file from the team project, you must first check out the project. Once you have deleted the file from the team project, it will not be available for editing by any member of the team.</p>
+        <p>If the file you are planning to delete was never checked in to the repository, it was never part of the team project and can be deleted from your working copy without checking out the project file.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Delete a File from the Team Project </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">In the Team Authoring window, select the project (D2H) file.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Team Authoring</span> button on the Project panel. The Team Authoring panel is displayed.</li>
+                    <li>
+                        <p>Click the <span class="Emphasis">Check Out</span> button. The Check Out dialog opens.</p>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">For File and Web Repositories </span>After the file is checked out, click the <span class="Emphasis">Close</span> button.</li>
+                            <li><span class="SetOffFirstLevel">For TFS Repositories </span>Do not set the lock type to Check Out, as this will cause TFS to set two different Pending Change states for the file to be deleted.<p>To set the default lock type, use the Doc-To-Help Options dialog (<span class="Emphasis" MadCap:conditions="Snippets.Snippet1">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options &gt; Team</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Options &gt; Team</span>).</p></li>
+                        </ul>
+                    </li>
+                    <li>In the Documents window pane, select the file you would like to delete.<ul><li><span class="SetOffFirstLevel">For File and Web Repositories </span>:&#160;Check out the file to be deleted, then delete the file.</li></ul></li>
+                    <li>Right-click on the document, select <span class="Emphasis">Team Authoring &gt; Check In Pending Changes</span>.</li>
+                    <li>Click the <span class="Emphasis">Remove Document</span> button.</li>
+                    <li>In the Team Authoring window, select the project (D2H) file.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">Click the <span class="Emphasis">Check In</span> button. The Check In dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">On the Team Authoring panel, right-click on the Project file and select <span class="Emphasis">Check In Pending Changes</span>.</li>
+                    <li>Confirm the check in and click the <span class="Emphasis">Check In</span> or <span class="Emphasis">OK</span> button.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Team-Authoring/Working-Team-Project.htm">Working in a Team Project</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Working-in-Team-Project.htm">Working in a Team Project</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

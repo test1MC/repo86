@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open an HTML5 target.</li>
+            <li>Click the <span class="Emphasis">Conditional Text</span> tab.</li>
+            <li>
+                <p>Toward the bottom of the tab, make sure the <span class="Emphasis">Basic</span> option is selected.</p>
+                <p>
+                    <img src="../../../Images/Flare/Conditions/Conditions-Basic.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Conditions3.flsnp" />
+            </li>
+            <li>The Action cell in the grid indicates the current setting for the condition. The text is gray if you have not explicitly chosen an option. Select <b>Display by Media Query</b>. Then choose any of the options below it.<MadCap:snippetBlock src="Condition-Action-Options-Media-Query-List.flsnp" /><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you select all three of the media query check boxes, it has the same effect as choosing the “Include” option.</p></div><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The “Display by Media Query” option is not available unless you are working in an HTML5 target. Other target types do not show this option.</p></div><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-HTML5-Guide" /><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Basic method is the easiest way to display conditions by media query. However, you can also use the Advanced method. If you choose to do so, the markup should look something like the following.</p><p><img src="../../../Images/Flare/Conditions/Conditions-Media-Query-Advanced-Markup.png" alt="" title="" class="MaxWidth90Percent" /></p></div></li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

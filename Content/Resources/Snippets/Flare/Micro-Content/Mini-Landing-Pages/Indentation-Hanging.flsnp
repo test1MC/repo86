@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">
+            <MadCap:snippetText src="../../Paragraphs/Hanging-Indent-Summary.flsnp" /> See <MadCap:xref href="../../../../../Flare/Paragraphs/Indenting-Paragraphs.htm#HowCreateHangingIndent">How to Create a Hanging Indent</MadCap:xref>.</p>
+        <p class="TableText">Example of a style selector used for hanging indentation:</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">.hangingindent 
+{
+  padding-left: 30px ;
+  text-indent: -30px ;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

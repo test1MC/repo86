@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableTextEmphasis">mc-page-type</p>
+        <p class="TableText">Select the pages to which these settings will be applied (All Pages, Odd Pages, Even Pages, First Page). The default is to apply the settings to all pages using the template page. If you want all of the pages in your output to share the same settings (page size, margins, etc.), you only need one Body proxy in the template page. However, if you want different pages to have different settings, you can add a Body proxy page for each configuration. Then, edit the settings for a particular Body proxy for specific pages (e.g., odd pages), and use this field to specify which pages the settings pertain to.</p>
+        <p class="TableText" MadCap:conditions="General.Online-Only">
+            <MadCap:xref href="../../../../../Flare/Proxies/Body/Adding-Editing-Body-Proxies.htm">Adding and Editing Body Proxies for Print Output</MadCap:xref>
+        </p>
+        <p class="TableText" MadCap:conditions="General.Online-Only">
+            <MadCap:xref href="../../../../../Flare/Page-Layouts/Page-Layouts.htm">Page Layouts</MadCap:xref>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Create variables that you plan to use within micro content responses, and add multiple definitions for those variables as necessary. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Variables/Main-Activities/Creating-Variables.htm">Creating Variables</MadCap:xref> and <MadCap:xref href="../../../../../Flare/Variables/Main-Activities/Editing-Variables.htm#HowAddVariableDefinitions">How to Add Variable Definitions</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Create a micro content file and create phrases linked to responses. This can be done by tagging content in topics as micro content, or by linking phrases from the Micro Content Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See any of the following:</MadCap:conditionalText><ul MadCap:conditions="General.Online-Only"><li><MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method1">Response Method 1: Creating Micro Content From a Topic</MadCap:xref></li><li><MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method2">Response Method 2: Linking Phrases to Entire Topics or Snippets</MadCap:xref></li><li><MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method3">Response Method 3: Linking Phrases to Bookmarks</MadCap:xref></li></ul></li>
+            <li>Insert variables as necessary in the responses. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Variables/Main-Activities/Inserting-Variables.htm">Inserting Variables</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>In the Micro Content Editor, right-click the phrase and select <span class="Emphasis">Properties</span>.</li>
+            <li>
+                <p>In the Properties dialog, select the <span class="Emphasis">Micro Content Variables</span> tab.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You will not see this option if you haven't linked the phrase to a response. Instead, you will see "Snippet Variables," which can be applied to content entered directly in the Micro Response Editor, just as it can be applied in a regular topic. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Variables/Other-Activities/Overriding-Variable-Definitions-Snippets1.htm">Overriding Variable Definitions in Topics and Snippets</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>
+                <p>Click the small down arrow on the right side of the variable row, and select the alternate definition you want to use for the micro content.</p>
+                <p>
+                    <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Variables1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

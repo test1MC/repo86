@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides-Tutorials-Videos/Flare-Styles-Video1-Intro.flmsp');">
+    <head>
+        <link href="../../../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="When changing the look of content, you may often need to select a unit of measurement (UOM)." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Unit of measurement" />
+            <MadCap:keyword term="Styles;Styles:stylesheets" />
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:concept term="FilterFeatures" />Units of Measurement</h1>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Co-Fl-Mi/Styles/UOM-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>
+            <MadCap:keyword term="Relative measurements;Proportional measurements" />Relative UOMs</h2>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Co-Fl-Mi/Styles/Relative-UOMs.flsnp" />
+        <table style="width: 100%;mc-table-style: url('../../../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Pixel (px)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Pixel units are relative to the resolution of the viewing device (i.e., most often a computer display). If the pixel density of the output device is very different from that of a typical computer display, the user agent should rescale pixel values. It is recommended that the reference pixel be the visual angle of one pixel on a device with a pixel density of 96 dpi and a distance from the reader of an arm's length. For a nominal arm's length of 28 inches, the visual angle is therefore about 0.0213 degrees.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Ems (em)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">The em unit is equal to the computed value of the font size property of the element on which it is used. The exception is when "em" occurs in the value of the "font-size" property itself, in which case it refers to the font size of the parent element. It may be used for vertical or horizontal measurement. (This unit is also sometimes called the quad-width in typographic texts.)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Percentage (%)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This is the percentage value of the element. Please be aware that if you are using percentage for the size of an object such as an image, the percentage refers to the block containing that image, not to the image itself. For example, if you have an image in a topic and set the width to 60%, this does not mean that the image will be reduced to 60% of its size. Instead, it means that the image will be resized so that its width is 60% of the "container" where it is inserted.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">X-Height (ex)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">The ex unit is defined by the element's first available font. The x-height is so called because it is often equal to the height of the lowercase "x." However, an "ex" is defined even for fonts that don't contain an "x."</p>
+                        <p class="TableText">The x-height of a font can be found in different ways. Some fonts contain reliable metrics for the x-height. If reliable font metrics are not available, the x-height may be determined from the height of a lowercase glyph. One possible heuristic is to look at how far the glyph for the lowercase "o" extends below the baseline, and subtract that value from the top of its bounding box. In the cases where it is impossible or impractical to determine the x-height, a value of 0.5 em should be used.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">0-Width (ch)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Relative to the width of the 0 (ZERO, U+0030) glyph in the element's font.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Root-element (rem)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Relative to the font size of the root element.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Viewport-width (vw)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Relative to 1% of the width of the viewport.<sup>1</sup></p>
+                        <MadCap:microContent id="microcontent1">
+                            <div>
+                                <div class="micro-content-only">
+                                    <p>The viewport is the size of the browser window.</p>
+                                    <ul>
+                                        <li><span class="Emphasis">Viewport-width (vw) </span>
+                                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Styles/Viewport-width-vw.flsnp" />
+                                        </li>
+                                        <li><span class="Emphasis">Viewport-height (vh) </span>
+                                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Styles/Viewport-height-vh.flsnp" />
+                                        </li>
+                                        <li><span class="Emphasis">Viewport-min (vmin) </span>
+                                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Styles/Viewport-min-vmin.flsnp" />
+                                        </li>
+                                        <li><span class="Emphasis">Viewport-max (vmax) </span>
+                                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Styles/Viewport-max-vmax.flsnp" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </MadCap:microContent>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Viewport-height (vh)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Styles/Viewport-height-vh.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Viewport-min (vmin)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Styles/Viewport-min-vmin.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Viewport-max (vmax)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Styles/Viewport-max-vmax.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="TableStyle-Fancy-Foot-Footer1">
+                    <td class="TableStyle-Fancy-FootD-Regular-Footer1" colspan="2">
+                        <p class="TableTextFootnote"><sup>1</sup>The viewport is the size of the browser window.</p>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Co-Fl-Mi/Styles/Note-Relative-UOMs.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="Absolute measurements;Fixed measurements" />Absolute UOMs</h2>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Co-Fl-Mi/Styles/Absolute-UOMs.flsnp" />
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Co-Fl-Mi/Styles/Absolute-UOMs-Table.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+    </body>
+</html>

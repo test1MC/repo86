@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video10-Media-Queries.flmsp');">
+    <head>
+        <meta name="description" content="How to create a new media query, and understanding the precedence of multiple media queries in a project." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-UsingMediaQueries.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Creating Custom Media Queries</h1>
+        <p>As mentioned before, most authors will be able to do everything they need with just the tablet and mobile media queries. However, there are situations where content might look better if you create a custom media query. For example, a custom query might come in handy if you want content to display a certain way in between the tablet and mobile breakpoints, or if you want content to be narrower than the mobile width.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Create a New Media Query</h2>
+        <ol>
+            <li>
+                <p>Open the <span class="Emphasis">Styles.css</span> file.</p>
+            </li>
+            <li>
+                <p>In the local toolbar of the Stylesheet Editor, click the <span class="Emphasis">Medium</span> drop-down, and select <span class="Emphasis">Add Medium</span>. The New Medium / Media Query dialog opens.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-NewMediumMenu.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>Select <span class="Emphasis">Media Query</span>. Extra fields are shown in the dialog.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-MediaQuery-Dialog.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Media queries are written as logical expressions that check for specified media conditions. <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Tutorials/Create-Media-Query-Steps1.flsnp" /> For more information about creating custom media queries and the options available in the New Medium / Media Query dialog, see <a href="http://www.w3.org/TR/css3-mediaqueries/" target="_blank">http://www.w3.org/TR/css3-mediaqueries/</a>.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Set the fields in the dialog as follows, and then click <span class="Emphasis">OK</span>. (The first drop-down is disabled, so just start at the second drop-down, and go back to the other when it is enabled.)</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-MediaQuery-Expression.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>By setting the maximum width, when you reduce the width of the browser to 500px, it takes on a different look with the specific media query style setting for that device size.</p>
+            </li>
+            <li>
+                <p>The custom media query, named Medium: only screen and (max-width:500px), displays automatically next to the other mediums in the editor. In the left pane tree structure, select the <span class="Emphasis">p</span> style.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-Custom-MediaQuery.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the local toolbar, from the <span class="Emphasis">Show</span> drop-down, choose <span class="Emphasis">Show: All Properties</span>.</p>
+            </li>
+            <li>
+                <p>In the custom media query window pane, expand the <span class="Emphasis">Font</span> group.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Next to the <span class="Emphasis">Color</span> property, type <span class="TypedEntry">blue</span>, and press <span class="Emphasis">ENTER</span>. The blue font color is not intended to make our project pretty, we just want the change to stand out after the build is generated.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-Custom-FontColor.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are working the styles tutorials in a sequential order, the paragraph element font color was set to gray. Just update the value to blue.</p>
+                </div>
+            </li>
+            <li>
+                <p>Click off the <span class="Emphasis">Color</span> property.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to rename your media query, you can only rename it by making modifications to its settings in the dialog. It must retain valid syntax. Flare will let you know if the syntax is invalid.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-Invalid-Syntax.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <h2>How to View Media Query Precedence</h2>
+        <p>The order that media queries display in the Text Editor affects how they are used.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/CSS-Media-Queries9.flsnp" />
+        <ol>
+            <li>
+                <p>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>, and right-click the <span class="Emphasis">Styles.css</span> file.</p>
+            </li>
+            <li>
+                <p>From the context menu, select <span class="Emphasis">Open with</span>, and then select <span class="Emphasis">Internal Text Editor</span>.</p>
+            </li>
+            <li>
+                <p>In the Text Editor, scroll to the bottom of the file (roughly line 778). The most recently added media query, @media only screen and (max-width:500px), has the highest precedence (it displays lowest in the stylesheet).</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-Custom-MediaQuery-Text.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:conditionalText MadCap:conditions="General.Online-Only">There are no conflicts in this tutorial, but for an example of this, see <MadCap:xref href="../../../Styles/Other-Features-Activities/Mediums-Media-Queries/General-Information/Conflicts-Mediums-Media-Queries.htm">Conflicts With Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="General.Print-Only">
+                        </MadCap:snippetText>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Project</span> ribbon. Then from the <span class="Emphasis">Build Primary</span> drop-down, select <span class="Emphasis">Build All-About-Austin-HTML5</span>. The Builds window pane opens at the bottom of the Flare interface, and the target begins to generate. When the build finishes successfully, the Build Progress cell turns dark green.</p>
+            </li>
+            <li>
+                <p>Double-click the row to open the HTML5 output, and view it in a regular browser with the window maximized.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the table of contents, select the <span class="Emphasis">Introduction</span> topic.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-TOC-HTML5.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click and drag the browser window to reduce it. Once the width of the browser window reaches 500 pixels, the display changes to show the custom media query (with blue paragraph font).</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-Custom-Screen.png" alt="" title="" class="MaxWidth55Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Close the HTML5 output.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</p>
+            </li>
+        </ol>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End-Styles.flsnp" />
+        </div>
+    </body>
+</html>

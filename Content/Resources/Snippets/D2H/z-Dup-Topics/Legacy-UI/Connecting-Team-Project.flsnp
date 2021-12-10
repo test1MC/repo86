@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>After a team authoring project is set up <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">(see <MadCap:xref href="../../../../../D2H/Team-Authoring/Setting-Up-Team-Project.htm">Setting Up a Team Project</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">(see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Setting-Up-Team-Project.htm">Setting Up a Team Project</MadCap:xref>)</MadCap:conditionalText>, team members must connect to and download the team project in order to create their own working copies of the project. Once team members have a working copy, they can check files out, edit them, and check them back in.</p>
+        <p>The project administrator (the person who originally shared the project) should provide team members with the network path or the URL (depending on the type of repository) of the team project.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Connect to and Download a Team Project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">In Doc-To-Help select <span class="Emphasis">File &gt; Team Authoring&gt;Connect to Team Project</span>. </li>
+                    <li MadCap:conditions="Snippets.Snippet1">In Word, select <span class="Emphasis">File &gt;&#160;Doc-To-Help &gt; Team Authoring &gt; Connect to Team Project</span>.</li>
+                    <li>
+                        <p>Under <span class="Emphasis">Select repository type</span>, choose one of the following:</p>
+                        <ul>
+                            <li>
+                                <p class="SetOffFirstLevel">Team Foundation Server</p>
+                            </li>
+                            <li>
+                                <p class="SetOffFirstLevel">File System Repository </p>
+                            </li>
+                            <li>
+                                <p class="SetOffFirstLevel">Web Repository</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Click <span class="Emphasis">Next</span>.</p>
+                        <ul>
+                            <li>
+                                <p><span class="SetOffFirstLevel">For Team Foundation Server </span>Enter the team project location URL. You can click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to browse to a different server.</p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">For File System Repository </span>Enter a network location or click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to browse to a folder on the network. </p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">For Web Repository </span>Enter the URL of the virtual directory. (If necessary, enter your login credentials.)</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Click <span class="Emphasis">Next</span> and specify the working project folder. This is where the project will be stored on your machine and is your working copy of the project. </li>
+                    <li>Click <span class="Emphasis">Next</span> and confirm the working copy information.</li>
+                    <li>Click <span class="Emphasis">Next</span> to create the working copy. </li>
+                    <li>Click <span class="Emphasis">Close</span> and then click <span class="Emphasis">Finish</span>. Your working copy of the project opens. </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Disconnecting from a Team Project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">In Doc-To-Help, select <span class="Emphasis">File &gt;  Team Authoring &gt; Disconnect Project from Team Authoring</span>.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">In Word, select <span class="Emphasis">File &gt; Doc-To-Help &gt; Team Authoring &gt; Disconnect Project from Team Authoring</span>.</li>
+                    <li>A popup window will ask you to confirm if you wish to proceed with disconnecting from the project. Click <span class="Emphasis">Yes</span>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>What's Next?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>After you have connected to a team project, creating a working copy of your project, you do not need to do it again. Just open the working copy of the project and begin working. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Working-Team-Project.htm">Working in a Team Project</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Working-in-Team-Project.htm">Working in a Team Project</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

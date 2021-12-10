@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Doc-To-Help automatically creates a table of contents (TOC) for you based on the structure of your documents. But you can create a custom TOC (you can even have different TOCs for different targets) if you wish.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Auto-Generated TOC Structure</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>An auto-generated TOC will be structured as follows:</p>
+                <ul>
+                    <li>The order of the TOC will be determined by the order of the documents in the Documents window pane.</li>
+                    <li>Heading 1 styles with no Heading 2 styles under them will appear at the main level</li>
+                    <li>Heading 1 styles with Heading 2 styles under them will appear at the main level as "books," with the Heading 2 styles indented below them. </li>
+                    <li>If used, Heading 3 styles will be indented under Heading 2 styles; Heading 4 styles under Heading 3 styles.</li>
+                    <li>If a Heading 1 style has no Heading 2 styles under it, it will not appear as a book in the TOC. It can be changed to one, but when the project is built it will not retain the book icon, because there are no subtopics under it.</li>
+                </ul>
+                <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+                <p>The book icon visually indicates that "more information is available" about a topic.</p>
+                <p>
+                    <img id="_x0000_i1040" src="../../../../Images/D2H/TOCs/TOC-NetHelp.png" height="352" class="MaxWidth100Percent" MadCap:conditions="Snippets.Snippet2" />
+                    <img src="../../../../Images/D2H/TOCs/Contents-Heading-Levels.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" MadCap:conditions="Snippets.Snippet1" />
+                </p>
+                <p>By default, Heading styles 1-4 will be included in an auto-generated TOC. If you would like to add a Heading style to the TOC, open the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Project </MadCap:conditionalText>Styles dialog and clear the <span class="Emphasis">Explicit access</span> check box for that paragraph style.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Styles/Project-Styles.htm">About Project Styles and Topic Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Styles/About-Project-Styles-and-Topic-Types.htm">About Project Styles and Topic Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content"> See the online Help or the <span class="EmphasisItalic">Design Guide</span>.</MadCap:conditionalText></p>
+                <p>You can see which topics are included in your TOC by opening the Topics window and looking at the TOC column. </p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You can also view the topics in your TOC&#160;when you are working in Word by opening the Doc-To-Help Project Panel (<span class="Emphasis">Doc-To-Help &gt; Project Panel</span>), and selecting the Contents window pane. If you are working with a target-specific TOC, select the target from the drop-down at the top of the panel to see the topics in a specific target. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Contents-Window-Pane.htm">Contents Window Pane (Word)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Contents-Pane.htm">Contents Window Pane (Doc-To-Help)</MadCap:xref>.</MadCap:conditionalText></p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If your TOC is auto-generated, and you add a new topic to your project, that topic will automatically be added to the TOC the next time a target is built.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Custom Table of Contents</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word</MadCap:conditionalText>, open the Contents window pane.</li>
+                    <li>
+                        <p>Add, delete, reorder, and rename TOC items as you wish.</p>
+                        <ul>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Add a Topic to the TOC </span>Drag it from the Topics window into the Contents pane.</p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Move a TOC Item Up or Down </span>Choose it in the Contents pane and click the <span class="Emphasis">Move Up</span> or <span class="Emphasis">Move Down</span> buttons <img src="../../../../Images/D2H/Interface/Buttons/Move-Up-Down-btns.png" class="ReduceButtonSize" />.</p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Change the Level of a TOC Item </span>Choose it in the Contents pane and click the <span class="Emphasis">Move Out</span> or <span class="Emphasis">Move In</span> buttons <img src="../../../../Images/D2H/Interface/Buttons/Move-Out-In-btns.png" class="ReduceButtonSize" />. </p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Create a New, Empty Book </span>Choose a spot in the Contents pane and click the <span class="Emphasis">Create Book</span> button <img src="../../../../Images/D2H/Interface/Buttons/Convert-Book-btn.png" class="ReduceButtonSize" />.</p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Convert a TOC Item to a Book (Must Have Subtopics) </span>Choose it in the Contents pane, right-click, and choose <span class="Emphasis">Convert Topic to Book</span>.</p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Rename a TOC Item </span>Choose it in the Contents pane and click the <span class="Emphasis">Rename Topic</span> button <img src="../../../../Images/D2H/Interface/Buttons/Rename-btn.png" class="ReduceButtonSize" />.</p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Delete a TOC Item </span>Choose it in the Contents pane and click the <span class="Emphasis">Remove Topic</span> button <img src="../../../../Images/D2H/Interface/Buttons/Remove-btn1.png" class="ReduceButtonSize" />.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>As soon as you manually edit the TOC, it will be flagged as "Customized." If you would like this TOC to be exclusively used for the target selected, click the <span class="Emphasis">Target-Specific Table of Contents</span> button.</p>
+                <p>
+                    <img src="../../../../Images/D2H/Tutorials/Getting-Started/Custom-TOC1.png" class="MaxWidth100Percent" />
+                </p>
+                <p>Once you have customized a TOC, any topics added to your project must be added manually, unless you have the <span class="Emphasis">Update customized table of contents in build</span> check box is selected in Project Settings. Choosing this option will automatically add newly-created topics to your customized TOC when your project is built, although you will want to open the Contents window pane and confirm their location. To view the new topics added after a build, open the  <span class="Emphasis">Topics Panel</span>, click the <span class="Emphasis">Filter View</span> button, and choose <span class="Emphasis">Show only topics added in the last build</span>. If you have deleted any topics, those will need to be deleted manually from the TOC. Target-specific TOCs will not be updated.</p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">In a Manual target, topics in multi-topic documents will always appear in the TOC in the same order as they appear in the source document. If the order is changed in the TOC, Doc-To-Help lists an error in the build log and does not use the customization.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Target-Specific Table of Contents</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Home</span> <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Target </MadCap:conditionalText>ribbon, click the <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Select Target</span><span MadCap:conditions="Snippets.Snippet1" class="Emphasis">Active Target</span> button and choose the desired target.</li>
+                    <li>In the Doc-To-Help project panel, open the Contents view.</li>
+                    <li>Manually edit the TOC.</li>
+                    <li>Click the <span class="Emphasis">Target-Specific Table of Contents button</span><img src="../../../../Images/D2H/Interface/Buttons/Target-Specific-TOC-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+                </ol>
+                <p>Continue choosing targets to customize each one.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Rebuild the TOC Based on Document Structure</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Home</span> <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Target </MadCap:conditionalText>ribbon, click the <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Select Target</span> <span MadCap:conditions="Snippets.Snippet1" class="Emphasis">Active Target</span> button and choose the desired target.</li>
+                    <li>Open the Contents window pane. </li>
+                    <li>Click the <span class="Emphasis">Rebuild Table of Contents</span> button <img src="../../../../Images/D2H/Interface/Buttons/Rebuild-TOC-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note" MadCap:conditions="Snippets.Snippet1,General.Online-Only">
+                    <p class="Note-Text">For a complete listing of TOC options and instructions, see <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Contents-Window-Pane.htm">Contents Window Pane (Word)</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="General.Online-Only,Snippets.Snippet2">
+                    <p class="Note-Text">For a complete listing of TOC options and instructions, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Contents-Pane.htm">Contents Window Pane (Doc-To-Help)</MadCap:xref>.</p>
+                </div>
+                <p class="note" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">For a complete listing of TOC options and instructions, see the Contents Window Pane (Doc-To-Help)&#160;topic in the online Help.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>For HTML5 targets, you can assign IDs to skins.</p>
+        <p>One reason for setting a skin ID is to allow users to choose from multiple skins in order to change the display of the output.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Skins/Other-Activities/HTML5/Enabling-Runtime-Skins.htm">Enabling Runtime Skins</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Skins-Guide"> See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Skins/Enabling-Runtime-Skins.htm">Enabling Runtime Skins</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>Another reason for setting a skin ID is to display output differently for context-sensitive Help (CSH), such as Dynamic Help<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/CSH/CSH.htm">Context-Sensitive Help</MadCap:xref> and <MadCap:xref href="../../../../Flare/CSH/Process/CSH-Calls/CSH-Calls-HTML5-Developers.htm">CSH Calls for HTML5 Output—Developers</MadCap:xref>)</MadCap:conditionalText>. Your software developer can program the application behind the scenes to use the correct skin depending on the situation.</p>
+    </body>
+</html>

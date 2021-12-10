@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Using the Accessibility Suggestions window pane, you can view places in your project where you can make accessibility improvements for web-based and PDF outputs in Flare. This includes the ability to identify tables that are missing certain elements and finding objects—such as images, equations, and QR codes—that are missing alternate text. You can use the Accessibility Suggestions Search Properties dialog to customize which types of issues to display in the window pane. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Accessibility/Analysis/Customizing-Accessibility-Suggestions-Shown1.htm">Customizing Accessibility Suggestions Shown</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to View Accessibility Suggestions</h2>
+        <ol>
+            <li>Make sure accessibility suggestions are enabled:<ol style="list-style-type: lower-alpha;"><li>Select <b>File &gt; Options</b>.</li><li>Select the <b>Project Analysis</b> tab.</li><li>Ensure that <b>Collect Accessibility Prospects</b> is enabled.</li></ol></li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Ribbon </span>Select&#160;<span class="Emphasis">Analysis &gt; Suggestions &gt; Accessibility Suggestions</span>.</li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Summary Window Pane</span> If you have the Summary window pane in view, double-click the row that mentions accessibility suggestions.</p>
+                    </li>
+                </ul>
+                <p>The Accessibility Suggestions window pane opens.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Tag </span>Displays the tag where the issue occurs (e.g., img, table, qrCode, equation).</li>
+                    <li><span class="SetOffFirstLevel">Issue </span>Displays the issue with the tag (e.g., needs alternate text, caption, summary, header elements).</li>
+                    <li><span class="SetOffFirstLevel">Context </span>Displays the context of the issue in question. For example, if the issue is that a tag is missing alternate text, this shows the name and path of the image.</li>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" />
+        <p>When you see issues listed in the Accessibility Suggestions window pane, you can use the Apply Accessibility Suggestions Wizard to take action on issues that have to do with missing alternate text. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Accessibility/Analysis/Resolving-Accessibility-Issues.htm">Resolving Accessibility Issues</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">See the online Help.</MadCap:conditionalText></p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+    </body>
+</html>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you enable the Mark of the Web setting in your Elasticsearch target and viewing the output locally in Internet Explorer, you will continuously receive the following warning message:</p>
+            <p>
+                <img src="../../../Images/Flare/Search/Elasticsearch-Mark-Web-Warning.png" class="MaxWidth100Percent" />
+            </p>
+            <p>This message will display every time you enter search criteria. In order to avoid receiving this message, it is recommended that you disable the Mark of the Web setting. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/More/Adding-MOTW.htm">Adding Mark of the Web</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">See the <span class="EmphasisItalic">Flare Targets Guide</span> or the Flare online Help for more information.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Remember that this is an XML editor that follows the W3C <MadCap:keyword term="XHTML:file" />XHTML Schema specification. Therefore, if you want or need to enter entities for characters and symbols (e.g., via a third-party tool), you need to use the XHTML entity number.</p>
+        <p>After you add a valid entity into the Text Editor, it is converted to the actual character or symbol after you switch to the XML Editor view and then back to the Text Editor view.</p>
+        <p>You can find a list of valid entity numbers for characters and symbols on the W3C website. See <a href="http://www.w3.org/TR/html401/sgml/entities.html" target="_blank">http://www.w3.org/TR/html401/sgml/entities.html</a>.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are working in the code and want to add an en dash (—). To do so, you would enter the following:</p>
+            <p>&amp;#8211;</p>
+            <p>Do not enter<span class="TypedEntry"> &amp;ndash;</span> (because it is not valid XML).</p>
+        </div>
+    </body>
+</html>

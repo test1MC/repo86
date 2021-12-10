@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta name="description" content="You can embed fonts into HTML5 output." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Fonts:embedding;Embedded fonts" />Embedding Fonts</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5.flsnp" />
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <p>You can embed fonts into HTML5 output. This is particularly beneficial when using custom fonts or other fonts that may not be installed on end users' machines. This method also works with font formats that are not natively supported in Flare (e.g., .woff, .eot).</p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+                </div>
+                <h2>How to Embed Fonts</h2>
+                <ol>
+                    <li>
+                        <p>In the Content Explorer, select the <span class="Emphasis">Resources</span> folder and create a subfolder, naming it <span class="Emphasis">Fonts</span>.</p>
+                        <div class="topic-only">
+                            <p>
+                                <img src="../../../Resources/Images/Flare/Fonts/Embedding-Fonts1.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>In Windows Explorer, open the <span class="Emphasis">Fonts</span> folder and add (e.g., copy and paste) the font file(s).</p>
+                        <div class="topic-only">
+                            <p>
+                                <img src="../../../Resources/Images/Flare/Fonts/Embedding-Fonts2.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>In Flare, navigate to the appropriate stylesheet in the Content Explorer, right-click it, and select <span class="Emphasis">Open with &gt; Internal Text Editor</span>.</p>
+                        <div class="topic-only">
+                            <p>
+                                <img src="../../../Resources/Images/Flare/Fonts/Embedding-Fonts3.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Add the following CSS code to the top of the stylesheet, replacing "FONT NAME" with the actual font name.</p>
+                        <MadCap:codeSnippet>
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">@font-face 
+{
+	font-family: 'FONT NAME';
+	src: url(../Fonts/FONT-NAME.ttf);
+}</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                        <div class="topic-only">
+                            <p>
+                                <img src="../../../Resources/Images/Flare/Fonts/Embedding-Fonts4.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </div>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The source URL for the font in this example assumes that the stylesheet is in the Resources &gt; Stylesheets folder. If it is in a different location, the relative path may be different. The font-family value is arbitrary; it does not need to match the name of the font. If there are any spaces in the font-family name or source URL, wrap the name or URL in single quotes.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Add the font-family value—set in the previous step—to any styles that will use the embedded font. <span class="EmphasisItalic">Do not</span> select the font-family from the list of installed fonts, because doing this will reference the installed font rather than the embedded font. Instead, type the name manually.</p>
+                        <div class="topic-only">
+                            <p>
+                                <img src="../../../Resources/Images/Flare/Fonts/Embedding-Fonts5.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </div>
+                    </li>
+                    <li>Build the output and confirm that the font is embedded and working as expected.</li>
+                </ol>
+            </div>
+        </MadCap:microContent>
+        <h2>How to Add Embedded Fonts to Skins in HTML5 Tripane Output</h2>
+        <p>The following steps are required only if you intend to use an embedded font for text within skin elements in HTML5 Tripane output.</p>
+        <ol>
+            <li>Open the Skin Editor for a Tripane skin, select the <span class="Emphasis">Styles</span> tab, and add the font-family value to appropriate elements. <span class="EmphasisItalic">Do not</span> select the font-family from the list of installed fonts, because doing this will reference the installed font rather than the embedded font. Instead, type the name manually.</li>
+            <li>Build the Tripane target and in Windows Explorer, open the <span class="Emphasis">Output</span> folder.</li>
+            <li>Navigate to <span class="Emphasis">Skins\Default\Stylesheets</span>, and open <span class="Emphasis">Styles.css</span> in a text editor.</li>
+            <li>
+                <p>Repeat step 4 from above, but change the relative path so that it points from the location of Styles.css to the font within the output. For example, it might look as follows.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">@font-face 
+{
+	font-family: 'FONTNAME';
+	src: url(../../../Content/Resources/Fonts/FONTNAME.ttf);
+}</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </li>
+            <li>Open the output and confirm that the font is working in the skin.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The process described above for embedding fonts does not work in print-based outputs. PDF output embeds fonts automatically. The only requirement is that the font is installed on the machine that is compiling the output.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you open the <span class="Emphasis">Advanced</span> tab of the Target Editor, select the <span class="Emphasis">Content to include</span> drop-down, and choose <span class="Emphasis">Content linked directly or indirectly from the target</span>, the embedded font will likely be removed from the output. In this case, the suggested workaround is to insert a link to the embedded font in a template page and hide the link using the "display: none;" CSS property.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For more information on @font-face, please visit the following resources:</p>
+            <p><a href="http://www.font-face.com/" target="_blank">http://www.font-face.com</a>
+            </p>
+            <p><a href="https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp" target="_blank">https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp</a>
+            </p>
+        </div>
+    </body>
+</html>

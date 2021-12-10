@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>In the content file, click in the responsive layout that you want to edit.</li>
+            <li>If you want to change the content within the layout, you can simply click in the cells and replace or edit the content as necessary.</li>
+            <li>
+                <p>Select <span class="Emphasis">Home &gt; Responsive Layout</span>. The Responsive Layout window pane opens.</p>
+                <p>In the Manage section, the style being used by the current responsive layout is shown. So any changes you make will be applied to that style in your stylesheet.</p>
+                <p>
+                    <img src="../../../Images/Flare/Responsive-Design/Responsive-Layout30.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+            <li>
+                <p>At the top of the Responsive Layout window pane, select the appropriate medium/media query: <span class="Emphasis">Web</span>, <span class="Emphasis">Tablet</span>, or <span class="Emphasis">Mobile</span>.</p>
+                <p>Alternatively, you can select the appropriate layout view in the top local toolbar of the XML Editor.</p>
+                <p>
+                    <MadCap:snippetText src="../Tutorials/Edit-Responsive-Layout-Recommend.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>Use any of the following options in the Responsive Layout window pane to enhance the cell and your layout.</p>
+                <MadCap:snippetBlock src="Warning-Responsive-Layout-Window-Auto-Save.flsnp" />
+                <MadCap:snippetBlock src="Responsive-Layout-Window-Buttons-Table.flsnp" />
+            </li>
+            <li>When you are finished configuring the row for your current layout, select a different media query (e.g., Tablet, Mobile) at the top of the Responsive Layout window pane. (Alternatively, you can change the layout in the local toolbar of the XML Editor.)</li>
+            <li>Repeat steps 6 and 7 until you are finished designing the row for all of your mediums/media queries.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

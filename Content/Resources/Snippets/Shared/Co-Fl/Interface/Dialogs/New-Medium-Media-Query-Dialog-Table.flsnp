@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Medium</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this option if you want to create a new medium. Enter the name of the medium in the field.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Media Query</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this option if you want to create a new media query. The name of the media query will populate based on your selections in the drop-downs.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">(not set)</p>
+                        <p class="TableTextEmphasis">not</p>
+                        <p class="TableTextEmphasis">only</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select an option from this drop-down if you want to set conditional logic on your media query: not, only.</p>
+                        <p class="TableText">This field is enabled only after you select an option in the next field.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">(not set)</p>
+                        <p class="TableTextEmphasis">all</p>
+                        <p class="TableTextEmphasis">print</p>
+                        <p class="TableTextEmphasis">screen</p>
+                        <p class="TableTextEmphasis">speech</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select an option from this drop-down to define the type of media to which the media query should apply: all, print, screen, speech.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">(not set)</p>
+                        <p class="TableTextEmphasis">[Media Features]</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select the media feature you want to apply to the query (e.g., width, height, aspect-ratio).</p>
+                        <p class="TableText">For more information about the option in this field, and the others related to media queries, see <a href="https://www.w3.org/TR/css3-mediaqueries/">https://www.w3.org/TR/css3-mediaqueries/</a>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">[Other Fields]</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Depending on your selections in the previous fields, other fields will display, allowing you to add more information (e.g., size value, unit of measurement).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

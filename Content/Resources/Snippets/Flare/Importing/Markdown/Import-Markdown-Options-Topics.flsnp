@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul type="1">
+            <li>
+                <p><span class="SetOffFirstLevel">Convert all simple lists to paragraph lists </span>If you leave this option disabled, bulleted and numbered lists will be imported so that each item in the list just has an &lt;li&gt; tag. If you enable this option, &lt;p&gt; tags will be added within each &lt;li&gt; tag. However, you can add &lt;p&gt; tags later manually for list items where you want them. The benefit of having &lt;p&gt; tags within list items is that you can easily add paragraphs or other content within that item before the next bullet or number is shown. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Lists/Main-Activities/Creating-Numbered-Bulleted-Lists.htm">Creating Numbered and Bulleted Lists</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Markdown supports both simple and paragraph lists.  Although you can import simple lists as paragraph lists using this option, the reverse is not true. If you have paragraph lists in Markdown, they will not be converted to simple lists if you deselect the option. Those will just be imported as paragraph lists regardless of the option setting.</p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel">Convert all definition lists to definition paragraph lists </span>If you leave this option disabled, definition lists will be imported so that each item in the list just has a &lt;dd&gt; or &lt;dt&gt; tag. If you enable this option, &lt;p&gt; tags will be added within each &lt;dd&gt; or &lt;dt&gt; tag. However, you can add &lt;p&gt; tags later manually for definition or term items where you want them. Most authors tend to create definition lists without &lt;p&gt; tags, but you can add them if you want. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Lists/Main-Activities/Creating-Definition-Lists.htm">Creating Definition Lists</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">Approximate filename length </span>Enter the maximum number of characters to use for naming topic files. The default is 24.</li>
+        </ul>
+    </body>
+</html>

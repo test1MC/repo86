@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open a project.</li>
+            <li>
+                <p>Select&#160;<span class="Emphasis">Analysis &gt; Suggestions &gt; Cross-Reference Suggestions</span>.</p>
+                <p>The Cross-Reference Suggestions window pane opens. </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Shared/All/General/Do-One-Following.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p>Click the <span class="Emphasis">Convert to Cross-References</span> button <img src="../../../../../Images/Flare/Interface/Buttons/Convert-Xref-btn.png" alt="" title="" class="ReduceButtonSize" /> in the local toolbar.</p>
+                        <p>OR</p>
+                    </li>
+                    <li>
+                        <p>Right-click any file in the Cross-References Suggestions window pane and from the context menu, select <span class="Emphasis">Convert to Cross-References</span>.</p>
+                    </li>
+                </ul>
+                <p>The Convert to Cross-Reference dialog opens.</p>
+            </li>
+            <li>In the Convert to Cross-References dialog, you can make selections from the following options.<MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide,Flare-Guides.Flare-Navigation-Links-Guide" /><p class="Subheading">Target Options </p><p>In the <span class="Emphasis">Target Option</span> field, select one of the following to indicate how you want the destination file to open when the link is clicked.</p><ul><li><span class="SetOffFirstLevel">Link Target </span>This uses the target that is set in the original link. </li><li><p><span class="SetOffFirstLevel">Target Frame </span>This enables the Target Frame field (immediately below), which you can use to select one of the following target frame options.</p><MadCap:snippetBlock src="../../../../Shared/Co-Fl/Nav-Links/Target-Frame-Descriptions-Bullets.flsnp" /><p MadCap:conditions="General.Online-Only"><img src="../../../../../Images/Flare/Nav-Links/Convert-Xref1.png" class="MaxWidth80Percent" /></p></li></ul><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide,Flare-Guides.Flare-Navigation-Links-Guide" /><p class="Subheading">Screen Tip Options </p><p>In the <span class="Emphasis">Screen Tip Option</span> field, select one of the following to add a screen tip to the link. This is useful when it comes to accessibility.</p><ul><li><p><span class="SetOffFirstLevel">Link Alt Text </span>This uses the screen tip text that is set in the original link.</p><p><img src="../../../../../Images/Flare/Nav-Links/Convert-Xref2.png" class="MaxWidth100Percent" /></p></li><li><p><span class="SetOffFirstLevel">Screen Tip </span>This uses the screen tip text that you enter in the Screen Tip field (immediately below).</p><p MadCap:conditions="General.Online-Only"><img src="../../../../../Images/Flare/Nav-Links/Convert-Xref3.png" class="MaxWidth100Percent" /></p></li></ul><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide,Flare-Guides.Flare-Navigation-Links-Guide" /><p class="Subheading">Cross-Reference Style Class </p><p>In the <span class="Emphasis">XRef Class</span> field, you can set the cross-reference's style class and format . The style class is previewed to the right.</p><p><img src="../../../../../Images/Flare/Nav-Links/Convert-Xref4.png" class="MaxWidth80Percent" /></p><ul><li><p><span class="SetOffFirstLevel">Edit </span>You can click <span class="Emphasis">Edit</span> to change the selected cross-reference style class. This opens the Edit Cross-Reference Style Class Dialog. </p><p><img src="../../../../../Images/Flare/Nav-Links/Xref-Style-Dialog.png" class="MaxWidth80Percent" /></p></li><li><p><span class="SetOffFirstLevel">New </span>You can click <span class="Emphasis">New</span> to create a new cross-reference style. This opens the New Cross-Reference Style Class Dialog.</p></li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../../../Shared/All/General/Click-OK.flsnp" /> &#160;A message indicates how many files have been updated. </li>
+        </ol>
+    </body>
+</html>

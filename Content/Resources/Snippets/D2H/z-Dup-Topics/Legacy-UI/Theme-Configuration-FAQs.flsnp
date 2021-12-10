@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Here are the answers to some frequently asked questions (FAQs) about customizing NetHelp.</p>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">General</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>General</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are some general FAQs.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Why do I get the error message "The content is not shown because JavaScript is disabled" when I try to view my NetHelp Targets?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>
+                            <img src="../../../../Images/D2H/Themes/Theme-Error-Message.png" height="175" class="MaxWidth100Percent" />
+                        </p>
+                        <p>NetHelp targets that are opened locally (on your machine) may display this message, depending on your security settings. You could add the Mark of the Web (MOTW) to your project in the Help Targets dialog.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Design-Guide"> See the online Help or the <span class="EmphasisItalic">Targets Guide</span>.</MadCap:conditionalText></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I change the position of items within a NetHelp theme?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Some things are changed in the Theme Designer; some in the layout.html file. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/Using-NetHelp-Theme-Designer.htm">Using the NetHelp Theme Designer</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Themes/Additional-Theme-Customizations.htm">Additional Theme Customizations</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Using-NetHelp-Theme-Designer.htm">Using the NetHelp Theme Designer</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Additional-Theme-Customizations.htm">Additional Theme Customizations</MadCap:xref>.</MadCap:conditionalText></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">Header Area</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Header Area</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are FAQs for the header area.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I add a logo to the header of a NetHelp Theme?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>In the Theme Designer, click on the header to open the Page Header settings and choose <span class="Emphasis">Logo Image</span> (Tabs and Accordion themes only). For the Responsive theme, Logo Image is in the sidePanel settings. You can specify a logo there. It will appear in the upper-left of your header. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/NetHelp-Theme-Designer-Settings-Tabs-Accordion.htm">NetHelp Theme Designer Settings (Tabs and Accordion)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/NetHelp-Theme-Designer-Settings-Tabs-Accordion.htm">NetHelp Theme Designer Settings (Tabs and Accordion)</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p>You can also add a URL&#160;or JavaScript link to a logo image in a custom theme. This makes the logo interactive, opening another location or performing some kind of action when a user clicks it.</p>
+                        <p>
+                            <img src="../../../../Images/D2H/Themes/Logo-URL1.png" alt="" title="" class="MaxWidth100Percent">
+                            </img>
+                        </p>
+                        <p>
+                            <img src="../../../../Images/D2H/Themes/Logo-URL2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>I want to change the font and color of the Title in my NetHelp header, how do I do that?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>You need to edit a section of the user.css file in your theme. This file can be found on your computer in C:\Users\[username]\Documents\My Doc-To-Help Projects\Doc-To-Help\Themes\NetHelp 2.0\Themes\[name of theme] (Tabs and Accordion themes only). Here is the section.</p>
+                        <MadCap:codeSnippet>
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">#c1headerTextCellTextCell h1
+{
+	vertical-align: bottom;
+	color:#ff9933;
+	font-size:60x; 
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:normal;
+	font-style:normal
+}</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I turn the buttons on the right—previous, next, home, print, email—on and off, or change the images?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>In the Theme Designer, click on the button to open its settings. Click on the <span class="Emphasis">Icon</span> button to change the image. To turn buttons on or off, or create new ones, click in the toolbar area to open the Toolbar settings. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/NetHelp-Theme-Designer-Settings-Tabs-Accordion.htm">NetHelp Theme Designer Settings (Tabs and Accordion)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/NetHelp-Theme-Designer-Settings-Tabs-Accordion.htm">NetHelp Theme Designer Settings (Tabs and Accordion)</MadCap:xref>.</MadCap:conditionalText></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Can I add text to the previous, next, home, print, and email buttons?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>In the Theme Designer, click on the button to open its settings. Select the <span class="Emphasis">Show Label</span> check box to add a text label to the button. </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I turn off the "Created with Doc-To-Help" button in my NetHelp Theme?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>In the Theme Designer, use the drop-down in the Settings area and choose <span class="Emphasis">toolbars.topicTop</span> (Tabs and Accordion themes only). Click the <span class="Emphasis">Wrench</span> icon next to <span class="Emphasis">Content</span> and delete the <span class="Emphasis">Created with Doc-To-Help</span> button off in the Edit Toolbar Buttons dialog. </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">TOC Panel</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>TOC Panel</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are FAQs for the TOC panel.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How do I change the Table of Contents, Index, and Search tabs to accordion buttons?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The default theme for NetHelp is Tabs. You can choose the Accordion theme instead (or the Responsive theme). In the Theme Designer, click the <span class="Emphasis">Theme</span> drop-down and choose <span class="Emphasis">Accordion</span>.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Can I remove the Index or Search tabs (or accordion buttons)?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Yes, in the Theme Designer, click on the <span class="Emphasis">Index</span> or <span class="Emphasis">Search</span> areas to open their settings. Clear the <span class="Emphasis">Visible</span> check box. (Only the Tabs and Accordion themes have a Search tab.)</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Can I change the icons used next to the topics in the Table of Contents?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Yes, in the Theme Designer, click on the <span class="Emphasis">Table of Contents</span> to open its TOC settings.   Click on the appropriate icon to change the image or add a new one. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/NetHelp-Theme-Designer-Settings-Tabs-Accordion.htm">NetHelp Theme Designer Settings (Tabs and Accordion)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/NetHelp-Theme-Designer-Settings-Tabs-Accordion.htm">NetHelp Theme Designer Settings (Tabs and Accordion)</MadCap:xref>.</MadCap:conditionalText></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">Color Scheme</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Color scheme</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are FAQs for the color scheme.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>I would like to change the color theming of my NetHelp target.</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>In the Theme Designer, you can use the <span class="Emphasis">Style Sheet</span> drop-down to choose another stylesheet. If you wish to create additional style sheets, click the <span class="Emphasis">Add New Style Sheet</span> button. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/Creating-Adding-Stylesheets.htm">Creating and Adding New Theme Stylesheets</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Creating-Adding-Stylesheets.htm">Creating and Adding New Theme Stylesheets</MadCap:xref>.</MadCap:conditionalText></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">Icons</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Icons</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are FAQs for the icons.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How Do I change the "Related Topics" icon (the automatic subtopic links after "More" at the end of topics; by default an arrow icon)?</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>In the Theme Designer, click in the topic area to open the Topic settings. Click on the <span class="Emphasis">Related Topics</span> icon to change the image or add a new one. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/NetHelp-Theme-Designer-Settings-Tabs-Accordion.htm">NetHelp Theme Designer Settings (Tabs and Accordion)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/NetHelp-Theme-Designer-Settings-Tabs-Accordion.htm">NetHelp Theme Designer Settings (Tabs and Accordion)</MadCap:xref>.</MadCap:conditionalText></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">Localization</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Localization</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are FAQs for localization.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>I would like to change the language used in my NetHelp theme.</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Doc-To-Help includes configuration files for 14 languages. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/Using-Settings-List-Editor-Localization-More.htm">Using the Settings List Editor for Localization and More</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Using-Settings-List-Editor-for-Localization-More.htm">Using the Settings List Editor for Localization and More</MadCap:xref>.</MadCap:conditionalText><![CDATA[  ]]></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

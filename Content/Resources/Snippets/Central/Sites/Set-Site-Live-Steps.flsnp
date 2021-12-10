@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>On the left side of the interface, click <b>Sites</b>.</li>
+            <li>
+                <p>With the <span class="Emphasis">Sites</span> tab selected at the top, click the name of the site that you want to set as "live."</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Sites/Set-Live1.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <li>
+                <p>In the dialog, select the specific build you want to be associated with the live site.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Sites/Set-Live4.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Unless the live site is also set as private and intended for internal purposes in your company, it is recommended that you associate the live site with a specific build when creating or editing the site, rather than choosing the "Latest Build" option. Otherwise, a build that isn't yet ready to be published might end up being the live output that your customers see.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>Select <span class="Emphasis">Set live</span>.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Sites/Set-Live5.png" alt="" title="" class="MaxWidth75Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p> Click <b>Save</b>.  An icon is shown next to the site, and if you click the row to expand it, the URL for the published output is shown.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Sites/Set-Live2.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>Also, if you look on the Builds page, you will see a live link icon <img src="../../../Images/Central/Interface/Icons/Live-Link-ico.png" alt="" title="" class="ReduceButtonSize" /> in that build row. This icon indicates that the build is associated with a live site, but that the live status is not set here, but rather on the Sites page.</p>
+                    <p>
+                        <img src="../../../Images/Central/Sites/Set-Live3.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Use the Related Topics window pane to review and edit your related topics. You can view related topics three ways: by the hierarchy (TOC) structure, by keyword (index) entry, or by group.</p>
+        <p>Clicking on a topic, group, or keyword in the upper half of the Related Topics window view will display related topics in the lower half.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Nav-Links/Managing-Related-Topics.htm">Managing Related Topics</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Managing-Related-Topics.htm">Managing Related Topics</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide"> See the online Help or the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>.</MadCap:conditionalText></p>
+        <p MadCap:conditions="Snippets.Snippet2">
+            <img src="../../../../Images/D2H/Interface/Window-Panes/Related-Topics2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="Snippets.Snippet1">
+            <img src="../../../../Images/D2H/Interface/Window-Panes/Related-Topics5.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+        </p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>buttons in Toolbar</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Expand-All-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Expand the list.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Collapse-All-btn.png" alt="" title="" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Collapse the list.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="Snippets.Snippet1">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Filter-btn.png" class="MaxWidth100Percent" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Filter the contents by entering a search string in the line below when you click this button.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Topics-btn.png" alt="" title="" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Display topics in a hierarchy (TOC) structure, as well as their related topics.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Groups-btn.png" alt="" title="" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Display groups, as well as their related topics.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Index-Keyword-btn.png" alt="" title="" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Display index keywords, as well as their related topics.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Disable-Subtopic-Relations-btn.png" alt="" title="" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Disable subtopic relations.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Right-Click</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can right-click on a topic in the Hierarchy to do the following:</p>
+                <ul>
+                    <li>
+                        <p>Change the sort to <span class="Emphasis">By Document</span> or <span class="Emphasis">Alphabetical</span></p>
+                    </li>
+                    <li>
+                        <p><span class="Emphasis">Disable Subtopic Relations</span>
+                        </p>
+                    </li>
+                    <li><span class="Emphasis">Expand All</span> topics</li>
+                    <li><span class="Emphasis">Collapse All</span> topics</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>(Optional) Add a Central Account skin component if you want to control the look of the account link in the output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Skins/Process/Adding-Skins-Project.htm">Adding Skin Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Open a topic (if you want the link to display on only one page) or template page (if you want the link to display on many pages).</li>
+            <li>In the topic or template page, place your cursor where you want the account link to be added. In a template page you may need to press the down arrow on your keyboard and then press <span class="Emphasis">ENTER</span> at the correct location. Then select <span class="Emphasis">Insert &gt; Proxy &gt; Insert Central Account Proxy</span>.</li>
+            <li>(Optional) In the dialog, you can select a skin component to affect the look of the account link.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>If you inserted the proxy into a template page, make sure to associate the template page with a target. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Template-Pages/Process/Associating-Template-Pages-Targets.htm">Associating Template Pages With Targets</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Open the regular HTML5 skin, and set the account link to be hidden from the top of the output.<ol style="list-style-type: lower-alpha;"><li>In the local toolbar, make sure <span class="Emphasis">Web Medium</span> is selected.</li><li>On the left, select the <span class="Emphasis">Styles</span> tab.</li><li>Scroll down and expand <span class="Emphasis">Central Account Element &gt; Layout</span>.</li><li>Set the <span class="Emphasis">Display</span> field to <span class="Emphasis">none</span>.</li><li><MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" /></li></ol></li>
+        </ol>
+    </body>
+</html>

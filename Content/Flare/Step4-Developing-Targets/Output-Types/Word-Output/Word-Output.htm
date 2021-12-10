@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Printed-Output.flmsp');">
+    <head><title></title>
+        <meta name="description" content="You can generate Word output in one of the following formats: DOCX, DOC, PDF, XPS." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" MadCap:conditions="Products.Flare" />
+            <MadCap:keyword MadCap:conditions="Products.Flare" term="Microsoft Word:output;Print-based output:Microsoft Word" />
+            <MadCap:concept term="FilterFeatures" />Word Output</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides/Print-Based-Output.flsnp" />
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Output/Word/Word-Summary.flsnp" /> See <MadCap:xref href="Specifying-Word-Output-Format.htm">Specifying the Microsoft Word Output Format</MadCap:xref>.</p>
+                <div class="video" MadCap:conditions="General.Server-Only">
+                    <p class="buttonT32-play"><a href="https://youtu.be/ueMXmyKUUDE" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+                    </p>
+                </div>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Micro-Content/MLP-Word.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Importing/Word/Note-Word-Supports-2003-Newer.flsnp">
+                    </MadCap:snippetBlock>
+                    <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/Word/Note-Word-DOCX-XPS.flsnp">
+                    </MadCap:snippetBlock>
+                    <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/Word/Note-Word-Master-Pages-Layouts.flsnp">
+                    </MadCap:snippetBlock>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Title page layouts affect auto-generated TOCs in Word. If your Flare project includes a title page, and you selected the "Generate TOC proxy"&#160;option in the Target Editor <MadCap:conditionalText MadCap:conditions="General.Online-Only">(see <MadCap:xref href="../../../Proxies/TOCs/Auto-Generating-TOCs-Print1.htm">Auto-Generating TOCs for Print</MadCap:xref>) </MadCap:conditionalText>the auto-generated TOC will appear after the title page. If title page is not specified, the auto-generated TOC&#160;will appear at the beginning of the output. Additionally, although the auto-generated TOC is considered a chapter break, it will use the same page layout file that is used for the title page.</p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> You will see a build log warning if your Flare project uses a header, footer, or body frame that falls outside of the page layout boundaries supported by Word. To resolve this error, you can modify your page layouts in Flare so they are within Word's page layout boundaries.</p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you generate Word output, &lt;div&gt; tags appear as single-cell tables. This lets you move the div in your output, resize it, or even add additional rows or columns. Any styling (such as background color) that you have applied to your div will appear in the output. Additionally, you can nest &lt;div&gt; tags within tables or within other &lt;div&gt; tags. Because each div appears as a single-cell table, you can resize or edit each nested element individually. &lt;div&gt; tags also support borders, float properties, and autonumbering.</p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When using &lt;div&gt; tags, styling, such as borders or background colors, must be applied to the div (not to the paragraph tag within the div) to appear in the generated Word output.</p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When generating Word output, autonumbering is preserved for &lt;div&gt; tags, keywords, concepts, empty tags, and other non-text elements.</p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Flare does not support background images in generated Word output. If you use background images (e.g., in a note div, in a cover page layout), you can apply them in&#160;Word after generating the output from Flare.</p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+    </body>
+</html>

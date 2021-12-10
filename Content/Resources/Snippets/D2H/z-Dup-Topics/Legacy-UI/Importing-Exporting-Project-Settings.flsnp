@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2028" MadCap:lastWidth="1416">
+    <body>
+        <p>Project settings can be copied from one project to another using the Project Settings Import or Export Wizard. This can save significant time if you’d like to use the same settings for multiple projects.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Project Objects</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Project objects can be copied from another Doc-To-Help project, or from an XML file. Following are the objects that are available for import/export:</p>
+                <ul>
+                    <li>Keywords</li>
+                    <li>Groups</li>
+                    <li>Variables</li>
+                    <li>Attributes</li>
+                    <li>Windows</li>
+                    <li>Styles</li>
+                    <li>Scripts</li>
+                    <li>Templates</li>
+                    <li>Style Sheets</li>
+                    <li>Help Targets</li>
+                    <li>Project Properties</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Import Project Settings</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Choose <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Import Project Settings</span><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">File &gt; Doc-To-Help &gt; Common Tasks &gt; Import Project Settings</span></MadCap:conditionalText>. The Project Settings Import Wizard opens.</p>
+                    </li>
+                    <li>Choose to import from an <span class="Emphasis">XML</span> file or an existing <span class="Emphasis">Doc-To-Help</span> project.</li>
+                    <li>Click <span class="Emphasis">Next</span>.</li>
+                    <li>
+                        <p>Click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />, browse to the XML file or Doc-To-Help project file (.d2h) location, select it, and click <span class="Emphasis">Open</span>.</p>
+                    </li>
+                    <li>Click <span class="Emphasis">Next</span>.</li>
+                    <li>
+                        <p>Select the project objects you’d like to import. By default, all are selected.</p>
+                    </li>
+                    <li>
+                        <p>(Optional) If you’d like to overwrite the existing settings in the current project (rather than add to them), select <span class="Emphasis">Overwrite objects existing in the current project</span>.</p>
+                    </li>
+                    <li>
+                        <p>Click the <span class="Emphasis">Import</span> button. Any issues with the import will be displayed.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Export Project Settings</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Choose <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Export Project Settings</span><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">File &gt; Doc-To-Help &gt; Common Tasks &gt; Export Project Settings</span></MadCap:conditionalText>. The Project Settings Export Wizard opens.</p>
+                    </li>
+                    <li>Choose to export from an <span class="Emphasis">XML</span> file or an existing <span class="Emphasis">Doc-To-Help</span> project.</li>
+                    <li>Click <span class="Emphasis">Next</span>.</li>
+                    <li>
+                        <p>Click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />, browse to the XML file or Doc-To-Help project file (.d2h) location, select it, and click <span class="Emphasis">Open</span>.</p>
+                    </li>
+                    <li>Click <span class="Emphasis">Next</span>.</li>
+                    <li>
+                        <p>Select the project objects you’d like to export. By default, all are selected.</p>
+                    </li>
+                    <li>
+                        <p>(Optional) If you’d like to overwrite the existing settings in the current project (rather than add to them), select <span class="Emphasis">Overwrite objects existing in the current project</span>.</p>
+                    </li>
+                    <li>
+                        <p>Click the <span class="Emphasis">Export</span> button. Any issues with the export will be displayed.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Storing Project Settings in XML files</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To keep your Doc-To-Help project settings in an XML file that you can modify and use in any project, you must first export your project settings to XML using the Project Settings Export Wizard. Any changes you make manually to the XML file must conform to the XML schema Doc-To-Help uses to validate the file. This schema file is named "c1d2h.xsd" and is located by default in the <MadCap:snippetText src="../../Projects/D2H-Path.flsnp" /> directory. Storing project settings in an XML file makes it possible to automatically modify Doc-To-Help projects.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">You can also import settings from another Doc-To-Help project using the New Project Wizard.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Introduction/Steps/Creating-Projects.htm">Creating  Projects</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Steps/Creating-Projects-DNH.htm">Creating  Projects</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

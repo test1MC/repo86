@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you <a href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Creating-Sites.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">create a site</a> and <a href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Setting-Site-Vanities.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">set a site vanity</a>, you can select the project and target for the output that you want to make available to other Central user's privately. When doing this, select to use the <span class="Emphasis">Latest Build</span> instead of a specific build.</p>
+            <p MadCap:autonum="">The site vanity can be used in place of the auto-generated ID that is normally part of a private URL. Anyone referencing your private URL will always see the most recent build for that target, instead of having to use a different private URL each time you generate a new build.</p>
+            <p>For example, you might have a private URL for a build, and the end of that URL looks something like this:</p>
+            <p>…/fictionsoft/cfb33266bffa45048d636878f00b1317/Default.htm</p>
+            <p>If you have a site vanity called “module1,” you could replace the auto-generated ID in the private URL. That way, you could give others a URL that looks more like this:</p>
+            <p>…/fictionsoft/module1/Default.htm</p>
+            <p>If anyone uses this second URL that contains the site vanity, the most recent build in the target will always open in the browser.</p>
+        </div>
+    </body>
+</html>

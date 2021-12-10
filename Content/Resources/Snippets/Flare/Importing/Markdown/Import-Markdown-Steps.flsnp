@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Select <span class="Emphasis">Project &gt; Import &gt; Markdown Documents</span>.</li>
+            <li>
+                <p>In the wizard, choose either <span class="Emphasis">Import into a new project</span> (and complete the fields below) or <span class="Emphasis">Import into this project</span>. However, if you do not have a project currently open, the file(s) will automatically be imported into a new project.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li><span class="Emphasis">Project name</span> Type a name for the new <MadCap:variable name="Other.Product" /> project that will be created after you perform the import.</li>
+                        <li><span class="Emphasis">Project folder</span> Accept the default location for the new project or click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to find and select a folder.</li>
+                        <li>
+                            <p><span class="Emphasis">Output type</span> Select the primary target for your project.</p>
+                            <MadCap:snippetBlock src="../../Targets/Primary-Target-Step-Explanation.flsnp" MadCap:conditions="General.Online-Only" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>Click <b>Add file</b> to choose Markdown documents. You can also select other options as necessary.</p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../Import-Add-Files-Button-Options3.flsnp" />
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+            <li>
+                <p><span class="micro-content-only"> (Optional) On the left, select <b>Styles</b>. You can use this page to associate the project with an external stylesheet, restore mapping default settings, map the Markdown styles to Flare styles, and choose which styles should be the start of new topics.</span><span class="topic-only">(Optional) On the left, select <b>Styles</b>. You can use this page for various style settings.</span>
+                </p>
+                <div class="topic-only">
+                    <p class="Subheading">Associate a Stylesheet</p>
+                    <p>This is purely optional. You can choose an existing stylesheet (such as one in the Flare project you are importing files into) by clicking <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. After doing this, styles from that stylesheet become available in the mapping drop-down fields below, so that you can map Markdown tags to those from the stylesheet you chose.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Importing/Markdown/Import-Markdown-Wizard-Associate-Stylesheet.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <p class="Subheading">Style Mapping</p>
+                    <ul type="1">
+                        <li><b>Restore defaults</b> If you make mapping selections in the fields below but then change your mind, you can click this button, which will return the default settings.</li>
+                        <li>
+                            <p><b>[Drop-Downs]</b> You can expand these sections to see the styles found in the Markdown document(s).</p>
+                            <ul>
+                                <li>
+                                    <p><span class="Emphasis">Block </span>These are styles that take up the entire space in a line (e.g., paragraphs, headings)</p>
+                                </li>
+                                <li>
+                                    <p><span class="Emphasis">List </span>These are styles that are used to create bulleted and numbered lists. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See  <MadCap:xref href="../../../../../Flare/Lists/Main-Activities/Creating-Numbered-Bulleted-Lists.htm">Creating Numbered and Bulleted Lists</MadCap:xref> and <MadCap:xref href="../../../../../Flare/Lists/Main-Activities/Editng-List-Styles/Editing-List-Styles.htm#TypesListStyles">Types of List Styles</MadCap:xref>.</MadCap:conditionalText></p>
+                                </li>
+                                <li>
+                                    <p><span class="Emphasis">Definition List </span>These are styles that are used to create definition lists, which are typically groups of terms and definitions. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Lists/Main-Activities/Creating-Definition-Lists.htm">Creating Definition Lists</MadCap:xref> and <MadCap:xref href="../../../../../Flare/Lists/Main-Activities/Editng-List-Styles/Editing-List-Styles.htm#TypesListStyles">Types of List Styles</MadCap:xref>.</MadCap:conditionalText></p>
+                                </li>
+                                <li>
+                                    <p><span class="Emphasis">Inline </span>These are character-level styles that are applied only to certain words within a block (e.g., hyperlinks, bold text).</p>
+                                </li>
+                            </ul>
+                            <p>
+                                <img src="../../../../Images/Flare/Importing/Markdown/Import-Markdown-Wizard-Expand-Collapse-Mapping1.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                            <p class="Subheading">Selecting Styles</p>
+                            <p>In these drop-down sections, you can map a style from the Markdown document(s) to another style. </p>
+                            <p>Flare automatically populates the "Map to" column with the recommended style. For example, if Heading 1 is found in the Markdown document, the recommended style to map to is h1 in Flare. Therefore, you often don't need to choose a different style. However, sometimes you might want something different. If you want to map the style to something other than what is recommended, click the drop-down in a cell to select a style. </p>
+                            <div class="example">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Code Blocks</p>
+                                <p>You have a code block in the Markdown document, Flare initially maps it to the MadCap:codeSnippet style.</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Markdown/Code-Block1.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                                <p>If you leave this setting, the content will be brought in to Flare like this:</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Markdown/Code-Block3.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <p>However, you might want to map code blocks to the "pre" style instead.</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Markdown/Code-Block2.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                                <p>In that case, the content will be imported like this:</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Markdown/Code-Block4.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                            </div>
+                            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+                            <p class="Subheading">Specifying New Topics</p>
+                            <p>If you want to specify that new topics should start with certain styles, expand the <span class="Emphasis">Block</span> section and click the check box next to that style. The h1 style is selected by default (most authors start new topics on heading styles), but you can choose any block styles that you like.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Importing/Markdown/Import-Markdown-Wizard-Styles-Start-New-Topics.png" alt="" title="" class="MaxWidth80Percent" />
+                            </p>
+                        </li>
+                    </ul>
+                    <p class="Subheading">Preview</p>
+                    <p>When you select a style row, a preview is shown at the bottom so you can see how it looks.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <li>
+                <p>(Optional) On the left, select <b>Advanced Options</b>. You can use this page to set various options. <span class="micro-content-only">Click the quick Help buttons <img src="../../../../Images/Shared/All/Interface/Buttons/Quick-Help-btn.png" alt="" title="" /> next to sections for more information.</span></p>
+                <div class="topic-only">
+                    <p class="Subheading">Styles</p>
+                    <MadCap:snippetBlock src="Import-Markdown-Options-Styles.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Import-Guide" />
+                    <p class="Subheading">Topics</p>
+                    <MadCap:snippetBlock src="Import-Markdown-Options-Topics.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <p class="Subheading">Resources</p>
+                    <MadCap:snippetBlock src="Import-Markdown-Options-Resources.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+                    <p class="Subheading">Tables</p>
+                    <MadCap:snippetBlock src="Import-Markdown-Options-Tables.flsnp" />
+                    <p class="Subheading">Reimport</p>
+                    <MadCap:snippetBlock src="Import-Markdown-Options-Reimport.flsnp" />
+                </div>
+            </li>
+            <li>Click <b>Finish</b>, then <b>Accept</b>.</li>
+        </ol>
+    </body>
+</html>

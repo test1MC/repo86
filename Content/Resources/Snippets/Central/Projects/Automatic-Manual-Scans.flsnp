@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Whenever you push changes for a project to Central, a new scan will be automatically initiated. While the scan is in process, a green progress bar will move across the top. </p>
+        <p>
+            <img src="../../../Images/Central/Projects/Reports/Reports5.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <p>When you no longer see the green bar, the scan is finished. Larger projects will take longer to scan.</p>
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide">
+        </MadCap:pageBreak>
+        <p>The last time the project was scanned is indicated in the upper-left part of the page, next to the Reports pane heading.</p>
+        <p>
+            <img src="../../../Images/Central/Projects/Reports/Reports6.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+        <p>You can also click <img src="../../../Images/Central/Interface/Buttons/Scan-btn.png" alt="" title="" class="ReduceButtonSize" /> in the toolbar to initiate a scan manually whenever you like.</p>
+        <p>
+            <img src="../../../Images/Central/Projects/Reports/Reports7.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This feature is currently limited to projects smaller than 1 GB. Projects larger than that will not be scanned for reports or statistics.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you already had a Flare project uploaded before this feature was introduced, you will not initially see data on the Reports page. You must either perform a manual scan or push changes for that project to Central first. After that, the Reports page will populate.</p>
+        </div>
+    </body>
+</html>

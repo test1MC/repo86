@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-Get-Started-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Applying condition tags set up for print-based and online output. " />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Getting-Started.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:getting started" />
+            <MadCap:keyword term="Conditions" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterOutput" />Using Conditions</h1>
+        <p>The San Diego project has condition tags set up for print-based and online output. In this lesson we will apply these conditions to a couple of paragraphs.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Apply Condition Tags</h2>
+        <ol>
+            <li>In the Content Explorer, double-click <span class="Emphasis">Introduction.htm</span>. The topic opens in the XML&#160;Editor.</li>
+            <li>
+                <p>Right-click the snippet under the heading that you inserted previously. In the context menu, click <span class="Emphasis">Open Snippet File</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The snippet opens in a new tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>Right-click the <span class="Emphasis">p</span> structure bar to the left of the paragraph that begins “In this PDF guide…”</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the context menu, select <span class="Emphasis">Conditions</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions4.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+                <p>The Condition Tags dialog opens. In this dialog, you can see the Default condition tag set. There are some conditions in the set: Mobile, PrintOnly, ScreenOnly, Tablet, and Mobile. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions3.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In your own project, you can create as many condition tag sets and conditions as you need. And you don't need to use the ones provided in the Default condition tag set. They're simply a starting point for you.</p>
+                </div>
+            </li>
+            <li>Since we want this heading to appear in our PDF, select the check box next to <span class="Emphasis">PrintOnly</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                </p>
+                <p>If you have markers turned on (by clicking the down arrow next to <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Show-Tags-btn.png" class="ReduceButtonSize" alt="" /> in the local toolbar and selecting <span class="Emphasis">Show Markers</span>), the entire paragraph is highlighted red.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions6.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you still do not see the red highlight, you may need to turn your conditional indicators on. To do this, click <img src="../../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" alt="" title="" class="ReduceButtonSize" /> in the bottom toolbar of the XML&#160;Editor.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                <p>Now we will apply the other condition tag to the next paragraph. But this time we're going to do it a little differently. Conditions can also be associated with styles, so we're going to use that method.</p>
+            </li>
+            <li>If you haven't yet closed the stylesheet, you can click the <span class="Emphasis">Styles.css</span> tab at the top of the editor area. Otherwise, in the Content Explorer, navigate to <span class="Emphasis">Resources &gt; Stylesheets</span> and double-click <span class="Emphasis">Styles.css</span>. The Stylesheet Editor opens.</li>
+            <li>In the local toolbar, click <span class="Emphasis">Add Selector</span>. The New Selector dialog opens.</li>
+            <li>Previously in this tutorial, we created a class of the parent img style (see <MadCap:xref href="../Styles/Creating-Style-Classes.htm">Creating Style Classes</MadCap:xref>). But now we're going to create something called a "generic style class." This class will not be directly associated with any parent style, which means that any parent style can use it. In the <span class="Emphasis">HTML Element</span> field, clear any text in it.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>In the <span class="Emphasis">Class Name</span> field, type <span class="TypedEntry">OnlineOnly</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>In the Stylesheet Editor, click in the drop-down in the upper-left corner and select <span class="Emphasis">All Styles</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the list of styles below, expand <span class="Emphasis">(Generic Classes)</span>.</li>
+            <li>
+                <p>Select <span class="Emphasis">OnlineOnly</span>, the class you just created.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>In the <span class="Emphasis">Show</span> drop-down field in the upper-right corner, select <span class="Emphasis">Show: All Properties</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Scroll down and expand the <span class="Emphasis">Unclassified</span> group below.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>Scroll down until you find the <span class="Emphasis">mc-conditions</span> property and click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" class="ReduceButtonSize" /> to the right of it.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The Condition Tags dialog opens.</p>
+            </li>
+            <li>Since our new generic style class is intended for online content only, select the check box next to <span class="Emphasis">ScreenOnly</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Now we will apply that new generic style class to one of the paragraphs in our snippet. Go back to the <span class="Emphasis">San-Diego-Intro.flsnp</span> snippet (remember, you can click its tab at the top of the editor area).</li>
+            <li>
+                <p>Right-click the <span class="Emphasis">p</span> structure bar just to the left of the sentence that begins with “This website…”</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions10.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>In the context menu, select <span class="Emphasis">Style Class</span> and then choose <span class="Emphasis">.OnlineOnly</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+                <p>If you have markers turned on, the entire paragraph is highlighted blue.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions5.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+                <p>This second method might seem like a lot of steps, but remember, creating the style class and associating a condition with it is a one-time setup. Once that is done, you can apply the generic style class to any parent tag (e.g., p, ol, img) that you want to be shown only in online output. And that's a very quick task.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+        <h2>How to Associate Condition Tags With a Target</h2>
+        <p>You have applied condition tags to content, but they won't do anything if you don't also associate them with the targets you are going to build. Associating the condition tags with a target tells Flare which conditions to include or exclude when building the output.</p>
+        <p>We have already associated conditions with the PDF&#160;target for you. But you still need to associate conditions with your new HTML5 target.</p>
+        <ol>
+            <li>In the Project Organizer, expand the <span class="Emphasis">Targets</span> folder.</li>
+            <li>Double-click the <span class="Emphasis">All-About-San-Diego-HTML5</span> target. The Target Editor opens to the right.</li>
+            <li>Select the <span class="Emphasis">Conditional Text</span> tab. This tab lets you select which conditions will be included and which will be excluded from the output. </li>
+            <li>Select the <span class="Emphasis">Default.PrintOnly</span> row so that it is highlighted.</li>
+            <li>
+                <p>In the <b>Action</b> section on the right, click <b>Exclude</b>. We <span class="EmphasisItalic">do not</span> want to see content marked with the print condition in the HTML5 target.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Select the <span class="Emphasis">Default.ScreenOnly</span> row so that it is highlighted.</li>
+            <li>
+                <p>In the <b>Action</b> section on the right, click <b>Include</b>. We <span class="EmphasisItalic">do</span> want to see content marked with the screen condition in the HTML5 target.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Conditions7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You might be wondering about the other tags (Mobile, Tablet, and Web) and the “Display by Media Query” section under the Include and Exclude options. Those can be used if you want to limit the content with the condition to certain devices (i.e., you can specify that something should be shown only when viewed on a large screen, a tablet screen, or a mobile phone screen). We’re not going to cover those options in this tutorial, but you can learn all about them from the online Help. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Conditions/Other-Information/Responsive-Conditions.htm">Responsive Conditions</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

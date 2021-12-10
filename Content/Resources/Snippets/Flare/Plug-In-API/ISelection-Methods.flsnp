@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">Bold() </span>Bolds the selection.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">ChangeBackColor(Color) </span>Changes the background of the selection to the specified <a href="http://msdn.microsoft.com/en-us/library/system.drawing.color.aspx" target="_blank">System.Drawing.Color</a>.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">ChangeFontFamily(string) </span>Changes the font family of the selection to the specified value.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">ChangeFontSize(float) </span>Changes the font size of the selection to the specified value.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">ChangeForeColor(Color) </span>Changes the foreground color of the selection to the specified <a href="http://msdn.microsoft.com/en-us/library/system.drawing.color.aspx" target="_blank">System.Drawing.Color</a>.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">FormatStyle(string) </span>Changes the span style of the selection to the specified CSS class and/or ID.</li>
+            <li>
+                <i>Color </i>
+                <span class="Emphasis">GetBackColor() </span>Returns the <a href="http://msdn.microsoft.com/en-us/library/system.drawing.color.aspx" target="_blank">System.Drawing.Color</a> of the background.</li>
+            <li>
+                <i>string </i>
+                <span class="Emphasis">GetFontFamily() </span>Returns the font family of the selection.</li>
+            <li>float<span class="Emphasis">GetFontSize() </span>Returns the font size of the selection.</li>
+            <li>
+                <i>Color </i>
+                <span class="Emphasis">GetForeColor() </span>Returns the <a href="http://msdn.microsoft.com/en-us/library/system.drawing.color.aspx" target="_blank">System.Drawing.Color</a> of the foreground.</li>
+            <li>
+                <i>string </i>
+                <span class="Emphasis">GetStyle() </span>Returns the CSS class and/or ID of the selection.</li>
+            <li>
+                <i>string </i>
+                <span class="Emphasis">GetText() </span>Returns the selected text.</li>
+            <li>
+                <i>IList&lt;XmlNode&gt; </i>
+                <span class="Emphasis">GetXmlNodeList() </span>Returns a list of <a href="http://msdn.microsoft.com/en-us/library/system.xml.xmlnode.aspx" target="_blank">System.Xml.XmlNode</a>(s) that the selection is a part of.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">Italicize() </span>Italicizes the selection.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">RemoveFormatStyle(string) </span>Removes the specified span style/class of the selection. If the specified argument is null, all inline formatting is removed from the selection.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">ReplaceText(string) </span>Replaces the selected text with the specified text.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">SetSelectionLength(int) </span>Sets the length of the selection to the specified value.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">Underline() </span>Underlines the selection.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                <p><span class="Emphasis">Include CSH ID meta tag </span>When this option is enabled, the topics in the generated output will include the identifiers from the linked alias file as meta tag content. This option is required when <span class="Emphasis">Use CSH identifiers</span> is selected in the <span class="Emphasis">URL Naming</span> field of the Destination Editor.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Include TOC path meta tag </span>When this option is enabled, the topics in the generated output will include the TOC path as meta tag content. This option is required when one of the TOC mapping options  is selected in the <span class="Emphasis">Category Mapping</span> field of the Destination Editor.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Content to include </span>Select the kinds of content that you want to include in the published output. This field is also available for HTML5, Eclipse Help, and HTML Help targets.</p>
+                <ul>
+                    <li>
+                        <p><span class="Emphasis">All Content </span>When you publish the destination, all content will be included and sent to Salesforce<span class="Registered-Trademark">®</span>.</p>
+                    </li>
+                    <li>
+                        <p><span class="Emphasis">Content linked directly or indirectly from the target </span>Only content files that are directly or indirectly referenced from the target are included and sent to Salesforce<span class="Registered-Trademark">®</span>. This means that if the target is using particular files such as a TOC, template page, and so on, other files linked directly or indirectly from them will be part of the output.</p>
+                    </li>
+                    <li>
+                        <p><span class="Emphasis">Content linked directly from the TOC </span>Only content files that are linked directly from the TOC are included and sent to Salesforce<span class="Registered-Trademark">®</span>.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p><span class="Emphasis">Alias File </span>If the <span class="Emphasis">Include CSH ID meta tag</span> option is enabled, the identifiers from the linked alias file will be used for the CSH ID meta tag content.</p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1168" MadCap:lastWidth="1511">
+    <body>
+        <p>You can create an index by inserting keywords in your Word source document.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Insert an Index Entry</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Word source document, select the text to be used as an index keyword.</li>
+                    <li>Select the <span class="Emphasis">Doc-To-Help</span> ribbon.</li>
+                    <li>In the <span class="Emphasis">D2HML Styles</span> group, click <span class="Emphasis">Keyword</span>. The Keyword dialog opens, and the selected text is displayed at the top of the dialog.</li>
+                    <li>(Optional) By default,  keyword will be the selected text. The phrase "Keyword defined by Text" is displayed in the Keyword field. If you would prefer to use another keyword, use one of these options:<ul><li>If you would like to assign one or more existing keywords to the text, select the appropriate check box(es).</li><li><p>If you would like to add a new keyword to the list and assign it, in the <span class="Emphasis">Keywords</span> area, click <span class="Emphasis">Add New Keyword</span>. An editable keyword will be created, titled "New Keyword." Type the new keyword within the box, and press <span class="Emphasis">ENTER</span>. Select the keyword check box.</p><p>To create a secondary keyword, select a keyword and click <span class="Emphasis">Add Secondary Keyword</span>. Type the new secondary keyword within the box, and press <span class="Emphasis">ENTER</span>. Select the keyword check box.</p></li></ul></li>
+                    <li>(Optional) If you want to hide the tag, you can select the <span class="Emphasis">Hide properties in document</span>. Clearing the <span class="Emphasis">Visible</span> check box will hide the text in your source document.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Styles/Showing-Hidden-Hotspots.htm">Showing Hidden Hotspots</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Styles/Showing-Hidden-Hotspots.htm">Showing Hidden Hotspots</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Tip</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip: &lt;/span&gt;&lt;/b&gt;">You can also insert keywords by dragging them from the Index and Groups window pane in the Doc-To-Help Project panel to your source document. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Nav-Links/Drag-Drop-Linking.htm">Drag-and-Drop Linking</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only"> and <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Index-Groups-Window-Pane.htm">Index and Groups Window Pane (Word)</MadCap:xref></MadCap:conditionalText>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Drag-Drop-Linking.htm">Drag-and-Drop Linking</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only"> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Index-Groups-Pane.htm">Index and Groups Window Pane (Doc-To-Help)</MadCap:xref></MadCap:conditionalText>.</MadCap:conditionalText></p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">Any new keywords created using this method will also be added to the Index and Groups window pane in <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help.</MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word.</MadCap:conditionalText> You can manage keywords from this window pane. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Indexes/Creating-Index-Keywords-Project.htm">Creating Index Keywords in a Project</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only"> and <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Index-Groups-Window-Pane.htm">Index and Groups Window View (Word)</MadCap:xref></MadCap:conditionalText>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Indexes/Creating-Index-Keywords-in-Project.htm">Creating Index Keywords in a Project</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only"> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Index-Groups-Pane.htm">Index and Groups Window Pane (Doc-To-Help)</MadCap:xref></MadCap:conditionalText>.</MadCap:conditionalText></p>
+                <p class="note">Links to keywords are created using the Link dialog. Links can be text or buttons; when selected, they display a dialog or popup window listing all the keyword topics.<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Nav-Links/Creating-Links.htm">Creating Links</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Creating-Links.htm">Creating Links</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

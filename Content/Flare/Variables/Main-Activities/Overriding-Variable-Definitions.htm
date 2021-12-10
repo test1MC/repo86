@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="dialog...;keyboard.);comment.);h;hh;.tif;(.css;HF;flvar;mcvariable;VariableSet.VariableName;MyVariables.CompanyName;VariableName" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Variables.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="If you want the definition for a variable to be different in a particular target, you can override the project level definition for that target in the Target Editor.&#xD;&#xA;" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Variables:definitions;Targets:variable definitions" />Overriding Variable Definitions in Targets</h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Variables/Override-Definition-Target.flsnp" />
+        </p>
+        <h2>How to Override a Variable Definition in a Target</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>Double-click the <span class="Emphasis">Targets</span> folder. The available targets are shown.</li>
+            <li>Double-click the target for which you want to override a variable definition. The Target Editor opens to the right, with tabs that you can use to customize that specific target.</li>
+            <li>Click the <span class="Emphasis">Variables</span> tab. The Variables tab shows all of the variable sets in your project and their associated variables.</li>
+            <li>Select the appropriate variable set.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+            <li>Do one of the following, depending on whether the variable has only one or multiple definitions in the Variable Set Editor.<MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Variables-Guide,General.Online-Only"> For information on adding multiple definitions, see <MadCap:xref href="Editing-Variables.htm">Editing Variables</MadCap:xref> and <MadCap:xref href="Editing-Date-Time-Variables.htm">Editing Date/Time Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Targets-Guide"> For information on adding multiple definitions, see the online Help.</MadCap:conditionalText><ul><li><span class="SetOffFirstLevel">Single Definition </span>Click in the <span class="Emphasis">Definition</span> cell for the variable that you want to override and press <span class="Emphasis">F2</span> on your keyboard. Then type a different definition and press <span class="Emphasis">ENTER</span> on your keyboard.</li><li><p><span class="SetOffFirstLevel">Multiple Definitions </span>In the <span class="Emphasis">Definition</span> cell, click the down arrow and select an alternative definition.</p><p><img src="../../../Resources/Images/Flare/Variables/Variable-Definitions2.png" alt="" title="" class="MaxWidth90Percent" /></p></li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" /> The alternative variable definition will be used in the output for this target. However, for other targets in your project, the original variable definition will be used.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Variables/Example-Which-Variable-Type.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1 or Snippets.Snippet3 or Snippets.Snippet4]" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you preview a topic, the variable definition associated with the primary target is displayed.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you click the <span class="Emphasis">Edit Set</span> button at the bottom of the tab, the Variable Set Editor opens. When you use that editor, you are editing variables for all targets, not those for a specific target or snippet.</p>
+        </div>
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also override variable definitions for variables in snippets. For more information see <MadCap:xref href="../Other-Activities/Overriding-Variable-Definitions-Snippets1.htm">Overriding Variable Definitions in Snippets</MadCap:xref>.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetBlock src="Select-Unused-Items.flsnp" />
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="Unused-Items-Window-Opens.flsnp" />
+                </div>
+            </li>
+            <li>Click the drop-down field at the top of the window pane and select <span class="Emphasis">Unused Images</span>. The unused images in the project are listed.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <div class="topic-only">
+                    <ul>
+                        <li><span class="Emphasis">Condition Tag</span> Displays the condition tag for the image not being used.</li>
+                        <li><span class="SetOffFirstLevel">File </span>Displays the name of the image file not being used.</li>
+                        <li><span class="SetOffFirstLevel">Folder </span>
+                            <MadCap:snippetText src="../../../General/Folder-Option.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>If you want to remove any unused images from <MadCap:variable name="Other.Product" />, as well as from the project being analyzed, select the image in the list and click <img src="../../../../../Images/Shared/Al-Ca-Co-Fl-Li-Mi/Interface/Buttons/Delete-btn.png" class="ReduceButtonSize" /> in the local toolbar.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide,Flare-Guides.Flare-Images-Guide" />
+            <li>(Optional) You can add condition tags to the unused images. <span class="topic-only">To add condition tags, do the following.</span><div class="topic-only"><ol class="LowerAlpha"><li>Select <span class="Emphasis">Unused Images</span> from the drop-down menu in the Unused Items window pane.</li><li>Do one of the following:<ul><li>Click the <img src="../../../../../Images/Flare/Interface/Buttons/Unused-File-Properties_btn.png" class="img" /> button in the local toolbar.</li><li>Right-click the image and from the context menu, select&#160;<span class="Emphasis">Properties</span>.</li><li><p>Right-click the image and press&#160; <span class="Emphasis">CTRL+SHIFT+P</span>&#160;on the keyboard.</p><p>The Properties dialog opens.</p></li></ul></li><li>In the Properties dialog, click the&#160;<span class="Emphasis">Conditional Text</span>&#160;tab.</li><li>Select condition tags, then click&#160;<span class="Emphasis">OK</span>.</li></ol></div></li>
+            <li>
+                <p>(Optional) You can open the image file for any picture in the list to view it in the Image Viewer. </p>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <table style="width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+            <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-All-Files-Project-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Shows all of the files<MadCap:conditionalText MadCap:conditions="Products.Flare"> in the project</MadCap:conditionalText> in a list below. Click the button again to switch to a folder tree view. You can click the File, Type, or Path column headers to sort the list alphabetically by that column data.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Buttons/Show-Hide-Folders-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Shows-Hides-Folders.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Files-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Shows-Hides-Files.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Up-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../General/Move-Up-One-Folder-Level.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Drop-Downs/File-Filter-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Lets you filter the kinds of files shown below. Depending on the task you are performing, this field may already be populated with the most appropriate file type(s).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

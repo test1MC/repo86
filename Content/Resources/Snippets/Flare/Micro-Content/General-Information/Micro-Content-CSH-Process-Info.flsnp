@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The process of creating CSH for micro content is essentially the same as it is for topics. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-CSH-Guide">See <MadCap:xref href="../../../../../Flare/CSH/Process/Process-CSH.htm">Process for Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText></p>
+        <ul>
+            <li><span class="Emphasis">Author </span>After assigning the IDs to the appropriate micro content phrases, you need to build the output and make it available to the developer. You also need to share the header file with the developer if you are responsible for creating it.</li>
+            <li><span class="Emphasis">Developer </span>Based on the information in the header file, the developer associates the IDs with each area of your software's interface. The developer can use a JavaScript or URL method. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-CSH-Guide">See <MadCap:xref href="../../../../../Flare/CSH/Process/CSH-Calls/CSH-Calls-HTML5-Developers.htm">CSH Calls for HTML5 Output</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

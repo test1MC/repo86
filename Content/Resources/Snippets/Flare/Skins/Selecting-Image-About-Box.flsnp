@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/HTML-Help-WebHelp-WH-Plus.flsnp" />
+        <p>
+            <MadCap:snippetText src="Skin-About-Box-Summary.flsnp" /> When users click the icon…</p>
+        <p>
+            <img src="../../../Images/Flare/Interface/Icons/MadCap-ico.png" />
+        </p>
+        <p>… your image is displayed. When users click the image, it disappears.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+        <h2>How to Select an Image for the About Box</h2>
+        <ol>
+            <li>Open a Standard or Mobile skin.</li>
+            <li>Select the <span class="Emphasis">About</span> tab.</li>
+            <li>Click <span class="Emphasis">Include About in output</span>.</li>
+            <li>Click the <span class="Emphasis">Browse</span> button.</li>
+            <li>In the Open dialog, find and select the image file that you want to use for the About box. A preview of the image is shown at the bottom of the tab.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to remove the image, click the <span class="Emphasis">Reset</span> button.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This feature is available for <MadCap:variable name="Outputs.HTMLHelp" /> only if you add a web toolbar to the skin being used for that target. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Skins-Guide">See <MadCap:xref href="../../../../Flare/Skins/Other-Activities/HTML-Help/Adding-Web-Toolbar-HTML-Help-Output.htm">Adding a Web Toolbar to HTML Help Output</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Images-Guide" /></p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+        <h2>How to Select a Different Image for the Icon</h2>
+        <p>What if you want to use an image other than the default MadCap icon (the image that users click to open the "About" box image")?</p>
+        <p>
+            <img src="../../../Images/Flare/Interface/Icons/MadCap-ico.png" />
+        </p>
+        <p>Use the following steps to accomplish this.</p>
+        <ol>
+            <li>In the skin select the <span class="Emphasis">Styles</span> tab.</li>
+            <li>In the Styles section, expand the <span class="Emphasis">Toolbar Item</span> node.</li>
+            <li>Under it, click <span class="Emphasis">Logo</span>.</li>
+            <li>Select the <span class="Emphasis">Property Groups</span> option.</li>
+            <li>In the <span class="Emphasis">Properties</span> section, click in the cell to the right of <span class="Emphasis">Icon</span>.</li>
+            <li>Select <span class="Emphasis">Browse for Image</span>.</li>
+            <li>In the dialog that opens, find and double-click the image that you want to use.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">Make sure that you associate the skin with the target. See <MadCap:xref href="../../../../Flare/Skins/Process/Associating-Skins-Targets1.htm">Associating Skins With Targets</MadCap:xref>.</p>
+    </body>
+</html>

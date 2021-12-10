@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Following are explanations of some of the basic elements involved with tables.</p>
+        <table style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                    <p class="TableTextEmphasis">Caption</p>
+                </td>
+                <td bgcolor="#ffffff" class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                    <p class="TableText">
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Table-Caption-Description.flsnp" />
+                        <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Accessibility/Accessibility.htm" target="" title="" alt="">About Accessibility</MadCap:xref>.</MadCap:conditionalText>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                    <p class="TableTextEmphasis">Column</p>
+                </td>
+                <td bgcolor="#ffffff" class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Table-Column-Description.flsnp" />
+                </td>
+            </tr>
+            <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                    <p class="TableTextEmphasis">Row</p>
+                </td>
+                <td bgcolor="#ffffff" class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Table-Row-Description.flsnp" />
+                </td>
+            </tr>
+            <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                    <p class="TableTextEmphasis">Cell</p>
+                </td>
+                <td bgcolor="#ffffff" class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Table-Cell-Description.flsnp" />
+                </td>
+            </tr>
+            <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                <td colspan="1" rowspan="1" bgcolor="#ffffff" class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                    <p class="TableTextEmphasis">Header Row</p>
+                </td>
+                <td colspan="1" rowspan="1" bgcolor="#ffffff" class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                    <p class="TableText">
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Table-Header-Row-Description.flsnp" />
+                        <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Accessibility/Accessibility.htm" target="" title="" alt="">About Accessibility</MadCap:xref>.</MadCap:conditionalText><![CDATA[  ]]></p>
+                </td>
+            </tr>
+            <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                <td colspan="1" rowspan="1" bgcolor="#ffffff" class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                    <p class="TableTextEmphasis">Footer Row</p>
+                </td>
+                <td colspan="1" rowspan="1" bgcolor="#ffffff" class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Table-Footer-Row-Description.flsnp" />
+                </td>
+            </tr>
+            <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                    <p class="TableTextEmphasis">Gridlines</p>
+                </td>
+                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                    <p class="TableText">
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Table-Gridlines-Description.flsnp" />
+                        <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Tables/Other-Activities/Hiding-Showing-Table-Gridlines.htm" target="" title="" alt="">Hiding and Showing Table Gridlines</MadCap:xref>. </MadCap:conditionalText>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                <td colspan="1" rowspan="1" bgcolor="#ffffff" class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                    <p class="TableTextEmphasis">Table Style Template</p>
+                </td>
+                <td colspan="1" rowspan="1" bgcolor="#ffffff" class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                    <p class="TableText">
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Table-Style-Template-Description.flsnp" />
+                        <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <a href="../../../../Flare/Templates/Templates.htm">About Templates</a>.</MadCap:conditionalText>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

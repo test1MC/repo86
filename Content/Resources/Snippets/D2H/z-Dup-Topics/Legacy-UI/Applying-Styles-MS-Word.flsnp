@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="929" MadCap:lastWidth="1324">
+    <body>
+        <p>There are two ways to apply a style in Microsoft Word: using the Doc-To-Help ribbons or the Word Styles window.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Apply a Style Using the Doc-To-Help Ribbons</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Word source document, select the text or place your cursor on it. </li>
+                    <li>Select the <span class="Emphasis">Doc-To-Help</span> or <span class="Emphasis">Special Formatting</span> ribbon.</li>
+                    <li>Click the appropriate button to apply <span class="Emphasis">Heading 1</span>, <span class="Emphasis">2</span>, <span class="Emphasis">3</span>, <span class="Emphasis">4</span>, and <span class="Emphasis">Body Text</span> styles, as well as bulleted and numbered lists.</li>
+                </ol>
+                <p class="note">The Special Formatting ribbon is only displayed in the  D2H_SMAL.dotx, D2H_SMAL_A4.dotx, D2H_NORM.dotx, and D2H_NORM_A4.dotx templates. If you are using a different template, use the Bullet, Numbering, and Table buttons in Word's native ribbons. </p>
+                <p class="note">D2HML styles (links, popups, conditional text, variables, etc.) are also applied with the Doc-To-Help ribbon. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Styles/D2HML-Markup-Language.htm">About Doc-To-Help Markup Language</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Styles/About-D2HML-DocToHelp-Markup-Language.htm">About Doc-To-Help Markup Language</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Apply a Style Using the Word Styles Window</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Word source document, select the text or place your cursor on it. </li>
+                    <li>Select the <span class="Emphasis">Home</span> ribbon.</li>
+                    <li>At the bottom of the <span class="Emphasis">Styles</span> group, click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Styles window opens.</li>
+                    <li>Click the name of the style you wish to apply.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For more information on editing styles in Word, see <MadCap:xref href="../../../../../D2H/Templates/Editing-Template.htm">Editing a Template</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For more information on editing styles in Word, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Templates/Editing-Template.htm">Editing a Template</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Accessibility.flmsp');">
+    <head>
+        <meta name="description" content="Accessibility warnings let you know ways that your output may not be as accessible as it could be." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Accessibility" />Accessibility and Warnings</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/All-Online-PDF-Not-Clean-XHTML.flsnp" />
+        <p>Change in feature1 branch</p>
+        <p>There is a Warnings tab in the Target Editor for all  outputs, as well as a Build tab in the Options dialog (<b>File &gt; Options</b>) for global settings. These tabs contain check boxes that let you choose whether to be informed when certain issues occur while building output. Some of these warnings are related to accessibility for the following output types:</p>
+        <ul>
+            <li>HTML5 and WebHelp outputs</li>
+            <li><MadCap:variable name="Outputs.PDF" />
+            </li>
+            <li><MadCap:variable name="Outputs.EclipseHelp" />
+            </li>
+            <li><MadCap:variable name="Outputs.HTMLHelp" />
+            </li>
+        </ul>
+        <p>In other words, the accessibility warnings let you know ways that your output may not be as accessible as it could be.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+        <h2>Accessibility Warnings</h2>
+        <p>The following warnings are available for <MadCap:variable name="Outputs.PDF" />, <MadCap:variable name="Outputs.EclipseHelp" />, <MadCap:variable name="Outputs.HTMLHelp" />, HTML5, and the WebHelp outputs:</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Accessibility/Warnings-Tab-Accessibility.flsnp" />
+        <h2>Web Accessibility Warnings</h2>
+        <p>The following additional web accessibility warnings are available for <MadCap:variable name="Outputs.EclipseHelp" />, <MadCap:variable name="Outputs.HTMLHelp" />, and the WebHelp outputs:</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Accessibility/Warnings-Tab-Web-Accessibility.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+        <h2>Taking Action on Warnings</h2>
+        <p>If you receive one or more of these types of compiler warnings, what should you do? That depends on the type of warning you receive:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Image Elements </span> If you receive this type of warning, you can fix the issue by editing the image and entering a description in the <span class="Emphasis">Alternate Text</span> field. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Images/Main-Activities/Editing-Images/Editing-Images.htm">Editing Images</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">Equation Elements </span> If you receive this type of warning, you can fix the issue by editing the equation and entering a description in the <span class="Emphasis">Alternate Text</span> field. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Equations/Editing-Equations.htm">Editing Equations</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">QR Code Elements </span>If you receive this type of warning, you can fix the issue by editing the QR code and entering a description in the <span class="Emphasis">Alternate Text</span> field. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../QR-Codes/Editing-QR-Codes.htm">Editing QR Codes</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">Tables </span>If you receive this type of warning, you can fix the issue by editing the table properties and entering caption text (above the table) and/or adding a header row. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Tables/Main-Activities/Editing-Table-Properties.htm">Editing Table Properties</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">Form Elements </span>If you receive this type of warning, you can fix the issue by opening the markup for the document and adding a label to the form. To edit the markup, you can use the Internal Text Editor or Notepad. For more information about working with form elements (and labels within them), see <a href="http://w3.org/" target="_blank">w3.org</a>.</li>
+            <li><span class="SetOffFirstLevel">Frame Elements </span> If you receive this type of warning, you can fix the issue by opening the markup for the document and adding a title to the frame element. To edit the markup, you can use the Internal Text Editor or Notepad. For more information about working with frame elements (and titles/names within them), see <a href="http://w3.org/" target="_blank">w3.org</a>.</li>
+        </ul>
+        <h2>Ignoring Warnings</h2>
+        <p>By default, all warnings (both those for accessibility and others) are enabled. However, can disable any warnings you want, telling Flare to ignore those warnings so that they do not display as such in the Builds window pane when generating output. This can be done globally for all targets in all projects. You can also override those global settings for a specific target in a project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Step5-Building-Publishing-Output/Other-Activities-Features/Ignoring-Warnings-Building-Output.htm">Ignoring Warnings When Building Output</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

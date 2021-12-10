@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="(.css;(.flmsp;(.flprj);...;.doc,;.htm,;.html,;.pdf,;.txt),;.xhtm,;.xhtml,;.xml,;a.,;A.,;alternative...;b;b.,;B.,;C;c.,;C.,;Close.&quot;;ConditionTagSet;CSS;d.,;D.,;dialog.&quot;;Dialog.&quot;;Dialogs.&quot;;Editor.);Editor...;editors...;effect.);EmphasisBlue;EmphasisGreen;EmphasisGreen.EmphasisBlue&quot;;'Empty';etc.);etc.)?;example...;Examples...;Explorer...;F;F1;F10;F12;F2;F3;F4;F6;F7;F8;F9;FAQs;file.);hidden.&quot;;i.,;I.,;ii.,;II.,;iii.,;III.,;Indexing.&quot;;information.);iv.,;IV.,;J;K;keyword.&quot;;MadCap1;Main.&quot;;markers.);movie...;MyHtmlHelp.chm&quot;).;MySubhead;MySubhead.Subheading&quot;;MyWebProject.mcwebhelp,&quot;;none.&quot;;Organizer...;p;P;Page...;panes...;Practice.&quot;;program.);right.);s;SearchFilterSet;skins.&quot;;Software.&quot;;style.);Stylesheet;Stylesheets;table...;TableStyle;tags.&quot;;target.&quot;;this.&quot;;this...;TocEntry;Tollfree;ToolbarItem;tools...;topic.);Unformat;VariableSet;W;Wizard...;xhtm;xls;Y;Z;n;reimport" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/User-Guides-Tutorials-Videos/Flare-Import-Word.flmsp');">
+    <head>
+        <link href="../../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="You can import Microsoft Word files into a new project or an existing one." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterImporting" />
+            <MadCap:keyword term="Importing:Word documents;Microsoft Word:importing" />
+            <MadCap:concept term="FilterProjects" />Importing Word Files</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Importing/Word/Import-Word-Summary1.flsnp" />
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/L69MiQIDhcA" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2><a name="PrepWordDoc"></a>Preparing Word Documents</h2>
+        <p>When you want to import Word files keep in mind that the cleaner a Word document is before import, the cleaner the documentation is after the import process. A clean document means: using an error-free Word document, removing any inline formatting, and using heading, paragraph, and/or character styles in Word.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">This example illustrates a scenario of what to avoid when attempting to import a Word document. </p>
+            <p>Imagine a Word file where no Word heading styles are used, but the heading text is styled using inline (or local) formatting. All the content includes several different subjects is in one long document. The following shows part of the original Word document.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Docx-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Let's say this Word document has been added to the project by dragging and dropping it into the Content Explorer, so the Import Microsoft Word Wizard displays. Since no Word styles were applied, Flare detected no heading styles to map to, and only the List Paragraph style shows in the Paragraph style options.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Unclean-PStyles.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>There are several actions to explore, but some wizard options to pursue might be:</p>
+            <ul>
+                <li>
+                    <p><span class="Emphasis">Styles &gt; Style Mapping</span> If the Discard MS Word styles button is selected, this would keep Word’s inline formatting but map it to Flare’s style. </p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Word-Import/Word-StyleMap-Discard.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>This is what it would look like imported into Flare:</p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Unclean.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p><span class="Emphasis">Advanced Options &gt; Styles</span> If the "Create new stylesheet" option is selected along with the "Remove inline formatting" option, this would remove the local formatting styles from Word and new styles would get added to a new stylesheet in the Flare project. </p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Word-Import/Word-NewCSSOpt.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>This is what it would look like imported into Flare:</p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Unclean-NewCSS-NoInline.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+            </ul>
+            <p>In each case, since the content lives in one document with no heading styles, the Word file converts to one HTML file in Flare. If the intent is to have separate topics for each heading from the Word document, then there is some clean-up work to do. New HTML topics would have to be created in Flare, and the content would have to be copied into the topics manually. Alternatively, the original Word files could be cleaned up and then re-imported into Flare.</p>
+            <p>The bottom line is, having a clean Word document to begin with results in cleaner documentation after the import.</p>
+        </div>
+        <h2>Specifying Custom File Names for Word Imports</h2>
+        <p>Before you begin, please note you can control the file names given to new topics that are created from imported Word documents. To do this, apply “Private” field codes to the appropriate headings in the Word documents where new topics will be created (see <MadCap:xref href="Specifying-Custom-Filenames-Word-Imports.htm">Specifying Custom File Names for Word Imports</MadCap:xref>). You also have the option of renaming the new topic file names after the import process is finished<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../Topics/Other-Activities/Renaming-Topics.htm">Renaming Topics</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide" />
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides-Tutorials-Videos/Import-Word.flsnp" />
+                <div class="Tiles-8-4-Microcontent">
+                    <div>
+                        <h2>How to Import Word Documents</h2>
+                        <div class="topic-only">
+                            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Importing/Word/Import-Word-Summary2.flsnp" />
+                        </div>
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Importing/Word/Import-Word-Steps.flsnp" />
+                        <p class="micro-content-only"><a href="../../../Step4-Developing-Targets/Output-Types/Word-Output/Word-Output.htm">Word Output</a>
+                        </p>
+                    </div>
+                    <div class="micro-content-only">
+                        <div class="video" MadCap:conditions="General.Server-Only">
+                            <p class="buttonT32-play" style="text-align: center;"><a href="https://youtu.be/L69MiQIDhcA" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+                            </p>
+                        </div>
+                        <p class="center" style="text-align: center;">
+                            <img src="../../../../Resources/Images/Flare/Architecture/Architecture-Import-External-Files1.png" alt="" title="" class="ThumbnailMicroContent" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Topics-Guide" />
+        <h2><a name="Word-Import-Editor"></a>Word Import Editor—Import and Re-Import</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Importing/Word/Word-Import-Editor.flsnp" />
+        <h2><a name="HowWordFeaturesTreatedImported"></a>How Word Features are Treated When Imported</h2>
+        <MadCap:microContent id="microcontent2">
+            <div>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Importing/Word/Word-Features-Converted.flsnp" />
+            </div>
+        </MadCap:microContent>
+        <h2>What’s Noteworthy?</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Importing/Word/Note-Word-Supports-2003-Newer.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+        <snippetBlock src="../../../../Resources/Snippets/Flare/Importing/Note-Link-Icon.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Import-Guide" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">Now you can move on to any of the other basic steps:</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/General/Whats-Next-Steps.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Projects/Note-Dont-Have-To-Follow-Steps-Order.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Lingo/User-Guides-Videos/Lingo-Creating-TM.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Using Translation Memory in MadCap Lingo. Understanding the TM features and steps for setting up and using Translation Memory." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Translation memory" />Translation Memory</h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Translation-Memory/Translation-Memory-Summary.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+        </p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 100%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Process</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/TM-Process-Steps.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-MidTableHeader" MadCap:pattern="10">
+                    <td class="TableStyle-Fancy-BodyD-Regular-MidTableHeader">
+                        <p class="TableTextHead">Other Information</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/TM-Other-Information-List.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 100%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Other Activities</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/TM-Other-Activities-List1.flsnp" />
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translation-Memory/TM-Other-Activities-List2.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Source-Control/TM-TBX-Project-Folder.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are having difficulty connecting to a remote Lingo database, it may be due to the security setting of SQL. To view a remote server, you must have administrator rights on that server. You can add users to a local machine as administrators or add users in SQL Management Studio. To do this in Management Studio: (1) open SQL Server Management Studio (for more information see msdn.microsoft.com); (2) expand the server and then expand <span class="Emphasis">Security</span>; you’ll probably have a login called "BUILTIN\Administrators," which will have "sysadmin" rights; in that case, any admin of your machine will have sysadmin rights because they’re part of that group; and (3) add anyone to this who will need to access your server.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If your database is not displaying when you are setting up TM, your SQL browser service may not be enabled. To enable this service: (1) open SQL Server Management Studio (for more information see msdn.microsoft.com), (2) open the SQL Server Configuration Manager, (3) open the SQL Server Browser and go to the <span class="Emphasis">Service</span> tab, (4) change the Start Mode to <span class="Emphasis">Automatic</span>, and (5) click <span class="Emphasis">Apply</span>, and (6) start your <span class="Emphasis">SQL Server Browser</span>.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Termbase/Note-Termbases-TM.flsnp" />
+    </body>
+</html>

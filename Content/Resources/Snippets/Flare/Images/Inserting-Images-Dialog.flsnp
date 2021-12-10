@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h2>How to Insert an Image<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">—Dialog Method</MadCap:conditionalText></h2>
+        <div class="topic-only">
+            <p MadCap:conditions="General.Online-Only">The following steps show you how to insert an image into a  content file (e.g., topic, snippet), adding the image file to the project as well if necessary. If instead you follow the steps for adding an image to a project, the image file is added to the project, but not inserted into a topic.</p>
+        </div>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>In the XML Editor place your cursor where you want to insert the image.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul type="1">
+                    <li><span class="SetOffFirstLevel">Ribbon </span>Select <b>Insert &gt; Image</b>.</li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+G</span>. </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Local Toolbar</span> Click the face of the <img src="../../../Images/Flare/Interface/Buttons/Insert-Image-btn1.png" alt="" title="" class="ReduceButtonSize" /> button.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>Right-click in the editor and select <span class="Emphasis">Insert &gt; Image</span>. This context menu option is available only when your cursor is located in certain places in the editor (e.g., not in a drop-down effect).</li>
+                </ul>
+            </li>
+            <li>Select the <span class="Emphasis">General</span> tab.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+        <ol MadCap:continue="true">
+            <li>
+                <p>Navigate to the image that you want to insert and select it. <span class="topic-only">By using the buttons in the local toolbar, you can view all image files in a list, view files in their folder structure, and use other options. If you want to add one of your 20 most recently used images to the project, you can select an image from the Recently Used Images group. If you want to add one of your pinned—or favorite—images to the project, you can select an image from the Pinned Images group. You also can click <img src="../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize"></img> to find and select an image file outside of the project.</span></p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/SharePoint/Multi-View-Table2.flsnp" />
+                    <p MadCap:conditions="General.Online-Only">If you want to link to an image stored on a website, rather than adding it to your project, you can enter the path directly into the field.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Images/Insert-Image-Linked-Website.png" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">When you insert an image, the dialog might look something like this:</p>
+                        <p>
+                            <img src="../../../Images/Flare/Images/Insert-Image.png" class="MaxWidth100Percent" />
+                        </p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you select an image outside the project, that file is then copied and placed inside the project. The image file is stored in the Resources\Images folder of the Content Explorer.</p>
+                    </div>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+            <li>
+                <p>(PDF Images Only) If you selected a PDF file to insert as an image, the <span class="Emphasis">Preview</span> section shows a <span class="Emphasis">Page</span> field. In this field, select the specific page you want to insert from the PDF file.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Shared/Co-Fl/Images/PDF-Image1.png" class="MaxWidth85Percent" />
+                    </p>
+                    <p MadCap:conditions="General.Online-Only">For more about inserting PDF files as images, see <MadCap:xref href="../../../../Flare/Images/Other-Information/PDF-Files-Images.htm">PDF Files as Images</MadCap:xref>.</p>
+                </div>
+            </li>
+            <li>
+                <p>(Optional) If you want to apply a specific style class to the image, you can select it from the <span class="Emphasis">Style Class</span> field. </p>
+                <div class="topic-only">
+                    <p MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="../../../../Flare/Styles/Styles.htm">Styles and Stylesheets</MadCap:xref> and <MadCap:xref href="../../../../Flare/Images/Main-Activities/Editing-Images/Resizing-Images.htm">Resizing Images</MadCap:xref>.</p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Images/Example-Style-Class.flsnp" />
+                </div>
+            </li>
+            <li>(Optional) In the <span class="Emphasis">Screen Tip</span> field you can type a phrase that will appear when the end user hovers over the image.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Alternate Text</span> field you can type alternate text to display when the image is not available, such as when a disabled individual is using a screen reader. </p>
+                <p class="topic-only">For more information see <MadCap:xref href="../../../../Flare/Accessibility/Accessibility.htm" MadCap:conditions="General.Online-Only">Accessibility </MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Print-Only">the online Help</MadCap:conditionalText>.</p>
+            </li>
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Tab Index</span> field you can enter a value to specify the order in which users can tab through images in a topic. <span class="topic-only">So when a user presses the TAB key the first time in a topic, the image with an index value of 1 will be selected first, the image with a value of 2 will be selected next, and so on. If you want to skip an image, enter -1 in that field.</span></p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="Example-Tab-Index.flsnp" />
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This feature is supported only in web outputs<span style="font-family: 'Calibri'">—</span><MadCap:snippetText src="../Output/All-Web-Outputs-HTML5-Clean-XHTML.flsnp" />.</p>
+                    </div>
+                </div>
+            </li>
+            <li>(Optional) Select <span class="Emphasis">Apply the alternate text and screen tip to all image references</span> if you want the same alternate and screen tip text to be used everywhere the image is used in the project. However, this option will not affect new insertions of the image in the project; you would need to add the alternate or screen tip text to those images manually.</li>
+            <li>
+                <p>(Optional) Use any of the other tabs to provide additional settings for the image.</p>
+                <div class="topic-only">
+                    <p class="Subheading">Size and Print Size Tabs </p>
+                    <p>You can use these tabs to resize the image. If you want to provide only one group of settings for the image, select the Size tab. If you want to provide two groups of settings, use both the Size and Print Size tabs. The Size tab is for targets that are using the default medium or a custom medium. The Print Size tab is for targets that are using the print medium. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Images/Main-Activities/Editing-Images/Resizing-Images.htm">Resizing Images</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p class="Subheading">Position Tab </p>
+                    <p>You can use this tab to adjust the positioning of the image on the page. This includes the ability to wrap text around an image or float an image outside the frame holding the regular flow of text. See <MadCap:conditionalText MadCap:conditions="General.Online-Only"><MadCap:xref href="../../../../Flare/Object-Positioning/Using-Float-Positioning1.htm">Using Float Positioning</MadCap:xref>.</MadCap:conditionalText></p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also use absolute position (i.e., text wrap) on images via the context (right-click) menu. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Object-Positioning/Using-Absolute-Positioning1.htm">Using Absolute Positioning</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                    <p class="Subheading">Thumbnail Tab</p>
+                    <p> You can use this tab to create a thumbnail version of the image in the output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Images/Main-Activities/Editing-Images/Showing-Images-Thumbnails-Output.htm">Showing Images as Thumbnails in Output</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p class="Subheading">Borders &amp; Margins Tab</p>
+                    <p> You can use this tab to set borders, margins, or padding for the image. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Images/Main-Activities/Editing-Images/Adding-Borders-Images.htm">Adding Borders to Images</MadCap:xref>, <MadCap:xref href="../../../../Flare/Images/Main-Activities/Editing-Images/Adding-Margins-Images.htm">Adding Margins to Images</MadCap:xref>, and <MadCap:xref href="../../../../Flare/Images/Main-Activities/Editing-Images/Adding-Padding-Images.htm">Adding Padding to Images</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p>
+                        <img src="../../../Images/Shared/Co-Fl/General/Margin-Border-Padding.png" class="MaxWidth65Percent" />
+                    </p>
+                    <p class="Subheading">Background Tab </p>
+                    <p>You can use this tab to add background settings (e.g., color, image) for the image. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Images/Main-Activities/Editing-Images/Adding-Backgrounds-Images.htm">Adding Backgrounds to Images</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

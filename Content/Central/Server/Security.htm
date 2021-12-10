@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../Resources/TemplatePages/Central/User-Guides/Central-Security.flmsp');">
+    <head>
+        <meta name="description" content="Security and privacy are top priorities at MadCap Software, especially when providing customers with a cloud-based system in Central. We are committed to keeping your files, data, and communications secure." />
+    </head>
+    <body>
+        <h1 MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="Security" />
+            <MadCap:keyword term="MadCap Central:security" MadCap:conditions="Products.Flare" />Security and MadCap Central</h1>
+        <h1 class="SingleChapter" MadCap:conditions="Products.Central-Print-Only">
+            <MadCap:keyword term="Security" />
+            <MadCap:keyword term="MadCap Central:security" MadCap:conditions="Products.Flare" />Security and MadCap Central</h1>
+        <MadCap:microContent id="microcontent1">
+            <MadCap:snippetBlock src="../../Resources/Snippets/Central/Micro-Content-Toolbars/User-Guides/Security.flsnp" />
+            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ce-Fl/Central/Security1.flsnp" />
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <p MadCap:conditions="General.Print-Only">This document discusses the following:</p>
+        <MadCap:miniTocProxy MadCap:conditions="General.Print-Only" class="SingleChapterDoc" />
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <h2>Data Centers and Disaster Recovery</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ce-Fl/Central/Security2.flsnp" />
+        <h2>Source Control Provider and Data Storage</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ce-Fl/Central/Security3.flsnp" />
+        <p>
+            <img src="../../Resources/Images/Shared/Ce-Fl/Server/Central-Security-Data-Storage.png" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ce-Fl/Central/Security4.flsnp" />
+        <h2><a name="WebServerHostingManagement"></a>Web Server Hosting and Management</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ce-Fl/Central/Security5.flsnp" />
+        <h2><a name="SecurityHeadersTrustedDomains"></a>Security Headers and Trusted Domains</h2>
+        <p>MadCap Central has implemented the following security headers for website security and the prevention of malicious attacks, such as clickjacking:</p>
+        <ul>
+            <li>
+                <p><span class="Emphasis">Content Security Policy </span>Useful for protecting your site from cross-site scripting (XSS) attacks that can load malicious assets.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Permissions Policy </span>Useful for controlling which features and application programming interfaces (APIs) can be used in the browser.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Referrer Policy </span>Useful for controlling how much information the browser includes with navigation away from a document.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Strict Transport Security </span>Useful for enforcing the use of HTTPS.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">X Content Type Options </span>Useful for preventing a browser from trying to MIME-sniff the content type, forcing it to stick with the declared content type. The only valid value for this header is "X-Content-Type-Options: nosniff."</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">X Frame Options </span>Useful for allowing frames on your site. By preventing a browser from framing your site you can defend against attacks like clickjacking. The recommended value is "X-Frame-Options: SAMEORIGIN."</p>
+            </li>
+        </ul>
+        <p>On the Sites page, you can create groups of trusted domains to allow the publication of approved content. Otherwise, the linked sites might not be displayed successfully in your output due to the implemented security policies. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Sites/Security-Page-View/Adding-Trusted-Domains.htm">Adding Trusted Domains</MadCap:xref>.</MadCap:conditionalText></p>
+        <h2>Service Level Agreement</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ce-Fl/Central/Security6.flsnp" />
+        <h2>Application and Browser</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ce-Fl/Central/Security7.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ce-Fl/Central/Security8.flsnp" />
+    </body>
+</html>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Nav-Links.flmsp');">
+    <head>
+        <meta name="description" content="You can create links to specific topics in WebHelp and WebHelp Plus output. You can also create links that incorporate search strings and skin references." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Hyperlinks:WebHelp;Linking:WebHelp;Linking:WebHelp;WebHelp:links;WebHelp Plus:links" />
+            <MadCap:concept term="FilterFeatures" />Creating Links to WebHelp and WebHelp Plus Topics</h1>
+        <p>You can create links to specific topics in <MadCap:variable name="Outputs.WebHelp" /> and <MadCap:variable name="Outputs.WebHelp Plus" /> output. You can also create links that incorporate search strings and skin references.</p>
+        <h2>How to Create Links to WebHelp and WebHelp Plus Topics</h2>
+        <ol>
+            <li>Perform the steps for creating one of the following kinds of links:<ul><li><MadCap:xref href="../Image-Hyperlinks/Creating-Image-Maps1.htm" target="" title="" alt="">Creating Image Maps</MadCap:xref></li><li><MadCap:xref href="../Image-Hyperlinks/Inserting-Image-Hyperlinks1.htm" target="" title="" alt="">Inserting Image Hyperlinks</MadCap:xref></li><li><MadCap:xref href="../Text-Hyperlinks/Inserting-Text-Hyperlinks.htm" target="" title="" alt="">Inserting Text Hyperlinks</MadCap:xref></li><li><MadCap:xref href="../Topic-Popups/Inserting-Topic-Popups.htm">Inserting Topic Popups</MadCap:xref></li></ul></li>
+            <li>In the dialog that opens for creating the link, click the <span class="Emphasis">Link to</span> field and select <span class="Emphasis">Website</span>.</li>
+            <li>
+                <p>Enter the path to the website. You can also include a specific topic, a search string, and/or skin. When inserting the link, you can use the following structure. </p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://[website]/[main entry file]_CSH.htm?[search string]|FirstPick#[path/name of topic]|[skin name]</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Main entry file_CSH.htm </span>This is the main entry file for your output. The file name is determined by whatever you enter into the <span class="Emphasis">Output File</span> field in the <span class="Emphasis">General</span> tab of the Target Editor. If you do not provide a name in this field, the name "Default" will be used. After the file name, it is important that you add an underscore followed by "CSH."</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You do not need to include the "_CSH" portion in the file name of the topic in Flare. You only need to add " _CSH" to the web page hyperlink connecting to that topic.</p>
+                        </div>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Search string </span>This is an optional element that automatically performs a search for a specific string.</li>
+                    <li><span class="SetOffFirstLevel">First pick </span>This element can be used in conjunction with the search string. If you include the first pick option, the first topic found with the specified search string will be opened automatically. If you do not include this element, the search results will simply be displayed; the first topic will not be opened automatically.</li>
+                    <li><span class="SetOffFirstLevel"><MadCap:keyword term="Skins:context-sensitive Help" />Skin name </span>You can specify a skin directly in the link, which will override the skin associated with that topic in the CSH alias file.</li>
+                </ul>
+            </li>
+        </ol>
+        <p>In the following examples, these values are used:</p>
+        <ul style="list-style-type: square;">
+            <li>Default.htm = main entry file name</li>
+            <li>Soccer.htm = topic in the project, located in subfolder called "Sports"</li>
+            <li>World Cup Standings = search term</li>
+            <li>Green = skin name</li>
+        </ul>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default_CSH.htm#Sports/Soccer.htm|Green"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default_CSH.htm?World Cup Standings|FirstPick"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> You can complete similar URL link steps with context-sensitive Help (CSH) identifiers. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../CSH/Process/CSH-Calls/CSH-Calls-WH-WHP-Developers.htm" target="" title="" alt="">CSH Calls for WebHelp and WebHelp Plus—Developers</MadCap:xref>. </MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

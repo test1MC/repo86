@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="Can-Change-Any-Following-Background.flsnp" />
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Gradient </span>
+                    <MadCap:snippetText src="Gradient-Option.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="Color-Fields-Table.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Color </span>
+                <MadCap:snippetText src="Color-Option.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Image </span>
+                <MadCap:snippetText src="Image-Option.flsnp" />
+                <br />
+            </li>
+            <li><span class="SetOffFirstLevel">Repeat </span>
+                <MadCap:snippetText src="Repeat-Option.flsnp" />
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Navigation-Links-Guide,Flare-Guides.Flare-Styles-Guide" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                <MadCap:snippetText src="Background-Precedence.flsnp" />
+                <br />
+            </p>
+        </div>
+    </body>
+</html>

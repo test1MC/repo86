@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Go to the Jira developer's website (<a href="https://developer.atlassian.com/" target="_blank">https://developer.atlassian.com/</a>). </li>
+            <li>Refer to the Jira documentation and create an app. <ol style="list-style-type: lower-alpha;"><li>When doing this, add <span class="Emphasis">Jira platform REST&#160;API</span>, open it, and add all the scopes listed for it. </li><li>Add <span class="Emphasis">OAuth 2.0 (3LO)</span>. For the <span class="Emphasis">Callback URL</span>, enter <span class="TypedEntry">https://portal.madcapcentral.com</span>, and save your changes. (You do not need to do anything with the generated URL that you see.)</li></ol></li>
+            <li>Open the <span class="Emphasis">App details</span> page, and notice the <span class="Emphasis">Client ID</span> and <span class="Emphasis">Secret</span>. For the next set of steps, you will be copying and pasting each of these.</li>
+        </ol>
+    </body>
+</html>

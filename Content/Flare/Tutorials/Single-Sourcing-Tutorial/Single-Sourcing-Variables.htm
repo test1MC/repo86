@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Key-Features-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Briefly going over single definition and multiple definition variables, and how they support single-sourcing." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Single-Sourcing.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Variables</h1>
+        <p>Variables are shorter strings of content that exemplify creating content once, maintaining it in one place, and then reusing the same content multiple times. Unlike snippets, variables are unformatted bits of information, leaving them to inherit the formatting of the paragraph where they are inserted.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Create a Single Definition Variable</h2>
+        <ol>
+            <li>From the Project Organizer, double-click the <span class="Emphasis">Variables</span> folder.</li>
+            <li>Double-click the <span class="Emphasis">General</span> variable set. The Variable Set Editor opens.</li>
+            <li>
+                <p>In local toolbar click <span class="Emphasis">Add variable</span> <img src="../../../Resources/Images/Flare/Interface/Buttons/Add-Variable-Project-btn.png" alt="" title="" />. A new variable row is added.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Create-SDef-Variable.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <li>Click in the <span class="Emphasis">New Variable</span> field and give it a name. Type <span class="TypedEntry">VersionNumber</span>.</li>
+            <li>
+                <p>Click in the blank field to the right of the new variable, and press <span class="Emphasis">F2</span>. Give it a definition by typing <span class="TypedEntry">Version 001</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Create-SDef-Variable2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <p>Notice the other variables listed in the Variable Set Editor.  Variables are especially useful for information that is likely to change frequently such as a date or a version number. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Variables/Variables.htm">Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When creating variables in a project, you might find you use some more often than others. You can pin those frequently used variables to easily find them. This can be done via the Variables dialog or from a topic's local toolbar by selecting <span class="Emphasis">Insert variable</span> <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Insert-Variable-btn.png" alt="" title="" class="ReduceButtonSize" />. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Variables/Main-Activities/Pinning-Variables.htm">Pinning Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        </div>
+        <h2>How to Insert a Single Definition Variable</h2>
+        <p>In this tutorial, let’s add our new variable to display along with other variables that already exist in the Austin project’s template page for online output.</p>
+        <ol>
+            <li>From the Content Explorer, expand <span class="Emphasis">Resources &gt; TemplatePages</span>, and double-click <span class="Emphasis">Home-Page.flmsp</span>. The file opens in the XML Editor.</li>
+            <li>Place the cursor after the "CityStateZip" variable.</li>
+            <li>
+                <p>From the Project Organizer, select the <span class="Emphasis">VersionNumber</span> variable, and drag it to the cursor location in the XML Editor.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Insert-SDef-Variable.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>With the cursor after the "CityStateZip" variable, press <span class="Emphasis">ENTER</span> to create a new paragraph footer.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Insert-SDef-Variable2.png" alt="" title="" class="MaxWidth85Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you do not see markers in the form of brackets around variables, from the topic's local toolbar click <span class="Emphasis">Show tags</span> <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Show-Tags-btn.png" class="ReduceButtonSize" />, and then <span class="Emphasis">Markers</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Variables/General-Information/Visual-Cues-Variables.htm">Visual Cues for Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">There are many ways to insert variables. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Variables/Main-Activities/Inserting-Variables.htm">Inserting Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        </div>
+        <h2>How to Create Multiple Definition Variables</h2>
+        <p>Let's add an alternate phone number to the  Austin project.</p>
+        <ol>
+            <li>Open the <span class="Emphasis">General</span> variable set in the Variable Set Editor. </li>
+            <li>
+                <p>Select the <span class="Emphasis">PhoneNumber</span> row.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Create-MultiDef-Variable.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the local toolbar click <span class="Emphasis">Add variable definition</span> <img src="../../../Resources/Images/Flare/Interface/Buttons/Add-Variable-Definition-btn.png" alt="" title="" />. A new row is added for a new definition.</p>
+            </li>
+            <li>
+                <p>Click in the empty cell that is added, and give it a definition. Type <span class="TypedEntry">858 555 5555</span> and press <span class="Emphasis">ENTER</span>. This “grayed out” second entry is an alternate definition for the phone number variable.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Create-MultiDef-Variable2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Change Multiple Definition Variables</h2>
+        <p>When using multiple definition variables, by default the primary definition listed is applied to the project. But let’s override that and set the variable to the alternate phone number using the Target Editor.</p>
+        <ol>
+            <li>From the Project Organizer, expand the <span class="Emphasis">Targets</span> folder to see the available targets.</li>
+            <li>Double-click the <span class="Emphasis">All-About-Austin-HTML5 (Primary)</span> target. The Target Editor opens.</li>
+            <li>Click the <span class="Emphasis">Variables</span> tab. Notice the "PhoneNumber" variable includes a down arrow for its definition.</li>
+            <li>
+                <p>Click the down arrow and select the recently added phone number. (At this point, you could change any of the other the definition variable fields by simply clicking in the Definition cells and typing new content to override what was originally defined, but let’s not do that for this demonstration.)</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Change-MultiDef-Variable.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Variables created and defined in the Variable Set Editor are at the project level. As we just did, project-defined variables can be overridden at the target level in the Target Editor. As an aside for a more advanced user, snippet variables are defined at a topic level within snippets and override both project- and target-level variables. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Variables/Other-Activities/Overriding-Variable-Definitions-Snippets1.htm">Overriding Variable Definitions in Topics and Snippets</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        </div>
+        <h2>How to Preview Output</h2>
+        <p>We've set some new variables, but are not quite ready to build output. Let’s view a preview of the topic that includes the variables to see what it looks like (you can do this for any content file).</p>
+        <ol>
+            <li>Open <span class="Emphasis">Home-Page.flmsp</span> in the XML Editor.</li>
+            <li>
+                <p>From the local toolbar click the <span class="Emphasis">Preview as primary target</span> <img src="../../../Resources/Images/Flare/Interface/Buttons/Preview-btn.png" alt="" title="" /> drop-down, and select <span class="Emphasis">Preview as All-About-Austin-HTML5</span>. Flare opens a Preview window with the current work displayed.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Preview1.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Preview2.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <li>Close the Preview window.</li>
+            <li>From  the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</li>
+        </ol>
+    </body>
+</html>

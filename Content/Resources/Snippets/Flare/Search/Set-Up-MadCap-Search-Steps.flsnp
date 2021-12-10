@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Open an <MadCap:variable name="Outputs.HTML5" /> target.</li>
+            <li>Select the <span class="Emphasis">Search</span> tab.</li>
+            <li>From the <span class="Emphasis">Search Engine</span> field, select <span class="Emphasis">MadCap Search</span>.</li>
+            <li>
+                <p>You can complete various options to optimize the search, then click <img src="../../../Images/Shared/All/Interface/Buttons/Save-btn1.png" class="ReduceButtonSize" /> save your work.</p>
+            </li>
+        </ol>
+        <table style="width: 100%;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0" MadCap:conditions="Snippets.Snippet1">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-MidTableHeader" MadCap:pattern="10">
+                    <td colspan="2" class="TableStyle-Fancy-BodyD-Regular-MidTableHeader">
+                        <p class="TableTextHead">Search Results
+                                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Results Per Page</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="Search-Results-per-Page.flsnp" /> See <MadCap:xref href="../../../../Flare/Search/Search-Results-Options/Setting-Number-Search-Results-Per-Page.htm">Setting the Number of Search Results Per Page</MadCap:xref>. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Abstract Character Limit </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="Abstract-Character-Limit.flsnp" /> See <MadCap:xref href="../../../../Flare/Search/Search-Results-Options/Setting-Search-Abstract-Character-Limit.htm">Setting the Search Abstract Character Limit</MadCap:xref>. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Partial word searching</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Partial-Word-Searching.flsnp" />
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Enabling this setting could increase the build time and the size of the search index for your target.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-MidTableHeader" MadCap:pattern="10">
+                    <td class="TableStyle-Fancy-BodyD-Regular-MidTableHeader" colspan="2">
+                        <p class="TableTextHead">Advanced Search Options</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Include Importance (recommended)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="Importance-Adjust.flsnp" /> See <MadCap:xref href="../../../../Flare/Search/Search-Results-Options/Setting-Search-Result-Importance.htm">Setting Search Result Importance</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Include micro content results</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="Include-Micro-Content-Results-Check-Box.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Micro-Content/Micro-Content.htm">Micro Content</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Include Glossary Terms </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="Include-Glossary-Terms-Search-Results.flsnp" /> See <MadCap:xref href="../../../../Flare/Search/Search-Results-Options/Including-Glossary-Terms-Search-Result.htm">Including Glossary Terms in Search Results</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Exclude non-words from search </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="Exclude-Non-Words-Search.flsnp" /> See <MadCap:xref href="../../../../Flare/Search/Search-Results-Options/Excluding-Non-Words-Search.htm">Excluding Non-Words From Search</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Exclude index entries from search </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../Indexes/Exclude-Index-Entries-Search-Summary.flsnp" /> See <MadCap:xref href="../../../../Flare/Search/Search-Results-Options/Excluding-Index-Entries-Search.htm">Excluding Index Entries From Search</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Pre-merge Search Database File</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you have multiple projects whose outputs are set to be merged when you build the parent project, you can pre-merge  search database files. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information see <a href="../../../../Flare/TOCs/Other-Activities/Merging-Projects.htm">Merging Projects</a>.</MadCap:conditionalText> If you select to pre-merge the  search database file, you disable runtime merging, which means that you cannot compile and publish a "sub-project" later. You must generate and publish all linked Help systems at the same time. Selecting this option may slow down the generation of the output, but it will significantly increase the speed with which the output loads for the end user.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Chunk large search database file</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">You can control the size of "chunks" used when generating the search database files for a target. After you choose this option, select the number of bytes for each chunk. <MadCap:snippetText src="Chunk-Size.flsnp" /> Click the drop-down next to the <span class="Emphasis">Maximum chunk size</span> field to set the maximum size of your search database file.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">N-Gram Size </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="N-Grams-Size.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-MidTableHeader" MadCap:pattern="10" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyD-Regular-MidTableHeader" colspan="2">
+                        <p class="TableTextHead">Sitemap</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Generate Sitemap</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p>
+                            <MadCap:snippetText src="../Targets/Generate-Sitemap.flsnp" />&#160;<MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Search/Sitemaps/Generating-Sitemaps.htm">Generating Sitemaps</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Search/Generating-Sitemaps.htm">Generating Sitemaps</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Web URL</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="Elasticsearch-Web-URL.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Rich content variables may be used for blocks of formatted content. They are stored in source documents and will use the formatting applied to the variable itself.</p>
+        <div class="example" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">
+            <p class="Example-Text">&#160;</p>
+            <ul>
+                <li>Tables </li>
+                <li>Images or other media </li>
+                <li>Formatted company names </li>
+                <li>Entire topics </li>
+            </ul>
+        </div>
+        <p>If you want to use rich content variables, you need to create them first. You can create a rich content variables document in Word, and add new variables to it .</p>
+        <MadCap:dropDown MadCap:conditions="Snippets.Snippet2">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add A&#160;Rich Content Variables Document to Your Project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In <span class="Emphasis">Doc-To-Help</span>, select the <span class="Emphasis">Project</span> ribbon.</li>
+                    <li>Click <span class="Emphasis">Variables</span>. The Variables window opens.</li>
+                    <li>In the <span class="Emphasis">Rich Content Variables</span> area, click on the <span class="Emphasis">Create New Document</span> button. The Save New Document As dialog opens.</li>
+                    <li>
+                        <p>Enter the document <span class="Emphasis">Name</span> and click <span class="Emphasis">Save</span> to add it to your project. </p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You can also add an existing variables document. First, copy the document(s) to the appropriate folder in your Doc-To-Help project. Source documents should be placed in the Documents folder. Then click the <span class="Emphasis">Add Existing Documents</span> button in the toolbar of the Variables window. </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Snippets.Snippet2">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add New Rich Content Variables</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In Doc-To-Help, select the <span class="Emphasis">Project</span> ribbon.</li>
+                    <li>Click <span class="Emphasis">Variables</span>. The Variables window opens.</li>
+                    <li>In the Variables window, double-click the rich content variables document name to open it. The rich content variable document will have a table with two columns in it.</li>
+                    <li>In the left column, enter a variable name (without spaces in it).</li>
+                    <li>In the right column, enter the variable content.</li>
+                    <li>Apply styles to the variable content as desired, including conditional text.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Styles/Applying-Styles.htm">Applying Styles in Microsoft Word</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Conditions/Marking-Text-Conditional.htm">Marking Text as Conditional</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Styles/Applying-Styles.htm">Applying Styles in Microsoft Word</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Conditions/Marking-Text-Conditional.htm">Marking Text as Conditional</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>Save the document.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Snippets.Snippet1">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add New Rich Content Variables</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Open your Word source document.</li>
+                    <li>Open the Doc-To-Help Project panel (<span class="Emphasis">Doc-To-Help &gt; Project Panel</span>).</li>
+                    <li>Select the <span class="Emphasis">Variables</span> window pane.</li>
+                    <li>
+                        <p>In the <span class="Emphasis">Variables</span> area, double-click the rich content variable document to open it. The rich content variable document will have a table with two columns in it.</p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You need to create a rich variables document in Doc-To-Help before a document will appear in the Variables window pane.</p>
+                    </li>
+                    <li>In the left column, enter a variable name (without spaces in it).</li>
+                    <li>In the right column, enter the variable content.</li>
+                    <li>Apply styles to the variable content as desired, including conditional text.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Styles/Applying-Styles.htm">Applying Styles in Microsoft Word</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Conditions/Marking-Text-Conditional.htm">Marking Text as Conditional</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Styles/Applying-Styles.htm">Applying Styles in Microsoft Word</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Conditions/Marking-Text-Conditional.htm">Marking Text as Conditional</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>Save the document.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Online-Only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What's Next?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>After creating a rich content variable, you can insert it into any source document. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Variables/Inserting-Variable.htm">Inserting a Variable</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Variables/Inserting-Variable.htm">Inserting a Variable</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h1 MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Variables and Conditions</h1>
+        <MadCap:snippetBlock src="../../Variables/Variables-Conditions-D2H.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+    </body>
+</html>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can use the Accessibility Suggestions Search Properties dialog to customize which types of accessibility issues to look for when analyzing Flare projects. Based on your selections in this dialog, the Accessibility Suggestions window pane updates accordingly.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Customize the Accessibility Suggestions Shown in the Window Pane</h2>
+        <ol>
+            <li>Open the Accessibility Suggestions window pane. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Analysis-Guide">See <MadCap:xref href="../../../../Flare/Analysis/Suggestions/Accessibility/Viewing-Accessibility-Suggestions2.htm">Viewing Accessibility Suggestions</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>In the local toolbar of the Accessibility Suggestions window pane, click <span class="Emphasis">Search Properties</span>. The Accessibility Suggestions Search Properties dialog opens.</li>
+            <li>
+                <p>Select any of the options in the dialog.</p>
+                <ul>
+                    <li>Images without alt text</li>
+                    <li>Equations without alt text</li>
+                    <li>QR Codes without alt text</li>
+                    <li>Tables missing both a caption and summary</li>
+                    <li>Form elements without labels</li>
+                    <li>Frame elements missing title and name</li>
+                    <li>Tables missing header elements</li>
+                    <li>Table captions that are not the first table element</li>
+                    <li>Server-side image maps</li>
+                </ul>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../../Images/Flare/Accessibility/Accessibility-Suggestions-Search-Properties.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">When you see issues listed in the Accessibility Suggestions window pane, you can use the Apply Accessibility Suggestions Wizard to take action on issues that have to do with missing alternate text. See <MadCap:xref href="../../../../Flare/Accessibility/Analysis/Resolving-Accessibility-Issues.htm">Resolving Accessibility Issues</MadCap:xref>.</p>
+    </body>
+</html>

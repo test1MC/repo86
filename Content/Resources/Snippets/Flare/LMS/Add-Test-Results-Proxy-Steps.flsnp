@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>From the Content Explorer, create new topics for the pass and fail page(s). You can create two separate pages, one for a pass, and one for a fail. Or, you can create a generic results page to use for both.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Topics/Main-Activities/Creating-Topics.htm">Creating Topics</MadCap:xref>. </MadCap:conditionalText></p>
+            </li>
+            <li>
+                <p>Add  information (e.g., content, images) that is suitable for your course. Be sure to convey a successful or unsuccessful test result.</p>
+            </li>
+            <li>
+                <p>Place the cursor in the topic where you want to display the test results (e.g., place at the end after the content). </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">eLearning</span> ribbon, select <span class="Emphasis">Test Results Proxy</span>. Alternatively, from the <span class="Emphasis">Insert</span> ribbon, select the <span class="Emphasis">Proxy</span> drop-down, and choose <span class="Emphasis">Test Results Proxy</span>.</p>
+                <p>
+                    <img src="../../../Images/Flare/Interface/Buttons/LMS-Test-Results-Proxy-btn.png" alt="" title="" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the Test Results Proxy dialog, from the <span class="Emphasis">Skin File</span> drop-down, you can select a customized Test Results skin  component. If you leave the default setting, the first Test Results skin component in the project will be used. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../Images/Flare/LMS/Test-Results-Proxy-Dialog.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Be sure to insert the Test Results proxy in both the pass and  fail page topics. </p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have not created a skin component to associate with the proxy, you can always come back to the inserted proxy later and edit it once the skin component is created. See <MadCap:xref href="../../../../Flare/LMS/Other-Activities/Editing-Test-Results-Skin.htm">Editing the Test Results Skin Component</MadCap:xref>.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

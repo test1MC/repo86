@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Style-Inspector-Hide-Styles-Non-Inherited1.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Style-Inspector-Hide-Styles-Non-Inherited2.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Style-Inspector-Hide-Styles-Non-Inherited3.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Style-Inspector-Hide-Styles-Non-Inherited4.flsnp" />
+        <p>
+            <img src="../../../Images/Flare/Styles/Hide-Non-Inherited-Properties1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Whats-New-Guide" />
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Note-Style-Inspector-Hide-Styles-Non-Inherited.flsnp" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Consider the following topic. Its wild design is not really anything someone would create in a real-world situation, but it does help to illustrate this feature. Notice that the cursor is located on a paragraph, whose tag is nested within five different &lt;div&gt; tags.</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Hide-Non-Inherited-Properties2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>The markup looks like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Hide-Non-Inherited-Properties3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Due to the properties set on these div classes, you can see a few different background colors, a border, and the font values for the text.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <p>After opening the Style Inspector, you will initially see all of these styles and their properties.</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Hide-Non-Inherited-Properties4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Notice that many of these properties are gray. These are non-inherited properties, which means that they will not affect the paragraph directly.</p>
+            <p>For example, the background color property is non-inherited. That is why none of the colors are actually applied to the paragraph. At first glance, they might appear to be applied to the paragraph to a certain extent, but they are actually associated with the &lt;div&gt; tags around the paragraph. And the positions of these various &lt;div&gt; tags have been staggered to show this.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Whats-New-Guide" />
+            <p>The border is another example. While the border might appear to be applied to the paragraph, it is actually the &lt;div&gt; tag outside of the paragraph where the border actually resides.</p>
+            <p>If you select the option to hide the non-inherited styles and properties, you will see this:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Hide-Non-Inherited-Properties5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Most of the styles are now hidden, because they contained only non-inherited properties. However, notice that div.big_green style class is still shown, along with its properties, some of which are non-inherited (they are gray). The reason this style remains in view is that it has a specified font size, which is an inherited property. This prevents the style and properties (even non-inherited) from being hidden in the Style Inspector. </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Whats-New-Guide" />
+            <p>If you were to change the green background to yellow, the paragraph would not really be affected. But if you increase the font size to 30 pt, the paragraph will change accordingly (because you’ve edited an inherited property).</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Hide-Non-Inherited-Properties6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>If you wanted to set the background color for the paragraph itself (let’s say, to light blue), you would need to do this on the paragraph style.</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Hide-Non-Inherited-Properties7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

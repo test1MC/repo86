@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You plan to redact both individual words, as well as entire paragraphs. In that case, you might open your stylesheet and create a class of the span character style, calling it "Redacted." You also might create a class of the p style, naming it "Redacted." After specifying the redaction value for each of those style classes, you can then apply those classes to your content as needed. If you highlight a few words within a paragraph, you can select <span class="Emphasis">span.Redacted</span> to black out those words. If you want to redact an entire paragraph, you can click the tag bar to the left of that paragraph and select the <span class="Emphasis">p.Redacted</span> style class.</p>
+        </div>
+    </body>
+</html>

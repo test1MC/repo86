@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">[Tag]</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the tag (e.g., &lt;h1&gt;, &lt;p&gt;, &lt;td&gt;) that is applied to the content where the cursor is currently placed. The changes that you make in the Attributes window pane will be applied to that tagged content in that topic.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-All-Attributes-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays all of the attributes in the window pane.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Schema-Defined-Attributes-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays only the attributes provided by <MadCap:variable name="Other.Product" />. Your custom attributes are not displayed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Custom-Attributes-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays only the custom attributes that you create. Attributes provided by <MadCap:variable name="Other.Product" /> are not displayed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl-Li/Interface/Buttons/Add-Custom-Attribute-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Opens the Enter Custom Attribute dialog, which lets you create a new attribute and provide a value for it. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Select-Parent-Node-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p>Selects the content of the parent tag each time you click this button.
+</p>
+                        <MadCap:snippetBlock src="../../Styles/Example-Select-Parent-Node.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">[Attribute]</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">The left column in the window pane displays the attributes or events applicable to the tag where your cursor is placed.</p>
+                        <ul>
+                            <li>
+                                <p class="TableText"><span class="Emphasis">class </span>
+                                    <MadCap:snippetText src="../../Styles/Classes1.flsnp" /> See <MadCap:xref href="../../../../../../Flare/Styles/Basics-CSS/Important-Style-Terms-Concepts.htm#classes">Classes</MadCap:xref>.</p>
+                            </li>
+                            <li>
+                                <p><span class="Emphasis">dir </span>This indicates whether content should be displayed left-to-right (ltr) or right-to-left (rtl).</p>
+                            </li>
+                            <li>
+                                <p><span class="Emphasis">id </span>
+                                    <MadCap:snippetText src="../../Styles/ID-Summary.flsnp" /> See <MadCap:xref href="../../../../../../Flare/Styles/Basics-CSS/Important-Style-Terms-Concepts.htm#Identifiers">Identifiers</MadCap:xref>.</p>
+                            </li>
+                            <li>
+                                <p><span class="Emphasis">lang </span>This indicates the language for content (e.g., English = en, French = fr).</p>
+                            </li>
+                            <li>
+                                <p><span class="Emphasis">onclick (and other events) </span>All of the elements that you see starting with the characters "on" are events, which let you specify actions that should take place when certain activity occurs (e.g., onclick = when the content is clicked, ondbclick = when the content is double-clicked). You can learn more about each of these events from here: </p>
+                                <p><a href="https://www.w3schools.com/jsref/dom_obj_event.asp" target="_blank">https://www.w3schools.com/jsref/dom_obj_event.asp</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span class="Emphasis">style </span>This indicates the styling applied to content inline (or locally). For example, when you use the Color button on the Home ribbon to apply a color to text, a style attribute with that color is added inline to that content. It is highly recommended that you use global styles instead of setting style attributes locally.</p>
+                            </li>
+                            <li>
+                                <p><span class="Emphasis">title </span>This specifies extra information about content (e.g., can be used as tooltip text when the mouse moves over the content).</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">[Value]</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Use the right column in the window pane to set the value for the attribute in the left column. </p>
+                        <ul>
+                            <li>
+                                <p class="TableText">In the case of attributes such as the class and ID, you can simply enter the name of that class or ID that exists in your stylesheet.</p>
+                            </li>
+                            <li>
+                                <p class="TableText">In the case of direction, you can select <span class="Emphasis">ltr</span> or <span class="Emphasis">rtl</span> from a drop-down.</p>
+                            </li>
+                            <li>
+                                <p>In the case of a language, simply enter the code for the language. For details, see:</p>
+                                <p><a href="https://www.w3schools.com/tags/ref_language_codes.asp" target="_blank">https://www.w3schools.com/tags/ref_language_codes.asp</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>In the case of events, you can enter a function, such as the following: </p>
+                                <p class="TypedEntry">window.open("http://www.madcapsoftware.com");</p>
+                                <p>This particular function opens the MadCap Software website when the event takes place.</p>
+                            </li>
+                            <li>
+                                <p>In the case of style, the value could be written like the following:</p>
+                                <p class="TypedEntry">color: #bed420;</p>
+                            </li>
+                            <li>
+                                <p>In the case of the title, enter the text that you would like to be used for the associated content (i.e., the tooltip text).</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

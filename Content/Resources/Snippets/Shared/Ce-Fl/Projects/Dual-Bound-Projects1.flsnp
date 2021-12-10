@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Dual-bound means that your project has a first binding to a third-party source control provider—such as Git, TFS, SVN, or Perforce—and then a second binding to Central. With this model, you use the first source control binding to do most of the version control work; the Source Control ribbon in Flare is used only for tasks related to the first binding. Then periodically, you will use the MadCap Central window pane in Flare to upload (or “push”) the latest files from your local copy of the project up to Central via the second binding; the Source Control ribbon in Flare is not used for the second binding.</p>
+    </body>
+</html>

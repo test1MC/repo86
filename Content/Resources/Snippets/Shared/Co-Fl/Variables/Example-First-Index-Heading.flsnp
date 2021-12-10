@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to include a generated index in a PDF manual. So you create a simple topic called "MyIndex" and insert an Index proxy into it. Then you add that topic to the outline TOC that is being used to produce the manual.</p>
+            <p>Next, you open the page layout that you want to use for the topic holding that Index proxy. Let's call it "IndexPL." Suppose you open the page in that layout that will be used for all left-hand pages in the output. In the header frame, you insert the "FirstIndexHeading" variable. Perhaps you want to show the complete range of index headings on each page. So you type the word "through" and also insert the "LastIndexHeading" variable. Therefore, you would have something like this in the frame: </p>
+            <p class="Indented">
+                <img src="../../../../Images/Shared/Co-Fl/Variables/First-Last-Index-Heading-Variable.png" class="MaxWidth70PercentNoThumbnail" />
+            </p>
+            <p>Next, in the outline TOC, you create a chapter break on the entry linked to the topic holding the Index proxy. When doing this, you specify that the entry should use the "IndexPL" page layout.</p>
+            <p>Now you generate the PDF. You scroll down to the first left-handed page showing the generated index. Let's say the first index heading you see on the page is <span class="Emphasis">C</span>, with all of the index entries beginning with the letter "c" following it. Toward the bottom of that page, you see the glossary heading <span class="Emphasis">J</span>, and index entries starting with the letter "j" are listed below it. In that case, when you look to the very top of the page, you will see this:</p>
+            <p class="Indented"><span class="Emphasis">C through J</span>
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p class="Subheading">Search Destination URL</p>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../Search/Elasticsearch-Search-Destination-URL.flsnp" />
+            </li>
+        </ul>
+        <p class="Subheading">Server</p>
+        <ul type="1">
+            <li>
+                <MadCap:keyword term="Host name;Destinations:host name" /><span class="SetOffFirstLevel">Host Name </span>Enter or select the name of the remote server or the computer where the output files will be published (e.g., acme.com).</li>
+            <li>
+                <MadCap:keyword term="Port;Destinations:port" /><span class="SetOffFirstLevel">Port </span>Enter the port that you will use to connect to the remote server. Typically, you can obtain the port from your network administrator. The default port for FTP is 21, and the default port for SFTP&#160;is 22.</li>
+            <li>
+                <MadCap:keyword term="Connection mode;Destinations:connection mode" /><span class="SetOffFirstLevel">Connection Mode </span>For FTP connections, select either <span class="Emphasis">Active</span> or <span class="Emphasis">Passive</span>. These two modes have to do with security firewalls and how FTP connections are made between the server and the client. With Active mode, the client initiates the connection for the command channel, and the server initiates the connection for the data channel. With Passive mode, the client initiates the connection for both channels. From a security standpoint, Active mode is more beneficial for the server side, and Passive mode is more beneficial for the client side.</li>
+        </ul>
+        <p class="Subheading">Credentials</p>
+        <ul type="1">
+            <li>
+                <p>
+                    <MadCap:keyword term="Login;Destinations:login credentials" /><span class="SetOffFirstLevel">Login Credentials </span>Select this button to open the Login Credentials dialog. You can then enter the user name and password required for accessing the server to which you are publishing. This field is enabled only after you enter the host name or bind destination above.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are publishing to source control, login credentials are enabled after binding. If you are using Git, they are enabled if you selected the Push to Remote option.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:keyword term="Anonymous login;Login;Destinations:anonymous login" /><span class="SetOffFirstLevel">Anonymous Login </span>Select this check box if you want to publish to the server without being required to enter a user name or password. (You may need to check with your network administrator to determine if this is allowed.)</li>
+        </ul>
+        <p class="Subheading">SFTP&#160;Settings</p>
+        <ul type="1">
+            <li>
+                <p class="SetOffFirstLevel">Server Validation</p>
+                <ul>
+                    <li><span class="SetOffSecondLevel">None </span> Select this if there is no validation of the SFTP server.</li>
+                    <li><span class="SetOffSecondLevel">Known Hosts File </span>Select this if the SFTP server is listed in a known hosts file.</li>
+                    <li><span class="SetOffSecondLevel">Public Key File </span> Select this to validate the server against a public key.</li>
+                </ul>
+            </li>
+            <li><span class="SetOffFirstLevel">Hosts File </span>Click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to find and select the hosts file.</li>
+            <li>
+                <p class="SetOffFirstLevel">Authentication</p>
+                <ul>
+                    <li><span class="SetOffSecondLevel">Password </span>Select this if the server connection is authenticated by the user name and password set in the Login dialog (Login Credentials).</li>
+                    <li><span class="SetOffSecondLevel">Public Key </span>Select this if the server connection is validated against a public/private key pair match. You need  to supply the private key and password for the server.</li>
+                    <li><span class="SetOffSecondLevel">Both </span>Select this if the server connection requires both the user and private key validation.</li>
+                </ul>
+            </li>
+            <li><span class="SetOffFirstLevel">Key File </span>Click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to find and select the key file.</li>
+            <li><span class="SetOffFirstLevel">Key Password </span> Enter the key password.</li>
+        </ul>
+        <p class="Subheading">Destination</p>
+        <ul type="1">
+            <li>
+                <p>
+                    <MadCap:keyword term="Directory;Destinations:directory" /><span class="SetOffFirstLevel">Directory </span>Enter the folder where the output files will be published. You might enter something like this: public_html/Help/FictionSoftPro. You can also leave the default setting of "public_html" if you are publishing to the root directory on the server.</p>
+                <div class="warning">
+                    <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">If you are publishing to source control, you should enter a location that is not your project's output folder. This is because you do not want to inadvertently overwrite or delete your published files.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:keyword term="Comments:publishing destination;Destinations:comments" /><span class="SetOffFirstLevel">Comment </span>You can use this field to provide a description of the destination so that its purpose is clear.</li>
+        </ul>
+        <p class="Subheading">View</p>
+        <ul type="1">
+            <li>
+                <MadCap:snippetText src="View-URL-Field.flsnp" />
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <p class="Subheading">Upload</p>
+        <ul type="1">
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Log file" />Upload Log File </span>Select this option if you want <MadCap:variable name="Other.Product" /> to publish the log file with the rest of your output files. This option cannot be deselected if you are publishing to Salesforce<span class="Registered-Trademark">®</span> or Zendesk. For other destination types, you can disable this option so the log file is not uploaded. If you  choose not to upload a log file, you cannot use either of the following options.<ul><li><p><MadCap:snippetText src="Upload-Only-Changed-Files.flsnp" /></p><MadCap:snippetBlock src="../Zendesk/Zendesk-Note-Upload-Only-Changed-Unchecked.flsnp" /></li><li><MadCap:snippetText src="Remove-Outdated-Published-Files.flsnp" /></li></ul><p>For single-file outputs (such as <MadCap:variable name="Outputs.PDF" /> or <MadCap:variable name="Outputs.HTMLHelp" />), you might decide to disable publication of the log file. But for multi-file outputs (such as <MadCap:variable name="Outputs.HTML5" />, <MadCap:variable name="Outputs.WebHelp" />, and others), you might prefer to use a destination file with this option enabled. </p></li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <p class="Subheading">Source Control</p>
+        <ol class="LowerAlpha">
+            <li>
+                <p>Create or detect a source control binding.</p>
+                <p class="Subheading">If Your Project Is Already Bound to Source Control</p>
+                <ul>
+                    <li>
+                        <p>Click <span class="Emphasis">Detect</span> to search for existing source control bindings on the current destination folder. If they exist, Flare will automatically fill in the fields using this information.</p>
+                        <div class="note">
+                            <p>Source control providers are scanned in the following order:</p>
+                            <ol>
+                                <li>Git</li>
+                                <li>Subversion</li>
+                                <li>
+                                    <p>Perforce Helix Core</p>
+                                </li>
+                                <li>Microsoft Team Foundation Server (TFS)</li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Click <span class="Emphasis">New</span> to create a new bind destination. The Bind Destination dialog opens.</p>
+                        <p class="Subheading">Fo Set a Bind Destination—Git</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git1.flsnp" />
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git2.flsnp" />
+                                </p>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                                        <MadCap:snippetText src="../../../Shared/All/General/May-Need-Obtain-Info-Sys-Admin.flsnp" />
+                                    </p>
+                                </div>
+                                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                                <MadCap:snippetBlock src="../../../Shared/Fl-Li/Source-Control/Source-Control-Cloud-Forge-Git-Error.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:keyword term="Source control:push;Push" />
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git3.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git4.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git5.flsnp" />
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git6.flsnp" />
+                                </p>
+                                <ul class="Indented">
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git7.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git8.flsnp" />
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Optional-Comment-Field1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Git-HTTP1.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet3]exclude[Snippets.Snippet1 or Snippets.Snippet2]" />
+                            </li>
+                            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Git-SSH1.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet3]exclude[Snippets.Snippet1 or Snippets.Snippet2]" />
+                                </p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Git-SSH2.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Git-SSH3.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Git-SSH4.flsnp" />
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                        <p class="Subheading">To Set a Bind Destination—Perforce Helix Core</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per2.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per3.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per4.flsnp" />
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per5.flsnp" />
+                                </p>
+                                <p class="Subheading">If You are Binding to a Stream</p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream1.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Login-Dialog-Simple.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream2.flsnp" />
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream3.flsnp" />
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream4.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream5.flsnp" />
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream6.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream7.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                                    </li>
+                                </ol>
+                                <p class="Subheading">If You are Binding to a Depot</p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot1.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot2.flsnp" />
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot3.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot4.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot5.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Login-Dialog-Simple.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot6.flsnp" />
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot7.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Optional-Comment-Field1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Keep-Checked-Out.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                        <p class="Subheading">To Set a Bind Destination—Subversion</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Svn1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Svn2.flsnp" />
+                            </li>
+                            <li>Next to the <span class="Emphasis">Destination Path</span> field, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. The Browse Source Control Folders dialog opens.</li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Svn4.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Optional-Comment-Field1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                        <p class="Subheading">To Set a Bind Destination—TFS</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-TFS1.flsnp" />
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-TFS2.flsnp" />
+                                </p>
+                                <ol class="LowerAlpha">
+                                    <li>To add a server, click <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Buttons/Add-Custom-Attribute-btn.png" class="ReduceButtonSize" />. The Add Team Foundation Server dialog opens. </li>
+                                    <li>Enter the name or URL of the server. </li>
+                                    <li>Enter the path and port number. </li>
+                                    <li>
+                                        <p>Select the protocol (HTTP or HTTPS).</p>
+                                    </li>
+                                </ol>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                                        <MadCap:snippetText src="../../../Shared/All/General/May-Need-Obtain-Info-Sys-Admin.flsnp" /> Click <span class="Emphasis">OK</span> in the dialogs until you return to the main wizard page.</p>
+                                </div>
+                                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Be sure to specify the path deeper than the server name. For example:</p>
+                                    <p class="Small"><span class="TypedEntry">.../tfs/DefaultCollection</span> </p>
+                                    <p>or </p>
+                                    <p class="Small"><span class="TypedEntry">.../tfs/SourceCollection</span>
+                                    </p>
+                                    <p>If you do not know this information, contact your system administrator.</p>
+                                </div>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you run into issues in this dialog, chances are your user permissions do not have access to all of the collections on the TFS server. Please try to enter in the server/collection path manually.</p>
+                                </div>
+                            </li>
+                            <li>Next to the <span class="Emphasis">Destination Path</span> field, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. The Browse Source Control Folders dialog opens.</li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-TFS5.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Optional-Comment-Field1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Keep-Checked-Out.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If your selected destination folder is already bound to source control and you are having difficulties with source control detection, you may need to unbind the destination folder using your source control tool and create a new source control destination.</p>
+                        </div>
+                    </li>
+                </ul>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                <p class="Subheading">If Your Project Is Not Bound to Source Control</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../Source-Control/Bind-Destination-Not-Bound.flsnp" />
+                        <p class="Subheading">To Set a Bind Destination—Git</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git1.flsnp" />
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git2.flsnp" />
+                                </p>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                                        <MadCap:snippetText src="../../../Shared/All/General/May-Need-Obtain-Info-Sys-Admin.flsnp" /> </p>
+                                </div>
+                                <MadCap:snippetBlock src="../../../Shared/Fl-Li/Source-Control/Source-Control-Cloud-Forge-Git-Error.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:keyword term="Source control:push;Push" />
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git3.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git4.flsnp" />
+                            </li>
+                            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git5.flsnp" />
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git6.flsnp" />
+                                </p>
+                                <ul class="Indented">
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git7.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Git8.flsnp" />
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Optional-Comment-Field1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                            <li>(Optional) If you entered an HTTP address in Step ii, enter your user name and password in the Log In dialog and click <span class="Emphasis">OK</span> when you are finished.</li>
+                            <li>
+                                <p>(Optional) If you entered an SSH&#160;URL&#160;in Step ii, the Certificate Specification dialog opens. In the dialog, do the following and click <span class="Emphasis">OK</span> when you are finished:</p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Git-SSH2.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Git-SSH3.flsnp" />
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Git-SSH4.flsnp" />
+                                        </p>
+                                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                                        <MadCap:snippetBlock src="../../../Shared/Fl-Li/Source-Control/SSH-Keys.flsnp" />
+                                        <MadCap:snippetBlock src="../../../Shared/Fl-Li/Source-Control/Examples-SSH-Keys.flsnp" />
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                        <p class="Subheading">To Set a Bind Destination—Perforce Helix Core</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per2.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per3.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per4.flsnp" />
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per5.flsnp" />
+                                </p>
+                                <p class="Subheading">If You are Binding to a Stream</p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream1.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Login-Dialog-Simple.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream2.flsnp" />
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream3.flsnp" />
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream4.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream5.flsnp" />
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream6.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Stream7.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                                    </li>
+                                </ol>
+                                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                                <p class="Subheading">If You are Binding to a Depot</p>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot1.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot2.flsnp" />
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot3.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot4.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot5.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Login-Dialog-Simple.flsnp" />
+                                        </p>
+                                        <p>
+                                            <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot6.flsnp" />
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Per-Depot7.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Optional-Comment-Field1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Keep-Checked-Out.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                        <p class="Subheading">To Set a Bind Destination—Subversion</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Svn1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Svn2.flsnp" />
+                            </li>
+                            <li>Next to the <span class="Emphasis">Destination Path</span> field, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. The Browse Source Control Folders dialog opens.</li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-Svn4.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Optional-Comment-Field1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                        <p class="Subheading">To Set a Bind Destination—TFS</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-TFS1.flsnp" />
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-TFS2.flsnp" />
+                                </p>
+                                <ol class="LowerAlpha">
+                                    <li>To add a server, click <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Buttons/Add-Custom-Attribute-btn.png" class="ReduceButtonSize" />. The Add Team Foundation Server dialog opens. </li>
+                                    <li>Enter the name or URL of the server. </li>
+                                    <li>Enter the path and port number. </li>
+                                    <li>
+                                        <p>Select the protocol (HTTP or HTTPS).</p>
+                                    </li>
+                                </ol>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                                        <MadCap:snippetText src="../../../Shared/All/General/May-Need-Obtain-Info-Sys-Admin.flsnp" /> Click <span class="Emphasis">OK</span> in the dialogs until you return to the main wizard page.</p>
+                                </div>
+                                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Be sure to specify the path deeper than the server name. For example:</p>
+                                    <p class="Small"><span class="TypedEntry">.../tfs/DefaultCollection</span> </p>
+                                    <p>or </p>
+                                    <p class="Small"><span class="TypedEntry">.../tfs/SourceCollection</span>
+                                    </p>
+                                    <p>If you do not know this information, contact your system administrator.</p>
+                                </div>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you run into issues in this dialog, chances are your user permissions do not have access to all of the collections on the TFS server. Please try to enter in the server/collection path manually.</p>
+                                </div>
+                            </li>
+                            <li>Next to the <span class="Emphasis">Destination Path</span> field, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. The Browse Source Control Folders dialog opens.</li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Bind-TFS5.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Optional-Comment-Field1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Source-Control-Keep-Checked-Out.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If your selected destination folder is already bound to source control and you are having difficulties with source control detection, you may need to unbind the destination folder using your source control tool and create a new source control destination.</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+            <li>Review your source control settings.<ul><li><p><span class="SetOffFirstLevel">Provider Type </span>This is the source control provider.</p></li><li><span class="SetOffFirstLevel">Database </span>This is the current source control database. </li><li><span class="SetOffFirstLevel">Database Root </span>This is the root folder in the source control database where source control files will be published.</li><li><span class="SetOffFirstLevel">Push to Remote (Git) </span>Select this check box if you want to publish your output to a remote repository.</li><li><p><span class="SetOffFirstLevel">Remote Repository (Git) </span>Select a remote repository from the drop-down. If you need to add or remove a remote repository, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to open the Remote Repositories dialog.</p><p class="Subheading">To Add a Remote Repository</p><ol class="LowerRoman"><li><p><MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Remote-Repository-Add1.flsnp" /></p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"><MadCap:snippetText src="../../../Shared/All/General/May-Need-Obtain-Info-Sys-Admin.flsnp" /> </p></div></li><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /><li><p><MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Remote-Repository-Add2.flsnp" /></p><p><img src="../../../../Images/Shared/Fl-Li/Source-Control/Remote-Repository-Add.png" alt="" title="" class="MaxWidth100Percent" /></p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Repository names cannot include spaces.</p></div></li><li><p><MadCap:snippetText src="../../../Shared/Fl-Li/Source-Control/Remote-Repository-Add3.flsnp" /></p><p><img src="../../../../Images/Shared/Fl-Li/Source-Control/Remote-Repository-Available.png" alt="" title="" class="MaxWidth100Percent" /></p></li><li><MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" /></li></ol><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git,Flare-Guides.Flare-Printed-Output-Guide" /><p class="Subheading">To Remove a Remote Repository</p><ol class="LowerRoman"><li>From the <span class="Emphasis">Remote Repository</span> list, select the repository you want to delete.</li><li>Click <span class="Emphasis">Remove</span>. The repository is removed from the list of available repositories.</li><li><MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" /></li></ol></li></ul></li>
+        </ol>
+    </body>
+</html>

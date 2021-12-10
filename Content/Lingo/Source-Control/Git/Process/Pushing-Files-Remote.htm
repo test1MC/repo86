@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Git.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control:push;Push" />
+            <MadCap:keyword term="Source control:remote repository" />Pushing Files to a Remote Repository<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Git</MadCap:conditionalText></h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/After-Commit-Changes-Project-Git.flsnp" />
+        <h2>How to Push Files To a Remote Repository</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Push</b>.</li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>In the File List, right-click a file and select <span class="Emphasis">Source Control &gt; Project &gt; Push</span>.</li>
+                    <li MadCap:conditions="General.Online-Only"><span class="SetOffFirstLevel">Local Toolbar </span>In the local toolbar of the File List, click <img src="../../../../Resources/Images/Shared/Ce-Fl-Li/Interface/Buttons/Source-Control-btn.png" />, then select <span class="Emphasis">Project &gt; Push</span>. </li>
+                </ul>
+            </li>
+            <li>
+                <p>(Optional) If you did not commit your files before starting the push, a dialog asks if you want to commit your files. Click <span class="Emphasis">Yes</span> to continue. See <MadCap:xref href="Committing-Source-Control-Files-Git.htm">Committing Source Control Files—Git</MadCap:xref>.</p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Commit-Modified-Files-Proceed-Push.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Select-Remote-Push-Dialog-Opens.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Git" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Optional-Add-Remove-Remote-Repository.flsnp" />(Optional) </p>
+                <p class="Subheading">To Add a Remote Repository</p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Add-Remote-Repository.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                <p class="Subheading">To Remove a Remote Repository</p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Remove-Remote-Respository.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+            </li>
+            <li>In the Select Remote for Push dialog, click <span class="Emphasis">OK</span>. <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Login-Dialog-Simple.flsnp" /></li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Git" />
+            <li>
+                <p>If the local changes are different from those in the remote, you will see an error in the Progress dialog during the push. Perform a pull, then attempt the push again. See <MadCap:xref href="Pulling-Files-Remote.htm">Pulling Files from a Remote Repository—Git</MadCap:xref>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Shared/Fl-Li/Source-Control/Push-Error.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Cloud-Forge-Git-Error.flsnp" />
+    </body>
+</html>

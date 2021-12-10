@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Styles Method for Print Output</p>
+            <p>Let's say that you want to use the default method in print-based output, where the mini-TOC entries are based on headings using the h1 through h6 styles in your project. Perhaps you have created a lengthy topic, with the h1 style applied to the first heading in that topic and several subheadings below it that are using the h2 and h3 styles. Like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Mini-TOC-Proxy9.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <p>Now let's say that you insert a Mini-TOC proxy between the h1 heading and the first h2 heading, like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Mini-TOC-Proxy2.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <p>When you insert the proxy, let's say you specify that it should use a depth of 3. In that case, the output will display links that point to all your subheadings—the h2 headings (which are second-level headings), as well as the h3 headings (which are third-level headings). But suppose you also have, say, h4 headings in the topic content. Those h4 headings will not be included in the mini-TOC because you selected a depth of 3 rather than 4 or higher.</p>
+            <p>In the output, it might look something like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Mini-TOC-Proxy3.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

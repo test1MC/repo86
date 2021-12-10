@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li><span class="SetOffFirstLevel">All Files </span>Displays all <MadCap:conditionalText MadCap:conditions="Products.Lingo">translatable</MadCap:conditionalText> files.</li>
+            <li><span class="SetOffFirstLevel">Topic Files </span>Displays only the topic (HTM and HTML) files.</li>
+            <li MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">Template Page Files </span>Displays only the template page (FLMSP) files.</li>
+            <li><span class="SetOffFirstLevel">Page Layout Files </span>Displays only the page layout (FLPGL) files.</li>
+            <li><span class="SetOffFirstLevel">Snippet Files </span>Displays only the snippet (FLSNP) files.</li>
+            <li MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">Micro Content Files </span>Displays only the micro content (FLMCO) files.</li>
+            <li><span class="SetOffFirstLevel">Stylesheet Files </span>Displays only the stylesheet (CSS) files.</li>
+            <li MadCap:conditions="Products.Lingo"><span class="SetOffFirstLevel">Template Page Files </span>Displays only the template page (FLMSP) files.</li>
+            <li MadCap:conditions="Products.Flare,Products.Lingo"><span class="SetOffFirstLevel">Image Files </span>Displays only the image files. </li>
+            <li MadCap:conditions="General.Future"><span class="SetOffFirstLevel">Mimic Project Data </span>Displays only the Mimic movie project data. xxx what does this display?? bugged 5/3</li>
+            <li MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">Multimedia Files </span>Displays only multimedia (audio, video, and 3D model) files.</li>
+            <li MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">GIF Files </span>Displays only GIF files. </li>
+            <li MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">JPEG Files </span>Displays only JPG and JPEG files.</li>
+            <li MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">PNG Files </span>Displays only PNG files.</li>
+            <li MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">Flash Movie Files </span>Displays only SWF files. </li>
+        </ul>
+    </body>
+</html>

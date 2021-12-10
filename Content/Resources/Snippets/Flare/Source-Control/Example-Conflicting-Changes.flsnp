@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Conflicting Changes</p>
+        <p>Let's say two authors—Bob and Jill—are working on the same project, using source control to manage the files.</p>
+        <p>Bob checks out the "FAQs" topic and starts making changes to it.</p>
+        <p>Jill also checks out the "FAQs" topic and makes some changes to it. Jill's changes are in the same paragraph in the topic as Bob's changes; thus, there is a conflict. She finishes before Bob and commits the file to source control.</p>
+        <p>Bob finishes his changes and tries to submit the file. Before the file can be submitted, Bob is prompted with a dialog, indicating that changes from another author have already been submitted.</p>
+    </body>
+</html>

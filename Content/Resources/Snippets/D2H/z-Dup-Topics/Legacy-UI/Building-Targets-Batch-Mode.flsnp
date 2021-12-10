@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>You may build targets in batch mode from the command line through a special executable program, C1D2HBatch.exe.</p>
+        <p>If you need to start a build from Windows Services (such as the Task Scheduler or TFS Build), you should use a different executable, C1D2HAgent.exe. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Output/Building-Targets-Using-Windows-Services.htm">Building Targets Using Windows Services</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Building-Targets-Using-Windows-Services.htm">Building Targets Using Windows Services</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>Both of these executables are located in <span class="Emphasis">C:\Program Files (x86)\MadCap Software\DocToHelp</span>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Commands</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The commands are as follows:</p>
+                <table style="margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 33%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 33%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 33%;" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Command</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Description</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">Example</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">c1d2hbatch –build </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Rebuilds the current target entirely.</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">c1d2hbatch -build "c:\D2H Projects\StyleGuide\StyleGuide.d2h" "StyleGuide NetHelp" -p</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">c1d2hbatch –make </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Updates the current target.</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">c1d2hbatch -make "c:\D2H Projects\StyleGuide\StyleGuide.d2h" "StyleGuide Manual"</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">c1d2hbatch –build or make <br />-lLogFile (optional)</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Saves the build log file with a specific name, rather than the default name, which is equal to the current date and time. </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">c1d2hbatch&#160; -build "c:\D2H Projects\StyleGuide\StyleGuide.d2h" "StyleGuide Manual" -lmyfilename.log</p>
+                                <p class="TableText">Build log will be stored in the Temp\BuildLogs directory.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">There is currently only one flag allowed in 'flags': -p, enabling the output of progress messages.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Targets-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Error and Log Messages</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>All error and log messages are sent to the console standard output and have the following format:</p>
+                <ul>
+                    <li>
+                        <p>For errors aborting compilation:</p>
+                        <p class="TypedEntry">D2H:fatal error:[error code]: [message text]</p>
+                        <p>The [error code] is a numeric error code.</p>
+                    </li>
+                    <li>
+                        <p>For logged user errors, compilation continues and every log error is output to the Output window:</p>
+                        <p class="TypedEntry">D2H:log error document:[document name]</p>
+                        <p class="TypedEntry">D2H:log error topic:[topic title]</p>
+                        <p class="TypedEntry">D2H:log error message:[severity]:[message text]</p>
+                        <p>The [document name] and [topic title] can be empty, depending on the nature of the error.</p>
+                        <p>The [severity] will be listed as one of the following three strings: "note," "warning," or "error."</p>
+                    </li>
+                    <li>
+                        <p>A log message, for information only, shows what document is currently compiling, what action is being performed, and so on:</p>
+                        <p class="TypedEntry">D2H:log:[message text]</p>
+                    </li>
+                    <li>
+                        <p>A progress message appears only if the -p flag is present:</p>
+                        <p class="TypedEntry">D2H:progress:[done]/[total]</p>
+                        <p>Here [done] is an integer number indicating how many steps of the currently performed action have been completed so far.</p>
+                        <p>The [total] is an integer number indicating the total number of steps in the currently performed action.</p>
+                    </li>
+                    <li>
+                        <p>A progress completion message indicates that the current action has been completed, and it appears only if the -p flag is present:</p>
+                        <p class="TypedEntry">D2H:progress:done</p>
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Targets-Guide" />
+                    <li>
+                        <p>An unresolved links list is the output at the end of a successful build when the -build or -make commands are used. Every unresolved link is output to the Output window:</p>
+                        <p class="TypedEntry">D2H:unresolved link text:[link text]</p>
+                        <p class="TypedEntry">D2H:unresolved link style:[style name]</p>
+                        <p class="TypedEntry">D2H:unresolved link topic:[topic title]</p>
+                        <p class="TypedEntry">D2H:unresolved link document:[document name]</p>
+                    </li>
+                    <li>
+                        <p>For a successful build:</p>
+                        <p class="TypedEntry">D2H:succeeded</p>
+                    </li>
+                    <li>
+                        <p>For a failed build:</p>
+                        <p class="TypedEntry">D2H:failed</p>
+                    </li>
+                    <li>
+                        <p>The last message before Doc-To-Help batch mode exits:</p>
+                        <p class="TypedEntry">D2H:exit</p>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In Windows 7 and later, C1D2HBatch.exe must be run as administrator, or it will always throw an exception. If you run it directly, start it with "Run as Administrator," available in Windows 7/8 in the context menu of the C1D2HBatch.exe file. If you run it from a command line prompt, open the command line window with "Run as Administrator." If you run it from a script or a program, make sure the script or program runs as administrator.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

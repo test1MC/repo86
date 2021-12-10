@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Central/User-Guides/Central-Projects-Builds.flmsp');">
+    <head>
+        <meta name="description" content="There are certain features in Flare that are not fully supported when you generate targets from MadCap Central. However, a few of these features are supported when publishing directly to Central from a local Flare project." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Projects:features not supported;Builds:features not supported;Output:features not supported" />Flare Features Not Supported in MadCap Central</h1>
+        <p>
+            <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/Ce-Fl/Projects/Flare-Features-Not-Supported-Central-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Main-Activities/Publishing-Directly-Central.htm">Publishing Directly to Central</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">See <MadCap:xref href="../../../../../Print-Only-Topics/Central/Projects/Page-Views/Builds/Main-Activities/Publishing-Directly-Central.htm">Publishing Directly to Central</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>
+            <MadCap:keyword term="Source control:get latest version;Projects:source control" />Automatically Get Latest Files </h2>
+        <p>If you are working in a dual-bound scenario<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../Main-Activities/Source-Control/Dual-Bound-Projects.htm">Dual-Bound Projects</MadCap:xref>)</MadCap:conditionalText> and you select the option in the target to automatically get the latest version of files before generating, this option will not work when you build from MadCap Central. Instead, you must first synchronize your files with source control in Flare and then push those changes to Central.</p>
+        <h2>Batch Targets </h2>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Ce-Fl/Projects/Not-Supported-Outputs-Building.flsnp" />
+        <p>However, you can generate a batch target when publishing directly to Central from a local Flare project.</p>
+        <h2>Custom Build Log Folder </h2>
+        <p>In the Options dialog, Flare has a feature that lets you choose a custom folder to hold the log file after generating output. This feature is not supported when building from MadCap Central. Instead, the log file is stored at the root level of the output folder.</p>
+        <h2>
+            <MadCap:keyword term="Fonts" />Custom Fonts </h2>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Ce-Fl/Projects/Not-Supported-Custom-Fonts.flsnp" />
+        <h2>
+            <MadCap:keyword term="Output:folders;Targets:output folder" />Custom Output Folder </h2>
+        <p>Flare targets let you choose a custom location for your output folder. However, this is not supported when building from MadCap Central. You must use the default location.</p>
+        <h2>
+            <MadCap:keyword term="Variables:date and time;Date/time variables" />Date/Time Variables </h2>
+        <p>
+            <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/Ce-Fl/Projects/Not-Supported-Date-Time-Variables.flsnp" />
+        </p>
+        <h2>
+            <MadCap:keyword term="Search:Elasticsearch;Elasticsearch" />Elasticsearch </h2>
+        <p>Elasticsearch is one of the search engine options that you have in Flare (along with MadCap Search and Google Search). Currently, using Elasticsearch in your HTML5 output is not supported in targets generated from Central.</p>
+        <p>However, Elasticsearch is supported when publishing directly to Central from a local Flare project. </p>
+        <h2>
+            <MadCap:keyword term="Building:output;Targets:building output;Output:building targets" />Global Ignored Warnings </h2>
+        <p>
+            <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/Ce-Fl/Output/Ignore-Warnings-Summary.flsnp" /> However, if you generate output from Central, global settings to ignore warnings are not supported; instead, you must ignore warnings in the target.</p>
+        <h2>
+            <MadCap:keyword term="Movies" />Linked Mimic Movies and Projects </h2>
+        <p>When building from MadCap Central, external links to Mimic movies and projects will not work. However, embedded movies in a Flare project are supported.</p>
+        <h2>MadCap Pulse </h2>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Ce-Fl/Projects/Not-Supported-MadCap-Pulse.flsnp" />
+            </div>
+        </MadCap:microContent>
+        <h2>
+            <MadCap:keyword term="Targets:build events" />Pre- and Post-Build Events </h2>
+        <p>
+            <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/Ce-Fl/Projects/Not-Supported-Pre-Post-Build-Events.flsnp" />
+        </p>
+        <p>However, pre- and post-build events are supported when publishing directly to Central from a local Flare project. </p>
+        <h2>
+            <MadCap:keyword term="Publishing:destinations;Destinations:creating" />Publishing to Outside Servers </h2>
+        <p>Flare lets you create destination files for the purpose of publishing to external servers. This feature is not supported when building from MadCap Central. Instead, live builds are always published in Central.</p>
+        <h2><a name="ViewingSomeOutputFormats"></a>Viewing Some Output Formats</h2>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/Ce-Fl/Projects/Not-Supported-Output-Formats-Viewing.flsnp" />
+        <p MadCap:conditions="General.Future">Not working</p>
+        <p MadCap:conditions="General.Future">•	dynamic ePub targets- Bug 122044</p>
+        <p MadCap:conditions="General.Future">•	custom file extensions from Advanced tab - Bug 119254</p>
+        <p MadCap:conditions="General.Future">•	custom file extensions in output file tab - Bug 122601</p>
+        <p MadCap:conditions="General.Future">•	variables in output file field - Bug 122097</p>
+    </body>
+</html>

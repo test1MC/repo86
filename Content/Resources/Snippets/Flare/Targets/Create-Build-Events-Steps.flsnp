@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open a target.</li>
+            <li>On the <span class="Emphasis">Build Events</span> tab of the Target Editor, enter a command in the <span class="Emphasis">Pre-Build Event Command</span> or <span class="Emphasis">Post-Build Event Command</span> text box. Be sure to use a separate line for each command.</li>
+            <li>
+                <p>(Optional) If you need to insert a build variable into your command, click <span class="Emphasis">Insert Build Variable</span>. In the dialog, do the following:</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>In the text box, place your cursor where you want to insert a variable.</li>
+                    <li>From the <span class="Emphasis">Variable</span> column, select the variable you want to add to the command. The variable's value is shown in the <span class="Emphasis">Value</span> column.</li>
+                    <li>Click <span class="Emphasis">Insert</span> to add the variable to the command.</li>
+                    <li>When you are finished adding variables to the command, click <span class="Emphasis">OK</span>.</li>
+                </ol>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

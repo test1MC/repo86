@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div>
+            <MadCap:snippetBlock src="../../Micro-Content-Toolbars/User-Guides/Analysis-Reports.flsnp" />
+            <div class="Tiles-6-6">
+                <div>
+                    <p>A character data (CDATA) tag is used to specify that certain characters should be recognized exactly as they are written, when they otherwise could be mistaken for code.</p>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Text within angle brackets &lt;&gt; could be mistaken for a tag.</p>
+                    </div>
+                    <p>You also might see CDATA&#160;tags injected into the code of some topics or other content files when something occurs, such as more than one space when the XML Editor doesn't support multiple spaces in a row. You can use the Analysis ribbon (<span class="Emphasis">Suggestions &gt; Markup Suggestions</span>) if you want to <a href="../../../../../Flare/Analysis/Suggestions/Markup/Viewing-Applying-Markup-Suggestions.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">find and remove such CDATA tags</a>.</p>
+                </div>
+                <div>
+                    <p>If you need to include code examples in your documentation, you can use <a href="../../../../../Flare/Code-Snippets/Code-Snippets.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">code snippets</a> (example below). Users can even quickly copy the code.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;script type="text/javascript" src="[path of file]/csh.js"&gt;&lt;/script&gt;</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

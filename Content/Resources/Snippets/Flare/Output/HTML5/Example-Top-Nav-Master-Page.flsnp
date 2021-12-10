@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In Flare's advanced Top Navigation templates, we wanted to show footer content at the bottom of the Home page, so we created a template page just for that topic, and we added footer content under the Topic Body proxy.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Nav-Output17.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Nav-Output18.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+            <p>Then on the rest of the topics we wanted breadcrumbs to be displayed above the topic content. So we created a second template page (“Other-Topics.flmsp”) for all of those topics and inserted a Search Bar proxy , a context-sensitive Menu proxy, and a Breadcrumbs proxy above the Topic Body proxy. Even though the Menu proxy was added above the Topic Body proxy, it was styled to display to the right of the topic content, with content wrapping under it.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Nav-Output22.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Nav-Output23.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

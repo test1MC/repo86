@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-TFS.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Steps for undoing a checkout of TFS source control files." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:check out;Multi-authoring;Check out" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />Undoing a Checkout of Source Control Files<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Team Foundation Server</MadCap:conditionalText></h1>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Undo-Check-Out-Summary.flsnp" />&#160;While checking in the file would save your changes to source control, undoing a checkout returns the files to their previous state and does not check in any of your changes to source control. </p>
+        <h2>How to Undo a Checkout of Source Control Files</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Window-Pane-Select-File.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Undo Check Out</b> (for selected files) or <span class="Emphasis">Source control &gt; Undo Check Out All</span> (for all files in the project). </p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Right-Click </span>If you have the Content Explorer, Project Organizer, Pending Changes window pane, or File List open, right-click the files you want to undo and select <span class="Emphasis">Source Control &gt; Undo Check Out</span>  (for selected files) or <span class="Emphasis">Source Control &gt; Project &gt; Undo Check Out All</span>  (for all files in the project).</p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source Control Explorer:Pending Changes pane" />Source Control Explorer </span>With the Pending Changes pane open, select the files or folders that you want to undo, right-click, and select <span class="Emphasis">Undo Check Out</span>. You can also select <span class="Emphasis">Undo Check Out</span> to undo all files in the <MadCap:keyword term="Source control:include changes" />Included Changes section.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you click <span class="Emphasis">Undo Check Out</span> in the Source Control Explorer, you will not see any additional dialogs and the undo process completes.</p>
+                        </div>
+                    </li>
+                </ul>
+                <p>The Undo Check Out dialog opens. The selected files are listed with check boxes next to them.</p>
+            </li>
+            <li>(Optional) If you want to see all files with pending changes (rather than only those you selected), click <img src="../../../../Resources/Images/Shared/Ce-Fl-Li/Interface/Buttons/Show-All-Pending-Changes-btn.png" class="ReduceButtonSize" />.</li>
+            <li>Make sure to click the check box next to each appropriate file so that it contains a check mark.</li>
+            <li>Click <span class="Emphasis">Undo Check Out</span>. </li>
+        </ol>
+    </body>
+</html>

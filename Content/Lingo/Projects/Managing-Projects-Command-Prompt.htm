@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Projects:updating" />
+            <MadCap:keyword term="Projects:exporting;Exporting:projects" />
+            <MadCap:concept term="FilterProjects" />Managing Projects Using the Command Line</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Lingo/Projects/Command-Line-Summary.flsnp" />
+                <div class="topic-only">
+                    <p>
+                        <MadCap:snippettext src="../../Resources/Snippets/Shared/Li-Mi/Output/Best-Way-Command-Line-Batch.flsnp" />
+                    </p>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+                </div>
+                <h2>How to Use the Command Line for Lingo Projects</h2>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Compile-First-Steps.flsnp" />
+                <ol>
+                    <li value="3" class="PageBreakBefore">
+                        <p>Type any of the following as part of your command, entering the appropriate value in place of the section in brackets:</p>
+                        <ul>
+                            <li><b>-project [project file]</b>  Path and name of Lingo project. </li>
+                            <li><b>-sourceFile [source file]</b> Path and name of source project or file you are translating. </li>
+                            <li><b>-exportTo [export path]</b> Path where you want to store translated project or file after exporting from Lingo. </li>
+                            <li><b>-syncProject [true/false]</b> Used only if source file is listed along with project file; updates Lingo project with source file before exporting.</li>
+                            <li><b>-language [target language or code]</b> Language to which you are translating; can enter full language or code.</li>
+                            <li>
+                                <p><b>-appendLanguage [true/false]</b> Used to apply a language code<span class="topic-only"> (e.g., "es" for Spanish)</span> to exported non-project files, instead of applying code to folder.</p>
+                                <p class="topic-only">This is beneficial if you want to flatten the exported files so you can see them side by side, instead of having all instances of the same file name without any language code attached to those files.</p>
+                            </li>
+                        </ul>
+                        <div class="topic-only">
+                            <div class="tip" MadCap:conditions="General.Online-Only">
+                                <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">Some operating systems allow you to drag a folder or file from the Windows location to the Command Prompt window. This will add the path of the folder or file within quotation marks for you.</p>
+                            </div>
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If there are spaces anywhere in the path/name of your project file, source file, export path, or target language, you need to use quotation marks around it. </p>
+                            </div>
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The commands used by the compiler are case-sensitive.</p>
+                            </div>
+                            <p class="Subheading">To Export a Lingo Project</p>
+                            <p>Here is the command:</p>
+                            <p><span class="TypedEntry">lingoproject.exe -project [project file] -sourceFile [source file] -exportTo [export path] -syncProject [true/false]</span>
+                            </p>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Lingo/Projects/Example-Export-Project-Command-Line.flsnp" />
+                            <p class="Subheading">To Export a Lingo Project in a Specific Language</p>
+                            <p>Here is the command:</p>
+                            <p><span class="TypedEntry">lingoproject.exe -project [project file] -sourceFile [source file] -exportTo [export path] -language [target language or code] -syncProject [true/false]</span>
+                            </p>
+                            <div class="example">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                                <p>You have a Lingo project called "Nursery Rhymes" that has been translated into Spanish and French. It is stored in your Documents\My Translated Projects folder, and you want to export the Spanish version to a folder on your Desktop. The source is a Word document located in a folder called "SourceFiles" on your C drive. You would type this:</p>
+                                <p><span class="TypedEntry">lingoproject.exe -project "C:\Users\[username]\Documents\My Translated Projects\Nursery Rhymes.liprjf\Nursery Rhymes.liprj" -sourceFile "C:\SourceFiles\Nursery Rhymes.docx" -exportTo C:\Users\[username]\Desktop\Exports -language Spanish -syncProject true</span>
+                                </p>
+                            </div>
+                            <p class="Subheading">To Export a Lingo Project in All Languages</p>
+                            <p>If you wish to export all of the languages in your Lingo project using the command line, this is the syntax you would use:</p>
+                            <p class="TypedEntry">lingoproject.exe -project [project file] -sourcefile [source file] -exportTo [export path] -syncProject [true/false] -appendLanguage [true/false]</p>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Lingo/Projects/Language-Arguments-Command-Prompt.flsnp" />
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Lingo/Projects/Example-Export-All-Languages-Command-Line.flsnp" />
+                            <p class="Subheading">To Update a Lingo Project</p>
+                            <p>Here is the command:</p>
+                            <p><span class="TypedEntry">lingoproject.exe -project [project file] -sourceFile [source file]</span>
+                            </p>
+                            <div class="example">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                                <p>You have a Lingo project called "Nursery Rhymes." It is stored in your Documents\My Translated Projects folder. Your source file has changed, so you want to update the Lingo project. The source is a Flare project located in a folder called "SourceFiles" on your C drive. You would type this:</p>
+                                <p><span class="TypedEntry">lingoproject.exe -project "C:\Users\[username]\Documents\My Translated Projects\Nursery Rhymes.liprjf\Nursery Rhymes.liprj" -sourceFile "C:\SourceFiles\Nursery Rhymes.flprj"</span>
+                                </p>
+                            </div>
+                            <p class="Subheading">Now What?</p>
+                            <p>If you are using the command prompt window for any of the commands just described, the project is exported or updated immediately.</p>
+                            <p>If you are creating a batch file in Notepad, it might look something like this:</p>
+                            <p>
+                                <img src="../../Resources/Images/Lingo/Projects/Batch-File.png" class="MaxWidth100Percent" />
+                            </p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </MadCap:microContent>
+        <h2>Batch Files and Task Scheduler</h2>
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Scheduled-Task.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Scheduled-Task-Steps.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After exporting a project, you can inform the author, who can then open the translated project or file and create output for it.</p>
+        <p MadCap:conditions="General.Online-Only">After updating a project, you can open a list of files that require translation (see <MadCap:xref href="../Translating-Files/Viewing-List-Files-Requiring-Translation.htm">Viewing a List of Files Requiring Translation</MadCap:xref>). If the Difference column indicates a change was made to a particular file, you can open that file to translate the new text (you may need to drag the divider in the File List window pane to see the Difference column).</p>
+        <p MadCap:conditions="General.Online-Only">
+            <img src="../../Resources/Images/Lingo/Projects/Update-Project.png" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

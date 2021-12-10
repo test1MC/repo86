@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Create the template pages that you need.</li>
+            <li>Open your stylesheet (in the Advanced view) and select the <span class="Emphasis">html</span> style on the left side of the editor.</li>
+            <li>Create a new class. When you are finished it will be placed under the html style. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Styles/Main-Activities/Creating-Selectors.htm">Creating Selectors</MadCap:xref>.</MadCap:conditionalText><![CDATA[
+]]></li>
+            <li>Select your new class on the left side of the editor.
+</li>
+            <li>In the upper-right corner of the Stylesheet Editor, click the <span class="Emphasis">Show</span> field and select <span class="Emphasis">Show: Assorted Relevant Properties</span>.
+</li>
+            <li>
+                <p>To the right of the <span class="Emphasis">mc-template-page</span> property, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" class="ReduceButtonSize" />, then select the template page to be associated with it.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are working in Group View, this property can be found under <span class="Emphasis">Unclassified</span>.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open a topic that you want to associate with that template page.</li>
+            <li>Make sure the structure bars are turned on. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">Structure Bars</MadCap:xref>.</MadCap:conditionalText><![CDATA[
+]]></li>
+            <li>To the left of the topic content, right-click the <span class="Emphasis">html</span> bar.
+</li>
+            <li>
+                <p>In the context menu, select <span class="Emphasis">Style Class</span> and choose the html style class that you want to apply.
+
+</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You will not see any styles from this list until you create a class for the html style in the Stylesheet Editor.</p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials\Flare-Lists-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Editing an applying list styles." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Lists.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:lists;Lists:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Editing and Applying List Styles</h1>
+        <p>We have a couple of multi-level lists. However, those lists aren't using the kinds of numbers and bullets that we want at the various levels. So let's make some style changes.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Control the List Style Type for First-Level Bullets</h2>
+        <ol>
+            <li>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>. Then double-click <span class="Emphasis">Styles.css</span>.</li>
+            <li>
+                <p>Make sure the following are selected in the Stylesheet Editor.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On the left side, scroll down and select <span class="Emphasis">ul</span>. This style controls the first level of unordered (or bulleted) lists.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On the right side, expand the <span class="Emphasis">List</span> group.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Notice that the <span class="Emphasis">list-style-type</span> property already has "disc" as its selection. A disc is a solid, round bullet. We want to change this so that the first level of a bulleted list uses a square instead. So to the right of this property, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the menu, scroll down and select <span class="Emphasis">square</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles5.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Go back to the <span class="Emphasis">Attractions.htm</span> topic. Notice that the bulleted lists now use squares. Even the second-level lists are using squares, because they are inheriting the setting from the first level.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Control the List Style Type for Second-Level Bullets</h2>
+        <ol>
+            <li>Go back to the stylesheet.</li>
+            <li>
+                <p>On the left side, scroll up and expand <span class="Emphasis">(Complex Selectors)</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles7.png" alt="" title="" class="MaxWidth40Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Scroll down to the styles that begin with <span class="Emphasis">li p</span>. These are complex (or advanced) selectors related to lists that are already in the stylesheet. Some are displayed in gray because no explicit settings have been placed on them yet. A complex selector is a style that combines two or more selectors in some way. When you see a complex selector that separates the individual selectors by a simple space (e.g., ol ol), that means you are telling Flare what to do in case one selector is found inside another selector in a topic. In our case, we have some nested bulleted lists with two levels (i.e., ul ul). We also have some nested lists within a numbered (ol) list. You can even combine numbered and bulleted lists together, which we have created in the previous lesson. So "ol ul ol" means a numbered list within a bulleted list, which in turn is inside a numbered list.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>We could make changes to multiple combinations of lists, but we are only going to change a couple of them. First, select the <span class="Emphasis">ul ul</span> complex selector.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>On the right side, notice that "square" is already selected as the <span class="Emphasis">list-style type</span>, since it is inheriting form the simple "ul" selector that we already changed. But we want our second-level bullet items to use something different. So click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and from the menu select <span class="Emphasis">circle</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Go back to the <span class="Emphasis">Attractions.htm</span> topic. Notice that the second-level bulleted lists now use circles, but the first-level bulleted lists still use squares.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Control the List Style Type for Second-Level Numbers</h2>
+        <ol>
+            <li>Go back to the stylesheet.</li>
+            <li>
+                <p>On the left side, select <span class="Emphasis">ol ol</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>On the right side, notice that "decimal" (a regular number) is already selected as the <span class="Emphasis">list-style type</span>, since it is inheriting form the simple "ol" selector. That's what we want for the first-level bullets, but not the second level. So click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and from the menu select <span class="Emphasis">lower-alpha</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Go back to the <span class="Emphasis">Attractions.htm</span> topic. Notice that the second-level numbered lists now use lower-alpha characters, but the first-level bulleted lists still use decimals.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In this tutorial, our project stylesheet already had the complex selectors that we needed. However, you can always create new complex selectors if you need something else (e.g., a "ol ul ul ol" selector). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Basics-CSS/Important-Style-Terms-Concepts.htm#AdvancedSelectors">Advanced Selectors</MadCap:xref> and <MadCap:xref href="../../Styles/Main-Activities/Creating-Selectors.htm">Creating Selectors</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <h2>How to Control the Spacing Between List Items</h2>
+        <p>Changing the list-style-type property isn't the only way you can modify the look of lists. You can make all kinds of changes (fonts, borders, spacing, indentation, etc.), and not just to the main ol and ul containers. You can also adjust the look of li selectors (or list items). Let's do that now to increase the amount of space between items in a list. Therefore, we're going to change the bottom and top margins. If we wanted to change the indentation, we could edit the left margin setting.</p>
+        <ol>
+            <li>Go back to the stylesheet.</li>
+            <li>
+                <p>On the left side, scroll down and select <span class="Emphasis">li</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On the right side, expand the <span class="Emphasis">Box</span> group.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Change the <span class="Emphasis">margin-bottom</span> and <span class="Emphasis">margin-top</span> values to <span class="Emphasis">40px</span>. Click outside of the second cell after you enter the value. A margin of 40px is way more than what we really want, but we'll do this temporarily so you can see the results.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles17.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Go back to the <span class="Emphasis">Attractions.htm</span> topic. Notice that the increased spacing.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Go back to the stylesheet and change the values to <span class="Emphasis">16px</span>. Click outside of the second cell after you enter the value.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Go back to the topic and notice the change.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>There is another related style to change. In the stylesheet, scroll up to the (Complex Selectors) group, and select <span class="Emphasis">li p</span>. We need to make the same change to this complex selector because it will account for list items where a paragraph tag occurs within it, which is what we will be covering in the next lesson.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Edit-Apply-Styles19.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Set the <span class="Emphasis">margin-bottom</span> and <span class="Emphasis">margin-top</span> values to <span class="Emphasis">16px</span>. Click outside of the second cell after you enter the value.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

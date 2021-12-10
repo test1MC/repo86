@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Create concepts in the project. See <MadCap:xref href="../../../../Flare/Concepts/Adding-Concepts.htm">Adding Concepts</MadCap:xref> and <MadCap:xref href="../../../../Flare/Concepts/Inserting-Concepts1.htm">Inserting Concepts</MadCap:xref>.</li>
+            <li>Add a new topic as you normally would.</li>
+            <li>At the top of the topic, enter a title for your list (e.g., "List of Concepts"). </li>
+            <li>Select <span class="Emphasis">Insert &gt; Proxy &gt; Insert Concepts Proxy</span>. The Concepts Proxy dialog opens.</li>
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Stylesheet class for proxy</span> field, you can select a class to affect the look of the entire list. </p>
+                <p>You might create and use a proxy style class, for example, if you want to add a border around the generated list. If you do not select a class from this field, the generated list will use the style settings from the parent MadCap|conceptsProxy style. You have the option of creating a class for this proxy style in the Stylesheet Editor. To do this, select the <span class="Emphasis">MadCap|conceptsProxy</span> style and in the local toolbar click <span class="Emphasis">Add Selector</span> to create a class. The class will then be available from this field. <MadCap:snippetText src="../../Shared/Co-Fl/General/See-Online-Help-Styles-Guide.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Navigation-Links-Guide" /></p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The proxy is added to the topic.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1410" MadCap:lastWidth="1168">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p>For Side Navigation skins, the Side Navigation section is used to control the look of the menu that is displayed on the left or right side of topics.</p>
+        <p>In the Side Navigation section, you can specify settings for the entire menu and submenu areas. In the “Menu Item”  sections, you can specify settings for the individual items within menus and submenus.</p>
+        <p>
+            <img src="../../../Images/Flare/Skins/Skin-Styles-Menu-Side-Nav1.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Skins-Guide" />
+        <p>If you place settings on the properties under the first node—e.g., Side Navigation Menu, Side Navigation Menu Item, Side Navigation Menu Item (hover)—they are applied to the root (top) level of the menu, which is the same as the first-level items in your TOC file.</p>
+        <p>
+            <img src="../../../Images/Flare/Skins/Skin-Styles-Menu-Side-Nav2.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Skins-Guide" />
+        <p>If you place settings on the properties under the second node—1st Level—they are applied to the first submenu under the top menu, which is the second-level items in your TOC file. Therefore, the 2nd Level is the same as the third-level items in your TOC file, the 3rd Level is the same as the fourth-level items in your TOC file, and the 4th Level is the same as the fifth-level items in your TOC file.</p>
+        <p>
+            <img src="../../../Images/Flare/Skins/Skin-Styles-Menu-Side-Nav3.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Skins-Guide" />
+        <p>If you place settings on the properties under the second node—1st Level—the 2nd, 3rd, and 4th Levels inherit them. If you set values under the 2nd Level, the 3rd and 4th Levels inherit them, and so on.</p>
+        <p>
+            <img src="../../../Images/Flare/Skins/Skin-Styles-Menu-Side-Nav4.png" alt="" title="" class="MaxWidth90Percent" />
+        </p>
+    </body>
+</html>

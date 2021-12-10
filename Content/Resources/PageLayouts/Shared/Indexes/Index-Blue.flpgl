@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Products.All-Products-Plus-Doc-Bible">
+    <Page Name="Normal" Width="7in" Height="9in" Padding="20px" PageType="normal" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="0.75in" PaddingBottom="0.75in" BleedLeft="0.5in" Orientation="portrait" BleedBottom="0.5in" BleedTop="0.5in" BleedRight="0.5in" PageSize="Letter">
+        <Frame Flow="body" Y="0px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="672px" Height="840px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="865px" Width="672px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:class="TableStyle-Simple" xhtml:style="margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../TableStyles/Shared/Simple.css');" xhtml:cellspacing="0">
+                            <xhtml:col xhtml:class="TableStyle-Simple-Column-Column1" />
+                            <xhtml:col xhtml:class="TableStyle-Simple-Column-Column1" />
+                            <xhtml:tbody>
+                                <xhtml:tr xhtml:class="TableStyle-Simple-Body-Row1">
+                                    <xhtml:td xhtml:class="TableStyle-Simple-BodyB-Column1-Row1">
+                                        <xhtml:p xhtml:class="FrameFooterText2">INDEX</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="TableStyle-Simple-BodyA-Column1-Row1">
+                                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="text-align: right;"><MadCap:variable xhtml:name="System.PageNumber" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="First" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="0.75in" PaddingBottom="0.75in" Orientation="portrait" BackgroundType="Solid">
+        <Frame X="0px" Y="84px" Width="672px" Height="77px" FlowIndex="2" Flow="body" Right="0px" Bottom="751px" Rotate="0" Anchors="Left,Top,Bottom" BorderBottomStyle="solid" BorderBottomWidth="2px" BorderBottomColor="#20b2e7" />
+        <Frame Flow="body" Y="199px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="672px" Height="641px" FlowIndex="3">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="865px" Width="672px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:class="TableStyle-Simple" xhtml:style="margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../TableStyles/Shared/Simple.css');" xhtml:cellspacing="0">
+                            <xhtml:col xhtml:class="TableStyle-Simple-Column-Column1" />
+                            <xhtml:col xhtml:class="TableStyle-Simple-Column-Column1" />
+                            <xhtml:tbody>
+                                <xhtml:tr xhtml:class="TableStyle-Simple-Body-Row1">
+                                    <xhtml:td xhtml:class="TableStyle-Simple-BodyB-Column1-Row1">
+                                        <xhtml:p xhtml:class="FrameFooterText2">INDEX</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="TableStyle-Simple-BodyA-Column1-Row1">
+                                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="text-align: right;"><MadCap:variable xhtml:name="System.PageNumber" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

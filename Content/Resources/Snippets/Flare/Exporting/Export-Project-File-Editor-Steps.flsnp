@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li MadCap:conditions="Snippets.Snippet1">Add an export file using the Export Project Wizard (see <MadCap:xref href="../../../../Flare/CSH-Only-Topics/Exporting-Flare-Projects.htm">Exporting Flare Projects</MadCap:xref>) or manually (see <MadCap:xref href="../../../../Flare/Exporting/Adding-Export-Project-File.htm">Adding an Export Project File</MadCap:xref>).</li>
+            <li MadCap:conditions="Snippets.Snippet2">Add an export file to your project via the previous set of steps using the Export Project Wizard. You can also do this manually (see <MadCap:xref href="../../../../Flare/Exporting/Adding-Export-Project-File.htm">Adding an Export Project File</MadCap:xref>).</li>
+            <li>
+                <MadCap:snippetText src="../General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>Double-click the <span class="Emphasis">Exports</span> subfolder.</li>
+            <li>
+                <p>Double-click the appropriate export file.</p>
+                <p>
+                    <img src="../../../Images/Flare/Exporting/Export-Project11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The Export Project File Editor opens. At minimum a General tab is shown, with basic export settings.</p>
+                <MadCap:snippetBlock src="Export-Project-File1.flsnp" />
+                <MadCap:snippetBlock src="Export-Project-File2.flsnp" />
+            </li>
+            <li>
+                <p>(Optional) Adjust the settings on any of the relevant tabs:</p>
+                <p class="Subheading">Start Tab</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Source Project </span>This field displays the path and name of the current project. You cannot edit this field.</li>
+                    <li><span class="SetOffFirstLevel">New Project Name </span>Enter a name for the exported project.</li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">New Project Path </span>
+                            <MadCap:snippetText src="New-Project-Path-Field.flsnp" />
+                        </p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you select Project Template in the Export From field, this area is grayed out because the project files will automatically be placed in your templates folder.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Export From </span>Select one of the following:</p>
+                        <MadCap:snippetBlock src="Export-Project-Options-List2.flsnp" />
+                        <MadCap:snippetBlock src="Note-Export-Project-Missing-Files.flsnp" />
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Output </span>Select one of the following:</p>
+                        <MadCap:snippetBlock src="Export-Project-Output-Options-List2.flsnp" />
+                    </li>
+                </ul>
+                <p class="Subheading">Options Tab</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Convert variables to text </span>Select this option if you want all relevant variables to be converted to text.</li>
+                    <li><span class="SetOffFirstLevel">Convert snippets to text </span>Select this option if you want all relevant snippets to be converted to text.</li>
+                </ul>
+                <p class="Subheading">Target Options Tab</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Target </span>Select the appropriate target from the source project.</li>
+                    <li><span class="SetOffFirstLevel">Convert variables to text </span>Select this option if you want all relevant variables to be converted to text.</li>
+                    <li><span class="SetOffFirstLevel">Convert snippets to text </span>Select this option if you want all relevant snippets to be converted to text.</li>
+                </ul>
+                <p class="Subheading">Conditional Text Tab</p>
+                <p>
+                    <MadCap:snippetText src="Using-Conditions1.flsnp" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="Using-Conditions2.flsnp" />&#160;<MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Conditions2.flsnp" /></p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Conditions/Basic-Advanced-Conditions6.flsnp" />
+                <MadCap:snippetBlock src="Using-Conditions3.flsnp" MadCap:conditions="General.Online-Only" />
+                <p MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide">For details and examples on using each of these methods, see the online Help.</p>
+                <MadCap:snippetBlock src="../Conditions/Note-Using-Conditions.flsnp" />
+                <MadCap:snippetBlock src="../../Shared/Ca-Co-Fl/Conditions/Note-Begin-With-Basic-Mode.flsnp" />
+                <p class="Subheading">File Tag Expression Tab</p>
+                <p>In the <span class="Emphasis">Tag Type</span> field, you can select a specific file tag set or choose to display all file tags to the right.</p>
+                <p>
+                    <MadCap:snippetText src="Using-File-Tags1.flsnp" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="Using-Conditions2.flsnp" />&#160;<MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Conditions2.flsnp" /></p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Conditions/Basic-Advanced-Conditions6.flsnp" />
+                <MadCap:snippetBlock src="Using-File-Tags2.flsnp" MadCap:conditions="General.Online-Only" />
+                <p MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide">The process for creating file tag expressions is essentially the same as that for condition tag expressions.</p>
+                <MadCap:snippetBlock src="Note-Using-File-Tags1.flsnp" />
+                <MadCap:snippetBlock src="../../Shared/Ca-Co-Fl/Conditions/Note-Begin-With-Basic-Mode.flsnp" />
+                <p class="Subheading">Content Files Tab</p>
+                <p>
+                    <MadCap:snippetText src="Select-Files1.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../Images/Flare/Exporting/Export-Project9.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p class="Subheading">Project Files Tab</p>
+                <p>
+                    <MadCap:snippetText src="Select-Files2.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../Images/Flare/Exporting/Export-Project10.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p class="Subheading">Template Path Tab</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Template Folder </span>Select the template folder where you want to export the files.</li>
+                    <li><span class="SetOffFirstLevel">Manage Templates </span>Select this option if you want to add or change template folders. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Templates/Templates.htm">Templates</MadCap:xref> and <MadCap:xref href="../../../../Flare/Templates/Process/Managing-Templates.htm">Managing Templates</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Template Name </span>Enter a new name for the template.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>At the top of the Export Project File Editor, click <span class="Emphasis">Run Export Project File</span>. The project is exported, and Windows opens to the location, showing you the files.</li>
+        </ol>
+    </body>
+</html>

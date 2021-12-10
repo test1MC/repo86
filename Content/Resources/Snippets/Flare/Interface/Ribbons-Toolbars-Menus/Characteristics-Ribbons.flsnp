@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Switch Views</span> By default ribbons are used when you install and launch Flare for the first time. However, you can use the Options dialog  (<span class="Emphasis">File &gt; Options</span>) to switch back to the classic tool strip. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Interface/Customizing-Workspace/Switching-Ribbon-Menu.htm">Switching Between Ribbons and the Tool Strip</MadCap:xref> and <MadCap:xref href="../../../../../Flare/Interface/Dialogs/Options-Dialog.htm" target="" title="" alt="">Options Dialog</MadCap:xref>.</MadCap:conditionalText></p>
+                <p class="topic-only">
+                    <img src="../../../../Images/Flare/Interface/Ribbons-Toolbars-Menus/Ribbon-Toolstrip-Options.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Minimize</span> You can minimize the ribbons so that you only see the top portion of the ribbons until you select an option.  To do this, right-click anywhere in a ribbon and select <span class="Emphasis">Minimize the Ribbon</span> from the context menu. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Interface/Customizing-Workspace/Minimizing-Ribbons.htm">Minimizing Ribbons</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../../Images/Flare/Interface/Ribbons-Toolbars-Menus/Minimize-Ribbon1.png" class="MaxWidth100Percent" />
+                    </p>
+                    <p>
+                        <img src="../../../../Images/Flare/Interface/Ribbons-Toolbars-Menus/Minimize-Ribbon2.png" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel">Hidden Ribbons</span> Some ribbons are not always shown. For example, the Source Control ribbon is displayed only if your project is bound to version control.</li>
+            <li><span class="SetOffFirstLevel">Icons/Text</span> Ribbons consist of icons and text, which let you perform various tasks. Larger icons are shown for the most common tasks.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Sections</span> Ribbons are split into sections to make it easier to locate the options on them. For example, the Review ribbon contains the following sections: Packages, Changes, Annotations, Locks, and Options.</p>
+                <p class="topic-only">
+                    <img src="../../../../Images/Flare/Interface/Ribbons-Toolbars-Menus/Ribbon-Sections.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Touring-Workspace-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Reducing Application Window Size</span> When you reduce the size of the entire application window, the ribbons are also reduced in a way that lets you continue to access hidden options by clicking on the section name.</p>
+                <div class="topic-only">
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have the application window maximized, and this is what you see when opening the Project ribbon:</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Interface/Ribbons-Toolbars-Menus/Project-Ribbon.png" class="MaxWidth90Percent" />
+                        </p>
+                        <p>If you reduce the size of the application window, the ribbon shrinks along with it. You can still access all of the options. Some icons are simply smaller, and others are accessible from section drop-downs.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Interface/Ribbons-Toolbars-Menus/Project-Ribbon-Minimized.png" class="MaxWidth90Percent" />
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

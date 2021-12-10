@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>When you install Pulse, the system automatically creates these predefined permission groups:&#160;Administrators, Employees, and Customers. </p>
+        <table style="mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Administrators </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Members of this group have the highest level of permissions. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Employees</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Members of this group have fewer permissions than Administrators, but more permissions than Customers.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Customers</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Members of this group have fewer permissions than Administrators and Employees</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>You may want to add new groups to manage membership permissions on your server.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your company develops a software product. As part of your company's sales efforts, there are individuals outside your organization who sell your products either as part of a solution or as part of a referral program. In this scenario, you may want to create separate groups named "Solution Providers" and "Referral Partners" and give each group Employee permissions. </p>
+        </div>
+    </body>
+</html>

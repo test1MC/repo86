@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Relationship-Tables-Group-Summary.flsnp" />
+        </p>
+        <p>Following are the collection types that you can use:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Unordered (default) </span>This displays the grouped links in the output, but the order in which they are displayed is not important.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Family </span>This lets you display links not only to adjacent topics in the row, but to other topics grouped within the same cell as well.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a row that is populated like this:</p>
+                    <p>Topic A is in the "concept" cell.</p>
+                    <p>Topics B, C, and D are contained in a group in the "task" cell.</p>
+                    <p>Topic E is in the "reference" cell.</p>
+                    <p>Suppose you <span class="EmphasisItalic">do not</span> use the Family collection type. In that case, when a user opens Topic A, he will see links to Topics B, C, D, and E. However, when the user opens Topic C, he will see links to Topic A and Topic E, but not to Topics B and D.</p>
+                    <p>Now suppose you <span class="EmphasisItalic">do</span> use the Family collection type. In that case, when a user opens Topic C, he will see links not only to Topics A and E, but to Topics B and D as well.</p>
+                </div>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Sequence </span>This displays links with significance given to how the links are ordered in the output. For <MadCap:variable name="Other.Product" /> outputs other than DITA, this option is not supported. For more detailed information about DITA and the sequence option, please refer to:</p>
+                <p><a href="http://www.oasis-open.org/committees/dita/" target="_blank">www.oasis-open.org/committees/dita/</a>
+                </p>
+            </li>
+            <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Choice </span>This lets you specify which link should be "selected" or "highlighted" from the group of links. For <MadCap:variable name="Other.Product" /> outputs other than DITA, this option is not supported. For more detailed information about DITA and the choice option, please refer to:</p>
+                <p><a href="http://www.oasis-open.org/committees/dita/" target="_blank">www.oasis-open.org/committees/dita/</a>
+                </p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="CONREF:Relationship tables" />Use CONREF Target </span>This uses the conref attribute to pull content. The conref attribute references an ID on content that can be reused. For <MadCap:variable name="Other.Product" /> outputs other than DITA, this option is not supported. For more detailed information about DITA and the conref attribute, please refer to:</p>
+                <p><a href="http://www.oasis-open.org/committees/dita/" target="_blank">www.oasis-open.org/committees/dita/</a>
+                </p>
+            </li>
+        </ul>
+        <p>Unless you leave the default link setting, collection types are identified by a green background when you set them. To identify the exact kind of group applied, you can select the item and then click the appropriate Properties button in the local toolbar.</p>
+        <p>You can specify collection types on individual items in a group or on entire columns:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Collection Types on Items in Groups </span> Each group item in a relationship table can use a different kind of collection type.</li>
+            <li><span class="SetOffFirstLevel">Collection Types on Columns </span>If you apply a collection type to a column, all of the groups in that column will use that same setting (unless you later override the setting on individual groups).</li>
+        </ul>
+        <p>
+            <img src="../../../../Images/Flare/Nav-Links/Relationship-Table4.png" class="MaxWidth90Percent" />
+        </p>
+        <p>
+            <img src="../../../../Images/Flare/Nav-Links/Relationship-Table-Graph2.png" class="MaxWidth90Percent" />
+        </p>
+        <p>
+            <img src="../../../../Images/Flare/Nav-Links/Relationship-Table5.png" class="MaxWidth90Percent">
+            </img>
+        </p>
+        <p>
+            <img src="../../../../Images/Flare/Nav-Links/Relationship-Table-Graph3.png" class="MaxWidth90Percent" />
+        </p>
+    </body>
+</html>

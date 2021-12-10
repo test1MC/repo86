@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Following are steps for sending files to others for review using Flare or Contributor (i.e., the review package process). <MadCap:conditionalText MadCap:conditions="General.Online-Only">For an example of one workflow, see <MadCap:xref href="../../../../Flare/Reviews-Contributions/Review-Workflow-Sending.htm">Review Workflow—Sending to Others</MadCap:xref>.</MadCap:conditionalText></p>
+        <h2>How to Send Files for Review</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>Open a file (topic or snippet).</li>
+                    <li>In the Content Explorer, select a file (topic or snippet).</li>
+                    <li>In the File List window pane (<span class="Emphasis">View &gt; File List</span>), select one or more files (topic or snippet). <MadCap:snippetText src="../../Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /></li>
+                    <li>
+                        <p>Open a table of contents (TOC) or browse sequence and select one or more entries within it. <MadCap:snippetText src="../../Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /></p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you use the TOC option, individuals who receive the review package can view that package as a TOC using the TOC view option in the Review Packages window pane. This allows them to see the context and organization of the material that you send.</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Review &gt; Send For Review</b>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../Images/Flare/Interface/Buttons/Send-Review-btn2.png" />.</li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>If you have a TOC or browse sequence open, right-click the entry and from the context menu, select <span class="Emphasis">Send For Review</span>.</li>
+                </ul>
+                <p>The Send Files For Review Wizard opens. </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide" />
+            <li>
+                <p>(Optional) If you want to add more files to the package file, do the following:</p>
+                <ol class="LowerAlpha">
+                    <li>Click <img src="../../../Images/Shared/Fl-Li/Interface/Buttons/Plus-btn.png" class="ReduceButtonSize" alt="" />.</li>
+                    <li>
+                        <p>Use the multi-view buttons to find the file(s) you want to add. If you want to add multiple files, make sure <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Files-btn.png" class="ReduceButtonSize" /> is selected.</p>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/SharePoint/Multi-View-Table5.flsnp" />
+                    </li>
+                    <li>Find and select the file(s) you want to add to the package file. <MadCap:snippetText src="../../Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /> When you are finished click <span class="Emphasis">Open</span> in the dialog.</li>
+                </ol>
+                <p>If you selected a topic that contains snippets, those snippets are also automatically added to the package.</p>
+            </li>
+            <li>Below the Files grid, select <span class="Emphasis">Send a review package file</span>.</li>
+            <li>In the <span class="Emphasis">Review Package Name</span> field, enter a name for the package file that will be sent to the reviewer.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide,Flare-Guides.Flare-Topics-Guide" />
+            <li>
+                <p>(Optional) If you have overridden any default variable definitions for a particular target, and you want the reviewer to see that definition rather than the default one, click in the drop-down field and select it.</p>
+                <MadCap:snippetBlock src="Example-Review-Variable-Target.flsnp" />
+            </li>
+            <li>(Optional) If you want to include or exclude content in the review files based on condition tags, do the following:<ol class="LowerAlpha"><li>Click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Conditions-btn2.png" class="ReduceButtonSize" />. The Conditional Text dialog opens.</li><li>You can include or exclude conditions in a couple of different ways, or even use both:<ul><li><span class="SetOffFirstLevel">Target Settings </span>The easiest method is to click the <span class="Emphasis">Target Expressions</span> drop-down and select a target in your project. The dialog is automatically populated based on the included and excluded conditions in that target.</li><li><span class="SetOffFirstLevel">Manual </span>You can also complete this dialog manually. You can use the same steps that are used in the target for including and excluding certain condition tags. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information about the Basic and Advanced modes, see <MadCap:xref href="../../../../Flare/Conditions/Other-Activities/Creating-Basic-Advanced-Tag-Expressions.htm">Creating Basic and Advanced Tag Expressions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Topics-Guide">For more information about the Basic and Advanced modes, see the online Help.</MadCap:conditionalText></li></ul></li><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide,Flare-Guides.Flare-Topics-Guide" /><li><p>When you are finished, click <span class="Emphasis">OK</span>.</p><MadCap:snippetBlock src="Example-Reviews-Conditions.flsnp" /></li></ol></li>
+            <li>(Optional) If you want to save a copy of the review package, click <span class="Emphasis">Save</span>. Then find and select a folder to store it in and click <span class="Emphasis">Save</span> again. You might use this option, for example, if you want to place the package in a network, SharePoint, or external resources  folder where others can access it, instead of using the built-in email method. If you use this feature, you do not need to complete the rest of the steps. However, you do need to let the reviewer(s) know about the review package, and the reviewers will need to let you know when they are finished making changes to it. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/SharePoint/SharePoint-Integration.htm">SharePoint Integration</MadCap:xref> and <MadCap:xref href="../../../../Flare/External-Resources/External-Resources.htm">External Resources</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>(Optional) Click <span class="Emphasis">Next</span>.</li>
+            <li>(Optional) On the next page of the wizard, you can click in the <span class="Emphasis">Subject</span> field and edit the default text that will be shown in the Subject field of the email sent to the reviewers. </li>
+            <li>(Optional) Enter or select a message that will be shown in the main body of the email sent to the reviewers.<ul><li><p>You can click in the <span class="Emphasis">Message</span> area and edit or replace the default text.</p><p>OR</p></li><li><p>You can select a saved message from the drop-down list above the Message field.</p><p><span class="SetOffFirstLevel">About the Saved Message Option</span> The save  option is useful if you repeatedly use the same email message text when sending files for review. Instead of retyping the same message each time you go through the wizard, you can click <img src="../../../Images/Flare/Interface/Buttons/New-Email-Message-btn.png" class="ReduceButtonSize" /> to type a new message, and then you can save it. After the message is saved, you can select it from the drop-down list above the Message field. If you want to rename an email message, click <img src="../../../Images/Flare/Interface/Buttons/Rename-Email-Message-btn.png" class="ReduceButtonSize" />.</p></li></ul></li>
+            <li>(Optional) If you do not have an email address in the list, click <img src="../../../Images/Flare/Interface/Buttons/Add-Email-Recipient-btn.png" class="ReduceButtonSize" />. Complete the fields in the New Address Book Entry dialog and click <span class="Emphasis">Add</span>. Do this for each email recipient.</li>
+            <li>(Optional) Once email addresses have been added to the list, click the <span class="Emphasis">Send</span> check box next to the addresses that you want to include in the email.</li>
+            <li>(Optional) Click <span class="Emphasis">Send</span>. A message in Microsoft Outlook opens with the package file attached.</li>
+            <li>(Optional) Send the email.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                <MadCap:snippetText src="../../Shared/Co-Fl/Reviews-Contributions/Transfer-File-Methods.flsnp" />
+            </p>
+        </div>
+        <MadCap:snippetBlock src="Note-Recommend-Central-Review-Process.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If Microsoft Outlook is not installed or an Exchange server cannot be found, you will be prompted to save the review file and send it manually.</p>
+        </div>
+        <MadCap:snippetBlock src="Note-Rename-Project-Send-Review-Error.flsnp" />
+    </body>
+</html>

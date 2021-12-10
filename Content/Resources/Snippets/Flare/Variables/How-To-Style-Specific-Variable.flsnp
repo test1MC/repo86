@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open the Project Organizer, and expand the <span class="Emphasis">Variables</span> folder.</li>
+            <li>Double-click the variable set.</li>
+            <li>
+                <p>In the Variable Set Editor, select the row of the variable that you intend to edit, and in the local toolbar, click <img src="../../../Images/Flare/Variables/Edit-Variable-Style-ico.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <p>The stylesheet opens and a new class is added under the MadCap|variable style in the stylesheet. These are auto-generated style classes that will automatically apply to the matching variable, without having to manually apply the style class when used in the content.</p>
+                <p>
+                    <img src="../../../Images/Flare/Variables/Styled-Variables-MC-AutoName.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Variables-Guide" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Alternatively, you can right-click the variable row, and from the context menu select <span class="Emphasis">Edit Variable Style</span>.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Variables/Edit-Variable-Style-menu.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can edit a style for one variable at a time. If you attempt to multi-select variables to edit, the Edit Variable Style option is disabled.</p>
+                </div>
+            </li>
+            <li>Edit variable style properties for the preferred look.</li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

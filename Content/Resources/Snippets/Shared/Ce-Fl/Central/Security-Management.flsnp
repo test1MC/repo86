@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div>
+            <p><span class="SetOffFirstLevel">Security Management </span>Data in MadCap Central is secured in the various ways<MadCap:conditionalText MadCap:conditions="Products.Central,Snippets.Snippet1"> (see <MadCap:xref href="../../../../../Central/Server/Security.htm#WebServerHostingManagement">Web Server Hosting and Management</MadCap:xref>)</MadCap:conditionalText>.</p>
+            <ul>
+                <li>Web services have built-in load balancers to stave off most DOS (Denial-Of-Service) attacks.</li>
+                <li>We provide unauthorized access monitoring and incident response. Any breaches in data security will be reported to affected customers.</li>
+                <li>User portal and API endpoints (i.e., the connection between Flare and Central) are secured via user authentication.</li>
+                <li>All data endpoints are secured using SSL. The user portal, API endpoints, source control provider (Git), and all backend system communications are all encrypted.</li>
+                <li>Published sites that are not set to “live” are secured by user authentication.</li>
+            </ul>
+        </div>
+    </body>
+</html>

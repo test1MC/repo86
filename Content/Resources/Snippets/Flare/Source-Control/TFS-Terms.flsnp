@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Following are definitions for some of the common phrases used in <MadCap:variable name="Other.Product" />'s integrated source control with Microsoft Team Foundation Server.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:bind;Projects:source control" />Bind </span>This means to connect your project to Microsoft Team Foundation Server. After doing this, you can then take advantage of all the automated source control tasks (such as check in, check out, and so on). </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check in;Check in" />Check In </span>This means to copy your local <MadCap:variable name="Other.Product" /> files to Microsoft Team Foundation Server, overwriting the copies stored in Microsoft Team Foundation Server. This enables other authors on your team to access and edit the latest files.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check out;Check out" />Check Out </span>This means to copy the latest source control files to your local <MadCap:variable name="Other.Product" /> project and remove the "Read Only" designation from them so that you can edit the files.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:get latest version" />Get Latest Version </span>This means to copy the latest source control files to your local project without necessarily checking out the files. This means that the "Read Only" designation will remain associated with the files until you check them out. </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"><MadCap:variable name="Other.Product" /> integrates with multiple source control providers to provide built-in source control support. Each of the source control providers built-in to <MadCap:variable name="Other.Product" /> uses different terms. As such, <MadCap:variable name="Other.Product" />'s source control interface is different depending on which source control provider you use. Please refer to the sections for each source control provider if you need to see information about the terms used by other built-in systems.</p>
+        </div>
+    </body>
+</html>

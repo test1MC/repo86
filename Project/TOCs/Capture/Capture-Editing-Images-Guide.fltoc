@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="Products.Capture" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+  <TocEntry
+    Title="ComingSoonTitlePage"
+    Link="/Content/Print-Only-Topics/Shared/Coming-Soon-Title-Page.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    conditions="General.Future"></TocEntry>
+  <TocEntry
+    Title="Title"
+    Link="/Content/Print-Only-Topics/Shared/Title-Page-Blue.htm"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    PageNumber="(multiple)"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageType="normal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print-Only-Topics/Shared/Copyright.htm"
+    StartSection="false"
+    StartPageLayout="true"
+    BreakPageLayout="/Content/Resources/PageLayouts/Copyright.flpgl"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Copyright/Copyright.flpgl"
+    PageNumber="(multiple)" />
+  <TocEntry
+    Title="PrintTOC"
+    Link="/Content/Print-Only-Topics/Shared/Print-TOC.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/TOCs/TOC-Blue.flpgl"
+    PageType="first"
+    PageNumberFormat="lower-roman"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"></TocEntry>
+  <TocEntry
+    Title="CH 1"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Editing an Image"
+    Link="/Content/Capture/General/Editing-Image.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    PageNumberFormat="decimal"
+    BreakType="none" />
+  <TocEntry
+    Title="CH 2"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Cropping"
+    Link="/Content/Capture/Cropping/Cropping.htm"
+    BreakType="none"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="Cropping Images"
+      Link="/Content/Capture/Cropping/Cropping-Images.htm" />
+    <TocEntry
+      Title="Cropping Image Objects"
+      Link="/Content/Capture/Cropping/Cropping-Image-Objects.htm"
+      PageNumber="(multiple)"></TocEntry>
+    <TocEntry
+      Title="Working with Image History"
+      Link="/Content/Capture/Cropping/Working-Image-History.htm"
+      PageNumber="(multiple)" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 3"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Effects"
+    Link="/Content/Capture/Appearance/Effects/Effects.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    BreakType="none"
+    StartSection="false">
+    <TocEntry
+      Title="Adding Blur Effects"
+      Link="/Content/Capture/Appearance/Effects/Blur-Effects/Adding-Blur-Effects.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Adding Blur-Inside Effects"
+      Link="/Content/Capture/Appearance/Effects/Blur-Effects/Adding-Blur-Inside-Effects.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Adding Gray Scale Effects"
+      Link="/Content/Capture/Appearance/Effects/Gray-Scale-Effects/Adding-Gray-Scale-Effects.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Adding Shading Effects"
+      Link="/Content/Capture/Appearance/Effects/Shading-Effects/Adding-Shading-Effects.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Adding Shadow Effects"
+      Link="/Content/Capture/Appearance/Effects/Shadow-Effects/Adding-Shadow-Effects.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Adding Torn Edge Effects"
+      Link="/Content/Capture/Appearance/Effects/Torn-Edge-Effects/Adding-Torn-Edge-Effects.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Adding Zoom Effects"
+      Link="/Content/Capture/Appearance/Effects/Zoom-Effects/Adding-Zoom-Effects.htm"
+      PageNumber="(multiple)" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 4"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Image Appearance"
+    Link="/Content/Capture/Appearance/Appearance-Images.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    BreakType="none">
+    <TocEntry
+      Title="Background"
+      Link="/Content/Capture/Appearance/Background-Images/Replacing-Background-Images.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Borders"
+      Link="/Content/Capture/Appearance/Borders/Adding-Borders.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Color"
+      Link="/Content/Capture/Appearance/Color/Color.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Appearance/Color/Setting-Color-Image-Background.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Setting the Color Depth"
+        Link="/Content/Capture/Appearance/Color/Setting-Color-Depth-Image.htm"
+        PageNumber="(multiple)"></TocEntry>
+      <TocEntry
+        Title="Applying Gray Scale to Images"
+        Link="/Content/Capture/Appearance/Effects/Gray-Scale-Effects/Applying-Gray-Scale-Images.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Drawing Tools"
+      Link="/Content/Capture/Appearance/Drawing-Tools/Drawing-Tools.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="Color Fill"
+        Link="/Content/Capture/Appearance/Drawing-Tools/Using-Color-Fill.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Eraser"
+        Link="/Content/Capture/Appearance/Drawing-Tools/Erasing-Image-Areas.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Pencil"
+        Link="/Content/Capture/Appearance/Drawing-Tools/Using-Pencil.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Padding"
+      Link="/Content/Capture/Appearance/Padding/Adding-Padding.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Positioning Objects"
+      Link="/Content/Capture/Appearance/Positioning-Objects/Positioning-Objects.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Aligning-Objects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Flattening Objects"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Flattening-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Floating and Sinking Objects"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Floating-Sinking-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Hiding Objects"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Hiding-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Locking Objects"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Locking-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Moving Objects Around"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Moving-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Rotating Objects"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Rotating-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Setting Object Anchors"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Setting-Object-Anchors.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Working with Grids"
+        Link="/Content/Capture/Appearance/Positioning-Objects/Working-Grids.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Resizing Images"
+      Link="/Content/Capture/Appearance/Resizing/Resizing-Images.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="Resizing the Canvas"
+        Link="/Content/Capture/Appearance/Resizing/Resizing-Canvas.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Resolution and Quality Settings"
+      Link="/Content/Capture/Appearance/Resolution-Quality-Settings/Resolution-and-Quality.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Appearance/Resolution-Quality-Settings/Setting-DPI-Image.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Setting the JPEG Quality for an Image"
+        Link="/Content/Capture/Appearance/Resolution-Quality-Settings/Setting-JPEG-Quality-Image.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Selection Tools"
+      Link="/Content/Capture/Appearance/Selection-Tools/Selection-Tools.htm"
+      PageNumber="(multiple)"
+      StartSection="false">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Appearance/Selection-Tools/Using-Hand-Mode-Feature.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Magic Wand"
+        Link="/Content/Capture/Appearance/Selection-Tools/Using-Magic-Wand.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Selection Rectangle"
+        Link="/Content/Capture/Appearance/Selection-Tools/Using-Selection-Rectangle.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="CH 5"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Objects"
+    Link="/Content/Capture/Objects/Objects.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue"
+    BreakType="none">
+    <TocEntry
+      Title="Color"
+      Link="/Content/Capture/Objects/Setting-Color-Object.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Graphics"
+      Link="/Content/Capture/Objects/Graphics/Graphics.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Objects/Graphics/Adding-Graphics-Images.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Annotations"
+        Link="/Content/Capture/Objects/Annotations/Setting-Shape-Annotation.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Arrows"
+        Link="/Content/Capture/Objects/Arrows/Setting-Shape-Arrow.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Callouts"
+        Link="/Content/Capture/Objects/Callouts/Callouts.htm"
+        PageNumber="(multiple)">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Capture/Objects/Callouts/Adding-Callouts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Capture/Objects/Callouts/Adjusting-Pointer-Bubble-Shape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Cursors"
+        Link="/Content/Capture/Objects/Cursors/Cursors.htm"
+        PageNumber="(multiple)">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Capture/Objects/Cursors/Adding-Cursors.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Capture/Objects/Cursors/Selecting-Cursor-Types.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Loops"
+        Link="/Content/Capture/Objects/Loops/Loops.htm"
+        PageNumber="(multiple)">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Capture/Objects/Loops/Setting-Coordinates-Loop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Capture/Objects/Loops/Setting-Thickness-Loop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Stars"
+        Link="/Content/Capture/Objects/Stars/Setting-Shape-Star.htm"
+        PageNumber="(multiple)"></TocEntry>
+      <TocEntry
+        Title="X-Agons"
+        Link="/Content/Capture/Objects/X-Agons/Setting-Shape-X-Agon.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Groups"
+      Link="/Content/Capture/Objects/Groups/Groups.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Objects/Groups/Grouping-Objects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Ungrouping Objects"
+        Link="/Content/Capture/Objects/Groups/Ungrouping-Objects.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Image Objects"
+      Link="/Content/Capture/Objects/Image-Objects/Image-Objects.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Objects/Image-Objects/Adding-Images-Objects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Auto-sizing Image Objects to Fit Text"
+        Link="/Content/Capture/Objects/Image-Objects/Autosizing-Capture-Image-Objects-Fit-Text.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Adding Cursor Images as Objects"
+        Link="/Content/Capture/Objects/Image-Objects/Adding-Cursor-Images-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Editing Image Objects"
+        Link="/Content/Capture/Objects/Image-Objects/Editing-Image-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Inserting Captured Regions as Objects"
+        Link="/Content/Capture/Objects/Image-Objects/Inserting-Captured-Regions-Objects.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Inserting Captured UI Elements as Objects"
+        Link="/Content/Capture/Objects/Image-Objects/Inserting-Captured-UI-Elements-Objects.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Lines"
+      Link="/Content/Capture/Objects/Lines/Lines.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Objects/Lines/Adding-Lines.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Setting the Arrows for a Line"
+        Link="/Content/Capture/Objects/Lines/Setting-Arrows-Line.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Setting the Color and Width for a Line"
+        Link="/Content/Capture/Objects/Lines/Setting-Color-Width-Line.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Object Styles"
+      Link="/Content/Capture/Objects/Look-of-Objects/Object-Styles.htm"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Objects/Look-of-Objects/Setting-Default-Look-Objects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Objects/Look-of-Objects/Using-Default-Look-Objects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Objects/Look-of-Objects/Applying-Styles-Objects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Capture/Objects/Look-of-Objects/Selecting-Styles-Objects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Padding"
+      Link="/Content/Capture/Objects/Adding-Padding-Objects.htm" />
+    <TocEntry
+      Title="Points"
+      Link="/Content/Capture/Objects/Lines/Deleting-Points.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Resizing"
+      Link="/Content/Capture/Appearance/Resizing/Resizing-Objects.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Shapes"
+      Link="/Content/Capture/Objects/Shapes/Adding-Shapes-Images.htm"
+      StartSection="false"
+      StartChapter="false"
+      PageNumber="(multiple)">
+      <TocEntry
+        Title="Rectangle Properties"
+        Link="/Content/Capture/Objects/Shapes/Setting-Rectangle-Properties-Object.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="CH 6"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Text"
+    Link="/Content/Capture/Text/Text.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    BreakType="none">
+    <TocEntry
+      Title="Adding Text"
+      Link="/Content/Capture/Text/Adding-Text.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Aligning Text"
+      Link="/Content/Capture/Text/Aligning-Text.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Editing Text"
+      Link="/Content/Capture/Text/Editing-Text.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Setting Font Properties for Text"
+      Link="/Content/Capture/Text/Setting-Font-Properties-Text.htm"
+      PageNumber="(multiple)" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 7"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Variables"
+    Link="/Content/Capture/Variables/Variables.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    BreakType="none">
+    <TocEntry
+      Title="Creating Variables"
+      Link="/Content/Capture/Variables/Creating-Variables.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Editing Variables"
+      Link="/Content/Capture/Variables/Editing-Variables.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Linking to Project Variables"
+      Link="/Content/Capture/Projects/Linking-Flare-Projects.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Inserting Variables into Objects"
+      Link="/Content/Capture/Variables/Inserting-Variables-Objects.htm"
+      PageNumber="(multiple)" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 8"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="File Format"
+    Link="/Content/Capture/File-Format/Setting-File-Format-Image.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 9"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Palettes"
+    Link="/Content/Capture/Palettes/Palettes.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    BreakType="none">
+    <TocEntry
+      Title="Opening Palettes"
+      Link="/Content/Capture/Palettes/Other-Activities/Opening-Palettes.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Creating Palettes"
+      Link="/Content/Capture/Palettes/Process/Creating-Palettes.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Linking to External Palettes"
+      Link="/Content/Capture/Palettes/Other-Activities/Linking-External-Palettes.htm" />
+    <TocEntry
+      Title="Adding Objects to Palettes"
+      Link="/Content/Capture/Palettes/Process/Adding-Objects-Palettes.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Using Objects from Palettes"
+      Link="/Content/Capture/Palettes/Process/Using-Objects-Palettes.htm"
+      PageNumber="(multiple)" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 10"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Conditions"
+    Link="/Content/Capture/Conditions/Conditions.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartPageLayout="false"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    BreakType="none">
+    <TocEntry
+      Title="Creating Condition Tags"
+      Link="/Content/Capture/Conditions/Creating-Condition-Tags.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Applying Conditions"
+      Link="/Content/Capture/Conditions/Applying-Conditions.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Associating Condition Tags with Images"
+      Link="/Content/Capture/Conditions/Associating-Condition-Tags-With-Images.htm"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Previewing Conditions"
+      Link="/Content/Capture/Conditions/Previewing-Conditions.htm"
+      PageNumber="(multiple)" />
+  </TocEntry>
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/Print-Only-Topics/Shared/Appendix.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Blue.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="PDF Library"
+    Link="/Content/Capture/PDF-Guides/PDF-Guides-Capture.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    StartPageLayout="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartSection="false"
+    AutoEndOnLeftPage="disabled"
+    ComputeToc="false"
+    PageType="first"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="PrintIndex"
+    Link="/Content/Print-Only-Topics/Shared/Print-Index.htm"
+    StartSection="false"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Indexes/Index-Blue.flpgl"
+    PageType="first"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="disabled" />
+</CatapultToc>

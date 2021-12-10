@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Image maps are not natively responsive; meaning the image and its clickable area do not automatically adjust depending on the user’s device and screen size. Because of this, it is a best practice to set the image max width style property to 100%.</p>
+        <ol>
+            <li>
+                <p>From the Content Explorer, open the stylesheet that you want to modify.</p>
+            </li>
+            <li>
+                <p>Using the Advanced view, select the <span class="Emphasis">img</span> style.</p>
+            </li>
+            <li>
+                <p>From the local toolbar, select <span class="Emphasis">Show: All Properties</span>.</p>
+            </li>
+            <li>
+                <p>Expand <span class="Emphasis">Unclassified</span>, and set the <span class="Emphasis">max-width</span> property to <span class="Emphasis">100%</span>.</p>
+            </li>
+            <p>
+                <img src="../../../Images/Flare/Images/Image-Map-MaxWidth.png" alt="" title="" class="MaxWidth100Percent">
+                </img>
+            </p>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/All/General/Save-File.flsnp">
+                </MadCap:snippetBlock>
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This process makes the image itself responsive in the output. If you want the clickable areas of the map to be responsive as well, you’ll have to download a Responsive Image Maps jQuery Plugin from a GitHub repository. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <a href="https://github.com/stowball/jQuery-rwdImageMaps" target="_blank">https://github.com/stowball/jQuery-rwdImageMaps</a>. For complete insight on this process, see <a href="https://www.madcapsoftware.com/blog/how-to-implement-responsive-image-maps-in-your-html5-outputs/" target="_blank">https://www.madcapsoftware.com/blog/how-to-implement-responsive-image-maps-in-your-html5-outputs/</a>.</MadCap:conditionalText></p>
+            <p>If you would rather not download the jQuery plugin, you can remove the max-width property. This would keep the image map and clickable areas in sync as users adjust the output, but the image map and the clickables areas would not be responsive.</p>
+        </div>
+    </body>
+</html>

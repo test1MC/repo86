@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>If you decide you like the way the output or text looks after adjusting for different screen sizes and layouts, you can create a new custom media query directly from the slider.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Media-Queries/Media-Queries.htm">Media Queries</MadCap:xref>.</MadCap:conditionalText></p>
+        <ol>
+            <li>
+                <p>Open a content file.</p>
+            </li>
+            <li>
+                <p>Move the hand cursor to a new position on the layout resizer and click.</p>
+            </li>
+            <li>
+                <p>Click the button with the three vertical dots to the right of the slider <img src="../../../../../Images/Flare/Interface/Drop-Downs/Layout-Resizer-dd.png" alt="" title="" class="ReduceButtonSize" />, and from the drop-down select <span class="Emphasis">Add New Media Query</span>.</p>
+            </li>
+            <li>
+                <p>The New Medium / Media Query dialog opens with a logical expression based on the max-width cursor position from the layout resizer. You can select a different stylesheet where the media query   gets saved. Click <span class="Emphasis">OK</span>. (Notice a new gray rectangle appears on the slider indicating your saved media query and breakpoint, and the Stylesheet Editor opens.)</p>
+            </li>
+            <li>
+                <p>(Optional) In your stylesheet,  edit styles for the new media query.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Keep in mind that priority is given to the last media query in the stylesheet (i.e., the one that was added most recently). This means that the order of media queries in the stylesheet affect how max-width queries get applied. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/General-Information/Conflicts-Mediums-Media-Queries.htm">Conflicts With Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroContentSet Comment="Default micro content set.">
+    <MicroContent id="upload-project">
+        <MicroContentPhrase>upload project</MicroContentPhrase>
+        <MicroContentPhrase>bind project</MicroContentPhrase>
+        <MicroContentPhrase>add project</MicroContentPhrase>
+        <MicroContentPhrase>uploading to central</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Main-Activities/Uploading-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="generate-build">
+        <MicroContentPhrase>generate build</MicroContentPhrase>
+        <MicroContentPhrase>generate output</MicroContentPhrase>
+        <MicroContentPhrase>build output</MicroContentPhrase>
+        <MicroContentPhrase>schedule</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Page-Views/Builds/Main-Activities/Generating-Scheduling-Builds.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="set-builds-to-keep">
+        <MicroContentPhrase>set builds keep</MicroContentPhrase>
+        <MicroContentPhrase>keep</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Page-Views/Builds/Other-Activities/Setting-Builds-Keep.htm#microcontent2" />
+    </MicroContent>
+    <MicroContent id="view-output">
+        <MicroContentPhrase>view output</MicroContentPhrase>
+        <MicroContentPhrase>view build</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Page-Views/Builds/Main-Activities/Viewing-Output.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="use-private-url">
+        <MicroContentPhrase>use private url</MicroContentPhrase>
+        <MicroContentPhrase>privacy url</MicroContentPhrase>
+        <MicroContentPhrase>private url</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Page-Views/Builds/Other-Activities/Using-Private-URLs.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="download-build">
+        <MicroContentPhrase>download build</MicroContentPhrase>
+        <MicroContentPhrase>download output</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Page-Views/Builds/Other-Activities/Downloading-Builds.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="create-checklist">
+        <MicroContentPhrase>create checklist</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Page-Views/Checklists/Main-Activities/Creating-Project-Checklists.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="create-checklist-template">
+        <MicroContentPhrase>create checklist template</MicroContentPhrase>
+        <MicroContentPhrase>create template</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Page-Views/Checklists/Templates/Creating-Checklist-Templates.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="import-project">
+        <MicroContentPhrase>import project</MicroContentPhrase>
+        <MicroContentPhrase>download project</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Main-Activities/Importing-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="review-workflow">
+        <MicroContentPhrase>review workflow</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Reviews/General-Information/Review-Workflow.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="set-user-permissions">
+        <MicroContentPhrase>set user permissions</MicroContentPhrase>
+        <MicroContentPhrase>user permissions</MicroContentPhrase>
+        <MicroContentPhrase>permissions</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Users/Main-Activities/Setting-Permissions.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="inviting-users">
+        <MicroContentPhrase>inviting users</MicroContentPhrase>
+        <MicroContentPhrase>add users</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Users/Main-Activities/Inviting-Users.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="set-profile-notifications">
+        <MicroContentPhrase>set profile notifications</MicroContentPhrase>
+        <MicroContentPhrase>user profile</MicroContentPhrase>
+        <MicroContentPhrase>user notifications</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Users/Main-Activities/Setting-Profile-Notifications.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="security-options">
+        <MicroContentPhrase>security options</MicroContentPhrase>
+        <MicroContentPhrase>login attempts</MicroContentPhrase>
+        <MicroContentPhrase>logout idle</MicroContentPhrase>
+        <MicroContentPhrase>require password change</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Server/Security-Options.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="archive">
+        <MicroContentPhrase>archive</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Tasks/Page-Views/Task-Archive.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="backlog">
+        <MicroContentPhrase>backlog</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Tasks/Page-Views/Task-Backlog.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="purchase-seats-storage">
+        <MicroContentPhrase>purchase seats storage</MicroContentPhrase>
+        <MicroContentPhrase>seats</MicroContentPhrase>
+        <MicroContentPhrase>storage space</MicroContentPhrase>
+        <MicroContentPhrase>add seats</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Server/Purchasing-Seats-Space.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="set-site-live">
+        <MicroContentPhrase>set site live</MicroContentPhrase>
+        <MicroContentPhrase>set build live</MicroContentPhrase>
+        <MicroContentPhrase>live</MicroContentPhrase>
+        <MicroContentPhrase>publish</MicroContentPhrase>
+        <MicroContentPhrase>publishing</MicroContentPhrase>
+        <MicroContentPhrase>live output</MicroContentPhrase>
+        <MicroContentPhrase>live url</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Sites-Page-View/Main-Activities/Setting-Sites-Live.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="set-site-vanity">
+        <MicroContentPhrase>set vanity site</MicroContentPhrase>
+        <MicroContentPhrase>site vanity</MicroContentPhrase>
+        <MicroContentPhrase>target vanity</MicroContentPhrase>
+        <MicroContentPhrase>build vanity</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Sites-Page-View/Main-Activities/Setting-Site-Vanities.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="create-site">
+        <MicroContentPhrase>create site</MicroContentPhrase>
+        <MicroContentPhrase>add site</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Sites-Page-View/Main-Activities/Creating-Sites.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="edit-site">
+        <MicroContentPhrase>edit site</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Sites-Page-View/Main-Activities/Editing-Sites.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="exclude-site-from-search">
+        <MicroContentPhrase>exclude site from search</MicroContentPhrase>
+        <MicroContentPhrase>exclude output search</MicroContentPhrase>
+        <MicroContentPhrase>search engines</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Sites-Page-View/Other-Activities/Excluding-Sites-Search-Engines.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="set-output-private">
+        <MicroContentPhrase>private</MicroContentPhrase>
+        <MicroContentPhrase>set site private</MicroContentPhrase>
+        <MicroContentPhrase>private output</MicroContentPhrase>
+        <MicroContentPhrase>private site</MicroContentPhrase>
+        <MicroContentPhrase>set output private</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Sites-Page-View/Main-Activities/Setting-Sites-Private.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="change-prefix-central-domain">
+        <MicroContentPhrase>set license vanity</MicroContentPhrase>
+        <MicroContentPhrase>change subdomain central domain</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/URLs-Page-View/Main-Activities/Setting-License-Vanity.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="create-theme">
+        <MicroContentPhrase>create theme</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Themes-Page-View/Creating-Themes.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="delete-project">
+        <MicroContentPhrase>delete project</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Other-Activities/Deleting-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="integrate-slack">
+        <MicroContentPhrase>integrate slack</MicroContentPhrase>
+        <MicroContentPhrase>slack</MicroContentPhrase>
+        <MicroContentPhrase>slack integration</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Server/Slack-Integration.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="publish-to-central">
+        <MicroContentPhrase>publish to central</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Page-Views/Builds/Main-Activities/Publishing-Directly-Central.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="associate-users-with-teams-projects">
+        <MicroContentPhrase>associate users with teams projects</MicroContentPhrase>
+        <MicroContentPhrase>add user to project</MicroContentPhrase>
+        <MicroContentPhrase>add user to team</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Users/Main-Activities/Associating-Users-Teams-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="set-up-project-linking">
+        <MicroContentPhrase>set up project linking</MicroContentPhrase>
+        <MicroContentPhrase>global project linking</MicroContentPhrase>
+        <MicroContentPhrase>runtime merging</MicroContentPhrase>
+        <MicroContentPhrase>multilingual output</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Main-Activities/Source-Control/Setting-Up-Project-Linking.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="rename-project">
+        <MicroContentPhrase>rename project</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Projects/Other-Activities/Renaming-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="roll-back">
+        <MicroContentPhrase>roll back</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Sites-Page-View/Main-Activities/Rolling-Back-Previous-Live-Output.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="insert-table">
+        <MicroContentPhrase>insert table</MicroContentPhrase>
+        <MicroContentPhrase>add table</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Reviews/Main-Activities/Editing/Tables.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="add-rows-columns">
+        <MicroContentPhrase>add rows columns</MicroContentPhrase>
+        <MicroContentPhrase>insert rows columns</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Reviews/Main-Activities/Editing/Tables.htm#microcontent2" />
+    </MicroContent>
+    <MicroContent id="delete-row-column">
+        <MicroContentPhrase>delete row column</MicroContentPhrase>
+        <MicroContentPhrase>remove row column</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Reviews/Main-Activities/Editing/Tables.htm#microcontent3" />
+    </MicroContent>
+    <MicroContent id="delete-table">
+        <MicroContentPhrase>delete table</MicroContentPhrase>
+        <MicroContentPhrase>remove table</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Reviews/Main-Activities/Editing/Tables.htm#microcontent4" />
+    </MicroContent>
+    <MicroContent id="insert-image">
+        <MicroContentPhrase>insert image</MicroContentPhrase>
+        <MicroContentPhrase>add picture</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Reviews/Main-Activities/Editing/Images.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="add-trusted-domains">
+        <MicroContentPhrase>add trusted domains</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/Security-Page-View/Adding-Trusted-Domains.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="learning-and-development">
+        <MicroContentPhrase>edit eLearning question section</MicroContentPhrase>
+        <MicroContentPhrase>eLearning</MicroContentPhrase>
+        <MicroContentPhrase>L&amp;D</MicroContentPhrase>
+        <MicroContentPhrase>LMS</MicroContentPhrase>
+        <MicroContentPhrase>learning and development</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Reviews/Main-Activities/Editing/eLearning-Question-Sections.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="add-definition-list">
+        <MicroContentPhrase>add definition list</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Reviews/Main-Activities/Editing/Lists.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="add-host-mapped-domain">
+        <MicroContentPhrase>add host mapped domain</MicroContentPhrase>
+        <MicroContentPhrase>custom domain</MicroContentPhrase>
+        <MicroContentPhrase>custom URL</MicroContentPhrase>
+        <MicroContentPhrase>host domain</MicroContentPhrase>
+        <MicroContentPhrase>host map URL</MicroContentPhrase>
+        <MicroContentPhrase>host mapped domain</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Sites/URLs-Page-View/Main-Activities/Adding-Host-Mapped-Domains.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="create-a-task-board">
+        <MicroContentPhrase>create a task board</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Tasks/Main-Activities-Boards/Creating-Task-Boards.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="delete-a-task-board">
+        <MicroContentPhrase>delete a task board</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Tasks/Main-Activities-Boards/Deleting-Task-Boards.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="edit-a-task-board">
+        <MicroContentPhrase>edit a task board</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Tasks/Main-Activities-Boards/Editing-Task-Boards.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="move-tasks-to-another-board">
+        <MicroContentPhrase>move tasks to another board</MicroContentPhrase>
+        <MicroContentResponse href="../../../Central/Tasks/Main-Activities-Boards/Move-Tasks-Task-Boards.htm#microcontent1" />
+    </MicroContent>
+</MicroContentSet>

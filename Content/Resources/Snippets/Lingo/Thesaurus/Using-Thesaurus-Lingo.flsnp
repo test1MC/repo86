@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The Thesaurus window pane shows categories of terms related to the word being searched. You can expand or collapse any of these categories by clicking the arrow buttons. If you click one of the terms in a category, the window pane dynamically adjusts to show different words and categories specific to that term.</p>
+        <p>
+            <img src="../../../Images/Lingo/Thesaurus/Thesaurus-Window-Pane-Categories.png" class="MaxWidth100Percent" />
+        </p>
+        <p>There are a few ways you can access the thesaurus:</p>
+        <ul>
+            <li>
+                <p>Select <span class="Emphasis">Tools &gt;&#160;Thesaurus</span>.</p>
+            </li>
+            <li>Click a term in the open file, and press <span class="Emphasis">SHIFT+F7</span> to view the results for that term in the thesaurus.</li>
+            <li>At the top of the Thesaurus window pane is a search field, which lets you manually look for a term. Simply enter text and click <span class="Emphasis">Search</span>.</li>
+            <li>
+                <p>Right-click a term in the open file, and from the context menu select <span class="Emphasis">Thesaurus</span>.</p>
+                <div class="example">
+                    <p class="Example-Text">&#160;</p>
+                    <p>Say you want to find a term related to the Spanish word for "apparent." You right-click the word "evidente" in line 5  in the screenshot below. In the context menu, select <span class="Emphasis">Thesaurus</span>.</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Thesaurus/Thesaurus1.png" class="MaxWidth100Percent" />
+                    </p>
+                    <p>The Thesaurus window pane displays related words for "evidente."</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Thesaurus/Thesaurus2.png" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Whats-New-Guide" />
+        <p>To use a related term in the target segment, you can do either of the following:</p>
+        <ul>
+            <li>
+                <p>Right-click the related term in the Thesaurus window pane and in the context menu select <span class="Emphasis">Insert</span>. This replaces the word nearest the cursor in the target segment.</p>
+                <p>
+                    <img src="../../../Images/Lingo/Thesaurus/Thesaurus-Insert.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Right-click the related term in the Thesaurus window pane and in the context menu select <span class="Emphasis">Copy</span>. Then paste that term anywhere you want.</p>
+                <p>
+                    <img src="../../../Images/Lingo/Thesaurus/Thesaurus-Copy.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

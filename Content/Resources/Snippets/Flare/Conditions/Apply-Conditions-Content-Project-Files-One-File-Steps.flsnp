@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open the Project Organizer or Content Explorer.</li>
+            <li>Locate the file to which you want to apply a condition tag. In the Project Organizer, files are stored in various folders. In the Content Explorer, topic files are located by default at the top level (unless you place them in subfolders that you’ve created); other files are traditionally located in subfolders within the Resources folder, although they can be stored in custom folders as well. For example, snippet files are usually located in a subfolder called "Snippets."</li>
+            <li>Right-click the file and from the context menu select           <span class="Emphasis">Properties</span>. The Properties dialog for the file opens.</li>
+            <li>Click the <span class="Emphasis">Conditional Text</span> tab. The first condition tag set is selected and the associated condition tags are shown on the right.</li>
+            <li>If you want to see condition tags for a different condition tag set, select it.</li>
+            <li>For each condition tag that you want to apply to the file, click the check box next to the tag. A check mark appears in the box.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The square next to the file name in the Project Organizer or Content Explorer now takes on the color of the condition tag. If you applied more than one condition tag to the file, each color is shown. (If you do not see squares, click <img src="../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" class="ReduceButtonSize" /> in the local toolbar.)</p>
+                <p>
+                    <img src="../../../Images/Flare/Conditions/Condition-Applied-File.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

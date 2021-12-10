@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Decrease-Font-Size-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Decreases the font size in the editor.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Reset-Font-Size-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Resets the font size in the editor.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Increase-Font-Size-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Increases the font size in the editor.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Line-Numbers-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Text-Editor-Show-Line-Numbers.flsnp" />
+                        <MadCap:snippetBlock src="Example-Text-Editor-Show-Line-Numbers.flsnp" MadCap:conditions="General.Online-Only" />
+                        <MadCap:snippetBlock src="Text-Editor-Show-Line-Numbers2.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Outline-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Text-Editor-Show-Outline.flsnp" />
+                        <MadCap:snippetBlock src="Example-Text-Editor-Show-Outline.flsnp" MadCap:conditions="General.Online-Only" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Syntax-Colors-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Text-Editor-Show-Syntax-Colors.flsnp" />
+                        <MadCap:snippetBlock src="Example-Text-Editor-Show-Syntax-Colors.flsnp" MadCap:conditions="General.Online-Only" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Word-Wrap-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Text-Editor-Show-Word-Wrap.flsnp" />
+                        <MadCap:snippetBlock src="Example-Text-Editor-Show-Word-Wrap.flsnp" MadCap:conditions="General.Online-Only" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Auto-Complete-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enables the autocomplete feature. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">[Character:Line]</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="Text-Editor-Character-Line-Position.flsnp" />
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Co-Fl/Interface/Editors/Character-Line-Position.png" alt="" title="" class="MaxWidth90Percent" />
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

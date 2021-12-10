@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All.flsnp" />
+        <div>
+            <div class="Tiles-4-4-4">
+                <div>
+                    <p>
+                        <MadCap:snippetText src="../Glossaries/Creating-Glossary.flsnp">
+                        </MadCap:snippetText> Alternatively, you can let Flare auto-generate one for you (see <MadCap:xref href="../../../../Flare/Proxies/Glossaries/Auto-Generating-Glossaries-Print1.htm">Auto-Generating Glossaries for Print</MadCap:xref>).</p>
+                    <p>The following explains how to use the manual method.</p>
+                    <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+                </div>
+                <div>
+                    <p class="center">
+                        <img src="../../../Images/Flare/Proxies/Glossary-Proxy1.png" class="MaxWidth60Percent" />
+                    </p>
+                </div>
+                <div>
+                    <p class="center">
+                        <img src="../../../Images/Flare/Proxies/Glossary-Proxy2.png" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2>How to Create a Glossary Manually Using a Proxy</h2>
+        <MadCap:snippetBlock src="../Glossaries/Create-Glossary-Manually-Print-Steps.flsnp" />
+        <h2>Auto-Generate vs. Manual Proxies</h2>
+        <MadCap:snippetBlock src="../Proxies/Auto-Generate-Versus-Manual-Proxies.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../Glossaries/Note-Insert-Glossary-Heading-Variables.flsnp" />
+        <p MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide">Make sure to add the topic with the proxy to the outline TOC. See <MadCap:xref href="../../../../Flare/Printed-Output/Adding-Print-Topics-Outline-TOC.htm">Adding Print Topics to an Outline TOC</MadCap:xref>.</p>
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">In addition to creating a topic for a print glossary, you can create a topic for a print TOC and/or a topic for a print index. See <MadCap:xref href="../../../../Flare/Proxies/TOCs/Creating-TOC-Manually-Print.htm">Creating a TOC for Print-Based Output</MadCap:xref> and <MadCap:xref href="../../../../Flare/Proxies/Indexes/Creating-Index-Manually-Print1.htm">Creating an Index Manually for Print</MadCap:xref>.</p>
+        <p MadCap:conditions="General.Online-Only">Then you need to include these print topics in an outline TOC in your project. See <MadCap:xref href="../../../../Flare/Printed-Output/Adding-Print-Topics-Outline-TOC.htm">Adding Print Topics to an Outline TOC</MadCap:xref>.</p>
+    </body>
+</html>

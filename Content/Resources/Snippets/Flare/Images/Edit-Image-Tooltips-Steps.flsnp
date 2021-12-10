@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>From the Content Explorer, open your stylesheet. </li>
+            <li>In the local toolbar, click <span class="Emphasis">Add Selector</span>.</li>
+            <li>Either clear the <span class="Emphasis">HTML Element</span> field, or select <span class="Emphasis">(generic)</span> in it.</li>
+            <li>In the <span class="Emphasis">Class Name</span> field, type <span class="TypedEntry">tooltip</span>.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                </p>
+                <p>The new class is located under the "(Generic Classes)" node on the left side of the editor. You might need to filter for All Styles to see it.</p>
+            </li>
+            <li>
+                <p>With the <span class="Emphasis">tooltip</span> class selected on the left, set any properties for it on the right.</p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This is one case where you do not need to apply this style class to your images manually, because Flare is designed to use it automatically whenever an image has a screen tip added.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

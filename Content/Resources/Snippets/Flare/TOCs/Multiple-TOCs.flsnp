@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can include as many TOC files in your project as you want. Each TOC might be used for a different target, or you can use a single TOC file for multiple targets, especially if you use conditions on the TOC entries. You also have the option of linking TOCs together so that they appear seamless in the final output that your end users see.</p>
+        <p>Each TOC is an XML file with an <MadCap:keyword term="FLTOC file" />.fltoc file extension. These TOC files are separate from the main project (<MadCap:keyword term="FLPRJ file" />FLPRJ) file. This means that, not only can you have multiple TOCs in one project, you can also have multiple authors working on different TOCs for that same project.</p>
+    </body>
+</html>

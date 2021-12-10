@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>This table details the operating system requirements for the Pulse database server:</p>
+        <div class="warning">
+            <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">All of the latest Windows service packs and critical updates must also be installed. </p>
+        </div>
+        <table class="TableStyle-Fancy" cellspacing="0" style="mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 25%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 75%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Microsoft Windows Installer (MSI)&#160;4.5 or later</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="MSI-4.5.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Internet Information Services Version 7 (IIS 7.0)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="IIS-7.0.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">ASP.NET 4.0</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="ASP.NET-4.0.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Microsoft .NET&#160;Framework 4.5 (Recommended) or 4.0 (Minimum)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src=".NET-Framework-4.5-4.0.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Microsoft Visual C++&#160;2010 Redistributable</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="Visual-C++2010-Redistributable.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

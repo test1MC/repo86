@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Your first source control binding (between Flare and a third-party provider) should be done from the Flare interface, rather than from another tool. Otherwise, Flare and Central will not recognize that binding. If you already have a project that was bound using another tool, you have a couple of options:</p>
+            <ul>
+                <li>You can remove the binding and then bind again using Flare.</li>
+                <li>You can create a new Flare project, importing from source control. This method allows you to retain the repository. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Importing/Other-Flare-Projects/Importing-Project-Source-Control2.htm">Importing a Project From Source Control</MadCap:xref>.</MadCap:conditionalText></li>
+            </ul>
+        </div>
+    </body>
+</html>

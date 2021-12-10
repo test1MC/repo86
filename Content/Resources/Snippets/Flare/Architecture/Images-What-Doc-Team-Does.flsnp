@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>We use MadCap Capture to create and edit images because of its single-sourcing capabilities and tight integration with Flare.</p>
+        <p>First, we created a couple of image profiles in Capture. Both profiles have identical settings (e.g., 96 DPI), except that one profile places a thin border around new screen captures and the other doesn’t. Then we placed these profiles in a folder on our network. Each writer adds a link to these profiles in Capture.</p>
+        <p>One of the most important settings in the profiles is the output folder, which for us, is C:\Shared\Content\Resources\Images. This simply means that when a writer uses one of these profiles for a screenshot and clicks <span class="Emphasis">Save</span>, the dialog immediately goes to this location. This saves time because we never have to navigate to the Images folder in our main Shared project (the most frequent place where we save images). This is also one reason that all writers store Flare projects in the root C:\ folder; the output folder setting in the profile is the same for everyone.</p>
+        <p>
+            <img src="../../../Images/Flare/Architecture/Architecture-Images4.png" alt="" title="" class="MaxWidth90Percent">
+            </img>
+        </p>
+        <p>
+            <img src="../../../Images/Flare/Architecture/Architecture-Images5.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Images/Flare/Architecture/Architecture-Images6.png" alt="" title="" class="MaxWidth85Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>We also created a palette in Capture that contains objects (e.g., callouts, arrows, rectangles) that we frequently add to images. By placing these objects in a palette and storing them in a network folder, we are assured that each writer is using the same objects and maintaining consistency.</p>
+        <p>
+            <img src="../../../Images/Flare/Architecture/Architecture-Images7.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide">
+        </MadCap:pageBreak>
+        <p>When profiles and palette objects are used in an image, that information is placed in the .props file next to the image file. This means that when we want to make changes to an image, we simply right-click it in Flare and select <span class="Emphasis">Edit With MadCap Capture</span>.</p>
+        <p>
+            <img src="../../../Images/Flare/Architecture/Architecture-Images8.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <p>The image opens in Capture, and we can make any changes to it that we want, including adjusting the objects. As soon as we click <span class="Emphasis">Save</span>, the image is updated in Flare. In other words, we don’t need to waste time reimporting the image into the project.</p>
+    </body>
+</html>

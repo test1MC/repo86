@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <p>Select <span class="Emphasis">View &gt; File List</span>.</p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also create bundles from the TOC&#160;View window pane. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Lingo/Interface/Window-Panes/TOC-View-Window-Pane.htm">TOC View Window Pane</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                </div>
+            </li>
+            <li>Select the files to be included in the bundle. <span class="topic-only"><MadCap:snippetText src="../../Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /> Selecting multiple files can be done only if you are in grid view.</span></li>
+            <li>In the local toolbar click the <span class="Emphasis">Create Bundle</span> button <img src="../../../Images/Lingo/Interface/Buttons/Prepare-Translation-Bundle-btn.png" class="ReduceButtonSize" />.</li>
+            <li>
+                <p>In the <span class="Emphasis">Bundle Settings</span> area, select the file type for the bundle and the project files to include with the bundle.</p>
+                <ul class="topic-only">
+                    <li><span class="SetOffFirstLevel">Lingo Project Bundle</span> Packages the bundle as an  <MadCap:keyword term="LIPRJZIP file" />LIPRJZIP file to send to a translator who also uses Lingo.</li>
+                    <li><span class="SetOffFirstLevel">XLIFF Files Bundle</span> Packages the bundle as a <MadCap:keyword term="ZIP file" />ZIP file to send to a translator who uses another third-party tool, such as SDL&#160;Trados or memoQ.</li>
+                    <li>
+                        <p><span class="SetOffFirstLevel"><MadCap:keyword term="Multilingual;Projects:multilingual" />Language</span> (Optional) Select the target language for the files in the bundle. You can select an individual language or all languages.</p>
+                        <p>
+                            <img src="../../../Images/Lingo/Bundles/Create-Bundle2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:snippetBlock src="../General/Note-Multilingual-Only.flsnp" />
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you need to send multiple languages to the translator, you can send each language as individual bundles, or you can select <b>All languages</b> to send all of the files in one bundle.</p>
+                        </div>
+                        <MadCap:snippetBlock src="Add-Remove-Languages.flsnp" />
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Include Project Translation Memories </span>Includes the project's <MadCap:conditionalText MadCap:conditions="Products.Lingo-Online-Only">translation memories (TMs) </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Lingo-Guides.Lingo-Getting-Started-Guide">TMs </MadCap:conditionalText> with the bundle. </p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Include Project Termbases </span>Includes the project's termbases with the bundle.</p>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                            <p>You are bundling a large Lingo project for translation. The project is already partially translated, but you are using a new translator to finish the project. By including the connected translation memories and termbases with the bundle, the new translator can use the previous translator's completed work (using the translation memory), as well as any standards for commonly used terms that you may have established with the previous translator (using the termbase). This saves you time because you won't need to review these things with the new translator, and it saves you money because the new translator will not need to retranslate segments that have already been completed.</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Bundle Files </span>area, you can use the filters to search for additional files to include with the bundle. <span class="topic-only">You can filter by file type, translation status, and difference status. Any project files not yet included in the bundle and that match your selected filters display in the Project Files grid. Any files currently included in the bundle display in the Output Files grid.</span></p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The filters available in your bundle depend on the files available in your project. For example, if you do not have any new files in your project, you will not see the New difference status filter. If you add new files to the project, the New filter becomes available.</p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have already filtered your project using target or condition filters, the available files reflect the filters you applied. You can only bundle files that are part of your current project. See <MadCap:xref href="../../../../Lingo/Filters/Dynamic-Filtering.htm">Dynamic Filtering</MadCap:xref>.</p>
+                    </div>
+                    <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                        <p>You have already sent your project to your translator to begin translating content. After a few weeks, you need to make a major, unexpected change to a section of the documentation that you have already sent for translation. Rather than sending the whole project to the translator again, you can use the project files filters to send only the changed files to the translator. </p>
+                        <p>After updating your project in Lingo<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Lingo/Projects/Updating-Projects.htm">Updating Projects</MadCap:xref>)</MadCap:conditionalText>, create a new bundle and use the project files filter to locate files with a difference status of Different. Any files you changed display in the Project Files grid. Select the files to include them in the bundle.</p>
+                        <p>
+                            <img src="../../../Images/Lingo/Bundles/Create-Bundle1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>Click <b>OK</b>. <span class="topic-only">The project is scanned and computed statistics for the project are shown (if you have TM installed, as recommended).</span></li>
+            <li>Click <span class="Emphasis">Close</span>. <span class="topic-only">A Windows subfolder (within your project folder) named "Exporting" opens. This subfolder holds a ZIP file or LIPRJZIP file, depending on the bundle settings you chose. This file contains the files that your translator needs to work with.</span></li>
+            <li>
+                <p>Send the ZIP file or LIPRJZIP file (via email, FTP, etc.) to the translator.</p>
+                <div class="topic-only">
+                    <div class="warning">
+                        <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">If you need to make changes to your bundle before you send it to the translator, you should not remove files from the ZIP&#160;or LIPRJZIP file, as this could cause problems merging the bundle back into Lingo later. Instead, it is recommended that you create a new bundle and send the corrected bundle to the translator.</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If you delete a user account in the Pulse dashboard, access to Pulse features is immediately revoked. However, to give a user the ability to reuse an email address in Pulse, you must also delete the user from the dbo.Users and dbo.Login tables in SQL&#160;Server. If you are using SQL Server Management Studio you can right-click the user and select <span class="Emphasis">Delete</span> from the context menu. Once the entries are deleted, the email can be used to create a new Pulse account.</p>
+    </body>
+</html>

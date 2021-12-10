@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div MadCap:conditions="Snippets.Snippet9">
+            <p>The following steps are optional for testing <MadCap:variable name="Outputs.WebHelp Plus" /> search (for Microsoft Windows Search).</p>
+            <ol>
+                <li>In IIS right-click on the directory where your <MadCap:variable name="Outputs.WebHelp Plus" /> project is published to and choose <span class="Emphasis">Explore</span>.</li>
+                <li>In the upper-right corner of the window you will see a Search input box. Perform a search for a term that is commonly found in your project.</li>
+                <li>If you see results, your project is ready to go live.</li>
+            </ol>
+        </div>
+        <div MadCap:conditions="Snippets.Snippet10">
+            <p>The following steps are optional for testing <MadCap:variable name="Outputs.HTML5" /> server-based search (for Microsoft Windows Search).</p>
+            <div class="IndentMedium">
+                <h3>How to Test Search</h3>
+                <ol>
+                    <li>In IIS right-click on the directory where your <MadCap:variable name="Outputs.HTML5" /> project is published to and choose <span class="Emphasis">Explore</span>.</li>
+                    <li>In the upper-right corner of the window you will see a Search input box. Perform a search for a term that is commonly found in your project.</li>
+                    <li>If you see results, your project is ready to go live.</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

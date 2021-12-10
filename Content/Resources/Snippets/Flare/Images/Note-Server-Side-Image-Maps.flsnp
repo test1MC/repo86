@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Flare user interface lets you create client-side image maps, which are the most common type. However, you can code HTML and use a CGI script to create server-side image maps, where the file containing the links is located on a server. One down side of server-side image maps is that alt tags cannot be read, and therefore the output is not as accessible as it would be with client-side image maps. There is an option on the Warnings tab of the Target Editor for the web formats—<MadCap:snippetText src="../Output/All-Web-Outputs-HTML5-Clean-XHTML.flsnp" />. This option lets you see compiler warnings when a server-side image map is found in the output.</p>
+        </div>
+    </body>
+</html>

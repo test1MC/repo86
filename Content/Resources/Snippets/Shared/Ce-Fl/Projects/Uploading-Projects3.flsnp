@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open the project in MadCap Flare.</li>
+            <li>
+                <MadCap:snippetText src="Select-View-MadCap-Central.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Not-Logged-In.flsnp" />
+            </li>
+            <li>
+                <p>Click <img src="../../../../Images/Shared/Ce-Fl/Interface/Buttons/Central-Bind-btn.png" alt="" title="" />.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../../Images/Shared/Ce-Fl/Projects/Projects1.png" alt="" title="" class="MaxWidth55Percent" />
+                    </p>
+                    <div class="tip">
+                        <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If this button is disabled, try clicking in the window pane first.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>In the Bind Project dialog, you can complete any of the fields, then click <span class="Emphasis">OK</span>.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Select License </span>If you are a member of more than one MadCap Central license, you can use this field to choose the license where the project will be added.</li>
+                        <li><span class="SetOffFirstLevel">Enter project name </span>This shows the name of the project. You can change the name if you want, but in most cases you will probably want to keep the same name.</li>
+                        <li><span class="SetOffFirstLevel">Enter project description </span>You can enter a short description, which can then be seen when anyone views the project profile in Central.</li>
+                    </ul>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+            <li>
+                <p>In the success message, click <span class="Emphasis">OK</span>. The MadCap Central window pane adjusts, showing properties for the current project.</p>
+                <p class="topic-only">
+                    <img src="../../../../Images/Shared/Ce-Fl/Projects/Projects4.png" alt="" title="" class="MaxWidth50Percent" />
+                </p>
+            </li>
+            <li>(Optional) In the local toolbar, click <img src="../../../../Images/Shared/Ce-Fl/Interface/Buttons/Open-Central-btn.png" alt="" title="" class="ReduceButtonSize" /> to open Central.</li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+            <li>
+                <p>(Optional) In Central, you can click <b>Projects</b> on the left side to open the Projects page. The uploaded project should be shown in the grid. If it isn’t, click  <img src="../../../../Images/Shared/Ce-Fl/Interface/Buttons/Refresh-btn.png" alt="" title="" class="ReduceButtonSize" /> to refresh the page.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../../Images/Shared/Ce-Fl/Projects/Projects5.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Binding your project to Central adds an ID&#160;to the Flare project file. If your project is dual-bound<MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only"> (see <MadCap:xref href="../../../../../Central/Projects/Main-Activities/Source-Control/Dual-Bound-Projects.htm">Dual-Bound Projects</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Flare"> (see <MadCap:xref href="../../../../../Flare/Central/General-Information/Source-Control-Central.htm#DualBound">Dual-Bound Projects</MadCap:xref>)</MadCap:conditionalText>, be sure you check in the project to your third-party source control provider after you bind to Central. This will ensure that other users who import the project from source control have the most recent version of the project file (i.e., the one with the Central ID). The Central ID is necessary for Central to recognize that each user's local copy of the project is linked to the copy in Central.</p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                            <MadCap:snippetText src="../Source-Control/Gitignore.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                        </p>
+                    </div>
+                    <MadCap:snippetBlock src="../Central/Note-Linked-Projects-Need-Uploaded.flsnp" />
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

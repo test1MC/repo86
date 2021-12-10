@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <div>
+            <table style="width: 100%; margin-left: 0; margin-right: auto; mc-table-style: url('../../../../TableStyles/Shared/Fancy.css'); mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                <thead>
+                    <tr class="TableStyle-Fancy-Head-Header1">
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p class="TableTextHead">Wildcard Examples</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                            <p class="TableTextHead">Result</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">s*t</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Finds "<span class="YellowBackground">secret</span>," "<span class="YellowBackground">select</span>," acce<span class="YellowBackground">ssibilit</span>y," and so on</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">stand*</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Finds "<span class="YellowBackground">stand</span>," "<span class="YellowBackground">stand</span>ing," <span class="YellowBackground">stand</span>ard," "<span class="YellowBackground">stand</span>-in," "out<span class="YellowBackground">stand</span>ing," and so on</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextEmphasis">gloss?.doc</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                            <p class="TableText">Finds "<span class="YellowBackground">glossy.doc</span>," but not "glossary.doc"</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>For more information about wildcards, see the following:</p>
+        </div>
+        <p><a href="http://tinyurl.com/279p2nf" target="_blank">http://tinyurl.com/279p2nf</a>
+        </p>
+    </body>
+</html>

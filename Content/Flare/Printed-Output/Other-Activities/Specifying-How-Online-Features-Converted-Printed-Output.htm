@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="etc.);output.);output...;level.&quot;;TOC1;TOC2;TOC3;TOC9;Index1;Index2;Index3;C;project.);TOC.);medium...;page.&quot;" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Printed-Output.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Define how MadCap&#160;Flare converts online features when building a print-based target. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" MadCap:conditions="Products.Flare" />
+            <MadCap:keyword term="Print-based output:converting online features;Converting:online features to printed output" />
+            <MadCap:concept term="FilterFeatures" />Specifying How Online Features are Converted in Printed Output</h1>
+        <p>The online features from your project (e.g., text hyperlinks, expanding text, Help controls) are converted to print-based output in various ways, as described in the following table.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Default Behavior of Online Features in Print-Based Output</h2>
+        <table style="width: 100%;caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 25%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 75%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Online feature</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">How it is converted in print-based output</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Breadcrumbs</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Not included in the document</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Browse sequences</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Not included in the document </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Context-Sensitive Help</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Not included in the document </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Cross-references</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">You can convert the cross-references to page number references (e.g., "See My Topic" can become "See page 36"). This is done by using a stylesheet medium and changing the property settings for the cross-reference style for the print medium. You also need to make sure the print medium is associated with the target you wan to build. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="../../Nav-Links/Cross-References/Cross-References.htm">Cross-References</MadCap:xref> and <MadCap:xref href="../../Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Drop-down text</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Hotspot converted to text; body expanded inline</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Expanding text</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Hotspot converted to text; body can be converted (in the Target Editor) to (1) footnotes, (2) inline text, or (3) removed. See steps below.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Favorites</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Not included in the document </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Glossary term links</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Converted to footnotes at the bottom of pages </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Help controls (related topics, concept links, keyword links)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Not included in the document </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Popups</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Hotspot converted to text; body can be converted (in the Target Editor) to (1) footnotes, (2) inline text, or (3) removed. See steps below.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Rules (horizontal lines)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Not included in the document </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Scripts</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Not included in the document </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Search</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Not included in the document </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Text hyperlinks</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Converted; for some outputs (e.g., Word), users can press CTRL key and click link to go to destination</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Togglers</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Hotspot converted to text; destination converted to inline text</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">Topic popups</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-DarkerRows">
+                        <p class="TableText">Converted to text with link removed</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Targets-Guide" />
+        <h2>How to Specify the Way Online Features are Converted in Print-Based Output</h2>
+        <p>Some online features in your project are automatically handled in one way or another when you produce printed output. However, there are some features (expanding text and popup effects) where you can specify how you'd like them to be treated in the printed output. </p>
+        <ol>
+            <li>Open the target that you plan to build for your printed output. The Target Editor opens.</li>
+            <li>Click the <span class="Emphasis">Advanced</span> tab.</li>
+            <li>In the <span class="Emphasis">Expanding Text Effects</span> and <span class="Emphasis">Text Popup Effects</span> sections, select an option for each type of online feature:<ul type="1"><li><span class="SetOffFirstLevel">Convert to footnote </span>The body for the expanding text or popup effect is displayed as a footnote in the printed output.</li><li><span class="SetOffFirstLevel">Expand text inline </span>The body for the expanding text or popup effect is displayed as a text (after the "hotspot" text) in the printed output.</li><li><span class="SetOffFirstLevel">Remove the "body" </span>The body for the expanding text or popup effect is not included in the printed output.</li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After you perform this task and complete the other tasks in preparation for printed output, you are ready to build the print target. See <MadCap:xref href="../Creating-Printed-Output.htm">Creating Print-Based Output</MadCap:xref> and <MadCap:xref href="../../Step5-Building-Publishing-Output/Building-Publishing-Output.htm" target="" title="" alt="">About Building and Publishing Output</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+    </body>
+</html>

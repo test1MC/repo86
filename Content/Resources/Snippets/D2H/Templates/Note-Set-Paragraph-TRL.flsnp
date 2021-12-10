@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text">Due to styles set in the default target template, right-to-left (RTL) text containing left-to-right (LTR) text inline will not display properly for NetHelp output in some browsers (e.g., Safari, Microsoft Edge). For example, the LTR text might appear on the far right side of a paragraph when it should be somewhere on the left. To fix this issue for your project, you should modify the Normal style in the target template so that it displays in a RTL format. Use the following steps:</p>
+            <ol>
+                <li>In Word, select <b>Target &gt; Edit</b>.</li>
+                <li>Select the target template and click <b>Edit</b>.</li>
+                <li>Open the <b>Home</b> ribbon, and at the bottom of the <b>Styles</b> section click <img src="../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />.</li>
+                <li>In the Styles window, right-click the <b>Normal</b> style and select <b>Modify</b>.</li>
+                <li>In the lower left corner select <b>Format &gt; Paragraph</b>.</li>
+                <li>Choose <b>Direction: Right-to-left</b>.</li>
+                <li>Click <b>OK</b>, then save the target template.</li>
+                <li>Rebuild the NetHelp target.</li>
+            </ol>
+        </div>
+    </body>
+</html>

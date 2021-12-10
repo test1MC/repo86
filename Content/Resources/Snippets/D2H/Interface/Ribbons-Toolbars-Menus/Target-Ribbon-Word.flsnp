@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Targets can be added, built, and published within this ribbon. </p>
+        <p>The Active Target for your Doc-To-Help project can be set to any target that you have already created in your project. The Target Properties button lets you add, edit or delete any targets. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>The targets can be built ad-hoc or by scheduling a build. You can also Rebuild your target or schedule your target to be rebuilt. The build of the active target can be viewed, or you can cancel an ongoing build. Once the target has been built, you can view the Build Log, or Publish to SharePoint. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Output/Building-Target.htm">Building Targets</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>The default themes of your targets can be modified. You can also add a new theme using the Wizard or Designer. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Themes/Themes.htm">About Themes</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>Your Templates are also managed in this ribbon. Use the Target Template button to change your default template of your project. You can also Add, Edit, or Remove templates. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Templates/Templates-Styles.htm">About Templates and Styles</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Whats-New-Guide" />
+        <p>The following functions can be performed on the Target ribbon:</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Active-Target-btn.png" class="MaxWidth100Percent" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select the current target for your Doc-To-Help project.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Target-Properties-btn.png" class="MaxWidth100Percent" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Modify the settings of your active target.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Drop-Downs/Build-dd.png" class="MaxWidth100Percent" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Build the currently selected active target. If you click the drop-down arrow, you can also schedule a build for your active target.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Drop-Downs/Rebuild-dd.png" class="MaxWidth100Percent" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Rebuild your target. Similar to the Build button, you can also schedule a Rebuild for your target.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Cancel-Build-btn.png" class="MaxWidth100Percent" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Cancel an ongoing build.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/View-PDF-btn.png" class="MaxWidth100Percent" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">View the PDF of your output if you have a printed manual target.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Publish-SharePoint-btn.png" class="MaxWidth100Percent" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Publish your output to a SharePoint repository.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Build-Log-btn.png" class="MaxWidth100Percent" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">View the log file of the most recent build. You can also click this button to hide the window pane for the build log.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p>
+                            <img src="../../../../Images/D2H/Interface/Drop-Downs/Target-Theme-dd.png" class="MaxWidth100Percent" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select a theme for your active target.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p>
+                            <img src="../../../../Images/D2H/Interface/Buttons/Add-New-btn.png" class="MaxWidth100Percent" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Add a new theme for your target.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p>
+                            <img src="../../../../Images/D2H/Interface/Buttons/Wizard-btn.png" class="MaxWidth100Percent" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Launch the Theme Wizard to walk you through creating a new theme.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p>
+                            <img src="../../../../Images/D2H/Interface/Buttons/Designer-btn.png" class="MaxWidth100Percent" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Open the Theme Designer so you can customize your theme.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p>
+                            <img src="../../../../Images/D2H/Interface/Drop-Downs/Target-Template-dd.png" class="MaxWidth100Percent" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select the template for your output.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p>
+                            <img src="../../../../Images/D2H/Interface/Buttons/Add-btn.png" class="MaxWidth100Percent" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Add a new template for your target.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p>
+                            <img src="../../../../Images/D2H/Interface/Buttons/Edit-btn.png" class="MaxWidth100Percent" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Edit the existing template selected for your target.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p>
+                            <img src="../../../../Images/D2H/Interface/Buttons/Remove-btn2.png" class="MaxWidth100Percent" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Remove the existing template.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

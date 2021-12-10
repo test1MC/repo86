@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>PDFs are limited to rectangular-shaped image map objects.  Therefore, if you have an image map with circle or polygon objects, those will be redrawn as rectangles in the PDF output.  If this occurs, Flare will include a compile warning. Also, keep in mind that if objects overlap one another, the one on the top layer (usually the last one drawn) takes precedence.</p>
+    </body>
+</html>

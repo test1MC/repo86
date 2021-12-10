@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../../Images/Manual-Cover-Image1.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Images/Manual-Cover-Image2.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Targets-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Set a Cover Image for a Manual Target</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>(Recommended) Add the desired image to your project. (Typically, images are stored in the Media folder.)</li>
+                    <li MadCap:conditions="Snippets.Snippet2">In Doc-To-Help, open the <span class="Emphasis">Home</span> ribbon, and at the bottom of the <span class="Emphasis">Target</span> group click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Help Targets dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">In Word, open the <span class="Emphasis">Target</span> ribbon and click the <span class="Emphasis">Target Properties</span> button. The Help Targets dialog opens.</li>
+                    <li>On the left side of the dialog, select the <span class="Emphasis">Manual</span> target.</li>
+                    <li>
+                        <p>In the <span class="Emphasis">Build</span> section, specify the image in the <span class="Emphasis">Cover image</span> field.</p>
+                        <p>In most cases, you will click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> and select an image within your project, which produces a relative path to that image (e.g., Media\MyImage.png).</p>
+                        <p class="note">It is also possible to use an absolute path and point to an external image, but a relative path to an image within the project is recommended.</p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Cover Image Bookmark</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This feature is based on a bookmark named "CoverImage." All source and Manual target templates provided by <MadCap:variable name="Other.Product" /> have this bookmark, and it is placed by default on the cover image at the beginning of the template. However, if you specify a different image in the Help Targets dialog, it will replace the default cover image that is embedded in the target template.</p>
+                <p>To define a new location for the cover image, you can edit the template<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> (see <MadCap:xref href="../../../../../D2H/Templates/Editing-Template.htm">Editing a Template</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Templates/Editing-Template.htm">Editing a Template</MadCap:xref>)</MadCap:conditionalText>, inserting a bookmark named "CoverImage" somewhere before the "ChapterHeading" bookmark (if it exists). Otherwise, the image will be inserted at the beginning of the document.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Targets-Guide" />
+    </body>
+</html>

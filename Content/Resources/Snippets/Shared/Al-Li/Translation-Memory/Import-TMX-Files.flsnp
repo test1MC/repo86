@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If you already have a Translation Memory eXchange (TMX) file containing translations, you can import it into any of the TM databases shown in the grid. To do this, select the database in the grid, then click <span class="Emphasis">Import</span>. Complete the fields in the dialog and click <span class="Emphasis">Start Import</span>. <MadCap:conditionalText MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">See <MadCap:xref href="../../../../../Lingo/Translation-Memory/Other-Activities/Importing-TMX-Files.htm">Importing TMX Files</MadCap:xref>.</MadCap:conditionalText></p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are creating a new project and you have created a new TM database. The new database is obviously empty. However, you have a TMX file with lots of translations, and you want the new database to have these translations. So with the database selected in the grid, you click <span class="Emphasis">Import</span>.</p>
+            <p MadCap:conditions="Products.Lingo">
+                <img src="../../../../Images/Shared/Al-Li/Translation-Memory/Multiple-TMs7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Finally, you would use the dialog that opens to find and select the TMX file to import.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="Create-Project-Step-Filters.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet3], exclude[Snippets.Snippet1 or Snippets.Snippet2]" />
+            </li>
+            <li>From the <span class="Emphasis">Filter</span> drop-down,  select<span class="Emphasis"> Create New</span>.</li>
+            <li>
+                <MadCap:snippetText src="Enter-Name-Filter.flsnp" />
+            </li>
+            <li>(Optional) <MadCap:snippetText src="Existing-Filter.flsnp" /><MadCap:snippetBlock src="Filter-Options.flsnp" /></li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Note-Segment.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="Updating-Legacy-Text-Filters.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="First-Logical-Grouping.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Single-Line-Reg-Ex.flsnp" />
+                </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p MadCap:conditions="">You have a text file that looks like this:</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Lingo/Filters/Filters-Text1.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>You want to include everything on the left side of the text file (between the quotation marks) as a note in your translatable file, and everything on the right side of the text file (after the equal sign) as the segment for translation.</p>
+                    <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Getting-Started-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+                    <p>To accomplish this, you would create a filter using regular expressions that look like this:</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Filters/Filters-Text2.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>Because the notes are on the left side of the file, you are sure to select the <span class="Emphasis">Use logical grouping as note</span> box.</p>
+                    <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Lingo-Guides.Lingo-Getting-Started-Guide" />
+                    <p>When you create the project, it will look like this:</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Filters/Filters-Text3.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+        </ol>
+    </body>
+</html>

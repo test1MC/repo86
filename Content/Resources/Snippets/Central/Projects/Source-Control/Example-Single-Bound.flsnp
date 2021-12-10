@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are working on a team of writers and your project is not bound to any other source control provider. Therefore, you are using the connection between Flare and Central as your primary source control solution.</p>
+            <p>When you first start working with Central, you have to upload (or bind) your local copy of the project to Central. To do this, click <img src="../../../../Images/Shared/Ce-Fl/Interface/Buttons/Central-Bind-btn.png" alt="" title="" /> in the MadCap Central window pane. This will establish the connection between Flare and Central, and creates a copy of the project in Central.</p>
+            <p>
+                <img src="../../../../Images/Shared/Ce-Fl/Source-Control/Single-Bound1.png" alt="" title="" class="MaxWidth30Percent" />
+            </p>
+            <p>image xxx</p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide,Flare-Guides.Flare-Whats-New-Guide" />
+            <p>Next, you add your teammates to the project in Central<MadCap:conditionalText MadCap:conditions="Products.Flare"> (see the Central online Help)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide"> (see the online Help)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only"> (see <MadCap:xref href="../../../../../Central/Users/Main-Activities/Associating-Users-Teams-Projects.htm">Assigning Users to Teams and Projects</MadCap:xref>) </MadCap:conditionalText>. This means they will be able to import (or download) the project from the MadCap Central window pane in Flare.</p>
+            <p>image xxx</p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide,Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+            <p>The users on your team import the project to their computers. To do this, they click <img src="../../../../Images/Shared/Ce-Fl/Interface/Buttons/Central-Import-btn.png" alt="" title="" /> in the MadCap Central window pane. </p>
+            <p>image xxx</p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide,Flare-Guides.Flare-MadCap-Central-Integration-Guide,Flare-Guides.Flare-Whats-New-Guide" />
+            <p>When anyone makes a change to their local copy of the project, they can push those changes to Central by clicking <span class="Emphasis">Push</span> in the Flare Source Control ribbon, or by clicking <img src="../../../../Images/Shared/Ce-Fl/Interface/Buttons/Central-Push-btn.png" alt="" title="" /> in the MadCap Central window pane.</p>
+            <p>images xxx</p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide,Flare-Guides.Flare-MadCap-Central-Integration-Guide,Flare-Guides.Flare-Whats-New-Guide" />
+            <p>As you are working locally, someone else on your team might push changes to Central that you need to download. You can pull this content from Central to update your local files. To do this, click <span class="Emphasis">Pull</span> in the Flare Source Control ribbon.</p>
+            <p>image xxx</p>
+            <p>Once you are done making changes to your project and all of your changes are pushed to Central, you can use Central to publish output and manage your project.</p>
+        </div>
+    </body>
+</html>

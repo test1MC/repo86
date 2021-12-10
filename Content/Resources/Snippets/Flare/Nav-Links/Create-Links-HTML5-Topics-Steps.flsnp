@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Perform the steps for creating one of the following kinds of links:<ul><li><MadCap:xref href="../../../../Flare/Nav-Links/Image-Hyperlinks/Creating-Image-Maps1.htm" target="" title="" alt="">Creating Image Maps</MadCap:xref></li><li><MadCap:xref href="../../../../Flare/Nav-Links/Image-Hyperlinks/Inserting-Image-Hyperlinks1.htm" target="" title="" alt="">Inserting Image Hyperlinks</MadCap:xref></li><li><MadCap:xref href="../../../../Flare/Nav-Links/Text-Hyperlinks/Inserting-Text-Hyperlinks.htm" target="" title="" alt="">Inserting Text Hyperlinks</MadCap:xref></li><li><MadCap:xref href="../../../../Flare/Nav-Links/Topic-Popups/Inserting-Topic-Popups.htm">Inserting Topic Popups</MadCap:xref></li></ul></li>
+            <li>In the dialog that opens for creating the link, click the <span class="Emphasis">Link to</span> field and select <span class="Emphasis">Website</span>.</li>
+            <li>
+                <p>Enter the path to the website. You can also include a specific topic, a search string, and/or skin. When inserting the link, you can use the following structure. </p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://[website]/[main entry file].htm#[path/name of topic]&amp;searchQuery=[search string]&amp;firstPick=true&amp;skinName=[skin name]</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <p>After the hash mark (#), you can specify any combination of the parameters (cshid, searchQuery, firstPick, skinName), separated by ampersands (&amp;). The order of the parameters does not matter:</p>
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Main entry file</span>  Provide the path to the main entry file for your output. The file name is determined by whatever you enter into the <span class="Emphasis">Output File</span> field in the <span class="Emphasis">General</span> tab of the Target Editor. If you do not provide a name in this field, the name "Default" will be used.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">searchQuery </span>This is an optional element that automatically performs a search for a specific string.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">firstPick</span> This element can be used in conjunction with the search string. If you include the first pick option, the first topic found with the specified search string <span class="EmphasisItalic">will</span> be opened automatically. If you do not include this element, the search results will simply be displayed; the first topic <span class="EmphasisItalic">will not</span> be opened automatically.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">skinName</span> You can specify a skin directly in the link, which will override the skin associated with that topic in the CSH alias file.</li>
+                </ul>
+            </li>
+        </ol>
+    </body>
+</html>

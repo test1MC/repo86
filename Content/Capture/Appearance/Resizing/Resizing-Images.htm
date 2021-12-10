@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="s;W;C;n;es;Y;.tiff.;F;F1;F4;P;Z;Tollfree;MadCap1;F11;F3;F7;NewWord;MadCap's;MyProfile;taskbar;filename1;filename2;filename3;1filename;2filename;3filename;Highcolor;Truecolor;truecolor" style="mc-master-page: url('../../../Resources/TemplatePages/Capture/PDF-Topics/Capture-Editing-Images.flmsp');">
+    <head><title></title>
+        <style>/**/</style>
+        <meta name="description" content="Reszing an image in MadCap&#160;Capture. Specifying the scale and size for images on output. Defining image sizes for online and print output. " />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="Images:resizing;Resizing:images;Scale" />Resizing Images and Backgrounds</h1>
+        <p>You can resize images in different ways.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <div class="pdf-download-microcontent"><a href="https://docs.madcapsoftware.com/CaptureV7/Capture-Editing-Images-Guide.pdf" target="_blank"><img src="../../../Resources/Images/Shared/All/Interface/Buttons/User-Guide-btn.png" title="User Guide" class="micro-content-only" /></a>
+                </div>
+                <div class="Tiles-6-6-Microcontent">
+                    <div>
+                        <div class="topic-only">
+                            <h2>Resizing Images</h2>
+                            <p>You can specify the scale and size for images on output. You can set image size for printed outputs, web-based outputs, and for outputs that use custom mediums (which might be print- or web-based). These options are available in the File Properties dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Single-Source-Images/Setting-Image-Properties-Using-Mediums.htm">Setting Image Properties Using Mediums</MadCap:xref>.</MadCap:conditionalText></p>
+                            <div class="example">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                                <p>You capture a screen shot and insert the image into a Flare project. Suppose you plan to generate WebHelp (online) output as well as PDF (print) output from that project. For the online output, let's say that you want the image in online output to be displayed in the original size (i.e., the same size as it was when you captured it). However, let's say that for the print output, you want the image to be displayed a bit smaller at a specific size. In that case, you can open the File Properties dialog, select <span class="Emphasis">Print</span> from the <span class="Emphasis">Medium</span> drop-down, and specify the height or width for that image. Because you want to use the original size for the online output, you then select Web (Default) from the <span class="Emphasis">Medium</span> drop-down. You can leave these settings as they are.</p>
+                            </div>
+                        </div>
+                        <h2>How to Resize an Image</h2>
+                        <ol>
+                            <li>In the Capture Editor, double-click the image that you want to resize.</li>
+                            <li>In the File Properties dialog, select the <span class="Emphasis">Format</span> tab. <span class="topic-only">The settings on this tab allow you to specify the size or scale for an image.</span></li>
+                            <li>(Optional) From the <span class="Emphasis">Medium</span> drop-down, select the medium whose size settings want to want to edit (i.e., print, web, custom). If necessary, select <span class="Emphasis">Enable Format</span> to enable the medium. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Single-Source-Images/Setting-Image-Properties-Using-Mediums.htm">Selecting a Medium for an Image</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li>
+                                <p>Adjust any of the available fields.</p>
+                                <div class="topic-only">
+                                    <ul>
+                                        <li><span class="SetOffFirstLevel">Print DPI</span> You can select or enter the resolution for the image in terms of DPI (dots per inch). As the name suggests, this setting determines how many dots are used per linear inch when printing an image. To ensure a better quality printout, you should specify a high DPI setting for printed output (say, 150 DPI). </li>
+                                        <li><span class="SetOffFirstLevel">Lock DPI</span> If you select this check box, your Print DPI setting will remain the same even when you change the size of the image. If you do not select this check box, your Print DPI setting will adjust automatically when you make changes to the size, and vice versa. </li>
+                                        <li><span class="SetOffFirstLevel">Print Size</span> In the first field, you can enter the <span class="Emphasis">width</span> for the image; simply type the unit of measurement immediately after the number (e.g., if you want to use inches, you might type <span class="TypedEntry">5in</span>). In the second field, you can enter the <span class="Emphasis">height</span> for the image.</li>
+                                        <li><span class="SetOffFirstLevel">Scale</span> Specify the size of images by increasing or decreasing the scale number. You can select a value from the <span class="Emphasis">Scale</span> drop-down, or you can manually enter a scale value in the field. For example, the number 1.0 means the images will be shown at 100% of their original size. The number .70 means the images will be shown at 70% of their original size. The number 1.25 means the images will be shown at 125% of their original size. The number 1.255 means the images will be shown at 125.5% of their original size. </li>
+                                        <li><span class="SetOffFirstLevel">Screen Size</span> In the first field, you can enter the number of pixels <span class="Emphasis">wide</span> that you want the images to be resized. In the second field, you can enter the number of pixels <span class="Emphasis">high</span>. What you enter in one field might cause another field to be adjusted automatically.</li>
+                                    </ul>
+                                    <p>
+                                        <img src="../../../Resources/Images/Capture/Appearance/Scale-Size2.png" class="MaxWidth100Percent" />
+                                    </p>
+                                    <p>
+                                        <img src="../../../Resources/Images/Capture/Appearance/Scale-Size1.png" class="MaxWidth100Percent" />
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                            </li>
+                        </ol>
+                        <div class="topic-only">
+                            <h2 MadCap:conditions="General.Online-Only">More About the Format Tab</h2>
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Capture/Appearance/Print-Format-Tab-Summary.flsnp" MadCap:conditions="General.Online-Only" />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="topic-only">
+                            <h2>Resizing Image Backgrounds</h2>
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Capture/Appearance/Resize-Images-Summary.flsnp" />
+                            <p>You can resize image backgrounds using the File Properties dialog or the Profiles Editor. Use the File Properties dialog if you want to resize a single image only. Use the Profiles Editor if you want to add resizing specifications to a profile, which can be used when capturing future images. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Profiles/Profiles.htm">About Profiles</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Capture/General/See-Online-Help-Creating-Images-Guide.flsnp" MadCap:conditions="Capture-Guides.Capture-Editing-Images-Guide" /></p>
+                        </div>
+                        <h2>How to Resize an Image Background</h2>
+                        <ol>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Capture Editor </span>Double-click the image you want to resize. <span class="topic-only">The File Properties dialog opens.</span></p>
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Profile </span>
+                                        <MadCap:snippetText src="../../../Resources/Snippets/Capture/Profiles/Open-Profile-Step.flsnp" />
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Select the <span class="Emphasis">Image Effects</span> tab. </li>
+                            <li>
+                                <p>Resize the image by using any of the available fields.</p>
+                                <div class="topic-only">
+                                    <MadCap:snippetBlock src="../../../Resources/Snippets/Capture/Appearance/Image-Background-Options-List.flsnp" />
+                                </div>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ca-Mi/General/Whats-Next-After-Edit.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

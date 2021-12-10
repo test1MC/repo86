@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Each MadCap Software application has both local Help and server Help. The server Help is HTML5 output that we can update any time, since it is separate from the application. The local Help is HTML5 output that is installed with each application (if the end user chooses to install it). This output is updated only when updates occur for the application itself. After generating the local Help, we check it in to Microsoft Team Foundation Server using Visual Studio. Our developers then point to this output, integrating it in to the application.</p>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>You can change the logo in a project that you created from one of Flare’s templates. <a href="../../../../../Flare/Templates/General-Information/Flare-Factory-Project-Templates.htm">More Details…</a></p>
+        <div class="Tiles-4-4-4">
+            <div>
+                <p><span class="Emphasis">Skin </span>Logo appears at top of online output.</p>
+                <ol>
+                    <li>In the Project Organizer, expand <b>Skins</b> and open an HTML5 skin.</li>
+                    <li>In the Skin Editor, select the <span class="Emphasis">Styles</span> tab.</li>
+                    <li>On the left side, expand <span class="Emphasis">Logo &gt; Background</span>.</li>
+                    <li>Select your logo file in the <span class="Emphasis">Image</span> field.</li>
+                </ol>
+            </div>
+            <div>
+                <p><span class="Emphasis">Template Page </span>Logo appears at bottom of online output.</p>
+                <ol>
+                    <li>In the Content Explorer, expand <span class="Emphasis">Resources &gt; TemplatePages</span>, and open the template page.</li>
+                    <li>In the XML Editor, right-click the placeholder logo and select <span class="Emphasis">Image Properties</span>.</li>
+                    <li>Click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />, then find and select your logo file.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <p><span class="Emphasis">"Title" Topic </span>Logo appears on first page of PDF output.</p>
+                <ol>
+                    <li>From the Content Explorer, open the <span class="Emphasis">Title</span> topic.</li>
+                    <li>In the XML Editor, right-click the placeholder logo and select <span class="Emphasis">Image Properties</span>.</li>
+                    <li>Click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />, then find and select your logo file.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

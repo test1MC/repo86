@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Style-Inspector-Include-System-Styles1.flsnp" /> <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Basics-CSS/Inheritance.htm">Inheritance</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="Style-Inspector-Include-System-Styles2.flsnp" />
+        <p MadCap:conditions="Products.Flare">
+            <img src="../../../../Images/Flare/Styles/Style-Inspector28.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="Products.Flare">
+            <img src="../../../../Images/Flare/Styles/Style-Inspector29.png" alt="" title="" class="MaxWidth90Percent" />
+        </p>
+        <p MadCap:conditions="Products.Contributor">
+            <img src="../../../../Images/Contributor/Styles/Style-Inspector9.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="Products.Contributor">
+            <img src="../../../../Images/Contributor/Styles/Style-Inspector10.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Although you can view styles and properties from system stylesheets, you cannot edit them in the Style Inspector.</p>
+        </div>
+    </body>
+</html>

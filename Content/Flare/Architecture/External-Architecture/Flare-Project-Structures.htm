@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Architecture.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Flare offers many project designs, features, and tools that can be used for determining the right project structure to meet your needs." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project architecture;Architecture" />
+            <MadCap:keyword term="Projects:creating" />
+            <MadCap:concept term="FilterProjects" />Flare Project Structures</h1>
+        <MadCap:microContent id="microcontent1">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides/Architecture.flsnp" />
+            <p>You might be wondering how many Flare projects you should create. Should you put all of your content into one big project, should you split it out into several smaller projects, or should you do some of both? And if you create multiple projects that are related, which features or tools should you use? There isn’t just one answer that fits everyone’s situation. You will need to explore the different possibilities and consider the pros and cons of each. You might even want to create some small sample projects and test different methods.</p>
+        </MadCap:microContent>
+        <p>Following are some possible project designs you might consider, and the features and tools that can be used.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Option 1: Single Project</h2>
+        <p>The simplest structure is obviously to have only one Flare project, generating output from it as needed. A single project might contain files for only one purpose (e.g., to document one product or one subject), or it might contain files for many purposes (e.g., to document many products or subjects). Also, this project might be used by a single author or many authors.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Single-Project1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">It’s quite simple, which means less coordination and management.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">It’s a good option if you have content for various purposes, but a large percentage of the files need to be shared for the different outputs. Therefore, instead of putting the content into different projects, you put it all into one project.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Cons</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you have multiple writers but no source control system, it’s not a realistic solution.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Some might find it easier to manage an extremely large number of files in a single project, but others might find that a very big project with tens of thousands of files can become unwieldy. You are likely to experience slower performance in a very large project.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Option 2: Multiple Projects—No Relationship</h2>
+        <p>With this model, there are more than one Flare projects, each producing output. However, there is no relationship between the projects (e.g., sharing files). The projects simply function independently of one another and all have files unique to that project.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Multiple-Projects-No-Relationship.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Although there are multiple projects, the structure is still simple, which means less coordination and management.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you have multiple authors, this is a good way to let each author work independently, without having to worry about shared file conflicts.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">If you break things up from one big project into multiple smaller projects, you might experience better performance.</p>
+                        <p class="TableText">Also when it comes to performance, keep in mind that the hardware you’re using can affect that too. There are several things that could impact performance in a project.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Cons</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you have multiple writers working in the same project, but no source control system, it’s not a realistic solution.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">If you want the different projects to use some of the same files (e.g., a common stylesheet to keep the look and feel the same), this is not the best option. Doing this would mean maintaining a common file in multiple places, which can lead to out-of-date information and inconsistency.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Option 3: Multiple Projects—Global Project Linking</h2>
+        <p>With this type of structure, you have more than one Flare project, with one or more “child” projects importing common files from a “parent” project via Global Project Linking. Rather than this being a one-time import process, a connection exists between the parent and child projects, allowing ongoing maintenance of the files to take place in the parent project and then periodically imported to the child projects. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Global-Project-Linking/Global-Project-Linking.htm">Global Project Linking</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <p>Because any project can serve as the parent project or as a child project, you have some flexibility in how you create your structure.</p>
+        <p>The most common structure has only one project serving as the parent, with child projects importing files from it. With the parent working merely as a repository, the outputs would be generated from the child projects.</p>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/hW1fuEPgEwo" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+        </div>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Multiple-Projects-GPL1.png" alt="" title="" class="MaxWidth80Percent" />
+        </p>
+        <p>However, you might create a structure where the parent is more than just a repository, where output is generated from it as well.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Multiple-Projects-GPL2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>A less common solution—but certainly a possible one—might involve more than one parent project, with certain files imported between any projects you want. </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Multiple-Projects-GPL3.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>A parent project might even serve as both a parent and a child project, although that would be less likely.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Multiple-Projects-GPL4.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">It allows for single-sourcing across projects by maintaining files in one place instead of many places. This helps keep all projects consistent and up to date.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you have multiple authors working on different projects, this is a good way to let each author leverage common files (e.g., stylesheets, page layouts, images).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Files can be imported manually or automatically from the parent when output is generated from a child project.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Imports can be controlled by file name, file type, conditions, or a combination of these.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Cons</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Beware of the “threshold.” In other words, you might find yourself importing such a high percentage of files from the parent that you need to ask, “Does Global Project Linking still make sense for me?”</p>
+                        <p class="TableText">However, this threshold is not the same for all authors. What is acceptable to one author might not be to another. It is recommended that you set up a Global Project Linking structure using copies of your projects and test it to see how it works for you.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Beware of the “domino effect.” Global Project Linking tends to work best with certain kinds of files —the files in your Project Organizer and some of your resource files in the Content Explorer (e.g., conditions, skins, variables, images, page layouts). It was originally designed primarily for importing those kinds of ancillary files.</p>
+                        <p class="TableText">This does not mean you should never import content files, such as topics and snippets. Importing those kinds of files can be quite useful. Just know that those kinds of files tend to have links to other topics and snippets. And those other topics and snippets have links too. So when you import these types of files that have many links, you also need the files they’re linked to. In that way, it is somewhat like a set of dominoes falling over. And before you know it, you’re importing a far more files than originally intended and you need to consider whether you’ve passed your imaginary threshold.</p>
+                        <p class="TableText">Also, if you do not import all of the linked files, you might begin seeing many missing files (e.g., snippets, images) in the child projects. Even if you have those missing files conditioned out so that they do not affect outputs, the indication of missing files can cause extra time and effort to ensure everything is working as it should.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Option 4: Multiple Projects—Merging Projects</h2>
+        <p>This structure involves multiple projects that are connected in a way that the source files are merged into a single online output. The merging is based on the table of contents (or browse sequence) in one parent project, where links point to one or more other child projects. So when you build output from the parent project, it brings in all that content from the child projects, and it looks like one seamless output from a single project, but it’s actually made up of multiple projects. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../TOCs/Other-Activities/Merging-Projects.htm">Merging Projects</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Multiple-Projects-Merging1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This structure can be quite simple to set up.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you have multiple authors working on different projects, this is a good way to let each author work independently, but leverage their source files when output is generated.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Working in different projects can help prevent file conflicts.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Cons</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">In order to use this option, the author maintaining the parent project must have access to the targets or outputs of the child projects. This might be a concern if the various projects are not stored on the same network. Also, if a child project is moved at some point, the link from the parent project will be broken and need to be fixed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you want links (e.g., cross-references, hyperlinks) to exist between files of the various projects, authors must set up these links properly. This takes a little extra effort and advanced knowledge of the location of the final published output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Nav-Links/External-Links/Inserting-Links-External-Files.htm">Inserting Links to External Files—HTML, PDF, Microsoft Office</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you need your different child projects to share some files (e.g., stylesheets), this structure will not solve that issue.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">At this time, the most popular online outputs—HTML5 Side and Top Navigation—do not support runtime merging.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Output/Merge-Projects-Synonyms.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Search/Synonyms/Synonyms.htm">Synonyms</MadCap:xref>.</MadCap:conditionalText>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Option 5: Multiple Projects—Multilingual Output</h2>
+        <p>If you have translated your project into other languages, you can link Lingo projects or additional translated Flare projects to your parent project to create multilingual output. When you build the target, Flare will include translated content from each linked project. So this structure is similar to that for merging projects, except each project contains the same content but in a different language. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Localization/General-Information/Single-Multilingual-Targets/Multilingual-Output.htm">Multilingual Output</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Multiple-Projects-Multilingual-Output1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This structure can be quite simple to set up.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">It is typical to have multiple translators for the different languages you need. So this is a convenient way to leverage the independent translations from separate projects.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Both online and print-based outputs are supported.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Cons</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">File names need to be the same in each project. This is typically not a problem if you are using Lingo to manage the projects. However, you might want to tell translators not to change any file names.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Translation-Localization/Link-Lingo-Projects-Requires-Lingo-Installed.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Option 6: Combination of Different Structures</h2>
+        <p>It is quite common to need to use more than one of the structures just described. Therefore, your final architecture might be a combination of different structures.</p>
+        <p>Therefore, depending on your needs, you might have something like this:</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Combo1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>Or this:</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Combo2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>Or this:</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Combo3.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2><a name="WhatMadCapDocTeamDoes"></a>What the MadCap Documentation Team Does</h2>
+        <p>Our structure has evolved over the years. At one time, our documentation for various products was split into individual projects. We then implemented Global Project Linking, with common files being imported into each child project. However, with so many files being imported, we eventually decided that it made more sense for our purposes to move all of the product documentation into a single project. Although this main project is quite large, it does not seem to be so big that it is causing any unmanageable issues. We continue to use Global Project Linking for a couple of different reasons, which are explained below.</p>
+        <p>
+            <img src="../../../Resources/Images/Shared/DB-Fl/Architecture/Architecture-Projects.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>Our structure involves the following three kinds of projects.</p>
+        <div class="IndentMedium">
+            <h3>Shared</h3>
+            <p>We have one main Flare project called “Shared,” where most work occurs on the various products that we need to document (e.g., Flare, Central, Doc-To-Help, Lingo). All of the output intended for end users is generated from this project.</p>
+            <h3>Documentation Bible</h3>
+            <p>This project is used for internal information (e.g., documentation team processes, procedures, style guide). Most of the editing is done directly in this project, but we also import some resource files (e.g., stylesheets, page layouts, variables, skins) from the Shared project via Global Project Linking. This project is bound to MadCap Central, where we build output intended for internal consumption.</p>
+            <h3>"Develop" Projects</h3>
+            <p>These are smaller projects, each one based on one of the MadCap products (e.g., “Central - Develop,” “D2H-Develop,” “Lingo-Develop”). Based on conditions that are set on files in the main “Shared” project, we import all of the files for a particular product via Global Project Linking. We do not edit any of these child projects.  These child projects are basically versions of the documentation <span class="EmphasisItalic">as it’s being developed, not the finished result</span>. It has a lot to do with source control and specifically with branching (see <MadCap:xref href="Source-Control.htm">Source Control</MadCap:xref>). Like the Documentation Bible, these projects are bound to Central. Within Central, we use these child projects for creating and managing tasks, checklists, and topic reviews. They are also used for distributing internal output.</p>
+        </div>
+    </body>
+</html>

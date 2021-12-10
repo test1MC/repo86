@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Tutorials/Flare-Autonumbers.flmsp');">
+    <head>
+        <meta name="description" content="When you import FrameMaker files, the autonumbers in those documents are retained in Flare." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Autonumbers:importing from FrameMaker;Adobe FrameMaker:importing auto-numbers;Importing:autonumbers" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterDesign" />Autonumbers and FrameMaker</h1>
+        <p>When you import FrameMaker files, the autonumbers in those documents are retained in <MadCap:variable name="Other.Product" />. You can then edit future content for your project (including autonumbers) either in <MadCap:variable name="Other.Product" /> or in FrameMaker.</p>
+        <p>If you are an experienced FrameMaker user, you will notice many similarities and differences between <MadCap:variable name="Other.Product" /> and FrameMaker when it comes to autonumbers.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Similarities</h2>
+        <ul>
+            <li>Many of the commands (i.e., building blocks) for autonumbers are much alike. </li>
+            <li>You can uses series labels in both <MadCap:variable name="Other.Product" /> and FrameMaker.</li>
+            <li>The basic steps are similar. In both <MadCap:variable name="Other.Product" /> and FrameMaker, you need to (a) create autonumber formats, (b) apply styles with autonumber formats to content, and (c) specify how autonumber formats work in volumes and chapters.</li>
+        </ul>
+        <h2>Differences</h2>
+        <ul>
+            <li><span class="SetOffFirstLevel">User Interface </span>There are some commands in <MadCap:variable name="Other.Product" /> that are not seen in FrameMaker.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Workflow </span>Although some of the basic steps might be similar, the way to accomplish them in <MadCap:variable name="Other.Product" /> is sometimes different. </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In FrameMaker, you specify an autonumber format for a paragraph format in the Paragraph Designer. In <MadCap:variable name="Other.Product" />, however, you can do this in cascading stylesheets, which let you provide numerous other settings for a style, as well as share the CSS file with others. You can also create autonumber formats for individual paragraphs only.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Numbered Lists </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Flare/Importing/FrameMaker/FrameMaker-Numbered-Lists.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Importing/FrameMaker/Example-FrameMaker-Numbered-Lists.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Autonumbers </span>In <MadCap:variable name="Other.Product" /> there is no need to update numbering manually, as there is in FrameMaker. All numbering in <MadCap:variable name="Other.Product" /> is automatically updated when you generate the output.</p>
+            </li>
+        </ul>
+        <ul>
+            <li><span class="SetOffFirstLevel">CSS </span>In FrameMaker, you need to import paragraph formats from one document to another in order to use them. In <MadCap:variable name="Other.Product" />, the topics just need to be associated with the same stylesheet; they can then use the same paragraph style containing the necessary autonumber format. </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+    </body>
+</html>

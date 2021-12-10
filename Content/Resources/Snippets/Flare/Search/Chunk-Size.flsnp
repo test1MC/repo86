@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">The chunk size affects the speed that a Help system loads for a user. Depending on the internet connection, different results will be seen. The smaller the chunk size, the greater the number of chunks that will be sent. A large number of chunks may result in a slower speed, especially if you have many merged "sub-projects" and the index is being merged. Chunking may slow down the generation of your output somewhat, but it increases the speed that the output loads for end users. For best results, you should test the different chunk sizes.</p>
+    </body>
+</html>

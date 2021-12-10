@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides-Tutorials-Videos/Flare-Styles-Video8-Inheritance.flmsp');">
+    <head>
+        <meta name="description" content="One of the features of cascading stylesheets (CSS) that makes it much more powerful than other style systems is inheritance. This is the idea that elements in your document can inherit the style settings from other elements. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="Styles:inheritance;Inheritance" />
+            <MadCap:concept term="FilterFeatures" />Inheritance</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles8-Inheritance.flsnp" />
+                <p MadCap:conditions="">One of the features of cascading stylesheets (CSS) that makes it much more powerful than other style systems is inheritance. This is the idea that elements in your document can inherit the style settings from other elements. </p>
+            </div>
+        </MadCap:microContent>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/PP7TxUQieQE" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+            <p class="more-videos"><a href="https://www.madcapsoftware.com/videos/flare/#Styles" target="_blank">View More Videos in This Series</a>
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Inheritance for Nested Tags</h2>
+        <p>This kind of inheritance occurs when one style element is added within another, therefore creating nested tags. The content within the inside tag inherits style settings from the outside tag, unless you override those settings on the inside tag. This can be a very powerful feature because it lets you set properties on an outside tag element once rather than setting the same thing on all of the tags within it.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want all of your block-level elements to use Arial as the font type. Rather than setting Arial on all of the various styles (h1, p, div, ul, li), you can set it on the body style. That way, the setting will "trickle down" automatically to all of the tags within it. </p>
+            <p MadCap:conditions="">
+                <img src="../../../Resources/Images/Flare/Styles/Inheritance1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="">After some time you might decide that you want to continue using Arial for all of those elements except the p styles. In that case, you can simply set the other font type on the p style. The rest of the elements will continue to use Arial.</p>
+        </div>
+        <h2>Inheritance from Outside Your Project</h2>
+        <p MadCap:conditions="">If you do not set values for certain styles in your stylesheet, those values are inherited from elsewhere.</p>
+        <p MadCap:conditions="">First, there are several application stylesheets within the folder where you installed Flare. The stylesheets that you add to your projects inherit the style definitions that are written in those external application stylesheets. But anything you set in your project stylesheet takes precedence over the same styles that might be found in an application stylesheet.</p>
+        <p MadCap:conditions="">Taking it one step beyond that, if values for a particular style are not explicitly set in either your project stylesheet or in one of Flare's application stylesheets, the default values from the browser are used.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>Inherited Styles Identified in the Stylesheet Editor</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Inherited-Styles-Gray.flsnp" />
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Inherited-Styles-Gray.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <p>Also, if you hover over an inherited style, Flare displays the path to the stylesheet from which the style is inherited.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Inheritance2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Styles/Inheritance3.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/View-Inherited-Stylesheet.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1 or Snippets.Snippet2]" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Example-View-Inherited-Stylesheet.flsnp" />
+    </body>
+</html>

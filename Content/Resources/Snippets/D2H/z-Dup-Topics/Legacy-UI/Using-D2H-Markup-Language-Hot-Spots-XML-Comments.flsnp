@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>It is possible to use Doc-To-Help Markup Language (D2HML) in your XML source code comments (e.g., to create links from reference topics to narrative topics—written manually by the author).</p>
+        <p>To format a range of text in your XML comment with any D2HML style, use the &lt;span&gt; tag with a style attribute. Since it lets you use all styles, you have the full power of D2HML for creating hot spots of any kind. You can create topic links, keyword links, expanding text, and other kinds of hot spots. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Styles/D2HML-Markup-Language.htm">About Doc-To-Help Markup Language</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Styles/About-D2HML-DocToHelp-Markup-Language.htm">About Doc-To-Help Markup Language</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>You can add a link to a Doc-To-Help topic like this.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;remarks&gt;
+	These are my remarks and there is a link to &lt;span style="C1H Jump"&gt;this topic|tag=mytopic&lt;/span&gt; here
+&lt;/remarks&gt;</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Although the standard XML comment tag &lt;see&gt; lets you create links to assembly element topics, it does not allow you to create links to narrative topics in your online output. Using the &lt;span&gt; tag, you can easily overcome this limitation. In fact, the &lt;span&gt; tag allows your XML comment text to use all Doc-To-Help features available in Word source documents via D2HML.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

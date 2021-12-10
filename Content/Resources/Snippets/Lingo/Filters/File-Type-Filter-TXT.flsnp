@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <p>From the <span class="Emphasis">Filter</span> drop-down,  select<span class="Emphasis"> Create New</span>.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="Enter-Name-Filter.flsnp" />
+            </li>
+            <li>(Optional) <MadCap:snippetText src="Existing-Filter.flsnp" /><MadCap:snippetBlock src="Filter-Options.flsnp" /></li>
+            <li>
+                <p>In the <span class="Emphasis">Segment</span> field, enter a regular expression to identify the text you want to translate. <MadCap:conditionalText MadCap:conditions="General.Online-Only">(For more information about regular expressions, see <MadCap:xref href="../../../../Lingo/Find-Replace/Main-Activities/Using-Find-Replace.htm">Using the Find and Replace in Files Feature</MadCap:xref>.)</MadCap:conditionalText></p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Note</span> field, enter a regular expression to identify the text you want to include as a note for each segment.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p MadCap:conditions="">You have a text file that looks like this:</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Lingo/Filters/Filters-Text1.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>You want to include everything on the left side of the text file (between the quotation marks) as a note in your translatable file, and everything on the right side of the text file (after the equal sign) as the segment for translation.</p>
+                    <p>To accomplish this, you would create a filter using regular expressions that look like this:</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Filters/Filters-Text2.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>When you create the project, it will look like this:</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Filters/Filters-Text3.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+        </ol>
+    </body>
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+</html>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>When you insert topic references into a row in a relationship table, those topics will link to the other topics in the row in some way.</p>
+        <p>Following are the types of links that you can create.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Normal (default) </span>
+                <MadCap:snippetText src="Relationship-Link-Normal.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Source Only </span>
+                <MadCap:snippetText src="Relationship-Link-Source-Only.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Target Only </span>
+                <MadCap:snippetText src="Relationship-Link-Target-Only.flsnp" />
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="CONREF:Relationship tables" />Use CONREF Target </span>This uses the conref attribute to pull content. The conref attribute references an ID on content that can be reused. For <MadCap:variable name="Other.Product" /> outputs other than DITA, this option is not supported. For more detailed information about DITA and the conref attribute, please refer to: <a href="http://www.oasis-open.org/committees/dita/" target="_blank">www.oasis-open.org/committees/dita/</a></p>
+            </li>
+        </ul>
+        <p>Unless you leave the default link setting, relationship links are identified by a blue background when you set them. To identify the exact kind of relationship link applied to an item, you can select the item and then click the appropriate Properties button in the local toolbar.</p>
+        <p>You can specify links on individual topic items, on cells (which can contain multiple items), or on entire columns.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Links on Items </span>Each topic item in a relationship table can use a different kind of link.</li>
+            <li><span class="SetOffFirstLevel">Links on Cells </span>If you apply a link type to a cell, all of the topic items in that cell will use that same setting (unless you later override the setting on individual items).</li>
+            <li><span class="SetOffFirstLevel">Links on Columns </span>If you apply a link type to a column, all of the topic items in all cells will use that same setting (unless you later override the setting on individual items or cells).</li>
+        </ul>
+        <p>
+            <img src="../../../../Images/Flare/Nav-Links/Relationship-Table3.png" class="MaxWidth90Percent" />
+        </p>
+        <p>
+            <img src="../../../../Images/Flare/Nav-Links/Relationship-Table-Graph1.png" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

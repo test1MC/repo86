@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>When you generate output, the following shows how precedence will work if you have multiple stylesheets.</p>
+        <MadCap:snippetBlock src="Note-Precedence-Micro-Content-Stylesheet.flsnp" />
+        <ol>
+            <li>Local stylesheet associated with micro content file</li>
+            <li>Local stylesheet associated with topics<![CDATA[
+]]></li>
+            <li>Local stylesheet associated with template pages
+</li>
+            <li>Primary stylesheet (styles from only one primary stylesheet can be used)<ol class="LowerAlpha"><li><span class="EmphasisItalic">Any</span> Target </li><li>Project</li></ol></li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– Precedence in Output</p>
+            <p MadCap:autonum="">Take a look at the previous example for precedence in the XML Editor before continuing with this example.</p>
+            <p>Let's say you add another stylesheet to your project to be used for a template page.</p>
+            <ul>
+                <li><span class="SetOffFirstLevel">Local-Purple-Template-Page </span>You set this stylesheet locally on a template page. And you tell Flare to use a purple font for the p style.</li>
+            </ul>
+            <p>
+                <img src="../../../Images/Flare/Styles/Stylesheet-Precedence5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+            <p>You've also reset the "Primary-First-Target-Green" stylesheet on your primary target. So you now have all of the stylesheets from the previous example set as they were, and you've added one more local stylesheet to the mix. The template page content does not come into play when you're working in the XML&#160;Editor, but what happens in the output? For the primary target, it initially would look like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Stylesheet-Precedence6.png" alt="" title="" class="MaxWidth70Percent" />
+            </p>
+            <p>It's similar to what you saw in the previous example when looking at the XML Editor. But now you see that the regular paragraphs (including those within the list) are purple. That's because the local stylesheet for the topic didn't specify a color, and the next stylesheet with precedence is the one used on the template page. You'll also see an extra paragraph at the bottom ("Template text"); this content is coming from the template page, not the topic.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <p>If you generate the second target, it would look like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Stylesheet-Precedence7.png" alt="" title="" class="MaxWidth70Percent" />
+            </p>
+            <p>It's much like the other output, except the green text is now orange, because it's coming from the second target stylesheet, which has precedence over the primary stylesheet at the project level.</p>
+            <p>But if you remove the primary stylesheet link from either of the targets, the output will look like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Stylesheet-Precedence8.png" alt="" title="" class="MaxWidth75Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <p>Now that the target primary stylesheets are out of the way, Flare looks to the primary stylesheet for the project, which uses blue for the second-level heading. Most of the regular paragraphs remain purple because they are coming from the local template page stylesheet, which has a higher precedence. However, notice the long sentence near the end of the topic. That sentence is blue because it is actually using a class of the main paragraph style (p.SpecialClass), where the blue font is explicitly set. This class is found in the primary stylesheet for the project, but not in the local stylesheet for the template page. That's why it's blue instead of purple.</p>
+            <p>If you remove the stylesheet link on the template page, the output will look like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Stylesheet-Precedence9.png" alt="" title="" class="MaxWidth75Percent" />
+            </p>
+            <p>Now we see more blue. </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+            <p>And finally, if you remove the local stylesheet link on the topic, the output will look like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Stylesheet-Precedence10.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Now it's all about the project-level primary stylesheet, because all of the others are out of the way. That's why you see blue everywhere.</p>
+        </div>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">– Precedence With Micro Content and Other Stylesheets</p>
+            <p MadCap:autonum="">You have three stylesheets in your project. Two of them are local stylesheets—one at the micro content level and the other at the topic level (for some topics). The third one is a primary stylesheet that is set at the project level. </p>
+            <ul>
+                <li>In the <span class="EmphasisItalic">micro content stylesheet</span>, you specify that paragraph text should be <span class="Emphasis" style="color: #ff0000;">red</span>. </li>
+                <li>In the <span class="EmphasisItalic">topic stylesheet</span>, you specify that the paragraph text should be <span class="Emphasis" style="color: #0000ff;">blue</span>. </li>
+                <li>In the <span class="EmphasisItalic">project stylesheet</span>, you specify that the paragraph text should be <span class="Emphasis">black</span>. </li>
+            </ul>
+            <p>What is the result in the output?</p>
+            <ul>
+                <li>In the <span class="EmphasisItalic">micro content search results</span>, the paragraph text will be <span class="Emphasis" style="color: #ff0000;">red</span>, overriding the other colors.</li>
+                <li>In a <span class="EmphasisItalic">full topic that is associated with the topic stylesheet</span>, the paragraph text will be <span class="Emphasis" style="color: #0000ff;">blue</span>, because it is not being viewed as micro content and it has precedence over the project stylesheet.</li>
+                <li>In <span class="EmphasisItalic">full topics that are not associated with the topic stylesheet</span>, the text will be <span class="Emphasis">black</span>, because it is not being viewed as micro content.</li>
+            </ul>
+        </div>
+    </body>
+</html>

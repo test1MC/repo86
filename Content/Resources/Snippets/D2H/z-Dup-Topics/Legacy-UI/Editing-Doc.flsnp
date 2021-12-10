@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1028" MadCap:lastWidth="1485">
+    <body>
+        <p>To edit a document for a team authoring project, you first need to check it out. After it is checked out, no one else can edit it until it is checked back in. (If using TFS, you can allow checking out by others, depending upon the lock type.)</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Check Out a Document or File</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the Team Authoring window, you should click the <span class="Emphasis">Refresh View</span> button before checking out a file to update.</p>
+                <ol>
+                    <li>
+                        <p>In the Team Authoring window, select the file.</p>
+                    </li>
+                    <li>
+                        <p>Click the <span class="Emphasis">Check Out</span> button. The Check Out dialog opens.</p>
+                        <ul>
+                            <li>
+                                <span class="SetOffFirstLevel">For File and Web Repositories </span>After the file is checked out, click the <span class="Emphasis">Close</span> button.</li>
+                            <li>
+                                <span class="SetOffFirstLevel">For TFS Repositories </span>You need to confirm the lock type before you check out the file. Choose from the following:<ul><li><span class="SetOffFirstLevel"><span class="SetOffSecondLevel">Unchanged</span> </span>Will keep the existing lock.</li><li><span class="SetOffFirstLevel"><span class="SetOffSecondLevel">Check Out</span> </span>Will prevent other users from checking the file in or out.</li><li><span class="SetOffFirstLevel"><span class="SetOffSecondLevel">Check in</span> </span>Will allow other users to check out the file but they will not be permitted to check it back in.</li></ul><p>To set the default lock type, use the Doc-To-Help Options dialog (<span class="Emphasis" MadCap:conditions="Snippets.Snippet1">File &gt; Doc-To-Help &gt; Common Tasks &gt;Options &gt; Team</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Options &gt; Team</span>).</p></li>
+                        </ul>
+                    </li>
+                    <li>Click the <span class="Emphasis">Open</span> button. The file opens.</li>
+                    <li>Make your edits and save them. Then close the file.</li>
+                    <li>Click the <span class="Emphasis">Check In</span> button. The Check In dialog opens.</li>
+                    <li>Confirm the check in and click the <span class="Emphasis">Check In</span> or <span class="Emphasis">OK</span> button.</li>
+                </ol>
+                <p>If you decide that you <span class="EmphasisItalic">do not</span> want to check in your edited document, click the <span class="Emphasis">Undo Pending Changes</span> button to undo all changes to the document.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Team-Authoring/Working-Team-Project.htm">Working in a Team Project</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Working-in-Team-Project.htm">Working in a Team Project</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

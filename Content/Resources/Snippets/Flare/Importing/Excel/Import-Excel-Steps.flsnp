@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Select <span class="Emphasis">Project &gt; Import &gt; MS Excel Workbooks</span>.</li>
+            <li>
+                <p>In the wizard, choose either <span class="Emphasis">Import into a new project</span> (and complete the fields below) or <span class="Emphasis">Import into this project</span>. However, if you do not have a project currently open, the file(s) will automatically be imported into a new project.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li><span class="Emphasis">Project name</span> Type a name for the new <MadCap:variable name="Other.Product" /> project that will be created after you perform the import.</li>
+                        <li><span class="Emphasis">Project folder</span> Accept the default location for the new project or click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to find and select a folder.</li>
+                        <li>
+                            <p><span class="Emphasis">Output type</span> Select the primary target for your project.</p>
+                            <MadCap:snippetBlock src="../../Targets/Primary-Target-Step-Explanation.flsnp" MadCap:conditions="General.Online-Only" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../General/Click-Next.flsnp" />
+            </li>
+            <li>
+                <p>Click <img src="../../../../Images/Shared/Fl-Li/Interface/Buttons/Plus-btn.png" class="ReduceButtonSize" alt="" />  to choose Excel files. You can select <MadCap:keyword term="XLS file" />XLS, <MadCap:keyword term="XLSX file" />XLSX, or <MadCap:keyword term="CSV file" />CSV files. When finished, click <span class="Emphasis">Next</span>. (You can also select other options as necessary.)</p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../Import-Add-Files-Button-Options2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                </div>
+            </li>
+            <li>
+                <p>Select from various options as necessary, then click <span class="Emphasis">Next</span>. <span class="micro-content-only-inline">Open the full topic for option details.</span></p>
+                <div class="topic-only">
+                    <ul type="1">
+                        <li>
+                            <p><span class="SetOffFirstLevel">Import Worksheets as </span> Select the type of Flare file where you want your spreadsheets to be imported.</p>
+                            <ul type="1">
+                                <li><span class="SetOffSecondLevel">Topics </span>Flare will convert your content and place worksheets into topics. Title text on a worksheet tab will become a heading in the Flare topic.</li>
+                                <li><span class="SetOffSecondLevel">Snippets </span>Flare will convert your content and place each worksheet into a separate snippet.</li>
+                            </ul>
+                            <p>If you selected “Snippets” above, you can also choose from the following options:</p>
+                            <ul type="1">
+                                <li><span class="SetOffSecondLevel">Include tab titles as headings </span>Any title text on your worksheet tabs will become headings in the Flare snippets.</li>
+                                <li><span class="SetOffSecondLevel">Create a topic with snippets </span>Flare will create a topic and place the snippets within it. Otherwise, only the snippets will be created.</li>
+                            </ul>
+                        </li>
+                        <li><span class="SetOffFirstLevel">Organize worksheets into different folders per workbook </span>Select this option if you are importing multiple workbooks and want the resulting files to be stored in separate folders in Flare. If you do not select this option when importing multiple workbooks, the files will all be placed in the same folder in Flare.</li>
+                        <li><span class="SetOffFirstLevel">Import hidden rows/columns </span>This includes any hidden rows and columns in the import. Otherwise, they will not be part of the imported content.</li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Use first row as column header </span>Select this option if you want Flare to convert the first row of every spreadsheet into column headers in the Flare tables. If you do not select this option, the first row will be treated like all the other rows.</p>
+                        </li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+                        <li>
+                            <p><span class="SetOffFirstLevel">Import equations based on settings </span>When importing Excel files that contain equations, you can select this option to convert them to MathML (the web standard) or images. If you disable this option, equations from Excel are not converted to Flare.</p>
+                            <MadCap:snippetBlock src="../../Equations/Note-Import-Equations-Excel1.flsnp" />
+                            <MadCap:snippetBlock src="../../Equations/Note-Import-Equations-Excel2.flsnp" />
+                            <MadCap:snippetBlock src="../../Equations/Note-Import-Equations-Excel3.flsnp" />
+                            <MadCap:snippetBlock src="../../Equations/Note-Import-Equations-Excel4.flsnp" />
+                        </li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Import charts as </span>Any charts in your spreadsheets will be imported as images. Use this field to select the type of image format to be used.</p>
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">An image displaying an imported chart is automatically placed below the worksheet (in the topic or snippet where the worksheet was converted to a table).</p>
+                            </div>
+                        </li>
+                        <li><span class="SetOffFirstLevel">Split topics or snippets by maximum rows </span>You can select this option if you have spreadsheets with a lot of rows and want to divide them into multiple topics or snippets (rather than one very long topic or snippet). After enabling this option, enter the number of rows that you want to allow in each topic or snippet before a new topic or snippet is created.</li>
+                        <li><span class="SetOffFirstLevel"><MadCap:keyword term="Easy Sync;Auto-reimport;Importing:auto-reimporting;Auto-Sync" />Auto-reimport before 'Generate Output' </span>
+                            <MadCap:snippetText src="../Auto-Reimport-Option.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>Use the next page to specify how you want the formatting of the Excel files to be treated upon import. Choose whether the imported files should retain their look and feel from Excel, or if you want to associate them with a table stylesheet that you’ve already created in Flare. When finished, click <span class="Emphasis">Next</span>.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Preserve MS Excel Styles </span>This retains any formatting from your  spreadsheets so that you can continue to use that look and feel in Flare.</p>
+                            <p>If you have Excel installed, all styles (factory and custom) and local formatting are retained in Flare. If you do not have Excel installed, only custom styles and local formatting are preserved; factory styles are not retained. Also, if you are using more than one table style in a worksheet, only one of them will be retained in Flare.</p>
+                        </li>
+                        <li><span class="SetOffFirstLevel">Don't Preserve MS Excel Styles </span>This does not keep the formatting used in the  Excel spreadsheets. You can click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> in the field below this if you want to associate the imported spreadsheets with a table stylesheet that you’ve already created in Flare. If you do not choose a table stylesheet, the files will be imported with plain text.</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>You can use this page to exclude certain worksheets, or even specific rows and columns, from the import. <span class="topic-only">By default, all workbooks, worksheets, rows, and columns are selected for import. You can click the corresponding check boxes to remove check marks, which excludes items from the import. If you click on a particular worksheet, the area to the right displays the rows and columns within it. You can then remove check marks for any rows or columns that you want to exclude.</span></p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If your worksheets have any hidden rows or columns that you did not include in the import, you may see that those rows or columns are skipped on this page. For example, you might see columns A, B, C, and E (where D is hidden).</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../Import-Finish.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../Import-Accept2.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

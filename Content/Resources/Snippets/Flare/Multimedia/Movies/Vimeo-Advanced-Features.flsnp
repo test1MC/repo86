@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text">Vimeo's advanced features are not available in <MadCap:variable name="Outputs.HTMLHelp" /> and <MadCap:variable name="Outputs.EclipseHelp" /> outputs. However, you can make it work in <MadCap:variable name="Outputs.HTMLHelp" /> by adding the default meta tag to your target:</p>
+            <p>&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;</p>
+            <p MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Step4-Developing-Targets/More/Adding-Custom-Meta-Tags.htm">Adding Custom Meta Tags</MadCap:xref>.</p>
+        </div>
+    </body>
+</html>

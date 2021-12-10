@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Reviews-Contributions/Change-User-Colors-Summary.flsnp" />
+        <h2>How to Change the User Color for Reviews</h2>
+        <ol>
+            <li>Select <b>Review &gt; Review Options</b>.</li>
+            <li>
+                <p>In the <span class="Emphasis">User Colors</span> section, choose one of the following.</p>
+                <p class="Subheading">Use a Different Color for Each User</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Reviews-Contributions/Use-Different-Color-Each-User.flsnp" />
+                <p>
+                    <img src="../../../Images/Shared/Co-Fl/Reviews-Contributions/Change-User-Colors1.png" class="MaxWidth75Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide" />
+                <p class="Subheading">Use the Same Color for All Users</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Reviews-Contributions/Use-Color-All-Users.flsnp" />
+                <p>
+                    <img src="../../../Images/Shared/Co-Fl/Reviews-Contributions/Change-User-Colors2.png" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../Reviews-Contributions/Feature-Not-Supported-Central.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                <MadCap:snippetText src="../../Shared/Co-Fl/Reviews-Contributions/Note-See-Selection-Show-Changes.flsnp" /> See <MadCap:xref href="../../../../Flare/Reviews-Contributions/Annotations/Hiding-Showing-Changes-Annotations1.htm">Hiding and Showing Changes and Annotations</MadCap:xref>.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">Opens the stylesheet so that the style (i.e., complex selector) for the current cell is selected. You can then make any additional style changes (e.g., add a border, add a background color, set the right margin).</p>
+        <div class="example" MadCap:conditions="General.Online-Only">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In the following example, we have a row style called "MyResponsiveLayout." In the XML Editor, we clicked in the second cell, and in the Responsive Layout window pane, we clicked <span class="Emphasis">Edit</span>. The stylesheet therefore opened with this complex selector highlighted.</p>
+            <p class="TableText">
+                <img src="../../../Images/Flare/Responsive-Design/Responsive-Layout31.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <p class="TableText">So any changes we make in the stylesheet at this point will alter our second cell only.</p>
+        </div>
+        <p class="TableText">You can also make style changes for the entire row.<MadCap:conditionalText MadCap:conditions="General.Print-Only"> For more information, see the online Help.</MadCap:conditionalText></p>
+        <div class="example" MadCap:conditions="General.Online-Only">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">To make style changes that affect the entire row, we can either select the main complex selector having to do with our responsive layout, or we can select the appropriate class shown under the div style.</p>
+            <p class="TableText">
+                <img src="../../../Images/Flare/Responsive-Design/Responsive-Layout32.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+        </div>
+    </body>
+</html>

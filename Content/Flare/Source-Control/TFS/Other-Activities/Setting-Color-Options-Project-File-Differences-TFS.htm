@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-TFS.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Steps for color coding files in order to easily see where differences in files occur." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="Source control:differences;Color:source control;Differences:source control" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />Setting Color Options for Project File Differences<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Team Foundation Server</MadCap:conditionalText></h1>
+        <p>If you are using <MadCap:variable name="Other.Product" />'s integrated source control features, you can view differences between files in various ways. One way is to view file differences between a local version of a <MadCap:variable name="Other.Product" /> project and the source control version. </p>
+        <p> When viewing file differences between a local version of a <MadCap:variable name="Other.Product" /> project and the source control version, you can select color options to display the files. Color coding makes it easier to discern where differences between files occur. </p>
+        <p MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="Viewing-Differences-Source-Control-Files-TFS.htm">Viewing Differences in Source Control Files—Team Foundation Server</MadCap:xref> and <MadCap:xref href="../Microsoft-Team-Foundation-Server.htm">Microsoft Team Foundation Server</MadCap:xref>.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">By default the files that are included only in your local copy are displayed as green in the Differences Editor, and the files that are included only in source control are displayed in red. You can use this dialog to change the local-only files to blue and the source control–only files to yellow.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-TFS" />
+        <h2>How to Set Color Options for Project File Differences</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Window-Pane-Select-File.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Show Differences</b>. </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>If you have the Content Explorer, Project Organizer, <MadCap:keyword term="Source Control Explorer:Pending Changes pane" />Source Control Explorer, Pending Changes window pane, or File List open, right-click the file you want to view and select <span class="Emphasis">Source Control &gt; Show Differences</span>.</li>
+                </ul>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Differences-Editor-Opens.flsnp" />
+                </p>
+            </li>
+            <li>In the local toolbar of the Differences Editor, click <span class="Emphasis">Options</span>. The File Differences dialog opens.</li>
+            <li>Change the text or background color for any of the difference types. To do this, simply click in the appropriate <span class="Emphasis">Text</span> or <span class="Emphasis">Background</span> cell and select <span class="Emphasis">Pick Color</span>. In the Color Picker dialog, choose the new color.</li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

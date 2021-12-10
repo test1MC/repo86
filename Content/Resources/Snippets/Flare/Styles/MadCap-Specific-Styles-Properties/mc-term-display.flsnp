@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableTextEmphasis">mc-term-display</p>
+        <p class="TableText">Determines how the style will display glossary term links. You can select from expanding text, a hyperlink, or a popup.</p>
+        <p class="TableText">When you first create a glossary term and definition<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../../Flare/Glossaries/Process/Creating-Glossary-Terms-Definitions.htm">Creating Glossary Terms and Definitions</MadCap:xref>)</MadCap:conditionalText>, you can specify the style to be used for glossary term links. The popup display is associated by default with the primary MadCap|glossaryTerm style, as well as with the MadCap|glossaryTermPopup style. The expanding display is associated by default with the MadCap|glossaryTermExpanding style. And the hyperlink display is associated by default with the MadCap|glossaryTermHyperlink style. The most likely case in which you would change the value for the mc-term-display property is if you want most of your glossary term links to open in a display other than popup; in that case, you would usually select the main MadCap|glossaryTerm style and change the mc-term-display to either the expanding or hyperlink value.</p>
+        <p class="TableText" MadCap:conditions="General.Online-Only">
+            <MadCap:xref href="../../../../../Flare/Glossaries/Other-Activities/Editing-Style-Glossary-Term-Links.htm">Editing the Style of Glossary Term Links</MadCap:xref>
+        </p>
+    </body>
+</html>

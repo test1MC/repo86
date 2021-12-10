@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="WHP/Auto-Merging-Location-Summary.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1 or Snippets.Snippet3], exclude[Snippets.Snippet2 or Snippets.Snippet4 or Snippets.Snippet5]" />
+        </p>
+        <p>
+            <MadCap:snippetText src="WHP/Auto-Merging-Location-Summary2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1 or Snippets.Snippet4 or Snippets.Snippet9], exclude[Snippets.Snippet10 or Snippets.Snippet2]" />
+        </p>
+        <p MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/Output-Types/WebHelp-Plus-Output/Auto-Merge/Merging-Output-Runtime-Using-WebHelp-Plus1.htm">Merging Output at Runtime Using WebHelp Plus</MadCap:xref>.</p>
+        <h2>How to Specify the Automerge Location in a TOC</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../TOCs/TOCs-Merging-Help1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="WHP/Auto-Merging-Location1.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+                        </p>
+                        <p>OR</p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="WHP/Auto-Merging-Location2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+                        <MadCap:snippetBlock src="WHP/Auto-Merging-Location3.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../TOCs/TOCs-Merging-Help3.flsnp" />
+            </li>
+            <li>Select the <span class="Emphasis">Advanced</span> tab.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="WHP/Auto-Merging-Location4.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="WHP/Auto-Merging-Location-Options.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/General/Properties-Dialog-Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

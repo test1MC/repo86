@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Unused-Condition-Tags-Summary.flsnp" /> For more information about condition tags and how they are used in projects, see <MadCap:xref href="../../../../../../Flare/Conditions/Conditions.htm" MadCap:conditions="General.Online-Only">About Conditions</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Print-Only">the <span class="EmphasisItalic">Flare Condition Tags Guide</span> or the Flare online Help</MadCap:conditionalText>.</p>
+        <h2>How to View Unused Conditions</h2>
+        <ol>
+            <li>
+                <MadCap:snippetBlock src="Select-Unused-Items.flsnp" />
+                <MadCap:snippetBlock src="Unused-Items-Window-Opens.flsnp" />
+            </li>
+            <li>Click the drop-down field at the top of the window pane and select <span class="Emphasis">Unused Condition Tags</span>. The unused condition tags in the project are listed.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Condition Tag </span>
+                        <MadCap:snippetText src="../Topics/Condition-Tag-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">File </span>Displays the name of the condition tag set file where the condition tag is located.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>If you want to remove any unused condition tags from <MadCap:variable name="Other.Product" />, as well as from the project being analyzed, select the condition tag in the list and click <img src="../../../../../Images/Shared/Al-Ca-Co-Fl-Li-Mi/Interface/Buttons/Delete-btn.png" class="ReduceButtonSize" /> in the local toolbar.</li>
+            <li>
+                <p>You can open the set file for any condition tag in the list to view or modify it in the Condition Tag Set Editor. </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

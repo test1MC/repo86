@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>The following predefined themes are included with NetHelp targets. They are the starting point for creating your custom themes.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Table of Themes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 30%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 70%;" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Available Themes<sup>1</sup></p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Responsive<sup>2</sup> (default)</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <ul>
+                                    <li>Work well on both desktop and mobile platforms</li>
+                                    <li>Adapt to the window size automatically</li>
+                                    <li>Work on Android 4.0 or later and iOS; on the desktop, IE9 or later</li>
+                                    <li>English language by default</li>
+                                    <li>Available with various stylesheets:<ul><li>jquerymobile\dark</li><li>jquerymobile\default</li><li>jquerymobile\green</li><li>jquerymobile\light</li></ul></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Tabs</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <ul>
+                                    <li>Tripane window with Contents, Index, Search tabs at left</li>
+                                    <li>Breadcrumbs above content</li>
+                                    <li>Previous, Next, Home, Print, Email buttons </li>
+                                    <li>English language by default</li>
+                                    <li>Default stylesheet: jquery-ui\green-sheen</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Accordion</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <ul>
+                                    <li>Tripane window with Contents, Index, Search accordion buttons&#160; at left</li>
+                                    <li>Breadcrumbs above content</li>
+                                    <li>Previous, Next, Home, Print, Email buttons</li>
+                                    <li>English language by default</li>
+                                    <li>Default stylesheet: jquery-ui\green-sheen</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="TableStyle-Fancy-Foot-Footer1">
+                            <td class="TableStyle-Fancy-FootD-Regular-Footer1" colspan="2">
+                                <p class="TableTextFootnote"><sup>1</sup>The Responsive theme is based on jQueryMobile 1.3.2. The Tabs and Accordion themes are based on jQuery UI. </p>
+                                <p class="TableTextFootnote"><sup>2</sup>The Responsive theme adapts to the current window size (screen resolution). If the window size is too small, the side panel is closed automatically so that only the topic is displayed. In addition, visual elements such as breadcrumbs, buttons, and related topics change their appearance and size. This theme also includes a Favorites tab, which allows end users to save favorite topics (stored on the user side).</p>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a New Theme </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol MadCap:conditions="Snippets.Snippet1">
+                    <li>In Word, select the <span class="Emphasis">Target</span> ribbon and click the <span class="Emphasis">Wizard</span> button.</li>
+                    <li>From the drop-down or image gallery, choose a layout: <span class="Emphasis">Accordion</span>, <span class="Emphasis">Responsive</span>, or <span class="Emphasis">Tabs</span>. Then click <span class="Emphasis">Next</span>.</li>
+                    <li>From the drop-down or image gallery, choose a stylesheet. Then click <span class="Emphasis">Next</span>.</li>
+                    <li>From the drop-down or image gallery, choose a source theme (<b>Accordion</b>, <b>Responsive</b>, <b>Tabs</b>, or a custom theme you previously created) upon which to base the new theme.</li>
+                    <li>
+                        <p>Select <b>Create a new theme from the selected source theme</b> and click <b>Next</b>.</p>
+                        <p>
+                            <img src="../../../../Images/D2H/Themes/Create-Custom-Theme.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>(Optional) On the next page, complete any branding options and click <b>Next</b>.</li>
+                    <li>(Optional) On the next page, complete any finishing touches and click <b>Next</b>.</li>
+                    <li>
+                        <p>On the Confirmation page, enter a theme name and review the image to make sure it is correct. Then click <b>Finish</b>.</p>
+                        <p>
+                            <img src="../../../../Images/D2H/Themes/Create-Custom-Theme2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Click <span class="Emphasis">Finish</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> The theme appears in the <span class="Emphasis">Target Theme</span> button drop-down list on the Target ribbon. You can select it and build the target to apply the theme.</li>
+                </ol>
+                <ol MadCap:conditions="Snippets.Snippet2">
+                    <li>On the <span class="Emphasis">Home</span> ribbon, click the down arrow next to the <span class="Emphasis">Theme</span> button and choose <span class="Emphasis">Add New Theme</span>. The Add New Theme dialog opens.</li>
+                    <li>Name the new theme, and choose the <span class="Emphasis">Source theme</span> (<b>Accordion</b>, <b>Responsive</b>, <b>Tabs</b>, or a custom theme you previously created).</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> The Theme Designer opens.</li>
+                    <li>
+                        <p>Customize the theme using the Theme Editor. See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Using-NetHelp-Theme-Designer.htm">Using the NetHelp Theme Designer</MadCap:xref>.</p>
+                        <p>
+                            <img id="_x0000_i1031" src="../../../../Images/D2H/Themes/Theme-Designer-Design.png" height="390" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Additional NetHelp Theme Information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>For additional information about NetHelp themes, see the following:</p>
+                <ul MadCap:conditions="Snippets.Snippet1">
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Themes/Creating-Adding-Stylesheets.htm">Creating and Adding New Theme Stylesheets</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Themes/NetHelp-Theme-Wizard.htm">NetHelp Theme Wizard</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Themes/Additional-Theme-Customizations.htm">Additional Theme Customizations</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Themes/Theme-Configuration-FAQ.htm">Theme Configuration FAQs</MadCap:xref>
+                    </li>
+                </ul>
+                <ul MadCap:conditions="Snippets.Snippet2">
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Creating-Adding-Stylesheets.htm">Creating and Adding New Theme Stylesheets</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/NetHelp-Theme-Wizard.htm">NetHelp Theme Wizard</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Additional-Theme-Customizations.htm">Additional Theme Customizations</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Theme-Configuration-FAQ.htm">Theme Configuration FAQs</MadCap:xref>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In the Theme Designer, you can also create a new theme by clicking the <span class="Emphasis">Add New Theme</span> button <img src="../../../../Images/D2H/Interface/Buttons/Add-Theme-btn.png" height="16" class="ReduceButtonSize" />.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+    </body>
+</html>

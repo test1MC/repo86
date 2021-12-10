@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Autonumbers-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating autonumbering for figure captions, and then adding the captions to images." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Autonumbers.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:autonumbers;Autonumbers:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Creating Autonumbering for Figure Captions</h1>
+        <p>There are some images in our project, and we want to add captions below each one, with autonumbers at the beginning. This involves multiple activities to get it all set up, but once we're done, it's quite fast and easy to add the captions to images.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+        <h2>How to Create a Style Class With Autonumbering</h2>
+        <ol>
+            <li>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>. Then double-click <span class="Emphasis">Styles.css</span>.</li>
+            <li>
+                <p>Make sure the following are selected in the Stylesheet Editor.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the local toolbar, click <span class="Emphasis">Add Selector</span>. The New Selector dialog opens.</li>
+            <li>In the <span class="Emphasis">HTML Element</span> field, select <span class="Emphasis">p</span>.</li>
+            <li>
+                <p>In the <span class="Emphasis">Class Name</span> field, enter <span class="TypedEntry">Figure</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>With that new style class chosen on the left side of the editor, expand the <span class="Emphasis">AutoNumber</span> group on the right.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>To the right of <span class="Emphasis">mc-autonumber-format</span>, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>Copy the following format, and paste it into the field at the top of the dialog. Add a couple of spaces at the end of the format (i.e., after {/b}).</p>
+                <p class="TypedEntry">H: {b}FIGURE {n+}:{/b}</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>Scroll up on the right side of the editor and expand the <span class="Emphasis">Box</span> group.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>Change the number in the <span class="Emphasis">margin-top</span> field to <span class="Emphasis">0</span>. We're doing this to close the space between the image and the figure caption that we will add below it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Change the Autonumbering Format for Print Output</h2>
+        <p>The autonumbering format that we just created will help us produce an image caption that looks as follows:</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers7.png" alt="" title="" />
+        </p>
+        <p>This is fine for online output. But for print-based output, but we want the autonumber to include the chapter number in each figure caption, as follows (where the 2 refers to Chapter 2):</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers8.png" alt="" title="" />
+        </p>
+        <p>So we're going to change the autonumber format in our stylesheet's Print medium, which is automatically set to be used for PDF output.</p>
+        <ol>
+            <li>
+                <p>In the local toolbar of the Stylesheet Editor, click the <span class="Emphasis">Medium</span> drop-down, and select the check box next to <span class="Emphasis">Medium: print</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+                <p>This displays a second set of properties on the right side of the editor. The properties on the left are for the Default medium, which is typically used for online output, and the properties on the right are for the Print medium.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Scroll down in the properties area to the <span class="Emphasis">AutoNumber</span> group.</li>
+            <li>
+                <p>In the <span class="Emphasis">Medium: print</span> section, to the right of <span class="Emphasis">mc-autonumber-format</span>, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>Copy the following format, and paste it into the field at the top of the dialog. Add a couple of spaces at the end of the format (i.e., after {/b}).</p>
+                <p class="TypedEntry">H: {b}FIGURE {chapnum}-{n+}:{/b}</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Create a Style Class for Paragraphs Holding Images</h2>
+        <p>Before we create a figure caption in a topic, we're going to add one more style class to the stylesheet. Images are usually wrapped inside &lt;p&gt; (paragraph) tags, and the margin for paragraphs in our stylesheet is set to have a lot of space below them. Just as we reduced the margin on the Figure style class we just created, we're going to do the same for this new style class.</p>
+        <ol>
+            <li>In the local toolbar of the Stylesheet Editor, click <span class="Emphasis">Add Selector</span>. The New Selector dialog opens.</li>
+            <li>
+                <p>In the <span class="Emphasis">HTML Element</span> field, make sure <span class="Emphasis">p</span> is selected, and in the <span class="Emphasis">Class Name</span> field, enter <span class="TypedEntry">Image</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <p>In the <span class="Emphasis">Medium: (default)</span> section, scroll up to the <span class="Emphasis">Box</span> group, and change the <span class="Emphasis">margin-bottom</span> value to <span class="Emphasis">0</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Create a Figure Caption With an Autonumber</h2>
+        <ol>
+            <li>From the Content Explorer, open the <span class="Emphasis">Attractions.htm</span> topic.</li>
+            <li>Place your cursor to the right of the first image and press <span class="Emphasis">ENTER</span> to create an empty paragraph under it.</li>
+            <li>Type <span class="TypedEntry">Texas State Capitol</span>.</li>
+            <li>
+                <p>With your cursor still on that line of text, select the <span class="Emphasis">Home</span> ribbon, and from the <span class="Emphasis">Style</span> drop-down select <span class="Emphasis">p.Figure</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The autonumber is added to the beginning of the text you typed.</p>
+            </li>
+            <li>
+                <p>Click the <span class="Emphasis">p</span> structure bar to the left of the image, thereby selecting the paragraph and the image within it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>From the <span class="Emphasis">Style</span> drop-down, select <span class="Emphasis">p.Image</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers17.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+                <p>The image and caption under it should now look like this.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Repeat these steps for the other two images in the topic. Type <span class="TypedEntry">Zilker Park</span> for the first caption, and <span class="TypedEntry">Lady Bird Lake</span> for the other.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers19.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Open the <span class="Emphasis">Introduction.htm</span> topic, and add a figure caption under the image, typing <span class="TypedEntry">Downtown Austin</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers20.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+        </ol>
+        <p>At the end of the next lesson, we will build and view the outputs to see the results, but first we need to create some chapter autonumbers for the main headings.</p>
+    </body>
+</html>

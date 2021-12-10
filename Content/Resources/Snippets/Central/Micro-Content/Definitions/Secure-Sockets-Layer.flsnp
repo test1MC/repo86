@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Secure Sockets Layer (SSL) is involved in MadCap Central in terms of security management, as well as when adding host mapped domains.</p>
+        <div class="Tiles-6-6">
+            <div>
+                <MadCap:snippetBlock src="../../../Shared/Ce-Fl/Central/Security-Management.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1]" />
+            </div>
+            <div>
+                <p><span class="Emphasis">Host Mapped Domains </span>You can choose between the following SSL certificate options (see <MadCap:xref href="../../../../../Central/Sites/URLs-Page-View/Main-Activities/Adding-Host-Mapped-Domains.htm">Adding Host Mapped Domains</MadCap:xref>).</p>
+                <MadCap:snippetBlock src="../../Sites/SSL-Certificate-Options.flsnp" />
+            </div>
+        </div>
+    </body>
+</html>

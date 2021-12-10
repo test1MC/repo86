@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="364" MadCap:lastWidth="1370">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Details</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Issues</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Deliverable File(s)</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">File Location</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">Compiled HTML; deliverable is CHM file.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">One file; tripane interface is easy to use.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">Format is 10+ years old. </p>
+                        <p class="TableText">Locally installed HTML Help files (those installed on the end user’s client machine, not their server), work without issues. If you plan to install HTML Help on a server, there are security issues. See the following:</p>
+                        <p class="TableTextSmall"><a href="http://support.microsoft.com/kb/902225" target="_blank">http://support.microsoft.com/kb/902225</a>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">CHM</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">By default, the HTML Help folder of your project.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

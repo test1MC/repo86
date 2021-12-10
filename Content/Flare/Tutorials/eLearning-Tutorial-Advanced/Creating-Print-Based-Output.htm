@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Tutorials-Videos/Flare-LMS-Tutorial-Advanced.flmsp');">
+    <head>
+        <meta name="description" content="Generating some PDFs from the same source files as the online output." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/eLearning-Advanced.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:eLearning;Learning and development:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />Creating Print-Based Output</h1>
+        <p>To this point, all of our output has been online. But let's say that you also want to generate some print-based output from the same source files. The good news is that the Austin template we're using is already set up for some PDF output. We just need to add our eLearning topics and make a few other adjustments.</p>
+        <p>Let's create two different PDFs—one designed for a teacher (where the answers are shown), and another for students (where the answers are hidden).</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Rename a Target</h2>
+        <ol>
+            <li>
+                <p>In the Project Organizer, expand the <span class="Emphasis">Targets</span> folder, right-click <span class="Emphasis">All-About-Austin-PDF</span>, and select <span class="Emphasis">Rename</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Enter <span class="TypedEntry">Combination-Course-Teacher</span> for the new name of the target, and press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Double-click that target to open it.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Select the <span class="Emphasis">General</span> tab. Notice that the <span class="Emphasis">Output Type</span> is set as <span class="Emphasis">PDF</span>. Also, from the <span class="Emphasis">Primary TOC</span> field, make sure <span class="Emphasis">Print-TOC</span> is selected.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF37.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Conditional Text</span> tab.</p>
+            </li>
+            <li>
+                <p>This PDF is going to be the same as the online Combination Course, except that it is in PDF format. So set the conditions to match the online target for the Combination Course, as shown in the following image.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>Notice that the Mobile, Tablet, and Web conditions are not explicitly set. That's because those are intended for online output only, where the size of screen changes and affects the content. In this case, we're creating PDF output, so these conditions aren't important to set.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You could create additional conditions if there is content that you want to separate for the teacher and student versions of the PDFs. However, we're not going to do that in this tutorial. There are a couple of places where the PDFs will differ in this tutorial. First, the subtitle will be different, and in one PDF the answers will be shown while they will be hidden in the other PDF. But we're going to handle that using a couple of other features, so we don't need any special conditions for those purposes.</p>
+                </div>
+            </li>
+            <li>
+                <p>On the left side of the Target Editor, select <span class="Emphasis">Variables</span>. There is an existing variable that we want to use, and another variable that doesn't exist yet, so we'll create it below and then come back to the target afterward.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Create a Variable</h2>
+        <ol>
+            <li>
+                <p>In the Project Organizer, expand the <span class="Emphasis">Variables</span> folder.</p>
+            </li>
+            <li>
+                <p>Double-click <span class="Emphasis">General</span> (which is the only variable set file that we currently have in the project; it contains all of the variables that we have so far). The Variable Set Editor opens to the right.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>First, let's change the name of the existing variable that we want to use. In the grid, click <span class="Emphasis">UserGuideTitle</span> and press <span class="Emphasis">F2</span> on your keyboard.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Replace the text with the more simple <span class="TypedEntry">Title</span>. Then, change the <span class="Emphasis">Definition</span> cell to <span class="TypedEntry">Austin Combination Course</span>, and press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the local toolbar, click <img src="../../../Resources/Images/Flare/Interface/Buttons/Add-Variable-btn.png" class="ReduceButtonSize" />. This adds a new row to the grid.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Replace the <span class="Emphasis">NewVariable</span> text with <span class="TypedEntry">Subtitle</span>, and in the <span class="Emphasis">Definition</span> cell enter <span class="TypedEntry">Teacher Version</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Now we're going to do something really cool and create an alternative definition for that variable. Select the <span class="Emphasis">Subtitle</span> variable row, and in the local toolbar click <img src="../../../Resources/Images/Flare/Interface/Buttons/Add-Variable-Definition-btn.png" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF26.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the empty cell that is created, enter <span class="TypedEntry">Student Version</span> and press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF27.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>Go back to the Combination-Course-Teacher target, and look at the variables on the <span class="Emphasis">Variables</span> tab. Notice the new variable and the one that we renamed.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Adjust Other Target Settings</h2>
+        <p>There are obviously a lot of settings that we could change in our PDF target, but we'll focus on just a couple more and then move on.</p>
+        <ol>
+            <li>
+                <p>In the Target Editor, select the <span class="Emphasis">Advanced</span> tab, and enable the option <span class="Emphasis">Show correct answers for eLearning questions</span>. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Select the <span class="Emphasis">PDF Options</span> tab, and replace the text in the <span class="Emphasis">Title</span> field with <span class="TypedEntry">Austin Combination Course - Teacher Version</span>. You can also replace the Author field text with your own name if you want. These will not be shown on any of the PDF pages, but they will be reflected in the PDF file properties.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Edit the Table of Contents (Outline)</h2>
+        <p>We already have a table of contents (TOC) file in this project designed for PDF outputs, so we can edit that and use it for both of our PDF outputs. Here is a very important thing to know, however: The TOC file does not actually generate the TOC for print-based outputs such as PDF. Instead, it functions more as an outline. When you generate a PDF target using that TOC file, Flare will stitch all of the topics together that are linked in that TOC, and it will do so in the order that they appear in the TOC&#160;Editor. </p>
+        <p>So what about the generated TOC in the output? There are a couple of ways to create that, and this project is set up to generate the TOC automatically. If you go back to the Target Editor, you can see this option on the Advanced tab.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF12.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <ol>
+            <li>
+                <p>In the Project Organizer, expand the <span class="Emphasis">TOCs</span> folder, and double-click <span class="Emphasis">Print-TOC</span> to open it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>When we're done, this TOC (outline) will look much like the TOC being used for the online outputs. Sure, we could actually use the same TOC for both online and PDF outputs, but in this project we're separating them to make it clear what's going on. In your actual projects, you will find that there are times that it makes sense to use a single TOC, but other times when it's better to use multiple TOCs. A lot of that depends on how complex the TOCs can get over time.</p>
+                <p>In our print TOC file, there is one entry at the very top (Title-Page) that is unique to this TOC. This entry is connected to a print-only topic that we created; it is designed to show the first page of the PDF.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the Content Explorer, expand the <span class="Emphasis">Knowledge-Check-Topics</span> and <span class="Emphasis">Test-Topics</span> folders. Then, drag the topics to the TOC file as shown in the following image. Unlike the TOC for the online output, however, this TOC does not need to have a test node, even though you are including the test topics. That's because the test node's functionality only kicks in for online HTML5 outputs.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Since we're dealing with pages in an PDF (which is often divided into chapters), instead of online topics, we also need to tell Flare where to start new chapter breaks. At the same time, we can specify which page layout to use for a particular entry in the TOC file. A page layout in print-based output is used to control page size, configuration, headers, footers, pages numbers, etc. To start, select the <span class="Emphasis">First Knowledge Check</span> entry, and in the local toolbar click <img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the Properties dialog, select the <span class="Emphasis">Printed Output</span> tab. From the <span class="Emphasis">Break Type</span> field select <span class="Emphasis">Chapter Break</span>, and from the <span class="Emphasis">Page Layout</span> drop-down select <span class="Emphasis">Chapters</span>. Then, click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF17.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Repeat this step for the <span class="Emphasis">Second Knowledge Check</span> and <span class="Emphasis">Quiz</span> entries in the TOC. However, do not do it for Question 1 and Question 2, since they are not considered the start of new chapters.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Create a Subtitle Style</h2>
+        <p>We already have a style that controls the look of the title for our PDF outputs, but because we're adding a new subtitle, we want to create another style just for that.</p>
+        <ol>
+            <li>
+                <p>In the Content Explorer, go to <span class="Emphasis">Resources &gt; Stylesheets</span>, and open the stylesheet.</p>
+            </li>
+            <li>
+                <p>On the left side of the Stylesheet Editor, select the <span class="Emphasis">p</span> style.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the local toolbar, click <span class="Emphasis">Add Selector</span>.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the dialog, the HTML Element field is already set correctly. In the <span class="Emphasis">Class Name</span> field, enter <span class="TypedEntry">Subtitle</span>. Then, click <span class="Emphasis">OK</span>. This adds the new style class to the stylesheet.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF19.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>With that new class selected on the left, go to the properties area on the right and expand <span class="Emphasis">Font</span>. Then, set the <span class="Emphasis">font-size</span> to <span class="Emphasis">28pt</span> and the <span class="Emphasis">line-height</span> to <span class="Emphasis">30pt</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF20.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Edit the Title Page</h2>
+        <ol>
+            <li>
+                <p>In the Content Explorer, expand the <span class="Emphasis">Print-Only Topics</span> folder, and double-click <span class="Emphasis">Title-Page.htm</span> to open it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF21.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click at the end of Austin Combination Course (which is a variable inserted into the topic), and press <span class="Emphasis">ENTER</span> to create a new empty paragraph.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF22.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the local toolbar, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Insert-Variable-btn.png" alt="" title="" class="ReduceButtonSize" /> (the face of the button, not the down arrow).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF23.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the dialog, select the <span class="Emphasis">Subtitle</span> variable, and click <span class="Emphasis">OK</span>. This adds the variable to the topic.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF24.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>With your cursor still located on the line where you inserted the variable, select the <span class="Emphasis">Home</span> ribbon at the top of Flare. Then, from the <span class="Emphasis">Style</span> drop-down, select <span class="Emphasis">p.Subtitle</span>. The size of the variable text increases in the XML Editor.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF25.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Create a New PDF Target</h2>
+        <p>We already have our target for the teacher version of the PDF output. Now we just need a second target for the student version. The easiest way to do this, since the two targets share so many settings, is to make a copy of the first one.</p>
+        <ol>
+            <li>
+                <p>In the Project Organizer, expand <span class="Emphasis">Targets</span>.</p>
+            </li>
+            <li>
+                <p>Select <span class="Emphasis">Combination-Course-Teacher</span> and press <span class="Emphasis">CTRL+C</span> on your keyboard. Then press <span class="Emphasis">CTRL+V</span>.</p>
+            </li>
+            <li>
+                <p>Rename the copy of the target to <span class="TypedEntry">Combination-Course-Student</span>, and press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF28.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Double-click that new target to open it.</p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Variables</span> tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">Subtitle</span> row, click the down arrow and select <span class="Emphasis">Student Version</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF29.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Advanced</span> tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Remove the check mark from the option <span class="Emphasis">Show correct answers for eLearning questions</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF31.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">PDF Options</span> tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Change the text in the <span class="Emphasis">Title</span> field to <span class="TypedEntry">Austin Combination Course - Student Version</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF30.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Build and View the PDF Targets</h2>
+        <ol>
+            <li>
+                <p>In the local toolbar of the Combination-Course-Student target, click <span class="Emphasis">Build</span>.</p>
+            </li>
+            <li>
+                <p>When the build finishes, double-click that row in the Builds window pane at the bottom of Flare.</p>
+            </li>
+            <li>
+                <p>On the first page, notice the subtitle is using the Student Version variable definition. The spacing between the wrapped title (Austin Combination Course) looks like it might be too much, but you can fix that by adjusting the line height for that p.title style class.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF32.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+            </li>
+            <li>
+                <p>On the second page, notice the TOC was generated automatically, and the eLearning topics were recorded as separate chapters, because we told Flare to do that.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF33.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>On page 5, notice that the answers for the First Knowledge Check are not shown, only the questions. If you scroll down, you'll see it's the same for the other knowledge check and the quiz pages.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF34.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Build and view the output for the Combination-Course-Teacher target.</p>
+            </li>
+            <li>
+                <p>Notice the subtitle on the first page is using the Teacher Version variable definition.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF35.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On page 5 (and on the other pages where questions occur), notice that the answers are shown.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-PDF36.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Close the PDFs.</p>
+            </li>
+            <li>
+                <p>In Flare, we've opened a lot of files during the course of this tutorial. Let's close them all at the same time. Select the <span class="Emphasis">Window</span> ribbon at the top of Flare, and select <span class="Emphasis">Close All Documents</span>. Closing all of your files can help Flare to load faster next time if you have the application set to always automatically load the last files that you had open in a project (File &gt; Options &gt; General &gt; Auto-Reload Documents).</p>
+            </li>
+        </ol>
+    </body>
+</html>

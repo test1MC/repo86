@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:conditionalText MadCap:conditions="Products.Contributor">Open the document or topic.</MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="Products.Flare">Open the content file.</MadCap:conditionalText>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>Place your cursor in the tag where you want to remove the formatting. For example, if you have bold text in a sentence, you do not need to highlight that bold text; you only need to have your cursor somewhere in the tag.</li>
+                    <li>Select the content with the formatting that you want to remove so that the content is highlighted. If you want to remove inline formatting throughout the <MadCap:snippetText src="../General/Content-File-Document.flsnp" />, you can press <span class="Emphasis">CTRL+A</span> to select everything.</li>
+                </ul>
+            </li>
+            <li>Select <b>Home &gt; <img class="ReduceButtonSize" src="../../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Remove-Inline-Formatting-btn.png" /></b>. The inline formatting is removed. </li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Image-Tooltips-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Let's copy and paste a generic style class and its properties in the stylesheet. This style class will automatically be used to control the look of the tooltip." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Image-Tooltips.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:images;Images:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Adding Style Properties</h1>
+        <p>Let's copy and paste a generic style class and its properties in the stylesheet. This style class will automatically be used to control the look of the tooltip.</p>
+        <h2>How to Add Style Properties</h2>
+        <ol>
+            <li>
+                <p>Copy the following.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">.tooltip
+{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 0 0 5px #aaa;
+    -webkit-box-shadow: 0 0 5px #aaa;
+    font-weight: normal;
+    height: auto;
+    margin-left: 20px;
+    max-width: 300px;
+    padding: 8px;
+    position: absolute;
+    z-index: 99999;
+}</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </li>
+            <li>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>. </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Image-Tooltips-Tutorial" />
+            <li>
+                <p>Right-click <span class="Emphasis">Styles.css</span>, and from the context menu select <span class="Emphasis">Open with &gt; Internal Text Editor</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Image-Tooltips/Image-Tooltips3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Image-Tooltips-Tutorial" />
+            <li>
+                <p>Scroll to the bottom of the editor and paste the generic style and its properties.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Image-Tooltips/Image-Tooltips4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

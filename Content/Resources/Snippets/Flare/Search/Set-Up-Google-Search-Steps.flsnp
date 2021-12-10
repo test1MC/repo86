@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open an <MadCap:variable name="Outputs.HTML5" /> target.</li>
+            <li>Select the <span class="Emphasis">Search</span> tab.</li>
+            <li>From the <span class="Emphasis">Search Engine</span> field, select <span class="Emphasis">Google Search</span>.</li>
+            <li>
+                <p>There are several additional steps you can complete in your Google account to optimize your search. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Not all of these extra steps are required for integrating search with Flare, but they are recommended. Also, the exact steps that you follow may be somewhat different if you are using a free Google account as opposed to a paid account. </MadCap:conditionalText></p>
+                <div MadCap:conditions="Snippets.Snippet1">
+                    <p class="Subheading">Google Account—Create Search Engine</p>
+                    <MadCap:snippetBlock src="Google-Search3.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Targets-Guide" />
+                    <p class="Subheading">Flare Project—Enter Google Search Key and Generate Sitemap</p>
+                    <MadCap:snippetBlock src="Google-Search4.flsnp" />
+                    <p class="Subheading">Google Account—Verify URL</p>
+                    <MadCap:snippetBlock src="Google-Search5.flsnp" />
+                    <p class="Subheading">Google Account—Add Sitemap</p>
+                    <MadCap:snippetBlock src="Google-Search6.flsnp">
+                    </MadCap:snippetBlock>
+                    <p class="Subheading">Google Account—Submit Site for Indexing</p>
+                    <MadCap:snippetBlock src="Google-Search7.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Targets-Guide" />
+                    <p class="Subheading">Google Account—Exclude TOC from Indexing</p>
+                    <MadCap:snippetBlock src="Google-Search8.flsnp" />
+                    <p class="Subheading">Google Account—Customize Appearance of Search Results</p>
+                    <MadCap:snippetBlock src="Google-Search9.flsnp" />
+                    <p class="Subheading">Google Account—Review Indexing Status</p>
+                    <MadCap:snippetBlock src="Google-Search10.flsnp" />
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

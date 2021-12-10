@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You need to create a PDF manual with five short chapters. You've created 17 topics that will make up those five chapters, and you've created a separate topic for a title page.</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies1.png" alt="" title="" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <p>Your topics use &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt; tags. These will become important when the TOC is generated.</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <p>You've inserted index keywords throughout the topics. These will become important when the index is generated.</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <p>You've created a glossary file and associated it with the PDF target you're going to use. This will become important when the glossary is generated.</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Indexing-Guide" />
+            <p>You've put all of your topics into an outline TOC file. You've associated your title topic with one page layout, and you've assigned a different page layout to the five topics that will serve as the starting point for each of the five chapters.</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>In the Target Editor, you select the <span class="Emphasis">Advanced</span> tab and select <span class="Emphasis">Generate TOC Proxy</span>, <span class="Emphasis">Generate Index Proxy</span>, and <span class="Emphasis">Generate Glossary Proxy</span>. In addition, you also select an option labeled <span class="Emphasis">Inject empty pages as needed to ensure TOC nodes start on their selected pages</span> and another labeled <span class="Emphasis">Use TOC depth for heading levels</span>. These last two options are not required to use the auto-generate feature, but they are popular options for generating print-based output.</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <p>After you generate the PDF output, it looks something like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies10.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Proxies/Auto-Generate-Proxies11.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides-Tutorials-Videos/Flare-Styles-Video1-Intro.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="The appearance of your output does not come from just a single stylesheet in your Flare project, but it is produced from style settings originating from other places. Style settings can be set in the same stylesheet in different ways, and these various settings “cascade” (combine) to give the content its final look." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="Styles;Styles:stylesheets" />
+            <MadCap:keyword term="Cascading stylesheets" />
+            <MadCap:concept term="FilterFeatures" />Cascading</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles1-Intro.flsnp" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Cascading-Summary.flsnp" />
+            </div>
+        </MadCap:microContent>
+        <p>However, it is possible, even likely, that you will have conflicting style settings at times (e.g., one style says “red” while another says “blue”). Therefore, certain rules about importance, origin, specificity, etc. dictate which style “wins” in the end.</p>
+        <p>Our purpose here is not to provide an exhaustive explanation of cascading. You can refer to many sources on the internet for that level of knowledge. But let’s go over some basics.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Importance</h2>
+        <MadCap:microContent id="microcontent2">
+            <div>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Styles1-Intro.flsnp" />
+                <p>The following syntax is used in CSS to make sure that a particular style setting always wins over other conflicting settings.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">!important</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <p>Here is an example.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">padding: 10px !important;</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </div>
+        </MadCap:microContent>
+        <h2>Origin</h2>
+        <p>Next, consider the origin of the style settings. Precedence is given to settings in this order:</p>
+        <ol>
+            <li>Custom stylesheets in Flare projects</li>
+            <li>Factory stylesheets (located where Flare was installed)</li>
+            <li>Browser settings</li>
+        </ol>
+        <p MadCap:conditions="">For example, if the browser setting says a particular style should be 12 pixels, a factory stylesheet says 14 pixels, and your custom stylesheet says 16 pixels, the content will end up being 16 pixels, because that stylesheet carries the most weight.</p>
+        <h2>Ways to Apply CSS</h2>
+        <p MadCap:conditions="">Now consider how styles or stylesheets are applied to a particular content file. In Flare, you are most likely to link your content files to a custom external stylesheet (usually located in the Resources folder in the Content Explorer). However, CSS also lets you embed stylesheets in HTML documents, or set styles inline. Here is the order of precedence:</p>
+        <ol>
+            <li>Inline</li>
+            <li>Embedded</li>
+            <li>Linked external stylesheets</li>
+        </ol>
+        <p MadCap:conditions="">For example, what if you use the inline method to set paragraphs to green, but then you use the linked external stylesheet method to set paragraphs to blue? Inline has precedence over embedded styles, and embedded styles have precedence over external stylesheets. So in this case, the paragraphs will be green.</p>
+        <p MadCap:conditions="">Therefore, if you make changes in your custom stylesheet in Flare and notice that the look is not being changed, you might check to see if an inline or embedded style setting is overriding it.</p>
+        <h2>Specificity</h2>
+        <p MadCap:conditions="">Also, consider the specificity of selectors in a stylesheet. Here is the basic order of precedence:</p>
+        <ol>
+            <li>Style attribute</li>
+            <li>IDs (see <MadCap:xref href="Important-Style-Terms-Concepts.htm">Identifiers</MadCap:xref>)</li>
+            <li>Classes (see <MadCap:xref href="Important-Style-Terms-Concepts.htm">Important Style Terms and Concepts</MadCap:xref>)</li>
+            <li>Type (element) selectors (see <MadCap:xref href="Important-Style-Terms-Concepts.htm">Important Style Terms and Concepts</MadCap:xref>)</li>
+        </ol>
+        <p>Attributes set on an HTML tag are the most specific. IDs are more specific than classes, which are more specific than element selectors. Therefore, a style attribute will win if there is a conflict because it has the most specificity.</p>
+        <h2>Source Order</h2>
+        <p>Another important factor is that of the order of appearance. If the same level of specificity happens to occur, the rule that appears last in the stylesheet order of the HTML document wins.</p>
+        <h2>Inheritance</h2>
+        <p>And finally, keep in mind that inheritance also plays a role in how the content will eventually look in the output. See <MadCap:xref href="Inheritance.htm">Inheritance</MadCap:xref>.</p>
+    </body>
+</html>

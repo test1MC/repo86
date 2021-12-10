@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p class="TableText">Opens a submenu, which lets you select window panes that show information about links in your project.</p>
+        <div class="topic-only">
+            <ul>
+                <li><span class="SetOffFirstLevel">Broken Links </span>
+                    <MadCap:snippetText src="Open-Broken-Links-Window-Option.flsnp" />
+                </li>
+                <li><span class="SetOffFirstLevel">Broken Bookmarks </span>Opens the Broken Bookmarks window pane. <MadCap:snippetText src="../../Analysis/Links-Analysis/Broken-Bookmarks-Summary.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../Flare/Nav-Links/Bookmarks/Viewing-Broken-Bookmarks1.htm">Viewing Broken Bookmarks</MadCap:xref>.</MadCap:conditionalText></li>
+                <li><span class="SetOffFirstLevel">External Links </span>Opens the External Links window pane. <MadCap:snippetText src="../../Nav-Links/External-Links-Summary.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../Flare/Analysis/Links-Analysis/Viewing-External-Links.htm">Viewing and Checking External Links</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>
+                    <p><span class="SetOffFirstLevel">Absolute Links </span>Opens the Absolute Links window pane. <MadCap:snippetText src="../../Nav-Links/Absolute-Links-Summary.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../Flare/Analysis/Links-Analysis/Viewing-Absolute-Links.htm">Viewing Absolute Links</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p MadCap:conditions="Flare-Guides.Flare-Touring-Workspace-Guide">&#160;</p>
+                </li>
+                <li><span class="SetOffFirstLevel">Named Destinations </span>Opens the Named Destinations window pane, which displays files in your project containing named destinations for PDF output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Analysis/Links-Analysis/Viewing-Named-Destinations.htm">Viewing Named Destinations</MadCap:xref>.</MadCap:conditionalText></li>
+                <li><span class="SetOffFirstLevel">Index Keyword Links </span>Opens the Index Keyword Links window pane. <MadCap:snippetText src="../../Analysis/Links-Analysis/Index-Keyword-Links-Summary.flsnp" /><![CDATA[  ]]><MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Analysis/Links-Analysis/Viewing-Renaming-Index-Keyword-Links.htm">Viewing and Renaming Index Keyword Links</MadCap:xref>.</MadCap:conditionalText></li>
+                <li><span class="SetOffFirstLevel">Concept Links </span>Opens the Concept Links window pane. <MadCap:snippetText src="../../Analysis/Links-Analysis/Concept-Links-Summary.flsnp" /><![CDATA[  ]]><MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Analysis/Links-Analysis/Viewing-Renaming-Concept-Links.htm">Viewing and Renaming Concepts Within Links</MadCap:xref>.</MadCap:conditionalText></li>
+            </ul>
+        </div>
+    </body>
+</html>

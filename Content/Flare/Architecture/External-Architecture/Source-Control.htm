@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Architecture.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Source control is a process where you store a copy of your project on a server, allowing you to synchronize your local changes with the server version of the project, and with changes from other writers. Source control is even useful for single authors because it provides a means for maintaining a constant backup of all project files. For most Flare authors, source control is an integral part of their overall architecture." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project architecture;Architecture" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control;Multi-authoring" />Source Control</h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/SC-Summary.flsnp" />For most Flare authors, source control is an integral part of their overall architecture. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Source-Control/Source-Control.htm">Source Control</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <p>
+            <img src="../../../Resources/Images/Shared/DB-Fl/Architecture/Architecture-Source-Control1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>It might be tempting for some authoring teams to want to put a Flare project up on a network drive and simply let multiple authors open and work in it. However, this is not recommended. First, working on projects on a remote server, rather than locally on your computer, can result in lag time and poor performance. And perhaps more importantly, this type of work situation can result in conflicts that never get resolved (e.g., two writers work on the same file, and one writer’s changes overwrite the other’s). That is why a source control solution is highly recommended, especially when multiple writers are working in the same project.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Source Control Tools</h2>
+        <p>Source control isn’t built in to Flare, but you can integrate a Flare project with a third-party source control tool. There are several third-party source control tools on the market, such as the following:</p>
+        <ul>
+            <li>Git</li>
+            <li>
+                <p>Perforce Helix Core</p>
+            </li>
+            <li>Subversion</li>
+            <li>Team Foundation Server</li>
+        </ul>
+        <p>As an alternative to these source control tools, authors can use MadCap Central, which employs Git behind the scenes.</p>
+        <p>Central offers a single-bound model, where your projects work directly with Central to manage source control.</p>
+        <p>
+            <img src="../../../Resources/Images/Shared/Ce-Fl/Source-Control/Single-Bound2.png" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>Central also offers a dual-bound model. With this model, you can continue to use your third-party source control tool, as well as create a secondary binding to Central.</p>
+        <p>
+            <img src="../../../Resources/Images/Shared/Ce-Fl/Source-Control/Dual-Bound12.png" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Branching</h2>
+        <p>Branching is a feature of some source control tools where you can work on different versions of the same project. It’s a way of engaging in parallel development, in which you can keep your new development separate from the finished documentation. Git’s method of branching is particularly powerful.</p>
+        <p>Although it might not be used by the majority of authors, branching is a feature in some source control tools that can be extremely useful, especially when you are working with an Agile methodology.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You might have a master branch, which is a version of your project the last time you published output.</p>
+            <p>You also might have a release branch of your project, which is a version of your project for the next, upcoming publication of your output.</p>
+            <p>Then you might have several feature branches, each one where you have a version of your project dedicated to a new feature you’re working on. And when you’re certain that a particular feature will be part of the next release, you merge it into your release branch, and finally into the master branch. Changes can also be merged back into ongoing feature branches so that they have the latest content from other branches.</p>
+            <p>
+                <img src="../../../Resources/Images/Shared/DB-Fl/Architecture/Architecture-Source-Control2.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Pros and Cons of Source Control</h2>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Source control is simply the most efficient way for multiple writers to work on the same project. It allows multiple people to work simultaneously on the same files and merge their changes when needed. You can also use source control to resolve any file conflicts that you might have with other authors.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Even if you are a lone writer, using a source control solution provides a way to have a backup of your project on a server. This is important in case something happens to your computer and you lose all of your local files.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you bind your project to Central using the single-bound model, the process is very simple with only a few clicks required.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Some source control tools (e.g., Team Foundation Server) have a check in/check out system that helps alleviate file conflicts.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Cons</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Setup can be challenging for some source control tools when you bind them to a Flare project. You probably need to obtain information from your system administrator, and you must enter everything just right in the Flare interface for the binding to work successfully.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">There is a learning curve involved with source control solutions, especially when it comes to resolving file conflicts. Certain file conflicts can happen when writers are working on the same file. This can be frustrating and confusing at times if you are new to source control. This is why it is important to educate yourself on the particular source control tool you are using, and establish internal rules and guidelines for every member of your team to follow. This can help limit the conflicts that occur and make it less daunting when you need to resolve them.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Source control processes can slow down Flare projects as you work in them. A project that is not bound to source control typically runs faster than a project that is using source control.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2><a name="WhatMadCapDocTeamDoes"></a>What the MadCap Documentation Team Does</h2>
+        <p>We use source control for all of our projects, but we do it in slightly different ways for each.</p>
+        <div class="IndentMedium">
+            <h3>Shared</h3>
+            <p>Our main Shared project is bound to Git, and we use Visual Studio as the interface to manage files. The key reason we use Git is its branching capabilities, and we use a system called “GitFlow,” which makes our workflow easier to manage. In addition, we uploaded our Shared project to MadCap Central in order to build and publish output, so that means we have a dual-bound source control structure. Therefore, we work normally in Flare, pulling and pushing commits in our first binding via Visual Studio. Then periodically, one author pushes the changes up to Central so that the latest files are available for generation and publication.</p>
+            <p>The reason we don’t just use a single-bound model for the “Shared” project is that Central does not yet support branching. When it does support it in the future, we will most likely drop the first binding and use source control directly between the Flare project and Central.</p>
+            <h3>Documentation Bible</h3>
+            <p>Our Documentation Bible project does not require any branching like our Shared project does. Therefore, we use the simpler single-bound source control structure where this project is bound to Central and no other tool. When authors need to work in the Documentation Bible project, they synchronize it with the cloned project on Central.</p>
+            <h3>"Develop" Projects</h3>
+            <p>Our “Develop” projects also use the single-bound model with MadCap Central as the source control solution. The single-bound model is used because we don’t need to use branching with our “Develop” projects. That’s because all of the branching is done beforehand in the main “Shared” project. These “Develop” projects are the result of Global Project Linking, where miniature copies of the main “Shared” project are created.</p>
+            <p>So when we use branching in our main “Shared” project, we have a special branch called “develop.” It’s basically a version of our main “Shared” project that acts sort of like a sandbox. It contains most of the new documentation that’s in a state of development. All of our “Develop” child projects are based on this “develop” branch.</p>
+            <p>Therefore, these “Develop” projects let us see files as the project is in a state of development. And because of that, we use these projects for things such as the following:</p>
+            <ul>
+                <li>Tasks</li>
+                <li>Checklists</li>
+                <li>Reviews</li>
+                <li>Internal outputs</li>
+            </ul>
+            <p>So why don’t we just use our main “Shared” project—which is also uploaded to Central—to work with tasks, checklists, and so on, instead of creating multiple child projects from it? The answer is branching. At this time, Central only lets you push changes from the “master” branch of any project. And the master branch is the latest version of our documentation that is released to the public; it does not contain any ongoing edits for future releases. Therefore, creating tasks and checklists based on the master branch of our main “Shared” project doesn’t make sense, since task and checklists have to do with ongoing and future documentation.</p>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you would like more details on the way that  the MadCap Documentation Team uses source control—especially branching—you can download this PDF:</p>
+                <p><a href="https://docs.madcapsoftware.com/doc-team/Source-Control.pdf" target="_blank">https://docs.madcapsoftware.com/doc-team/Source-Control.pdf</a>
+                </p>
+                <p>This PDF discusses concepts, reasons why we do things a certain way, procedures, daily tasks, and more.</p>
+            </div>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+    </body>
+</html>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Architecture.flmsp');">
+    <head>
+        <meta name="description" content="Publishing output is the final piece of your external architecture. The way you publish output depends to a certain extent on the kind of output you are producing. There are lots of output types you can choose from in Flare." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project architecture;Architecture" />
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Publishing:destinations;Destinations:creating" />Publishing Output</h1>
+        <p>Publishing output is the final piece of your external architecture. The way you publish output depends to a certain extent on the kind of output you are producing. There are lots of output types you can choose from in Flare<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../Step4-Developing-Targets/Process/Determining-Output-Type/Determining-Output-Type.htm">Determining the Output Type</MadCap:xref>)</MadCap:conditionalText>, but we will focus here on the two most recommended formats—HTML5 and PDF. The same things discussed below might apply to the other types of output formats available in Flare.</p>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/uc6HYF4dKb0" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Web Server</h2>
+        <p>Many writers publish their output files to a web server so that they can be seen by end users. You might do this by setting up a destination file in your Flare project, which will automatically copy and upload the output files to the location you choose<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../Step5-Building-Publishing-Output/Publishing-Destinations/Process/Creating-Destinations.htm">Creating Destinations</MadCap:xref>)</MadCap:conditionalText>. Alternatively, you might use a third-party tool, such as FileZilla, to upload copies of your files.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Web-Server1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Product Application</h2>
+        <p>Some authors need to provide output files to developers in order to integrate a Help system into a software application. You might use a destination file to copy the output files to a location where developers can retrieve them, or you can manually copy and paste the output files. You might even place the output files into a source control repository for your developers. This can be done using a destination file in Flare, or by using a third-party tool such as Microsoft Visual Studio.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Product-Application1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>MadCap Central</h2>
+        <p>If you subscribe to MadCap Central, there are certain benefits, including the following:</p>
+        <ul>
+            <li>You can quickly generate and publish your output with a few clicks. There is no need to move any files around. Any site set as “live” will be published and immediately available to your end users on Central’s servers. </li>
+            <li>You can quickly roll back the published output to an older build in an instant. </li>
+            <li>You can customize the final URL for the output in various ways, including mapping to your own host domains. </li>
+            <li>You can publish output directly from a Flare project to a Central license.</li>
+            <li>You can publish private output so that end users must log in to see the documentation.</li>
+        </ul>
+        <p>For detailed information about building and publishing on Central, see <a href="https://help.madcapsoftware.com/central" target="_blank">help.madcapsoftware.com/central</a>.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Central1.png" alt="" title="" class="MaxWidth90Percent" />
+        </p>
+        <p>The image above illustrates the process if your Flare project is bound (uploaded) to Central. However, you also have the option of publishing output directly to Central from your Flare project. By “publish,” we mean copying your output files to Central, not making that output “Live,” which would make it visible to the general public. You would still need to use Central to make that output live.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>SharePoint</h2>
+        <p>If you have a SharePoint connection in your Flare project in order to leverage those external files, you also have the option of publishing output to a SharePoint server. You can do this in Flare by setting up a destination file and pointing to that SharePoint server. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../SharePoint/SharePoint-Integration.htm">SharePoint Integration</MadCap:xref> and <MadCap:xref href="../../Step5-Building-Publishing-Output/Publishing-Destinations/Process/Creating-Destinations.htm">Creating Destinations</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/-QVKu6pFGnQ" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+        </div>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-SharePoint-Server1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>PDF Inside Online Help</h2>
+        <p>There might be times when you want to place one kind of Flare output inside another. The most common example is a print-based output such as PDF inside an online Help system.</p>
+        <p>You can do this by manually copying and pasting the PDF into your Content subfolder in Windows. Alternatively, you could use the External Resources feature<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../External-Resources/External-Resources.htm">External Resources</MadCap:xref>)</MadCap:conditionalText>. Once the PDF is in your project, you might want to link to it in your TOC. If you are generating the HTML5 server-based output, the PDF content will be included in online searches for text.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-PDF-Inside-Help1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>
+            <MadCap:annotation MadCap:createDate="2017-12-14T15:17:47.1089736-08:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="This will be Central stuff when completed.\r\nCurrent: Build most product output locally, upload via FileZilla, edit robots and redirects, purge on Edge. Build and publish Central online Help on Central; still edit robots adn redirects.\r\nFuture: Build and publish all from Central, set old builds to not search." MadCap:editor="pstoecklein" MadCap:editDate="2017-12-15T10:09:50.0572382-08:00"><a name="WhatMadCapDocTeamDoes"></a>What</MadCap:annotation> the MadCap Documentation Team Does</h2>
+        <p>We use multiple methods for publishing our output.</p>
+        <div class="IndentMedium">
+            <h3>MadCap Central</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Output/Doc-Team-Output2.flsnp" />
+            </p>
+            <h3>Web Server</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Output/Doc-Team-Output3.flsnp" />
+            </p>
+            <h3>Product Application</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Output/Doc-Team-Output4.flsnp" />
+            </p>
+        </div>
+    </body>
+</html>

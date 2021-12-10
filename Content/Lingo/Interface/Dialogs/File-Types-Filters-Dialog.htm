@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Filter:file filter" />File Types Filters Dialog</h1>
+        <p>When you create a Lingo project from a folder, you can create filters for any <MadCap:keyword term="DOCX file:Microsoft Word;Microsoft Word:DOCX;DOCX file;DOC file" />Word, <MadCap:keyword term="Microsoft Excel;XLS File" />Excel, <MadCap:keyword term="XML;XML:file" />XML, <MadCap:keyword term="TXT file" />text, or JSON files that may be in the folder so only certain parts of the file are imported for translation. You can also add filters to unsupported file types using a text file type filter. See <MadCap:xref href="../../Filters/File-Type-Filters.htm">About File Filters</MadCap:xref>. </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Open the File Types Filters Dialog</h2>
+        <ol>
+            <li>Select <span class="Emphasis">File &gt; New Project</span>.</li>
+            <li>Begin the process of creating a project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Projects/Creating-Projects.htm">Creating New Projects</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p>On the second page of the wizard, click <span class="Emphasis">Add Folder</span>. In the dialog that opens, select the folder you want to add to the project.</p>
+            </li>
+            <li>
+                <p>If you want to create file type filters for the files within the folder, from the <span class="Emphasis">Filter</span> drop-down select <span class="Emphasis">Customize Folder</span>. The File Types Filters dialog opens. </p>
+            </li>
+        </ol>
+        <h2>How to Use the File Types Filters Dialog</h2>
+        <ol>
+            <li>
+                <p>In the <span class="Emphasis">Translate</span> column, select the file types you want to import. You can click the <span class="Emphasis">Select All</span> check box to add all the file types at once.</p>
+                <p>
+                    <img src="../../../Resources/Images/Lingo/Interface/Dialogs/File-Types-Filters.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Filter</span> drop-down, select the filter you want to use for each translatable file type. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You cannot select a filter for file types that cannot be translated, such as image files.</p>
+                </div>
+            </li>
+            <li>
+                <p>If you want to create a new filter, from the <span class="Emphasis">Filter</span> drop-down, select <span class="Emphasis">Create New</span>. See <MadCap:xref href="../../Filters/File-Type-Filters.htm">About File Filters</MadCap:xref>.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Filters/Unsupported-Files-Folders.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+        <h2>Buttons and Sections</h2>
+        <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">File Type</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p>The file types available in your folder.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Translate</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">When this check box is selected, the file type is included for translation. If the check box is not selected, the file type will not be translated.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Select All</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p>When this check box is selected, all available file types are included for translation. You can also deselect the check box to clear the Translate check boxes for all file types.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Filter</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p>A list of existing filters for each file type. You can also select <span class="Emphasis">Create New</span> to create a new file filter. See <MadCap:xref href="../../Filters/File-Type-Filters.htm">About File Filters</MadCap:xref>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

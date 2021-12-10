@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <div>
+            <h2>How to Edit the eLearning Toolbar Skin Component</h2>
+            <p>Edit the eLearning Toolbar skin component to customize what the toolbar should look like when a learner navigates through a course. In the eLearning Toolbar Skin Editor, there are three tabs where you can make changes to the toolbar.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</MadCap:conditionalText></p>
+            <ol>
+                <li>
+                    <p>From the Project Organizer, expand the <span class="Emphasis">Skins</span> folder, and double-click the skin for eLearning. The eLearning Toolbar Skin Editor opens. See <MadCap:xref href="../../../../Flare/LMS/Process/Adding-eLearning-Toolbar-Skin1.htm">Adding an eLearning Toolbar Skin Component</MadCap:xref>.</p>
+                </li>
+                <li>
+                    <p>Select the <span class="Emphasis">Setup</span> tab, and choose the toolbar buttons to include. By default the Previous Topic, Next Topic, and Progress Bar are selected to display in the output. You can use the bottom local toolbar to delete and arrange items, or add a separator element.</p>
+                </li>
+                <li>
+                    <p>Select the <span class="Emphasis">Styles</span> tab. Using this tab you can  customize the look and feel of the toolbar, individual buttons, and the progress bar.</p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="Skin-Styles-Select-Medium1.flsnp" />&#160;<MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Responsive-Design/Responsive-Skins.htm">Responsive Skins</MadCap:xref>.</MadCap:conditionalText></p>
+                </li>
+                <li>
+                    <p>On the left side of the editor, in the <span class="Emphasis">Toolbar</span> section, expand any of the style groups. </p>
+                    <div class="tip">
+                        <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">To quickly find a style  to edit, from the local toolbar, click the <span class="Emphasis">Highlight</span> button. This enables Highlight mode, where the right panel in the editor is a live preview. Click any part of the live preview and it locates the corresponding style in the left panel to edit. Once a style is updated, it displays as such in the live preview. </p>
+                    </div>
+                    <table class="TableStyle-Fancy" style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+                        <col class="TableStyle-Fancy-Column-Regular" />
+                        <col class="TableStyle-Fancy-Column-Regular" />
+                        <tbody>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Toolbar</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls the look and feel of the entire toolbar.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Toolbar-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Toolbar Button</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the  buttons look (e.g., Previous, Next, and Complete). You can customize each button individually.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Toolbar-Button.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Toolbar Button (hover)</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how a toolbar button looks when it is hovered over with a mouse. You can customize each button individually.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Toolbar-Button-Hover.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Toolbar Button (disabled)</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how a toolbar button looks when it is in a disabled state. You can customize each button individually.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Toolbar-Button-Disabled.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Toolbar Button Separator</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls the look of separators if added to the toolbar. A separator is the divider between the toolbar buttons.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Toolbar-Separator.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                    <div class="note">
+                                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You won't see the separator updates in the eLearning Toolbar Skin Editor, but it does display in the output if it is added to your skin. To see a separator, you first need to add it from the  <span class="Emphasis">Setup</span> tab. Click <img src="../../../Images/Flare/Interface/Buttons/Add-Separator-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Progress Wrapper</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls the progress bar container (or wrapper). </p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Progress-Wrapper.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Outer Progress Bar</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the outer part of the progress bar looks.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Outer-Progress.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Inner Progress Bar</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the progress bar background looks inside the outer part.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Inner-Progress.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Progress Bar Text</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                    <p class="TableText">This controls how the text looks associated with the progress bar. </p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-eLearning-Progress-Text.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="Expand-Nodes-Complete-Fields.flsnp" /> <MadCap:snippetText src="Nodes-Depend-Style.flsnp">&#160;</MadCap:snippetText></p>
+                    <p class="Subheading">Alignment</p>
+                    <MadCap:snippetBlock src="Alignment-Option.flsnp" />
+                    <p class="Subheading">Background</p>
+                    <MadCap:snippetBlock src="Background-Fields.flsnp" />
+                    <p class="Subheading">Border</p>
+                    <MadCap:snippetBlock src="Border-Fields.flsnp" />
+                    <p class="Subheading">Box Shadow</p>
+                    <MadCap:snippetBlock src="Box-Shadow-Fields.flsnp" />
+                    <p class="Subheading">event</p>
+                    <p>Enter a JavaScript command that is triggered when a user clicks a button.</p>
+                    <p class="Subheading">Font</p>
+                    <MadCap:snippetBlock src="Font-Fields.flsnp" />
+                    <p class="Subheading">Icon</p>
+                    <p>You can click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Insert-Image-btn2.png" class="ReduceButtonSize" /> and select a different image for the toolbar button.</p>
+                    <p class="Subheading">Layout</p>
+                    <p>You can click the <span class="Emphasis">Display</span> drop-down and choose one of the options: </p>
+                    <ul>
+                        <li>
+                            <p><span class="Emphasis">none </span>The element will not be shown.</p>
+                        </li>
+                        <li>
+                            <p><span class="Emphasis">block </span>The element will be shown and adds a line break after it. For some elements this option might be called <span class="Emphasis">flex</span>, which reflects the flexbox technology associated with it.</p>
+                        </li>
+                    </ul>
+                    <p>Click the <span class="Emphasis">Order</span> drop-down to change the order of the text within the button in relation to the icon (e.g., left, right, top, bottom).</p>
+                    <p class="Subheading">Margin</p>
+                    <MadCap:snippetBlock src="Margin.flsnp" />
+                    <p class="Subheading">Padding</p>
+                    <MadCap:snippetBlock src="Padding.flsnp" />
+                    <p class="Subheading">Size</p>
+                    <MadCap:snippetBlock src="Size.flsnp" />
+                    <p class="Subheading">Text</p>
+                    <p>You can click the <span class="Emphasis">Display</span> drop-down and choose one of the options: </p>
+                    <ul>
+                        <li>
+                            <p><span class="Emphasis">none </span>The element will not be shown.</p>
+                        </li>
+                        <li>
+                            <p><span class="Emphasis">block </span>The element will be shown and adds a line break after it. For some elements this option might be called <span class="Emphasis">flex</span>, which reflects the flexbox technology associated with it.</p>
+                            <MadCap:snippetBlock src="Font-Fields.flsnp" />
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Select the <span class="Emphasis">UI&#160;Text</span> tab. Use this tab to customize a list of text strings for the toolbar components. This includes text for the label, tooltip, alt text for buttons, and progress bar.</p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can customize the text used for a different language in the output. From the <span class="Emphasis">Language</span> drop-down, select the language, and then modify the text in each row.</p>
+                    </div>
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <h2>How to Associate the eLearning Toolbar Skin Component With a Proxy or Target</h2>
+            <MadCap:snippetBlock src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+            <ul>
+                <li>
+                    <p><span class="Emphasis">eLearning Toolbar Proxy </span>Open the template page or topic that includes the eLearning Toolbar proxy.  Right-click the proxy, and select <span class="Emphasis">Edit eLearning Toolbar Proxy</span>.  In the <span class="Emphasis">Skin File</span> drop-down, select your eLearning Toolbar skin.</p>
+                    <p>
+                        <img src="../../../Images/Flare/LMS/LMS-Associate-Skin-Proxy.png" alt="" title="" class="MaxWidth70Percent" />
+                    </p>
+                </li>
+                <li>
+                    <p><span class="Emphasis">HTML5 Target </span>Open the HTML5 target, and select the <span class="Emphasis">Skin</span> tab. Locate the <span class="Emphasis">eLearning Toolbar</span> drop-down, and select your eLearning Toolbar skin.</p>
+                    <p>
+                        <img src="../../../Images/Flare/LMS/LMS-Associate-Skin-Target.png" alt="" title="" class="MaxWidth70Percent" />
+                    </p>
+                </li>
+            </ul>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                    <MadCap:snippetText src="Associate-Skin-Components-Target.flsnp" />
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

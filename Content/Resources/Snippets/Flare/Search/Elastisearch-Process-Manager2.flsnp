@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The MadCap Process Manager continues to run even after Flare is closed. This process allows any Elasticsearch output to continue running. </p>
+        <p>If you need to troubleshoot your Elasticsearch output, you will need to stop the Elasticsearch process from running through the MadCap Process Manager. In order to do that, find the MadCap Process Manager icon in your system tray. Then, select <span class="Emphasis">Elasticsearch Service</span> &gt; <span class="Emphasis">End Process</span>.</p>
+        <p>
+            <img src="../../../Images/Flare/Search/MadCap-Process-Manager-Elasticsearch-End-Process.png" class="MaxWidth100Percent" />
+        </p>
+        <p>Once you are done using  the Content Services Portal or any output configured with Elasticsearch, you can end the MadCap Process Manager by ending the task. Select the MadCap Process Manager icon in your system tray. Then, select <span class="Emphasis">Content Services</span> &gt; <span class="Emphasis">End Process</span>.</p>
+        <p>
+            <img src="../../../Images/Flare/Search/MadCap-Process-Manager-Content-Services.png" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

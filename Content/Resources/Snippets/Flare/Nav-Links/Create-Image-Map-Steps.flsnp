@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Open the topic.</li>
+            <li>In the XML Editor, right-click the image on which you want to create an image map.</li>
+            <li>
+                <p>In the context menu, select <span class="Emphasis">Image Map</span>. The Image Map Editor opens, with the image displayed.</p>
+                <p>
+                    <img src="../../../Images/Flare/Images/Image-Map-Editor.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the Standard toolbar of the Image Map Editor, click one of the shape drawing buttons, depending on the area of the image that you want to use as a hyperlink.<table style="margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0"><col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" /><col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" /><tbody><tr class="TableStyle-Fancy-Body-LightRows"><td class="TableStyle-Fancy-BodyE-Regular-LightRows"><p class="TableText"><img src="../../../Images/Shared/Co-Fl/Interface/Buttons/New-Polygon-Mode-btn.png" /></p></td><td class="TableStyle-Fancy-BodyD-Regular-LightRows"><p class="TableText">Click this button if you want to draw an odd shape over a section of the image.</p></td></tr><tr class="TableStyle-Fancy-Body-LightRows"><td class="TableStyle-Fancy-BodyE-Regular-LightRows"><p class="TableText"><img src="../../../Images/Shared/Co-Fl/Interface/Buttons/New-Rectangle-Mode-btn.png" /></p></td><td class="TableStyle-Fancy-BodyD-Regular-LightRows"><p class="TableText">Click this button if you want to draw a rectangle over a section of the image.</p></td></tr><tr class="TableStyle-Fancy-Body-LightRows"><td class="TableStyle-Fancy-BodyB-Regular-LightRows"><p class="TableText"><img src="../../../Images/Shared/Co-Fl/Interface/Buttons/New-Circle-Mode-btn.png" alt="" title="" /></p></td><td class="TableStyle-Fancy-BodyA-Regular-LightRows"><p class="TableText">Click this button if you want to draw a circle over a section of the image.</p></td></tr></tbody></table></li>
+            <li>
+                <p>In the image, click and drag your mouse over the area to be used as a hyperlink. Release the mouse button when you are satisfied with the size and location of the shape. You should now see the shape on top of the image, connected by a series of points.</p>
+                <p>
+                    <img src="../../../Images/Flare/Images/Image-Map-Editor-Area.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The Image Map Editor only draws clickable areas for the hyperlink (or hotspot). It does not draw shapes and objects on the image. You will have to use another tool, such as MadCap Capture, if you want to annotate the image itself.</p>
+            </li>
+            <li>
+                <p>In the toolbar, click <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Area Properties displays.</p>
+                <p>
+                    <img src="../../../Images/Flare/Images/Image-Map-Area-Properties.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+            <li>
+                <p>From the <span class="Emphasis">Link to</span> drop-down field, select a way to identify the topic, bookmark, or file to which you want to link. Based the option you choose, the section below gives you a list of selections or additional fields to complete.</p>
+                <p class="Subheading">File in Project</p>
+                <MadCap:snippetBlock src="File-Project-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">Place in This Document</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Place-Document-Option.flsnp" />
+                <p class="Subheading">External File</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/External-File-Option.flsnp" />
+                <p class="Subheading">Website</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Website-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide,Flare-Guides.Flare-Images-Guide" />
+                <p class="Subheading">Email</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Email-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">HTML Help File</p>
+                <MadCap:snippetBlock src="HTML-Help-File-Option.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1]" />
+            </li>
+            <li>(Optional) In the <span class="Emphasis">Screen Tip</span> field, you can type a phrase that will appear when the end user hovers over the hyperlink in the output. This is added not only a "title" attribute, but as an "alt" (alternate text)&#160;attribute as well.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Target Frame</span> field, click the drop-down arrow to select the way the linked destination will open. This option can be used to open the destination topic or file in a popup. </p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Target-Frame-Descriptions-Bullets.flsnp" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Popup Window option is not supported in HTML5 online output formats with Side Navigation and Top Navigation skin types. Either select an output format that supports it, or in the Target Editor’s <span class="Emphasis">Skin</span> tab, set the skin type to <span class="Emphasis">none</span>. </p>
+                </div>
+            </li>
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Tab Index</span> field you can enter a value to specify the order in which users can tab through hyperlinks in the image. So when a user presses the TAB key the first time in a topic, the hyperlink with an index value of 1 will be selected first, the hyperlink with a value of 2 will be selected next, and so on. If you want to skip a hyperlink, enter -1 in that field.</p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This feature is supported only in web outputs—<MadCap:snippetText src="../Output/All-Web-Outputs-HTML5-Clean-XHTML.flsnp" />.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The hyperlink is added to the image map.</li>
+            <li>If you want to add more hyperlinks to the image, select a shape button again and repeat the steps above.</li>
+            <li>
+                <p>When you are finished creating hyperlinks on the image, click <span class="Emphasis">OK</span> in the Image Map Editor.</p>
+                <p>Notice that when the object is selected in the Image Map Editor, the link property fields at the bottom are populated with the information you provided.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

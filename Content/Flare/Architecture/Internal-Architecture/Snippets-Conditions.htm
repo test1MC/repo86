@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Architecture.flmsp');">
+    <head>
+        <meta name="description" content="Snippets and conditions are two of the most important features in Flare, especially when it comes to single-sourcing content." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project architecture;Architecture" />
+            <MadCap:keyword term="Snippets" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Conditions" />Snippets and Conditions</h1>
+        <p>Snippets and conditions are two of the most important features in Flare, especially when it comes to single-sourcing content. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Snippets/Snippets.htm">About Snippets</MadCap:xref> and <MadCap:xref href="../../Conditions/Conditions.htm">About Conditions</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Organization</h2>
+        <p>As is true with other kinds of files, the more of these you use in your project, the more important it will be to organize them. For snippets, that means creating subfolders in the Resources &gt; Snippets folder of the Content Explorer. For conditions, it means using multiple condition tag sets in the Project Organizer.</p>
+        <h2>Snippet-Focused Versus Condition-Focused Topics</h2>
+        <p>Another important consideration when structuring your topics is whether to make them more snippet-focused or condition-focused. Although you are likely to use both snippets and conditions in your topics, you might give more weight (or focus) to one than the other.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a project where you are writing documentation for three company products—Product A, Product B, Product C.</p>
+            <p>You have a topic that is used in each of those products. The topic is made up of five paragraphs. The first two paragraphs are identical for all three products. The third paragraph is unique to Product A, the fourth paragraph is unique to Product B, and the fifth paragraph is unique to Product C.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Snippets-Conditions1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Should you have one topic or three? What is the best way to structure the topic? Which features should you use? </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <p>You might choose to take a more condition-focused approach, or you might decide a snippet-focused approach is better. With either approach, this doesn’t mean that you are limiting yourself only to conditions or only to snippets; instead, it means that one of those takes on a more prominent role. If you use a condition-focused approach, you’re still likely to employ snippets in some ways, and likewise, if you use a snippet-focused approach, you will likely still have some conditions (e.g., online versus print).</p>
+            <p class="Subheading">Condition-Focused Approach</p>
+            <p>With this approach, you would have just one topic, and you would use conditions to include or exclude paragraphs for a given target depending on the product.</p>
+            <p>Therefore, the first two paragraphs would not need a “product” condition since they are needed for all three outputs (i.e., the target for Product A, the target for Product B, and the target for Product C). In those first two paragraphs, you might have just regular content, nothing more.</p>
+            <p>However, on the third, fourth, and fifth paragraphs, you would place conditions  that are unique to each product.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Snippets-Conditions2.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <p class="Subheading">Snippet-Focused Approach</p>
+            <p>With this approach, you would have three topics instead of one. The first two paragraphs in each topic would be snippets, since the content is the same in all three topics. However, the third paragraph in each topic is simply regular content that is unique to each product; no conditions are necessary on those paragraphs.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Snippets-Conditions3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Snippets-Conditions4.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Snippets-Conditions5.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <p class="Subheading">Which is Better?</p>
+            <p>An obvious benefit of the condition-focused approach is that you only need to create one topic instead of three. On the other hand, a topic with a lot of content can get confusing, especially when much of it has conditions applied. Figuring out which content goes with what might take more time and effort than you want. This can be especially important if you have new writers or need to send the topic to subject matter experts for review.</p>
+            <p>As for the snippet-focused approach, it can be much more straightforward when you need to return to it for editing or send to a reviewer. However, this approach requires you to create multiple topics instead of one.</p>
+            <p>There isn’t a right or wrong answer. Either approach can work nicely for your needs. It is recommended that you try each approach on a few topics to see which one you like best. In the end, the best choice is the one that is going to save you the most time and effort, and help you to avoid errors.</p>
+        </div>
+        <h2><a name="WhatMadCapDocTeamDoes"></a>What the MadCap Documentation Team Does</h2>
+        <p>At one time, we used a condition-focused approach. With this approach we created fewer topics, but over time we found that we were spending too much time on some of our shared topics, trying to decipher what all of the conditions meant and what needed to be edited.</p>
+        <p>Now we typically use snippet-focused topics. Even though we are creating more topics, we find them to be much easier to handle, especially since we have a very large number of conditions in the project. The more streamlined we can make the topics, the easier they are to handle, especially for a new author or a reviewer. The bottom line is that we found we were spending less time and effort on snippet-focused topics than we were on condition-focused topics.</p>
+        <p>Also, because we use a lot of snippets with this approach, we created a special subfolder next to our product subfolders, and we named it “Shared.” Within this folder, we created even more subfolders to store snippets that are used for multiple products.</p>
+        <p>We also set the appropriate product conditions on each snippet file. These conditions have nothing to do with our snippet-focused approach. Rather, these conditions are used when we import files into our child “Develop” projects using Global Project Linking.</p>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li MadCap:conditions="Products.Lingo">Select <span class="Emphasis">Tools &gt; MadCap Align</span>.</li>
+            <li>
+                <p>In MadCap Align, open the aligned project. Unless you specify otherwise, these types of projects are stored in the Documents\My Aligned Projects folder on your computer. (Lingo creates the My Aligned Projects folder when you install the program).</p>
+            </li>
+            <li>The File Map window pane should already be open. If it is not, do one of the following, depending on the part of the interface you are using.<ul style="list-style-type: square;"><li><p><span class="SetOffFirstLevel">Ribbon</span>  Select <span class="Emphasis">Home &gt; File Map</span>.          </p></li><li><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+SHIFT+R</span>.</li></ul></li>
+            <li>(Optional) In the File Map window pane, you can use the <span class="Emphasis">Filter</span> field in the local toolbar to choose the types of files to see in the window pane.</li>
+            <li>
+                <p>Select the appropriate cell(s) on either the source language side or the target language side. You can hold down your <span class="Emphasis">SHIFT</span> or <span class="Emphasis">CTRL</span> key to click and select multiple cells.</p>
+            </li>
+            <li>
+                <p>In the local toolbar, click one of the buttons to perform an alignment action (so that the source files on the left are aligned with the proper target files on the right).</p>
+                <table style="width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                    <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Swap-Two-Selected-Cells-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">If you have selected two cells (one above and one below) and click this button, the positions of those two cells will be swapped.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Swap-Cell-Below-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Click this button if you want to swap the selected cell(s) with those below it.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Swap-Cell-Above-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Click this button if you want to swap the selected cell(s) with those above it.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can only swap a cell with the cell above or below it if the files have the same extension. If you cannot swap a cell, one or more alignment buttons will be grayed out.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

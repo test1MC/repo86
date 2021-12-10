@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li><span class="SetOffFirstLevel">Name </span>Give your custom list format a name.</li>
+            <li><span class="SetOffFirstLevel">Comment </span>You can add an internal comment, such as the purpose of the list format.</li>
+            <li><span class="SetOffFirstLevel">Stylesheet </span>
+                <MadCap:conditionalText MadCap:conditions="Products.Flare">This displays the stylesheet associated with your primary target. </MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="Products.Contributor">This displays your stylesheet. </MadCap:conditionalText>Styles created as a result of your custom list format are added to this stylesheet.</li>
+            <li><span class="SetOffFirstLevel">Level </span>Select the level of the list that you want to work on. When a level is selected, any settings you choose are applied only to that level.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Snippets.Snippet1" />
+            <li>
+                <p><span class="SetOffFirstLevel">Content </span>This field becomes populated based on settings you choose using the buttons next to this field. It is a good idea to begin by clicking the first button to the right (i.e., <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Bullet-List-btn.png" class="ReduceButtonSize" />) and selecting a list type or image first (see below). Then use the other options as necessary.</p>
+                <p>You can also type directly into this field.</p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Any text typed directly in this field is supported only in PDF output. If you enter any text, the default list markers (e.g., bullets, numbers) are instead displayed in non-PDF outputs.</p>
+            </li>
+            <li>
+                <p>
+                    <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Bullet-List-btn.png" class="ReduceButtonSize" /> Select the type of list. If you click the down arrow, you can select any of the following:</p>
+                <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" cellspacing="0" class="TableStyle-Fancy">
+                    <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col style="width: 45%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col style="width: 45%;" class="TableStyle-Fancy-Column-Regular" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">&#160;</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Type of List</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">What is Added to the Content Field?</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Bullet-List-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Bullet list</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Nothing</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Numbered-List-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Numbered list</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p>{n}.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Lower-Alpha-List-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Lower-alpha numbered list</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p>{a}.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Upper-Alpha-List-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Upper-alpha numbered list</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p>{A}.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Lower-Roman-List-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Lower-Roman numbered list</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p>{r}.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Upper-Roman-List-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">Upper-Roman numbered list</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p>{R}.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Insert-Image-btn2.png" alt="" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Select custom bullet image</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">The path to the image file</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Snippets.Snippet1" />
+            <li>
+                <p>
+                    <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Buttons/Quick-Character-btn.png" class="ReduceButtonSize" /> You can click this button to insert a special character or symbol. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Interface/Editors/XML-Editor/Characters-Symbols/Inserting-Special-Characters-Symbols.htm">Inserting Characters and Symbols</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Contributor">See <MadCap:xref href="../../../../../Contributor/Editor-Tools/Characters-Symbols/Inserting-Special-Characters-Symbols.htm">Inserting Characters and Symbols</MadCap:xref>.</MadCap:conditionalText></p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Custom list characters are supported only in PDF output. If you add characters or symbols to the Content field, the default list markers (e.g., bullets, numbers) are instead displayed in non-PDF outputs. However, custom bullet images are supported in all output formats.</p>
+            </li>
+            <li>
+                <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Font-Properties-btn.png" alt="" class="ReduceButtonSize" /> You can click this button to open the Font Properties dialog. This lets you change the look of the list marker, such as the font size or type, color, and effects.</li>
+        </ul>
+    </body>
+</html>

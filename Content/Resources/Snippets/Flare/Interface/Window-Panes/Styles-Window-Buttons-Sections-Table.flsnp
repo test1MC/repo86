@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">[Style]</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Shared/Co-Fl/Interface/Window-Panes/Styles-Window-Style-Section.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Edit Style</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Shared/Co-Fl/Interface/Window-Panes/Styles-Window-Edit-Style.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Main-Activities/Editing-Styles.htm">Editing Styles in a Regular Stylesheet</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Create Style</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Shared/Co-Fl/Interface/Window-Panes/Styles-Window-Create-Style.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Main-Activities/Creating-Selectors.htm">Creating Selectors</MadCap:xref>.</MadCap:conditionalText><![CDATA[  ]]></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Available Styles</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Shared/Co-Fl/Interface/Window-Panes/Styles-Window-Available-Styles.flsnp" />
+                        <MadCap:snippetBlock src="../../../Shared/Co-Fl/Styles/Wheres-My-Style.flsnp" />
+                        <MadCap:snippetBlock src="../../../Shared/Co-Fl/Styles/Example-Wheres-My-Style.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

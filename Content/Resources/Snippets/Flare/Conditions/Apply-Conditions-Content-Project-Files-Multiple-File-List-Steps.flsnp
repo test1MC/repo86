@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">View &gt; File List</span>. </li>
+                    <li>
+                        <span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+SHIFT+J</span>.</li>
+                </ul>
+                <p>The File List window pane opens.</p>
+            </li>
+            <li>(Optional) From the <span class="Emphasis">Filter</span> list in the window pane, select the type of files to view.</li>
+            <li>Select the files to which you want to apply condition tags. <MadCap:snippetText src="../../Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /></li>
+            <li>In the local toolbar, click <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog opens.</li>
+            <li>Click the <span class="Emphasis">Conditional Text</span> tab. The first condition tag set is selected and the associated condition tags are shown on the right.</li>
+            <li>If you want to see condition tags for a different condition tag set, select it.</li>
+            <li>For each condition tag that you want to apply to the files, click the check box next to the tag. A check mark appears in the box.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The squares next to the file names in the File List window pane now take on the color of the condition tag. If you applied more than one condition tag to the file, each color is shown.</li>
+        </ol>
+    </body>
+</html>

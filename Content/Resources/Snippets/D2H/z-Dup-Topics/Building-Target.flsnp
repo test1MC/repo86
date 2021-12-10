@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p>By building a target<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> (see <MadCap:xref href="../../../../D2H/Output/Targets.htm">About Targets</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/About-Targets.htm">About Targets</MadCap:xref>)</MadCap:conditionalText>, Doc-To-Help can produce multiple types of outputs: NetHelp (including responsive), HTML Help, EPUB, Eclipse Help, JavaHelp, Manual, Microsoft Help Viewer, and Microsoft Help 2.0.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Output/Output-Types.htm">Output Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Output-Types-D2H.htm">Output Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Targets-Guide"> See <MadCap:xref href="../../../../Print-Only-Topics/D2H/Targets/Output-Types1.htm">Output Types</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>Target names and other details are customized using the Help Targets dialog.<MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Targets-Guide,General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText></p>
+        <p MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide"> For additional information not discussed in this chapter, see the online Help or the <span class="EmphasisItalic">Targets Guide</span>.</p>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide,D2H-Guides.D2H-Targets-Guide" />
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide,D2H-Guides.D2H-Targets-Guide" />
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/CyxkZnY-U00" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+        </div>
+        <h2 MadCap:conditions="General.Print-Only">How to Build a Target</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>How to Build a Target</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Save your Word source documents.</li>
+                    <li>Select the <span class="Emphasis">Doc-To-Help</span> ribbon. In the <span class="Emphasis">Project</span> section, click <span class="Emphasis">Build</span>. The Doc-To-Help Build panel opens.</li>
+                    <li>
+                        <p>From the <span class="Emphasis">Active Target</span> drop-down in the local toolbar, select the target you want to build.</p>
+                        <MadCap:snippetBlock src="../Output/Note-Build-Targets-Drop-Down-Sync.flsnp" />
+                    </li>
+                    <li>
+                        <p>In the local toolbar, click <span class="Emphasis">Build</span> or <span class="Emphasis">Rebuild</span>.</p>
+                        <MadCap:snippetBlock src="../Output/Build-Rebuild.flsnp" />
+                    </li>
+                    <li>When the target is done building, a dialog asks if you want to view the target. Click <span class="Emphasis">Yes</span> to view it; otherwise click <span class="Emphasis">No</span>. You can also view the target by clicking <span class="Emphasis">View</span> in the Doc-To-Help Build panel's local toolbar.</li>
+                    <li>
+                        <p>(Optional)&#160;You can also do any of the following:</p>
+                        <ul>
+                            <li>Use the <span class="Emphasis">Cancel Build</span> button in the local toolbar to stop a build.</li>
+                            <li>Click the <span class="Emphasis">Open Build Log</span>&#160;link on the Build Log tab to view the build log.</li>
+                            <li>Click the <span class="Emphasis">Errors and Unresolved Links</span> tab to view and sort any errors that may have occurred during the build.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide,D2H-Guides.D2H-Targets-Guide" />
+                <MadCap:snippetBlock src="../Output/Open-D2H-Button.flsnp" />
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">
+                    <MadCap:snippettext src="../Output/Targets/Removing-Targets.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1]exclude[Snippets.Snippet2]" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide,D2H-Guides.D2H-Targets-Guide" />
+        <h2 MadCap:conditions="General.Print-Only">EPUB Output</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>EPUB Output</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>EPUB output will open in your default reader (such as Calibre) after it is built. To set the default EPUB reader in Doc-To-Help, go to <span class="Emphasis">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options</span>. In the Options dialog, select <span class="Emphasis">Viewers</span> and choose the <span class="Emphasis">EPUB viewer executable</span>. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="General.Print-Only">Manual Output</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Manual Output</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When you build a Manual target, you can build a PDF version at the same time. To do so, open the Help Targets dialog, choose the <span class="Emphasis">Manual</span> target, and select the <span class="Emphasis">Generate PDF</span> check box. After building the target, you can then open the <span class="Emphasis">Home</span> ribbon and click the <span class="Emphasis">View PDF</span> button. Projects will use Word's built-in PDF converter. </p>
+                <p>When you view the Word version of your Manual output, the resulting file will have a different Doc-To-Help ribbon than the source documents. In the target document, the ribbon will contain only the basic styles and tools necessary to make final adjustments to your manual before printing or conversion to PDF, such as the Cross-Reference button<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> (see <MadCap:xref href="../../../../D2H/Nav-Links/Cross-References/Inserting-Cross-References.htm">Inserting Cross-References</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../D2H/Legacy-HTML5/Nav-Links/Inserting-Cross-References.htm">Inserting Cross-References</MadCap:xref>)</MadCap:conditionalText> and the Margin Notes button<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> (see <MadCap:xref href="../../../../D2H/Margin-Notes/Creating-Margin-Notes.htm">Creating Margin Notes</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../D2H/Legacy-HTML5/Margin-Notes/Creating-Margin-Notes.htm">Creating Margin Notes</MadCap:xref>)</MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note">
+                    <p class="Note-Text">When building output, you can schedule builds so that they run on a one-time, daily, or weekly basis.<MadCap:conditionalText MadCap:conditions="General.Online-Only,D2H-Guides.D2H-Targets-Guide,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Output/Scheduling-Builds.htm">Scheduling Builds with the Build Scheduler</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Scheduling-Builds.htm">Scheduling Builds with the Build Scheduler</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text">You can also build targets in batch mode using the command line<MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Targets-Guide,General.Online-Only,Snippets.Snippet1"> (see <MadCap:xref href="../../../../D2H/Output/Building-Targets-Batch-Mode.htm">Building Targets in Batch Mode</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Building-Targets-Batch-Mode.htm">Building Targets in Batch Mode</MadCap:xref>)</MadCap:conditionalText> or using Windows Services<MadCap:conditionalText MadCap:conditions="General.Online-Only,D2H-Guides.D2H-Targets-Guide,Snippets.Snippet1"> (see <MadCap:xref href="../../../../D2H/Output/Building-Targets-Using-Windows-Services.htm">Building Targets Using Windows Services</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Building-Targets-Using-Windows-Services.htm">Building Targets Using Windows Services</MadCap:xref>)</MadCap:conditionalText>.</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text">You can edit Word source documents while building a target. If you choose to edit a source document that has been shared to SharePoint, it can only be edited locally and all automatic operations with the SharePoint server are disabled.</p>
+                </div>
+                <MadCap:snippetBlock src="../Templates/Note-Set-Paragraph-TRL.flsnp" MadCap:conditions="General.Online-Only" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

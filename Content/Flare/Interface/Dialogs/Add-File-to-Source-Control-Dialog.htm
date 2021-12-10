@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:adding files;Multi-authoring" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />Add File to Source Control Dialog</h1>
+        <p>If you apply a condition tag to a folder in Flare, a <MadCap:keyword term="PROPS file" />PROPS file is automatically created behind the scenes. This file enables Flare to remember the condition tag that has been applied. If the Flare project is bound to a source control program when you apply the condition tag to the folder, the Add File to Source Control dialog displays. This dialog lets you determine whether to add the new .props file to source control (which is what you will probably do most of the time). See <MadCap:xref href="../../Source-Control/Source-Control.htm">About Source Control</MadCap:xref> and <MadCap:xref href="../../Conditions/Process/Applying-Conditions-Content1.htm">Applying Condition Tags to Content</MadCap:xref>. </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Open This Dialog</h2>
+        <ol>
+            <li>Bind the project to source control. See <MadCap:xref href="../../Source-Control/Linked-Topics/Binding-Projects.htm">Binding a Project to Source Control</MadCap:xref>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/General/Make-Sure-Content-Explorer-Open.flsnp" />
+            </li>
+            <li>Locate and click on the folder to which you want to apply a condition tag. </li>
+            <li>In the local toolbar, click <img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog opens.</li>
+            <li>Click the <span class="Emphasis">Conditional Text</span> tab. The first condition tag set is selected and the associated condition tags are shown on the right.</li>
+            <li>If you want to see condition tags for a different condition tag set, select it.</li>
+            <li>For each condition tag that you want to apply to the folder, click the check box next to the tag. A check mark appears in the box.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+        <h2>Buttons and Sections</h2>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">The following file was created…</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the path of the behind-the-scenes .props file that has been created.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Add file to Source Control</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Adds the new .props file to source control. This is the recommended option.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Do nothing</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Closes the dialog and does not add the .props file to source control. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Make this the default from now on</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">If you select this option, <MadCap:variable name="Other.Product" /> will not prompt you with this dialog in the future when you apply condition tags to folders. If you later decide that you want to be prompted again, you can open the Options dialog <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/Interface/Dialogs/Options-Dialog-Access-Parentheses.flsnp" />, choose the <span class="Emphasis">Source Control</span> tab, and select <span class="Emphasis">Show prompt to add auto-created files to source control</span>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

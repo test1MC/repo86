@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li><span class="SetOffFirstLevel">Developer </span>Create the header file (or at least individual CSH&#160;IDs) and send to the author.</li>
+            <li><span class="SetOffFirstLevel">Author </span><a href="../../../../Flare/CSH/Other-Activities/Header-Files/Importing-Header-Files.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Add the developer's header file to the project</a>.</li>
+            <li><span class="SetOffFirstLevel">Author </span><a href="../../../../Flare/CSH/Process/Adding-Alias-Files.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Add an alias file to the project</a>. <span class="topic-only">The alias file lets you populate the header file through a user-friendly interface.</span></li>
+            <li>
+                <p><span class="SetOffFirstLevel">Author </span><a href="../../../../Flare/CSH/Process/Creating-Assigning-Identifiers.htm#HowToAssignIDTopics" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Assign IDs for the header file</a>.</p>
+                <p>(Optional for HTML5)&#160;<a href="../../../../Flare/Skins/Process/Adding-Skins-Project.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Create a skin to use in CSH</a>, <a href="../../../../Flare/Skins/Other-Activities/HTML5/Setting-Skin-ID.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">set an ID for it</a>, <a href="../../../../Flare/CSH/Process/Creating-Assigning-Identifiers.htm#HowAssociateSkinsIDs" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">associate it with the appropriate IDs</a>, and in the target <a href="../../../../Flare/Skins/Other-Activities/General/Setting-All-Skins-Generated.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">set all skins to be generated</a>. Provide the developer with the skin ID.</p>
+            </li>
+            <li><span class="SetOffFirstLevel">Author </span><a href="../../../../Flare/CSH/Process/Associating-Alias-File-Target.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Associate the alias file with the target</a>. <span class="topic-only">This is necessary only if you have created more than one alias file.</span></li>
+            <li><span class="SetOffFirstLevel">Author </span><a href="../../../../Flare/Step5-Building-Publishing-Output/Building-Publishing-Output.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Generate output</a> and provide the developer with a copy of the output files.</li>
+            <li><span class="SetOffFirstLevel">Developer </span><a href="../../../../Flare/CSH/Process/Making-CSH-Calls.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Make CSH calls</a> using information in the header file and the skin ID, if applicable.</li>
+            <li><span class="SetOffFirstLevel">Developer </span>Create a new build of the software application.</li>
+            <li><span class="SetOffFirstLevel">Author </span>Install the new software build and <a href="../../../../Flare/CSH/Process/Testing-CSH.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">test the CSH</a>.</li>
+        </ol>
+    </body>
+</html>

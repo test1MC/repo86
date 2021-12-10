@@ -1,0 +1,494 @@
+﻿/*<meta conditions="Products.All-Products" />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/* CSS Variables */
+
+:root
+{
+	--Black: #000000;
+	--Capture: #20b2e7;
+	--Central2: #00657c;
+	--Dark-Gray: #303335;
+	--D2H: #6fbfa7;
+	--Example: #5308be;
+	--Flare: #bed420;
+	--Medium-Gray: #7d858a;
+	--Light-Gray: #d0d3d5;
+	--Light-Gray2: #fafafa;
+	--Lingo: #f48520;
+	--MadCap1: #0c3168;
+	--MadCap2: #1c5a97;
+	--MadCap3: #25bcc3;
+	--Note: #fdc80b;
+	--Pulse: #063ca6;
+	--Red: #cb1313;
+	--Warning: #ff6b31;
+	--White: #ffffff;
+}
+
+/* General */
+
+._Skins_Align_Align_Side_Navigation .body-container,
+._Skins_Capture_Capture_Side_Navigation .body-container,
+._Skins_Central_Central_Side_Navigation .body-container,
+._Skins_Contributor_Contributor_Side_Navigation .body-container,
+._Skins_D2H_D2H_Side_Navigation .body-container,
+._Skins_Doc_Bible_Doc_Bible_Side_Navigation .body-container,
+._Skins_Flare_Flare_Side_Navigation .body-container,
+._Skins_Lingo_Lingo_Side_Navigation .body-container,
+._Skins_Mimic_Mimic_Side_Navigation .body-container
+{
+	padding: 0;
+}
+
+.tab-bar .nav-search .search-bar
+{
+	display: none;
+}
+
+nav.title-bar	/*Left to right Gradient on header*/
+{
+	background: var(--Dark-Gray);
+	/* Side Nav Update*/
+}
+
+/* Headings */
+
+h1.Home
+{
+	font-size: 40pt;
+	font-family: 'Roboto Light';
+	font-weight: normal;
+	color: var(--White);
+	text-align: center;
+	line-height: 70px;
+	padding-left: 25%;
+	padding-right: 25%;
+	margin-top: 60px;
+}
+
+/* Links */
+
+a:link
+{
+	color: var(--MadCap2);
+	font-family: 'Roboto Light';
+	text-decoration: none;
+}
+
+a:link:hover
+{
+	color: var(--MadCap1);
+}
+
+div.Tiles-6-6-Home a:hover div.Tiles-6-6-Home-Microcontent a:hover div.Tiles-4-4-4 a:hover div.Tiles-4-4-4-Microcontent a:hover div.Tiles-4-8 a:hover div.Tiles-4-8-Microcontent a:hover div.Tiles-6-3-3 a:hover div.Tiles-6-3-3-Microcontent a:hover div.Tiles-6-6 a:hover div.Tiles-6-6-Microcontent a:hover div.Tiles-8-4 a:hover div.Tiles-8-4-Microcontent a:hover div.Tiles-12 a:hover div.Tiles-12-4-4-4 a:hover div.Tiles-12-6-6 a:hover div.Tiles-12-6-6-Microcontent a:hover div.Tiles-12-8-4 a:hover div.Tiles-12-8-4-Microcontent a:hover
+{
+	color: var(--MadCap1);
+	text-decoration: none;
+}
+
+div.Tiles-6-6-Home p.QuickLinks a:hover
+{
+	color: var(--MadCap3);
+}
+
+div.Tiles-12-Home a:hover div.Tiles-6-6-Home-Microcontent a:hover div.Tiles-4-4-4 a:hover div.Tiles-4-4-4-Microcontent a:hover div.Tiles-4-8 a:hover div.Tiles-4-8-Microcontent a:hover div.Tiles-6-3-3 a:hover div.Tiles-6-3-3-Microcontent a:hover div.Tiles-6-6 a:hover div.Tiles-6-6-Microcontent a:hover div.Tiles-8-4 a:hover div.Tiles-8-4-Microcontent a:hover div.Tiles-12 a:hover div.Tiles-12-4-4-4 a:hover div.Tiles-12-6-6 a:hover div.Tiles-12-6-6-Microcontent a:hover div.Tiles-12-8-4 a:hover div.Tiles-12-8-4-Microcontent a:hover
+{
+	color: var(--MadCap1);
+	text-decoration: none;
+}
+
+div.Tiles-12-Home p.QuickLinks a:hover
+{
+	color: var(--MadCap3);
+}
+
+/* Search */
+
+.search-bar._Skins_Home_Search_Bar.mc-component .search-submit-wrapper 
+{
+    padding-right: 70px;
+}
+
+	
+.search-bar._Skins_Home_Search_Bar.mc-component .search-filter-wrapper 
+{
+    padding-right: 70px;
+}
+	
+.search-bar._Skins_Home_Search_Bar.mc-component .search-submit 
+{
+    border-right: none;
+}
+
+._Skins_Align_Align_Side_Navigation .search-bar .search-filter-wrapper,
+._Skins_Capture_Capture_Side_Navigation .search-bar .search-filter-wrapper,
+._Skins_Central_Central_Side_Navigation .search-bar .search-filter-wrapper,
+._Skins_Contributor_Contributor_Side_Navigation .search-bar .search-filter-wrapper,
+._Skins_D2H_D2H_Side_Navigation .search-bar .search-filter-wrapper,
+._Skins_Doc_Bible_Doc_Bible_Side_Navigation .search-bar .search-filter-wrapper,
+._Skins_Flare_Flare_Side_Navigation .search-bar .search-filter-wrapper,
+._Skins_Lingo_Lingo_Side_Navigation .search-bar .search-filter-wrapper,
+._Skins_Mimic_Mimic_Side_Navigation .search-bar .search-filter-wrapper
+{
+	padding-right: 70px;
+}
+
+._Skins_Align_Align_Side_Navigation .search-bar .search-submit-wrapper,
+._Skins_Capture_Capture_Side_Navigation .search-bar .search-submit-wrapper,
+._Skins_Central_Central_Side_Navigation .search-bar .search-submit-wrapper,
+._Skins_Contributor_Contributor_Side_Navigation .search-bar .search-submit-wrapper,
+._Skins_D2H_D2H_Side_Navigation .search-bar .search-submit-wrapper,
+._Skins_Doc_Bible_Doc_Bible_Side_Navigation .search-bar .search-submit-wrapper,
+._Skins_Flare_Flare_Side_Navigation .search-bar .search-submit-wrapper,
+._Skins_Lingo_Lingo_Side_Navigation .search-bar .search-submit-wrapper,
+._Skins_Mimic_Mimic_Side_Navigation .search-bar .search-submit-wrapper
+{
+	border-right: none;
+	padding-right: 70px;
+}
+
+.search-bar.search-bar-container._Skins_Shared_Home_Search_Bar.mc-component .search-submit
+{
+    border-right: none;
+}
+
+.search-bar._Skins_Shared_Home_Search_Bar.mc-component .search-filter:hover
+{
+    background: #ffffff url('../../Images/Shared/All/Interface/Buttons/icon-filter-20px-hover.png') no-repeat center center;;
+}
+
+/* Tiles */
+
+div.Tiles-6-6-Home	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin: 2%;
+}
+
+div.Tiles-6-6-Home::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.Tiles-6-6-Home::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.Tiles-6-6-Home > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: var(--White);
+	vertical-align: bottom;
+	padding: 30px;
+	margin: 2%;
+}
+
+div.Tiles-6-6-Home > div:nth-child(1)
+{
+	width: 46%;
+	background-color: var(--Light-Gray2);
+}
+
+div.Tiles-6-6-Home > div:nth-child(2)
+{
+	width: 46%;
+	background-color: var(--Light-Gray2);
+}
+
+div.Tiles-6-6-Home h2
+{
+	text-align: center;
+	background: none;
+}
+
+div.Tiles-6-6-Home p
+{
+	font-family: 'Roboto Light';
+	font-size: 14pt;
+	text-align: center;
+}
+
+div.Tiles-6-6-Home p.QuickLinks,
+div.Tiles-6-6-Home p.QuickLinks a
+{
+	color: var(--MadCap2);
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+div.Tiles-6-6-Home p.ResourceIcon
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+div.Tiles-6-6-Home p.ResourceText
+{
+	color: var(--Dark Gray);
+	font-family: 'Roboto Light';
+	font-size: 11pt;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding-top: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div.Tiles-6-6-Home p.TableText
+{
+	text-align: left;
+}
+
+div.Tiles-6-6-Home ul
+{
+	list-style-image: url('../../Images/Shared/All/Interface/Icons/Home-Check-ico.png');
+}
+
+div.Tiles-12-Home	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin: 2%;
+}
+
+div.Tiles-12-Home::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.Tiles-12-Home::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.Tiles-12-Home > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: var(--White);
+	vertical-align: bottom;
+	padding: 30px;
+	margin: 2%;
+}
+
+div.Tiles-12-Home > div:nth-child(1)
+{
+	width: 92%;
+	background-color: var(--Light-Gray2);
+}
+
+div.Tiles-12-Home h2
+{
+	text-align: center;
+	background: none;
+}
+
+div.Tiles-12-Home p
+{
+	font-family: 'Roboto Light';
+	font-size: 14pt;
+	text-align: center;
+}
+
+div.Tiles-12-Home p.QuickLinks,
+div.Tiles-12-Home p.QuickLinks a
+{
+	color: var(--MadCap2);
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+div.Tiles-12-Home p.ResourceIcon
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+div.Tiles-12-Home p.ResourceText
+{
+	color: var(--Dark Gray);
+	font-family: 'Roboto Light';
+	font-size: 11pt;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding-top: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div.Tiles-12-Home p.TableText
+{
+	text-align: left;
+}
+
+div.Tiles-12-Home ul
+{
+	list-style-image: url('../../Images/Shared/All/Interface/Icons/Home-Check-ico.png');
+}
+
+
+	
+@media tablet
+{
+	/* Headings */
+
+	h1.Home
+	{
+		font-size: 34pt;
+		line-height: 50px;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	/* Search */
+
+	hr.Search-Input
+	{
+		border: 2px inset;
+	}
+
+	/* Tiles */
+
+	div.Tiles-6-6-Home > div:nth-child(1)
+	{
+		margin-left: 0%;
+		width: 46%;
+	}
+
+	div.Tiles-6-6-Home > div:nth-child(2)
+	{
+		margin-left: 0%;
+		width: 46%;
+	}
+
+	div.Tiles-6-6-Home a:hover
+	{
+		color: var(--MadCap1);
+	}
+
+	div.Tiles-12-Home > div:nth-child(1)
+	{
+		margin-left: 0%;
+		width: 92%;
+	}
+
+	div.Tiles-12-Home a:hover
+	{
+		color: var(--MadCap1);
+	}
+}
+
+@media mobile
+{
+	/* Headings */
+
+	h1.Home
+	{
+		font-size: 26pt;
+		line-height: 40px;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	
+	div.Tiles-6-6-Home h2,
+	div.Tiles-12-Home h2
+	{
+		font-size: 22pt;
+	}
+	
+	/* Search */
+		
+	.search-bar._Skins_Home_Search_Bar.mc-component .search-submit-wrapper {
+
+    padding-right: 10px;
+	}
+
+	.search-bar._Skins_Home_Search_Bar.mc-component .search-filter-wrapper {
+
+    padding-right: 10px;
+	}
+	
+	._Skins_Align_Align_Side_Navigation .search-bar .search-filter-wrapper,
+	._Skins_Capture_Capture_Side_Navigation .search-bar .search-filter-wrapper,
+	._Skins_Central_Central_Side_Navigation .search-bar .search-filter-wrapper,
+	._Skins_Contributor_Contributor_Side_Navigation .search-bar .search-filter-wrapper,
+	._Skins_D2H_D2H_Side_Navigation .search-bar .search-filter-wrapper,
+	._Skins_Doc_Bible_Doc_Bible_Side_Navigation .search-bar .search-filter-wrapper,
+	._Skins_Flare_Flare_Side_Navigation .search-bar .search-filter-wrapper,
+	._Skins_Lingo_Lingo_Side_Navigation .search-bar .search-filter-wrapper,
+	._Skins_Mimic_Mimic_Side_Navigation .search-bar .search-filter-wrapper
+	{
+		padding-right: 10px;
+	}
+
+	._Skins_Align_Align_Side_Navigation .search-bar .search-submit-wrapper,
+	._Skins_Capture_Capture_Side_Navigation .search-bar .search-submit-wrapper,
+	._Skins_Central_Central_Side_Navigation .search-bar .search-submit-wrapper,
+	._Skins_Contributor_Contributor_Side_Navigation .search-bar .search-submit-wrapper,
+	._Skins_D2H_D2H_Side_Navigation .search-bar .search-submit-wrapper,
+	._Skins_Doc_Bible_Doc_Bible_Side_Navigation .search-bar .search-submit-wrapper,
+	._Skins_Flare_Flare_Side_Navigation .search-bar .search-submit-wrapper,
+	._Skins_Lingo_Lingo_Side_Navigation .search-bar .search-submit-wrapper,
+	._Skins_Mimic_Mimic_Side_Navigation .search-bar .search-submit-wrapper
+	{
+		border-right: none;
+		padding-right: 10px;
+	}
+	
+	.search-bar._Skins_Shared_Home_Search_Bar.mc-component .search-filter:hover
+	{
+	    background: #ffffff url('../../Images/Shared/All/Interface/Buttons/icon-filter-20px-hover.png') no-repeat center center;;
+	}
+
+	/* Tiles */
+
+	div.Tiles-6-6-Home > div
+	{
+		margin-top: 2%;
+	}
+
+	div.Tiles-6-6-Home > div:nth-child(1)
+	{
+		width: 92%;
+	}
+
+	div.Tiles-6-6-Home > div:nth-child(2)
+	{
+		border-bottom: 2px solid var(--Light-Gray2);
+		border-left: none;
+		border-right: none;
+		padding-left: 0;
+		width: 92%;
+	}
+
+	div.Tiles-12-Home > div
+	{
+		margin-top: 2%;
+	}
+
+	div.Tiles-12-Home > div:nth-child(1)
+	{
+		width: 92%;
+	}
+	
+
+}

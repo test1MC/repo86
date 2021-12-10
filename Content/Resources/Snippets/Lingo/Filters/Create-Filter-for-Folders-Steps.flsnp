@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="Create-Project-Step-Filters.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1 or Snippets.Snippet3]" />
+            </li>
+            <li>If you want to create file type filters for the files within the folder, from the <span class="Emphasis">Filter</span> drop-down select <span class="Emphasis">Customize Folder</span>. The File Types Filters dialog opens. </li>
+            <li>
+                <p>In the <span class="Emphasis">Translate</span> column, select the file types you want to import. You can click the <span class="Emphasis">Select All</span> check box to add all the file types at once.</p>
+                <p>
+                    <img src="../../../Images/Lingo/Interface/Dialogs/File-Types-Filters.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Filter</span> drop-down, select the filter you want to use for each translatable file type. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You cannot select a filter for file types that cannot be translated, such as image files.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+            <li>
+                <p>If you want to create a new filter, from the <span class="Emphasis">Filter</span> drop-down, select <span class="Emphasis">Create New</span>. </p>
+                <MadCap:snippetBlock src="Unsupported-Files-Folders.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

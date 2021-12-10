@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol start="1" style="list-style-type: lower-alpha;">
+            <li>
+                <p>
+                    <MadCap:snippetText src="Source-Control-Bind-Git1.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../../Images/Shared/Fl-Li/Source-Control/Source-Control-Bind-Git.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Source-Control-Bind-Git2.flsnp" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:snippetText src="../../All/General/May-Need-Obtain-Info-Sys-Admin.flsnp" /> </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="Source-Control-Bind-Git3.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Source-Control-Bind-Git4.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Source-Control-Bind-Git5.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Source-Control-Bind-Git6.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="Source-Control-Bind-Git7.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="Source-Control-Bind-Git8.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="Optional-Comment-Field1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Source-Control-Bind-Project-Dialog-Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Git-HTTP1.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2]exclude[Snippets.Snippet1 or Snippets.Snippet3]" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Git-SSH1.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2]exclude[Snippets.Snippet1 or Snippets.Snippet3]" />
+                </p>
+                <ol class="LowerRoman">
+                    <li>
+                        <MadCap:snippetText src="Git-SSH2.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="Git-SSH3.flsnp" />
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="Git-SSH4.flsnp" />
+                        </p>
+                        <MadCap:snippetBlock src="SSH-Keys.flsnp" />
+                        <MadCap:snippetBlock src="Examples-SSH-Keys.flsnp" />
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>

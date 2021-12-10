@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1" MadCap:conditions="General.Print-Only">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1" colspan="2" MadCap:conditions="">
+                        <p class="TableTextHead">Position Cursor</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Beginning of Line</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">HOME</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet3,Snippets.Snippet6" class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Beginning of Next Block</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows" MadCap:conditions="">
+                        <p class="TableText">CTRL+DOWN</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Beginning of Next Word</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">CTRL+RIGHT</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet3,Snippets.Snippet6" class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Beginning of Previous Block</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows" MadCap:conditions="">
+                        <p class="TableText">CTRL+UP</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Beginning of Previous Word</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">CTRL+LEFT</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-DarkerRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">End of Line</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">END</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet6" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Next Portion of Screen (if Web Layout view) or Next Page (if Print Layout view)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">PAGE DOWN</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet6" class="TableStyle-Fancy-Body-DarkerRows">
+                    <td style="border-bottom-style: solid;border-bottom-width: 0px;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;" class="TableStyle-Fancy-BodyB-Regular-DarkerRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Previous Portion of Screen (if Web Layout view) or Previous Page (if Print Layout view)</p>
+                    </td>
+                    <td style="border-bottom-style: solid;border-bottom-width: 0px;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;" class="TableStyle-Fancy-BodyA-Regular-DarkerRows" MadCap:conditions="">
+                        <p class="TableText">PAGE UP</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

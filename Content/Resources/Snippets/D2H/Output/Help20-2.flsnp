@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="392" MadCap:lastWidth="1370">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Details</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Issues</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Deliverable File(s)</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">File Location</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">Help Target for those developing Help for Visual Studio 2002-2008 only.</p>
+                        <p class="TableText">Deliverable can be the reference documentation only, or Doc-To-Help can be used to add narrative text.  </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">Resembles Microsoft MSDN collection and uses some of the same underlying technology</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">Format can only be included in Help for Visual Studio 2002-2008. </p>
+                        <p class="TableText">Programmers who distribute .NET components can integrate Help 2.0, because the .NET tools include the run-time components necessary to view Help 2.0 Help systems.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">.HxS (topic files), .HxC (project file), .HxF (include file), .HxT (table of contents). .HxA (attributes), .HxK (index)Your deliverables may vary based on your application. </p>
+                        <p class="TableText">For more on Microsoft Help 2.0 redistributables, see:</p>
+                        <p class="TableTextSmall"><a href="http://msdn.microsoft.com/en-us/library/bb165722(VS.80).aspx" target="_blank">http://msdn.microsoft.com/en-us/library/bb165722(VS.80).aspx</a>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">By default, the MSHelp folder of your project.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

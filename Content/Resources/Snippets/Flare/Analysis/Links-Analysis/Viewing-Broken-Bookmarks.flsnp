@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Broken-Bookmarks-Summary.flsnp" />&#160;<MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Interface/Ribbons-Toolbars-Menus/Ribbons/Analysis-Ribbon.htm">Analysis Ribbon</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+        <h2>How to View and Fix Broken Bookmarks</h2>
+        <ol>
+            <li>Open a content file (e.g., topic). </li>
+            <li> Select&#160;<span class="Emphasis">Analysis &gt; Links &gt; Broken Bookmarks</span>. <p>The Broken Bookmarks window pane opens. The area at the bottom of the window pane displays all files that contain bookmark links to the open file that are broken.</p></li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../../Nav-Links/Broken-Link-File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../General/Folder-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Link </span>
+                        <MadCap:snippetText src="../../Nav-Links/Broken-Link-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Type </span>
+                        <MadCap:snippetText src="../../Nav-Links/Broken-Link-Type-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Link Text </span>
+                        <MadCap:snippetText src="../../Nav-Links/Link-Text-Description2.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Link Tag </span>
+                        <MadCap:snippetText src="../../Nav-Links/Link-Tag-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Extension </span>
+                        <MadCap:snippetText src="../../Nav-Links/Broken-Link-Extension-Description.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>Double-click the row that you want to correct. The file opens in the appropriate editor or dialog. For example, if the link appears in a topic, the XML Editor opens with the broken link highlighted.</li>
+            <li>Redirect the link as necessary (e.g., right-click on the link and select <span class="Emphasis">Edit Hyperlink</span> or <span class="Emphasis">Edit Cross-Reference</span>).</li>
+        </ol>
+        <MadCap:snippetBlock src="../Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also see broken bookmarks in a file if you have the Link Viewer window pane open. See <MadCap:xref href="../../../../../Flare/Folders-Files/Viewing-File-Links.htm">Viewing File Links</MadCap:xref>.</p>
+        </div>
+    </body>
+</html>

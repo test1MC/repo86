@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="855" MadCap:lastWidth="1537">
+    <body>
+        <p>Most team authoring actions create a temporary lock in the repository for the duration of the action. This is done to prevent conflicts between different team members who are using the repository simultaneously. This temporary lock is created in a special file, &lt;project_name&gt;.dhv, located in the D2HTeamInfo folder created by Doc-To-Help. Normally, these locks are only temporary. However, if a team authoring action is not normally closed due to an unexpected crash or power failure, it may leave the project permanently locked in the repository. If this happens, no team members will be able to use the repository, and Doc-To-Help will display errors saying the repository is busy doing other tasks, although no author is actually doing anything with the repository. This is a very rare occurrence, but it may happen. If it does, the administrator can use C1D2HTeamAdmin.exe to remove the lock from the &lt;project_name&gt;.dhv file. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Unlock the DHV File in the Repository</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Double-click <span class="Emphasis">C1D2HTeamAdmin.exe</span>. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>Select <span class="Emphasis">File &gt; Open Team Project</span> to connect to the repository. The Load Remote Project dialog opens. </li>
+                    <li>Select the <span class="Emphasis">Repository Type</span>. (If necessary, enter your login credentials.)</li>
+                    <li>Select a team project (or from the drop-down choose <span class="Emphasis">Select Team Project</span>  to browse for a project) and click <span class="Emphasis">OK</span>. </li>
+                    <li>On the left click the <span class="Emphasis">Version info</span> node and on the right select the <span class="Emphasis">&lt;project name&gt;.dhv</span> file.</li>
+                    <li>On the toolbar click the <span class="Emphasis">Unlock</span> button or from the right-click menu choose <span class="Emphasis">Unlock</span>. </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">You can use the Unlock All button on the toolbar to release all locks from all files, but this should be done with extreme caution.</p>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

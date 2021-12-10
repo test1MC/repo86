@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have two HTML5 targets in a project—one named "Target1" and the other "Target2." In addition, you have a couple of conditions named after each of these targets. The Target1 condition is associated with green, and the Target2 condition is associated with orange. Each target is set to include its conditions but exclude those from the other target.</p>
+            <p>In a micro content file called "Interface," you have five phrases. You want the phrase "file format" to be included as micro content only in Target 1, and you want the phrase "synchronize" to be included as micro content only in Target 2. Therefore, you apply conditions like this.</p>
+            <p>
+                <img src="../../../../Images/Flare/Conditions/Micro-Content-Conditions2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>After building and viewing the Target1 output, you search for each of these. The "file format" micro content displays.</p>
+            <p>
+                <img src="../../../../Images/Flare/Conditions/Micro-Content-Conditions3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <p>But the "synchronize" micro content does not display.</p>
+            <p>
+                <img src="../../../../Images/Flare/Conditions/Micro-Content-Conditions4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Then you build and view the Target2 output. The "synchronize" micro content displays.</p>
+            <p>
+                <img src="../../../../Images/Flare/Conditions/Micro-Content-Conditions5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>But the "file format" micro content does not display.</p>
+            <p>
+                <img src="../../../../Images/Flare/Conditions/Micro-Content-Conditions6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

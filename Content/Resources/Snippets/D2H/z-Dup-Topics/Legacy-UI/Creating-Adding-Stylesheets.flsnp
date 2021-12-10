@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>A stylesheet is a jQuery or Wijmo theme that controls the appearance (colors, fonts, etc.) of your NetHelp theme.</p>
+        <p>Doc-To-Help includes predefined stylesheets (and additional stylesheets for the Responsive theme), but you can download additional themes, or create your own, with the jQuery Theme Roller. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add a New jQuery or jQuery Mobile Theme Stylesheet</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet1">On the <span class="Emphasis">Target</span> ribbon, click the <span class="Emphasis">Designer</span> button in the Theme section.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">On the <span class="Emphasis">Home</span> ribbon, click the <span class="Emphasis">Theme</span> drop-down and select <span class="Emphasis">Edit Theme</span>.</li>
+                    <li>In the Theme Designer, click the <span class="Emphasis">Add New Style Sheet</span> button <img src="../../../../Images/D2H/Interface/Buttons/Add-Document-btn.png" class="ReduceButtonSize" />. The Add New Style Sheet dialog opens.</li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following.flsnp" />
+                        </p>
+                        <ul>
+                            <li>If you already have a theme you would like to add, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> and navigate to your file.</li>
+                            <li>
+                                <p>If you want to create or download a theme for Tabs or Accordion, open the jQuery UI Theme Roller website at:</p>
+                                <p><a href="http://jqueryui.com/themeroller/" target="_blank">http://jqueryui.com/themeroller/</a>
+                                </p>
+                                <p>Download the theme for version 1.12.1 and save it on your machine. Then in Doc-To-Help's Add New Style Sheet dialog, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> and navigate to the downloaded file.</p>
+                                <p>For the Responsive theme, use the jQuery Mobile Theme Roller website at:</p>
+                                <p><a href="http://themeroller.jquerymobile.com/?ver=1.3.2" target="_blank">http://themeroller.jquerymobile.com/?ver=1.3.2</a>
+                                </p>
+                                <p>Download the theme for version 1.3.2 and save it on your machine. Then in Doc-To-Help's Add New Style Sheet dialog, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> and navigate to the downloaded file.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Click <span class="Emphasis">Next</span>. The file name will display in the "Style Sheet name" field.</p>
+                    </li>
+                    <li>
+                        <p>Click <span class="Emphasis">Finish</span>. In the Theme Designer, the "Style sheet" field will automatically choose the new theme and display it.</p>
+                    </li>
+                </ol>
+                <p>After you add a stylesheet using the Add New Style sheet dialog, it will be stored on your computer in C:\Users\[username]\Documents\My Doc-To-Help Projects\Doc-To-Help\Themes\Common\NetHelp 2.0\css\jquery-ui\[name of new theme]. </p>
+                <p>To learn more about using the jQuery UI Theme Roller, see:</p>
+                <p><a href="http://jqueryui.com/docs/Theming/Themeroller" target="_blank">http://jqueryui.com/docs/Theming/Themeroller</a>
+                </p>
+                <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                <p>To learn more about the jQuery Mobile Theme Roller, see:</p>
+                <p><a href="http://jquerymobile.com/resources/" target="_blank">http://jquerymobile.com/resources/</a>
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Update Your JQuery UI&#160;StyleSheet</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>These steps apply to themes based on Accordion or Tab themes. It does not affect Responsive themes, which use jQueryMobile stylesheet.</p>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet1">On the <span class="Emphasis">Target</span> ribbon, click the <span class="Emphasis">Designer</span> button in the Theme section.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">On the <span class="Emphasis">Home</span> ribbon, click the <span class="Emphasis">Theme</span> drop-down and select <span class="Emphasis">Edit Theme</span>.</li>
+                    <li>In the Theme Designer, select the style sheet you want to upgrade from the <span class="Emphasis">Style sheet</span> drop-down.<br /><img src="../../../../Images/D2H/Themes/Theme-Designer-Stylesheet.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" /></li>
+                    <li>Click the <span class="Emphasis">Open in ThemeRoller</span> button <img src="../../../../Images/D2H/Interface/Buttons/Theme-Designer-Open-ThemeRoller-btn.png" />. Your browser will open to the jQuery-UI website.<br /> <img src="../../../../Images/D2H/Themes/ThemeRoller.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" /></li>
+                    <li>Click <span class="Emphasis">Download</span> theme on the left side of this page.</li>
+                    <li>Select version 1.12.1.</li>
+                    <li>Scroll down the page and click <span class="Emphasis">Download</span>. The zip file for the new style sheet version will download. You should see version 1.12.1 listed in the name of the downloaded file.</li>
+                    <li>After the download is complete, go back to the Theme Designer.</li>
+                    <li>Click the <span class="Emphasis">Add new Style Sheet from Themeroller</span> button.<br /> <img src="../../../../Images/D2H/Themes/Theme-Designer-Add-New-Stylesheet.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" /></li>
+                    <li>In the Add New Style Sheet dialog, browse to the location where you saved the version 1.12.1 stylesheet.</li>
+                    <li>Click <span class="Emphasis">Next</span>.</li>
+                    <li>Type in the name of the new style sheet you just downloaded, and then click <span class="Emphasis">Finish</span>. Your new style sheet is now ready to be used in your theme.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+    </body>
+</html>

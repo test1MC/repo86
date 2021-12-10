@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li>Open an HTML5 Tripane skin and select the <span class="Emphasis">Setup</span> tab.</li>
+            <li>In the <span class="Emphasis">Responsive Output Settings</span> section, select <span class="Emphasis">Enable responsive output</span>.</li>
+            <li>(Optional) Responsive output works by automatically changing the display once the viewer reaches a certain width. You can change the maximum width at which the display changes from one medium to the next. Use the following to specify responsive settings for a skin. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information about making topic content responsive, see <MadCap:xref href="../../../../Flare/Responsive-Design/Responsive-Content.htm">Responsive Content</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-HTML5-Guide">For more information about making topic content responsive, see <MadCap:xref href="../../../../Print-Only-Topics/Flare/Responsive-Design/Responsive-Content.htm">Responsive Content</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide">For more information about making topic content responsive, see the online Help.</MadCap:conditionalText><ul><li><span class="SetOffFirstLevel">Tablet Max-Width </span>Enter the number of pixels for the maximum width of a Tablet view.</li><li><span class="SetOffFirstLevel">Mobile Max-Width </span>Enter the number of pixels for the maximum width of a Mobile view.</li></ul><MadCap:snippetBlock src="Example-Responsive-Output.flsnp" /><p>Therefore, the Web medium is named as it is because the largest size is usually meant for a regular web browser. The next size down is often used for tablets, such as iPads, so that medium is called "Tablet." And the smallest size is controlled by the Mobile medium, because a display that small is usually seen in mobile phones. </p></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

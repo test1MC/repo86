@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div>
+            <div class="Tiles-6-6-Microcontent">
+                <div>
+                    <h2>How to Create a Condition</h2>
+                    <ol>
+                        <li>
+                            <p>In the Project Organizer, expand the <span class="Emphasis">Conditional Text</span> folder and double-click a condition tag set.</p>
+                            <p class="topic-only">If it is a new condition tag set, some condition tags may already be provided for you. Each condition tag is associated with a color, making it easy to identify conditioned content in the <MadCap:variable name="Other.Product" /> interface.</p>
+                        </li>
+                        <li>In the Condition Tag Set Editor, click <img src="../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/New-Item-btn.png" class="ReduceButtonSize" />.</li>
+                        <li>
+                            <p>On the <span class="Emphasis">NewTag</span> row, press <span class="Emphasis">F2</span> and give the condition a name.</p>
+                            <p class="topic-only" MadCap:conditions="General.Online-Only">
+                                <img src="../../../Images/Flare/Micro-Content/QS-Create-Condition.gif" />
+                            </p>
+                            <div class="topic-only">
+                                <p>You can also do any of the following:</p>
+                                <p class="Subheading">Rename a Tag </p>
+                                <ol type="1" class="LowerAlpha">
+                                    <li>Click the tag row and press <span class="Emphasis">F2</span>.</li>
+                                    <li>Type a new name and press <span class="Emphasis">ENTER</span>.</li>
+                                </ol>
+                                <p class="Subheading">Change the Color of a Tag </p>
+                                <ol type="1" class="LowerAlpha">
+                                    <li>Click the <span class="Emphasis">Background</span> drop-down arrow and select <span class="Emphasis">Pick Color</span>.</li>
+                                    <li>Select a new color and click <b>OK</b>.</li>
+                                </ol>
+                                <p class="Subheading">Add Comments to a Tag </p>
+                                <p>You can add internal comments to indicate the purpose of a tag. Comments will not be displayed in the output.</p>
+                                <ol type="1" class="LowerAlpha">
+                                    <li>Click in the <span class="Emphasis">Comment</span> cell of the tag row.</li>
+                                    <li>Press <span class="Emphasis">F2</span>.</li>
+                                    <li>Type the comment and press <span class="Emphasis">ENTER</span>.</li>
+                                </ol>
+                            </div>
+                        </li>
+                        <li>
+                            <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                        </li>
+                    </ol>
+                </div>
+                <div class="Space-Above-Micro-Content-Cells micro-content-only">
+                    <p class="center" style="text-align: center;">
+                        <img src="../../../Images/Flare/Micro-Content/QS-Create-Condition.gif" />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

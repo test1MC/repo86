@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Right-click on the snippet where it is inserted and select <span class="Emphasis">Select New Snippet</span>. The Insert Snippet Link dialog opens.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Select-Snippet.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../Images/Flare/Snippets/Insert-Snippet-Link.png" alt="" title="" class="MaxWidth65Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/SharePoint/Multi-View-Table2.flsnp" />
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you select a snippet file outside the project, that file is then copied and placed inside the project. The image file is stored in the Resources\Snippets folder of the Content Explorer.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The original snippet is replaced by the new snippet.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

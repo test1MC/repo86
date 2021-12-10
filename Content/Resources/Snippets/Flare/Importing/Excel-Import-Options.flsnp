@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1320" MadCap:lastWidth="1017">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul type="1">
+            <li>
+                <p>
+                    <span class="SetOffFirstLevel">Import Worksheets as </span> Select the type of Flare file where you want your spreadsheets to be imported.</p>
+                <ul type="1">
+                    <li>
+                        <span class="SetOffSecondLevel">Topics </span>Flare will convert your content and place worksheets into topics. Title text on a worksheet tab will become a heading in the Flare topic.</li>
+                    <li>
+                        <span class="SetOffSecondLevel">Snippets </span>Flare will convert your content and place each worksheet into a separate snippet.</li>
+                </ul>
+                <p>If you selected “Snippets” above, you can also choose from the following options:</p>
+                <ul type="1">
+                    <li>
+                        <span class="SetOffSecondLevel">Include tab titles as headings </span>Any title text on your worksheet tabs will become headings in the Flare snippets.</li>
+                    <li>
+                        <span class="SetOffSecondLevel">Create a topic with snippets </span>Flare will create a topic and place the snippets within it. Otherwise, only the snippets will be created.</li>
+                </ul>
+            </li>
+            <li>
+                <span class="SetOffFirstLevel">Organize worksheets into different folders per workbook </span>Select this option if you are importing multiple workbooks and want the resulting files to be stored in separate folders in Flare. If you do not select this option when importing multiple workbooks, the files will all be placed in the same folder in Flare.</li>
+            <li>
+                <span class="SetOffFirstLevel">Import hidden rows/columns </span>This includes any hidden rows and columns in the import. Otherwise, they will not be part of the imported content.</li>
+            <li>
+                <p>
+                    <span class="SetOffFirstLevel">Use first row as column header </span>Select this option if you want Flare to convert the first row of every spreadsheet into column headers in the Flare tables. If you do not select this option, the first row will be treated like all the other rows.</p>
+            </li>
+            <li>
+                <p>
+                    <span class="SetOffFirstLevel">Import equations based on settings </span>When importing Excel files that contain equations, you can select this option to convert them to MathML (the web standard) or images. If you disable this option, equations from Excel are not converted to Flare.</p>
+                <MadCap:snippetBlock src="../Equations/Note-Import-Equations-Excel1.flsnp" />
+                <MadCap:snippetBlock src="../Equations/Note-Import-Equations-Excel2.flsnp" />
+                <MadCap:snippetBlock src="../Equations/Note-Import-Equations-Excel3.flsnp" />
+                <MadCap:snippetBlock src="../Equations/Note-Import-Equations-Excel4.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <li>
+                <p>
+                    <span class="SetOffFirstLevel">Import charts as </span>Any charts in your spreadsheets will be imported as images. Use this field to select the type of image format to be used.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">An image displaying an imported chart is automatically placed below the worksheet (in the topic or snippet where the worksheet was converted to a table).</p>
+                </div>
+            </li>
+            <li>
+                <span class="SetOffFirstLevel">Split topics or snippets by maximum rows </span>You can select this option if you have spreadsheets with a lot of rows and want to divide them into multiple topics or snippets (rather than one very long topic or snippet). After enabling this option, enter the number of rows that you want to allow in each topic or snippet before a new topic or snippet is created.</li>
+            <li>
+                <span class="SetOffFirstLevel">
+                    <MadCap:keyword term="Easy Sync;Auto-reimport;Importing:auto-reimporting;Auto-Sync" />Auto-reimport before 'Generate Output' </span>
+                <MadCap:snippetText src="Auto-Reimport-Option.flsnp" />
+            </li>
+        </ul>
+    </body>
+</html>

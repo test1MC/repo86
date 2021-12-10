@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Tutorials/Flare-Autonumbers.flmsp');">
+    <head>
+        <meta name="description" content="When you incorporate autonumbering into content, you do so by creating an autonumbering format, which consists of one or more commands." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="Autonumbers" />Autonumber Formats and Commands</h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Autonumbers/Autonumbers-2.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Autonumbers/Autonumbers-Types-Commands.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Autonumbers/Autonumbers-Format-Building-Block.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Guide" />
+        <h2>Autonumber Commands</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Autonumbers/Autonumbers-Commands.flsnp" />
+        <div class="IndentMedium">
+            <h3>Chapter, Section, and Volume Number</h3>
+            <MadCap:microContent id="microcontent1">
+                <div>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides-Tutorials/Autonumbers.flsnp" />
+                    <p>Commands such as ({chapnum}, {secnum}, {volnum}) let you organize your output into different areas and apply number sequences to them (e.g., Chapter 1, Chapter 2, Chapter 3).</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers37.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </MadCap:microContent>
+            <h3>Counters</h3>
+            <p>These are commands (such as {n}, {n=1}, {n+}, {r}, {A}, and {Gn}) that provide information about what types of numbers should be used and how they should be incremented. </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Guide" />
+            <h3>Series Labels</h3>
+            <p>These are prefixes to a format (composed of one or two letters and a colon) that provide a way to limit numbering sequences for different purposes.</p>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If you are creating autonumbers for procedures and figure captions in the same content flow, you do not want them to use the same numbering sequence. Otherwise, you might have something like:</p>
+                <div class="IndentSmall">
+                    <p>Step 1.</p>
+                    <p>Step 2.</p>
+                    <p>Step 3.</p>
+                    <p>Figure 4.</p>
+                    <p>Figure 5.</p>
+                    <p>Figure 6.</p>
+                </div>
+                <p>When what you really want is:</p>
+                <div class="IndentSmall">
+                    <p>Step 1.</p>
+                    <p>Step 2.</p>
+                    <p>Step 3.</p>
+                    <p>Figure 1.</p>
+                    <p>Figure 2.</p>
+                    <p>Figure 3.</p>
+                </div>
+                <p>To keep something like this from happening, you can add series labels to the format (e.g., start the step format with S: and start the figure format with F:).</p>
+            </div>
+            <p>Although <MadCap:variable name="Other.Product" /> includes H: in the list of available commands, that is simply one example of a series label. The letter that you use as a series label is arbitrary. You can replace H and choose any letter of the alphabet, followed by a colon. The exception to this is a two-letter series label, in which the first letter represents a series that encompasses more than just one topic. For example, CH is an example of a series label that applies across an entire chapter. The H can be replaced with another letter, but you must keep the C in order to use this command. Finally, it's important to note that a series label must always be the first element in an autonumber format.</p>
+        </div>
+        <h2>
+            <MadCap:keyword term="Autonumbers:file commands;File commands:auto-numbers" />File Commands</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Autonumbers/File-Commands.flsnp" />
+        <h2>
+            <MadCap:keyword term="Autonumbers:format commands;Formatting:autonumbers" />Format Commands</h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Autonumbers/Format-Commands.flsnp" /> </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Autonumbers/Format-Commands-Word.flsnp" />
+        <h2>
+            <MadCap:keyword term="Autonumbers:page commands;Page commands:Auto-numbers" />Page Commands</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Autonumbers/Page-Commands.flsnp" />
+        <h2>
+            <MadCap:keyword term="Autonumbers:Text commands;Text commands:auto-numbers" />Text Commands</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Autonumbers/Text-Commands.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+    </body>
+</html>

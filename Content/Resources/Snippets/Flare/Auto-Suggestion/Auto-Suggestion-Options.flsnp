@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Auto-Suggestion/Auto-Suggestion-Options2.flsnp" />
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Phrases From Custom List </span>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Auto-Suggestion/Auto-Suggestion-Options3.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../Images/Flare/Auto-Suggestion/Auto-Suggestion-List1.png" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../Images/Flare/Auto-Suggestion/Auto-Suggestion-List2.png" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Auto suggestion:variables;Variables:auto suggestion" />Variables </span>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Auto-Suggestion/Auto-Suggestion-Options5.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Auto suggestion:snippets;Snippets:auto suggestion" />Snippets </span>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Snippets/Snippet-Auto-Suggestion-Summary.flsnp" />
+                    <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> See <MadCap:xref href="../../../../Flare/Snippets/Snippets.htm" MadCap:conditions="Products.Flare">About Snippets</MadCap:xref>.</MadCap:conditionalText>
+                </p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Snippets/Example-Snippet-Auto-Suggestion.flsnp" MadCap:conditions="General.Online-Only" />
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">Opens the Select Remote for Synchronize dialog, which lets you select the remote you want to use for a pull and push of files. </p>
+        <p class="TableText">After you select the repository, <MadCap:variable name="Other.Product" /> pulls the remote files from the Git repository and merges them with your local database. Then <MadCap:variable name="Other.Product" /> pushes your local changes back to the remote Git repository.</p>
+        <p class="TableText"> If necessary, <MadCap:variable name="Other.Product" /> will perform a commit before synchronizing your files.</p>
+        <p class="TableText">You will see this option if your project is bound to Git.</p>
+        <p class="TableText">
+            <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Source-Control/Git/Other-Activities/Synchronizing-Files.htm">Synchronizing Source Control Files</MadCap:xref>.</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="Products.Lingo">See <MadCap:xref href="../../../../../Lingo/Source-Control/Git/Other-Activities/Synchronizing-Files.htm">Synchronizing Source Control Files—Git</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+    </body>
+</html>

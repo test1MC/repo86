@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="SetOffFirstLevel">Broken Bookmarks </span>These are links to bookmarks that are broken. In Flare, you need to fix the issue (e.g., remove or replace the bookmark link).</li>
+            <li><span class="SetOffFirstLevel">Broken Links </span>These are links—such as cross-references—that are broken. In Flare, you need to fix the issue (e.g., remove or replace the link).</li>
+            <li>
+                <MadCap:snippetBlock src="Broken-Snippet-Links-Description.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="Undefined-Condition-Tags-Description.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Undefined File Tags </span>These are file tags that have been applied in the project, but the name or location of those file tags cannot be found. This might occur, for example, if you have associated a file tag with a topic and then later change the name of the tag or file tag set. The old tag or set name is still used for the topic. In Flare, you need to fix the issue (e.g., rename the file tag or set, remove the tag where it was applied).</li>
+            <li><span class="SetOffFirstLevel">Undefined Glossary Term Links </span>These are glossary term links in your content that are broken. This might occur, for example, if you have created a new term in a glossary and then inserted that term into a topic as a glossary term link. Later, you remove that term from the glossary. You now have a glossary term link in a topic, but the term no longer exists in the glossary. In Flare, you need to either remove the glossary term link from the content, or you need to add the term to the glossary again.</li>
+            <li><span class="SetOffFirstLevel">Undefined Variables </span>These are variables that have been inserted in the project, but the name or location of those variables cannot be found. This might occur, for example, if you have inserted a variable in a topic and then later change the name of the variable or variable set. The old variable or set name is still used at the location where it was previously inserted in the topic. In Flare, you need to fix the issue (e.g., rename the variable or set, remove the variable where it was applied).</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Architecture.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="As with other facets of your documentation universe, you have choices as to how you can structure stylesheet(s) in Flare projects." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project architecture;Architecture" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Styles;Styles:stylesheets" />
+            <MadCap:concept term="FilterDesign" />Stylesheets</h1>
+        <p> As with other facets of your documentation universe, you have choices as to how you can structure stylesheet(s) in Flare projects. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Styles.htm">Styles and Stylesheets</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/oRoYw0sgaLg" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+            <p class="more-videos"><a href="https://www.madcapsoftware.com/videos/flare/#Styles" target="_blank">View More Videos in This Series</a>
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How Many Stylesheets?</h2>
+        <p>One of the first decisions you should make when it comes to stylesheets is how many of them you create for your projects. This is true for both regular stylesheets and table stylesheets. Here are the primary options before you:</p>
+        <ul>
+            <li><span class="Emphasis">One Stylesheet for One Project </span>
+            </li>
+            <li><span class="Emphasis">One Stylesheet for Multiple Projects </span>
+            </li>
+            <li><span class="Emphasis">Multiple Stylesheets for One Project </span>
+            </li>
+            <li><span class="Emphasis">Multiple Stylesheets for Multiple Projects </span>
+            </li>
+        </ul>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">One Stylesheet</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Multiple Stylesheets</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">As a general rule, having fewer files is usually best when possible. If you are able to limit yourself to a single stylesheet, you have just one place to maintain styles.</p>
+                        <p class="TableText">If you have multiple projects, the best way to stay limited to one stylesheet is to use Global Project Linking to import the stylesheet into child projects. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Global-Project-Linking/Global-Project-Linking.htm">Global Project Linking</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"> Although a single stylesheet is usually preferred, creating multiple stylesheets can allow for a greater variety of looks.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">This solution can work quite well when only one individual at a time is looking at a file.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Although a single stylesheet is usually preferred, creating multiple stylesheets can allow for a greater variety of looks.</p>
+                        <p class="TableText">This is not to say that you cannot achieve the same result in a single stylesheet. With enough effort and knowledge about styles, almost anything is possible. But for some authors, using multiple stylesheets in a situation such as this might be easier and make more sense.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Which Level?</h2>
+        <p>Within a project, you can set a regular stylesheet at three levels—project, target, or content file. When possible, setting a stylesheet at the project level is preferred, because doing so makes the styles within the stylesheet available to all content files through the project. However, it might make more sense for some authors to set a freestyle at the target or file level, because it gives you more flexibility when using multiple stylesheets. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Main-Activities/Associating-Primary-Stylesheets-All-Files.htm">Associating Primary Stylesheets With All Files</MadCap:xref> and <MadCap:xref href="../../Styles/Main-Activities/Associating-Stylesheets-Specific-Files1.htm">Associating Stylesheets Locally With Specific Files</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <h2>Linking Stylesheets</h2>
+        <p>Linking stylesheets together is another option some authors choose. This approach is sometimes used if you already have more than one stylesheet that you want to leverage, and you do not want to take the time to merge them into a single stylesheet. Just be aware that the settings from one stylesheet may override those from another when they contain the same styles. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Other-Features-Activities/Regular-Stylesheets/Stylesheets/Linking-Stylesheets.htm">Linking Stylesheets</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Inside a Stylesheet</h2>
+        <p>Within a stylesheet, you have even more options for controlling how styles are structured. Following are some of the primary features that you might use.</p>
+        <div class="IndentMedium">
+            <h3>Mediums</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Medium-Type-Summary.flsnp" /> Also, keep in mind that mediums can be used not only with regular stylesheets, but with table stylesheets as well. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+            <h3>Media Queries</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Media-Queries1.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+            <h3>Classes</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Classes1.flsnp" /> Classes can be quite important and useful in a stylesheet. In particular, you might want to use generic classes to streamline your stylesheet even more; generic classes can be used with any parent style in your stylesheet, and no just one specified style. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Basics-CSS/Important-Style-Terms-Concepts.htm">Important Style Terms and Concepts</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+            <h3>Identifiers</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/ID-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Basics-CSS/Important-Style-Terms-Concepts.htm">Important Style Terms and Concepts</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2><a name="WhatMadCapDocTeamDoes"></a>What the MadCap Documentation Team Does</h2>
+        <p>When it comes to stylesheets, we do the following.</p>
+        <div class="IndentMedium">
+            <h3>Number of Stylesheets</h3>
+            <p>We have three stylesheets that we use for our projects.</p>
+            <p>Our primary regular stylesheet is named “styles.css” and is controlled in our main “Shared” project. This stylesheet is periodically imported into our “Documentation Bible” project, as well as all of our “Develop” projects. Most of our work is done in this stylesheet.</p>
+            <p>In addition to the main stylesheet, we have a stylesheet called “Home-Page.css” that is used specifically for each product’s Home topic, which has a look quite different from the rest of the topics. This stylesheet is rarely modified.</p>
+            <p>A third stylesheet in our project is named "icons.css" and is associated with some of our template pages. We almost never edit this stylesheet.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Stylesheets1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <h3>Level</h3>
+            <p>Since almost all of the topics use styles from our main stylesheet, we set this stylesheet at the project level. And because our other stylesheet is used only for the Home topics, we enabled the option to allow local stylesheets.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Stylesheets2.png" alt="" title="" class="MaxWidth100Percent">
+                </img>
+            </p>
+            <p>As for the Home topics for the various products, we associated the “Home-Page.css” stylesheet (as well as “styles.css”) with each one. We also associated these stylesheets with the template page used by each of those Home topics. </p>
+            <h3>Mediums</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Doc-Team-Mediums1.flsnp" />
+            </p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Doc-Team-Mediums2.flsnp" />
+            <h3>Media Queries</h3>
+            <p>In our main stylesheet, we use the factory “tablet” and “mobile” media queries to change the look of some styles when content is displayed on smaller devices. We also created a couple of custom media queries to account for especially narrow views, such as in the Dynamic Help window pane.</p>
+            <h3>Classes</h3>
+            <p>We use classes a great deal in our stylesheets, especially in the main stylesheet. We also try to take special advantage of generic classes so that we can easily apply the formatting to many different parent styles.</p>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">We have a generic class named “center.” If we ever come across block content that we want to position horizontally in the center of the page, we can apply that class to it, regardless of the style used.</p>
+            </div>
+        </div>
+    </body>
+</html>

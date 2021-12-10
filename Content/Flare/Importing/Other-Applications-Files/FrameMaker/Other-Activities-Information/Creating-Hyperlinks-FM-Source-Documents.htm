@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/User-Guides-Videos/Flare-Transition-FM.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="If you are importing Adobe FrameMaker documents and you have created hyperlinks by using &quot;Specify Named Destination&quot; and &quot;Jump to Named Destination&quot; markers, Flare automatically converts them to links in your project." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Importing:FrameMaker documents;Adobe FrameMaker:importing;Adobe FrameMaker:hyperlinks;Linking:FrameMaker;Linking:FrameMaker;Jump to Named Destination:FrameMaker;Adobe FrameMaker:Jump to Named Destination" />
+            <MadCap:concept term="FilterImporting" />
+            <MadCap:concept term="FilterFeatures" />Creating Hyperlinks in FrameMaker Source Documents</h1>
+        <p>If you are importing Adobe FrameMaker documents and you have created hyperlinks by using "Specify Named Destination" and "Jump to Named Destination" markers, <MadCap:variable name="Other.Product" /> will automatically convert them to links in your project. Following are steps for creating these hyperlinks in Adobe FrameMaker. For more information, please refer to the documentation provided with Adobe FrameMaker.</p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide" />
+        <h2>How to Create a Hyperlink in a FrameMaker Source Document</h2>
+        <p>The following steps may vary in different versions of FrameMaker.</p>
+        <ol>
+            <li>Open the Adobe FrameMaker document.</li>
+            <li>In Adobe FrameMaker, place your cursor at the spot to be used as the destination for a link. This might be a heading that will become a new topic when you import the document. When a user clicks on the hyperlink (created below), this is the content that will be displayed to end users.</li>
+            <li>Select <span class="Emphasis">Special &gt; Hypertext</span>. The Hypertext dialog opens.</li>
+            <li>From the <span class="Emphasis">Command</span> field, select <span class="Emphasis">Specify Named Destination</span>.The text "newlink" is added to the area below.</li>
+            <li>After the text "newlink," type a name to identify the destination (perhaps the name of the heading).</li>
+            <li>Click <span class="Emphasis">New Hypertext Marker</span>. </li>
+            <li>Locate the area that you want to serve as the hyperlink. Prepare the area to become a hyperlink, according to the documentation provided with Adobe FrameMaker.</li>
+            <li>Place your cursor in the prepared hypertext area.</li>
+            <li>From the <span class="Emphasis">Command</span> field of the Hypertext dialog, select <span class="Emphasis">Jump to Named Destination</span>. The text "gotolink" is added to the text area below.</li>
+            <li>After the text "gotolink," type the name that you gave to the destination marker.</li>
+            <li>Click <span class="Emphasis">New Hypertext Marker</span>.</li>
+            <li>Close the Hypertext dialog.</li>
+            <li>Save the Adobe FrameMaker document.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Importing/FrameMaker/Note-FM-Supports-7-Newer.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Navigation-Links-Guide" />
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After you import the Adobe FrameMaker document(s), you can generate the output in <MadCap:variable name="Other.Product" /> and test the hyperlink. See <MadCap:xref href="../Importing-FM-Files.htm">Importing FrameMaker Files</MadCap:xref> and <MadCap:xref href="../../../../Step5-Building-Publishing-Output/Building-Publishing-Output.htm">Building Output</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide" />
+    </body>
+</html>

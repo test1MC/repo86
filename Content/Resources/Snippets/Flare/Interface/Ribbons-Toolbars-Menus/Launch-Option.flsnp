@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">Opens a submenu, which lets you open various integrated <MadCap:variable name="Other.CompanyName" /> products.</p>
+        <ul>
+            <li value="1"><span class="SetOffFirstLevel">MadCap Capture </span>Opens the MadCap Capture application (if you have it installed on your computer), which lets you capture and edit images. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Images/Images.htm" target="" title="" alt="">Images</MadCap:xref>.</MadCap:conditionalText></li>
+            <li value="3"><span class="SetOffFirstLevel">MadCap Mimic </span>Opens the MadCap Mimic application (if you have it installed on your computer), which lets you create and edit movies. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Multimedia/Movies/Movies.htm">Movies</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

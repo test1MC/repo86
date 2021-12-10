@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are writing documentation for a cloud-based product, where it is more appropriate to tell users to “click” an option if they are working on a large screen, but to “tap” the option if they are using a tablet or smart phone.</p>
+            <p>So in a condition tag set, you create three new conditions—one for each of those screen sizes.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+            <p>You write a procedure where you need to use to tell users to click or tap something. Therefore, you add both words to the instructions.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+            <p>Then you apply the condition you named “Web” to the word “click,” and you apply the “Tablet” and “Mobile” conditions to the word “tap.”</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-HTML5-Guide" />
+            <p>You anticipate that you will need to use these words many times throughout the project, so you create snippets—one holding the uppercase pair of words, and the other holding the lowercase pair. That way, you can just insert the appropriate snippet wherever those words are needed, rather than applying the conditions to text each time.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+            <p>Next, you open the target and associate each of these conditions with the appropriate media query.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-HTML5-Guide" />
+            <p>When you generate the online output and view it on a large screen, the word “click” is used.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-HTML5-Guide" />
+            <p>But when you view the output on a smaller tablet or mobile screen, the word “tap” is used.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Responsive-Conditions9.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

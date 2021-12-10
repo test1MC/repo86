@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open the Control Panel. On many computers, you can do this by clicking <span class="Emphasis">Start &gt; Control Panel</span>.</li>
+            <li>Select <span class="Emphasis">User Accounts</span> (select it twice if you are in Category View).</li>
+            <li>
+                <p>Click <span class="Emphasis">Change User Account Control Settings</span> and then move the slider to <span class="Emphasis">Never notify</span> and click <span class="Emphasis">OK</span>.</p>
+            </li>
+            <li>
+                <p>Restart the computer.</p>
+                <p>UAC is now disabled. However, in order to preview <MadCap:variable name="Outputs.WebHelp Plus" MadCap:conditions="Snippets.Snippet9" /><MadCap:variable name="Outputs.HTML5" MadCap:conditions="Snippets.Snippet10" /><MadCap:conditionalText MadCap:conditions="Snippets.Snippet10"> server-based</MadCap:conditionalText> output, you must be part of the Administrator's group, because Standard users cannot preview the output. Check with your system administrator to determine if you are in this group.</p>
+            </li>
+        </ol>
+    </body>
+</html>

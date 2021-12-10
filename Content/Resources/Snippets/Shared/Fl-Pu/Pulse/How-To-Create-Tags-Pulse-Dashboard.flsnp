@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="PulseDashLoginAdminEmployee.flsnp" />
+            </li>
+            <li>Select <span class="Emphasis">Tags &gt; Create Tag</span>. </li>
+            <li>
+                <p>In the Create Tag page, click the <span class="Emphasis">Basic</span> tab. Then do the following:</p>
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Change the Tag Name </span>In the <span class="Emphasis">Name</span> field, you can enter a new tag name.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Change the Tag Description </span>In the <span class="Emphasis">Description</span> field, you can enter a new tag description.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Change the Tag's Profile Image </span>You can click <span class="Emphasis">Change Image</span> to open a dialog to select a new image. Once you select an image, the Crop Your Image dialog appears. Select the area of the image that you want displayed and click <span class="Emphasis">Crop and Save</span>.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Delete the Tag </span>You can remove the tag from Pulse by clicking <span class="Emphasis">Delete Tag</span>.</li>
+                </ul>
+            </li>
+            <li>
+                <p>Click the <span class="Emphasis">Privacy</span> tab. Then set permissions for the tag as follows:</p>
+                <p class="Subheading">how to configure privacy settings</p>
+                <p>You have a variety of options when configuring privacy settings:</p>
+                <MadCap:snippetBlock src="AddUserGroupOptions.flsnp" />
+            </li>
+            <li> At the bottom of the Create Tag page, click the <span class="Emphasis">Create this Tag</span> button.<p>This opens a page that gives you different options for editing tag settings. </p></li>
+        </ol>
+    </body>
+</html>

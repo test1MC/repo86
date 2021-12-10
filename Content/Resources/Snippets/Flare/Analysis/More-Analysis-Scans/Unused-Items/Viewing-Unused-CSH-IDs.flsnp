@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Unused-CSH-IDs-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information, see <MadCap:xref href="../../../../../../Flare/CSH/CSH.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">For more information, see the <span class="EmphasisItalic">Flare CSH Guide</span> or the Flare online Help.</MadCap:conditionalText></p>
+        <h2>How to View Unused CSH IDs</h2>
+        <ol>
+            <li>
+                <MadCap:snippetBlock src="Select-Unused-Items.flsnp" />
+                <MadCap:snippetBlock src="Unused-Items-Window-Opens.flsnp" />
+            </li>
+            <li>Click the drop-down field at the top of the window pane and select <span class="Emphasis">Unused CSH IDs</span>. The unused CSH IDs in the project are listed.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">CSH ID </span>
+                        <MadCap:snippetText src="CSH-ID-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">File </span>Displays the alias file where the CSH ID is located. You can use the alias file to assign the unused CSH ID to a topic or micro content phrase, unless you prefer to delete the CSH ID.</li>
+                    <li><span class="SetOffFirstLevel">Definition </span>
+                        <MadCap:snippetText src="CSH-Definition-Description.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>If you want to remove any unused CSH IDs from <MadCap:variable name="Other.Product" />, as well as from the project being analyzed, select the CSH ID in the list and click <img src="../../../../../Images/Shared/Al-Ca-Co-Fl-Li-Mi/Interface/Buttons/Delete-btn.png" class="ReduceButtonSize" /> in the local toolbar.</li>
+            <li>
+                <p>You can open the alias file for any CSH ID in the list to view or modify it in the Alias Editor. </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

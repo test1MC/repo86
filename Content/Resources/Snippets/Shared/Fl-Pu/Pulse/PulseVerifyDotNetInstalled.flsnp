@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li>In the Windows Start menu, type <span class="TypedEntry">Run</span> in the <span class="Emphasis">Search Programs and Files</span> box. Then select <span class="Emphasis">Run</span> from the Program menu to open the Run dialog.</li>
+            <li>In the Open box, type <span class="TypedEntry">regedit.exe</span>.&#160;Then, press <span class="Emphasis">ENTER</span> or click <span class="Emphasis">OK</span>.</li>
+            <li>If you are prompted by the following User Account Control message. Click <span class="Emphasis">Yes</span> to open the Registry Editor.</li>
+            <li>
+                <p>In the Registry Editor, the following registry keys will be visible if the required versions are installed:</p>
+                <div class="warning">
+                    <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">When checking the information below, always make sure you are verifying the version numbers in the in "NET&#160;Framework Setup" directory and <span class="EmphasisItalic">not</span> the ".NET&#160;Framework" directory.</p>
+                    <p>
+                        <img src="../../../../Images/Shared/Fl-Pu/pulse_registry_editor_net_framework_setup.png" class="MaxWidth65Percent" />
+                    </p>
+                </div>
+                <ul>
+                    <li>
+                        <p>
+                            <span class="SetOffFirstLevel">For Version 4.0 </span>Navigate to <span class="Emphasis">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full</span>. You should see 4.0 or above in the <span class="Emphasis">Version</span> row.</p>
+                        <p>
+                            <img src="../../../../Images/Shared/Fl-Pu/pulse_install_regedit_v40.png" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="SetOffFirstLevel">For Version 4.5 </span>Navigate to <span class="Emphasis">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full</span>. The existence of DWORD in the <span class="Emphasis">Release</span> row indicates that .NET 4.5 or above is installed. The number shown in parentheses refers to a specific .NET version (see <a href="http://msdn.microsoft.com/en-us/library/hh925568(v=vs.110).aspx" target="_blank">http://msdn.microsoft.com/en-us/library/hh925568(v=vs.110).aspx</a>).</p>
+                        <p>
+                            <img src="../../../../Images/Shared/Fl-Pu/pulse_install_regedit_v45.png" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </body>
+</html>

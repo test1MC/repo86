@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <meta name="description" content="Periodically, MadCap Software might make necessary changes to Elasticsearch that make it necessary, or at least preferable, that you upgrade." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Search:Elasticsearch;Elasticsearch:installation" />Upgrading Elasticsearch on a Remote Server</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Pu/Banners/Information-Network-Administrators.flsnp" />
+        <p>Periodically, MadCap Software might make necessary changes to Elasticsearch that make it necessary, or at least preferable, that you upgrade. When this happens, complete the following steps.</p>
+        <h2>How to Upgrade Elasticsearch on a Remote Server</h2>
+        <ol>
+            <li>Gather the files you need from Flare:<ol style="list-style-type: lower-alpha;"><li>Navigate to the <span class="Emphasis">Elasticsearch</span> folder at the location where you have Flare installed (e.g., C:\Program Files\MadCap Software\MadCap Flare <MadCap:variable name="Other.VersionNumber" />\Flare.app\Resources\Elasticsearch).</li><li>Copy this <span class="Emphasis">Elasticsearch</span> folder from your local machine to the remote server. This folder can be copied anywhere on the remote server.</li><li>Navigate to the <span class="Emphasis">Web.ContentServices</span> folder at the location where you have Flare installed (e.g., C:\Program Files\MadCap Software\MadCap Flare <MadCap:variable name="Other.VersionNumber" />\Flare.app\Resources\WebHelp2\ContentServices\Web.ContentServices).</li><li>Copy this <span class="Emphasis">Web.ContentServices</span> folder from your local machine to the remote server. This folder can be copied anywhere on the remote server.</li></ol><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Check to make sure you have the Microsoft .NET Core 3.1.x Windows Hosting Bundle installed. Upgrade if necessary, see <a href="https://dotnet.microsoft.com/download/dotnet-core" target="_blank">https://dotnet.microsoft.com/download/dotnet-core</a>.</p></div></li>
+            <li>Stop current services:<ol style="list-style-type: lower-alpha;"><li>Open Services (Local) and stop the Elasticsearch service.</li><li>Open the Internet Information Services (IIS) Manager, and stop the website that is running the Content Services portal.</li></ol></li>
+            <li>Upgrade the Elasticsearch service:<ol style="list-style-type: lower-alpha;"><li>From  the Elasticsearch\config directory you copied to the remote server, open the <span class="Emphasis">elasticsearch.yml</span> file in a text editor.</li><li><p>Under the <span class="Emphasis">Network</span> section, find the string “http.port: 9200” and  remove the # character from it.</p><p><img src="../../../../Resources/Images/Flare/Search/Elasticsearch-Enable-Port-Number.png" class="MaxWidth100Percent" /></p></li><li>Save your changes in this file.</li><li>Open a command prompt window and navigate to the location of the copied Elasticsearch\bin directory.</li><li>Type <span class="TypedEntry">elasticsearch-service.bat install</span> and press <span class="Emphasis">ENTER</span>.</li><li>Type <span class="TypedEntry">elasticsearch-service.bat start</span> and press <span class="Emphasis">ENTER</span>. Elasticsearch is now running on your remote server. </li></ol></li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>Upgrade the Content Services portal. The older files referenced in the following sub steps have to do with those you copied to C:/intepub/wwwroot, as described in <MadCap:xref href="Installing-Elasticsearch-Remote-Server/Installing-Elasticsearch-Remote-Server.htm">Installing Elasticsearch on a Remote Server</MadCap:xref>.</p>
+                <ol style="list-style-type: lower-alpha;" MadCap:continue="true">
+                    <li>
+                        <p><span class="EmphasisItalic">Keep</span> the following folders from the older <span class="Emphasis">Web.ContentServices</span> folder:</p>
+                        <ul MadCap:continue="true">
+                            <li>Logs</li>
+                            <li>Targets</li>
+                            <li>Uploads</li>
+                            <li>Views</li>
+                        </ul>
+                        <p><span class="EmphasisItalic">Remove</span> the other folders.</p>
+                    </li>
+                    <li>
+                        <p><span class="EmphasisItalic">Keep</span> the following files from the older <span class="Emphasis">Web.ContentServices</span> folder:</p>
+                        <ul MadCap:continue="true">
+                            <li>appsettings.json</li>
+                            <li>Indices.db</li>
+                            <li>web.config (if you made changes to it previously)</li>
+                        </ul>
+                        <p><span class="EmphasisItalic">Remove</span> the other files.</p>
+                    </li>
+                    <li>Copy all of the new files (except appsettings.json and web.config) to the old Web. ContentServices folder.</li>
+                </ol>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have configured your appsettings.json file with different settings than specified in <MadCap:xref href="Installing-Elasticsearch-Remote-Server/Installing-Elasticsearch-Remote-Server.htm">Installing Elasticsearch on a Remote Server</MadCap:xref>, you might not have an Indices.db file, Targets folder, or Uploads folder.</p>
+                </div>
+            </li>
+            <li>Open the IIS Manager and restart the web server.</li>
+        </ol>
+    </body>
+</html>

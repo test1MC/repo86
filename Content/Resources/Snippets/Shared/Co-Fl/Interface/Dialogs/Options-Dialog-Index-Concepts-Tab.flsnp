@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col style="width: 25%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Auto-complete Index and Concept entries</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">As you enter index keywords in the Index window pane, the application recognizes if you have created a similar index keyword. The similar keywords appear in a list just below the entry field. You can quickly select one of the keywords from the list instead of typing the entire word manually. This option turns this feature on and off.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Mode Warnings for Index and Concept Entries</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">If you turn on the Index Entry Mode or Concept Entry Mode and then close the application, you will receive a warning message the next time you open the application. The message lets you know that the mode is still on. You can disable the warning messages from that dialog. This option lets you turn those warning messages on again:</p>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">Check mode and display this dialog when first topic opened</span> You can avoid seeing the Mode Warning dialog in the future by not selecting this option. However, this does not mean the mode will automatically be turned off for you. It simply means that you will not be warned.</li>
+                            <li><span class="SetOffFirstLevel">Auto-switch to normal selection mode on launch </span>Select this option if you always want the application to disable the mode automatically when you open the program in the future. You can always turn the mode on again manually.</li>
+                            <li><span class="SetOffFirstLevel">Continue in mode</span> The "Index Entry Mode" or "Concept Entry Mode" will continue to be enabled after this dialog is closed. You can turn off the mode manually by right-clicking in the topic and selecting the mode.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

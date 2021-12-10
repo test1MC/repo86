@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="866" MadCap:lastWidth="1511">
+    <body>
+        <p>After creating a group<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> (see <MadCap:xref href="../../../../../D2H/Nav-Links/Groups/Creating-Groups.htm">Creating Groups</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> (see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Creating-Groups.htm">Creating Groups</MadCap:xref>)</MadCap:conditionalText>, you can add a topic to it.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add a Topic to a Group</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Word source document, select text.</li>
+                    <li>Select the <span class="Emphasis" MadCap:conditions="Snippets.Snippet1">Doc-To-Help</span> <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Topics </span>ribbon.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">
+                        <p>In the <span class="Emphasis">D2HML Styles</span> group, click the <span class="Emphasis">Group</span> button. The Group dialog opens, and the selected text is displayed at the top of the dialog.</p>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet2">Click the <span class="Emphasis">Index </span>button. The <span class="Emphasis">Index and Groups</span> view is displayed on the left side in the project panel in Keywords.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">Click the <span class="Emphasis">Groups </span>button at the top of the Keywords pane.The Group dialog opens, and the selected text is displayed at the top of the dialog.</li>
+                    <li>(Optional) By default,  the topic will be added to a group whose name is defined by the selected text. The phrase "Group defined by Text" is displayed in the Group field. If you would prefer to add the topic to another group, use one of these options:<ul><li>If you would like to add the topic to an existing group (or groups), select the appropriate check box(es).</li><li><p>If you would like to add a new group to the list, in the <span class="Emphasis">Groups</span> area, click <span class="Emphasis">Add New Group</span>. An editable group will be created, titled "New Group." Type the new group name within the box, and press <span class="Emphasis">ENTER</span>. Select the group(s) check boxes. </p></li></ul></li>
+                    <li>(Optional) If you want to hide the tag, you can select the <span class="Emphasis">Hide properties in document</span>. Clearing the <span class="Emphasis">Visible</span> check box will hide the text in your source document.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Styles/Showing-Hidden-Hotspots.htm">Showing Hidden Hotspots</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Styles/Showing-Hidden-Hotspots.htm">Showing Hidden Hotspots</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">You can also create and manage groups from the Index and Groups view in <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">the Doc-To-Help Project panel in Word</MadCap:conditionalText>.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Index-Groups-Window-Pane.htm">Index and Groups Window Pane (Word)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Index-Groups-Pane.htm">Index and Groups Window Pane (Doc-To-Help)</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

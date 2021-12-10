@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are working with a team of 10 other writers, and you want to create a topic called "Welcome" that all authors should use in their projects. The template topic will contain some standard text and headings. In addition, the topic links to a stylesheet, which automatically gives the topic the appropriate look and feel. The idea is the authors will create a "Welcome" topic in each of their projects, adding more content to that topic as needed; all "Welcome" topics should be consistent and look the same in all projects.</p>
+            <p>To accomplish this, you first open a <MadCap:variable name="Other.Product" /> project and create the topic. It might look something like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Templates/Templates4.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Templates-Guide" />
+            <p>Now you need to make sure that you have a template folder ready to hold the new template file. Therefore, you select the <span class="Emphasis">Tools</span> ribbon. In the <span class="Emphasis">Templates</span> section you click <span class="Emphasis">Manage Templates</span>. This opens the Template Manager.</p>
+            <p>
+                <img src="../../../Images/Flare/Templates/Templates5.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Templates-Guide" />
+            <p>In the dialog that opens, you find and select the folder where you want to store the template file.</p>
+            <p MadCap:conditions="">
+                <img src="../../../Images/Flare/Templates/Templates6.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Templates-Guide" />
+            <p>After closing the Template Manager, you make sure your new topic is still open. Then you select <span class="Emphasis">File &gt; Save &gt; Save As Template</span>. In the dialog that opens, you select the new template folder and click <span class="Emphasis">OK</span>.</p>
+            <p>
+                <img src="../../../Images/Flare/Templates/Templates7.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Templates-Guide" />
+            <p>Now let's say that Karen, one of the other authors, wants to create a "Welcome" topic for a new project she is working on. In her Flare project, she selects <span class="Emphasis">Project &gt; New &gt; Topic</span>. In the dialog that opens, she selects the template file you created, chooses a location (in the following example, the root folder), and provides a name for the new file. Then she clicks <span class="Emphasis">Add</span>.</p>
+            <p>
+                <img src="../../../Images/Flare/Templates/Templates8.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Templates-Guide" />
+            <p>The new topic is added to the Karen's project. In order for her topic to look just like your topic, she needs to add the same stylesheet file to her project. This can be done by simply importing that file<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Stylesheets/Importing-Stylesheets.htm">Importing Stylesheets</MadCap:xref> and <MadCap:xref href="../../../../Flare/Images/Main-Activities/Adding-Images.htm">Adding Images to Projects</MadCap:xref>)</MadCap:conditionalText> or maybe through Global Project Linking<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Global-Project-Linking/GPL-Importing-Files1.htm">Global Project Linking—Importing Files from Other Projects</MadCap:xref>)</MadCap:conditionalText>.</p>
+            <p>Once Karen brings the stylesheet file into her project, she can associate it at the project, target, or topic level. Let's say she sets it at the project level (in the Project Properties dialog, which is opened by selecting Project &gt; Project Properties). After doing this, her topic will look just like yours, and she can begin adding content to it.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your company has a product called FictionSoft Pro, and it consists of multiple modules. Your documentation team has therefore created a different Flare project for each of those modules. Suppose that you are in charge of the Module 3 project.</p>
+            <p>Periodically, your company releases a new version of the software. As a technical writer, you need to produce documentation for each of those releases.</p>
+            <p>In your Flare Module 3 project, you have an HTML5 target that you use to produce an online Help system. Instead of creating a different target for each release, you want to just keep using the same target.</p>
+            <p>You upload your Flare Module 3 project to Central, and you build output for it.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <p>You want this Module 3 Version 1 documentation to have a unique path, different than the paths for other modules, and different than later versions of Module 3. So you create a new site for this output. You decide to name it <span class="Emphasis">M3 H5 V1</span>, and you give it a vanity with a similar name: <span class="Emphasis">mod3-h5-v1</span>.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>The first part of this name/vanity (mod3) refers to the project name (Module 3), to keep it distinct from the other projects. The second part (h5) refers to the kind of target (HTML5), to keep it distinct from the many PDFs you will also be producing for that project. And the third part (v1) refers to the version number (Version 1), to keep it distinct from later versions.</p>
+            <p>When selecting the destination, you choose the Module 3 project, then the HTML5 target. Finally, you choose the build that you know is ready for publication.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <p>You also click <span class="Emphasis">Live</span> to make the output available to your audience.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity5.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <p>After clicking <span class="Emphasis">Save</span>, you see the site has the live icon next to it.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <p>When the site row is expanded, you notice that the URL has the site vanity. This is also indicated in the Vanity column of the grid.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <p>Sometime later, you are ready to publish output for Version 2. So you push your changes up to Central and build the target again. You also create a new site and name it similar to the first one, except with a reference to Version 2 (<span class="Emphasis">M3 H5 V2</span>). And it also has a site vanity named in the same way: <span class="Emphasis">mod3-h5-v2</span>.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity8.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>When selecting the build, you choose the Module 3 project, then the HTML5 target. But this time, you choose the newer build for Version 2 that you know is ready for publication.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <p>You also click <span class="Emphasis">Live</span> to make the output available to your audience.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity10.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <p>After clicking <span class="Emphasis">Save</span>, you see the new site next to the previous one.</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity11.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <p>The grid columns show that the two builds from the same target are using different URLs, and both are set to "live."</p>
+            <p>
+                <img src="../../../Images/Central/Sites/Site-Vanity12.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

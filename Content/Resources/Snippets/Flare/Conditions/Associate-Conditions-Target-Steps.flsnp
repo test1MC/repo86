@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>Expand the <span class="Emphasis">Targets</span> folder.</li>
+            <li>Double-click a target. The Target Editor opens to the right.</li>
+            <li>Click the <span class="Emphasis">Conditional Text</span> tab.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Conditions3.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Conditions12.flsnp" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide" />
+                <div class="topic-only">
+                    <p class="Subheading">Action Options</p>
+                    <ul>
+                        <li>
+                            <p><span class="Emphasis">Not Set </span>
+                                <MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Action-Not-Set.flsnp" />
+                            </p>
+                            <p>
+                                <img src="../../../Images/Flare/Conditions/Conditions-Not-Set.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+                        <li>
+                            <p><span class="Emphasis">Include </span>
+                                <MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Action-Include.flsnp" />
+                            </p>
+                            <p>
+                                <img src="../../../Images/Flare/Conditions/Conditions-Include.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Targets-Guide" />
+                        <li>
+                            <p><span class="Emphasis">Exclude </span>
+                                <MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Action-Exclude.flsnp" />
+                            </p>
+                            <p>
+                                <img src="../../../Images/Flare/Conditions/Conditions-Exclude.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <li>
+                            <p><span class="Emphasis">Display by Media Query </span>
+                                <MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Action-Display-Media-Query.flsnp" />
+                                <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> For more details, including an example, see <MadCap:xref href="../../../../Flare/Conditions/Other-Information/Responsive-Conditions.htm">Responsive Conditions</MadCap:xref>. Also see <MadCap:xref href="../../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText>
+                            </p>
+                            <MadCap:snippetBlock src="../../Shared/Ca-Co-Fl/Conditions/Choose-Media-Query-Check-Boxes.flsnp" />
+                            <MadCap:snippetBlock src="Condition-Action-Options-Media-Query-List.flsnp" />
+                        </li>
+                    </ul>
+                    <p class="Subheading">
+                        <MadCap:keyword term="Conditions:Basic;Conditions:Advanced;Basic conditions;Advanced conditions" />Basic and Advanced Conditions</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Tag-Expressions.flsnp" />&#160;<MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Conditions2.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> For more details, including examples, see <MadCap:xref href="../../../../Flare/Conditions/Other-Activities/Creating-Basic-Advanced-Tag-Expressions.htm">Creating Basic and Advanced Tag Expressions</MadCap:xref>. </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide"> See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Conditions/Associating-Conditions-Targets.htm">Associating Conditions With Targets</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p>
+                        <img src="../../../Images/Flare/Conditions/Conditions1.png" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:snippetBlock src="../../Shared/Ca-Co-Fl-Mi/Conditions/Warning-Include-Exclude.flsnp" />
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p>Before you generate output from your project, there are various tasks that you are likely to perform while developing your targets. To begin with, you need to determine what kind and how many types of output you want to provide for your end users.<MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide"> For additional information not discussed in this chapter, see the online Help or the <span class="EmphasisItalic">Targets Guide</span>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide,D2H-Guides.D2H-Targets-Guide" />
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide,D2H-Guides.D2H-Targets-Guide" />
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/tzdP1Pkmqi0" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+        </div>
+        <h2 MadCap:conditions="General.Print-Only">
+            <MadCap:keyword term="Output:types" />Output Types</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Output:types" />output types</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../Output/Output-Types-Output-D2H.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Output/Output-Types.htm">Output Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Output-Types-D2H.htm">Output Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Targets-Guide"> See <MadCap:xref href="../../../../Print-Only-Topics/D2H/Targets/Output-Types1.htm">Output Types</MadCap:xref>.</MadCap:conditionalText></p>
+                <p MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide">When you first create a Doc-To-Help project, you'll notice that targets based on each output type are available to you. But you can remove those you don't plan to use and add more targets based on the output types that you want to publish. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="General.Print-Only" class="NoPageBreakBefore">
+            <MadCap:keyword term="Targets" />Targets</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Targets" />targets</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../../Shared/D2H-Fl/Output/Output-Targets-Vs-Output-Types.flsnp" />
+                </p>
+                <p>When you create a new <MadCap:variable name="Other.Product" /> project, one target of each output type is added to your project.</p>
+                <p>However, any targets added to the project are just a starting point for you. You can rename them to reflect the nature of your project. For example, if you are writing a Help system for a software program called FictionSoftPro, you could rename a target "FictionSoftPro." Also, just because only one target was added when you first created the project, this does not mean that you are limited to just that target in your project. You can add as many new targets as you need, using any of the available formats. Each target has properties that you adjust to change the way the target behaves, as well as the way it looks and feels.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="General.Print-Only"><a name="ConditionTags"></a>
+            <MadCap:keyword term="Conditions" />Conditions</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Conditions" />conditions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-D2H-Fl/Conditions/Condition-Tag-Summary.flsnp" /> Although there are several settings that are important in each target, conditions are particularly important because they are central to your ability to single-source output from one set of source content.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Conditions/Conditions.htm">About Conditions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Conditions/About-Conditions-D2H.htm">About Conditions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> See the online Help or the <span class="EmphasisItalic">Documents, Templates, and Contents Guide</span>.</MadCap:conditionalText></p>
+                <div class="example">
+                    <p class="Example-Text">&#160;</p>
+                    <p>Let's say you have two different audiences—beginners and advanced users. The content in your project is the same in most places for both audiences. However, there are sections that apply only to the beginners, and other sections that apply only to the advanced users. You can use one condition to mark the sections for the beginners only, and you can use another condition to mark the sections for advanced users only. This lets you create one output for the beginners and another output for the advanced users without having to create two separate projects.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="General.Print-Only">Steps Associated With Targets</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Steps associated with Targets</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are the primary steps when developing targets:</p>
+                <ol>
+                    <li><span class="SetOffFirstLevel">Determine Output Type </span>The first task in developing output for your project is to determine which type of output is most appropriate for your needs. You might even need to produce multiple outputs and require more than one output type.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Output/Output-Types.htm">Output Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Output-Types-D2H.htm">Output Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Targets-Guide"> See <MadCap:xref href="../../../../Print-Only-Topics/D2H/Targets/Output-Types1.htm">Output Types</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Create/Delete Targets </span>Every target in a project has a particular output type assigned to it. You can add multiple targets to a project. For example, your project might end up containing three targets that are all based on the NetHelp output type and eight that are based on the Manual output type. While you create new targets, you can also remove targets provided by Doc-To-Help that you don't plan to use.<MadCap:conditionalText MadCap:conditions="General.Online-Only,D2H-Guides.D2H-Targets-Guide,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Output/Creating-Targets.htm">Creating and Deleting Targets</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Creating-Targets.htm">Creating and Deleting Targets</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Edit Target Settings </span>Using the Help Targets dialog, you can apply all kinds of settings to a target. This includes renaming the target to reflect the nature of your project, setting attributes (choosing the conditions to include or exclude from the output), and much more. The settings that are available are different for each output type.<MadCap:conditionalText MadCap:conditions="General.Online-Only,D2H-Guides.D2H-Targets-Guide,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Add Transformations </span>Using the Transformation Wizard, you can insert boilerplate content or code into every topic in your targets. Examples include: headers, footers, or code needed for technology such as analytics.<MadCap:conditionalText MadCap:conditions="General.Online-Only,D2H-Guides.D2H-Targets-Guide,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/Output/Transformations/Transormations.htm">About Transformations</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/About-Transormations.htm">About Transformations</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Select Targets </span>When you want to work with a target, or you are ready to build its output, you need to select that target. </p>
+                        <p>If your project has target-specific tables of contents, you can select the target you want to work with by<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> opening the Doc-To-Help Project panel (<span class="Emphasis">Project ribbon&gt; Project Panel</span>), then</MadCap:conditionalText> opening the Contents window pane and selecting a target-specific table of contents from the drop-down. </p>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet3"><span class="SetOffFirstLevel">Build Targets </span>After selecting a target, you can generate output for it.  <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../D2H/Output/Building-Target.htm">Building Targets</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Output/Building-Target.htm">Building Targets</MadCap:xref>.</MadCap:conditionalText></li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p MadCap:conditions="General.Future">
+            <MadCap:conceptLink term="" xmlns:MadCap="http://www.madcapsoftware.com/schemas/MadCap.xsd" />
+        </p>
+    </body>
+</html>

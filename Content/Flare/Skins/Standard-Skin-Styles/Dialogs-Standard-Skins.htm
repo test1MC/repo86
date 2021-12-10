@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Skins.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Ways for specifying dialogs in stand skins. If MadCap Feedback for output is enabled, you might use registering, adding comments, and replying to comments dialogs." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="MadCap Feedback;Server:MadCap Feedback" />
+            <MadCap:keyword term="Styles:WebHelp;Output:WebHelp;Skins:styles;Skins:WebHelp;WebHelp:styles;Styles:WebHelp Plus;Output:WebHelp Plus;Skins:WebHelp Plus;WebHelp Plus:styles;Styles:HTML Help;Output:HTML Help;Skins:HTML Help;HTML Help:styles;Styles:dialogs" />Dialogs in Standard Skins</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-WebHelp-WH-Plus.flsnp" />
+        <p>If you have enabled MadCap Feedback for your output, there are some dialogs that people will use for actions such as registering, adding comments, and replying to comments. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Skins.htm">Skins</MadCap:xref> and <MadCap:xref href="../../Feedback/MadCap-Feedback.htm">MadCap Feedback</MadCap:xref>.</MadCap:conditionalText></p>
+        <h2>How to Specify Style Settings for Dialogs</h2>
+        <ol>
+            <li>Open a Standard skin.</li>
+            <li>Select the <span class="Emphasis">Styles</span> tab.</li>
+            <li>
+                <p>In the <span class="Emphasis">Styles</span> section, expand the <span class="Emphasis">Dialog</span> node.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Dialogs2.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <li>
+                <p>Select the item that you want to edit. If you want the setting(s) to be applied to all of the items, select the <span class="Emphasis">Dialog</span> node itself.</p>
+                <p>The items under this node represent the different kinds of Feedback dialogs that may be found in your output. </p>
+                <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace" xml:space="preserve">Add Comment </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the dialog used when people add feedback comments to a topic.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Dialogs3.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Register User </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the dialog used when new end users register in order to submit feedback in your output. </p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Dialogs1.png" class="MaxWidth90Percent" />
+                                </p>
+                                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The "Register User" item lets you modify label text for fields in the Create Feedback Service Profile dialog. However, the "Feedback User Profile Item" node (see <MadCap:xref href="Feedback-User-Profile-Items-Standard-Skins.htm">Feedback User Profile Items in Standard Skins</MadCap:xref>) does the same thing. So what's the difference? The "Register User" property in this node is the old way to accomplish this; the "Feedback User Profile Item" node is the new way. In order to be backwards compatible with earlier versions, the duplicate properties remain available in the Dialog/Register User node. The software will first look to any settings that you have provided in the Feedback User Profile Item node. Then it will look to settings entered in the Dialog/Register User node.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Reply Comment </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">This is the dialog used when people reply to feedback comments for a topic.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Dialogs4.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>Select the <span class="Emphasis">Property Groups</span> or <span class="Emphasis">Alphabetical List</span> option to display the properties for the style item.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <li>
+                <p>In the <span class="Emphasis">Properties</span> section, set the values for the properties that you want modify.</p>
+                <p class="Subheading">Background Color</p>
+                <p> To change the background color of the item:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right and change the value in the <span class="Emphasis">Background Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">Borders</p>
+                <p>To add or change borders for the item:</p>
+                <p>Expand the <span class="Emphasis">Borders</span> property group on the right and change the value in any of the fields. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Set-Border.flsnp" /></p>
+                <p class="Subheading">Cancel Button Label</p>
+                <p>To change the text that appears on the "Cancel" button:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Cancel Button Label</span> field.</p>
+                <p class="Subheading">Comment Label</p>
+                <p> To change the text that appears next to the "comment" field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Comment Label</span> field.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Comment Reply Notification Label</p>
+                <p> Next to the first email notification check box in the Create Feedback Service Profile dialog, users see the following text:</p>
+                <p><i>a reply is left to one of my comments</i>
+                </p>
+                <p>To change the text: </p>
+                <p>Expand the <span class="Emphasis">Options</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Comment Reply Notification Label</span> field.</p>
+                <p class="Subheading">Comment Same Topic Notification Label</p>
+                <p>Next to the second email notification check box in the Create Feedback Service Profile dialog, users see the following text: </p>
+                <p><i>a comment is left on a topic that I commented on</i>
+                </p>
+                <p>To change the text: </p>
+                <p>Expand the <span class="Emphasis">Options</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Comment Same Topic Notification Label</span> field.</p>
+                <p class="Subheading">Comment Same Help System Notification Label</p>
+                <p> Next to the third email notification check box in the Create Feedback Service Profile dialog, users see the following text:</p>
+                <p><i>a comment is left on any topic in the Help system</i>
+                </p>
+                <p>To change the text: </p>
+                <p>Expand the <span class="Emphasis">Options</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Comment Same Help System Notification Label</span> field.</p>
+                <p class="Subheading">Country Label</p>
+                <p>To change the text that appears next to the "country" field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Country Label</span> field.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Email Address Label</p>
+                <p>To change the text that appears next to the "email address" field: </p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Email Address Label</span> field.</p>
+                <p class="Subheading">Email Notifications Group Label</p>
+                <p> At the beginning of the email notification check boxes in the Create Feedback Service Profile dialog, users see the following text:</p>
+                <p><i>E-mail Notifications</i>
+                </p>
+                <p>To change the text: </p>
+                <p>Expand the <span class="Emphasis">Options</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Email Notifications Group Label</span> field.</p>
+                <p class="Subheading">Email Notifications Heading Label</p>
+                <p>After the group label, just above the email notification check boxes in the Create Feedback Service Profile dialog, users see the following text:</p>
+                <p><i>I want to receive an email when…</i>
+                </p>
+                <p>To change the text: </p>
+                <p>Expand the <span class="Emphasis">Options</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Email Notifications Heading Label</span> field.</p>
+                <p class="Subheading">First Name Label</p>
+                <p> To change the text that appears next to the "first name" field: </p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">First Name Label</span> field.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Font Color</p>
+                <p> To change the color of the font:</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">Font Family</p>
+                <p>To select a specific font family (e.g., Arial, Tahoma, Verdana):</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Font Family</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Family.flsnp" /></p>
+                <p class="Subheading">Font Size</p>
+                <p>To change the size of the font:</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Font Size</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Size.flsnp" /></p>
+                <p class="Subheading">Font Style</p>
+                <p> To change the style of the font (e.g., make it italic):</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Font Style</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Style.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Font Weight</p>
+                <p>To change the weight of the font (e.g., make it bold):</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Font Weight</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Weight.flsnp" /></p>
+                <p class="Subheading">Gender Label</p>
+                <p>To change the text that appears next to the "gender" field: </p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Gender Label</span> field.</p>
+                <p class="Subheading">Gender Label—Female </p>
+                <p>To change the text that represents the "female" option in the "gender" drop-down field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Gender Female Name</span> field.</p>
+                <p>If you include the Gender option in your registration dialog, you might use this field to localize the text in other languages.</p>
+                <p class="Subheading">Gender Label—Male</p>
+                <p>To change the text that represents the "male" option in the "gender" drop-down field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Gender Male Name</span> field. </p>
+                <p>If you include the Gender option in your registration dialog, you might use this field to localize the text in other languages.</p>
+                <p class="Subheading">Last Name Label </p>
+                <p>To change the text that appears next to the "last name" field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Last Name Label</span> field.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Message—Comment Length Exceeded</p>
+                <p> To change the text that appears in the message that users see when their comments are too long: </p>
+                <p>Expand the <span class="Emphasis">Messages</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Comment Length Exceeded</span> field.</p>
+                <p class="Subheading">Message—Edit Profile Registration</p>
+                <p> If you configure MadCap Feedback so that users must register before submitting comments, people will see the following message in the dialog when updating their profiles:</p>
+                <p class="TableText"><i>You must create a user profile to post comments to this help system. Please fill in the information below. An email will be sent to the address you provide. Please follow the instructions in the email to complete activation</i>.</p>
+                <p>To change the text for this message: </p>
+                <p>Expand the <span class="Emphasis">Messages</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Edit Profile Registration</span> field.</p>
+                <p class="Subheading">Message—Missing Required Field</p>
+                <p> When users fail to complete a required field in the Create Feedback Service Profile dialog, they see a message. If you do not enter text, the default for the message is used. This default text is as follows: </p>
+                <p><i>Please enter a value for: [name of field].</i>: </p>
+                <p>Expand the <span class="Emphasis">Messages</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Missing Required Field</span> field.</p>
+                <p class="Subheading">Message—Registration</p>
+                <p>If you configure MadCap Feedback so that users must register before submitting comments, certain information is provided to those users, both in the registration dialog and in a popup message that follows. You can modify the text as needed. In the registration dialog, users see the following default text:</p>
+                <p><i>You must create a user profile to post comments to this help system. Please fill in the information below. An email will be sent to the address you provide. Please follow the instructions in the email to complete activation.</i>
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+                <p>To change the text for this message: </p>
+                <p>Expand the <span class="Emphasis">Messages</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Registration</span> field.</p>
+                <p class="Subheading">Message—Registration Submit</p>
+                <p> In the popup message that follows the initial registration message, users see the following default text:</p>
+                <p><i>Your information has been sent to <MadCap:variable name="Other.CompanyName" />. When the information has been processed, you will receive an email with a link to a verification page. Click this link, or copy and paste the link into your web browser to complete the registration.</i>
+                </p>
+                <p>To change the text for this message: </p>
+                <p>Expand the <span class="Emphasis">Messages</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Registration Submit</span> field.</p>
+                <p class="Subheading">Message—Registration Submit Note</p>
+                <p> In the popup message that follows the initial registration message, users see the following note:</p>
+                <p><i>NOTE: Some service providers have email filtering software that may cause the notification email to be sent to your junk email folder. If you do not receive a notification email, please check this folder to see if it has been sent there.</i>
+                </p>
+                <p>To change the text for this message: </p>
+                <p>Expand the <span class="Emphasis">Messages</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Registration Submit Note</span> field.</p>
+                <p class="Subheading">Message—Update Success</p>
+                <p> When users successfully update their Feedback comment profiles, they see a message. If you do not enter text, the default is used. This default text is as follows: </p>
+                <p><i>Your profile was updated successfully!</i>
+                </p>
+                <p>To change the text for this message: </p>
+                <p>Expand the <span class="Emphasis">Messages</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Update Success</span> field.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+                <p class="Subheading">Original Comment Label</p>
+                <p>To change the text that appears next to the "original comment" field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Original Comment Label</span> field.</p>
+                <p class="Subheading">Postal Code Label</p>
+                <p> To change the text that appears next to the "postal code" field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Postal Code Label</span> field.</p>
+                <p class="Subheading">Shadow Color</p>
+                <p>To change the color of the shadow for the item:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right and change the value in the <span class="Emphasis">Shadow Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">Shadow Distance</p>
+                <p>To change the distance that the shadow extends from the edge of the item (in pixels):</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right and enter a value with the measurement in the <span class="Emphasis">Shadow Distance</span> field (e.g., 10 px). </p>
+                <p class="Subheading">Shadow Opacity</p>
+                <p>To change the opacity (transparency) of the shadow for the item, ranging between 0 and 100 (the lower the number, the more transparent):</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right and enter a value in the <span class="Emphasis">Shadow Opacity</span> field (e.g., 65). </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Subject Label</p>
+                <p>To change the text that appears next to the "subject" field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Subject Label</span> field.</p>
+                <p class="Subheading">Submit Button Label</p>
+                <p> To change the text that appears on the "Submit" button:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Submit Button Label</span> field.</p>
+                <p class="Subheading">Title Font Color</p>
+                <p>To change the color of the font used for the title:</p>
+                <p>Expand the <span class="Emphasis">Title</span> property group on the right and change the value in the <span class="Emphasis">Title Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">Title Font Family</p>
+                <p> To select a specific font family (e.g., Arial, Tahoma, Verdana) used for the title:</p>
+                <p>Expand the <span class="Emphasis">Title</span> property group on the right and change the value in the <span class="Emphasis">Title Font Family</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Family.flsnp" /></p>
+                <p class="Subheading">Title Font Size</p>
+                <p>To change the size of the font used for the title:</p>
+                <p>Expand the <span class="Emphasis">Title</span> property group on the right and change the value in the <span class="Emphasis">Title Font Size</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Size.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Title Font Style</p>
+                <p>To change the style of the font (e.g., make it italic) used for the title:</p>
+                <p>Expand the <span class="Emphasis">Title</span> property group on the right and change the value in the <span class="Emphasis">Title Font Style</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Style.flsnp" /></p>
+                <p class="Subheading">Title Font Variant</p>
+                <p> To change the variant of the font (e.g., small caps) used for the title:</p>
+                <p>Expand the <span class="Emphasis">Title</span> property group on the right and change the value in the <span class="Emphasis">Title Font Variant</span> field. Click the down arrow and select either <span class="Emphasis">normal</span> or <span class="Emphasis">small-caps</span>.</p>
+                <p class="Subheading">Title Font Weight</p>
+                <p> To change the weight of the font (e.g., make it bold) used for the title:</p>
+                <p>Expand the <span class="Emphasis">Title</span> property group on the right and change the value in the <span class="Emphasis">Title Font Weight</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Weight.flsnp" /></p>
+                <p class="Subheading">Title Label</p>
+                <p> To change the text that appears in the title:</p>
+                <p>Expand the <span class="Emphasis">Title</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Title Label</span> field.</p>
+                <p class="Subheading">User Name Label</p>
+                <p> To change the text that appears next to the "user name" field:</p>
+                <p>Expand the <span class="Emphasis">Labels</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Username Label</span> field.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

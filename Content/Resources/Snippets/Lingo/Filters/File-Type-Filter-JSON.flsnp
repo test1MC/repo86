@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li MadCap:conditions="Snippets.Snippet5">
+                <MadCap:snippetText src="Create-Project-Step-Filters.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet3] exclude[Snippets.Snippet1 or Snippets.Snippet2] " />
+            </li>
+            <li>Click the <span class="Emphasis">Filter</span> drop-down, and select <span class="Emphasis">Create New</span>.</li>
+            <li>
+                <MadCap:snippetText src="Enter-Name-Filter.flsnp" />
+            </li>
+            <li>(Optional) <MadCap:snippetText src="Existing-Filter.flsnp"></MadCap:snippetText></li>
+            <MadCap:snippetBlock src="Filter-Options.flsnp" />
+            <li>
+                <p>Select the tags from the JSON file that you want to translate. If a tag can be translated, it will be checked in the <span class="Emphasis">Translatable</span> column. If you do not want to translate a tag, remove the check mark from this column.</p>
+                <p>
+                    <img src="../../../Images/Lingo/Filters/JSON-File-Filter.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>(Optional) Enter any additional tags you want to add to the JSON file, and click <img src="../../../Images/Shared/Fl-Li/Interface/Buttons/Plus-btn.png" class="ReduceButtonSize" />.</li>
+            <li>(Optional) Select any tags you want to remove, and click <img src="../../../Images/Lingo/Interface/Buttons/Remove-btn.png" class="ReduceButtonSize" />.</li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+        </ol>
+    </body>
+</html>

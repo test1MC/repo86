@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>You have an image that has text very close to some shapes. You want to remove the first line of the text, but you don't want to accidentally erase a little bit of one of the shapes. </p>
+            <p>
+                <img src="../../../Images/Capture/Appearance/Eraser-Selection-Rectangle1.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Capture-Guides.Capture-Editing-Images-Guide" />
+            <p>In this case, you could use the selection rectangle to box the text area you want to erase.</p>
+            <p>
+                <img src="../../../Images/Capture/Appearance/Eraser-Selection-Rectangle2.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Capture-Guides.Capture-Editing-Images-Guide" />
+            <p>Next, use the eraser without worrying about removing any of the content outside of the selection rectangle. You can erase all of the selected content by pressing the <span class="Emphasis">DELETE</span>&#160;key, or you can freehand erase.</p>
+            <p>
+                <img src="../../../Images/Capture/Appearance/Eraser-Selection-Rectangle3.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

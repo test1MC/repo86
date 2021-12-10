@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head><title></title>
+        <meta name="description" content="How to enable the MadCap Feedback Server for use with a MadCap Flare target. " />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="MadCap Feedback:enabling" />
+            <MadCap:concept term="FilterFeatures" />Enabling Feedback in Flare</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/Flare/Feedback/Feedback-Enable-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="MadCap-Feedback.htm">About MadCap Feedback</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Enable Feedback in Flare</h2>
+        <ol>
+            <li>From the Project Organizer, open the target.     </li>
+            <li>Select the <span class="Emphasis">Analytics</span> tab.</li>
+            <li>From the <b>Provider</b> field, select <b>Pulse/Feedback Server</b>.</li>
+            <li>
+                <p>In the <span class="Emphasis">URL</span> field, enter the path to the server hosting the data.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It is highly recommended that you purchase an SSL certificate and install it on your web server. SSL uses encryption for certain processes, which helps to ensure that the data transfer is secure. If you have an SSL certificate installed on your web server, make sure you begin the path to the server with https://.</p>
+                </div>
+            </li>
+            <li>Copy the Feedback license that you have been issued and paste it into the Feedback Service License Key field.</li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Set the Community Options (Display Feedback Comments) Using a Stylesheet</h2>
+        <ol>
+            <li>Open the stylesheet.</li>
+            <li>Find and select the <span class="Emphasis">html</span> style or the appropriate class.</li>
+            <li>In the <span class="Emphasis">Show</span> filter field, select <span class="Emphasis">Alphabetical List</span>.</li>
+            <li>Find the <span class="Emphasis">mc-community-features</span> property and set it to <span class="Emphasis">enabled</span> or <span class="Emphasis">disabled</span>. The default setting is "enabled."</li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <p>This stylesheet method can be especially useful if you only want some topics to display the comment area.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If there is a discrepancy between the skin and the stylesheet setting (e.g., the skin is set to disabled and the CSS is set to enabled), the stylesheet setting has precedence.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Comments at the bottom of topics are not shown in tablet or mobile view. This is the same case for HTML5 Tripane output.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The comments area at the bottom of topics is wrapped in an iframe. Therefore, the output is technically not entirely frameless. However, because it is only the comments that are contained in the iframe, the main topic content still retains the benefits (e.g., better search results) of frameless output.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>After you enable Feedback in a Flare target, you can do the following.</p>
+        <ul>
+            <li MadCap:conditions="">Configure the target with Feedback Explorer so that you can view and work with user activity for that published target. See <MadCap:xref href="Configuring-Target-Feedback-Explorer.htm">Configuring a Target with Feedback Explorer</MadCap:xref>.</li>
+            <li MadCap:conditions="">Disable comments in the target skin (if you do not want users to be able to submit and view comments). See <MadCap:xref href="Comments/Displaying-Comments-Feedback.htm">Disabling Feedback User Comments in Skins</MadCap:xref>.</li>
+        </ul>
+        <p>After you generate and publish the output, you can open Feedback Explorer to see how readers are using the output. See <MadCap:xref href="Opening-Feedback-Explorer.htm">Opening Feedback Explorer</MadCap:xref>.</p>
+    </body>
+</html>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="5557" MadCap:lastWidth="1511">
+    <body>
+        <p>The Windows dialog controls the position and—depending on the target—the buttons, caption, background color, and other characteristics of output windows. Any window options not specified here will be set using the Theme Designer. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Themes/Themes.htm">About Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/About-Themes.htm">About Themes</MadCap:xref>.</MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide">See the online help or the <span class="EmphasisItalic">Design Guide</span> for more information.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">Dialog Panels</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Dialog Panels</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This dialog has three panels: </p>
+                <ul>
+                    <li>
+                        <p>The <span class="SetOffFirstLevel">left panel</span> displays the names of the windows already created. Click on a window name to edit it in the center panel. You can also add a new window in this panel.</p>
+                    </li>
+                    <li>
+                        <p>The <span class="SetOffFirstLevel">center panel</span> displays complete information about the window chosen on the left. From the drop-down at the top, choose the target windows you’d like to edit. Unavailable options for the window selection will be grayed out.</p>
+                    </li>
+                    <li>
+                        <p>The <span class="SetOffFirstLevel">right panel</span> displays how each window chosen on the left will be positioned on your desktop. All windows in the left panel with selected check boxes will be displayed by default.</p>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add a New Window</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Select the <span class="Emphasis">Project</span> ribbon.</p>
+                    </li>
+                    <li>
+                        <p>From the <span class="Emphasis">Project</span> ribbon group, click <span class="Emphasis">Windows</span>. The Windows dialog opens.</p>
+                    </li>
+                    <li>
+                        <p>From the center panel drop-down list, choose the proper target.</p>
+                    </li>
+                    <li>
+                        <p>In the left panel, click <span class="Emphasis">Add New Window</span>.</p>
+                        <p>The window will be added to the list with the default name "newwindow." Change the name by editing the <span class="Emphasis">Name</span> field in the <span class="Emphasis">Basic</span> section, then clicking anywhere in the dialog to change it in the list on the left.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Edit a Window</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Select the <span class="Emphasis">Project</span> ribbon.</p>
+                    </li>
+                    <li>
+                        <p>From the <span class="Emphasis">Project</span> ribbon group, click <span class="Emphasis">Windows</span>. The Windows dialog opens.</p>
+                    </li>
+                    <li>
+                        <p>From the center panel drop-down list, choose the proper target.</p>
+                    </li>
+                    <li>
+                        <p>In the left panel, click the window you wish to edit. If you would like to edit the name of the window, edit the <span class="Emphasis">Name</span> field in the <span class="Emphasis">Basic</span> section.</p>
+                    </li>
+                    <li>
+                        <p>Make the desired changes to the window options and click <span class="Emphasis">OK</span>.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide"><a name="EPUB"></a>EPUB</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="EPUB"></a>EPUB</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The size and position of windows in the EPUB target cannot be customized.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide" class="NoPageBreakBefore"><a name="HTMLHelp"></a>HTML Help</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="HTMLHelp"></a>HTML Help</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the following options to configure your HTML Help windows. Unavailable options will be grayed out.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Basic</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Name.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Caption.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Tripane-Format.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Position</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Left.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Top.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Width.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Height.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Save-User-Position.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Always-Top.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Maximized.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Buttons</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Hide.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Locate.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Previous.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Next.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Back.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Forward.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Stop.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Refresh.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Home.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Print.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Options.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Jump1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Jump1-Caption.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Jump1-URL.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Jump2.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Jump2-Caption.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Jump2-URL.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Navigation Pane</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Nav-Pane-Width.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Search-Tab.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Use-Advanced-Search.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Favorites-Tab.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Hidden-Default.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Hide-Deactivated.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Autosynchronize-Contents.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide" class="NoPageBreakBefore"><a name="JavaHelp"></a>JavaHelp</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="JavaHelp"></a>JavaHelp</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the following options to configure your JavaHelp windows. Unavailable options will be grayed out.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Basic</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Name.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Position</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Left.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Top.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Width.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Height.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Navigation Pane</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Show-Contents-Tab.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Show-Index-Tab.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Show-Search-Tab.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Show-Favorites-Tab.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide"><a name="Manual"></a>Manual</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="Manual"></a>Manual</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The manual target is not an online Help format, and has no windows.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide" class="NoPageBreakBefore"><a name="MicrosoftHelp20"></a>Microsoft Help 2.0</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="MicrosoftHelp20"></a>Microsoft Help 2.0</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The size and position of windows in the Help 2.0 target (used for developing output for Microsoft Visual Studio 2005 and 2007) cannot be customized.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide" class="NoPageBreakBefore"><a name="MicrosoftHelpViewer"></a>Microsoft Help Viewer</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="MicrosoftHelpViewer"></a>Microsoft Help Viewer</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The size and position of windows in the Microsoft Help Viewer target (used for developing output for Microsoft Visual Studio 2010 and above) cannot be customized.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide" class="NoPageBreakBefore"><a name="NetHelp"></a>NetHelp</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="NetHelp"></a>NetHelp</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the following options to configure your NetHelp windows. Unavailable options will be grayed out.</p>
+                <p>For NetHelp targets, the Navigation pane will be disabled for the main window because the visibility of the Contents, Search, and Index tabs is managed by editing the Theme. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Themes/Themes.htm">About Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/About-Themes.htm">About Themes</MadCap:xref>.</MadCap:conditionalText></p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Basic</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Name.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Position</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Left.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Top.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Width.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Interface/Window-Display/Windows-Height.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

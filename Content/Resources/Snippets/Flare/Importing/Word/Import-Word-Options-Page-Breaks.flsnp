@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                <p><b>Preserve and create new topics on page breaks </b>This keeps any page breaks found in the Word documents.</p>
+            </li>
+            <li>
+                <p><b>Preserve and convert to MadCap page breaks </b>This keeps any page breaks found in the Word documents, but it will convert them to the special page break tags (MadCap|pageBreak) used by Flare. This page break element displays as a gray bar in the XML Editor, but it is not shown in the output; a page break simply occurs at that spot.</p>
+                <p>
+                    <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Preserver-Convert-MadCap-Page-Breaks.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li><b>Ignore page breaks </b>This will not keep any page breaks found in the Word documents.</li>
+        </ul>
+    </body>
+</html>

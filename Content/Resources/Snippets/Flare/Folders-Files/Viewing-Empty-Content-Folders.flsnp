@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can  scan for empty content folders in a project with the Unused Items window pane. Empty content folders are those that have been created, but do not contain files of any type. You can  quickly delete any empty content folders in the Unused Items window pane. </p>
+        <h2>How to View Empty Content Folders</h2>
+        <ol>
+            <li>
+                <MadCap:snippetBlock src="../Analysis/More-Analysis-Scans/Unused-Items/Select-Unused-Items.flsnp" />
+                <MadCap:snippetBlock src="../Analysis/More-Analysis-Scans/Unused-Items/Unused-Items-Window-Opens.flsnp" />
+            </li>
+            <li>Click the drop-down field at the top of the window pane and select <span class="Emphasis">Empty Content Folders</span>. The empty content folders in the project are listed.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Folder</span> Displays the name of the empty content folder.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>If you want to remove any empty content folders from <MadCap:variable name="Other.Product" />, as well as from the project being analyzed, select the empty content folder in the list and click <img src="../../../Images/Shared/Al-Ca-Co-Fl-Li-Mi/Interface/Buttons/Delete-btn.png" class="ReduceButtonSize" /> in the local toolbar.</li>
+        </ol>
+        <MadCap:snippetBlock src="../Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

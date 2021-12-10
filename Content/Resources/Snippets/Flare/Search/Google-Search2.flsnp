@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="Google-Search11.flsnp" />
+        <MadCap:snippetBlock src="Google-Search12.flsnp" />
+        <table class="TableStyle-Fancy" style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+            <col style="width: 30%;" class="TableStyle-Fancy-Column-Regular" />
+            <col style="width: 30%;" class="TableStyle-Fancy-Column-Regular" />
+            <col style="width: 30%;" class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">&#160;</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">MadCap Search</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Elasticsearch</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Google Search</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Less Time and Effort to Set Up</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />Setting up MadCap Search in a Flare project takes only a few seconds.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Setting up Elasticsearch is done within the Target Editor and Destination Editor in Flare. Web servers also need to be configured to support Flare, along with the Elasticsearch service.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Setting up a Google custom search engine (CSE) and performing other necessary tasks requires a combination of steps in both Google and Flare. This can take a bit of time to complete. However, it is usually just a one-time setup.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Public vs. Local Output Flexibility</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />Output can be searched whether it is available publicly or locally.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Output must be published on a server in order to use the full capability of Elasticsearch.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Output must be available publicly so that you can use Google. Output cannot be behind a firewall.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Multiple Outputs</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Searches will include results for only the Flare output that is open.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />You can manage multiple HTML5 targets that use Elasticsearch through the Content Services Portal. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Search/Search-Engines/Elasticsearch/Content-Services-Portal.htm">Content Services Portal</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />You can add multiple folders/sites to be included in your Google custom search engine (CSE).  Each of these sites can be a separately published Flare output.  When users search from one of the published Flare outputs, results will display for all of the outputs.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Other File Types</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">In order to include file types such as PDF in your search results, you need to generate and publish server-based output.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/Other-Information/Server-Based-Output/Enabling-HTML5-Server-Output1.htm">Enabling HTML5 Server-Based Output</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />Most file types are included in the search results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />If you have added other types of files (e.g., PDF) to the site(s) associated with your CSE, they may be included in search results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Search Tailored to Flare Projects</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />MadCap Search rankings are specifically tailored for Flare users. They take into account not only H1-H6 headings, but also index keywords, glossary terms, etc.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Search-Guide"> See <MadCap:xref href="../../../../Flare/Search/Optimizing-Search/Ranking-Search-Results.htm">Ranking Search Results</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Elasticsearch does not provide any direct mapping of search criteria to the structure of a Flare project.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Google does not recognize the unique characteristics of a Flare project (e.g., index keywords, glossaries). Therefore, those elements will have no effect on how Google ranks pages in the results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Micro Content in Results</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />MadCap Search lets you include micro content in your search results, which can especially improve the experience for users. <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Micro-Content/Micro-Content.htm">Micro Content</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />Elasticsearch lets you include micro content in your search results, which can especially improve the experience for users. <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Micro-Content/Micro-Content.htm">Micro Content</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Google does not include micro content (created in Flare) in your search results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Glossary Definitions in Results</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />MadCap Search will fetch your project’s glossary terms and feature them at the top of search results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Elasticsearch does not provide an option to include glossary terms in your search results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Google will not fetch your project’s glossary terms and feature them at the top of search results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Results for Incorrectly Typed Searches</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Incorrectly typed search terms will not return results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />The partial-word search and fuzzy match settings allow for numerous searches to be returned when these settings are enabled. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Search/Search-Results-Options/Enabling-Partial-Word-Search.htm">Enabling Partial-Word Search</MadCap:xref> and <MadCap:xref href="../../../../Flare/Search/Search-Engines/Elasticsearch/Enabling-Elasticsearch-Target-Editor.htm">Enabling Elasticsearch Through the Target Editor</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />If an end user incorrectly enters a search term (e.g., types “Tble” instead of “Table”), Google will often guess the correct term and show results anyway.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Better Search and Indexing Speed</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />Search results might be faster because the output is immediately indexed once it is generated. You do not need to spend any extra time indexing your pages or waiting for search results to appear.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />The administrator portal allows for the search indexes to be managed closely. This will assist in keeping search result times optimal. </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Search results might lag at times, depending on the size of the output and whether Google is finished with the indexing (i.e., making your output available for searches).</p>
+                        <p class="TableText">Google will index your pages automatically over time, but it can take awhile, sometimes weeks. <MadCap:conditionalText MadCap:conditions="General.Online-Only">You can use some of the steps below to help speed up this process.</MadCap:conditionalText></p>
+                        <p class="TableText" MadCap:conditions="General.Online-Only">In addition, there are a number of different factors that can determine how fast your site is indexed, including:</p>
+                        <ul MadCap:conditions="General.Online-Only">
+                            <li>Whether your output has a sitemap</li>
+                            <li>The structure of your output</li>
+                            <li>How content is linked (regular links are best to make it easier for Googlebots to crawl)</li>
+                            <li>Popularity of the site (the number of other sites that link to your output)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Mobile Devices</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Search results are “chunked” and then collapsed so that they can be displayed when a search is performed. This is usually okay on PCs, but if you try to perform a search on a mobile device, the results might be slow or even crash because the device cannot handle the number of search results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />Search results always come from a server, so you do not need to be concerned about the ability of the mobile device to handle the information.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />Search results always come from a server, so you do not need to be concerned about the ability of the mobile device to handle the information.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">No Advertisements</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />No advertisements are included in search results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />No advertisements are included in search results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Users might see advertisements in search results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Customize Auto-Complete Results</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">There are no options available for auto-complete results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />You can enable multiple options to include a mix of personal and global searches on your output. There is also an option to include project content information such as topic titles and the file path in your project.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">While Google Search does provide auto-complete results, it does not provide the ability to customize these results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Customize Predictive Search</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">MadCap Search does not offer any predictive methods in obtaining search results.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" style="width: 17px;height: 17px;" />There are multiple options that allow you to obtain predictive results when searching, especially when using auto-complete options.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Google Search provides a measure of predictive results, although it is not customizable within Flare.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

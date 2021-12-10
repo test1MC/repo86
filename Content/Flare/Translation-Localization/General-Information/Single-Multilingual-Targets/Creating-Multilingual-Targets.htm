@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/User-Guides/Flare-Translation.flmsp');">
+    <head>
+        <meta name="description" content="Ways to create multilingual targets." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Translation" />Creating Multilingual Targets</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Feature-Supported/All.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Translation-Localization/Creating-Multilingual-Targets-Summary.flsnp" /> See <MadCap:xref href="Multilingual-Target-Examples.htm">Multilingual Target Examples</MadCap:xref>.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Create a Multilingual Target</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Translation-Localization/Create-Multilingual-Targets-Steps.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2 or Snippets.Snippet3], exclude[Snippets.Snippet1]" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+        <h2>How to Add a Language Drop-Down for HTML5</h2>
+        <p>With a multilingual target, Flare creates a subfolder in your output folder for each language. When you view the output, it is automatically displayed based on your browser's default language. However, when producing HTML5 output, you also have the option of including a drop-down in the skin. This allows users to switch manually from one language to another.</p>
+        <ol>
+            <li>
+                <p>Do one of the following, depending on the output type:</p>
+                <ul>
+                    <li><span class="Emphasis">Side and Top Navigation </span>Add a Topic Toolbar skin component to your project <MadCap:conditionalText MadCap:conditions="General.Online-Only">(see <MadCap:xref href="../../../Skins/Process/Adding-Skins-Project.htm">Adding Skin Files</MadCap:xref> and <MadCap:xref href="../../../Skins/HTML5-Skin-Styles/Topic-Toolbars-HTML5-Skins1.htm">Topic Toolbars in HTML5 Skin Components</MadCap:xref>)</MadCap:conditionalText>. Open the skin component, and select the <span class="Emphasis">Setup</span> tab. </li>
+                    <li><span class="Emphasis">Tripane </span>Open the regular skin and select the <span class="Emphasis">Toolbar</span> tab.</li>
+                </ul>
+            </li>
+            <li>
+                <p>Move the <span class="Emphasis">Select Language</span> button from the <span class="Emphasis">Available</span> section to the <span class="Emphasis">Selected</span> section.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Translation-Localization/Multilingual-Swtich-Language.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>For Side Navigation and Top Navigation output, insert a Topic Toolbar proxy into your template page(s), and select the Topic Toolbar skin component when doing so. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Nav-Links/Toolbars/Topic-Toolbars/Process/Inserting-Editing-Topic-Toolbar.htm">Inserting and Editing a Topic Toolbar Proxy</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>If you decided not to create a Topic Toolbar skin component in Step 1, you can click <span class="Emphasis">Select buttons</span> in the Topic Toolbar Proxy dialog and enable the <span class="Emphasis">Select Language</span> button from there.</p>
+                <p>If you are creating Tripane output, you do not need to insert a proxy.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" /> When you generate the multilingual target, you will see the language button <img src="../../../../Resources/Images/Flare/Interface/Buttons/Select-Language-btn.png" alt="" title="" class="ReduceButtonSize" /> in the output, and you can click it to select any of the languages that are linked in the target.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Translation-Localization/Multilingual-Output1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Translation-Localization/Note-Link-Projects-Before-Close.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Translation-Localization/Note-Multilingual-Link-Lingo-Warnings.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Translation-Localization/Note-Multilingual-Lingo10.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Translation-Localization/Note-Multilingual-Each-Project-Own-Target.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Translation-Localization/Note-Multilingual-Same-File-Names.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Search/Note-Multilingual-Elasticsearch-Same-GUID.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2 or Snippets.Snippet3], exclude[Snippets.Snippet1]" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Translation-Localization/Note-Generalizing-Localized-HTML-Help.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Translation-Localization/Eclipse-Multilingual.flsnp" />
+    </body>
+</html>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can single-source question sections using a snippet and reuse it elsewhere in the project. The key to doing this is to insert the snippet within the &lt;MadCap:multipleChoice&gt; tag, which is the outer tag added when you insert a new question. This tag contains the question ID for that section.</p>
+        <ol>
+            <li>
+                <p>In the XML Editor, select the question section paragraphs that you want to include in a snippet. The snippet can include some or all of the question section (e.g., question, answer(s), feedback, submit button).</p>
+                <p>
+                    <img src="../../../Images/Flare/LMS/Question-Snippet1.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Select <span class="Emphasis">Home &gt; Create Snippet</span>. The Create Snippet dialog opens to name, create, and save it. </p>
+            </li>
+            <li>
+                <p>Open a topic where you want to insert the snippet.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">eLearning</span> ribbon, insert a new question (e.g., multiple choice or multiple response).</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>At the inserted default question section, place your cursor in the text, and press the down arrow. The cursor should be at the end of the question section. </p>
+                <p>
+                    <img src="../../../Images/Flare/LMS/Question-Snippet2.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Select <span class="Emphasis">Insert &gt; Snippet</span>.</p>
+            </li>
+            <li>
+                <p>From the Insert Snippet Link dialog, select the snippet, and click <span class="Emphasis">OK</span>. It inserts as a snippet block. You might have to delete remaining parts of the original default question section.</p>
+                <p>
+                    <img src="../../../Images/Flare/LMS/Question-Snippet3.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <p>The cleaned up text is all that should be in the snippet block. </p>
+                <p>
+                    <img src="../../../Images/Flare/LMS/Question-Snippet4.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+                <div class="warning">
+                    <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">You can create snippets for entire question sections and reuse them. However, use caution when doing so, because each question has its own question ID associated with it, and you do not want the ID to end up inside the snippet. The question ID is necessary for eLearning tracking.</p>
+                </div>
+                <p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The &lt;MadCap|multipleChoice&gt; tag  includes the question ID. This is evident in the Text Editor. </p>
+                        <p>
+                            <img src="../../../Images/Flare/LMS/LMS-Text-Editor-QuestionSnippet.png" alt="" title="" class="MaxWidth90Percent">
+                            </img>
+                        </p>
+                        <p>An alternative way to select the text, is to open the Text Editor for the topic with the question section in it that you want to make into a snippet. You can delete the &lt;MadCap|multipleChoice&gt; tag lines that wrap the question section, and save the file. View the topic in the XML Editor, select the question and answer paragraphs, and then create a snippet. </p>
+                    </div>
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

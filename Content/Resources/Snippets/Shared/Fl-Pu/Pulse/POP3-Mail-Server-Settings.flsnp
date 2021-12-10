@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>These settings give the Pulse server to use Post Office Protocol Version 3 (POP3) to collect incoming email  (i.e., email replies to Pulse notifications):</p>
+        <table style="mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 30%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 30%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 30%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Setting</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Description</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Typical Setting/Format</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Additional Information</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">POP3 Host</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Type the name of the host.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText"><span class="TypedEntry">pop3.example.com</span>
+                        </p>
+                        <p class="TableText">or</p>
+                        <p class="TableText"><span class="TypedEntry">10.10.18.222</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" rowspan="3">
+                        <p class="TableText">Obtain this information from your Email Administrator or POP3 Service Provider.</p>
+                        <p class="TableText">&#160;</p>
+                        <p class="TableText">&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">POP3 Username</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Type the user name of a valid account.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText"><span class="TypedEntry">accountname@example.com</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">POP3 Password</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Type the password for the account.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText"><span class="TypedEntry">&lt;password&gt;</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">POP3 Poll Task</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">This defines how frequently incoming mail is pulled by the server. </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText"><span class="TypedEntry">1</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This is set to 0 by default. It is recommended that you set the value to 1.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">POP3 Enable SSL</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">Place a check mark in the box to enable Secure Sockets Layer&#160;(SSL). </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">blank=disabled</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">It is recommended that you leave this box blank. Your environment may have a different requirement.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

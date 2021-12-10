@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">
+                <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">You have the following three classes: span.SearchHighlight1, span.SearchHighlight2, and span.SearchHighlight3. For span.SearchHighlight1, you change the background color to blue. For span.SearchHighlight2, you change the background color to orange. And for span.SearchHighlight3, you change the background color to yellow.</MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">For "Search Highlight 01" in this skin, you change the background color to blue. For "Search Highlight 02," you change the background color to orange. And for "Search Highlight 03," you change the background color to yellow.</MadCap:conditionalText>
+            </p>
+            <p>If a user enters "topic information help find" in the search field, the term "topic" will be displayed with a blue background everywhere it occurs in a topic. The term "information" will be displayed with an orange background, and the term "help" will be displayed with a yellow background. The term "find" will be displayed with the default background color specified by Flare (since you did not change it).</p>
+            <p>If another user enters "help find topic information" in the search field, the term "help" will be displayed with a blue background. The term "find" will be displayed with an orange background, and the term "topic" will be displayed with a yellow background. The term "information" will be displayed with the default background color specified by Flare (since you did not change it).</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1" MadCap:conditions="General.Print-Only">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1" colspan="2" MadCap:conditions="">
+                        <p class="TableTextHead">Lists</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">BACKSPACE</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Delete current line and move cursor to previous line</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-DarkerRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">CTRL+;<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (semicolon)</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Paragraph or simple item in list (toggle)</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">ENTER&#160;(press at end of &lt;dd&gt; tag containing text)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Add another definition &lt;dd&gt; to definition list</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-DarkerRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">ENTER&#160;(press at end of empty &lt;dd&gt; tag)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Add new term &lt;dt&gt; to definition list</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">ENTER&#160;(press x2 on last line)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Exit bulleted or numbered list </p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-DarkerRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">ENTER&#160;(press x3 on last line)</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Exit definition list </p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">SHIFT+TAB</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Outdent list item</p>
+                        <p class="TableText"> Remove list tag and convert to paragraph</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-DarkerRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyB-Regular-DarkerRows">
+                        <p class="TableTextEmphasis">TAB</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-DarkerRows">
+                        <p class="TableText">Indent list item</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

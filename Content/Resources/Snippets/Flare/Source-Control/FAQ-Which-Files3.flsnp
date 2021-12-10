@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>The main <MadCap:keyword term="FLPRJ file" MadCap:conditions="Products.Flare" />FLPRJ file</li>
+            <li>All files from the Content folder</li>
+            <li>All files from the Project folder, except those in the Project &gt; Users subfolder</li>
+            <li>
+                <p>Files from a specific Output subfolder</p>
+                <p class="topic-only">You might transfer output files to source control, for example, if you are integrating your Help into a desktop application, and programmers need access to your output files to build the application. However, if you do this, make sure you map the source control to the appropriate output subfolder, and not to the Temporary subfolder or to the main Output folder, which contains the Temporary subfolder.</p>
+                <p class="topic-only">
+                    <img src="../../../Images/Flare/Source-Control/Source-Control-Map-Output.png" class="MaxWidth85Percent" />
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

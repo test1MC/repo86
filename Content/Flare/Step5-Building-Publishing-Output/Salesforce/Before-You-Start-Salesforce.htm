@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Videos/Flare-Salesforce.flmsp');">
+    <head>
+        <meta name="description" content="Best practices and guidelines for configuring Salesforce and Flare prior to publishing your output. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Publishing:destinations;Destinations:Salesforce;Salesforce" />
+            <MadCap:concept term="FilterFeatures" />Before You Start Publishing to Salesforce<span class="Registered-Trademark">®</span></h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/Clean-XHTML.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>Following are some steps you should complete and information you should know before you publish from Flare to Salesforce<span class="Registered-Trademark">®</span>.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Keep in mind that information provided below about the Salesforce<span class="Registered-Trademark">®</span> interface follows the  <span class="Emphasis">Classic view</span> of that application, rather than the Lightning view. In addition, it is possible the Salesforce<span class="Registered-Trademark">®</span> interface can change periodically, so the labels and directions below might not always match the most current Salesforce<span class="Registered-Trademark">®</span> interface. For full steps on Salesforce<span class="Registered-Trademark">®</span> tasks, please refer to the Salesforce<span class="Registered-Trademark">®</span> documentation. </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Salesforce<span class="Registered-Trademark">®</span> Side</h2>
+        <p>Following are settings and considerations on the Salesforce<span class="Registered-Trademark">®</span> side of this process.</p>
+        <div class="IndentMedium">
+            <h3>Knowledge Module</h3>
+            <p>You must have the Knowledge module enabled in Salesforce<span class="Registered-Trademark">®</span>. This needs to be done for the user, as well as for the site. </p>
+            <p>When enabling Knowledge for a user (<span class="Emphasis">Manage Users &gt; Users</span>), you should set the following permissions:</p>
+            <ul>
+                <li>
+                    <p class="Emphasis">Knowledge User</p>
+                </li>
+                <li>
+                    <p class="Emphasis">Salesforce CRM Content User</p>
+                    <p>This permission lets you work with a <a href="#SharedAssetLibrary">Shared Asset Library</a>.</p>
+                </li>
+            </ul>
+            <p>You can enable Knowledge for the site from <span class="Emphasis">Customize &gt; Knowledge &gt; Knowledge Settings</span>.</p>
+            <h3>Profile Permissions</h3>
+            <p>To publish output from Flare, there are a variety of permission settings that you need to have on Salesforce<span class="Registered-Trademark">®</span> for the profile in question. This can be done from <span class="Emphasis">Manage Users &gt; Profiles</span>.</p>
+            <p>Enable the following permissions (some items are only available on multilingual Lightning accounts):</p>
+            <div>
+                <h4>Administrative Permissions</h4>
+                <ul class="Emphasis">
+                    <li>
+                        <p>Customize Application</p>
+                    </li>
+                    <li>
+                        <p>Manage Salesforce CRM Content</p>
+                    </li>
+                    <li>
+                        <p>Manage Salesforce Knowledge</p>
+                    </li>
+                    <li>
+                        <p>View All Data</p>
+                    </li>
+                </ul>
+                <h4>General User Permissions</h4>
+                <ul class="Emphasis">
+                    <li>
+                        <p>Allow View Knowledge</p>
+                    </li>
+                    <li>
+                        <p>Archive Articles</p>
+                    </li>
+                    <li>
+                        <p>Article Translation - Edit (if working with multilingual output)</p>
+                    </li>
+                    <li>
+                        <p>Article Translation - Publish (if working with multilingual output)</p>
+                    </li>
+                    <li>
+                        <p>Article Translation - Submit for Translation (if working with multilingual output)</p>
+                    </li>
+                    <li>
+                        <p>Manage Articles</p>
+                    </li>
+                    <li>
+                        <p>Publish Articles</p>
+                    </li>
+                    <li>
+                        <p>View Archived Articles</p>
+                    </li>
+                    <li>
+                        <p>View Draft Articles</p>
+                    </li>
+                </ul>
+                <h4>Knowledge Base Permissions</h4>
+                <ul class="Emphasis">
+                    <li>
+                        <p>Read</p>
+                    </li>
+                    <li>
+                        <p>Create</p>
+                    </li>
+                    <li>
+                        <p>Edit</p>
+                    </li>
+                    <li>
+                        <p>Delete</p>
+                    </li>
+                    <li>
+                        <p>View All</p>
+                    </li>
+                    <li>
+                        <p>Modify All (useful for deleting articles from the archives)</p>
+                    </li>
+                </ul>
+            </div>
+            <h3>Article Types</h3>
+            <p>When creating and editing your destination file in Flare, you need to point to an article type. Classic Knowledge in Salesforce<span class="Registered-Trademark">®</span> lets you create multiple article types. Lightning Knowledge lets you create only one article type (but you can also create record types to help classify articles). </p>
+            <p>Regardless of your kind of account, it is important that you create a <span class="Emphasis">rich text field</span> for your article type. Also, when adding this type of field, make sure the permission is set so that the field is visible to the appropriate profile.</p>
+            <h3>Categories</h3>
+            <p>When publishing from Flare, you have the option of mapping your TOC nodes to one or more categories in  Salesforce<span class="Registered-Trademark">®</span>. </p>
+            <ul>
+                <li>
+                    <p>You can simply map all of your topics to default categories, in which case they will all become articles under those categories in Salesforce<span class="Registered-Trademark">®</span>. </p>
+                </li>
+                <li>
+                    <p>You can create multiple categories in Salesforce<span class="Registered-Trademark">®</span> and map them from the structure of your TOC. The advantage of doing this is that users can then filter by categories in Salesforce<span class="Registered-Trademark">®</span> that match your Flare TOC structure to more easily find articles. </p>
+                </li>
+                <li>
+                    <p>You can choose not to map to any categories at all. In this case, you would select the option in the destination file to use default categories, but not select any actual categories in the accompanying field.</p>
+                </li>
+            </ul>
+            <p>When using TOC mapping, make sure that the names of the nodes in your TOC structure match exactly with the categories in Salesforce<span class="Registered-Trademark">®</span>. Nodes on the first level of your TOC should correspond with the names of your category groups. There should only be one child category immediately under each first-level TOC node, just as you see only one category directly under a category group in Salesforce<span class="Registered-Trademark">®</span>.</p>
+            <p>Another important detail is to ensure any categories being used for your publishing process are set as active in Salesforce<span class="Registered-Trademark">®</span>.</p>
+            <h3>Unique Names</h3>
+            <p>If there are multiple categories with the same category name in Salesforce<span class="Registered-Trademark">®</span>, but different unique names, you can create corresponding books in your Flare TOC that have the same unique names. This might help more easily identify the article according to its location in the structure.</p>
+            <h3><a name="SharedAssetLibrary"></a>Shared Asset Library</h3>
+            <p>When you publish output from Flare to in Salesforce<span class="Registered-Trademark">®</span>, a log file is included in the process and is necessary to place the published content in the correct locations. If you are working with other authors who are also publishing from Flare to Salesforce<span class="Registered-Trademark">®</span>, you might want to create a separate Shared Asset Library in Salesforce<span class="Registered-Trademark">®</span>. This library will then be used specifically for storing Flare publish logs, instead of each author's private library.  This will help keep everything recorded accurately and maintain a good multi-author workflow.</p>
+            <p>You can create a Shared Asset Library using the Libraries page in Salesforce<span class="Registered-Trademark">®</span>. Keep in mind that certain permissions (covered above) are required to access this kind of library.</p>
+            <p>Profile permissions needed:</p>
+            <ul class="Emphasis">
+                <li>
+                    <p>Manage Salesforce CRM Content</p>
+                </li>
+                <li>
+                    <p>Customize Application</p>
+                </li>
+            </ul>
+            <p>User permission needed:</p>
+            <ul class="Emphasis">
+                <li>
+                    <p>Salesforce CRM Content User</p>
+                </li>
+            </ul>
+            <p>In addition, each author must be a member of the library selected in the destination file, and they should each have Library Administrator permission.</p>
+            <h3>Salesforce<span class="Registered-Trademark">®</span> Limitations</h3>
+            <p>Keep in mind the following limitations when publishing to Salesforce<span class="Registered-Trademark">®</span>:</p>
+            <ul>
+                <li>
+                    <p>Salesforce<span class="Registered-Trademark">®</span> supports up to 131,072 characters for each rich text area field, including the HTML tags. When there are inline styles included in the topic (see <MadCap:xref href="#ConvertingInlineStyles">Converting to Inline Styles</MadCap:xref>), that will add to the number of characters for the article. Also, tables tend to significantly affect the character limit due to the number of tags required to display them.</p>
+                </li>
+                <li>
+                    <p>Articles can only have up to 100 links to different Salesforce<span class="Registered-Trademark">®</span> knowledge articles in one rich text field.</p>
+                </li>
+            </ul>
+        </div>
+        <h2>Flare Side</h2>
+        <p>Following are some settings and considerations on the Flare side of this process.</p>
+        <div class="IndentMedium">
+            <h3>Clean XHTML</h3>
+            <p>Salesforce<span class="Registered-Trademark">®</span> does not support JavaScript or external stylesheets. Therefore, only the Clean XHTML format is fully supported when publishing from Flare to Salesforce<span class="Registered-Trademark">®</span>. </p>
+            <h3>Targets, TOCs, and Destination Files</h3>
+            <p>If you want to publish multiple groups of content to Salesforce<span class="Registered-Trademark">®</span>, it is best not to do so from the same target (e.g., switching the TOC in the target file each time you want to publish different content). Otherwise, the most recently published content will replace the content published earlier. Instead, it is best to use a different target, destination file, and table of contents (TOC) for each distinct group of content.</p>
+            <h3>TOC Structure</h3>
+            <p>If you created multiple categories in Salesforce<span class="Registered-Trademark">®</span> and want to map them to the linked topics in your TOC, make sure your TOC structure in Flare matches exactly the names and structure of those categories on Salesforce<span class="Registered-Trademark">®</span>.</p>
+            <h3><a name="ConvertingInlineStyles"></a>Converting to Inline Styles</h3>
+            <p>In Flare, it is recommended that you enable the option <span class="Emphasis">Convert stylesheet styles to inline styles</span>, which can be found on the General tab of the Target Editor. This will ensure that your styling is maintained when you publish the Clean XHTML output to Salesforce<span class="Registered-Trademark">®</span>. This is necessary because Salesforce<span class="Registered-Trademark">®</span> does not support external stylesheets.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Output/Clean-XHTML-Convert-Stylesheet-Inline-Styles.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <h3>Body Style</h3>
+            <p>Normally, we recommended that you set certain global properties (e.g., font size and type) on the body style in your stylesheet. That way, the settings trickle down to all of your other styles. However, the &lt;body&gt; tag will not be retained when you publish to Salesforce<span class="Registered-Trademark">®</span>. Therefore, anything that you have originally set on your body style will need to instead be set on lower styles in the hierarchy (e.g., p, ul, div).</p>
+            <h3>Images in Stylesheet</h3>
+            <p>Images that are referenced in a stylesheet are not supported when publishing to Salesforce<span class="Registered-Trademark">®</span>. This includes list images, background images, etc.</p>
+            <h3>Flare to Salesforce<span class="Registered-Trademark">®</span> Only</h3>
+            <p>Flare supports sending output to Salesforce<span class="Registered-Trademark">®</span>, but not importing content from it. Therefore, after publishing topics from Flare, you should not edit the resulting articles in Salesforce<span class="Registered-Trademark">®</span> if you plan to republish from Flare in the future. Otherwise, any changes you make in Salesforce<span class="Registered-Trademark">®</span> will be overwritten by the newly published topics.</p>
+            <h3>Limiting Content Published</h3>
+            <p>You have different options when it comes to limiting the content that is published to Salesforce<span class="Registered-Trademark">®</span>:</p>
+            <ul>
+                <li>There is an <span class="Emphasis">Exclusions</span> field in the Destination Editor where you can enter specific files to be held back from the publishing process. This is particularly useful to exclude files such as Default.htm.</li>
+                <li>You can use conditions on topic files in Flare, then include or exclude them appropriately in the Target Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Conditions/Conditions.htm">Conditions</MadCap:xref> and <MadCap:xref href="../../Conditions/Process/Associating-Conditions-Targets.htm">Associating Conditions With Targets</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>In the Target Editor, you can select the <span class="Emphasis">Advanced</span> tab and choose an option in the <span class="Emphasis">Content to include</span> drop-down. You can include files linked directly or indirectly from the target, or you can include only files linked directly from the TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Step4-Developing-Targets/More/Including-Specifically-Linked-Content.htm">Including Specifically Linked Content</MadCap:xref>.</MadCap:conditionalText></li>
+            </ul>
+            <h3>Multilingual Output</h3>
+            <p>Multilingual targets in Flare can be published to Salesforce<span class="Registered-Trademark">®</span>. Users in Salesforce<span class="Registered-Trademark">®</span> can then switch between languages in the interface to see the categories, sections, and articles in a particular language. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Localization/Translation-Localization.htm">Translation and Localization</MadCap:xref> and <MadCap:xref href="../../Translation-Localization/Other-Information/Multilingual-Support-Salesforce.htm">Multilingual Support for Salesforce</MadCap:xref>.</MadCap:conditionalText></p>
+            <h3>Server Limitations</h3>
+            <p>You should avoid publishing multiple targets to Salesforce<span class="Registered-Trademark">®</span> from a batch at the same time in order to avoid any server limitations during the upload process. You can still publish targets in a batch, but you probably want to open the Options dialog (<span class="Emphasis">File &gt; Options</span>), select the <span class="Emphasis">Build</span> tab, and set the <span class="Emphasis">Maximum Concurrent Builds</span> to <span class="Emphasis">1</span>.</p>
+            <h3>Practice Publishing</h3>
+            <p>Since you have many options for publishing content to Salesforce<span class="Registered-Trademark">®</span>, you might find it helpful to practice publishing output to a sandbox environment using different settings in Flare. Once you identify results that you like in Salesforce<span class="Registered-Trademark">®</span>, you can than publish output to your production environment.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>
+            <MadCap:xref href="Installing-MadCap-Connect-Salesforce.htm">Installing MadCap Connect for Salesforce®</MadCap:xref>
+        </p>
+    </body>
+</html>

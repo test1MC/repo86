@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroContentSet Comment="Default micro content set.">
+    <MicroContent id="status">
+        <MicroContentPhrase>status</MicroContentPhrase>
+        <MicroContentPhrase>translation status</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../../Snippets/Lingo/Micro-Content/Mini-Landing-Pages/MLP-Status.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1] " />
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="xliff">
+        <MicroContentPhrase>xliff</MicroContentPhrase>
+        <MicroContentPhrase>xlf</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../../Snippets/Lingo/Micro-Content/Mini-Landing-Pages/MLP-XLIFF.flsnp" />
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="release-notes">
+        <MicroContentPhrase>release notes</MicroContentPhrase>
+        <MicroContentPhrase>what's new</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Introduction/Whats-New/Whats-New.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="interface">
+        <MicroContentPhrase>interface</MicroContentPhrase>
+        <MicroContentPhrase>workspace</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Interface/Interface/Interface.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="machine-translation">
+        <MicroContentPhrase>machine translation</MicroContentPhrase>
+        <MicroContentPhrase>mt</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Machine-Translation/Machine-Translation.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="translation-memory">
+        <MicroContentPhrase>translation memory</MicroContentPhrase>
+        <MicroContentPhrase>tm</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Translation-Memory/Translation-Memory.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="termbase">
+        <MicroContentPhrase>termbase</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Termbase/Termbase.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="align">
+        <MicroContentPhrase>align</MicroContentPhrase>
+        <MicroContentPhrase>alignment</MicroContentPhrase>
+        <MicroContentPhrase>alignment project</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Alignment/Alignment.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="dictionaries">
+        <MicroContentPhrase>dictionaries</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Dictionaries/Dictionaries.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="source-control">
+        <MicroContentPhrase>source control</MicroContentPhrase>
+        <MicroContentPhrase>version control</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Source-Control/Source-Control.htm#microcontent1" />
+    </MicroContent>
+</MicroContentSet>

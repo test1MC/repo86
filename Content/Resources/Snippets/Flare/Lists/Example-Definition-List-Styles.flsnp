@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You might create a definition list that initially looks like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Lists/Definition-List11.png" alt="" title="" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Lists-Guide" />
+            <p>Then you add these definition list styles to your stylesheet:</p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">dl
+{
+	width: 520px;
+	padding: 0;
+	border-bottom: solid 1px #000000;
+}
+
+dl dt,
+dt
+{
+	clear: left;
+	float: left;
+	width: 100px;
+	margin: 0;
+	padding: 5px;
+	border-top: solid 1px #000000;
+	font-weight: bold;
+}
+
+dl dd,
+dd
+{
+	margin: 0;
+	padding: 5px;
+	border-top: solid 1px #b9bec1;
+	margin-left: 100px;
+}
+
+dt + dd
+{
+	border-top: solid 1px #000000;
+}</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Lists-Guide" />
+            <p>As a result, the definition list (and others that you create in the project) will look like this instead:</p>
+            <p>
+                <img src="../../../Images/Flare/Lists/Definition-List12.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

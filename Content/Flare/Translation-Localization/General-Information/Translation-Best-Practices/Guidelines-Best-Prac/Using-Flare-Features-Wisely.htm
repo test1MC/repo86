@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/User-Guides/Flare-Translation.flmsp');">
+    <head>
+        <meta name="description" content="Guidelines for using features such as variables, snippets, or conditions, in content for translation." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Translation" />Using Flare Features Wisely</h1>
+        <MadCap:microContent id="microcontent1">
+            <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides/Translation-Localization.flsnp" />
+            <p>There are many advantages in using Flare’s single-sourcing tools such as snippets, variables, and conditions for reusing content and avoiding repetition in your project. However, considering that most languages are grammatically different from each other, these features should be used with caution. Try to use them smartly, and do not overuse them.</p>
+        </MadCap:microContent>
+        <p>Because sentence structure can change a lot depending on the target language, be aware of the following general guidelines when using these powerful features.</p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Snippets</h2>
+        <ul>
+            <li>Do not use snippets in partial sentences. This can cause problems in translation because translators see each part of the sentence separately. Each snippet is its own file in a long list of other files, making it difficult for translators to know its context.</li>
+            <li>Snippets are best for single elements, rather than using as a variable that fits into a sentence, unless the variable does not change (e.g., product name, brand name, or proper noun).</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+        <h2>Variables</h2>
+        <ul>
+            <li>
+                <p>Keep variables simple. Translators see variables embedded in sentences, and not the context of the variable.</p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">An advantage to using MadCap Lingo for managing files for translation is that it allows you to select and flatten variables to convert them to text. By doing this, translators retrieve and view the real text only, rather than the tag.</p>
+                </div>
+            </li>
+            <li>Avoid using common nouns, or generic terms as variables (e.g., device, machine, instruction guide, manual).</li>
+            <li>Only use variables for proper nouns, dates, version numbers, addresses, or non-textual information for targets.</li>
+            <li>
+                <p>Avoid using inline variables. It is better to put a condition on a whole sentence. Using inline variables can present improper conjugation and noun-verb agreement problems for languages that are gender-specific.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>If translating from English to Spanish, consider the following sentence: <span class="EmphasisItalic">The &lt;variable&gt; is tall</span>.  </p>
+                    <p>The variable is either girl, or boy. In Spanish, the article and the adjective change, based on the gender of the noun. </p>
+                    <p>The translation with girl as the variable is <span class="EmphasisItalic">la niña es alta</span>, and with boy it is <span class="EmphasisItalic">el niño es alto</span>.</p>
+                    <p>The cleaner solution is to write two sentences, and apply a condition to each one.</p>
+                </div>
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+        <h2>Conditions</h2>
+        <ul>
+            <li>
+                <p>Avoid conditions that change sentence structure; meaning do not put more than one condition in a single sentence. Instead, write two simple sentences and condition each. For some languages, the grammar and word form can change depending on singular vs plural elements, the gender of the noun, or verb tense, etc.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In this example, a condition is applied with an “s” to add a plural form to a sentence. In the Flare image below, notice the use of singular and plural in one sentence with condition tags.</p>
+                    <p>
+                        <img src="../../../../../Resources/Images/Flare/Translation-Localization/Conditions-BestPrac-Translation-Ex1.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>Keep in mind that other languages do not allow the translator to simply add an “s” to make a word plural. In the computer-assisted translation (CAT) tool, the translator is faced with figuring out a rather complicated text string. The following image is what they see in the CAT&#160;tool.</p>
+                    <p>
+                        <img src="../../../../../Resources/Images/Flare/Translation-Localization/Conditions-BestPrac-Translation-Ex2.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>The better way to approach this sentence is to create two sentences and apply one condition tag to the entire sentence.</p>
+                    <p>Some might wonder if creating two sentences instead of one will increase translation costs. But if you write two cleaner sentences from the start, that enables the translator to interpret what is going on better in order to produce accurately translated material. This simplified method reduces the likelihood of rework, thereby reducing costs in the long run.</p>
+                </div>
+            </li>
+            <li>Avoid using condition tags for internal only notes. If you do, label them as such at the topic level (not within topics) so they get omitted from word count. It is better to create notes with Flare annotations. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Reviews-Contributions/Annotations/Inserting-Annotations.htm">Inserting Annotations</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+        <h2>Tag Placement</h2>
+        <p>As you can imagine, a lot of tags applied to content intended for translation can reduce content clarity and increase its complexity. Translators have to work around tags, but authors can help the efficiency of translations by optimizing tag placement.</p>
+        <ul>
+            <li>
+                <MadCap:annotation MadCap:createDate="2020-03-06T08:32:54.7545028-08:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="future- need to find a suitable example" MadCap:editor="pstoecklein" MadCap:editDate="2020-03-10T09:30:10.5391383-07:00">Reduce</MadCap:annotation> the use of, or avoid using inline tags (e.g., no closed tags in the middle of a word).</li>
+            <li MadCap:conditions="General.Future">
+                <MadCap:annotation MadCap:createDate="2020-03-06T08:33:36.9065633-08:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="future - need to investigate the meaning of this better" MadCap:editor="pstoecklein" MadCap:editDate="2020-03-10T09:30:20.8118236-07:00">Include a header in each topic. If no header tag is available, then the file name is used instead. Translators do not typically translate file names</MadCap:annotation>.</li>
+            <li>Turn hyperlinks into cross-references when possible. Cross-references are easier to handle, and require less integration.</li>
+            <li>Avoid inline styles. Create style classes in the stylesheet instead.</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+    </body>
+</html>

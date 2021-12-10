@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="s;(.miprj;XXXXXXX;XXXX;(.png;XXXXXX;XXXXX;F;W;IP;ftp.madcapsoftware.com.;ftp;madcapsoftware.com.;VideoTutorials;Url" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Getting-Started.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Movies:publishing;Publishing:output;Collections:publishing;Publishing:movies;Publishing:collections" />Publishing Output</h1>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="General.Online-Only">After you have generated the output for a collection or a standalone movie, you can distribute the output. </MadCap:conditionalText>One way to distribute your movies is to publish the output (i.e., send the movie output files to a predetermined destination).</p>
+        <h2>How to Publish Movies</h2>
+        <ol>
+            <li>
+                <p>Do one of the following: </p>
+                <p class="Subheading">If You are Publishing a Collection</p>
+                <ol class="LowerAlpha">
+                    <li>Open the collection.</li>
+                    <li>Select the <span class="Emphasis">Collection</span> ribbon and do one of the following:<ul><li>Click the <span class="Emphasis">Publish</span> button to publish the output type that is selected as the default.</li><li><p>Click the down arrow on the <span class="Emphasis">Publish</span> button and from the drop-down menu, select one of the output types.</p><p>The Publish Movie dialog opens.</p></li></ul></li>
+                </ol>
+                <p class="Subheading">If You are Publishing a Standalone Movie</p>
+                <ol class="LowerAlpha">
+                    <li>Open the movie. </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                        <ul>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Ribbon </span>Select the <span class="Emphasis">Movie</span> ribbon and do one of the following. </p>
+                                <ul>
+                                    <li>Click the face of the <span class="Emphasis">Publish</span> button to publish the output type that is selected as the default.</li>
+                                    <li>Click the down arrow on the <span class="Emphasis">Publish</span> button and from the drop-down menu, select one of the output types.</li>
+                                </ul>
+                            </li>
+                            <li><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+F6</span> on the keyboard.</li>
+                        </ul>
+                        <p>The Publish Movie dialog opens.</p>
+                    </li>
+                </ol>
+            </li>
+            <li>In the <span class="Emphasis">Type</span> field, select the method you want to use to publish your movie. <ul><li><span class="Emphasis"><MadCap:keyword term="File system;File Transfer Protocol;Publishing:FTP;Publishing:file system" /></span><span class="SetOffFirstLevel">FTP (File Transfer Protocol) </span>Select this FTP (file transfer protocol) option if you want to publish output files to another computer over a TCP/IP network. </li><li><MadCap:keyword term="File system;File Transfer Protocol;Publishing:FTP;Publishing:file system" /><span class="SetOffFirstLevel">File System </span> Select this option if you want to publish the output to a location on your computer or to another drive on a network.</li><li><span class="SetOffFirstLevel">YouTube or Vimeo </span> Select one of these options if you want to publish your output to a social media channel.</li></ul></li>
+            <li>
+                <p>Complete the rest of the fields in the dialog.</p>
+                <p class="Subheading">If You are Publishing Using FTP or File System</p>
+                <div class="IndentMedium">
+                    <p class="Subheading">Host Name</p>
+                    <p> Enter the name of the remote server or the computer where the output files will be published. If you use the FTP type, the host name will look something like this: ftp.mycompany.com. If you use the File System type, this field is disabled.</p>
+                    <p class="Subheading">Directory</p>
+                    <p>  Enter the exact location where the output files will be published. If you use the FTP type, you might enter something like this:</p>
+                    <p class="TypedEntry">public_html/VideoTutorials</p>
+                    <p>You can also leave the default setting of "public_html" if you are publishing to the root directory on the server.</p>
+                    <p> If you use the File System type, you can click <img src="../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" alt="" title="" class="ReduceButtonSize" /> to select a location. The <span class="Emphasis">Directory</span> field will then populate automatically for you. This button is disabled if you use the FTP type.</p>
+                    <p class="Subheading">Anonymous Login</p>
+                    <p>Select this check box if you want to publish to the server without being required to enter a user name or password. (You may need to check with your network administrator to determine if this is allowed.) This option is disabled if you use the File System type.</p>
+                    <p class="Subheading">Login Credentials</p>
+                    <p>Select this button to open the Log On As dialog. You can then enter the user name and password required for accessing the server to which you are publishing. If you do not enter the user name and password at this time, a dialog will open later when you actually publish the output, asking for the user name and password. This option is disabled if you use the File System type.</p>
+                    <p class="Subheading">Port</p>
+                    <p> Select the port that you will use to connect to the remote server. Typically, you can obtain the port from your network administrator. This option is disabled if you use the File System type.</p>
+                    <p class="Subheading">View URL</p>
+                    <p>You can enter an .http address in this field to be used for viewing the published files. This field is optional and is for your own internal purposes.</p>
+                    <p class="Subheading">Open URL in Default Browser</p>
+                    <p>  Select this button if you want to open the optional URL in your internet browser window.</p>
+                    <p class="Subheading">Upload Only Changed Files</p>
+                    <p>Select this option if you want Mimic to republish only the files that have changed. This can save significant time.</p>
+                    <p class="Subheading">Remove Stale Files</p>
+                    <p>Select this option if you want Mimic to identify files that were previously published but are no longer in the files to be published. Mimic will then remove such files from the destination.</p>
+                    <p class="Subheading">View Last Log</p>
+                    <p>Opens the most recent publishing log.</p>
+                </div>
+                <p class="Subheading">If You are Publishing to YouTube or Vimeo</p>
+                <p>You can also publish to YouTube and Vimeo. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Video-Services/Uploading-Movies-YouTube-Vimeo.htm">Uploading Movies to YouTube or Vimeo</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="IndentMedium">
+                    <p class="Subheading">Video</p>
+                    <p>Click <img src="../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" alt="" title="" class="ReduceButtonSize" /> to select the video you want to publish to YouTube or Vimeo.</p>
+                    <p class="Subheading">Title</p>
+                    <p>Enter a name for your video. This will help users find your video.</p>
+                    <p class="Subheading">Description</p>
+                    <p>Enter a brief description of your video.</p>
+                    <p class="Subheading">Tags</p>
+                    <p>Enter tags describing your video. These keywords will help users search for your video.</p>
+                    <p class="Subheading">Category</p>
+                    <p>Select a category for your video. These categories are defined by YouTube or Vimeo and help users find your video.</p>
+                    <p class="Subheading">Private</p>
+                    <p>Select whether or not your video will be private. Making the video private prevents other users from searching for your video.</p>
+                </div>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Mimic/Multimedia/Movies/Log-In-Video-Service.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/Mimic/Multimedia/Movies/Collections-Video-Services.flsnp" />
+            </li>
+            <li>Click <span class="Emphasis">Start Publishing</span>. </li>
+            <li>If a user name and password are required and you have not already provided them, enter them in the dialog that opens. </li>
+            <li>After the files are successfully published, a dialog opens, asking if you want to view the log (which lists the files that have been uploaded). Click <span class="Emphasis">Yes</span> if you want to see it, and close the log when you are finished.</li>
+        </ol>
+    </body>
+</html>

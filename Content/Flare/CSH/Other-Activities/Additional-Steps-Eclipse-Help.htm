@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides-Tutorials-Videos/Flare-CSH.flmsp');">
+    <head>
+        <meta name="description" content="Information for generating Eclipse Help and packaging context-sensitive Help." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Context-sensitive Help" />
+            <MadCap:concept term="FilterFeatures" />Additional Steps for Eclipse Help</h1>
+        <p>If you are generating Eclipse Help, there are additional steps that you need to complete in Eclipse.</p>
+        <ol>
+            <li>After you create an alias and header file, and then generate an Eclipse target, select <b>Project &gt; Open Output Folder</b>.</li>
+            <li>
+                <p>In Windows double-click the Eclipse output folder, which might look something like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/Eclipse-Output-Folder.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Within that folder, an XML file named “csh” is included.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/Eclipse-Output-CSH-File.png" alt="" title="" />
+                </p>
+                <p>Go to <a href="https://help.eclipse.org/" target="_blank">help.eclipse.org</a>, then find and follow the instructions for packaging context-sensitive Help. When doing this, use the context-sensitive Help XML file produced by Flare.</p>
+            </li>
+        </ol>
+    </body>
+</html>

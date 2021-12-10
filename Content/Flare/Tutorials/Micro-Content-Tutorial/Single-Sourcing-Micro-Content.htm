@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Intro-Micro-Content.flmsp');">
+    <head>
+        <meta name="description" content="Using conditions, styles, or both to single-source micro content. " />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Micro-Content.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:micro content;Micro content:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Single-Sourcing Micro Content</h1>
+        <p>Using the methods already discussed in this tutorial, you can often accomplish much of what you want for micro content in search results. However, you might find that you want to make certain changes to control where micro content appears and how it looks. For example, you might want some micro content phrases to be included in some outputs but not others. Also, you might want the content to look one way in the topic but another way in the micro content, but you don't want to create two sets of content. So a good solution is to use conditions, styles, or both to single-source the content for these different purposes.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Exclude Micro Content Phrases From Outputs</h2>
+        <ol>
+            <li>On the left side of the interface, open the Project Organizer.</li>
+            <li>Expand the <span class="Emphasis">Conditional Text</span> folder, and double-click <span class="Emphasis">Default</span>. The Condition Tag Set Editor opens.</li>
+            <li>Let's create two new conditions for our purposes. In the local toolbar, click <img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/New-Item-btn.png" class="ReduceButtonSize" />. A new row is added and selected.</li>
+            <li>
+                <p>Press <span class="Emphasis">F2</span> on your keyboard, select the text, type <span class="TypedEntry">HTML5Output1</span>, and press <span class="Emphasis">ENTER</span>. We could change the default color associated with the new condition, but we'll leave it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content30.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Repeat the previous couple of steps to create another condition called <span class="TypedEntry">HTML5Output2</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content31.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>From the Project Organizer, open the <span class="Emphasis">All-About-Austin-HTML5</span> target.</li>
+            <li>In the Target Editor, select the <span class="Emphasis">Conditional Text</span> tab.</li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Set <span class="Emphasis">Default.HTML5Output1</span> to <span class="Emphasis">Include</span>, and set <span class="Emphasis">Default.HTML5Output2</span> to <span class="Emphasis">Exclude</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content32.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open the micro content file.</li>
+            <li>On the left side of the editor, right-click the <span class="Emphasis">Music</span> row and select <span class="Emphasis">Properties</span>.</li>
+            <li>
+                <p>In the dialog, select the <span class="Emphasis">Conditional Text</span> tab, and click the check box next to <span class="Emphasis">HTML5Output1</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content33.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Repeat the previous three steps for the <span class="Emphasis">zilker park</span> row, but this time select the check box next to <span class="Emphasis">HTML5Output2</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content34.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>In the Micro Content Editor, you should see the corresponding colors next to each of the phrases.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content41.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Build the <span class="Emphasis">All-About-Austin-HTML5</span> target, and view the output.</li>
+            <li>Search for <span class="TypedEntry">Music</span>. Notice that the micro <span class="EmphasisItalic">displays</span> in the search results. That's because we included that condition in the target.</li>
+            <li>Search for <span class="TypedEntry">Zilker Park</span>. Notice that the micro <span class="EmphasisItalic">does not display</span> in the search results. That's because we excluded that condition in the target</li>
+        </ol>
+        <h2>How to Exclude Content From the Micro Content</h2>
+        <p>The following steps show how you can link to the same content, showing all of it when the full topic is viewed, but hiding some content when seen as micro content. We're going to do this using a condition, but you can also accomplish this using styles.</p>
+        <ol>
+            <li>From the Project Organizer, open the <span class="Emphasis">Default</span> condition tag set. The Condition Tag Set Editor opens.</li>
+            <li>Let's create a new condition for our purposes. In the local toolbar, click <img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/New-Item-btn.png" class="ReduceButtonSize" />. A new row is added and selected.</li>
+            <li>
+                <p>Press <span class="Emphasis">F2</span> on your keyboard, select the text, type <span class="TypedEntry">TopicsOnly</span>, and press <span class="Emphasis">ENTER</span>. We could change the default color associated with the new condition, but we'll leave it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content23.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open the <span class="Emphasis">Music.htm</span> topic.</li>
+            <li>
+                <p>Apply the new <span class="Emphasis">TopicsOnly</span> condition to the heading, as well as to the last sentence in the paragraph containing the cross-references<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>)</MadCap:conditionalText>. When finished, it should look like this.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content24.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Open the micro content file. Then in the editor select either the main <span class="Emphasis">Music</span> phrase or one of the alternate phrases, so that the linked response is shown to the right.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content25.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>On the left side of the editor, right-click the <span class="Emphasis">Music</span> phrase, and from the context menu select <span class="Emphasis">Properties</span>.</li>
+            <li>In the Properties dialog, select the <span class="Emphasis">Micro Content Conditions</span> tab.</li>
+            <li>
+                <p>Select the <span class="Emphasis">Default.TopicsOnly</span> condition row, and to the right click <span class="Emphasis">Exclude</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content26.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. Notice that the conditioned content no longer displays on the right side of the editor.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content27.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Build and view the output.</li>
+            <li>
+                <p>Search for <span class="TypedEntry">music</span>. Notice that the heading and sentence with the cross-references <span class="EmphasisItalic">are not</span> shown in the micro content response.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content28.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click the <span class="Emphasis">Music</span> link at the bottom of the micro content response to open the full topic. Notice that the heading and sentence with the cross-references <span class="EmphasisItalic">are</span> shown.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content29.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Make the Content Look Different</h2>
+        <p>Sometimes you might want the content to look one way in the micro content search results, but a different way in the full topic. We will do this using styles.</p>
+        <ol>
+            <li>From the Content Explorer, expand <span class="Emphasis">Resources</span>. Then right-click the <span class="Emphasis">Stylesheets</span> folder and select <span class="Emphasis">New &gt; Stylesheet</span>. The Add File dialog opens.</li>
+            <li>In the <span class="Emphasis">File Name</span> field, enter <span class="TypedEntry">Micro-Content</span>, and click <span class="Emphasis">Add</span>. The new stylesheet is created and opens in the Stylesheet Editor.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <p>On the left side of the Stylesheet Editor, select the <span class="Emphasis">ul</span> style (which affects unordered, or bulleted, lists).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content35.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On the right side of the editor, set the <span class="Emphasis">color</span> property to <span class="Emphasis">#ff0000</span> (or red).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content36.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>In the Content Explorer, expand <span class="Emphasis">Resources &gt; MicroContent</span>.</li>
+            <li>Right-click <span class="Emphasis">My-Micro-Content.flmco</span>, and select <span class="Emphasis">Properties</span>.</li>
+            <li>In the dialog, select the <span class="Emphasis">Stylesheet Links</span> tab.</li>
+            <li>On the left side of the dialog, double-click <span class="Emphasis">Micro-Content.css</span> to move it to the right side, then click <span class="Emphasis">OK</span>. This associates the micro content file with that stylesheet. The micro content file will still use the main stylesheet that is set at the project level, but when there are conflicts, the new stylesheet associated with the micro content file will have precedence.</li>
+            <li>From the Content Explorer, double-click <span class="Emphasis">Famous-Austin-Folks.htm</span>.</li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Let's make some micro content out of the bulleted list. Right-click the <span class="Emphasis">ul</span> structure bar to the left of the list, and from the context menu select <span class="Emphasis">Create Micro Content</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content37.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the <span class="Emphasis">Phrase</span> field of the dialog, enter <span class="TypedEntry">famous</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. The Micro Content Editor opens, with the new phrase selected and the linked response (the bulleted list) to the right.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content38.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+            <li>Build the <span class="Emphasis">All-About-Austin-HTML5</span> target, and view the output.</li>
+            <li>
+                <p>Search for <span class="TypedEntry">famous</span>. Notice that the list is red.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content39.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Click the link at the bottom of the micro content to open the full topic. Notice that the list is black (the default color, which we did not change in the main stylesheet).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Micro-Content/Micro-Content40.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End.flsnp" />
+        </div>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Project &gt; New &gt; Advanced &gt; Add Index Link Set</span>. </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click</span> In the Project Organizer, right-click on the <span class="Emphasis">Advanced</span> folder and from the context menu select <span class="Emphasis">Add Index Link Set</span>.</li>
+                </ul>
+                <p>The Add File dialog opens.</p>
+            </li>
+            <li>In the <span class="Emphasis">File Type</span> field at the top, make sure <span class="Emphasis">Index Link Set</span> is selected.</li>
+            <li>
+                <MadCap:snippetText src="../Templates/In-Source-Area-Template1.flsnp" />
+                <MadCap:snippetBlock src="../Templates/Template-Options1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../General/Select-Subfolder-Project-Organizer1.flsnp" />
+            </li>
+            <li>In the <span class="Emphasis">File Name</span> field, provide a name for the index link set file.</li>
+            <li>(Optional) <MadCap:snippetText src="../Conditions/Select-Relevant-Condition-Tags.flsnp" /> <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>(Optional) <MadCap:snippetText src="../File-Tagging/Select-Relevant-File-Tags.flsnp" /> <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../Flare/File-Tagging/Associating-Tags-Files1.htm">Associating Tags with Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Click <span class="Emphasis">Add</span>. The Index Links Editor opens. Also, the index link file <MadCap:keyword term="FLIXL file" />(.flixl extension) is added to the Advanced folder in the Project Organizer. In the future, you can open the index link set from there.</li>
+            <li>
+                <p>For each  index link that you want to create for a particular term, complete the following steps in the Index Links Editor. </p>
+                <ol class="LowerAlpha" MadCap:continue="true">
+                    <li>In the local toolbar, click <img src="../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/New-Item-btn.png" class="ReduceButtonSize" />. The Index Link dialog opens and a new row is added to the editor.</li>
+                    <li>
+                        <p>In the <span class="Emphasis">Term</span> field, type the term that you anticipate users may look for in the generated index. Please note that the fields in this dialog are case-sensitive; therefore, if you enter a term in all lowercase letters, that is how it will be displayed in the output. </p>
+                        <p>If you want to create a multi-level index entry, separate the first-level term and the second-level term with a colon (e.g., a single-level entry might be "Pasta"; a multi-level entry might be "Pasta:rigatoni").</p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Variables/Insert-Variable.flsnp" />
+                        </p>
+                        <MadCap:snippetBlock src="../Variables/Variables-Evaluated-Definitions.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet2 or Snippets.Snippet3 or Snippets.Snippet4 or Snippets.Snippet5 or Snippets.Snippet6]" />
+                    </li>
+                    <li>
+                        <p>Select a link type—<span class="Emphasis">See</span>, <span class="Emphasis">See Also</span>, or <span class="Emphasis">Sort As</span>.</p>
+                        <MadCap:snippetBlock src="Index-See-Links-Descriptions.flsnp" />
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide" />
+                    <li>
+                        <p>In the <span class="Emphasis">Linked Term(s)</span> field, enter the existing index entry that you want users to look for, or the term as you want it to be sorted in the list. If you want to create a multi-level index entry, separate the first-level term and the second-level term with a colon.</p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Variables/Insert-Variable.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

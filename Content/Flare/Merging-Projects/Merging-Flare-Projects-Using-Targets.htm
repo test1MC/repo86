@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="etc.)?;Examples...;FAQs;this.&quot;;CSS;Stylesheets;F;alternative...;F3;F1;F2;C;F4;F6;F7;F8;F9;F10;F12;J;K;P;W;Y;Z;(.flmsp;Indexing.&quot;;editors...;ConditionTagSet;SearchFilterSet;Stylesheet;TableStyle;VariableSet;tools...;Unformat;etc.);p;topic.);.pdf,;.doc,;.txt),;TocEntry;ToolbarItem;Practice.&quot;;b;Page...;Editor...;panes...;Organizer...;Explorer...;tags.&quot;;hidden.&quot;;none.&quot;;effect.);a.,;b.,;c.,;d.,;A.,;B.,;C.,;D.,;i.,;ii.,;iii.,;iv.,;I.,;II.,;III.,;IV.,;information.);keyword.&quot;;table...;(.flprj);file.);xls;right.);this...;Editor.);s;style.);Software.&quot;;.htm,;.html,;.xhtm,;xhtm;.xml,;.xhtml,;skins.&quot;;movie...;dialog.&quot;;Dialog.&quot;;Main.&quot;;Dialogs.&quot;;MyWebProject.mcwebhelp,&quot;;MyHtmlHelp.chm&quot;).;Close.&quot;;markers.);example...;Tollfree;MadCap1;Wizard...;program.);target.&quot;;'Empty';(.css;MySubhead;MySubhead.Subheading&quot;;EmphasisBlue;EmphasisGreen;EmphasisGreen.EmphasisBlue&quot;;(.mpj,;.xpj,;.hhp;Reimport;project...;MyProject.flprj).;Report.&quot;;Reports.htm;Report.htm).;.jpg,;.gif,;.bmp).;(.flsnp;TimeSheets.&quot;;TimeSheets;dialog...;Pets.&quot;;dogs.&quot;;Dog.&quot;;etc.).;NewTopic;www.acme.com).;(.chm;temp.hhc,&quot;;MyHelp.chm#MyToc.hhc).;TestFolder;MyHelp.chm,;AnotherHelpSystem.chm).;Master.mchelp,;AnotherHelpSystem;AnotherHelpSystem.mchelp).;Help.);file.&quot;;IdentifierName.&quot;;allowed.);option...;default.);CorporateGlossary.&quot;;CorporateGlossary.flglo&quot;;MyGlossary.&quot;;change.&quot;;Snippets.&quot;;page...;system...;footer...;NameOfMasterPage.flmsp);clickable;Contact.&quot;;Contact.fltoc&quot;;TOC.&quot;;acme.com).;hhc;MyToc.hhc).;MyToc;TOC.);n;reimport;flsfs;mcvariable;VariableSet.VariableName;MyVariables.CompanyName;flbrs;flali;flglo;VariableName;h;hh" style="mc-master-page: url('../../Resources/TemplatePages/Flare/User-Guides-Videos/Flare-Targets.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Use this merging method if you have access to all of the Flare project files to be merged. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Linking:tables of contents;Tables of contents:linking;Projects:merging;Merging:projects;HTML Help:merging;WebHelp:merging;Tables of contents:merging;Merging:tables of contents" />Runtime Merging Flare Projects Using Targets</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Banners/Feature-Supported/Eclipse-HTML-Help-HTML5-WebHelp-WH-Plus-Note-Tripane.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Flare-Projects-Targets.flsnp" />
+        <h2>How to Use Targets to Merge Multiple Flare Projects at Runtime</h2>
+        <ol>
+            <li>
+                <p>Open the TOC in the Flare project that will serve as the parent project.</p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Can-Also-Merge-Browse-Sequence.flsnp" />
+            </li>
+            <li>In the TOC Editor, select the TOC entry or book where you want to link the output from another Flare project. (The TOC of the linked project will be inserted at that spot in the parent TOC.)</li>
+            <li>In the local toolbar of the TOC Editor, click <img src="../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog opens.</li>
+            <li>Select the <span class="Emphasis">General</span> tab.</li>
+            <li>Click <span class="Emphasis">Select Flare Project and Target</span>. The Link to Flare Project and Target dialog opens.</li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Do-One-Following.flsnp" />
+                <ul type="1">
+                    <li>
+                        <p>Click <span class="Emphasis">Browse for Project</span>. Then click <span class="Emphasis">Project File</span> and find/select a Flare project to which you want to link. </p>
+                        <p>OR</p>
+                    </li>
+                    <li>Click <span class="Emphasis">Select Recent Project</span>. Then select a recently opened Flare project from the list on the right.</li>
+                </ul>
+            </li>
+            <li>From the <span class="Emphasis">Select Target</span> field, choose a specific target in the Flare project. Make sure you select a target that uses the same output type (e.g., <MadCap:variable name="Outputs.HTMLHelp" /> or <MadCap:variable name="Outputs.WebHelp" />) as the target that you will build in the current project.</li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>(Optional) If you want the merged TOC to replace the entry that you selected, do the following.<ol class="LowerAlpha"><li>Select the <span class="Emphasis">Advanced</span> tab.</li><li>Click the check box labeled <span class="Emphasis">When merging, replace node with merged TOC</span>.</li></ol><p>For example, you might have a TOC in your parent project that looks like this:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects1.png" class="MaxWidth100Percent" /></p><p>If you select the option in this step to replace the node, the merged TOC would look like this in the output:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects2.png" class="MaxWidth80Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" /><p>And if you do not select this option, your merged TOC would look like this:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects3.png" class="MaxWidth100Percent" /></p></li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/General/Properties-Dialog-Click-OK.flsnp" />
+            </li>
+            <li>Build the output for the target in your parent project. The output files for the projects are merged. <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help6.flsnp" /></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Merge-Projects-Unique-Filename.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Importing/Note-Importing-Merged-CHMs.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Nav-Links/Note-External-Links.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Merged-WebHelp-Plus.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Merge-Projects-Synonyms.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Merge-Child-CHMs.flsnp" />
+    </body>
+</html>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your original font set used Arial as its primary font. However, your company has decided to redesign its documentation, so you need to change your primary font to Calibri. The other fonts in the set should remain the same.</p>
+            <p MadCap:conditions=""> Instead of creating an entirely new font set, you can edit the existing font set. You open the Font Properties dialog and click <span class="Emphasis">Font Sets</span> to open the Font Set Manager. </p>
+            <p MadCap:conditions="">
+                <img src="../../../Images/Flare/Fonts/Font-Set1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="">In the Font Set Manager, select your original font set, then click <img src="../../../Images/Shared/Fl-Li/Interface/Buttons/Edit-Font-Set-btn.png" class="ReduceButtonSize" /> to open the Define Font Set dialog. Here, you can make changes to the font set to change Arial to Calibri. </p>
+            <p MadCap:conditions="">
+                <img src="../../../Images/Flare/Fonts/Font-Set2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="">In the Define Font Set dialog, edit the fonts in the set. On the right side of the dialog, select <span class="Emphasis">Arial</span> and click <img src="../../../Images/Flare/Interface/Buttons/Move-Item-Left-btn1.png" class="ReduceButtonSize" /> to move it out of the font set. Then select <span class="Emphasis">Calibri</span> from the font list on the left side of the dialog and click <img src="../../../Images/Flare/Interface/Buttons/Move-Item-Right-btn1.png" class="ReduceButtonSize" /> to add it to the set. </p>
+            <p MadCap:conditions="">
+                <img src="../../../Images/Flare/Fonts/Font-Set3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Fonts/Font-Set4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="">Use the <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Up-btn.png" class="ReduceButtonSize" /> and <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Down-btn.png" class="ReduceButtonSize" /> buttons under the list on the right side of the dialog to rearrange the fonts. Since Calibri is going to be the new primary font, that should be first in the list.</p>
+            <p MadCap:conditions="">
+                <img src="../../../Images/Flare/Fonts/Font-Set5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Fonts/Font-Set6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="">Click <span class="Emphasis">OK</span> when you are finished, and close the other dialogs. You will notice that your original font set—with Arial in the primary position—now shows Calibri in the primary spot.</p>
+            <p MadCap:conditions="">
+                <img src="../../../Images/Flare/Fonts/Font-Set7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="">When you use the font set in the future, it will now use the new fonts.</p>
+        </div>
+    </body>
+</html>

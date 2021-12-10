@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/User-Guides/Flare-Translation.flmsp');">
+    <head>
+        <meta name="description" content="Options for when choosing a right-to-left (RTL) language at the project or target level." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Translation" />
+            <MadCap:keyword term="Styles:invert for RTL;RTL languages:invert styles;RTL languages:invert page layouts;Page layouts:invert for RTL;Images:invert callouts for RTL;RTL languages:invert image callouts" />Inverting Styles, Page Layouts, and Image Callouts</h1>
+        <p>In the Language tab for the target there are multiple options that are selected by default when you choose a right-to-left (RTL) language at the project or target level.  The options are used to automatically invert the following: (1) language-related style rules locally, (2) language-related style rules in the stylesheet, (3) image callouts from MadCap Capture, and (4) page layout settings. </p>
+        <p>
+            <img src="../../../../../Resources/Images/Flare/Translation-Localization/RTL-Inversion.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+        <p>The options that are seen depend on which output type you are using.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">PDF/Word </span>All four options are shown.</li>
+            <li><span class="SetOffFirstLevel">HTML5/HTML Help/EPUB/WebHelp/WebHelp Plus </span>Local styles, CSS styles, and image callout options are shown.</li>
+            <li><span class="SetOffFirstLevel">DITA </span>No options are shown.</li>
+        </ul>
+        <p>These options can be quite useful after you receive the project back from a translator. When you generate the output, the inversion of the styles and page layouts takes place.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a project in English, a left-to-right (LTR) language, and you need to have it translated into Arabic, a right-to-left language.</p>
+            <p MadCap:conditions="">For your p style, suppose you have a left margin of 5 px and a right margin of 30 px.</p>
+            <p MadCap:conditions="">Those settings work fine for your targets using the LTR language. But for the RTL language, you need the settings to be flipped so that the left margin is 30 px and the right margin is 5 px.</p>
+            <p MadCap:conditions="">So after you receive the project back from the translator, you make sure the RTL language in Flare is set at either the project or target level.</p>
+            <p MadCap:conditions="">As a result, the inversion options become selected automatically, and when you generate the output, paragraphs will have a left margin of 30 px and a right margin of 5 px.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If your selected language is LTR, these options cannot be accessed in the Target Editor.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+    </body>
+</html>

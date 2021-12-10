@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Online-EPUB.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Images-Guide">
+            <MadCap:snippetText src="../../Shared/Co-Fl/Images/Images-Hyperlink-Summary.flsnp" />
+        </p>
+        <p MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide">Use the following steps to create an image hyperlink.</p>
+        <h2>How to Insert an Image Hyperlink</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Insert-Image-Hyperlink1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Insert-Image-Hyperlink2.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Insert-Image-Hyperlink3.flsnp" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+                <p class="Subheading">File in Project&#160;</p>
+                <MadCap:snippetBlock src="File-Project-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+                <p class="Subheading">Place in This Document</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Place-Document-Option.flsnp" />
+                <p class="Subheading">External File</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/External-File-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">Website</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Website-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+                <p class="Subheading">Email</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Email-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">HTML Help File</p>
+                <MadCap:snippetBlock src="HTML-Help-File-Option.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1]" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Insert-Image-Hyperlink4.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Insert-Image-Hyperlink5.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Insert-Image-Hyperlink6.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Target-Frame-Descriptions-Bullets.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Insert-Image-Hyperlink7.flsnp" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This feature is supported only in web outputs—<MadCap:snippetText src="../Output/All-Web-Outputs-HTML5-Clean-XHTML.flsnp" />.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Insert-Image-Hyperlink8.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+        <div class="warning">
+            <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">
+                <MadCap:snippetText src="Avoid-Linking-Snippets1.flsnp" />&#160;<MadCap:snippetText src="Avoid-Linking-Snippets2.flsnp" /></p>
+        </div>
+        <div class="note" MadCap:conditions="Flare-Guides.Flare-Images-Guide,General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                <MadCap:snippetText src="../../Shared/Co-Fl/Nav-Links/Note-Image-Map-Picture.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Nav-Links/Image-Hyperlinks/Creating-Image-Maps1.htm">Creating Image Maps</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <div class="note" MadCap:conditions="Flare-Guides.Flare-Images-Guide">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can edit image hyperlinks that you have inserted into a topic in the following ways: (1) edit the destination and properties of the hyperlink, and (2) remove the hyperlink from the image. <MadCap:snippetText src="../../Shared/All/General/See-Online-Help.flsnp" /></p>
+        </div>
+        <MadCap:snippetBlock src="Use-Built-In-Analysis-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+    </body>
+</html>

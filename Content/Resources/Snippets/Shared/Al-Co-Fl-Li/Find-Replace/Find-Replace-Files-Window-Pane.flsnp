@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li><span class="SetOffFirstLevel">Find </span>Enter the text you want to find. When you first open the window pane, this field might be automatically populated, based on the text selected in the document, or the text where the cursor is resting. You can also select text and press <span class="Emphasis">CTRL+SHIFT+F</span> to populate the field. Another option is to simply type text or click the down arrow and select a recent search term.</li>
+            <li MadCap:conditions="Products.Contributor,Products.Flare,Products.Lingo"><span class="SetOffFirstLevel">Replace with </span>Type the text that will replace the found text. You can also click the down arrow and select a recent search term.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Find in</span> Select one of the following:</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="Current-Document-Option.flsnp" />
+                    </li>
+                    <li MadCap:conditions="Products.Flare,Products.Lingo,Products.Align">
+                        <MadCap:snippetBlock src="../../Al-Fl-Li/Find-Replace/Documents-Same-Folder-Option.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="All-Open-Documents-Option.flsnp" />
+                    </li>
+                    <li MadCap:conditions="Products.Flare">
+                        <MadCap:snippetBlock src="../../../Flare/Find-Replace/Content-Folder-Option.flsnp" />
+                    </li>
+                    <li MadCap:conditions="Products.Flare">
+                        <MadCap:snippetBlock src="../../../Flare/Find-Replace/Pick-Folder-Option.flsnp" />
+                    </li>
+                    <li MadCap:conditions="Products.Flare,Products.Lingo,Products.Align">
+                        <MadCap:snippetBlock src="../../Al-Fl-Li/Find-Replace/Whole-Project-Option.flsnp" />
+                    </li>
+                    <li MadCap:conditions="Products.Flare">
+                        <MadCap:snippetBlock src="../../../Flare/Find-Replace/Reviews-Inbox-Option.flsnp" />
+                    </li>
+                    <li MadCap:conditions="Products.Contributor">
+                        <MadCap:snippetBlock src="../../../Contributor/Find-Replace/Review-Package-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li MadCap:conditions="Products.Flare,Products.Contributor"><span class="SetOffFirstLevel">File types</span> Select one of the following, depending on which kind of files you want to search. This option is disabled if you have selected to look in the current document only.<ul><li><span class="SetOffSecondLevel">All Files </span>Looks in all file types<MadCap:conditionalText MadCap:conditions="Products.Flare"> in your project, including (but not limited to) those listed in this drop-down field</MadCap:conditionalText></li><li><span class="SetOffSecondLevel">Topics </span>Looks for text only in topic files</li><li><span class="SetOffSecondLevel">Snippets </span>Looks for text only in snippet files</li><li MadCap:conditions="Products.Flare"><span class="SetOffSecondLevel">Tables of Contents </span>Looks for text only in TOC files</li><li><span class="SetOffSecondLevel">CSS&#160;Stylesheets </span>Looks for text only in stylesheet files</li><li MadCap:conditions="Products.Flare"><span class="SetOffSecondLevel">Glossaries  </span>Looks for text only in glossary files</li><li><span class="SetOffSecondLevel">Page Layouts </span>Looks for text only in page layout files</li><li MadCap:conditions="Products.Flare"><span class="SetOffSecondLevel">Micro Content  </span>Looks for text only in micro content files</li></ul><MadCap:snippetBlock src="../../Co-Fl-Li/Find-Replace/Note-Find-Type-File-Type.flsnp" MadCap:conditions="Products.Flare" /></li>
+            <li><span class="SetOffFirstLevel">Options</span> Use any of the following additional options:<ul><li><span class="SetOffSecondLevel">Match case </span>Finds only occurrences of the text that match the case (e.g., uppercase, lowercase) of the text entered in the Find field</li><li><span class="SetOffSecondLevel">Whole word </span>Looks for whole words only (e.g., if you enter "stand" as the search term, it will find "stand," but not "standing")</li><li MadCap:conditions="Products.Lingo"><span class="SetOffSecondLevel">Create backup (Replace All) </span>Creates backups of all edited files that are not open when using the Replace All feature</li><li MadCap:conditions="Products.Lingo,Products.Align"><p><span class="SetOffSecondLevel">Search type </span>Searches for regular text, but you can also use this field to search using wildcards or regular expressions. </p></li><li MadCap:conditions="Products.Lingo,Products.Align"><span class="SetOffSecondLevel">Find in Source </span>Finds only occurrences of the text that appear in source (untranslated)&#160;documents</li><li MadCap:conditions="Products.Lingo,Products.Align"><span class="SetOffSecondLevel">Find in Target </span>Finds only occurrences of the text that appear in target (translated)&#160;documents</li><li MadCap:conditions="Products.Flare"><span class="SetOffSecondLevel">Find in source code </span>Looks in the source code of the documents (not available for review packages; ignored for files in the reviews inbox—Review &gt; File Reviews)</li><li MadCap:conditions="Products.Contributor"><span class="SetOffSecondLevel">Find in source code </span>Not available in <MadCap:variable name="Other.Product" /></li><li MadCap:conditions="Products.Flare"><span class="SetOffSecondLevel">Create backup (Replace All) </span>Creates backups of all edited files that are not open when using the Replace All feature; ignored for files in the reviews inbox (Review &gt; File Reviews)</li><li MadCap:conditions="Products.Contributor"><span class="SetOffSecondLevel">Create backup (Replace All) </span>Not available in <MadCap:variable name="Other.Product" /></li></ul></li>
+            <li MadCap:conditions="Products.Flare,Products.Contributor">
+                <p><span class="SetOffSecondLevel">Search type </span>Searches for regular text, but you can also use this field to search using wildcards or regular expressions. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Editor-Tools/Find-Replace/Other-Activities-Information/Wildcards.htm">Wildcards</MadCap:xref> and <MadCap:xref href="../../../../../Flare/Editor-Tools/Find-Replace/Other-Activities-Information/Regular-Expressions.htm">Regular Expressions</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li><span class="SetOffFirstLevel">Show results in (Find All): </span>
+                <ul>
+                    <li><span class="SetOffSecondLevel">Window 1 </span>Displays the search results (list of files) in the Find Results 1 window pane when using the File All feature</li>
+                    <li><span class="SetOffSecondLevel">Window 2 </span>Displays the search results (list of files) in the Find Results 2 window pane when using the File All feature</li>
+                </ul>
+            </li>
+            <li><span class="SetOffFirstLevel">Find Next </span>Locates the next occurrence of the text</li>
+            <li><span class="SetOffFirstLevel">Find Previous </span>Locates the previous occurrence of the text</li>
+            <li><span class="SetOffFirstLevel">Skip File </span>Skips searching in the current file and moves on to the next one</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Find All </span>Finds and lists all occurrences of the text in the Find Results window pane at the bottom of the user interface</p>
+                <p>The label on this button changes to "Stop Find" while a search is being processed. This is one way to tell that a search is in progress. Another way is to watch the counter in the Find Results window pane. This shows how many occurrences of matching text have been found; if the number continues to go higher, the search is still in progress.</p>
+                <div class="note" MadCap:conditions="Products.Contributor,Products.Flare,Products.Lingo">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Find All option <span class="EmphasisItalic">will not work</span> if your search includes multiple words next to each other and at least one of the words has a span tag (e.g., you are searching for "MadCap Software," but there are places in the document where  the word "MadCap" is in bold and "Software" is not). However, the Find Next option <span class="EmphasisItalic">will work</span> in a situation like this. </p>
+                    <p>The suggested workaround for the Find All option is to select the "Find in source code" option, use regular expressions, and enter something along the lines of \s(&lt;.*?/?&gt;) between the words to attempt to capture intervening tags. However, use caution when replacing source code in order to prevent corruption of your XML.</p>
+                </div>
+            </li>
+            <li MadCap:conditions="Products.Lingo,Products.Flare,Products.Contributor"><span class="SetOffFirstLevel">Replace </span>Replaces only the current instance of found text</li>
+            <li MadCap:conditions="Products.Contributor,Products.Flare,Products.Lingo">
+                <p><span class="SetOffFirstLevel">Replace All </span>Replaces all of the matching text in all files included in the search</p>
+                <p>If matches are found in files that are already open, <MadCap:variable name="Other.Product" /> replaces the text in those files and "dirties" them (i.e., an asterisk is shown in the tab, indicating the file has been changed and needs to be saved). Therefore, you can undo the changes if necessary in each of those files or save them. As for files that are not already open in the user interface, <MadCap:variable name="Other.Product" /> does not open them at all. Instead, it simply replaces all of the matching text it finds and automatically saves those files. Therefore, you cannot undo those changes because the files were never opened.</p>
+                <div class="warning" MadCap:conditions="Products.Flare">
+                    <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">Exercise caution when you use the "Find in source code" option and tell <MadCap:variable name="Other.Product" /> to "Replace All." Because changes are made and files are saved automatically, and because files with matches are not automatically opened, it is possible that you could introduce invalid code, therefore breaking files. Therefore, you might consider making a backup of your project before performing a find and replace like this. If your project is bound to a source control client, you may also be able to get a previous version of the files before they were broken.</p>
+                </div>
+                <div class="warning" MadCap:conditions="Products.Flare">
+                    <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">If you have content that has been locked for editing<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> (see <MadCap:xref href="../../../../../Flare/Locks/Locking-Elements.htm">Locking Elements</MadCap:xref>)</MadCap:conditionalText> and you use the "Replace All" option, any matching content in those locked sections is replaced and the files are saved automatically.</p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel">[Progress Bar] </span>Green bar at bottom of window pane shows progress of the search</li>
+        </ul>
+        <div class="note" MadCap:conditions="Products.Align">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Some options are visible, but disabled, in Align.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-TFS.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Steps for disconnecting from TFS source control." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control:disconnect" />
+            <MadCap:concept term="FilterFeatures" />Disconnecting From Source Control<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Team Foundation Server</MadCap:conditionalText></h1>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Disconnecting-Summary.flsnp" />
+        </p>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Disconnecting-Benefits.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Disconnect From TFS</h2>
+        <p>When you want to work offline, you can disconnect from source control.</p>
+        <ol>
+            <li>
+                <p>Check out the files you will need to work on while disconnected. See <MadCap:xref href="../Process/Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Disconnect</b>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>If you have the Content Explorer, Project Organizer, Pending Changes window pane, or File List open, right-click on any file and select <span class="Emphasis">Source Control &gt; Project &gt; Disconnect</span>.</li>
+                </ul>
+            </li>
+            <li>A confirmation dialog appears. Click <span class="Emphasis">Yes</span>. You will be disconnected from source control.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Disconnecting-Disabling-Network.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Disconnect-Save-Error.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1]" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-TFS" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Disconnecting-Changing-Files.flsnp" />
+        <h2>How to Reconnect to TFS</h2>
+        <p>When you are finished working offline, you can reconnect to source control.</p>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Reconnect</b>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>If you have the Content Explorer, Project Organizer, Pending Changes window pane, or File List open, right-click on any file and select <span class="Emphasis">Source Control &gt; Project &gt; Reconnect</span>.</li>
+                </ul>
+            </li>
+            <li>
+                <p>Check in the files you previously checked out. See <MadCap:xref href="../Process/Checking-In-Source-Control-Files-TFS.htm">Checking In Source Control Files</MadCap:xref>.</p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Network-Connection-Status-Icon.flsnp" />
+    </body>
+</html>

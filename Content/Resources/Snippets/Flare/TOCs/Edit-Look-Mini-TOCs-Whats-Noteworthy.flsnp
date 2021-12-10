@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For print-based output, you need to make sure that the headings to be included in the mini-TOC have lower-level styles than the one where the proxy exists. For example, if you have the proxy inserted in a topic after an h1 heading, the generated headings in the mini-TOC must have styles of h2 or lower. You can set these heading styles manually in the necessary topics, or you can use an option called "Use TOC depth for heading levels" in the target to do this automatically. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/TOCs/Editing-Heading-Levels-Print-TOC1.htm">Determining Heading Levels for a Print TOC</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Output/Editing-Heading-Levels-Print-TOC2.htm">Tables of Contents</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Output/Editing-Heading-Levels-Print-TOC4.htm">Determining Heading Levels for a Print TOC</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information on how mini-TOCs work in online versus print output, see <MadCap:xref href="../../../../Flare/Proxies/Mini-TOCs/Creating-Mini-TOC1.htm">Creating a Mini-TOC</MadCap:xref>.</MadCap:conditionalText>
+                    <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide">For more information on how mini-TOCs work in online versus print output, see <MadCap:xref href="../../../../Print-Only-Topics/Flare/Proxies/Creating-Mini-TOC3.htm">Creating a Mini-TOC</MadCap:xref>.</MadCap:conditionalText>
+                    <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide">For more information on how mini-TOCs work in online versus print output, see the online Help.</MadCap:conditionalText>
+                </p>
+            </div>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also use styles to suppress page numbers in a print mini-TOC. See <MadCap:xref href="../../../../Flare/TOCs/Other-Activities/Suppressing-Page-Numbers-Print-Mini-TOC1.htm">Suppressing Page Numbers in a Print Mini-TOC</MadCap:xref>.</p>
+            </div>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In previous versions of Flare, the code for styling Mini-TOC proxy links was .MCMiniTOCLink. Starting in Flare V4, the style class used for this purpose is p.MiniTOC1.</p>
+            </div>
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Paragraphs/Note-Margin-Padding-Browsers.flsnp" />
+        </div>
+    </body>
+</html>

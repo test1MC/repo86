@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                <p>Each image file created using Capture includes a .props file next to it. This lets you make your changes in Capture, with the image automatically being updated in Flare. There is no need to reimport the image.</p>
+                <p class="topic-only">
+                    <img src="../../../Images/Flare/Architecture/Architecture-Images1.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <li>
+                <p>You can take advantage of global profiles (settings for new images) and palettes (objects, such as callouts and arrows). This means that you can store and maintain these special files somewhere on your network, where anyone with Capture can use them. Also, this helps maintain consistency of images across Flare projects, especially when you have a team of writers.</p>
+                <p class="topic-only">
+                    <img src="../../../Images/Flare/Architecture/Architecture-Images3.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <li>There are probably fewer editing features in Capture than you will find in some established third-party tools. Although you can edit images in many ways within Capture, the primary purpose of Capture is not to provide advanced editing capabilities. Instead, its main purpose is to integrate tightly with Flare projects.</li>
+        </ul>
+    </body>
+</html>

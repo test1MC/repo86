@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <MadCap:snippetBlock src="Slack-Integration1.flsnp" />
+        <div class="topic-only">
+            <p MadCap:conditions="Products.Central-Slack-Side-Only">To view the entire MadCap Central Help system, see <a href="https://help.madcapsoftware.com/central" target="_blank">https://help.madcapsoftware.com/central</a>.</p>
+            <div class="video" MadCap:conditions="General.Future">
+                <p class="buttonT32-play"><a href="https://youtu.be/zjBxBo9XyPk" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+                </p>
+                <p class="more-videos"><a href="https://www.madcapsoftware.com/videos/central/#LicenseSettings" target="_blank">View More Videos in This Series</a>
+                </p>
+            </div>
+            <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" MadCap:conditions="Products.Central-Online-Only-Not-Slack-Side" />
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Server-Mgmt-Purchasing-Guide" />
+            <MadCap:snippetBlock src="../Banners/Slack-Integration-Perm.flsnp" />
+        </div>
+        <h2>How to Set Up Slack Integration</h2>
+        <ol>
+            <li>In Slack, make sure you have set up a Slack account and created channels that you want to integrate with Central.</li>
+            <li>At the top of Central, click your name and select <span class="Emphasis">License Settings</span>.</li>
+            <li>On the left side of the dialog, select <span class="Emphasis">Slack</span>.</li>
+            <li>In the <span class="Emphasis">Channels</span> section, click <b>Connect a Channel</b>.</li>
+            <li>Choose your Slack team and then select a channel that you want to integrate.</li>
+            <li>Click <span class="Emphasis">Allow</span>.</li>
+            <li>Back in Central, a message indicates that addition was successful.</li>
+            <li>Repeat steps 4-7 if you want to add more of your Slack channels to the grid.</li>
+            <li>With your channel added, you’re ready to connect it to any of Central’s notifications. Click <b>Add Notification</b>.</li>
+            <li>In the <span class="Emphasis">Name</span> field, provide a name for the channel notification. It can be the same name as the Slack channel you want to hook it to, but this isn’t necessary.</li>
+            <li>From the <span class="Emphasis">Channel</span> field, select the Slack channel that you want to associate with the notifications.</li>
+            <li>From the <span class="Emphasis">Activity Type</span> field, select one of the alert categories—<span class="Emphasis">Builds</span>, <span class="Emphasis">Checklists</span>, <span class="Emphasis">Projects</span>, <span class="Emphasis">Tasks</span>, <span class="Emphasis">Teams</span>, <span class="Emphasis">Users</span>. Notice that these are the same groups available when you set up personal notifications in your user settings.</li>
+            <li>Depending on the activity type you choose, additional fields are displayed in the area below. Complete the fields as necessary to choose the type of notifications you want to be associated with the Slack channel.</li>
+            <li>Click <b>Add</b>. A row is added for the new channel notification.</li>
+            <li>
+                <p>(Optional) You can perform an action in Central that you have integrated with the Slack channel (e.g., set a target to "live"). You should see the notification added to your Slack channel.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Server/Slack6.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+        </ol>
+        <div class="topic-only">
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Keep in mind that the notification UI in Central is unique to each user. On the other hand, when you set up Slack integration, it is created for the entire license; therefore, other users can tap in to that channel notification to receive the same alerts via Slack.</p>
+            </div>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you encounter problems or need help with your Slack integration, please contact support. See <a href="http://www.madcapsoftware.com/support/contactoptions.aspx" target="_blank">http://www.madcapsoftware.com/support/contactoptions.aspx</a>.</p>
+            </div>
+        </div>
+    </body>
+</html>

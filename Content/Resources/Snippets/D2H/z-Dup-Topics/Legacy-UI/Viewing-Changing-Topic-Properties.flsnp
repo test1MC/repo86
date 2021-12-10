@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The properties of specific topics—for example, the topic title and type (conceptual, procedural, etc.), and condition—may be reviewed and edited in the Topic Properties dialog. </p>
+        <p>Certain topic properties can be edited in the Topics window itself (e.g., type, context ID, keywords, and groups). Simply click in the grid at the appropriate spot to open a drop-down or activate the field. (To see the columns available for display, right click in the window and choose <span class="Emphasis">Columns</span>.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Topics-Window-Pane.htm">Topics Window Pane</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Topics-Window.htm">Topics Window Panel (Doc-To-Help)</MadCap:xref>.</MadCap:conditionalText>)</p>
+        <p>If you would like to view or change the properties of an entire document, use the Document Properties dialog. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Source-Documents/Setting-Document-Properties.htm">Setting Document Properties</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Source-Documents/Setting-Document-Properties.htm">Setting Document Properties</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to View and Change Topic Properties</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Open the Topics window, right-click the desired topic, and choose <span class="Emphasis">Properties</span>. The Topic Properties dialog opens. </p>
+                        <p class="note" MadCap:conditions="Snippets.Snippet2" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You can also choose the topic and in the <b>Topics</b> ribbon click the <span class="Emphasis">Properties</span> button to open the dialog.</p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you would like to edit multiple topics, choose them in the Topics window using <span class="Emphasis">SHIFT+Click</span> or <span class="Emphasis">CTRL+Click</span>. Right-click and choose <span class="Emphasis">Properties</span>.</p>
+                    </li>
+                    <li>
+                        <p>Make any necessary changes in the dialog.</p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>General</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Title.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Topic-Type.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-ASCII-Name.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-URL.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Context-ID.flsnp" />
+                                        <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/CSH/CSH.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText>
+                                        <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/About-CSH-D2H.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText>
+                                        <MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content"> See the online Help or the <span class="EmphasisItalic">Context-Sensitive Help Guide</span>.</MadCap:conditionalText>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../Topics/Topic-Context-String.flsnp" />
+                                            <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/CSH/CSH.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText>
+                                            <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/About-CSH-D2H.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText>
+                                            <MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content"> See the online Help or the <span class="EmphasisItalic">Context-Sensitive Help Guide</span>.</MadCap:conditionalText>
+                                        </p>
+                                        <MadCap:snippetBlock src="../../Topics/Topic-Context-String2.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Comments.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Default-Topic.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Appearance</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Contents-Title.flsnp" /> <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/TOCs/Creating-TOC.htm">Creating a Table of Contents</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/TOCs/Creating-TOC.htm">Creating a Table of Contents</MadCap:xref>.</MadCap:conditionalText></li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Display-Title.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Related-Links-Label.flsnp" /> <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Nav-Links/Managing-Related-Topics.htm">Managing Related Topics</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Nav-Links/Managing-Related-Topics.htm">Managing Related Topics</MadCap:xref>.</MadCap:conditionalText></li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Hide-Subtopic-Links.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Include-Natural-Search.flsnp" />
+                                    </li>
+                                    <li><span class="SetOffFirstLevel">Disable comments </span>If checked, DISQUS commenting will be disabled for this topic.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Output/NetHelp/Adding-DISQUS-Commenting-NetHelp-Targets.htm">Adding DISQUS Commenting to NetHelp Targets</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Adding-DISQUS-Commenting-to-NetHelp-Targets.htm">Adding DISQUS Commenting to NetHelp Targets</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content"> See the online Help or the <span class="EmphasisItalic">Targets Guide</span>.</MadCap:conditionalText></li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Condition</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>These can also be set and will appear in the Condition ribbon group. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Conditions/Conditions.htm">Conditions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Conditions/About-Conditions-D2H.htm">About Conditions</MadCap:xref>.</MadCap:conditionalText></p>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Platforms.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Targets.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Attributes.flsnp" /> <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Conditions/Creating-Using-Attributes.htm">Creating and Using Attributes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Conditions/Creating-Using-Attributes.htm">Creating and Using Attributes</MadCap:xref>.</MadCap:conditionalText></li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Module Link</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p MadCap:conditions="General.Online-Only,Snippets.Snippet1">For more about modular output, see <MadCap:xref href="../../../../../D2H/Projects/Modular/Modular-Projects.htm">Modular Projects</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Projects/Modular/Creating-Hub-Project.htm">Creating a Hub Project</MadCap:xref>.</p>
+                                <p MadCap:conditions="General.Online-Only,Snippets.Snippet2">For more about modular output, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Projects/About-Modular-Projects.htm">About Modular Projects</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Projects/Creating-Hub-Project.htm">Creating a Hub Project</MadCap:xref>.</p>
+                                <p MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">For more about modular output, see the online Help or the <span class="EmphasisItalic">Project Management Guide</span>.</p>
+                                <ul>
+                                    <li><span class="SetOffFirstLevel">Target menu </span>Before setting your module link properties, choose the appropriate modular target from the drop-down.</li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Module-File.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Contents-File.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Use-First-Topic-Parent.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Inherit-Product-Name.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Topics/Topic-Inherit-Book-Name.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

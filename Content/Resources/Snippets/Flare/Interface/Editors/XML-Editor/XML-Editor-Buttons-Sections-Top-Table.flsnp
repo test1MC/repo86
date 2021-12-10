@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="caption-side: top;width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Flare/Interface/Buttons/Preview-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">This button lets you preview the topic, snippet, or template page. It also lets you see how the topic will look with condition tags associated with it or with specific target settings applied to it. If you click the face of the button, the preview is shown based on the format specified in the primary target. If you click the down arrow, you can select any of the targets in your project from a menu. The preview is then displayed using the output format specified in that target.</p>
+                        <p class="TableText">In addition, the preview updates as you save changes in your file; when you open a new content file (i.e., topic, snippet, template page); when you change the File, Target, or Conditional Expression fields; and when you click the refresh button <img src="../../../../../Images/Shared/All/Interface/Buttons/Refresh-btn.png" alt="" title="" class="ReduceButtonSize" />.This ensures you are always seeing the most current content in the Preview window pane.</p>
+                        <p class="TableText">
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="../../../../../../Flare/Topics/Main-Activities/Previewing-Topics.htm" target="" title="" alt="">Previewing Topics</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The topic preview feature is not available for Microsoft Word formats.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Conditions-btn3.png" alt="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">Opens the Conditional Text dialog, which lets you associate condition tags with a file while you edit it. This is similar to the feature that you can use to preview a document with certain conditions set. The difference is that this associates the conditions to the document as you edit it in the XML Editor.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Conditions/Other-Activities/Associating-Conditions-File-While-Editing.htm">Associating Conditions to a File While Editing</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Drop-Downs/Layout-Mode-Web-dd.png" />
+                        </p>
+                        <p style="font-weight: bold;">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Drop-Downs/Layout-Mode-Tablet-dd.png" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Drop-Downs/Layout-Mode-Mobile-dd.png" alt="" title="" />
+                        </p>
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Drop-Downs/Layout-Mode-Print-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../../Shared/Co-Fl/Interface/Editors/Multiple-Layout-Modes.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Interface/Editors/XML-Editor/Layout-Modes.htm">Layout Modes</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                        <MadCap:snippetBlock src="../../../../Shared/Co-Fl/Interface/Editors/Multiple-Layout-Modes2.flsnp" />
+                        <p class="TableText"> <MadCap:snippetText src="../../../../Shared/Co-Fl/Interface/Editors/Multiple-Layout-Modes4.flsnp" /></p>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Drop-Downs/Medium-dd.png" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Images/Flare/Interface/Drop-Downs/Multiple-Medium-dd.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../../Shared/Co-Fl/Styles/Medium-Drop-Down.flsnp" />
+                        </p>
+                        <p>This drop-down field is simply intended to show you how particular styles make a topic look. By using this feature, you are not telling <MadCap:variable name="Other.Product" /> to use that medium in the output for that topic. The way to do that is to associate the medium with a target.</p>
+                        <p>When (multiple) displays, that is an indication that multiple styles are applied, and content in the XML Editor is rendered with all applicable styles (according to the width). However, if only one medium is selected, then that medium is shown in the drop-down.</p>
+                        <p class="TableText" MadCap:conditions="General.Online-Only">For more information, see <MadCap:xref href="../../../../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">Mediums and Media Queries</MadCap:xref> and <MadCap:xref href="../../../../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Selecting-Mediums-Media-Queries.htm" target="" title="" alt="">Selecting Mediums and Media Queries</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Drop-Downs/Page-Layout-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">If you are viewing content using the Print Layout in the XML&#160;Editor, you can use this drop-down in the local toolbar to choose a specific page layout. <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Page-Layouts/Other-Activities/Selecting-Page-Layout-View-Content-XML-Editor1.htm">Selecting a Page Layout to View Content in the XML Editor</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Insert-Hyperlink-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Opens the Insert Hyperlink dialog, which lets you insert a text hyperlink on the selected text in the topic. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../../Flare/Nav-Links/Text-Hyperlinks/Inserting-Text-Hyperlinks.htm">Inserting Text Hyperlinks</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Insert-Cross-Reference-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Opens the Insert Cross-Reference dialog, which lets you insert a cross-reference into the topic at the location of the cursor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../../Flare/Nav-Links/Cross-References/Main-Activities/Inserting-Cross-References.htm">Inserting Cross-References</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Flare/Interface/Buttons/Insert-Image-btn1.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../Insert-Image-Button2.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Images/Main-Activities/Inserting-Images.htm">Inserting Images</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Flare/Interface/Buttons/Insert-Snippet-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../Dialogs/Insert-Snippet-Link-Dialog-Description.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Snippets/Main-Activities/Inserting-Snippets.htm">Inserting Snippets</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Insert-Variable-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../Insert-Variable-Button2.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Variables/Main-Activities/Inserting-Variables.htm">Inserting Variables</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="Products.Flare">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl-Li/Interface/Buttons/Quick-Character-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../../Shared/Co-Fl/Interface/Editors/Insert-Special-Characters-Description1.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Interface/Editors/XML-Editor/Characters-Symbols/Inserting-Special-Characters-Symbols.htm">Inserting Characters and Symbols</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Index-Entry-Mode-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Activates Index Entry Mode. Click  in the text where you want to insert the keyword and start typing. The words you type are added directly into the Index window pane. Use this method to do a lot of indexing all at once, without performing any other tasks in the topic or snippet. <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../../Flare/Indexes/Methods/Inserting-Index-Keywords.htm" target="" title="" alt="">Inserting Index Keywords</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Concept-Entry-Mode-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Activates Concept Entry Mode. Click in the text where you want to insert the keyword and start typing. The words you type are added directly into the Concept window pane. Use this method to create concepts in a lot of topics at once, without performing any other tasks in the topic. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../../Flare/Concepts/Inserting-Concepts1.htm" target="" title="" alt="">Inserting Concepts</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl-Li/Interface/Buttons/Space-Markers-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../../Shared/Co-Fl/Interface/Editors/Paragraph-Space-Markers-Button.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Tags-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../../Shared/Co-Fl/Interface/Editors/Show-Tags-Description.flsnp" class="TableText" MadCap:conditionTagExpression="include[Snippets.Snippet10], exclude[Snippets.Snippet1]" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/All/Interface/Buttons/Expand-All-btn2.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Expands all tags in the editor (i.e., blocks of content), so that you can see any content that was previously collapsed. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/All/Interface/Buttons/Collapse-All-btn2.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Collapses all heading tags in the editor (and the content under them). An ellipsis icon <img src="../../../../../Images/Shared/Co-Fl/Interface/Icons/Collapsed-Ellipsis-ico.png" alt="" title="" class="ReduceButtonSize" /> displays under the main heading. As an alternative to collapsing all tags, you can hover to the left of each block of content and click the angled arrow <img src="../../../../../Images/Shared/Co-Fl/Interface/Icons/Angled-Arrow-ico.png" alt="" title="" /> to collapse just that part. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Flare/Interface/Buttons/Send-Text-Editor-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">Opens the file in the Internal Text Editor (for review packages only).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

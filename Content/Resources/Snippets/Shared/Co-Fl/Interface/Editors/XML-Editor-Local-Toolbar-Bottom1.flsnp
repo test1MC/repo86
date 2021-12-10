@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Words</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the number of words in the open file. If you highlight words in the file, this area shows you how many words are selected out of the total count. If a file contains snippets, the words from those snippets are not included in this word count, because those are separate files.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl/Interface/Buttons/Smaller-Font-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Reduces the scale of the font by 10% each time you click the button.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl/Interface/Buttons/Reset-Font-100-Percent-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Resets the scale of the font to 100%.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl/Interface/Buttons/Larger-Font-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Increases the scale of the font by 10% each time you click the button.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl/Interface/Drop-Downs/Font-Percentage-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Lets you select a specific percentage to scale the font.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Ca-Co-Fl-Mi/Interface/Ribbons-Toolbars-Menus/Hide-Show-Conditional-Indicators-Description.flsnp" class="TableText" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2 or Snippets.Snippet3]" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Blocks-Bar-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="Tag-Block-Bars-Description.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> See <MadCap:xref href="../../../../../../Flare/Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">About Structure Bars</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Spans-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Span-Bars-Description.flsnp" />
+                        <p class="TableText" MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">About Structure Bars</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Expand-Collapse-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enables or disables the feature to collapse and expand tags in the XML Editor.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Horizontal-Ruler-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Horizontal-Ruler-Description.flsnp" class="TableText" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Shared/Co-Fl/Interface/Buttons/Vertical-Ruler-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="Vertical-Ruler-Description.flsnp" class="TableText" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../../Images/Flare/Interface/Buttons/Toggle-Layout-Resizer-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../../Flare/Interface/Editors/XML-Editor/Layout-Resizer-Description.flsnp" /> </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

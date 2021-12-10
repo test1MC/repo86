@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li><a href="https://www.madcapsoftware.com/downloads/madcap-flare-project-templates/" target="_blank" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Download the template</a> you want to use, or <a href="../../../../Flare/Step1-Starting-Projects/Creating-Project.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">create a new, small project</a> based on a template.</li>
+            <li>
+                <p>Open that new project in Flare (if you downloaded a project template, you can double-click the Flare zip file to unpack and open it), and <a href="../../../../Flare/Global-Project-Linking/Adding-Project-Import-Files.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">add a Flare project import file</a> (<span class="Emphasis">Project &gt; New &gt; Import File &gt; Add Flare Project Import File</span>).</p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Alternatively, you can add the project import file to your original project and import files from the new template project into that. In that case, you would probably want to import mainly design-related files (e.g., stylesheets, template pages, skins). However, there will probably be less work afterward if you import mostly content files from the original project into the new template project, then export or name it.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>In the Project Import Editor, select the source project and use the fields to choose the files you want to import. If you are importing from the original project into the new template project, you probably want to limit your selections to non-design files (e.g., choose files such as topics, snippets, images, and variables), although in some cases you might decide to keep some design files (e.g., stylesheet, page layouts). When finished, save your work, click <span class="Emphasis">Import</span>, then <span class="Emphasis">Accept</span>. </p>
+                <div class="topic-only" MadCap:conditions="General.Online-Only">
+                    <p>For field details, see <MadCap:xref href="../../../../Flare/Global-Project-Linking/GPL-Importing-Files1.htm">Global Project Linking—Importing Files From Other Projects</MadCap:xref>.</p>
+                </div>
+            </li>
+            <li>Delete any of the topics and other files that were part of the template project and you do not plan on using (e.g., topics, images, TOC). Also, in the Project Organizer, expand the <span class="Emphasis">Imports</span> folder and delete the import file (unless you plan on re-importing some more files).</li>
+            <li>Generate and view output and see what kinds of manual changes you might need to make. For example, if you imported your original stylesheet, you might need to <a href="../../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Stylesheets/Linking-Stylesheets.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">link it</a> to the one(s) in the new project, or you might need to <a href="../../../../Flare/Styles/Main-Activities/Applying-Styles-Content1.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">re-apply some styles to some content</a>.</li>
+            <li>You probably want to rename the new project. An easy way to do this is to select <span class="Emphasis">Project &gt; Export Project</span>, which gives you an opportunity to rename the project and select a location for it.</li>
+        </ol>
+    </body>
+</html>

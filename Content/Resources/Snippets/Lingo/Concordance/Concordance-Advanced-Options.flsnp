@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>If you want to make an even more detailed search, you an expand the Advanced&#160;Options area and use any of the following:</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Regular Expression</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../Shared/Al-Co-Fl-Li/Find-Replace/Regular-Expressions-Summary.flsnp" />
+                            <MadCap:snippetText src="Use-Reg-Expressions.flsnp" />
+                        </p>
+                        <MadCap:snippetBlock src="../../Shared/Al-Co-Fl-Li/Find-Replace/Example-Regular-Expressions.flsnp" MadCap:conditions="Snippets.Snippet2" />
+                        <MadCap:snippetBlock src="Important-Reg-Expressions.flsnp" MadCap:conditions="General.Online-Only" />
+                        <MadCap:snippetBlock src="../../Shared/Al-Co-Fl-Li/Find-Replace/Note-Regular-Expressions.flsnp" MadCap:conditions="General.Online-Only" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Case Sensitive</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you want <MadCap:variable name="Other.Product" /> to respect uppercase and lowercase characters in your concordance search, expand <span class="Emphasis">Advanced Options</span> and select <span class="Emphasis">Case Sensitive</span>. Case-sensitive searches can only be used with =, not with ≠.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">TMs to search</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">If you expand the Advanced Options area, you will see which TM databases are connected to the current Lingo project. You can click any check boxes to include or exclude a database in the search.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

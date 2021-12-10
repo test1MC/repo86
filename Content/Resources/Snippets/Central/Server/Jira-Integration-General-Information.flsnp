@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>Central supports only the Jira Cloud, not the Desktop Jira Client.</li>
+            <li>Central supports only "classic" projects. It does not support “next-gen” projects in Jira.</li>
+            <li>A task in Central is the same as an issue in Jira.</li>
+            <li>A task owner in Central is the same as an issue reporter in Jira.</li>
+            <li>Each task board in Central can connect to a single Jira project with one board. You cannot map multiple Central boards to a single Jira board.</li>
+            <li>You can push Central tasks to Jira, which become issues in Jira. At this time, issue changes in Jira are not pulled back to Central.</li>
+            <li>Only tasks in Central's To Do, In Progress, and Completed milestones are pushed to Jira. Tasks in Central's Backlog and Archive are ignored.</li>
+            <li>The default classic board in Jira has four columns—Backlog, Selected for Development, In Progress, and Done. Central does not push tasks to the "Selected for Development" column in Jira (you can delete this column in Jira if you do not plan on using it). The other three columns match the Central milestones as follows:<ul><li>Central <span class="Emphasis">To Do</span> ➜ Jira <span class="Emphasis">Backlog</span></li><li>Central <span class="Emphasis">In Progress</span> ➜ Jira <span class="Emphasis">In Progress</span></li><li>Central <span class="Emphasis">Completed</span> ➜ Jira <span class="Emphasis">Done</span></li></ul></li>
+        </ul>
+    </body>
+</html>

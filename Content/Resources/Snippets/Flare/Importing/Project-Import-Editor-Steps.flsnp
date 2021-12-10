@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <MadCap:snippetBlock src="../General/Open-Project-Organizer.flsnp" />
+            <li>Double-click the <span class="Emphasis">Imports</span> folder.</li>
+            <li>Double-click the FLIMPFL import file that you created. The Project Import Editor opens.</li>
+            <li>Select the <span class="Emphasis">Source Project</span> tab.</li>
+            <li>
+                <p>Under the <span class="Emphasis">Source Project</span> field click <span class="Emphasis">Browse</span>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also manually enter the path in the Source Project field. However, if you enter a relative path, make sure the path is relative to the import file (located by default in the Projects/Imports subfolder), not the project file (which is located at the root level of the project files).</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File1.flsnp" />
+            </li>
+            <li>(Optional) <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File8.flsnp" /> the <span class="Emphasis">Auto-reimport before "Generate Output"</span> check box. If you select this "Easy Sync" option, the changes to the source files will be reimported automatically when you generate output. If you do not select this option, you can reimport future changes from the other project manually.</li>
+            <li>
+                <p>(Optional) If you want outdated files (e.g., files that have been deleted, renamed, or moved in the parent project) to be deleted from the child project automatically, click the <span class="Emphasis">Delete stale files</span> check box.</p>
+                <MadCap:snippetBlock src="../Global-Project-Linking/Example-GPL-Delete-Stale-Files.flsnp" />
+                <MadCap:snippetBlock src="../Global-Project-Linking/Warning-Master-Project-Linking-Remove-Duplicate-File.flsnp" />
+            </li>
+            <li>
+                <p>(Optional) You can select <span class="Emphasis">Delete unreferenced files</span>. <MadCap:snippetText src="../Global-Project-Linking/GPL-Delete-Unreferenced-Files1.flsnp" /></p>
+                <MadCap:snippetBlock src="../Global-Project-Linking/Example-GPL-Delete-Unreferenced-Files.flsnp" />
+                <MadCap:snippetBlock src="../Global-Project-Linking/GPL-Delete-Unreferenced-Files2.flsnp" />
+            </li>
+            <li>
+                <p>Use the <span class="Emphasis">Include Files</span> and <span class="Emphasis">Exclude Files</span> fields <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File2.flsnp" /> Completing the Include Files field is mandatory. Completing the Exclude Files field is optional.</p>
+                <p>
+                    <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File3.flsnp" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You are not limited to importing all files of a single file type. The following steps explain how to add more than one file type to the field, as well as how to select specific files to be imported while excluding others.</p>
+                </div>
+            </li>
+            <li>(Optional) <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File4.flsnp" /><ol class="LowerAlpha"><li><MadCap:snippetText src="../Global-Project-Linking/Import-Project-File5.flsnp" /></li><li><p><MadCap:snippetText src="../Global-Project-Linking/Import-Project-File6.flsnp" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Global-Project-Linking-Guide,Flare-Guides.Flare-Import-Guide" /><MadCap:snippetBlock src="Example-Create-Custom-Import-Project-File-Pattern.flsnp" /></li><li><MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /></li><li><MadCap:snippetText src="../Global-Project-Linking/Import-Project-File7.flsnp" /></li></ol></li>
+            <li>(Optional) Let's say that the files you are importing contain links to other files. If you want <MadCap:variable name="Other.Product" /> to automatically import those files as well, click <span class="Emphasis">Auto-include linked files</span>. <MadCap:snippetText src="../Global-Project-Linking/Import-Project-Files-Auto-Include-Linked-Files2.flsnp" /></li>
+            <li>(Optional) <MadCap:snippetText src="../Global-Project-Linking/Import-Project-Files-Conditions.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2] exclude[Snippets.Snippet9] " /></li>
+            <li>(Optional) <MadCap:snippetText src="../Global-Project-Linking/Import-Project-Files-Auto-Exclude-Non-Tagged.flsnp" /><span class="Emphasis"> Auto-Exclude Non-Tagged Files</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>In the local toolbar of the Project Import Editor, click <span class="Emphasis">Import</span>. <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File9.flsnp" /></li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Global-Project-Linking-Guide,Flare-Guides.Flare-Import-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File10.flsnp" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File11.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="Note-Import-Project-File-Same-Files.flsnp" />
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">You might find it useful to click on the column headings in the Accept Imported Documents dialog. Doing this reorganizes the contents in alphabetical order of the column that you click. For example, by clicking the <span class="Emphasis">Status</span> column, you can easily group together all of the files that have red or green backgrounds (i.e., files that are newer in the local project or newer in the source project). This can be especially useful when reimporting project files.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Global-Project-Linking/Reimporting-Files-Other-Projects.htm">Reimporting Files from Other Projects</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">Accept</span>. <MadCap:snippetText src="../Global-Project-Linking/Import-Project-File12.flsnp" /></li>
+        </ol>
+    </body>
+</html>

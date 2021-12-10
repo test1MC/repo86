@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Output/Optional-Publish-Destination-Before-Build.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Project &gt; Build Primary &gt; Build [name of target]</span> (to build only) or <span class="Emphasis">Publish Primary &gt; Publish [name of target]</span> (to publish a target that has already been generated). </li>
+                    <li>
+                        <span class="SetOffFirstLevel">Local Toolbar </span>Open the target. In the local toolbar of the Target Editor click <img src="../../../Images/Flare/Interface/Buttons/Build-btn2.png" class="ReduceButtonSize" /> (to build only) or <img src="../../../Images/Flare/Interface/Buttons/Publish-btn.png" class="ReduceButtonSize" /> (to publish a target that has already been generated).</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Right-Click </span>In the Project Organizer, expand the <span class="Emphasis">Targets</span> folder, right-click on a target, and from the context menu select <span class="Emphasis">Build [name of target]</span> (to build only) or <span class="Emphasis">Publish [name of target]</span> (to publish a target that has already been generated).</li>
+                </ul>
+                <MadCap:snippetBlock src="../Output/Note-Publish-Notify-Build.flsnp" />
+            </li>
+            <li>(Optional) A row is added to the Builds window pane, showing the progress of the target as it is generated and/or published. If the target generates or publishes successfully, the color of the Progress column changes from light to dark green, the Status column displays "Finished," and the State column displays "Publish Complete" (if you published). You can then double-click that row or select it and click <span class="Emphasis">View Output</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+            <li>
+                <MadCap:snippetText src="../Output/Optional-Open-Build-Log.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

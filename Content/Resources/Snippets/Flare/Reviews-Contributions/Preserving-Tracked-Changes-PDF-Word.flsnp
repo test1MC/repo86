@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Print.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>
+            <MadCap:snippetText src="../Targets/Preserve-Tracked-Changes.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet5], exclude[Snippets.Snippet4 or Snippets.Snippet6]" />
+        </p>
+        <MadCap:snippetBlock src="../Targets/Tracked-Changes-Reasons.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Reviews-and-Contributions-Guide" MadCap:conditionTagExpression="include[Snippets.Snippet5], exclude[Snippets.Snippet4 or Snippets.Snippet6]" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide" />
+        <h2>How to Preserve Tracked Changes</h2>
+        <ol>
+            <li>Open the target being used for Word or PDF output.</li>
+            <li>Select the <span class="Emphasis">Advanced</span> tab.</li>
+            <li>
+                <p>In the Output Options section, click the check box next to <span class="Emphasis">Preserve tracked changes</span>.</p>
+                <p>
+                    <img src="../../../Images/Flare/Reviews-Contributions/Word-PDF-Review-Preserve-Tracked-Changes.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Reviews-and-Contributions-Guide" />
+        <h2>Preserving Changes in PDF Output</h2>
+        <MadCap:snippetBlock src="../Targets/Preserved-PDF-Changes-List.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+        <MadCap:snippetBlock src="../Targets/Example-Preserved-Tracked-Changes-PDF.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>Preserving Changes in Word Output</h2>
+        <MadCap:snippetBlock src="../Targets/Preserved-Tracked-Changes-Word-List.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Reviews-and-Contributions-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+        <MadCap:snippetBlock src="../Targets/Example-Preserved-Tracked-Changes-Word.flsnp" />
+    </body>
+</html>

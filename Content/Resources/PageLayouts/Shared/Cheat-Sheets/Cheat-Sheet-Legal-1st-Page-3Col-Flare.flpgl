@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Products.All-Products-Not-Doc-Bible">
+    <Page Name="First" Width="7in" Height="9in" Padding="20px" PageType="first" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="0.75in" PaddingBottom="0.75in" BleedLeft="0.5in" Orientation="landscape" BleedBottom="0.5in" BleedTop="0.5in" BleedRight="0.5in" PageSize="Legal" BackgroundType="Solid">
+        <Frame X="-24px" Y="-24px" Width="1248px" Height="96px" FlowIndex="2" Flow="body" Right="-24px" Bottom="600px" Rotate="0" Anchors="Left,Top,Bottom" BackgroundRepeat="no-repeat" BackgroundPositionX="right" BackgroundPositionY="center" BorderBottomStyle="solid" BorderBottomWidth="2px" BorderBottomColor="#bed420" BackgroundImage="../../../Images/Flare/Page-Layouts/Cheat-Sheet.jpg" />
+        <Frame Flow="body" Y="96px" Bottom="24px" X="-24px" Right="-24px" ColumnCount="3" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="1248px" Height="552px" FlowIndex="3">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-24px" Bottom="-23px" X="-24px" Y="648px" Width="1248px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../../../Snippets/Shared/All/Print-Output/Cheat-Sheet-Footer-1.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

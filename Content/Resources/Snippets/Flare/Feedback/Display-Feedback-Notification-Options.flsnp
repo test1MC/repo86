@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus-Note-Tripane-Skins.flsnp" />
+        <MadCap:snippetBlock src="Feedback-Email-Notification-Display-Summary.flsnp" />
+        <p>
+            <img src="../../../Images/Flare/Feedback/Feedback-Display-Notification-Options-Enabled.png" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Images/Flare/Feedback/Feedback-Display-Notification-Options-Disabled.png" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="General.Online-Only">
+            <MadCap:snippetText src="Feedback-More-Information.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Display Feedback Notification Options to Users</h2>
+        <ol>
+            <li>Open a Standard or <MadCap:variable name="Outputs.HTML5" /> Tripane skin.</li>
+            <li>Select the <span class="Emphasis">Community</span> tab.</li>
+            <li>Click <span class="Emphasis">Display notification options to users</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" />
+        <p>Make sure you associate the skin with the target. See <MadCap:xref href="../../../../Flare/Skins/Process/Associating-Skins-Targets1.htm">Associating Skins with Targets</MadCap:xref>.</p>
+        <p>After you generate and publish the output, you can open Feedback Explorer to view submitted comments and see how readers are using the output. See <MadCap:xref href="../../../../Flare/Feedback/Opening-Feedback-Explorer.htm">Opening Feedback Explorer</MadCap:xref>.</p>
+    </body>
+</html>

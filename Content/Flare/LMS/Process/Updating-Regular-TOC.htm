@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-LMS-Video4-Updating-TOC.flmsp');">
+    <head>
+        <meta name="description" content="The order of topics in the TOC Editor dictates the flow of the eLearning course." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Learning and development" />
+            <MadCap:concept term="FilterFeatures" />Updating the Table of Contents</h1>
+        <p>The order of topics in the TOC Editor dictates the flow of the course. When learners navigate through a course (e.g., using a "Next" button), they are navigating in the order specified in the table of contents (TOC). How you organize the TOC depends on the type of course you are creating. See <MadCap:xref href="../General-Information/Test-Types.htm">Course Types in Flare</MadCap:xref>.</p>
+        <p>The main question to ask yourself while updating the TOC is, does the course include gradable questions or not? If it does, then creating a test node is needed for test scoring and test results. </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>TOC Configurations</h2>
+        <p>The type of course you are creating comes into play when creating the TOC. </p>
+        <ul>
+            <li>
+                <p>For a quiz, topics that contain test questions for the final output should have a test node enabled for them in the TOC.   If your course only consists of a test, then the  TOC might look like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/LMS/Quiz-regTOC-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>You can have other topics in the TOC with your test. The TOC might look like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/LMS/Quiz-regTOC-Ex2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <ul>
+            <li>
+                <p>For a knowledge check, a test node is not required, but you have to place the knowledge check topics into the TOC. The TOC might look like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/LMS/KnowledgeCheck-regTOC-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>For a combo, the TOC should consist of the knowledge check topics and a test node (that holds the questions for the test). The test node is needed for the gradable portion of the course only. The combo TOC might look like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/LMS/Combo-regTOC-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <h2>How to Arrange Course Topics</h2>
+        <p>Keep in mind that when a learner advances through the course, the  navigation mimics the order specified in the TOC file.</p>
+        <ol>
+            <li>
+                <p>From the Project Organizer on the left side of Flare, add a new TOC file or open an existing one. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../TOCs/Process/Adding-TOC.htm">Adding a TOC File</MadCap:xref>, and <MadCap:xref href="../../TOCs/Process/Opening-TOC.htm">Opening a TOC File</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you open an existing TOC that is already populated, you might want to clean it up so it is suitable for your course (e.g., removing missing links, deleting topics).</p>
+                </div>
+            </li>
+            <li>
+                <p>Drag and drop topics from the Content Explorer to the TOC Editor in the order you need them to display in the output. </p>
+            </li>
+            <li>
+                <p>(Optional) In the TOC Editor's local toolbar, use the arrow buttons to adjust the order of files for the desired course workflow. </p>
+            </li>
+        </ol>
+        <h2><a name="EnableTestNode"></a>How to Enable a Test Node</h2>
+        <p>Enabling a test node in the TOC is required for the gradable portion of your course (i.e., a quiz). The following describes how to do this via the TOC Editor, but you can alternatively create and enable a test node using the eLearning ribbon. See <MadCap:xref href="Creating-Test.htm#CreateTestNode">How to Create a Test Node</MadCap:xref>.</p>
+        <ol>
+            <li>
+                <p>From the Project Organizer, expand the <span class="Emphasis">TOCs</span> folder, and double-click the desired TOC.</p>
+            </li>
+            <li>
+                <p>If not already done, drag and drop topics from the Content Explorer to the TOC Editor. </p>
+            </li>
+            <li>
+                <p>In the TOC Editor, right-click the file that you want to be the start of the test, and select <span class="Emphasis">Properties</span>. The file you select should be able to act as a test node container. The test node should have nested topics within it, containing the test questions. A test node can be anywhere in the TOC (e.g., the test can be a top-level node or a lower-level node). </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the Properties dialog, click the <span class="Emphasis">eLearning</span> tab and select <span class="Emphasis">Enable Test Node</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/LMS/Enable-Test-Node-Properties.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>(Optional) By default, the Passing Score percentage is set to 75%. You can edit the passing score and other test node options. See <MadCap:xref href="../Other-Activities/Editing-TOC-LMS1.htm">Editing the TOC for eLearning</MadCap:xref>.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <h2>Ending a Course</h2>
+        <p>A course designed with a gradable test will "end" differently from a course that is designed without scoring. Keep in mind the following:</p>
+        <ul>
+            <li>
+                <p><span class="Emphasis">Quiz </span>Since a quiz consists of content to be graded, an enabled test node in the TOC is needed to end the test. The test node initiates scoring, and automatically generates a test results page. You can optionally end the test with a customized results page. In this case, it is also necessary to add a Test Results proxy to a custom pass and fail page topic for ending  navigation and calculating the score.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Knowledge Check </span>The knowledge check course on its own is not graded. A test node in the TOC and a Test Results proxy are not required. In this case, the navigation toolbar buttons for the first or last topic (i.e., Previous, and Next respectively) display as disabled in the online output. The disabled button at the end signifies the end of the course.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Combination of a Knowledge Check and Quiz (Combo) </span>Since a combination includes a quiz for grading, the test components (e.g., test node, test results page and proxy) are applicable for ending the course.</p>
+            </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For the Quiz and Combo courses, it is the presence of a test node in the TOC that triggers the "Next" button to automatically switch to a "Complete" button (in the eLearning toolbar) when a learner reaches the end of a test.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>The next required eLearning component is adding the eLearning Toolbar proxy to ensure the course has navigation. See <MadCap:xref href="Adding-eLearning-Toolbar-Proxy1.htm">Adding eLearning Toolbar Proxy</MadCap:xref>.</p>
+        <p>Before you do this, there are a couple of optional items in the process to be aware of.</p>
+        <ul>
+            <li>
+                <p>Instead of enabling a test node via a topic already in the TOC Editor, you can conveniently create, insert, and enable a test node using the eLearning ribbon. To learn more about this, and how tests are scored, see <MadCap:xref href="Creating-Test.htm">Creating a Test</MadCap:xref>.</p>
+            </li>
+            <li>
+                <p>Since a test results page is automatically generated after a test is completed, this is not necessary to do, but you can customize the test results. To learn more about this, see <MadCap:xref href="Custom-Results-Page1.htm">Customizing a Results Page</MadCap:xref>.</p>
+            </li>
+        </ul>
+    </body>
+</html>

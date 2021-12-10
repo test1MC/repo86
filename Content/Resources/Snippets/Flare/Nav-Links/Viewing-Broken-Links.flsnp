@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Broken-Links-Summary.flsnp" />&#160;<MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Interface/Ribbons-Toolbars-Menus/Ribbons/Analysis-Ribbon.htm">Analysis Ribbon</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <div>
+            <MadCap:snippetBlock src="../Micro-Content-Toolbars/User-Guides/Analysis-Reports.flsnp" />
+            <div class="Tiles-6-6-Microcontent">
+                <div>
+                    <h2>How to View and Fix Broken Links</h2>
+                    <MadCap:snippetBlock src="View-Fix-Broken-Links-Steps.flsnp" />
+                    <p class="topic-only">
+                        <img src="../../../Images/Flare/Micro-Content/QS-Broken-Links.gif" />
+                    </p>
+                </div>
+                <div class="Space-Above-Micro-Content-Cells micro-content-only">
+                    <p class="center" style="text-align: center;">
+                        <img src="../../../Images/Flare/Micro-Content/QS-Broken-Links.gif" />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2>How to Fix Links Directly in the Broken Links Window Pane</h2>
+        <MadCap:snippetBlock src="Fix-Links-Window-Pane-Steps.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also see broken links in a file if you have the Link Viewer window pane open. See <MadCap:xref href="../../../../Flare/Folders-Files/Viewing-File-Links.htm">Viewing File Links</MadCap:xref>.</p>
+        </div>
+    </body>
+</html>

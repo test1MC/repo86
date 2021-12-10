@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Accessibility.flmsp');">
+    <head>
+        <meta name="description" content="Flare supports the Accessible Rich Internet Applications (ARIA) technical specification from the World Wide Web Consortium. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Accessibility:ARIA;ARIA" />Accessibility and ARIA Tags</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5.flsnp" />
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides/Accessibility.flsnp" />
+                <p>Flare supports the Accessible Rich Internet Applications (ARIA) technical specification from the World Wide Web Consortium. This is helpful for making output more accessible through screen readers.</p>
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>ARIA Accessibility Labels</h2>
+        <p>For some elements, ARIA information is injected as labels in the code. You can control this label text in a <a href="../../Skins/Other-Activities/HTML5/Changing-Text-Strings-HTML5-Skins.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">regular skin or skin component</a> (UI Text tab) or a <a href="../../Translation-Localization/General-Information/Language-Skins/Editing-Language-Skins.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">language skin</a>.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are including breadcrumbs in your output. If you open the skin and select the UI Text tab, you will see a row dedicated to the accessibility label for breadcrumbs.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Accessibility-Labels1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You can change the Value cell to control the text used for screen readers.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Accessibility-Labels2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>If you build the output and look at the code, you will see <span class="EmphasisItalic">navigation="role"</span> (which indicates the section of the page is used for navigation) and <span class="EmphasisItalic">aria-label="Breadcrumbs"</span> (which indicates the type of navigation and the label text).</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Accessibility-Labels3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+        <h2>ARIA Attributes</h2>
+        <p>There are other elements where ARIA attributes are automatically added in the code.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You insert a drop-down into a topic.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Attributes1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>If you build the output and look at the code, you will see <span class="EmphasisItalic">aria-expanded="true"</span> (which indicates the drop-down has been clicked). You will also see another attribute for ARIA controls, as well as  <span class="EmphasisItalic">role="button"</span> (which indicates that the element is a button).</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Attributes2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+        <h2>Elements Affected</h2>
+        <p>The following elements can be affected by the ARIA specification:</p>
+        <ul>
+            <li>Breadcrumbs</li>
+            <li>Drop-downs</li>
+            <li>Expanding text</li>
+            <li>Footnotes</li>
+            <li>Glossary expanding text</li>
+            <li>Glossary popups</li>
+            <li>Logo</li>
+            <li>Open Navigation button</li>
+            <li>Popup text</li>
+            <li>Pulse iframe</li>
+            <li>Search button</li>
+            <li>Side Navigation menu</li>
+            <li>Tables (see <MadCap:xref href="../Content/Accessibility-Tables.htm">Accessibility and Tables</MadCap:xref>)</li>
+            <li>Tablet and mobile menu</li>
+            <li>Togglers</li>
+            <li>Top Navigation menu</li>
+            <li>Topic popups</li>
+            <li>Topic toolbar buttons</li>
+            <li>Tripane main structure</li>
+            <li>Tripane navigation tabs</li>
+        </ul>
+    </body>
+</html>

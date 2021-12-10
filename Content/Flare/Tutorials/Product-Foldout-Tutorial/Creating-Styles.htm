@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials\Flare-Product-Foldout-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating styles for the Product Foldout tutorial." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Product-Foldout.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:Product Foldout" />
+            <MadCap:keyword term="Styles:creating;Styles:stylesheets;Cascading stylesheets;Selectors:creating;Styles:selectors" />Creating Styles</h1>
+        <p>The page layouts, topics, and TOC have been created. And you've added all of the content to the topics. However, the content still needs to be formatted with styles.</p>
+        <p>All of the styles you need already exist in the stylesheet in the template. But we're going to show you how we created a couple of the styles so you can see how it is done.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Identify Styles</h2>
+        <p>Before we create new styles, we want to show you how to identify existing styles. If you've ever looked at a section of content and thought, "I wonder how they got it to look like that," you can easily find out. It's just a matter of knowing where to look.</p>
+        <ol>
+            <li>Open the <span class="Emphasis">Front2.htm</span> topic.</li>
+            <li>In the first panel, click somewhere in the blue heading.</li>
+            <li>
+                <p>Look to the far left side of the XML Editor and notice the structure bars. <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/General/Enable-Tag-Block-Bars1.flsnp" /></p>
+                <p>The structure bar that is related to the heading has an h1 label.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click somewhere in the line below that contains the two variables.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <li>
+                <p>Now look above the topic. You should see a span bar. If your span bars are not turned on, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Spans-btn.png" class="ReduceButtonSize" /> at the bottom of the editor.</p>
+                <p>Span bars represent elements and formatting that is done inline. Since the current paragraph has a couple of variables, you will see span bars at the top with MadCap:variable labels.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>Similarly, if the paragraph had any bold text, you would see a bar labeled “b.” And if it had a unique character-level style, you would see a bar simply labeled “span,” but you can hover over the bar to see the exact style name.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <li>
+                <p>Let's investigate the h1 style. Right-click the <span class="Emphasis">h1</span> structure bar and select <span class="Emphasis">Style Class &gt; Edit Style Class</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The stylesheet opens and automatically selects the h1 style. If it doesn't automatically select it, go ahead and select <span class="Emphasis">h1</span>.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <li>
+                <p>In the local toolbar, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Styles-Group-View-btn.png" class="ReduceButtonSize" />. This changes the view of the properties on the right from groups to an alphabetical list.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <li>
+                <p>On the right side of the local toolbar, click the <span class="Emphasis">Show</span> drop-down field and select <span class="Emphasis">Show: Set Properties</span>. This filters the properties below to only those that have been explicitly set in the stylesheet for the selected style, as well as any properties explicitly set in an inherited stylesheet.</p>
+                <p>As you can see, multiple properties were set on this style, including its size, color, and margins. Any property shown in gray is being inherited from somewhere else (in this case, a factory stylesheet where you installed Flare).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+        <h2>How to Create Styles</h2>
+        <p>Let's re-create a style class that is used in this template. If you look at the original Front topic, you will see that the first paragraph under the heading is designed to have a larger font size and line height than a normal paragraph.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles8.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+        <p>We are going to intentionally create a duplicate of that style class, which we will apply to our Front2 topic.</p>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Filter-Paragraph-Styles1.flsnp" />
+            </li>
+            <li>On the left side of the Stylesheet Editor, select the <span class="Emphasis">p</span> style.</li>
+            <li>
+                <p>In the local toolbar, click <span class="Emphasis">Add Selector</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the New Selector dialog, click in the <span class="Emphasis">Class Name</span> field and type the following:</p>
+                <p class="TypedEntry">large-new</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The new class is added under the p style and is selected.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <li>
+                <p>On the right side of the local toolbar, click in the <span class="Emphasis">Show</span> drop-down field and select <span class="Emphasis">Show: All Properties</span>. This displays all of the available properties below.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Create-Styles10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>On the right, scroll down the list of properties until you find each of the following properties. Then to the right of each one, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" /> and give them the values shown:<ul><li><span class="SetOffFirstLevel">font-size </span>13pt</li><li><span class="SetOffFirstLevel">line-height </span>15pt</li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

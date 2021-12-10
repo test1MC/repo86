@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Select <span class="Emphasis">Project &gt; Import &gt; Confluence Pages</span>.</li>
+            <li>
+                <p>In the wizard, choose either <span class="Emphasis">Import into a new project</span> (and complete the fields below) or <span class="Emphasis">Import into this project</span>. However, if you do not have a project currently open, the file(s) will automatically be imported into a new project.</p>
+                <div class="topic-only">
+                    <p class="Subheading">Project Fields</p>
+                    <ul>
+                        <li><span class="Emphasis">Project name</span> Type a name for the new <MadCap:variable name="Other.Product" /> project that will be created after you perform the import.</li>
+                        <li><span class="Emphasis">Project folder</span> Accept the default location for the new project or click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to find and select a folder.</li>
+                        <li>
+                            <p><span class="Emphasis">Output type</span> Select the primary target for your project.</p>
+                            <MadCap:snippetBlock src="../../Targets/Primary-Target-Step-Explanation.flsnp" MadCap:conditions="General.Online-Only" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>Complete the <b>Confluence Server</b>, <b>Username</b>, and <b>Password</b> fields. Then click <b>Submit</b>. <span class="topic-only">The Workspace Selection page should open automatically.</span></li>
+            <li>
+                <p>From the drop-down, select the space from which you want to import.</p>
+                <p class="topic-only">
+                    <img src="../../../../Images/Flare/Importing/Confluence/Import-Confluence1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Whats-New-Guide" />
+            <li>
+                <p>In the tree, select the pages to be imported. If you click on an item, a preview for it displays to the right.</p>
+                <p class="topic-only">
+                    <img src="../../../../Images/Flare/Importing/Confluence/Import-Confluence2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>(Optional) On the left, select <b>Advanced Options</b> and choose options as necessary.</p>
+                <div class="topic-only">
+                    <p class="Subheading">Topics</p>
+                    <ul>
+                        <li><b>Import linked pages </b>Select this if you want to automatically bring in other files that are linked to those you selected from the tree. For example, if you choose to import a page called “Beer,” which contains a link to a page called “Food,” this option imports both pages.</li>
+                        <li><b>Remove inline formatting </b>Select this if you do not want to keep any inline formatting in the pages. If you do not select this option, the formatting will be retained. However, keep in mind that styles, rather than inline (local) formatting, is recommended in Flare projects.</li>
+                        <li><b>Remove style classes </b>Select this if you want to remove any style classes that Confluence might have added to elements (such as tables and images). Otherwise, you might have some undefined styles after the pages are imported into Flare.</li>
+                    </ul>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Whats-New-Guide" />
+                    <p class="Subheading">Resources</p>
+                    <ul>
+                        <li><b>Import resources </b>Select this option if you want to include any supporting resource files (e.g., images, multimedia) in the import. In Flare, these will be added to the Resources folder in the Content Explorer, and they will link to the appropriate topics.</li>
+                    </ul>
+                    <p class="Subheading">Reimport</p>
+                    <ul>
+                        <li><b>Link generated files to source files </b>Select this option if you want to continue editing in Confluence and reimport as needed. Deselect it if you want to edit the imported files in Flare going forward. </li>
+                    </ul>
+                </div>
+            </li>
+            <li>Click <b>Finish</b> and <b>Accept</b>.</li>
+        </ol>
+    </body>
+</html>

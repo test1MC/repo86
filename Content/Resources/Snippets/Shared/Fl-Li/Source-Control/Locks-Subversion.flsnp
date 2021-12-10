@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:lock;Locks:source control" />Locks </span>You can lock files so other users cannot commit those same files unless they steal the lock from you first. Likewise, other users can lock files to prevent you from committing the files they are working on. You would have to steal their lock if you needed to commit that file before they unlocked the file. However, locks only prevent you from committing another user's files; you can modify files at any time. You can set files to be locked automatically when you modify files. This can be done from the Source Control tab of the Options dialog (<span class="Emphasis">File &gt; Options</span>).</p>
+    </body>
+</html>

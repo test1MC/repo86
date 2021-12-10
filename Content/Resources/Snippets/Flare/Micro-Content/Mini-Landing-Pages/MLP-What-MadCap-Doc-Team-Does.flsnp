@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>See how the MadCap Documentation Team uses the following features.</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0" MadCap:conditions="Responsive.Tablet,Responsive.Web">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../General/What-MadCap-Doc-Team-Does-List1.flsnp" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../General/What-MadCap-Doc-Team-Does-List2.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0" MadCap:conditions="Responsive.Mobile-Online-Only">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 100%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../General/What-MadCap-Doc-Team-Does-List1.flsnp" />
+                        <MadCap:snippetBlock src="../../General/What-MadCap-Doc-Team-Does-List2.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

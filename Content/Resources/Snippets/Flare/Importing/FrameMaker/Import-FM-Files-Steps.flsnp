@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Select <span class="Emphasis">Project &gt; Import &gt; FrameMaker Documents</span>.</li>
+            <li>Select <span class="Emphasis">Import into a new project</span> or <span class="Emphasis">Import into this project</span> (if you already have a project open). If it is a new project, enter a project name, and select a folder location (if different from the default) and primary output type. Then click <span class="Emphasis">Next</span>.</li>
+            <li>Click <img src="../../../../Images/Shared/Fl-Li/Interface/Buttons/Plus-btn.png" class="ReduceButtonSize" alt="" />.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../Select-Files-Import.flsnp" />
+                </p>
+                <div class="topic-only">
+                    <p>You can select BOOK, FM, or MIF files.</p>
+                    <MadCap:snippetBlock src="Tip-Select-Book-File-When-Importing-FM.flsnp" />
+                </div>
+            </li>
+            <li>
+                <p>(Optional) Use other options on the page as necessary. Then click <span class="Emphasis">Next</span>.</p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../Import-Add-Files-Button-Options2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                </div>
+            </li>
+            <li>
+                <p>(Optional) Split the FrameMaker documents into smaller topics during the import based on styles. Double-click any of the styles on the left, moving them to the right. Then Click <span class="Emphasis">Next</span>.</p>
+                <div class="topic-only">
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If you have a style called "Heading 2" in your FrameMaker documents, you might want new topics to be created whenever <MadCap:variable name="Other.Product" /> finds a Heading 2 style in a document. So you would double-click Heading 2 and move it to the right side of the page.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>(Optional) Use any options to further customize the import. Then click <span class="Emphasis">Next</span>.</p>
+                <div class="topic-only">
+                    <ul type="1">
+                        <li><span class="SetOffFirstLevel">Add "Topic Continued" links when appropriate </span>Select this option to place a "Topic Continued" link at the bottom of pages when a long topic has been split into multiple ones.</li>
+                        <li><span class="SetOffFirstLevel">Add "Topic Continued From" links when appropriate </span>Select this option to place a "Topic Continued From" link at the top of continued pages when a long topic has been split into multiple ones.</li>
+                        <li><span class="SetOffFirstLevel">Cross-Reference Format </span>Use this field to specify the format for the "Topic Continued" and "Topic Continued From" links. <MadCap:variable name="Other.Product" /> provides a cross-reference format for you—(continued in {title}) or (continued from {title}). With this cross-reference format, the link contains the words "continued in" or "continued from" within parentheses, followed by the text of the first paragraph in the connected topic. If you do not want the link to use that particular text, you have a couple of options. First, in <MadCap:variable name="Other.Product" />, you could manually enter a heading in each topic that is connected to another topic included in the split. That text will be used in the link instead (after you update the cross-references in <MadCap:variable name="Other.Product" />). Another option is to modify the format by clicking the <span class="Emphasis">Edit</span> button. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">For more information see <MadCap:xref href="../../../../../Flare/Nav-Links/Cross-References/Cross-References.htm">About Cross-References</MadCap:xref>.</MadCap:conditionalText><ul type="1"><li><span class="SetOffSecondLevel">Edit </span>If you want to modify the cross-reference format provided, click this button, which opens the Cross-Reference Format dialog. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Nav-Links/Cross-References/Main-Activities/Editing-Cross-Reference-Style-Formats.htm" MadCap:conditions="General.Online-Only">Editing Cross-Reference Style Formats</MadCap:xref>.</MadCap:conditionalText></li></ul></li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                        <li><span class="SetOffFirstLevel">Split Long Topics </span>  Select this option if you have long sections in your source documents and want to make sure that they are converted to multiple topics (rather than one very long topic).<ul type="1"><li><span class="SetOffSecondLevel">Threshold </span>Enter the maximum number of characters to be converted to a topic before a new topic is created. <MadCap:variable name="Other.Product" /> will break the topic at the nearest paragraph to the threshold value. That way, a new topic will not start in the middle of a sentence or word, but at the beginning of a paragraph.</li></ul></li>
+                        <li><span class="SetOffFirstLevel">Avoid Creating 'Empty' Topics </span>Select this option if you want to ensure that new topics are not created when large sections are found in the FrameMaker documents without any content.<ul type="1"><li><span class="SetOffSecondLevel">Threshold </span>Enter the maximum number of empty character spaces allowed in a topic. If this number is exceeded, <MadCap:variable name="Other.Product" /> will not create a new topic from that empty space.</li></ul></li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Anchored Frames With Images </span>You can use this area to specify how Flare should handle anchored frames that contain images as well as other content (e.g., text callouts).</p>
+                            <ul type="1">
+                                <li><span class="SetOffSecondLevel">Generate Images Without Callouts </span>
+                                    <MadCap:snippetText src="Generate-Images-Without-Callouts.flsnp" />
+                                </li>
+                                <li>
+                                    <p><span class="SetOffSecondLevel">Generate Images With Callouts </span>
+                                        <MadCap:snippetText src="Generate-Images-With-Callouts.flsnp" />
+                                    </p>
+                                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                                    <MadCap:snippetBlock src="Example-Anchored-Frames.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                                    <MadCap:snippetBlock src="Note-FM-Images-With-Callouts.flsnp" />
+                                </li>
+                                <li><span class="SetOffSecondLevel">Generate Flattened Images </span>
+                                    <MadCap:snippetText src="Generate-Flattened-Images.flsnp" />
+                                </li>
+                            </ul>
+                        </li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                        <li>
+                            <p><span class="SetOffFirstLevel">Preserve Image Size </span>This option affects how the size of imported images are handled.</p>
+                            <ul type="1">
+                                <li><span class="SetOffSecondLevel">Option Selected</span> The original image is imported. However, the &lt;img&gt; tag is modified in the imported file to closely reflect the height and width of the image in the FrameMaker document. This is done regardless of whether you are importing linked or embedded images from FrameMaker documents.</li>
+                                <li><span class="SetOffSecondLevel">Option NOT Selected</span> The &lt;img&gt; tag is not modified in the imported file. Instead, the image is referenced at 100% of its original value.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Auto-reimport before 'Generate Output' </span>
+                                <MadCap:snippetText src="../Auto-Reimport-Option.flsnp" />
+                            </p>
+                        </li>
+                        <li><span class="SetOffFirstLevel">Approximate Filename Length </span>Enter the maximum number of characters to use for naming new topic files that are automatically created after splitting a long topic. The default is 24.</li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Enable 'Passthrough' Markers </span>Select this check box to include a check mark if you have created passthrough markers in your FrameMaker source documents.<MadCap:snippetText src="../FrameMaker-Passthrough-Marker-Summary.flsnp" /><MadCap:snippetText src="../FrameMaker-Passthrough-Marker-Summary2.flsnp" />&#160;<MadCap:snippetText src="../FrameMaker-Passthrough-Marker-Summary3.flsnp" /></p>
+                            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                            <MadCap:snippetBlock src="../Example-FrameMaker-Passthrough-Marker.flsnp" />
+                        </li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                        <li>
+                            <p><span class="SetOffFirstLevel">Passthrough Marker Format </span>After you enable passthrough markers, click the down arrow in this field and select the type of format that you want to use for the import. </p>
+                            <MadCap:snippetBlock src="../FrameMaker-Passthrough-Marker-Format-Options.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">Convert equations to MathML </span>Select this option to convert MathFullForm equations (the FrameMaker-specific format) to MathML (the web standard and Flare format). If you disable this option, equations from FrameMaker are converted to images.</li>
+                        <li><span class="SetOffFirstLevel">Convert Table Styles </span> If you have tables in your FrameMaker documents that you have formatted in a certain way, select this check box if you want to create matching table styles as a result of the import. In the <MadCap:variable name="Other.Product" /> project, the new table styles will be named after the format named applied to the table in FrameMaker (e.g., "Format_A.css," "Format_B.css," and so on). You can rename these table stylesheets in <MadCap:variable name="Other.Product" /> after the import finishes. Even if you do not use this mapping feature, the table formatting still comes across when you import the documents. The only difference is that table stylesheets make it easier to maintain the formatting of your tables within <MadCap:variable name="Other.Product" />. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Styles.htm">About Styles and Stylesheets</MadCap:xref>.</MadCap:conditionalText></li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Reimport Table Styles </span>This option displays only if you are working in the Import Editor, rather than the wizard. This option is useful after you have already imported FrameMaker documents and converted the formatting in your tables into at least one table stylesheet in <MadCap:variable name="Other.Product" />. You can use this option to determine whether tables should be imported again as table styles when you reimport. You might want to keep this check box selected for some reimports, but other times you might want to deselect it when reimporting.</p>
+                            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                            <div class="example">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want the formatted tables in your FrameMaker documents to be converted to table styles when you perform the initial import into a <MadCap:variable name="Other.Product">[%=Other.Product%]</MadCap:variable> project. Therefore, in the import wizard, you turn on the "Convert Table Styles" option. As a result, let's say that <MadCap:variable name="Other.Product">[%=Other.Product%]</MadCap:variable> creates a new table style and calls it "FormatA.css."</p>
+                                <p>After the initial import, you realize you want the tables to look a little different. Therefore, in the <MadCap:variable name="Other.Product" /> project, you modify the properties of the FormatA.css table stylesheet.</p>
+                                <p> Awhile later, let's say you want to reimport the FrameMaker documents. The problem is that you've already changed the table stylesheet in <MadCap:variable name="Other.Product" />. You probably want to keep the tweaked table style so that you don’t have to modify it again after the import. </p>
+                                <p>This is where the new "reimport" option comes into play. It determines whether or not a second new table stylesheet will be created, based on the old look from the tables in the FrameMaker documents.</p>
+                                <p>Here's one scenario. Let's say that before you reimported the FrameMaker documents, you selected the "Reimport Table Styles" option in the Frame Import Editor. And during the import when you were prompted, you selected not to overwrite the existing FormatA.css table stylesheet. In that case, <MadCap:variable name="Other.Product" /> keeps your tweaked stylesheet in the project, but it also creates another table stylesheet called "FormatA1.css" that has the old look and feel. All of the reimported content now links to the FormatA1.css stylesheet instead of FormatA.css.</p>
+                                <p> Here's a different scenario. Let's say that you perform the same steps described above, except this time you deselected the "Reimport Table Styles" option in the Frame Import Editor. In that case, the second FormatA1.css file is not created. The imported content is linked to the FormatA.css table stylesheet that you previously modified, since it already exists in the project.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+            <li>
+                <p>(Optional) Specify whether the imported topics should be associated with a stylesheet and/or styles from your FrameMaker files. Then click <span class="Emphasis">Next</span>.</p>
+                <div class="topic-only">
+                    <ul type="1">
+                        <li><span class="SetOffFirstLevel">Stylesheet </span>If you already have a CSS file that you want to associate with the imported files, click the <span class="Emphasis">Stylesheet</span> button. Then navigate to the stylesheet and select it.</li>
+                        <li><span class="SetOffFirstLevel">Preserve FrameMaker Styles </span>This retains any style formatting from your FrameMaker documents so that you can continue to use that look and feel in Flare. For example, if you use a style called "Heading 1" in your source documents and that style is blue, it remains blue after you finish the import to Flare and the new style is created. Also, selecting this option affects which mapping styles are available as you continue to make your import selections. If you select this option, you can map the FrameMaker styles to new Flare styles that keep the name of the FrameMaker style (e.g., <span class="EmphasisItalic">Heading 1</span> becomes <span class="EmphasisItalic">h1.Heading 1</span> in Flare).</li>
+                        <li><span class="SetOffFirstLevel">Don't Preserve FrameMaker Styles </span>This does not keep the style formatting used in the FrameMaker documents. For example, if you use a style called "Heading 1" in your source documents and that style is blue, that color (and any other settings for that style) are not kept after you finish the import to Flare. You will still have styles associated with your content, but it will not look like it did in the source documents. Also, selecting this option affects which mapping styles are available as you continue to make your import selections. If you select this option, you can map the FrameMaker styles to new Flare styles that either keep the name of the FrameMaker style (e.g., <span class="EmphasisItalic">Heading 1</span> becomes <span class="EmphasisItalic">h1.Heading 1</span> in Flare) or do not (e.g., <span class="EmphasisItalic">Heading 1</span> becomes <span class="EmphasisItalic">h1</span> in Flare).</li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                        <li>
+                            <p><span class="SetOffFirstLevel">Conversion Styles </span>This opens the Import Styles Editor, which lets you specify how to convert each property of the FrameMaker styles. If you do not enter a property value, the value from the FrameMaker document is used. If you enter a property value, it overrides the value from the FrameMaker document. This button is used only if you have selected "Preserve FrameMaker Styles."</p>
+                            <MadCap:snippetBlock src="Example-FrameMaker-Conversion-Styles.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>(Optional) Map paragraph styles from the FrameMaker documents to <MadCap:variable name="Other.Product" />'s paragraph styles. Then click <span class="Emphasis">Next</span>.</p>
+                <div class="topic-only">
+                    <p>Your FrameMaker style will adopt the name of that style.  To map a style, click the style in the FrameMaker Styles column on the left, click a style in the <span class="Emphasis"> Flare Styles</span> section on the far right, and then click the <span class="Emphasis">Map</span> button. If you previously elected not to preserve the FrameMaker styles, it is recommended that you map to a standard CSS parent style—e.g., map your first-level heading style to h1, not to h1.(FrameMaker Style).</p>
+                    <MadCap:snippetBlock src="../Import-Paragraph-Styles2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet5], exclude[Snippets.Snippet1 or Snippets.Snippet2 or Snippets.Snippet3 or Snippets.Snippet4 or Snippets.Snippet6 or Snippets.Snippet7 or Snippets.Snippet8]" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Preserve Styles</p>
+                        <p>Let's say you have a style in your FrameMaker source document called "Heading1" that is using Arial 14 pt and is red, like this.</p>
+                        <p style="font-size: 14pt;color: #ff0000;">Hello</p>
+                        <p>During the process of importing your FrameMaker document using the Import FrameMaker Wizard, you select the option to <span class="EmphasisItalic">preserve</span> your FrameMaker styles.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/FrameMaker/Import-FM1.png" class="MaxWidth75Percent" />
+                        </p>
+                        <p>The next page of the wizard looks something like this:</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/FrameMaker/Import-FM2.png" class="MaxWidth90Percent" />
+                        </p>
+                        <p>When you finish importing, the content that was associated with Heading1 in the source document is still using Arial 14 pt and is red, just like it was before in FrameMaker. However, the style is now called "h1.Heading1." In the world of cascading style sheets (CSS)—which is what Flare uses for controlling the look of content—you've created a class of the h1 style (h1 is the standard style for first-level headings). But because you wanted to keep the look of the FrameMaker style, Flare added it as a child under its parent, h1.</p>
+                        <p>If you make any future changes in Flare to the h1 style, they will trickle down to the h1.Heading1 child (unless the child style has explicit settings that conflict with the parent). You can also apply style properties directly to the h1.Heading1 child. So while it is generally a good idea to use standard CSS parent styles (such as h1) when possible in Flare, the mapping performed in this import process—and the subsequent creation of a child style—lets you keep the Arial 14 pt red look.</p>
+                    </div>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Do Not Preserve Styles</p>
+                        <p>Let's say you have a style in your FrameMaker source document called "Heading1" that is using Arial 14 pt and is red, like this.</p>
+                        <p style="font-size: 14pt;color: #ff0000;">Hello</p>
+                        <p>During the process of importing your FrameMaker document using the Import FrameMaker Wizard, you select the option to <span class="EmphasisItalic">not preserve</span> your FrameMaker styles.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/FrameMaker/Import-FM3.png" class="MaxWidth90Percent" />
+                        </p>
+                        <p>The next page of the wizard looks something like this.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/FrameMaker/Import-FM4.png" class="MaxWidth95Percent" />
+                        </p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/FrameMaker/Import-FM5.png" class="MaxWidth90Percent" />
+                        </p>
+                        <p>When you finish importing, the content that was associated with Heading1 in the source document is no longer using Arial 14 pt, red. Instead, it looks something like this.</p>
+                        <p style="font-size: 14pt;font-family: 'Times New Roman';color: #000000;">Hello</p>
+                        <p>Also, the style is now called "h1." (Keep in mind that, even if you had mapped the style to "h1.(FrameMaker Style) in this case, the formatting would still be removed.)</p>
+                        <p>So although the formatting was not retained, you were able to map to the standard CSS style for first-level headings—h1 .</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>(Optional) Map character styles from the source documents to <MadCap:variable name="Other.Product" />'s character styles. Then click <span class="Emphasis">Next</span>.</p>
+                <div class="topic-only">
+                    <p>Your FrameMaker style will adopt the name of that style. This works the same as the feature for mapping paragraph styles, except it has to do with character-level styles. To map a style, click the style in the <span class="Emphasis"> Framemaker Style</span> column, click a style in the <span class="Emphasis">Flare Styles</span> section, and then click the <span class="Emphasis">Map</span> button. </p>
+                    <MadCap:snippetBlock src="../Import-Character2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet5], exclude[Snippets.Snippet1 or Snippets.Snippet2 or Snippets.Snippet3 or Snippets.Snippet4 or Snippets.Snippet6 or Snippets.Snippet7 or Snippets.Snippet8]" />
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Transition-from-FM-Guide" />
+            <li>
+                <p>(Optional) Map cross-reference (x-ref) styles from the FrameMaker documents to <MadCap:variable name="Other.Product" />'s cross-reference styles. Then click <span class="Emphasis">Finish</span>.</p>
+                <div class="topic-only">
+                    <p>In this way, you can have your FrameMaker style take on the appearance of the <MadCap:variable name="Other.Product" /> style that you map it to. To map a style, click the style in the <span class="Emphasis">FrameMaker Style</span> column on the left, click a style in the <span class="Emphasis"> Flare Styles</span> section on the far right, and then click the <span class="Emphasis">Map</span> button.</p>
+                    <MadCap:snippetBlock src="../Import-Xref-Styles2.flsnp" />
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../Import-Accept2.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

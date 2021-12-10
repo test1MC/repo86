@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/User-Guides-Videos/Flare-Transition-FM.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating a new drop-down effect in a FrameMaker source document (if you plan to import that document into Flare)." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterImporting" />
+            <MadCap:keyword term="Importing:FrameMaker documents;Adobe FrameMaker:importing;Drop-down text:inserting;Drop-down text:FrameMaker" />
+            <MadCap:concept term="FilterFeatures" />Creating Drop-Down Effects in FrameMaker Source Documents</h1>
+        <p>The following steps <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Nav-Links/Drop-Down-Text-FM-Summary.flsnp" /></p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide" />
+        <h2>How to Create a Drop-Down Effect in a FrameMaker Source Document</h2>
+        <p>The following steps may vary in different versions of FrameMaker.</p>
+        <ol>
+            <li>Open the FrameMaker document.</li>
+            <li>In FrameMaker, create the two drop-down paragraph styles that are required for producing this effect. This is a one-time step in the document. Afterwards, you can simply select the newly created styles when specifying drop-down text. To create the two styles, do the following.<ol type="1" class="LowerAlpha"><li>In FrameMaker, select <span class="Emphasis">Format &gt; Paragraphs &gt; Designer</span>. The Paragraph Designer opens.</li><li>From the <span class="Emphasis">Commands</span> field, click the down arrow and select <span class="Emphasis">New Format</span>. The New Format dialog opens.</li><li>In the <span class="Emphasis">Tag</span> field, type <span class="TypedEntry">PullDownButton</span>.</li><li>Make sure that the <span class="Emphasis">Store in Catalog</span> check box has a check mark. </li><li>Make sure that the <span class="Emphasis">Apply to Selection</span> check box does NOT have a check mark in it (unless you want the style to immediately be applied to the paragraph where your cursor is placed).</li><li>Click <span class="Emphasis">Create</span>.</li><li>Follow these same steps to create a paragraph style called <span class="TypedEntry">PullDownBody</span>.</li><li>Close the Paragraph Designer.</li></ol></li>
+            <li>In the FrameMaker document, place your cursor in the paragraph that you want to serve as the drop-down hotspot in the online output (i.e., when the user clicks that hotspot, the text below that is identified as the drop-down body will be shown or hidden).</li>
+            <li>From the styles drop-down menu or from the paragraph catalog, select <span class="Emphasis">PullDownButton</span>.</li>
+            <li>Highlight the paragraph(s) that you want to serve as the drop-down body in the online output.</li>
+            <li>From the styles drop-down menu or from the paragraph catalog, select <span class="Emphasis">PullDownBody</span>.</li>
+            <li>Save the FrameMaker document.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Importing/FrameMaker/Note-FM-Supports-7-Newer.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After you apply the drop-down styles to the FrameMaker document(s), you can import those documents into a Flare project. See <MadCap:xref href="../Importing-FM-Files.htm">Importing FrameMaker Files</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide" />
+    </body>
+</html>

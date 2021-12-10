@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials\Flare-Lists-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Setting page breaks in lists." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Lists.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:lists;Lists:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Setting Page Breaks in Lists</h1>
+        <p>For our PDF output, it is sometimes necessary to include page breaks in lists so that they continue where you want from one page to the next. There are a couple of ways to add page breaks (via styles or manually), and we will do both in this lesson.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Add Page Breaks via Styles</h2>
+        <ol>
+            <li>
+                <p>Before we add a page break, let's build our PDF output so that we can see where we want it. Select the <span class="Emphasis">Project</span> ribbon. Then, from the <span class="Emphasis">Build Primary</span> drop-down, select <span class="Emphasis">Build All-About-Austin-PDF</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>After it finishes building, double-click the row in the Builds window pane at the bottom to open the PDF.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Scroll down, and at the bottom of page 8, notice the beginning of the bulleted list.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>We decide that it might look better if the heading and list started on the next page. So let's place a page break on the heading through a style. Begin by closing the PDF, then in Flare open the <span class="Emphasis">Styles.css</span> stylesheet.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On the left side of the editor, scroll down and select <span class="Emphasis">h3</span>. Then, in the toolbar, click <span class="Emphasis">Add Selector</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the dialog, type <span class="TypedEntry">Page-Break-Before</span> as the name of the class, and click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On the right side, expand the <span class="Emphasis">PrintSupport</span> group, and set the <span class="Emphasis">page-break-before</span> property to <span class="Emphasis">always</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Open the <span class="Emphasis">Attractions.htm</span> topic, and select (i.e., left-click) the <span class="Emphasis">h3</span> structure bar of the heading "Things You Need for Kayaking." The entire heading should be highlighted.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, click the <span class="Emphasis">Style</span> drop-down and select <span class="Emphasis">h3.Page-Break-Before</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Rebuild the PDF target, and open it when it finishes.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Scroll down in the PDF to pages 8-10, and notice the heading and list now begin on page 9. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Also notice that step 2 of "How to Kayak" is now at the bottom of the page, and it has sub-steps under it, which are now at the top of page 10.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Let's add a page break to step 2 in order to keep it on the same page as its sub-steps. First close the PDF.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Go back to the stylesheet and repeat steps 5-8, but instead of creating the class for h3, do it for the <span class="Emphasis">li</span> style. When you are finished, you should have a class called <span class="Emphasis">li.Page-Break-Before</span> with the page break associated with that class.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Open the <span class="Emphasis">Attractions.htm</span> topic, and select (i.e., left-click) the <span class="Emphasis">li</span> structure bar for step 2. The entire list item, including its sub-steps, should be highlighted.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, click the <span class="Emphasis">Style</span> drop-down and select <span class="Emphasis">li.Page-Break-Before</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break17.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Rebuild the PDF target, and open it when it finishes.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Scroll down in the PDF to pages 9-10, and notice that step 2 now begins at the top of page 10.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Close the PDF.</li>
+        </ol>
+        <h2>How to Add Page Breaks Manually</h2>
+        <p>Styles are almost always recommended over doing something manually. However, you might want to use the manual page break sometimes. For example, you might have a list that appears in multiple outputs, and in some outputs you want a page break to appear in a certain place, but in other outputs you might not want a page break. You could have two instances of a list item (one with a page break style applied and one without), then condition each list item for the different outputs. However, it might be simpler to just insert a manual page break and condition that for only the targets where the page break should occur. Keep in mind that with manual page breaks, the break always occurs <span class="EmphasisItalic">after</span> its insertion point.</p>
+        <ol>
+            <li>
+                <p>Go back to the <span class="Emphasis">Attractions.htm</span> topic and undo the application of the li.Page-Break-Before style class to step 2. In other words, you want step 2 to only use the parent li style.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break10.png" alt="" title="" class="MaxWidth65Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Place your cursor somewhere on the last line ("No rocks") under step 1. Then, press the down arrow key on your keyboard four times, until you see a horizontal line flashing between the steps.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Press <span class="Emphasis">ENTER</span>. You should now see an empty step 2. However, this number will go away when we are finished.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>The empty list item has a &lt;p&gt; tag in it, like the others. We need to remove this tag before inserting the page break. So right-click the <span class="Emphasis">li</span> structure bar and select <span class="Emphasis">Make Simple Item(s)</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break19.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Place your cursor in the empty step 2. Then from the <span class="Emphasis">Insert</span> ribbon, select <span class="Emphasis">Page Break</span>. A gray bar appears at that location and the number is removed next to it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Page-Break13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>You don't need to condition the bar unless you want it to be used in only some print-based outputs but not others. It will automatically be ignored in online outputs.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Rebuild the PDF target, and open it when it finishes.</li>
+            <li>Scroll down in the PDF to pages 9-10, and notice that step 2 begins on page 10.</li>
+            <li>Close the PDF.</li>
+        </ol>
+    </body>
+</html>

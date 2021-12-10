@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a topic with a set of steps that looks like this, with the list being used as micro content:</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>When viewed as a full topic in HTML5 output, you want the topic to look almost exactly like this. The only exception is that the second note under step 2 should not be displayed.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>However, when a user searches for "Procedure 1," you want the steps in the micro content to look a little different. First, you want there to be less space between the list items. Second, you want the first comment to be hidden, while the second comment is shown.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>In your main stylesheet, you set the following. The first two generic style classes provide a way to indicate which content should be shown in which form of output. And the other selectors provide the spacing between the items in lists.</p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">.topic-only
+{
+	
+}
+
+.micro-content-only
+{
+	display: none;
+}
+
+li,
+li p
+{
+	margin-bottom: 24px;
+	margin-top: 24px;
+}</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>You then add a second stylesheet. Its only purpose is to specify areas where content should look different when viewed as micro content.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles5.png" alt="" title="" class="MaxWidth85Percent" />
+            </p>
+            <p>In the second stylesheet, you set the following. Notice that the settings for the generic style classes are the opposite (hiding "topic-only" content and displaying "micro-content-only" content), and the margin settings for list items are much lower.</p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">.topic-only
+{
+	display: none;
+}
+
+.micro-content-only
+{
+	display: block;
+}
+
+li,
+li p
+{
+	margin-bottom: 3px;
+	margin-top: 3px;
+}</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <p>In the topic, you apply the topic-only class to the first comment and the micro-content-only class to the second comment.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>But you're not done yet. You need to make sure the correct stylesheets are used for each circumstance. First, because your main stylesheet is set at the project level, you open the Project Properties dialog (<span class="Emphasis">Project &gt; Project Properties</span>). In this dialog, you make sure that <span class="Emphasis">Allow local stylesheets</span> is enabled.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>Next, you open the Properties dialog for your micro content file.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles10.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>On the <span class="Emphasis">Stylesheet Links</span> tab of that dialog, you move your special micro content stylesheet to the right side, which means that the responses in that micro content file will give priority to the style settings in that stylesheet. You leave the check box at the bottom disabled, because you still want to use other styles from your main stylesheet as well.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles11.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <p>Then you build and publish the HTML5 output.</p>
+            <p>If users view the full topic in the output, it looks like this. Notice the wider spacing, and the fact that only one comment is shown under step 2.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles7.png" alt="" title="" class="MaxWidth65Percent" />
+            </p>
+            <p>But if they view the micro content in the search results, it looks like this. Notice the list items are closer together, and only the second comment is shown under step 2.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Styles8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>It's the same content, originating from the same place, but it displays differently depending on the situation.<br /></p>
+        </div>
+    </body>
+</html>

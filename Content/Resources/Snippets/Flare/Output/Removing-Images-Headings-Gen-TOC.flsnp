@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Print.flsnp" />
+        <p>
+            <MadCap:snippetText src="Print-Output/Remove-Images-Generated-TOC-Summary.flsnp" />
+        </p>
+        <p>This option works somewhat differently depending on the output type.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Word</h2>
+        <ul>
+            <li>If the option is disabled, images appear in both content headings and the print TOC.</li>
+            <li>If the option is enabled, images are removed from both content headings and the print TOC.</li>
+        </ul>
+        <h2>PDF</h2>
+        <ul>
+            <li>If the option is disabled, images appear in content headings only.</li>
+            <li>If the option is enabled, images are removed completely.</li>
+        </ul>
+        <h2>How to Remove Images From Headings in a Generated TOC</h2>
+        <ol>
+            <li>Open the target.</li>
+            <li>In the Target Editor, select the <span class="Emphasis">Advanced</span> tab.</li>
+            <li>In the <span class="Emphasis">Generated TOC</span> section, select <span class="Emphasis">Remove images from paragraphs with heading levels</span>. </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Keep in mind that, with this feature, the images are also removed from the heading in the content of the document. Therefore, if you want to have the images in the content, but not in the print TOC, you should not use this feature. Instead, you must remove the images from the print TOC manually after generation (if you compile an editable output, such as Word).</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+    </body>
+</html>

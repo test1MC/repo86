@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Printed-Output.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Options in the Target Editor for creating EPUB output." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="EPUB;Output:EPUB" />Specifying EPUB Options</h1>
+        <p>If you are sending output to <MadCap:variable name="Outputs.EPUB" />, you can access EPUB options in the Target Editor. These options let you provide <MadCap:keyword term="EPUB:metadata;Metadata:EPUB" />metadata, select a cover image, validate output, generate MOBI output, enable MathML to PNG conversion, and enable dynamic content.</p>
+        <h2>How to Specify EPUB Options</h2>
+        <ol>
+            <li>Open a target that is using the EPUB format. If necessary, you can change the output type for a target. See <MadCap:xref href="Changing-Output-Type-Target.htm">Changing the Output Type for a Target</MadCap:xref>.</li>
+            <li>Select the <span class="Emphasis">EPUB Options</span> tab.</li>
+            <li>
+                <p>
+                    <MadCap:keyword term="Images:PDF;Adobe PDF:title;Adobe PDF:author;Adobe PDF:magnification;Adobe PDF:navigation" />Complete the options as necessary. <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Variables/Insert-Variable.flsnp" /></p>
+                <p class="Subheading">
+                    <MadCap:keyword term="EPUB:metadata;Metadata:EPUB" />Metadata</p>
+                <p>Select the <span class="Emphasis">MetaData</span> tab and complete any of the following. The information becomes embedded in the final output.</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Title</span> The document title you provide is usually displayed at the top of the EPUB reader. If you do not provide a title, the target name is automatically used instead.</li>
+                    <li class="SetOffFirstLevel">Author</li>
+                    <li class="SetOffFirstLevel">Publisher(s)</li>
+                    <li><span class="SetOffFirstLevel">Tag</span> This is a custom field that you can use for your own purposes.</li>
+                    <li class="SetOffFirstLevel">Rights</li>
+                    <li class="SetOffFirstLevel">Description</li>
+                    <li class="SetOffFirstLevel">ISBN</li>
+                    <li class="SetOffFirstLevel">Publish Date</li>
+                    <li class="SetOffFirstLevel">Identifier</li>
+                </ul>
+                <p>For more information about EPUB metadata and the fields supported in Flare (except "Tag"), open this link: <a href="http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.2" target="_blank">http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.2</a>.</p>
+                <p class="Subheading">
+                    <MadCap:keyword term="Images:cover for EPUB;EPUB:cover image" />Cover Image</p>
+                <p>Select the <span class="Emphasis">Cover Page</span> tab and click <img src="../../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to find and select an image file. This is used as the cover for your ebook.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Targets/EPUB5.png" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+                <p class="Subheading">
+                    <MadCap:keyword term="EPUB:validation;Validating:EPUB" />Validate EPUB3 Output</p>
+                <p>Use these fields to validate EPUB output so that it will be acceptable to most online stores, such as amazon.com.</p>
+                <ol class="LowerAlpha">
+                    <li>Select <span class="Emphasis">Enable Epub 3 validation</span>.</li>
+                    <li>Click the <span class="Emphasis">Download EpubCheck</span> link. A website opens.</li>
+                    <li>
+                        <p>Click the link you want to download. Newer versions are typically at the top. Select the most recent link for binaries and follow the steps online to download it to your computer.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Targets/EPUB1.png" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>The file that you downloaded is a ZIP file, so you need to extract its contents.</li>
+                    <li>Return to the EPUB&#160;Options tab in Flare.</li>
+                    <li>Next to the <span class="Emphasis">EpubCheck</span> field, click <img src="../../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />.</li>
+                    <li>Navigate to the extracted folder on your computer.</li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Targets-Guide" />
+                    <li>
+                        <p>In the Open dialog, double-click the file with the <span class="Emphasis">.jar</span> extension (e.g., <span class="Emphasis">epubcheck-3.0.jar</span>).</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Targets/EPUB2.png" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                    </li>
+                </ol>
+                <p>When you are finished setting all EPUB options, you can generate the EPUB target. If validation fails, you should see related errors during the compilation process. You can then fix the issues and try to build again.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+                <p class="Subheading">
+                    <MadCap:keyword term="EPUB:MOBI;MOBI" />Generate MOBI Output</p>
+                <p>MOBI is the standard format used for the <MadCap:keyword term="Amazon Kindle" />Amazon Kindle. You can use these fields settings to generate EPUB output that uses MOBI&#160;content.</p>
+                <ol class="LowerAlpha">
+                    <li>Select <span class="Emphasis">Generate MOBI file</span>.</li>
+                    <li>Click the <span class="Emphasis">Download KindleGen</span> link. A website opens.</li>
+                    <li>Click the link you want and follow the steps online to download it to your computer.</li>
+                    <li>The file that you downloaded is a ZIP file, so you need to extract its contents.</li>
+                    <li>Return to the EPUB&#160;Options tab in Flare.</li>
+                    <li>Next to the <span class="Emphasis">KindleGen Path</span> field, click <img src="../../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />.</li>
+                    <li>Navigate to the extracted folder on your computer.</li>
+                    <li>
+                        <p>In the Open dialog, double-click the file with the <span class="Emphasis">kindlegen.exe</span> file.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Targets/EPUB3.png" class="MaxWidth80Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                    </li>
+                </ol>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Targets-Guide" />
+                <p>When you are finished setting all EPUB options, you can generate the EPUB target. If you open the output folder, you will see that Flare has created a MOBI file in addition to an EPUB&#160;file. The MOBI&#160;file is all you need to view the ebook on a Kindle. The EPUB file can be used to view the ebook on other readers.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Targets/EPUB4.png" class="MaxWidth100Percent" />
+                </p>
+                <p class="Subheading">
+                    <MadCap:keyword term="Equations;MathML" />Enable MathMLto <MadCap:keyword term="SVG file" />PNG&#160;Conversion</p>
+                <p>If you use the Equation Editor to insert equations, you are in essence creating MathML markup<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../Equations/Equations.htm">About Equations</MadCap:xref>)</MadCap:conditionalText>. This type of content is supported for EPUB output.</p>
+                <p>If you need to produce output that can be displayed on older readers, you can select this option. All of your MathML content will be converted to <MadCap:keyword term="PNG file" />PNG image files. </p>
+                <p class="Subheading">
+                    <MadCap:keyword term="Embedded fonts" />Embed Fonts</p>
+                <p>Flare includes all of your used fonts in the final EPUB output file. Therefore, if someone has a reader that does not have your fonts installed, that person will still be able to see your content as you designed it.</p>
+                <p>Embedding fonts may not be supported by all e-readers. Additionally, you may choose not to embed fonts if you have a very large project, because this option can slow down your compile time.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Targets-Guide" />
+                <p class="Subheading">
+                    <MadCap:keyword term="Dynamic effects" />Enable Dynamic Content</p>
+                <p>If you use dynamic content—togglers, popups, drop-downs, expanding text, slideshows, or help controls—in your output, you may want to enable dynamic content for your EPUB&#160;target so your users can take advantage of these features.</p>
+                <p>Dynamic content makes your content look more interesting, but it is not supported on all e-readers. You may want to create one version of your EPUB&#160;content with dynamic content enabled, and another version with dynamic content disabled to accommodate users with different e-readers.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Output/EPUB/Example-EPUB-Dynamic-Content.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For  all supported image types (PNG, JPEG, JPG, GIF), the cover art in MOBI output has a minimum width or height of 300 pixels.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Dynamic content is not supported in MOBI&#160;output. To generate valid MOBI&#160;output, you must create another EPUB&#160;target with dynamic content disabled.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Display issues with dynamic content may be caused settings in your browser or the type of file you are generating. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Troubleshooting/TS-EPUB.htm">Troubleshooting EPUB Issues</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Because some dynamic content, like slideshows, is visible only when it is enabled, you may want include this information elsewhere in the output or only use this kind of content for less important information. This way it is available to all users.</p>
+        </div>
+    </body>
+</html>

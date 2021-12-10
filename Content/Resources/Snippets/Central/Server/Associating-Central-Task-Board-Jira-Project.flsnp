@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The previous activities are typically one-time setups. On the other hand, the following steps need to be done anytime a Central user wants to associate a task board with a classic Kanban project in Jira.</p>
+        <ol>
+            <li>On the left side of Central, click <span class="Emphasis">Tasks</span>.</li>
+            <li><a href="../../../../Central/Tasks/Main-Activities-Boards/Creating-Task-Boards.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Create a new task board</a>, or <a href="../../../../Central/Tasks/Main-Activities-Boards/Editing-Task-Boards.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">edit an existing one</a>.</li>
+            <li>In the dialog, select the <span class="Emphasis">Jira</span> tab.</li>
+            <li>
+                <p>From the <span class="Emphasis">Jira Project</span> drop-down, make a selection.</p>
+                <p>It is recommended that you let Central create the Jira project and board for you (i.e., select <span class="Emphasis">*Generate Project*</span> from this field). That way, the columns on Jira will match better with the milestones from Central (To Do, In Progress, Completed). Selecting this option will create a Jira project and board similar to the name of the board in Central.</p>
+                <p>If you select an existing Jira project from this field, keep in mind that the tasks from Central can end up in a column that you don’t expect on Jira.</p>
+                <div class="warning">
+                    <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">If you create a board in Jira, add issues to it, and then sync it to a new task board in Central, the issues you created in Jira will be removed.</p>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">Synchronize Jira</span>. If you select this option, tasks are automatically pushed every 15 minutes from Central to Jira. Enabling this option is the most common situation. You might disable it periodically for different reasons (e.g., to troubleshoot an issue).</li>
+            <li>Click <span class="Emphasis">Save</span>.</li>
+            <li>
+                <p>Create tasks in that board, and when synchronization occurs, you will see them on Jira as well. As you continue to edit or move the tasks over time, the same actions will take place on Jira.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you do not see the Central tasks in Jira, you might need to clear filters. You also might need to wait until the next 15-minute period ends for synchronization to occur.</p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

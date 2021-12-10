@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Back-Top-Button-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Method 2: Inserting JavaScript into a single topic, but not inserting the code directly. Instead, we are linking to the script contained in another file." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Back-Top-Button.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:JavaScript;JavaScript:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Method 2: Inserting a JavaScript Link Into a Topic</h1>
+        <p>This is similar to the previous method, where you are inserting JavaScript into a single topic. However, in this case, we will not be inserting the code directly, but rather we will be linking to the script contained in another file. This might be preferred if you want to insert the same code into multiple topics, but not necessarily all of the topics in the project.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Flare-Guides.Flare-Back-Top-Button-Tutorial" />
+        <h2>How to Create a Subfolder</h2>
+        <p>We will create a subfolder just to keep our script file separate from other files in the project.</p>
+        <ol>
+            <li>In the Content Explorer, right-click the <span class="Emphasis">Resources</span> folder and select <span class="Emphasis">New &gt; Folder</span>.</li>
+            <li>Enter <span class="TypedEntry">Scripts</span> as the name of the folder and press <span class="Emphasis">ENTER</span>.</li>
+        </ol>
+        <h2>How to Create a JavaScript File</h2>
+        <ol>
+            <li>Open a text editor such as Notepad++.</li>
+            <li>Create a new file in that editor.</li>
+            <li><a href="Before-We-Begin.htm#Copying" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Copy the JavaScript code provided</a> and paste it in the editor. <MadCap:conditionalText MadCap:conditions="General.Print-Only">See <MadCap:xref href="Before-We-Begin.htm#Copying">Copying the JavaScript Code</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p>Save the file to the Scripts folder that you just created (in Windows you will need to navigate to the folder where you stored the Flare project, and then to the Content &gt; Resources &gt; Scripts subfolder). Name the file <span class="TypedEntry">Scroll-Button</span>, and give it a .js extension (Scroll-Button.js). In Flare, it should look like this.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Back-Top/Back-Top-Button-Tutorial2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Insert a JavaScript Link Into a Topic</h2>
+        <ol>
+            <li>Open the <span class="Emphasis">Attractions.htm</span> topic. The topic opens in the XML Editor.</li>
+            <li>Place your cursor in the empty paragraph at the bottom of the topic (or elsewhere if you like).</li>
+            <li>Select the <span class="Emphasis">Insert</span> ribbon, and near the right end of the ribbon click <span class="Emphasis">Script</span>.</li>
+            <li>From the <span class="Emphasis">Language</span> drop-down, select <span class="Emphasis">text/javascript</span>.</li>
+            <li>In the <span class="Emphasis">Script Link </span>field select the <span class="Emphasis">Scroll-Button.js</span> file.</li>
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. A small icon displays at the location where you inserted the script.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Back-Top/Back-Top-Button-Tutorial1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Build and view the <span class="Emphasis">All-About-Austin-HTML5</span> target.</li>
+            <li>In the output, open the <span class="Emphasis">Attractions</span> topic and test the scroll button just as you did with the previous method.</li>
+            <li>Again, let's delete the inserted script before continuing in this tutorial. So in Flare, open the <span class="Emphasis">Attractions.htm</span> topic, and delete the paragraph containing the JavaScript icon.</li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

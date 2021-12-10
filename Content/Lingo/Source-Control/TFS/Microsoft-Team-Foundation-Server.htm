@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-TFS.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 MadCap:conditions="General.Online-Only">
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Microsoft Team Foundation Server;Source control:TFS" />
+            <MadCap:keyword term="Source control;Multi-authoring" />Team Foundation Server</h1>
+        <h1 MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS">Introduction</h1>
+        <p MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS">
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Definition.flsnp" />
+        </p>
+        <p>Please reference the source control topics in this section if you are using <MadCap:variable name="Other.Product" />'s integrated source control with Microsoft Team Foundation Server.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <h2 class="NoPageBreakBefore">Common Source Control Terms </h2>
+        <p>Following are definitions for some of the common phrases used in <MadCap:variable name="Other.Product" />'s integrated source control with Microsoft Team Foundation Server.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:bind;Projects:source control" />Bind </span>This means to connect your project to Microsoft Team Foundation Server. After doing this, you can then take advantage of all the automated source control tasks (such as check in, check out,and so on). </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check in;Check in" />Check In </span>This means to copy your local <MadCap:variable name="Other.Product" /> files to Microsoft Team Foundation Server, overwriting the copies stored in Microsoft Team Foundation Server. This enables other users on your team to access and edit the latest files.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check out;Check out" />Check Out </span>This means to copy the latest source control files to your local <MadCap:variable name="Other.Product" /> project and remove the "Read Only" designation from them so that you can edit the files.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:get latest version" />Get Latest Version </span>This means to copy the latest source control files to your local project without necessarily checking out the files. This means that the "Read Only" designation will remain associated with the files until you check them out. </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"><MadCap:variable name="Other.Product" /> integrates with multiple source control providers to provide built-in source control support. Each of the source control providers built-in to <MadCap:variable name="Other.Product" /> uses different terms. As such, <MadCap:variable name="Other.Product" />'s source control interface is different depending on which source control provider you use. Please refer to the sections for each source control provider if you need to see information about the terms used by other built-in systems.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <h2 class="NoPageBreakBefore">Source Control Icons</h2>
+        <p>Following are descriptions for the primary icons that you may see next to files when using source control. </p>
+        <table class="TableStyle-Simple" style="mc-table-style: url('../../../Resources/TableStyles/Shared/Simple.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 22px;" class="TableStyle-Simple-Column-Column1" />
+            <col class="TableStyle-Simple-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Checked Out</span>
+                        </p>
+                        <p>This indicates that the file has been checked out from source control. You can check in the file when you are ready (if you are the user who has checked it out). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See  <MadCap:xref href="../Linked-Topics/Checking-In.htm">Checking In, Committing, and Submitting Source Control Files</MadCap:xref> and <MadCap:xref href="../Linked-Topics/Checking-Out.htm">Checking Out Source Control Files</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p>
+                            <MadCap:keyword term="Source control:lock" />You may see this icon in conjunction with the <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Green-Lock-ico.png" class="ReduceButtonSize" /> icon, indicating that you have checked out and locked the file. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1" MadCap:conditions="">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-New-File-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1" MadCap:conditions="">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">New File</span>
+                        </p>
+                        <p class="TableText">This indicates that you have a file in your project but have not yet checked it in to TFS. This might occur if you import a Lingo project from source control and have not yet checked in your files to the server, or if you update a project and new files are added from the source project. To resolve this, simply right-click on the file(s) and select <span class="Emphasis">Source Control &gt; Check In</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-In-Source-Control-Files-TFS.htm">Checking In Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Locked-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Not Checked Out</span>
+                        </p>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Not-Checked-Out-Status-Description.flsnp" class="TableText" />
+                        <p>
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1" MadCap:conditions="">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Red-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by Another User</span>
+                        </p>
+                        <p class="TableText">This indicates that another user has locked the file. You cannot check in the file while it is locked by another user. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Green-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by You</span>
+                        </p>
+                        <p class="TableText">This indicates that you have locked the file. You can lock a file when you check it out. Other users cannot check in the file while it is locked. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-Other-User-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Checked Out By Other User</span>
+                        </p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Checked-Out-Other-User-Status-Description.flsnp" />
+                        </p>
+                        <p class="TableText">You may see this icon in conjunction with the <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Red-Lock-ico.png" /> icon, indicating that another user has checked out and locked the file. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Out-Date-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Out of Date</span>
+                        </p>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Out-Date-Status-Description.flsnp" class="TableText" />
+                        <p class="TableText">
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See   <MadCap:xref href="Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref> or <MadCap:xref href="Getting-Latest-Version-Source-Control-Files-TFS.htm">Manually Getting the Latest Version of Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <h2>General Workflow (Multi-User Team)</h2>
+        <p>Following are the basic steps for using <MadCap:variable name="Other.Product" />'s source control integration for a multi-user team.                     </p>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow2.flsnp" />
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow3.flsnp" />
+                        </p>
+                        <p>OR</p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow4.flsnp" />
+                    </li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Only one of the users needs to perform this task. The other users on the team can follow Step 3 below. </p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:importing projects" />Import Project </span>Other users on the team can easily import the project from source control. This creates a copy of the <MadCap:variable name="Other.Product" /> project on the user's computer. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Importing-Project-Source-Control-TFS.htm">Importing a Project from Microsoft Team Foundation Server</MadCap:xref>. </MadCap:conditionalText></li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:get latest version" />Get Latest Version </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Get-Latest-Version-Summary.flsnp" /> When working with other users, it is a good idea to do this frequently (e.g., at the beginning of each day) in order to ensure you have the latest changes that those users have made, and that they have the latest changes you've made. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Getting-Latest-Version-Source-Control-Files-TFS.htm">Manually Getting the Latest Version of Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check out" />Check Out Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Check-Out-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <ol MadCap:continue="true">
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check in" />Check In Files </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Check-In-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-In-Source-Control-Files-TFS.htm">Checking In Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:merging;Merging:source control" />Merging </span>If you are set up in a source control application to allow multiple users to have the same files checked out, there may be times when you need to merge changes from different users when checking in a file. The merge occurs automatically if there are no conflicting changes (i.e., changes do not occur in the same location). If there are conflicting changes, a dialog opens, allowing you to determine how changes are merged.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="Merging-Source-Control-Files-TFS.htm">Merging Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <h2>General Workflow (Single User)</h2>
+        <p>Following are the basic steps for using <MadCap:variable name="Other.Product" />'s source control integration for a single user.</p>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow2.flsnp" />
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:keyword term="Source control:bind" />
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow3.flsnp" />
+                        </p>
+                        <p>OR</p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow4.flsnp" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check out;Multi-authoring;Check out" />Check Out Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Check-Out-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check in;Multi-authoring;Check in" />Check in Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Check-In-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-In-Source-Control-Files-TFS.htm">Checking In Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS,Flare-Guides.Flare-Source-Control-Guide-TFS" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Because of the way Team Foundation Server is designed, when you remove files from your project and check in your changes, you still need to perform a "get latest" in order for those files to be removed from the client.</p>
+        </div>
+    </body>
+</html>

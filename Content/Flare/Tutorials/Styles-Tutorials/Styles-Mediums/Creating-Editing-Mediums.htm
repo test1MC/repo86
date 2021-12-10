@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video9-Mediums-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="How to create a new medium, and then edit the medium." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-Mediums.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Creating and Editing Mediums</h1>
+        <p>Mediums are another way to single-source content (or at least stylesheets) in Flare. They are convenient to use if you just have a few tweaks from one output to the next.</p>
+        <p>When contemplating using a new medium, ask yourself how much of the content design will be the same for the new output? If the majority of your design will be the same, then use mediums. If the majority of your design will be different, it might be better to use a new stylesheet.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Create a Medium</h2>
+        <p>Let’s create an alternate medium for print, where the heading styles and cross-references show in black rather than in color. (By default, the Austin template displays the h1 and cross-reference styles in orange.) These changes are relatively minor, so it makes sense to use a new medium where most of the styles from the default stylesheet will remain the same.</p>
+        <ol>
+            <li>
+                <p>From the local toolbar of the Stylesheet Editor, click the <span class="Emphasis">Medium</span> drop-down, and select <span class="Emphasis">Add Medium</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Add-Medium.png" alt="" title="" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You might notice two Medium drop-downs in the Stylesheet Editor. One focuses on adding or deleting new mediums. The other lists mediums to select, and also provides a way to add a medium at the bottom of the list. It is up to you on how you choose to add a new medium since both options take you to the New Medium / Media Query dialog. </p>
+                </div>
+            </li>
+            <li>
+                <p>From the New Medium / Media Query dialog, type <span class="TypedEntry">print-black</span>. Click <span class="Emphasis">OK</span>. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-New-Medium-Dialog.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <p>The new medium is added, and displays as the active medium next to the default and print mediums.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-NewMedium-SidebySide.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Mismatch-Images-Styles-Tutorials.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Edit a Medium</h2>
+        <p>Let’s edit the h1 and MadCap|xref styles in our new medium.</p>
+        <ol>
+            <li>
+                <p>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">Heading Styles</span>.</p>
+            </li>
+            <li>
+                <p>In the left pane tree structure, select the <span class="Emphasis">h1</span> style.</p>
+            </li>
+            <li>
+                <p>In the Medium: print-black window pane, expand the <span class="Emphasis">Font</span> group (if it is not already expanded), and view the <span class="Emphasis">color</span> property. You can see that the default medium font color has been defined with a CSS variable, where the branding color is orange. This style is inherited in the factory print medium and in your new alternative print medium.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Edit-Inherit.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Next to the <span class="Emphasis">color</span> property, type <span class="TypedEntry">black</span>, and press <span class="Emphasis">ENTER</span>. Notice the color property in the print-black medium is no longer inheriting its style from the default medium.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Edit-Black.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the list of style properties, expand the <span class="Emphasis">PrintSupport</span> group, and next to <span class="Emphasis">page-break-after</span>, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 16px;height: 10px;" />. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Depending on your workspace layout, you might have to adjust the print-black window pane to see the style property entry in its entirety.</p>
+                </div>
+            </li>
+            <li>
+                <p>From the pop-up window, set the value to <span class="Emphasis">avoid</span>.</p>
+            </li>
+            <li>
+                <p>Next to <span class="Emphasis">page-break-before</span>, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 16px;height: 10px;" />, and set the value to <span class="Emphasis">always</span>.</p>
+            </li>
+            <li>
+                <p>Next to <span class="Emphasis">page-break-inside</span>, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 16px;height: 10px;" />, and set the value to <span class="Emphasis">avoid</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Edit-PageBreaks.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">Link Styles</span>.</p>
+            </li>
+            <li>
+                <p>In the left pane tree structure, select the <span class="Emphasis">MadCap|xref</span> style.</p>
+            </li>
+            <li>
+                <p>In the Medium: print-black window pane, expand the <span class="Emphasis">Font</span> group (if it is not already expanded).</p>
+            </li>
+            <li>
+                <p>Next to the <span class="Emphasis">color</span> property, type <span class="TypedEntry">black</span>, and press <span class="Emphasis">ENTER</span>.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Next to the <span class="Emphasis">text-decoration</span> property, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 16px;height: 10px;" />, and select <span class="Emphasis">none</span>. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Edit-Xrefs.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">Since you can potentially have multiple mediums displaying in the Advanced view of the Stylesheet Editor, it is a good idea to double-check which medium window pane is active. Always verify which one you are about to edit; you don’t want to accidentally change the wrong one.</p>
+        </div>
+        <h2>(Optional) How to View Mediums in the Text Editor</h2>
+        <p>Although this is not a necessary task for using mediums, let’s see how a medium looks in CSS code in the Text Editor.</p>
+        <ol>
+            <li>
+                <p>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>, and right-click the <span class="Emphasis">Styles.css</span> file.</p>
+            </li>
+            <li>
+                <p>From the context menu, select <span class="Emphasis">Open with</span>, and then select <span class="Emphasis">Internal Text Editor</span>. All the styles and properties from the Stylesheet Editor are displayed to the right in the Text Editor.</p>
+            </li>
+            <li>
+                <p>In the Text Editor, all the default styles are in the upper region of the editor. As you scroll down to roughly line 587, you’ll see a line that starts with @media. This means the style is either a medium or a media query. The styles underneath the media entry are indented.</p>
+            </li>
+            <li>
+                <p>Continue to scroll down to the end of the file (roughly line 768). You will see the @media print-black medium displays the styles you specifically set.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-CSS-Code.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

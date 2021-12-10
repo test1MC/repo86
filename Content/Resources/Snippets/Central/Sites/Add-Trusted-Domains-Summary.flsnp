@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can add as many trusted domains to a group as you need. By adding a URL as a trusted domain, it will be considered an approved site and can be displayed in your published output. For example, in one of your Flare topics maybe you have inserted a link to an external website within an IFrame. Without setting that domain as trusted, the site might fail to display due to certain security policies<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Central/Server/Security.htm#SecurityHeadersTrustedDomains">Security Headers and Trusted Domains</MadCap:xref>)</MadCap:conditionalText>.</p>
+    </body>
+</html>

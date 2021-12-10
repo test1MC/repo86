@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="771" MadCap:lastWidth="1524">
+    <body>
+        <p>You can quickly insert a  table into a Word document using the Special Formatting toolbar or ribbon. The table will be pre-formatted with the correct Doc-To-Help styles, and you can specify borders, indentation, and shading of the heading row.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Insert a Standard Table </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In a Word source document, place your cursor at the point you’d like to insert a table.</li>
+                    <li>In the <span class="Emphasis">Special Formatting</span> ribbon, click the <span class="Emphasis">Standard DocToHelp Table</span> button. The Standard Doc-To-Help Table dialog opens. </li>
+                    <li>Specify the number of <span class="Emphasis">Rows</span> and <span class="Emphasis">Columns</span>.</li>
+                    <li>Select the desired check boxes to add a border (<span class="Emphasis">Create borders</span>), align the table with the Body Text style (<span class="Emphasis">Indent table to align with Body Text</span>), and shade the heading row gray (<span class="Emphasis">Fill heading</span>).</li>
+                    <li>To make additional adjustments to your table, select it and right-click. From the menu, choose <span class="Emphasis">Table Properties</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">The Special Formatting toolbar or ribbon will not be displayed in all templates. In those cases, use the regular table functions found in Word.</p>
+                <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+                <MadCap:snippetBlock src="../../Interface/Ribbons-Toolbars-Menus/Special-Formatting-Ribbon2.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

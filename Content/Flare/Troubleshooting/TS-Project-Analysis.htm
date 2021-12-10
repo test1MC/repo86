@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:project analysis;Project analysis:troubleshooting" />Troubleshooting Project Analysis Issues</h1>
+        <p>Following are issues that may occur involving background code when working in Flare. </p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test1" class="TroubleshootingLink">Analysis feature in Flare does not work</li>
+                <li targets="test2" class="TroubleshootingLink">Options in Flare's analysis feature are grayed out or will not function properly</li>
+            </ul>
+            <div targetName="test1" class="troubleshoot">
+                <p class="Subheading">Analysis feature in Flare does not work</p>
+                <p>When using the analysis feature in Flare, the following error message occurs:</p>
+                <p class="Emphasis">Problem(s) in FileList background thread: Index was out of range. Must be non-negative and less than the size of the collection.</p>
+                <p class="Subheading">Cause</p>
+                <p>The analysis database may be corrupted. This can be the result of a Microsoft SQL writing problem. </p>
+                <p class="Subheading">Solution</p>
+                <p>Delete the Analyzer folder from the Flare project. This will remove the corrupted analysis database. Flare will then generate a new database the next time that you open the project.</p>
+                <p>To accomplish this, perform the following steps. </p>
+                <ol>
+                    <li>Close the project in Flare.</li>
+                    <li>Open the project folder in Windows Explorer.</li>
+                    <li>Navigate to the project's Analyzer folder and delete it.</li>
+                    <li>Reopen the project in Flare and select the <span class="Emphasis">Analysis</span> ribbon to utilize any of the scanning tools. The feature should now function. </li>
+                </ol>
+                <p>For more information about the analysis tool, see <MadCap:xref href="../Interface/Ribbons-Toolbars-Menus/Ribbons/Analysis-Ribbon.htm">Analysis Ribbon</MadCap:xref>.</p>
+            </div>
+            <div targetName="test2" class="troubleshoot">
+                <p class="Subheading">The options in Flare's analysis feature are grayed out or will not function properly.</p>
+                <p class="Subheading">Cause</p>
+                <p>The analysis data in the project's Analyzer folder has become corrupted.</p>
+                <p class="Subheading">Solution</p>
+                <p>Deleting the corrupted Analyzer folder will allow Flare to create a new Analyzer folder the next time Flare is activated. Perform the following steps to removed the corrupted analysis data.</p>
+                <ol>
+                    <li>Close the Flare project.</li>
+                    <li>Open the Flare project folder in the Windows Explorer.</li>
+                    <li>Select the Analyzer folder and press <span class="Emphasis">Delete</span> on the keyboard.</li>
+                    <li>Open the <span class="Emphasis">Project</span> folder.</li>
+                    <li>Select the <span class="Emphasis">Users</span> folder and press <span class="Emphasis">Delete</span> on the keyboard. </li>
+                    <li>Reopen the project in Flare. The analysis functions should now work. </li>
+                </ol>
+                <p>For more information about using the analysis features, see <MadCap:xref href="../Interface/Window-Panes/Project-Analysis-Summary-Window-Pane.htm">Analysis Summary Window Pane</MadCap:xref> and <MadCap:xref href="../Analysis/Enabling-Analysis-Scans.htm">Enabling Analysis Scans</MadCap:xref>.</p>
+            </div>
+            <div style="clear:both">
+            </div>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>

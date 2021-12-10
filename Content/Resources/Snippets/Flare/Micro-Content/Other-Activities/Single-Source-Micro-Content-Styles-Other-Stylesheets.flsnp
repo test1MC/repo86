@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Your micro content can (and in most cases probably should) still use styles from your main stylesheet. However, by pointing a micro content file to a separate stylesheet, you can override certain style settings. So you do not need a completely separate set of styles in the stylesheet that you associate with a micro content file; instead, you can just provide settings for styles where there should be uniqueness.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">All of your style settings are contained in a primary stylesheet set at the project level. At some point, you add a micro content file to your project, and you want the micro content responses to use almost all of the same style settings from that project stylesheet. The only exceptions are the h2 headings and paragraphs, where you want the font size to be slightly smaller.</p>
+            <p>Therefore, you create a separate stylesheet for your micro content, and in it you provide the smaller text sizes for the "h2" and "p" styles. You don't need to provide any other settings.</p>
+            <p>In your output, the micro content will continue to use all of styles from the project-level stylesheet, including various settings for the h2 headings and paragraphs. The only difference is that the font sizes of those headings and paragraphs will be smaller, using the settings from the micro content stylesheet and ignoring the settings from the project stylesheet.</p>
+        </div>
+    </body>
+</html>

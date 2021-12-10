@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li MadCap:conditions="Products.Central">If it is not already done, <a href="../../../../../Central/Projects/Main-Activities/Uploading-Projects.htm" MadCap:conditions="Products.Central-Online-Only" MadCap:excludeAction="unbind">upload a Flare project to Central</a>.</li>
+            <li MadCap:conditions="Products.Flare">If it is not already done, <a href="../../../../../Flare/Central/Main-Activities/Binding-Projects.htm">upload a Flare project to Central</a>.</li>
+            <li MadCap:conditions="Products.Central">In the Flare project, open an HTML5 target.</li>
+            <li MadCap:conditions="Products.Flare">Open an HTML5 target.</li>
+            <li>Select the <b>Publishing</b> tab.</li>
+            <li>
+                <p>Next to the <b>Central</b> destination, click the <b>Publish</b> check box.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../../Images/Shared/Ce-Fl/Analysis/Publish-Directly-Central1.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This destination is automatically shown on the tab if the project is bound to Central. If it is not bound to Central, you will not see this destination.</p>
+                    </div>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+            <li>
+                <MadCap:snippetText src="../../All/General/Save-File.flsnp" />
+            </li>
+            <li>At the top of the editor, click <b>Build</b>.</li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+            <li>
+                <p>When the build finishes successfully, click <b>Publish</b>.</p>
+                <p>After the target publishes, you can see the result in Central. A Flare icon displays next to builds that originated from Flare. A Central icon displays next to builds that originated from Central.</p>
+                <p>
+                    <img src="../../../../Images/Shared/Ce-Fl/Analysis/Publish-Directly-Central2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

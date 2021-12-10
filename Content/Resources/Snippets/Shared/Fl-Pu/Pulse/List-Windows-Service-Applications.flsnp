@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="170" MadCap:lastWidth="924">
+    <body>
+        <p>Pulse runs the following Windows service applications:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">MadCap&#160;Pulse&#160;Management Service </span>This service supports the Pulse application.</li>
+            <li><span class="SetOffFirstLevel">Pulse Service </span>This service also supports the Pulse application.</li>
+            <li><span class="SetOffFirstLevel">RabbitMQ </span>This service supports communication between IIS and SQL&#160;Server. It also monitors the amount of RAM&#160;on the server. When free space becomes low, this service raises alarms and block connections for the server.</li>
+        </ul>
+    </body>
+</html>

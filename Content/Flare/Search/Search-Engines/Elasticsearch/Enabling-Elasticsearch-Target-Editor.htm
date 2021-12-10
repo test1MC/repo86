@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <link href="../../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Steps to configure Elasticsearch for your server-based HTML5 target.&#xD;&#xA;" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Search:Elasticsearch;Elasticsearch;Elasticsearch:Target Editor" />Enabling Elasticsearch in the Target Editor</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>Follow these steps to configure Elasticsearch for your server-based HTML5 target.</p>
+        <h2>How to Enable Elasticsearch</h2>
+        <ol>
+            <li>Open the target and click the <span class="Emphasis">Search</span> tab. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Search/Click-Drop-Down-Search-Engine-Elasticsearch.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Search/Target-Editor-Search-Elasticsearch.png" class="MaxWidth100Percent" />
+                    <br />
+                </p>
+            </li>
+            <li class="PageBreakBefore">
+                <p>Configure the following options you need to enable Elasticsearch for your output. </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Search/Target-Editor-Elasticsearch-Options.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you are producing different versions of your online output and using Elasticsearch, you probably want to create a target with a different name for each version. Then, generate a unique GUID for each of those targets. </p>
+            <p>The reason for this is that a search database/index is created for each output.  If those outputs share the same GUID, all the outputs will share the same search results, which would could cause problems, because some outputs might have content that is not actually available in other outputs.</p>
+            <p>Also, the paths to the topics linked in search results are also stored in the index. If you change the path of a topic between the versions, the search result paths will also be wrong.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+    </body>
+</html>

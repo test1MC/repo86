@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have three fonts that you use throughout your stylesheet: Roboto Light, Roboto Medium, and Roboto Dark. Instead of setting these specific fonts in all those places, you decide to create three CSS variables for each of these: LightFont, MediumFont, DarkFont.</p>
+            <p>To start, you add these three CSS variables on the :root HTML element.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Styles/CSS-Variables1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Contributor-Guides.Contributor-Whats-New-Guide" />
+            <p>Next, you insert each of these CSS variables, where appropriate, on properties throughout the stylesheet.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Styles/CSS-Variables2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Styles/CSS-Variables3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Styles/CSS-Variables4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Contributor-Guides.Contributor-Whats-New-Guide" />
+            <p>A year later, your company decides to change the font families from Roboto to Segoe UI. Therefore, you open the stylesheet, navigate to <span class="Emphasis">(Variables) &gt; :root</span> and change the values for the three CSS variables.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Styles/CSS-Variables5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You don’t need to do anything else. You will see that all of the styles pointing to these CSS variables are updated automatically when you generate the output.</p>
+        </div>
+    </body>
+</html>

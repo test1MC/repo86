@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p>If you want to take advantage of the advanced server-side features of <MadCap:variable name="Outputs.WebHelp Plus" MadCap:conditions="Snippets.Snippet9" /><MadCap:variable name="Outputs.HTML5" MadCap:conditions="Snippets.Snippet10" /> (i.e., automatic runtime project merging, <MadCap:conditionalText MadCap:conditions="Snippets.Snippet9">faster search, </MadCap:conditionalText>server-side search, searching of non-XHTML files), you must enable <MadCap:variable name="Outputs.WebHelp Plus" MadCap:conditions="Snippets.Snippet9" /><MadCap:variable name="Outputs.HTML5" MadCap:conditions="Snippets.Snippet10" /><MadCap:conditionalText MadCap:conditions="Snippets.Snippet10"> server-based</MadCap:conditionalText> output. This includes performing the following tasks: (1) installing Microsoft Internet Information Services (IIS) and ASP.NET, (2) setting up the <MadCap:variable name="Outputs.WebHelp Plus" MadCap:conditions="Snippets.Snippet9" /><MadCap:variable name="Outputs.HTML5" MadCap:conditions="Snippets.Snippet10" /> target and generating/publishing, (3) configuring IIS on the production server, (4) starting Microsoft Indexing Service or Microsoft Windows Search (depending on the operating system), and (5) enabling <MadCap:variable name="Outputs.WebHelp Plus" MadCap:conditions="Snippets.Snippet9" /><MadCap:variable name="Outputs.HTML5" MadCap:conditions="Snippets.Snippet10" /> search.</p>
+    </body>
+</html>

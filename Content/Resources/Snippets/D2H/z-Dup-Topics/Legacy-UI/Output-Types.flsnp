@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>
+            <MadCap:snippetText src="../../Output/Output-Types-Output-D2H.flsnp" />
+        </p>
+        <p>You can configure targets based on these output types by using the Help Targets dialog. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText></p>
+        <p MadCap:conditions="Snippets.Snippet1">For more information on targets, see <MadCap:xref href="../../../../../D2H/Output/Targets.htm">About Targets</MadCap:xref>.</p>
+        <p MadCap:conditions="Snippets.Snippet2">For more information on targets, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/About-Targets.htm">About Targets</MadCap:xref>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">
+                    <MadCap:keyword term="NetHelp" />NetHelp</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Output/NetHelp1.flsnp" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Benefits of NetHelp</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Following are some of the greatest benefits of using NetHelp:</p>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">True Separation of Content and Presentation </span>Doc-To-Help outputs raw XML and NetHelp consumes it. NetHelp is merely the set of scripts and pages used to display and lay content out. In fact, you can use the raw XML output with your own systems. That is how we are able to create SharePoint wikis <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1">(see <MadCap:xref href="../../../../../D2H/SharePoint/Publishing-SharePoint.htm">Publishing to SharePoint</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2">(see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Publishing-to-SharePoint.htm">Publishing to SharePoint</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">(see the online Help or the <span class="EmphasisItalic">Design Guide)</span></MadCap:conditionalText>.</li>
+                            <li><span class="SetOffFirstLevel">Best Looking, Most Themable </span>The promise of jQuery UI is to deliver a standardized and easy-to-edit set of styling standards. That promise carries through to NetHelp. It ships with many of JQuery UI’s default themes and a few of our own. The icing on the cake is that it is simple to edit. You can use our theme designer, edit the CSS file directly, or use the Theme Roller found on jQuery UI’s website.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Themes/Themes.htm">About Themes</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Themes/Customizing-NetHelp-Themes.htm">Customizing NetHelp Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/About-Themes.htm">About Themes</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Customizing-NetHelp-Themes.htm">Customizing NetHelp Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> See the online Help or the <span class="EmphasisItalic">Design Guide</span>.</MadCap:conditionalText></li>
+                            <li><span class="SetOffFirstLevel">Lightweight  </span>As already mentioned NetHelp output is only a set of CSS files and scripts. Files sizes are small and performance is fast.</li>
+                            <li><span class="SetOffFirstLevel">Unique URLs </span>With NetHelp output, URLs to every topic are displayed in the address bar. This helps search engine optimization (SEO) if you are deploying publicly. It also makes sending links to topics easy.</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">Notes</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p class="note" MadCap:conditions="General.Online-Only,Snippets.Snippet1" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">For more information on creating accessible NetHelp, see <MadCap:xref href="../../../../../D2H/Accessibility/Accessibility.htm">About Accessibility</MadCap:xref>.</p>
+                        <p class="note" MadCap:conditions="General.Online-Only,Snippets.Snippet2" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">For more information on creating accessible NetHelp, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Accessibility/About-Accessibility.htm">About Accessibility</MadCap:xref>.</p>
+                        <p class="note" MadCap:conditions="General.Print-Only" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">For more information on creating accessible NetHelp, see the online Help.</p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If no index entries are added to a project, the Index tab or panel will automatically not display in NetHelp outputs.</p>
+                        <p class="note" MadCap:conditions="General.Online-Only,Snippets.Snippet1" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">For more information on some tasks specific to the NetHelp output type, see <MadCap:xref href="../../../../../D2H/Output/NetHelp/NetHelp-Target-Tasks.htm">NetHelp Target Tasks</MadCap:xref>.</p>
+                        <p class="note" MadCap:conditions="General.Online-Only,Snippets.Snippet2" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">For more information on some tasks specific to the NetHelp output type, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/NetHelp-Target-Tasks.htm">NetHelp Target Tasks</MadCap:xref>.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Supported Browsers</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <MadCap:snippetBlock src="../../Output/NetHelp4.flsnp" />
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Additional Details</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                            <thead>
+                                <tr class="TableStyle-Fancy-Head-Header1">
+                                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                        <p class="TableTextHead">Details</p>
+                                    </th>
+                                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                        <p class="TableTextHead">Pros</p>
+                                    </th>
+                                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                        <p class="TableTextHead">Issues</p>
+                                    </th>
+                                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                        <p class="TableTextHead">Deliverable File(s)</p>
+                                    </th>
+                                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                        <p class="TableTextHead">File Location</p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <p class="TableText">Uncompiled HTML; deliverable is multiple HTML files.</p>
+                                        <p class="TableText">NetHelp can be Section 508 compliant.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Accessibility/Accessibility.htm">About Accessibility</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Accessibility/About-Accessibility.htm">About Accessibility</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> See the online Help.</MadCap:conditionalText></p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <p class="TableText">Can be delivered on the web, installed locally, or both.</p>
+                                        <p class="TableText">Delivering on the web makes a continuous publishing model possible.</p>
+                                        <p class="TableText">The user’s web browser is the Help window.</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <p class="TableText">Number of files to distribute is daunting to some. </p>
+                                        <p class="TableText">Security issues can cause NetHelp installed locally to display an ActiveX warning, which may be solved by using the "Mark of the Web." <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Output/NetHelp/NetHelp-Local-Installation.htm">NetHelp Local Installation</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/NetHelp-Local-Installation.htm">NetHelp Local Installation</MadCap:xref>.</MadCap:conditionalText></p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <p class="TableText">Multiple HTM/HTML files. Default home page is index.htm. (You can change the default page name in the Help Targets dialog.)</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                        <p class="TableText">By default the NetHelp folder of your project. </p>
+                                        <p class="TableText">The entire contents (including subfolders) of this folder must be included with your software application or posted on your server. </p>
+                                        <p class="TableText">Server-side search may be enabled for NetHelp. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Output/NetHelp/Search-Options-NetHelp.htm">Search Options for NetHelp</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Search-Options-NetHelp.htm">Search Options for NetHelp</MadCap:xref>.</MadCap:conditionalText></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <MadCap:snippetBlock src="../../Output/NetHelp6.flsnp" />
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">
+                    <MadCap:keyword term="Microsoft HTML Help" />Microsoft HTML Help</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Output/HTML-Help1.flsnp" />
+                <MadCap:snippetBlock src="../../Output/HTML-Help2.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">
+                    <MadCap:keyword term="EPUB" />EPUB</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Output/EPUB1.flsnp" />
+                <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Details</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Pros</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Issues</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Deliverable File(s)</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">File Location</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">EPUBs are readable on a variety of devices, including Nooks. The content display adjusts for the device, as well as the device settings.</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">You can create interactive, portable books that can be read on multiple devices. </p>
+                                <p class="TableText">Doc-To-Help supports the latest specification, EPUB 3.0, as well as 2.0.1.</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Dynamic content is not supported, but the content will be displayed. </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">EPUB</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">By default, the EPUB folder of your project.</p>
+                                <p class="TableText">You must add your EPUB to your reader (such as Calibre) in order to view it. </p>
+                                <p class="TableText">To set the default EPUB reader in Doc-To-Help, go to <span class="Emphasis" MadCap:conditions="Snippets.Snippet1">File &gt; Doc-to-Help &gt; Common Tasks &gt; Options</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Options</span>. In the&#160; Options dialog, select the <span class="Emphasis">Viewers</span> button and choose the <span class="Emphasis">EPUB reader executable</span>.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <MadCap:snippetBlock src="../../Output/EPUB3.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">
+                    <MadCap:keyword term="Eclipse Help" />Eclipse Help</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Output/Eclipse-Help.flsnp" />
+                <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Details</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Pros</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Issues</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Deliverable File(s)</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">File Location<sup>1</sup></p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Help target for the Eclipse development environment. Eclipse was released by IBM in the early 2000s.</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">An Eclipse Help system is a plug-in for Eclipse. This plug-in supports a table of contents, index, search, and context-sensitive Help . </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Eclipse Help is compatible with all browsers, but the Eclipse SDK must be installed on the same server as the Help system.</p>
+                                <p class="TableText">Eclipse Help does not support opening topic links in secondary windows.</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Multiple files</p>
+                                <p class="TableText">See the following (search on "User Assistance Support"):</p>
+                                <p class="TableTextSmall"><a href="http://help.eclipse.org/indigo/index.jsp">http://help.eclipse.org/indigo/index.jsp</a>
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">By default, the Eclipse folder of your project.</p>
+                                <p class="TableText">To view Eclipse Help, you must have the Java Runtime Environment (JRE) and Eclipse installed (either the 32 or 64-bit versions). To view Eclipse Help using the View button for your target, you must have 32-bit Eclipse installed. Eclipse is available for download from:</p>
+                                <p class="TableTextSmall"><a href="http://eclipse.org/downloads/">http://eclipse.org/downloads/</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="TableStyle-Fancy-Foot-Footer1">
+                            <td class="TableStyle-Fancy-FootD-Regular-Footer1" colspan="5">
+                                <p class="TableTextFootnote"><sup>1</sup>After installation, the location of the eclipse.exe file should be set in the Doc-To-Help Options dialog through <span class="Emphasis" MadCap:conditions="Snippets.Snippet1">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Doc-To-Help Options</span>.Click the Viewers tab to set the location of the eclipse.exe file.</p>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">
+                    <MadCap:keyword term="JavaHelp" />JavaHelp</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Output/JavaHelp1.flsnp" />
+                <MadCap:snippetBlock src="../../Output/JavaHelp2.flsnp" />
+                <MadCap:snippetBlock src="../../Output/JavaHelp3.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">
+                    <MadCap:keyword term="Microsoft Help Viewer" />Microsoft Help Viewer</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Output/Help-Viewer1.flsnp" />
+                <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Details</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Pros</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Issues</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Deliverable File(s)</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">File Location</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Help target for those developing Help for Visual Studio 2010 and above only.</p>
+                                <p class="TableText">Deliverable can be the reference documentation only, or Doc-To-Help can be used to add narrative text.  </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Resembles Microsoft MSDN collection and uses some of the same underlying technology</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">Format can only be included in Help for Visual Studio 2010 and above.</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">HelpContentSetup.msha and &lt;target base name&gt;.mshc</p>
+                                <p class="TableText">The MSHC is a zip file containing all of the Help content.</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">By default, the MSHelpViewer folder of your project.</p>
+                                <p class="TableText">To specify the version of the Microsoft Help Viewer to use when viewing Microsoft Help Viewer Targets, in <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word, go to <span class="Emphasis">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options</span></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help, go to <span class="Emphasis">File &gt; Tools &gt; Options</span></MadCap:conditionalText>. In the&#160; Options dialog, select the <span class="Emphasis">Viewers</span> button and choose the correct version of the viewer. (Options available depend on your Visual Studio installation.) </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <MadCap:snippetBlock src="../../Output/Help-Viewer3.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">
+                    <MadCap:keyword term="Microsoft Help 2.0" />Microsoft Help 2.0</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Output/Help20-1.flsnp" />
+                <MadCap:snippetBlock src="../../Output/Help20-2.flsnp" />
+                <MadCap:snippetBlock src="../../Output/Help20-3.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">
+                    <MadCap:keyword term="Manual;Print-based output" />Manual</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Print-based output doesn't have to be printed, although it can be. With Doc-To-Help, you can generate Microsoft<span class="Registered-Trademark">®</span> Word files (DOC or DOCX), and PDF (portable document format) files. Either format can be sent to a printer, or provided as an online document. If you don’t want your file altered, it is best to provide it as a PDF.</p>
+                <p MadCap:conditions="General.Online-Only,Snippets.Snippet1">For more information on some tasks specific to the Manual output type, see <MadCap:xref href="../../../../../D2H/Output/Manual/Manual-Target-Tasks.htm">Manual Target Tasks</MadCap:xref>.</p>
+                <p MadCap:conditions="General.Online-Only,Snippets.Snippet2">For more information on some tasks specific to the Manual output type, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Manual-Target-Tasks.htm">Manual Target Tasks</MadCap:xref>.</p>
+                <p MadCap:conditions="D2H-Guides.D2H-Targets-Guide">Following are some tasks that are specific to the Manual output type:</p>
+                <ul MadCap:conditions="D2H-Guides.D2H-Targets-Guide">
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Output/Manual/Setting-Cover-Image.htm">Setting a Cover Image</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="../../../../../D2H/Output/Manual/Setting-Page-Orientation.htm">Setting Page Orientation</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="../../../../../Print-Only-Topics/D2H/Targets/Output-Types-Manual2.htm">Additional Details</MadCap:xref>
+                    </li>
+                </ul>
+                <p MadCap:conditions="D2H-Guides.D2H-Targets-Guide">To make other changes to this target (as well as other types of output), see <MadCap:xref href="../../../../../D2H/Output/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</p>
+                <MadCap:snippetBlock src="../../Output/Manual2.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="13" MadCap:lastHeight="2295" MadCap:lastWidth="737">
+    <body>
+        <p>The Project Settings dialog is used to set the universal properties for the entire project, regardless of target.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Set Project Properties</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Select the <span class="Emphasis">Project</span> ribbon.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">At the bottom of the <span class="Emphasis">Project</span> group, click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Project Settings dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Project Settings</span> button. The Project Settings dialog opens.</li>
+                    <li>
+                        <p>Set any of the following:</p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>General</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li><span class="SetOffFirstLevel">Location </span>The location where this project is stored (read-only).</li>
+                                    <li><span class="SetOffFirstLevel">Title </span>The name of the Doc-To-Help project without the .d2h extension. This name is used as the default value for several&#160; target and window properties. For the HTML Help window, Help 2.0, JavaHelp, and NetHelp, it is the default caption. For Manual, it is the default title. For the MSHelp Viewer, it is the default product vendor, product name, and product book.</li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Documents</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Default-Template.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Document-Folders.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Output Options</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Keep-Outline-Numbers.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Keep-Page-Breaks.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Adjust-Left-Indent.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Plain-Text-Popups.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-URL-Mode.flsnp" />
+                                    </li>
+                                    <MadCap:snippetBlock src="../../Projects/Project-URL-Mode2.flsnp" />
+                                    <li><span class="SetOffFirstLevel">Truncate file name length </span>This property limits the length of the HTM/HTML file name generated for each topic in browser-based outputs to this number of characters. The default is 64. You can view the URL of each topic in the Topic Properties dialog (URL field).</li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Page-Text.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Modular-Hub-Project.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Context IDs</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Generate-Context-IDs-Automatically.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-ID-Offset.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Advanced</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Plug-In-Folder.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Media-Folder.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Language-Translation.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Projects/Project-Customized-TOC.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

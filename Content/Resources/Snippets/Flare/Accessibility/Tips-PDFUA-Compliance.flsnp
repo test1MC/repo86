@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>When generating PDFs there are some issues to look out for that might get flagged if you plan to scan a document in an accessibility checker. See <a href="https://accessible-pdf.info/" target="_blank">https://accessible-pdf.info/</a>.</p>
+        <ul>
+            <li>
+                <p>All images and links must include alternate text.</p>
+            </li>
+            <li>
+                <p>Heading levels cannot be skipped (e.g., h3 cannot follow h1).</p>
+            </li>
+            <li>
+                <p>Proper XHTML is required for all content (e.g., a paragraph tag cannot be nested under another paragraph tag).</p>
+            </li>
+            <li>
+                <p>Use the document title for the title bar of the PDF output.  This option is available in the Target Editor for the PDF. In the <span class="Emphasis">Options</span> tab, <span class="Emphasis"> Initial View</span> section, select the <span class="Emphasis">Title bar</span> drop-down.</p>
+            </li>
+        </ul>
+        <p>Flare handles some issues behind the scenes to meet PDF/UA compliance, but other issues can be mitigated by what you do in Flare.</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Item for Compliance</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Behind the Scenes</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">What You Can Do</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">PDF Tagging</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">PDF tagging is properly structured in the code. It fulfills PDF/UA requirements and enables a successful scan when using an accessibility checker.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select the option in the Target Editor, <span class="Emphasis">PDF Options</span> tab, <span class="Emphasis">Generate tagged document for PDF/UA</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/More/Specifying-PDF-Options.htm#PDFTagging">PDF Tagging</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p class="TableText">The size of the PDF output might increase slightly.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Table Formatting</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Tables in PDF output are given a structure that designates which cells are header cells and which are content so that screen readers can translate the table data in a useful way.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Create a table that includes header cells. You can also add a caption or a summary attribute for a table to make content more accessible. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Tables/Main-Activities/Inserting-Tables.htm">Inserting Tables</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Language for Content</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">When a language attribute is applied to the project or content level, it is automatically converted to the PDF equivalent during compilation.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If working in a project intended for translation, you can apply a language attribute (e.g., xml:lang) to content. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Translation-Localization/Approaches/Translation-Works-Flare/Selecting-Language/Selecting-Language1.htm">Selecting a Language</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Images and Multimedia</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">Alternate text attributes associated with images or multimedia are converted to the PDF equivalent during compilation. This enables screen readers to describe them.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Add alternate text. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Images/Main-Activities/Inserting-Images.htm">Inserting Images</MadCap:xref>, and <MadCap:xref href="../../../../Flare/Multimedia/Movies/Main-Activities/Inserting-Movies-Flare.htm">Inserting Movies</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Links</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">Alternate text attributes associated with cross-references or hyperlinks are converted to the PDF equivalent during compilation.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Add alternate text to links (e.g., cross-references, hyperlinks). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Nav-Links/Cross-References/Main-Activities/Inserting-Cross-References.htm">Inserting Cross-References</MadCap:xref>, and <MadCap:xref href="../../../../Flare/Nav-Links/Text-Hyperlinks/Inserting-Text-Hyperlinks.htm">Inserting Text Hyperlinks</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information on how to optimize accessibility using Flare, see <MadCap:xref href="../../../../Flare/Accessibility/Content/Accessibility-Content.htm">Accessibility and Content</MadCap:xref>, and <MadCap:xref href="../../../../Flare/Accessibility/General-Considerations/Accessibility-General-Considerations.htm">Accessibility General Considerations</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="../Users/Users1.flsnp" />
+            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Central/Users/Users.htm">Users</MadCap:xref> and <MadCap:xref href="../../../../Central/Users/Main-Activities/Inviting-Users.htm">Inviting Users</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+        <p>
+            <img src="../../../Images/Central/Introduction/Add-Users1.png" alt="" title="" class="MaxWidth60Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Getting-Started-Guide" />
+        <p>You can add multiple kinds of users.</p>
+        <MadCap:snippetBlock src="../Users/Author-SME-List-Descriptions.flsnp" />
+        <MadCap:snippetBlock src="../Users/Note-Author-as-SME.flsnp" />
+        <p>You can invite users one at a time or in bulk by pointing to a CSV file containing each person’s email, first name, then last name. If you do not yet have a CSV file, you can download a template from Central and complete it with your users’ details.</p>
+        <p>
+            <img src="../../../Images/Central/Users/Bulk-Invite-Template2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Images/Central/Introduction/Add-Users3.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Getting-Started-Guide" />
+        <p>
+            <MadCap:snippetText src="../Users/Users2.flsnp">
+            </MadCap:snippetText>
+            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+        <p>When a new user is invited, that person receives an email. The individual must click a link to complete the invitation to Central. This allows the user to confirm or edit his or her name, and set up a password. After the user submits the information, the account is activated.</p>
+        <p>From the Users page, you can see all other users in the system, view their profiles, and contact them. Users with a crown icon have “User Administration” permission.</p>
+        <p>
+            <img src="../../../Images/Central/Introduction/Users-Page3.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>If you click your avatar or name at the top of the interface, you can select <b>User Settings</b> to view and modify your profile.</p>
+        <p>
+            <img src="../../../Images/Central/Introduction/Settings1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Images/Central/Introduction/Settings2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The notifications feature—which can be seen after you click <b>Edit</b> in the Profile dialog—is available for author user types only, not for SMEs or viewers.</p>
+        </div>
+    </body>
+</html>

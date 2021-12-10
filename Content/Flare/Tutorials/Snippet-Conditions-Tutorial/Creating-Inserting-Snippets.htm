@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Snippet-Conditions-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Creating and inserting new snippets for the tutorial." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Snippet-Conditions.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:snippet conditions;Snippet conditions:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Creating and Inserting Snippets</h1>
+        <p>Now let's create a new snippet and make sure it is inserted in two locations.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Create a Snippet</h2>
+        <ol>
+            <li>In the Content Explorer, double-click <span class="Emphasis">Home.htm</span>. The topic opens in the XML&#160;Editor. </li>
+            <li>
+                <p>Select the content under the "Welcome" heading.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Select the <span class="Emphasis">Home</span> ribbon, and click <span class="Emphasis">Create Snippet</span>. The Create Snippet dialog opens.</li>
+            <li>In the <span class="Emphasis">Snippet File</span> field, type <span class="TypedEntry">Austin-Intro</span>. This is the name for your snippet.</li>
+            <li>In the <span class="Emphasis">Project Folder</span> field, you can enter a location where you want to save your snippet. By default, snippets are saved in the Content folder in the Resources &gt; Snippets folder. This is the recommended location for snippets, so we will not change this path.</li>
+            <li>Make sure the check box <span class="Emphasis">Replace Source Content with the New Snippet</span> is selected. Since we want to use the snippet in the current topic, this will automatically insert the snippet into that topic for us.</li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Click <span class="Emphasis">Create</span>. Flare creates the snippet, inserts it into the topic, and adds the snippet file to the Content Explorer. Notice that the structure bars on the left side of the content (representing the individual paragraphs and the list) have been replaced by a single structure bar (i.e., the snippet block), and the snippet is surrounded by light gray brackets.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Insert a Snippet</h2>
+        <p>Now that we have created a snippet, we will insert it into another topic.</p>
+        <ol>
+            <li>In the Content Explorer, double-click <span class="Emphasis">Introduction.htm</span>. The topic opens in the XML&#160;Editor. </li>
+            <li>Click at the end of the <span class="Emphasis">Introduction</span> heading and press <span class="Emphasis">ENTER</span> to create a new empty paragraph after it. This is where we will insert the snippet.</li>
+            <li>Select the <span class="Emphasis">Insert</span> ribbon, and click <span class="Emphasis">Snippet</span>. The Insert Snippet Link dialog opens.</li>
+            <li>
+                <p>In the <span class="Emphasis">Select Snippet</span> section, navigate to <span class="Emphasis">Content &gt; Resources &gt; Snippets &gt; Austin-Intro.flsnp</span>. When you select the snippet, you will see it in the Preview section so you can confirm that you have selected the correct snippet.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. The snippet appears in the topic between the main heading and the History section.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

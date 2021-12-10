@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It is possible for multiple people working on a dual-bound project to push files to Central. However, if you are using a source control provider other than Git for the first binding, the most recently pushed files are the ones that are used in Central. In other words, the last person to push "wins." To avoid issues, be sure that you have the most recent version of file changes from all other writers in your local project before you push. You may even want to limit users' permissions<MadCap:conditionalText MadCap:conditions="Products.Flare"> (see the Central online Help)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only"> (see <MadCap:xref href="../../../../../Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>)</MadCap:conditionalText>&#160;so only one or two people are allowed to push files.</p>
+    </body>
+</html>

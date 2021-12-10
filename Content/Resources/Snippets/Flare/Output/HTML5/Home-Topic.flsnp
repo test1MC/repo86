@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>A Home topic is often used in HTML5 outputs. However, for Side and Top Navigation outputs, you usually do not add this topic to your TOC (whereas you do add it to the TOC when creating the older Tripane output). Instead, it is standard practice to link to this page from the logo you provide in your Side or Top Navigation skin.</p>
+        <p>A Home topic is the one that you specify as the startup topic in the Target Editor.</p>
+        <p>
+            <img src="../../../../Images/Flare/Output/Top-Nav-Output48.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide">
+        </MadCap:pageBreak>
+        <p>The Home page is just a regular topic, but because a Side and Top Navigation skins are designed to resemble a modern website, you may want this topic to stand out with a different appearance. You might accomplish this in the following ways, all of which are optional:</p>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Unique Search Bar </span>The Side and Top Navigation skins are designed to show a search bar at the top of all topics. However, you might want to emphasize the search bar on your Home page, especially since search is the most popular and effective way to find specific information.</p>
+                <p>
+                    <img src="../../../../Images/Flare/Skins/Search-Bar2.png" class="MaxWidth90Percent" />
+                </p>
+                <p>To do this, you can insert a Search Bar proxy in a more prominent place in the Home topic. See <MadCap:xref href="../../../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/Other-Information/HTML5-Skin-Components-Proxies1.htm">Skin Components and Proxies</MadCap:xref>.</p>
+                <p>Create a separate stylesheet for the Home topic and open it in the <MadCap:xref href="../../../../../Flare/Interface/Editors/Internal-Text-Editor.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Internal Text Editor</MadCap:xref>. Then, copy and paste the following to hide the top search bar that is included with the skin.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">.nav-search
+{
+	display: none;
+}</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <p>You also need to associate the new stylesheet with the Home topic.</p>
+                <p MadCap:conditions="General.Online-Only">For more details, see <MadCap:xref href="../../../../../Flare/Search/Required-Activities/Including-Search-Bars.htm#HowHideSearchBarSingleTopic">How to Hide the Search Bar From a Single Topic</MadCap:xref>.</p>
+                <p MadCap:conditions="General.Print-Only">For more details, see the online Help.</p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Unique Hero Image </span>One easy way to make a Home page stand out from the other topics is to place a background image (or watermark) on it.</p>
+                <p>
+                    <img src="../../../../Images/Flare/Output/Side-Navigation4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>In the world of web design, this is often referred to as a “hero image.” You can set a background image in a stylesheet. It is recommended that you use a hero image that is quite wide. In the Flare Top Navigation project templates, this image has a width of 1903 pixels. In Flare’s Side Navigation project templates, this image is 3456 pixels wide. A big hero image helps to account for even the largest of monitors. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Images/Main-Activities/Editing-Images/Creating-Watermarks.htm">Creating Watermarks</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li><span class="SetOffFirstLevel">Unique Template Page </span>By using one template page for your Home topic and another for the rest of your topics, it is easier to give them different looks, as well as different headers and footers. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Template-Pages/Process/Creating-Template-Pages.htm">Creating Template Pages</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video2-Create-Edit-CSS-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Steps for creating and applying generic style classes." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-CreatingApplying.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Creating and Applying Generic Style Classes</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Styles/Generic-Classes-Summary1.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Styles/Generic-Classes-Useful.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Center Content With a Generic Style Class</h2>
+        <p>Let's  create a generic class selector for centering content. This type of style can be used only on a block element.</p>
+        <ol>
+            <li>Open <span class="Emphasis">Styles.css</span>.</li>
+            <li>In the local toolbar, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Add-Class-btn.png" class="ReduceButtonSize" />. </li>
+            <li>
+                <p>In the New Selector dialog, from the <span class="Emphasis">HTML Element</span> drop-down, select <span class="Emphasis">(generic)</span>. Then in the <span class="Emphasis">Class Name</span> field, type <span class="TypedEntry">Center</span>. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Alternatively, when using the New Selector dialog to add a new selector, you can leave the HTML Element field empty. If left blank, the new style class defaults to "generic," and is placed under the "Generic Classes" section in the stylesheet.</p>
+                </div>
+            </li>
+            <li>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">All Styles</span>.</li>
+            <li>
+                <p>In the left pane tree structure, expand <span class="Emphasis">(Generic Classes)</span>, and select <span class="Emphasis">Center</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the <span class="Emphasis">Show</span> drop-down, select <span class="Emphasis">Show: All Properties</span>.</li>
+            <li>Expand the <span class="Emphasis">Block</span> group.</li>
+            <li>
+                <p>Next to the <span class="Emphasis">text-align</span> property, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 13px;height: 7px;" />, and select <span class="Emphasis">center</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open <span class="Emphasis">Introduction.htm</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Right-click the <span class="Emphasis">p</span> structure bar to the left of the image, and from the context menu select <span class="Emphasis">Style Class &gt; .Center</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The &lt;img&gt; tag uses a character-level style, so the image can't be centered itself. In this case, the image is within the block-level &lt;p&gt; tag, so we can apply the style class to the p element (p.Center).</p>
+                </div>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Indent Content With a Generic Style Class</h2>
+        <p>Let’s create another generic style class for indenting text.</p>
+        <ol>
+            <li>Open <span class="Emphasis">Styles.css</span>.</li>
+            <li>In the local toolbar, select click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Add-Class-btn.png" class="ReduceButtonSize" />. </li>
+            <li>
+                <p>In the New Selector dialog, from the <span class="Emphasis">HTML Element</span> drop-down, select <span class="Emphasis">(generic)</span>. Then in the <span class="Emphasis">Class Name</span> field, type <span class="TypedEntry">Indent</span>. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex10.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <li>In the left pane tree structure, make sure <span class="Emphasis">(Generic Classes)</span> is expanded, and <span class="Emphasis">Indent</span> is selected.</li>
+            <li>In the <span class="Emphasis">Show</span> drop-down, make sure   <span class="Emphasis">Show: All Properties</span> is selected.</li>
+            <li>Expand the <span class="Emphasis">Box</span> group.</li>
+            <li>
+                <p>In the <span class="Emphasis">margin-left</span> property field, type <span class="TypedEntry">50px</span>. Press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex11.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open <span class="Emphasis">South-by-Southwest.htm</span>.</li>
+            <li>At the end of the existing content, create an empty paragraph.</li>
+            <li>
+                <p>Copy and paste this example text to the line: </p>
+                <p><span class="TypedEntry">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.</span>
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, <span class="Emphasis">Style</span> drop-down, select <span class="Emphasis">.Indent</span>. The text indents.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>From  the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This tutorial covers a few basic styles. Keep in mind that when creating a style class there are multiple ways to do it. Ask yourself what the style is that you need, and how often do you plan to use it? For example, if you plan to apply a bold font property to character-level content only, then creating a specific span element might work. But if you plan to apply bold font at the block-level too, then creating a generic style class might make more sense. How you go about creating a style really depends on what you are trying to accomplish. </p>
+        </div>
+    </body>
+</html>

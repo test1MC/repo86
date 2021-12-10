@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/User-Guides/Flare-Analysis-Reports.flmsp');">
+    <head><title></title>
+        <meta name="description" content="You can view a list of segments of text in your project that are similar, but not identical, to each other." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Segments;Similar segments" />Viewing Similar Segments</h1>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Analysis/Suggestions/Similar-Segments/Similar-Segments-Summary.flsnp" />
+        </p>
+        <p>The Similar Segments window pane displays similar segments in pairs. In other words, one row displays a segment of text in one column, with a similar segment in the next column. If you double-click the row, the file containing the first segment opens. In the row directly beneath the first, the same segments are shown, only in reverse order. If you double-click that row, the file containing the other segment opens.</p>
+        <p>
+            <img src="../../../../Resources/Images/Flare/Analysis/Similar-Segments.png" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <h2>How to View Similar Segments</h2>
+        <ol>
+            <li>Open a project. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Analysis &gt; Suggestions &gt; Similar Segments</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Summary Window Pane </span>Double-click the row that mentions similar segments.</li>
+                </ul>
+                <p>The Similar Segments window pane opens.</p>
+            </li>
+            <li>In the local toolbar, click the <span class="Emphasis">Start Search</span> button. (Even if you do not want to change the search properties, you need to click this button to initiate a new search for similar segments.) The Similar Segments Search Properties dialog opens.</li>
+            <li>You can modify any of the search property settings to limit or expand the list of similar segments shown in the list.<ul><li><span class="SetOffFirstLevel">Min Word Count </span>Use this field to set the minimum number of words that must be contained in a segment in order for it to be displayed in the Similar Segments window pane. The highest number you can enter is 1000.</li><li><span class="SetOffFirstLevel">Max Word Count </span>Use this field to set the maximum number of words that can be contained in a segment in order for it to be displayed in the Similar Segments window pane. The highest number you can enter is 1000.</li><li><span class="SetOffFirstLevel">Max "Edit Distance" </span>Use this field to set the maximum amount of difference that can exist between segments in order for them to be displayed in the Similar Segments window. The value has to do with the number of characters that are different between the two segments. The smaller the number, the more alike the segments are. The larger the number, the greater the difference that exists between the segments. You can modify this value to limit or increase the number of segments displayed in the window. The highest number you can enter is 1000.</li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The window pane populates with similar segments found in the project. </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Pair Index </span>Displays the number that identifies a pair of segments. Segments are always compared in pairs. The first row displays the "primary" segment (in the "Segment 1" column), and it displays a segment that is similar to it in the "Segment2" column. In the other row, the segments are reversed, with the second segment displayed in the "Segment1" column. </li>
+                    <li><span class="SetOffFirstLevel">Segment1 </span>Displays the "primary" segment in the row. If you double-click the row, the topic containing the segment in the "Segment1" column opens.</li>
+                    <li><span class="SetOffFirstLevel">Segment2 </span>Displays the secondary segment (i.e., the segment that is similar to the one displayed in the "Segment1" column).</li>
+                    <li><span class="SetOffFirstLevel">Edit Distance </span>Displays the numerical value that indicates how much difference exists between the segments (see the "Max Edit Distance" option mentioned above).</li>
+                    <li><span class="SetOffFirstLevel">File </span>Displays the file where the segment of text is found.</li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Analysis/Suggestions/Frequent-Segments/Note-Use-Topics-Selected-Window.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">You can also double-click a row to modify the text of any segment. </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+    </body>
+</html>

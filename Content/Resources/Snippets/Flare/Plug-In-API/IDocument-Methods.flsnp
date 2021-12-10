@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">ApplyStylesheet(string) </span>Adds the referenced CSS stylesheet to the working list of styles. Paths may be absolute or relative.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">Close() </span>Closes the document.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">EndOperation() </span>Ends the current operation.</li>
+            <li>
+                <i>int </i>
+                <span class="Emphasis">GetCursorPosition() </span>Returns the linear position of the insertion point. The intial position starts from 0.</li>
+            <li>
+                <i>string </i>
+                <span class="Emphasis">GetDocumentText() </span>Returns the document text.</li>
+            <li>
+                <i>string </i><![CDATA[   ]]><span class="Emphasis">GetDocumentXml() </span>Returns the xml of the document as text.</li>
+            <li>
+                <i>string </i>
+                <span class="Emphasis">GetSourceUrl() </span>Returns the url of the editor document.</li>
+            <li>
+                <i>List&lt;ToolStripItem&gt; </i>
+                <span class="Emphasis">GetUserPendingContextMenuItems() </span>Returns the list of <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.toolstripitem.aspx" target="_blank">System.Windows.Forms.ToolStripItem</a>(s) that are pending to be added to the context menu.</li>
+            <li>
+                <i>XmlDocument </i>
+                <span class="Emphasis">GetXmlDocument() </span>Returns the <a href="http://msdn.microsoft.com/en-us/library/system.xml.xmldocument(v=vs.100).aspx" target="_blank">System.Xml.XmlDocument</a> of the document.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">InsertDocumentNode(XmlNode, XmlNode, int, bool) </span>Inserts a new <a href="http://msdn.microsoft.com/en-us/library/system.xml.xmlnode(v=vs.100).aspx" target="_blank">System.Xml.XmlNode</a> as a child under the referenced parent node in the DOM. The last boolean parameter determines whether this operation will be reflected in the Flare Track Change system.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">LookupVariableValue(string, string) </span>Returns the value of the given variable set and name.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">RemoveDocumentNode(XmlNode, bool) </span>Removes an existing <a href="http://msdn.microsoft.com/en-us/library/system.xml.xmlnode(v=vs.100).aspx" target="_blank">System.Xml.XmlNode</a> from the DOM. The last boolean parameter determines whether this operation will be reflected in the Flare Track Change system.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis">RemoveStylesheet(string) </span>Removes the referenced CSS stylesheet to the working list of styles. Paths may be absolute or relative. </li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">ReplaceDocumentNode(XmlNode, XmlNode, bool) </span>Replaces an existing <a href="http://msdn.microsoft.com/en-us/library/system.xml.xmlnode(v=vs.100).aspx" target="_blank">System.Xml.XmlNode</a> with a new node in the DOM. The last boolean parameter determines whether this operation will be reflected in the Flare Track Change system.</li>
+            <li>
+                <i>bool </i>
+                <span class="Emphasis"> Save() </span>Saves the current document. Returns bool indicating success of the operation.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">Select(string) </span>Selects the first instance of text matching the search string after the current position of the insertion point. </li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">Select(XmlNode) </span>Selects the matching  <a href="http://msdn.microsoft.com/en-us/library/system.xml.xmlnode(v=vs.100).aspx" target="_blank">System.Xml.XmlNode</a>.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">SetCursorPosition(int) </span>Sets the position of the insertion point to the specified value.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">StartOperation(string) </span>Starts a new operation. All changes within a StartOperation and EndOperation call will be bundled into one undoable operation in Flare's undo/redo stack.</li>
+            <li>
+                <i>void </i>
+                <span class="Emphasis">UpdateView() </span>Refreshes the document.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can open the Thesaurus window pane by selecting <span class="Emphasis">Tools &gt; Thesaurus</span>, or by pressing the <span class="Emphasis">SHIFT+F7</span> keyboard shortcut.</p>
+        <p>At the top of the window pane is a search field, which lets you manually look for a term. Simply enter text and click <span class="Emphasis">Search</span>.</p>
+        <p>
+            <img src="../../../../Images/Shared/Co-Fl/Thesaurus/Thesaurus1.png" class="MaxWidth90Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Contributor-Guides.Contributor-Whats-New-Guide" />
+        <p>You can also populate the search field automatically by clicking a term in the open file and pressing <span class="Emphasis">SHIFT+F7</span>. Another option is to right-click a term, and from the context menu select <span class="Emphasis">Synonyms &gt; Thesaurus</span>.</p>
+        <p MadCap:conditions="Products.Flare">
+            <img src="../../../../Images/Flare/Thesaurus/Thesaurus1.png" class="MaxWidth90Percent" />
+        </p>
+        <p MadCap:conditions="Products.Contributor">
+            <img src="../../../../Images/Contributor/Thesaurus/Thesaurus2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Contributor-Guides.Contributor-Whats-New-Guide" />
+        <p>Under the search field, you will see categories of related terms in the Thesaurus window pane.</p>
+        <p>
+            <img src="../../../../Images/Shared/Co-Fl/Thesaurus/Thesaurus3.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Contributor-Guides.Contributor-Whats-New-Guide" />
+        <p>You can expand or collapse any of these categories by clicking the arrow buttons. If you click on one of the terms in a category, the window pane adjusts, showing different words and categories specific to that term.</p>
+        <p>To use a related term in the open file, you can do any of the following:</p>
+        <ul>
+            <li>
+                <p>Right-click the related term in the Thesaurus window pane and select <span class="Emphasis">Insert</span> in the context menu. This replaces the word nearest the cursor in the open file.</p>
+                <p>
+                    <img src="../../../../Images/Shared/Co-Fl/Thesaurus/Thesaurus4.png" alt="" title="" class="MaxWidth55Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Right-click the related term in the Thesaurus window pane and select <span class="Emphasis">Copy</span> in the context menu. Then paste the term anywhere you like.</p>
+                <p>
+                    <img src="../../../../Images/Shared/Co-Fl/Thesaurus/Thesaurus2.png" alt="" title="" class="MaxWidth55Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Right-click a term in the open topic or snippet, then click <span class="Emphasis">Synonyms</span>, and choose a word in the context menu.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Thesaurus/Thesaurus2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p MadCap:conditions="Products.Contributor">
+                    <img src="../../../../Images/Contributor/Thesaurus/Thesaurus1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The information that displays in the Thesaurus window pane and the Synonyms context menu comes from the dictionary you are using<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> (see <MadCap:xref href="../../../../../Flare/Editor-Tools/Dictionaries/Dictionaries.htm">About Dictionaries</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Contributor-Online-Only"> (see <MadCap:xref href="../../../../../Contributor/Editor-Tools/Dictionaries/Dictionaries.htm">About Dictionaries</MadCap:xref>)</MadCap:conditionalText>. Keep in mind that only some of the available dictionaries also provide a thesaurus. If you are using a dictionary without a thesaurus, you will see a message indicating this when you try to open the Thesaurus window pane.</p>
+        </div>
+    </body>
+</html>

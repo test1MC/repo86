@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Overviews of more unique output types." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Output:types" />Other Output Types</h1>
+        <p>Following are overviews of additional output types that are somewhat unique.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>
+            <MadCap:keyword term="Clean XHTML:output;Output:Clean XHTML" /><MadCap:variable name="Outputs.CleanXHTML" />
+        </h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/Clean-XHTML/Clean-XHTML1.flsnp" />
+        <p>
+            <img src="../../../../Resources/Images/Flare/Output/Clean-XHTML.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>Following are some important points to keep in mind with this output type:</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/Clean-XHTML/Clean-XHTML2.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <h2>
+            <MadCap:keyword term="Eclipse Help" /><MadCap:variable name="Outputs.EclipseHelp" />
+        </h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/Eclipse-Help/Eclipse-Help-Output-Type-Desc-Short.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <div class="IndentMedium">
+            <h3>Components</h3>
+            <p>The <MadCap:variable name="Outputs.EclipseHelp" /> output type (called a "plug-in" in Eclipse) consists of the following components:</p>
+            <ul>
+                <li>
+                    <p><span class="SetOffFirstLevel">Plug-In XML&#160;File </span>This is an XML-based main file that defines the name and ID&#160;of the Eclipse help plug-in that you generate with Flare.</p>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The output generates a plugin.xml file for Eclipse:</p>
+                        <p>
+                            <img src="../../../../Resources/Images/Flare/Output/Eclipse-Output-Plugin-XML.png" class="MaxWidth90Percent" />
+                        </p>
+                        <p>The plugin.xml file contains the extension point definitions that the Eclipse runtime environment needs to activate your help plug-in:</p>
+                        <p>
+                            <img src="../../../../Resources/Images/Flare/Output/Eclipse-Plugin-File.png" class="MaxWidth90Percent" />
+                        </p>
+                    </div>
+                </li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+                <li>
+                    <p><span class="SetOffFirstLevel">HTML&#160;Content Files </span>As with other output types, Flare publishes a separate HTML file for each documentation topic. These are contained in the Content folder. </p>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">As with other output types, the Content folder contains your Flare target's topics:</p>
+                        <p>
+                            <img src="../../../../Resources/Images/Flare/Output/Eclipse-Help-Content-Folder.png" class="MaxWidth90Percent" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <p><span class="SetOffFirstLevel">Other XML Files </span>Flare publishes separate XML&#160;files for the table of contents, keyword index, and context-sensitive Help . These correspond to the <a href="http://help.eclipse.org/kepler/topic/org.eclipse.platform.doc.isv/reference/extension-points/org_eclipse_help_toc.html?cp=2_1_1_83" target="_blank">org.eclipse.help.toc</a>, <a href="http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fextension-points%2Forg_eclipse_help_index.html&amp;resultof=%22org%2eeclipse%2ehelp%2eindex%22%20" target="_blank">org.eclipse.help.index</a>, and <a href="http://help.eclipse.org/kepler/topic/org.eclipse.platform.doc.isv/reference/extension-points/org_eclipse_help_contexts.html?cp=2_1_1_81" target="_blank">org.eclipse.help.contexts</a> extension points.</p>
+                </li>
+                <li>
+                    <p><span class="SetOffFirstLevel">Manifest.MF&#160;File </span>The manifest file is used only when you package your Eclipse help plug-in as a Java archive (JAR) file. This file is required by Java when creating a JAR&#160;file. </p>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If you package your Eclipse help plug-in as a JAR file, the META-INF&#160;folder contains the required Manifest.MF&#160;file.</p>
+                        <p>
+                            <img src="../../../../Resources/Images/Flare/Output/Eclipse-Help-Plugin-Meta-INF-Manifest.png" class="MaxWidth90Percent" />
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <h3>Key Features</h3>
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/Eclipse-Help/Eclipse-Help-Features-List.flsnp" />
+            <h3>Additional Installations </h3>
+            <p>To take advantage of this output type, you must perform these additional installations:</p>
+            <p class="Subheading">java runtime environment (jre) </p>
+            <p>As the individual compiling the output, you need to install the required Java Runtime Environment (JRE), which is part of the "Eclipse&#160;IDE&#160;for Java EE&#160;Developers" download. <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,General.Online-Only">See <MadCap:xref href="../../Output-Types/Eclipse-Output/Creating-Eclipse-Help-Plug-In.htm">Creating an Eclipse Help Plug-In</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Targets-Guide" /></p>
+            <p class="Subheading">Java </p>
+            <p>As the individual compiling the output, you must download and install the Java Version 7 (Update 45)&#160;or later on your Windows operating system. <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,General.Online-Only">See <MadCap:xref href="../../Output-Types/Eclipse-Output/Creating-Eclipse-Help-Plug-In.htm">Creating an Eclipse Help Plug-In</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Targets-Guide" /></p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+            <h3>Recommended Reading</h3>
+            <p>If you are new to the Eclipse platform, be sure to visit the links below to learn more about it:</p>
+            <ul>
+                <li><span class="SetOffFirstLevel">Eclipse Foundation </span><a href="http://www.eclipse.org/" target="_blank">http://www.eclipse.org/</a>
+                </li>
+                <li><span class="SetOffFirstLevel">Eclipse Documentation </span><a href="https://help.eclipse.org/" target="_blank">help.eclipse.org</a>
+                </li>
+                <li><span class="SetOffFirstLevel">Eclipse Doc Style Guide </span><a href="http://wiki.eclipse.org/Eclipse_Doc_Style_Guide" target="_blank">http://wiki.eclipse.org/Eclipse_Doc_Style_Guide</a>
+                </li>
+            </ul>
+        </div>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/Eclipse-Help/Notes-Eclipse.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <h2>
+            <MadCap:keyword term="EPUB;Output:EPUB" /><MadCap:variable name="Outputs.EPUB" />
+        </h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/EPUB/EPUB-Summary1.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/EPUB/EPUB-Summary2.flsnp" />
+        <p>
+            <img src="../../../../Resources/Images/Flare/Output/EPUB-iPad.png" class="MaxWidth75Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <div class="IndentMedium">
+            <h3>Features</h3>
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/EPUB/EPUB-Features-List.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+            <h3>Reading Systems</h3>
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Output/EPUB/EPUB-Reading-Systems-List.flsnp" />
+        </div>
+    </body>
+</html>

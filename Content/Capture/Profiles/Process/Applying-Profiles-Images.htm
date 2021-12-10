@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Capture/PDF-Topics/Capture-Creating-Images.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Profiles:applying;Profiles:images;Images:profiles" />Applying Profiles to Images</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Capture/Profiles/Apply-Profiles-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Examples</h2>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>You have created two profiles—ProfileA and ProfileB.</p>
+            <p>Suppose that some of the settings for Profile A are: red border, scale background to a setting of .8, and a shade factor of 3. On the other hand, the only unique setting for ProfileB is torn edges on each side.</p>
+            <p>If you initially use ProfileA when you capture an image, that image will automatically have the qualities associated with that profile (i.e., red border, scaled to a setting of .8, and shade factor of 3). Later, perhaps you change your mind and want to use the settings from ProfileB for that image. Instead of recapturing the image, you can simply apply ProfileB to the image. That way, you do not need to manually remove the old settings and specify the torn edges. When you apply the profile to the image, all of the settings are changed automatically.</p>
+        </div>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>You have created hundreds of images and inserted them into a MadCap Flare project. Later, you might decide that you want all of those images to have a 1-pixel black border. Rather than opening each image and adding the border manually, you can add a profile with border settings, create a batch, and choose to apply that profile to the images in your folder. </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Capture-Guides.Capture-Creating-Images-Guide" />
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <div class="pdf-download-microcontent"><a href="https://docs.madcapsoftware.com/CaptureV7/Capture-Creating-Images-Guide.pdf" target="_blank"><img src="../../../Resources/Images/Shared/All/Interface/Buttons/User-Guide-btn.png" title="User Guide" class="micro-content-only" /></a>
+                </div>
+                <div class="Tiles-6-6">
+                    <div>
+                        <h2>How to Apply a Profile to a Single Image</h2>
+                        <ol>
+                            <li>Select <span class="Emphasis">Edit &gt; Apply Profile</span>.</li>
+                            <li>In the drop-down, select the profile that you want to use.</li>
+                            <li>
+                                <p>If the profile contains shapes, select any of the  options to determine how those shapes are handled.</p>
+                                <div class="topic-only">
+                                    <ul>
+                                        <li><span class="SetOffFirstLevel">Do not apply the profile shapes</span> Even if the profile contains shapes, they will not be added to the image. Any shapes currently on the image will be left alone.</li>
+                                        <li><span class="SetOffFirstLevel">Add profile shapes</span> If the profile contains shapes, they will be added to the image. Any shapes currently on the image will be left alone.</li>
+                                        <li><span class="SetOffFirstLevel">Replace profile shapes</span> If the profile contains shapes, they will be added to the image. If the image currently contains any shapes that were previously added from a profile, those shapes will be removed. However, other shapes currently on the image that were previously added manually (rather than via a profile) will be left alone.</li>
+                                        <li><span class="SetOffFirstLevel">Replace all shapes</span> If the profile contains shapes, they will be added to the image. Any shapes currently on the image will be removed (whether those shapes were previously added from a profile or manually).</li>
+                                        <li><span class="SetOffFirstLevel">Put profile shapes beneath other shapes</span> By default, profile shapes are added to the top layer of the image when the process takes place. However, you can select this option to specify that the profile shapes are added to the bottom layer instead.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>Click <span class="Emphasis">Apply</span>.</li>
+                            <li>
+                                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="Space-Above-Micro-Content-Cells">
+                        <p class="center" style="text-align: center;">
+                            <img src="../../../Resources/Images/Capture/Profiles/Apply-Profile1.png" alt="" title="" class="ThumbnailMicroContent" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Capture-Guides.Capture-Creating-Images-Guide" />
+        <MadCap:microContent id="microcontent2">
+            <div>
+                <div class="pdf-download-microcontent"><a href="https://docs.madcapsoftware.com/CaptureV7/Capture-Creating-Images-Guide.pdf" target="_blank"><img src="../../../Resources/Images/Shared/All/Interface/Buttons/User-Guide-btn.png" title="User Guide" class="micro-content-only" /></a>
+                </div>
+                <div class="Tiles-6-6">
+                    <div>
+                        <h2>How to Apply a Profile to Many Images in a Batch</h2>
+                        <ol>
+                            <li>
+                                <p>Select <span class="Emphasis">File &gt; New &gt; New Batch Job</span>.</p>
+                                <p class="topic-only">A new batch file (CAJOB file) opens in the Batch Job Editor.</p>
+                            </li>
+                            <li>Next to the <span class="Emphasis">Folder to scan</span> field, click <span class="Emphasis">Browse</span>.</li>
+                            <li>Find and select the folder containing the images, then click <span class="Emphasis">OK</span>.</li>
+                            <li>(Optional) If you want all images in subfolders to be scanned as well, select <span class="Emphasis">Recursive</span>.</li>
+                            <li>
+                                <p>(Optional) You can use the <span class="Emphasis">Include Pattern</span> field to select the type of image files to be included in the scan. <span class="topic-only">Click the down arrow and select the file type.</span></p>
+                                <p class="topic-only">For example, you might have a folder containing both BMP and GIF files. If you want only the GIF files to use the profile settings, you can specify this.</p>
+                                <p class="topic-only"> You can also type the file types into the field manually, separating each of them with a semi-colon (e.g., *.gif; *.jpg).</p>
+                                <p class="topic-only">If you want to scan all types of files, select <span class="Emphasis">All Images</span>.</p>
+                            </li>
+                            <li>
+                                <p>Click in the <span class="Emphasis">Profile To Apply</span> field and select the profile that you want to use.</p>
+                                <p class="topic-only">In addition to all of your custom profiles listed, you can also select "No Profile." This option is useful if you are a newly registered user and want to remove the trial-mode watermarks on all of your images.</p>
+                            </li>
+                            <li>
+                                <p>(Optional) If the profile contains shapes, you can make a selection in the <span class="Emphasis">Replace Shapes Option</span> area to determine how those shapes are handled.</p>
+                                <div class="topic-only">
+                                    <ul>
+                                        <li><span class="SetOffFirstLevel">Do not apply the profile shapes</span> Even if the profile contains shapes, they will not be added to the image. Any shapes currently on the image will be left alone.</li>
+                                        <li><span class="SetOffFirstLevel">Add profile shapes</span> If the profile contains shapes, they will be added to the image. Any shapes currently on the image will be left alone.</li>
+                                        <li><span class="SetOffFirstLevel">Replace profile shapes</span> If the profile contains shapes, they will be added to the image. If the image currently contains any shapes that were previously added from a profile, those shapes will be removed. However, other shapes currently on the image that were previously added manually (rather than via a profile) will be left alone.</li>
+                                        <li><span class="SetOffFirstLevel">Replace all shapes</span> If the profile contains shapes, they will be added to the image. Any shapes currently on the image will be removed (whether those shapes were previously added from a profile or manually).</li>
+                                        <li><span class="SetOffFirstLevel">Put profile shapes beneath other shapes</span> By default, profile shapes are added to the top layer of the image when the process takes place. However, you can select this option to specify that the profile shapes are added to the bottom layer instead.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <p>(Optional) You can specify an output folder where the images are saved as a result of the process. <span class="topic-only">To do this, next to the Output Folder field, click Browse. Then find and select the folder containing the images that you want to work with, and click OK.</span> </p>
+                                <p class="topic-only">If you do not specify an output folder, the images are saved in the same folder that you selected to scan.</p>
+                            </li>
+                            <li> Select the <span class="Emphasis">Apply</span> tab.</li>
+                            <li>Click <span class="Emphasis">Scan</span>. <span class="topic-only">The folder is scanned for images that match your settings. When it is finished, the image names are listed on the tab.</span></li>
+                            <li>Click <span class="Emphasis">Apply Profile</span>. <span class="topic-only">The profile you selected is applied to all of the images.</span></li>
+                            <li>Click <span class="Emphasis">Save Files</span>. <span class="topic-only">The files are saved with the new profile settings.</span></li>
+                            <li>(Optional) If you want to reuse the batch in the future, you can save it. <span class="topic-only">To do this, press <span class="Emphasis">CTRL+S</span> or select <span class="Emphasis">File &gt; Save</span> to save your work. Then find a folder where you want to store the batch file, provide a name for it, and click <span class="Emphasis">Save</span>.</span></li>
+                        </ol>
+                    </div>
+                    <div class="Space-Above-Micro-Content-Cells">
+                        <p class="center" style="text-align: center;">
+                            <img src="../../../Resources/Images/Capture/Profiles/Apply-Profile2.png" alt="" title="" class="ThumbnailMicroContent" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+    </body>
+</html>

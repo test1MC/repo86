@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="786" MadCap:lastWidth="1098">
+    <body>
+        <p>You can insert images into Word source documents, which are then included in your output.</p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Recommended Location</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Recommended Location</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>A folder named "Media" is automatically created for Doc-To-Help projects. It is recommended that you store your image files in that folder.</p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If your source documents have a .docx extension, the Media folder should be a subfolder of the Documents folder (the folder in which Doc-To-Help stores all of your source documents). This change can be made quickly using Windows Explorer.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Recommended Procedure for Inserting Images</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Recommended Procedure for Inserting Images</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When you insert an image in a Word source document, it is recommended that you use the following steps.</p>
+                <ol>
+                    <li>Select <span class="Emphasis">Insert &gt; Pictures</span>. The Insert Picture dialog opens.</li>
+                    <li>Find and select your image.</li>
+                    <li>From the <span class="Emphasis">Insert</span> drop-down, select <span class="Emphasis">Insert and Link</span>.</li>
+                </ol>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Cutting and pasting images into your documents is not a good best practice, because it increases file size and makes your graphics hard to edit and manage.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Image Maps</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Image Maps</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>For online outputs, you can create hotspots from an image that link to topics, keywords, or groups.<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Images/Creating-Image-Maps.htm">Creating Image Maps</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Images/Creating-Image-Maps.htm">Creating Image Maps</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>In addition, you can split an image (or a region you have already created) into equal hot regions.<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Images/Splitting-Image-Equal-Hot-Regions.htm">Splitting an Image into Equal Hot Regions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Images/Splitting-Image-into-Equal-Hot-Regions.htm">Splitting an Image into Equal Hot Regions</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

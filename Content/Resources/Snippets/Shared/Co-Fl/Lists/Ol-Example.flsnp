@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Here is a sample ordered list.</p>
+            <ol>
+                <li>First do this.</li>
+                <li>Then do that.</li>
+                <li>Then do the other thing.</li>
+            </ol>
+            <p>Here is how the tag structure for that ordered list would look behind the scenes.</p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;ol&gt;
+	&lt;li&gt;First do this.&lt;/li&gt;
+	&lt;li&gt;Then do that.&lt;/li&gt;
+	&lt;li&gt;Then do the other thing.&lt;/li&gt;
+&lt;/ol&gt;</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <p>Therefore, if you applied a 1-pixel border to the li style, each list item would have a border around it. But if you applied the border to the ol style, the entire list would have a border around it.</p>
+        </div>
+    </body>
+</html>

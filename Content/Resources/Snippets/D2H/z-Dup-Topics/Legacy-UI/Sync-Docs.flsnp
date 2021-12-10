@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="555" MadCap:lastWidth="854">
+    <body>
+        <p>Doc-To-Help automatically synchronizes the documents changed in the SharePoint Library with those on your machine. Synchronizing uploads all local changes to the SharePoint Library and downloads SharePoint Library changes to your machine.</p>
+        <p>Synchronization should <span class="EmphasisItalic">not</span> be used as a substitute for checking documents in and out of the SharePoint Library. When check in/check out is used, all users know the status of documents and who has possession of them.&#160; </p>
+        <p>The automatic synchronization will occur when you close or open a document or project, and when you build a project. (You can change the synchronization defaults using the Options dialog, SharePoint Documents tab.)</p>
+        <p>
+            <img id="_x0000_i1034" src="../../../../Images/D2H/SharePoint/Synchronize.png" height="93" class="MaxWidth100Percent" />
+        </p>
+        <p>You can synchronize manually at any time by opening the <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Home</span><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">Project</span></MadCap:conditionalText> ribbon in Doc-To-Help and clicking the <span class="Emphasis">Synchronize</span> button.</p>
+        <p>If both versions of a document (the SharePoint Library version and the version on your machine—the local copy—are different, and you trying to save, open, close, or synchronize a single Word document, a dialog will give you the following options:</p>
+        <ul>
+            <li>
+                <p>Overwrite the local copy of the document.</p>
+            </li>
+            <li>
+                <p>Overwrite the copy &#160;of the document on the server (in the SharePoint Library).</p>
+            </li>
+            <li>
+                <p>Merge the documents. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>. </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

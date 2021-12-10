@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Build and publish your  target.</li>
+            <li>
+                <p>In Windows Explorer, copy the theme's zip file that is created during publishing. This file is found in the same location as the target's output folder. The naming convention of this zip file is MadCap.[target_name].Theme.zip.</p>
+            </li>
+            <li>In your Zendesk Help Center dashboard, click the icon to customize the design. The Themes page is displayed.</li>
+            <li>Drag your theme's zip file from Windows Explorer, and drop it into the Zendesk themes page. Your project theme is added to Zendesk.</li>
+            <li>
+                <p>Set the theme that was just added to a <span class="Emphasis">Live</span> status.</p>
+                <p class="topic-only">
+                    <img src="../../../../Images/Flare/Output/Zendesk-Set-Custom-Theme-Live.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

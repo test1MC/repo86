@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Perforce.flmsp');">
+    <head>
+        <link href="../../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Descriptions of primary icons you might see when using Perforce Helix Core source control." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Perforce Helix Core;Source control:Perforce Helix Core" />
+            <MadCap:keyword term="Source control;Multi-authoring" />Source Control Icons</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Descriptions-Primary-Icons.flsnp" />
+        <table class="TableStyle-Fancy" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../../Resources/TableStyles/Shared/Fancy.css');" cellspacing="0">
+            <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Checked Out</span>
+                        </p>
+                        <p class="TableText">This indicates that the file has been checked out from source control. You can submit the file when you are ready (if you are the user who has checked it out). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Process/Submitting-Source-Control-Files-Perforce.htm">Submitting Source Control Files—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="../Process/Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-New-File-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText"><span class="SetOffFirstLevel">New File (Pending Add)</span>
+                        </p>
+                        <p class="TableText">This indicates that you have a file in your project but have not yet added it to Helix Core. This might occur, for example, if you create a new topic and do not add the file to source control during the topic creation process. To resolve this, simply right-click on the file and select <span class="Emphasis">Source Control &gt; Add</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Process/Adding-Files-Source-Control-Perforce.htm">Adding Files to Source Control—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Locked-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Not Checked Out</span>
+                        </p>
+                        <p class="TableText">This indicates that the file is added to source control but is not currently checked out, which means that it contains a "Read Only" designation in its properties. In order to edit the file, you must check it out from source control. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Process/Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Red-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by Another User</span>
+                        </p>
+                        <p class="TableText">This indicates that another user has locked the file. You will often see this icon in conjunction with the <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-Other-User-ico.png" class="ReduceButtonSize" /> icon, indicating that another user is both using the file and has locked the file. You can still make changes to this file even if another user has locked it, but you cannot submit them until the lock is removed.  <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Other-Activities/Locking-File-Perforce.htm">Locking a File—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="../Other-Activities/Unlocking-File-Perforce.htm">Unlocking a File—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Green-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by You</span>
+                        </p>
+                        <p class="TableText">This indicates that you have locked the file. You will often see this icon in conjunction with the <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-ico.png" /> icon, indicating that you have both locked and checked out the file. Other users can make changes to this file even if you have locked it.  <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Other-Activities/Locking-File-Perforce.htm">Locking a File—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="../Other-Activities/Unlocking-File-Perforce.htm">Unlocking a File—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-Other-User-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Checked-Out-Other-User.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Out-Date-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Out of Date</span>
+                        </p>
+                        <p class="TableText">This indicates that the file is not current (i.e., the local copy of the file is older than the source control copy). This might happen, for example, if another user checks out the file, makes changes to it, and submits it to source control. If this occurs, you can check the file out or get the latest version of the file from source control. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Process/Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref> or <MadCap:xref href="../Process/Getting-Latest-Version-Source-Control-Files-Perforce.htm">Getting the Latest Version of Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Here is an example of a multi-level ordered list.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Complex-Selectors1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>You want to add an advanced selector so each level of the list will use a different style. To do this, you need to create (or edit) three different styles:&#160;the <span class="Emphasis">ol</span> style, the <span class="Emphasis">ol ol</span> advanced selector (for &lt;ol&gt; tags residing inside another &lt;ol&gt; tag), and the <span class="Emphasis">ol ol ol </span>advanced selector (for &lt;ol&gt;&#160;tags residing inside two other &lt;ol&gt; tags).</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide" />
+            <p>You already have an ol style in your stylesheet, so you can edit this style. This will affect the first level of your list.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Complex-Selectors2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide" />
+            <p>Now you create a new ol ol advanced selector, if it doesn't already exist. This selector will be found in the Complex Selectors group in the Stylesheet Editor. You edit the style properties for second-level lists.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Complex-Selectors3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide" />
+            <p>Now you create another advanced selector:&#160;ol ol ol. You edit the style properties for third-level lists.</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Complex-Selectors4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>When you view the multi-level list in your topic, it looks like this:</p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Lists/Complex-Selectors5.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

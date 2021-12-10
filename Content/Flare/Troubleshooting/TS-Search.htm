@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:search;Search:troubleshooting" />Troubleshooting Search Issues</h1>
+        <p>Following are issues that may occur when using the search feature in Flare. </p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test1" class="TroubleshootingLink">The search feature is not finding the entered search term</li>
+                <li targets="test2" class="TroubleshootingLink">Search results are missing in HTML Help files</li>
+                <li targets="test3" class="TroubleshootingLink"><MadCap:variable name="Outputs.WebHelp Plus" /> output's search function does not work</li>
+                <li targets="test4" class="TroubleshootingLink">Searching for one micro content phrase returns results for another phrase</li>
+            </ul>
+            <div targetName="test1" class="troubleshoot">
+                <p class="Subheading">The search feature is not finding the entered search term</p>
+                <p class="Subheading">Cause</p>
+                <p>If you are generating a WebHelp target, there may be stop-words in the stop-words list that are preventing the search term from being found. This list can be changed in the target.</p>
+                <p class="Subheading">Solution</p>
+                <p>Perform the following steps.</p>
+                <ol>
+                    <li>In the Project Organizer, open the <span class="Emphasis">Targets</span> folder.</li>
+                    <li>Double-click the necessary target. The Target Editor opens.</li>
+                    <li>In the Target Editor, select the <span class="Emphasis">Search</span> tab.</li>
+                    <li>
+                        <p>Click the <span class="Emphasis">Include stop-words in search</span> check box so that there is a check mark in it. </p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-Search1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                    </li>
+                </ol>
+                <p>For more information, see <MadCap:xref href="../Search/Search-Results-Options/Including-Stop-Words.htm">Including Stop Words in Search</MadCap:xref>.</p>
+            </div>
+            <div targetName="test2" class="troubleshoot">
+                <p class="Subheading">Search results are missing in HTML Help files</p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Troubleshooting/TS-HTML-Output-ITCDLL-Problem.flsnp" />
+                <p class="Subheading">Cause </p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Troubleshooting/TS-HTML-Output-ITCDLL-Cause.flsnp" />
+                <p class="Subheading">Solution</p>
+                <p>You will need to manually register the DLL&#160;using a batch file or the command line utility. After registering the DLL, build your <MadCap:variable name="Outputs.HTMLHelp" /> output again. Then retry your search in the output. </p>
+                <p class="Subheading">How to register the DLL file using a batch file:</p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Troubleshooting/TS-HTML-Output-ITCDLL-Batch.flsnp" />
+                <p class="Subheading">How to register the file with the command line utility: </p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Troubleshooting/TS-HTML-Output-ITCDLL-CmdLine.flsnp" />
+            </div>
+            <div targetName="test3" class="troubleshoot">
+                <p class="Subheading"><MadCap:variable name="Outputs.WebHelp Plus" /> output's search function will not work</p>
+                <p>After publishing a new WebHelp Plus output, the output's search will not work . The "Loading" image hangs until the output is closed.</p>
+                <p class="Subheading">Cause</p>
+                <p>This may be a result of a missing FLSFS file. This is the Flare search filter set file. </p>
+                <p class="Subheading">Solution</p>
+                <p>Copy a new FLSFS from a blank Flare project into the working project. Perform the following steps.</p>
+                <ol>
+                    <li>Create a new Flare project. <span class="Emphasis">Select File &gt; New Project &gt; New Project</span>. The Start New Project Wizards Opens.</li>
+                    <li>Complete all the steps in the New Project Wizard.</li>
+                    <li>&#160;In the new Flare project, create a new search filter set . This can be done by performing the following steps<ol class="LowerAlpha"><li><p><MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" /><ul><li><p><span class="SetOffFirstLevel">Ribbon </span>Sselect <span class="Emphasis">Project &gt; New &gt; Advanced &gt; Search Filter Set</span>. </p></li><li><span class="SetOffFirstLevel">Tool Strip </span>Select <span class="Emphasis">Project &gt; Advanced &gt; Add Search Filter Set</span>.</li><li><span class="SetOffFirstLevel">Right-Click </span>In the Project Organizer, right-click on the <span class="Emphasis">Advanced</span> folder and from the context menu select <span class="Emphasis">Add Search Filter Set</span>.</li></ul><p>The Add File dialog opens.</p></p></li><li>In the <span class="Emphasis">File Type</span> field at the top, make sure <span class="Emphasis">Search Filter Set</span> is selected.</li><li><p><MadCap:snippetText src="../../Resources/Snippets/Flare/Templates/In-Source-Area-Template1.flsnp" /><MadCap:snippetBlock src="../../Resources/Snippets/Flare/Templates/Template-Options1.flsnp" /></p></li><li><MadCap:snippetText src="../../Resources/Snippets/Flare/General/Select-Subfolder-Project-Organizer1.flsnp" /></li><li>In the <span class="Emphasis">File Name</span> field, type a new name for the search filter set. You may want to use the same name that you used for the  previous search filter set.</li><li>(Optional) <MadCap:snippetText src="../../Resources/Snippets/Flare/Conditions/Select-Relevant-Condition-Tags.flsnp" />&#160;<MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>.</MadCap:conditionalText></li><li>(Optional) <MadCap:snippetText src="../../Resources/Snippets/Flare/File-Tagging/Select-Relevant-File-Tags.flsnp" />&#160;<MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../File-Tagging/Associating-Tags-Files1.htm">Associating Tags with Files</MadCap:xref>.</MadCap:conditionalText></li><li>Click <span class="Emphasis">Add</span>. The search filter set is added to the Advanced folder in the Project Organizer. The Search Filter Set Editor opens to the right, with an initial search filter entry shown.</li></ol></li>
+                    <li>In the Windows Explorer, open the new Flare project's <span class="Emphasis">Project</span> folder.</li>
+                    <li>Open the <span class="Emphasis">Advanced</span> folder. </li>
+                    <li>Locate the Flare search filter set (it will have a .flsfs extension) and <span class="Emphasis">copy</span> the file by selecting it and pressing <span class="Emphasis">CTRL+C</span> on the keyboard). The file is copied to the clipboard.</li>
+                    <li>Open the <span class="EmphasisItalic">working</span> Flare project's <span class="Emphasis">Project</span> folder.</li>
+                    <li>Open the <span class="Emphasis">Advanced</span> folder. </li>
+                    <li><span class="Emphasis">Paste</span> the file into the folder by pressing <span class="Emphasis">CTRL+V</span> on the keyboard.</li>
+                    <li>Build and publish the WebHelp output. </li>
+                </ol>
+                <p>For more information, see <MadCap:xref href="../Search/Search-Filter-Sets/Adding-Search-Filter-Sets-Projects.htm">Adding Search Filter Sets to Projects</MadCap:xref>.</p>
+            </div>
+            <div targetName="test4" class="troubleshoot">
+                <p class="Subheading">Searching for one micro content phrase returns results for another phrase</p>
+                <p class="Subheading">Cause</p>
+                <p>If you test the micro content in your output and notice that searching on one phrase is opening the results for a different phrase, you might want to see if you have a synonym set up that is causing the issue. For example, you might have previously added "iPhone" as a synonym for "telephone." Then in a micro content file, you add "iPhone" and "telephone" as separate phrases. When users search for iPhone in the output, they will see the results for telephone instead. </p>
+                <p class="Subheading">Solution</p>
+                <p>If this occurs for you, you might want to see if you have a conflicting entry like this in your synonym file, then remove it. If this does not solve your issue, please contact Technical Support.</p>
+                <ol>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Flare/General/Open-Project-Organizer.flsnp" />
+                    </li>
+                    <li>Double-click the <span class="Emphasis">Advanced</span> folder.</li>
+                    <li>Locate and double-click your synonym file. The Synonyms Editor opens to the right.</li>
+                    <li>Click on the row with the questionable synonym. (You might need to look in both the Directional and Groups tabs to find the synonym.)</li>
+                    <li>Press <b>Delete</b> on your keyboard.</li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                    </li>
+                </ol>
+                <p>For more information, see <MadCap:xref href="../Search/Synonyms/Synonyms.htm">Synonyms</MadCap:xref> and <MadCap:xref href="../Micro-Content/Micro-Content.htm">About Micro Content</MadCap:xref>.</p>
+            </div>
+            <div style="clear:both">
+            </div>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>

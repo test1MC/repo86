@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Back-Top-Button-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="In this tutorial, the focus is on JavaScript. However, this is not the only scripting language supported in Flare. The other languages (e.g., JScript, VBScript) can be integrated in the same way described in this tutorial for JavaScript." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Back-Top-Button.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:JavaScript;JavaScript:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Before We Begin</h1>
+        <p>Before we begin this tutorial, there are just a few things you should know.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Flare-Guides.Flare-Back-Top-Button-Tutorial" />
+        <h2>Writing the Code</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Writing-Code-Summary.flsnp" />
+        <h2 class="NoPageBreakBefore">Other Languages</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/JavaScript-Other-Languages-Summary.flsnp" />
+        <h2 class="NoPageBreakBefore">JavaScript Used in This Tutorial</h2>
+        <p>The JavaScript used in this tutorial is meant to add a small "back-to-top" button (i.e., link) to the lower-right corner of the topics in the output. This button appears when you start manually scrolling down the page, and by clicking the button the page automatically scrolls back to the top. At the end of steps in this tutorial, you will be asked to build and view output to make sure the script works as intended.</p>
+        <p MadCap:conditions="General.Online-Only">
+            <img src="../../../../Resources/Images/Flare/Tutorials/Back-Top/Scroll-Button.gif" />
+        </p>
+        <h2><a name="Copying"></a>Copying the JavaScript Code</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Copying-JavaScript-Code-Summary.flsnp" />
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">(function () {
+		if ($(".body-container").length === 1) {
+			var bodyContainer = $('.body-container')[0];
+			var mybutton = document.createElement("button");  		// Create a &lt;button&gt; node
+			var textnode = document.createTextNode("Top");  		// Create a text node
+			mybutton.appendChild(textnode);							// Append the text
+			mybutton.setAttribute("id", "myBtn");					// Set id
+			mybutton.addEventListener("click", topFunction);		// Set onclick event handler
+		
+			bodyContainer.appendChild(mybutton);	// Append button element to main element
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			//Both functions are used based on the responsive portion of the output
+			bodyContainer.onscroll = function() {scrollFunction()};
+			window.onscroll = function() {scrollFunctionx()};
+
+			function scrollFunction() {
+				if (bodyContainer.scrollTop &gt; 20 || document.documentElement.scrollTop &gt; 20) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+	
+			function scrollFunctionx() {
+				if (document.body.scrollTop &gt; 20 || document.documentElement.scrollTop &gt; 20) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				$('html, body').animate({ scrollTop: 0 }, "smooth");
+				$('html, documentElement').animate({ scrollTop: 0 }, "smooth");
+				$('.body-container').animate({ scrollTop: 0 }, "smooth");
+			}
+		}
+	})();</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

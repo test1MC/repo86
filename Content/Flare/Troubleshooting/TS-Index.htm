@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:indexes;Indexes:troubleshooting" />Troubleshooting Indexing Issues</h1>
+        <p>Following are issues that may occur when working with indexes in Flare. </p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test1" class="TroubleshootingLink">Very long index terms overlap the column break rather than wrapping</li>
+                <li targets="test2" class="TroubleshootingLink">Index entries are not appearing in generated HTML Help output</li>
+            </ul>
+            <div targetName="test1" class="troubleshoot">
+                <p class="Subheading">Very long index terms overlap the column break rather than wrapping</p>
+                <p class="Subheading">Cause</p>
+                <p>In <MadCap:variable name="Outputs.PDF" /> output, long index entries will not wrap in multi-column index layouts.</p>
+                <p class="Subheading">Solution</p>
+                <p>A CSS edit involving a change on the wrapping behavior of the p.Index styles can fix this issue.</p>
+                <ol>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Styles/Edit-Style1.flsnp" />
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                    </li>
+                    <li>In the <span class="Emphasis">Medium</span>  field, make sure the medium you are using is selected.</li>
+                    <li>In the upper-left corner of the editor,select <img src="../../Resources/Images/Shared/Co-Fl/Interface/Drop-Downs/Show-All-Styles-dd.png" class="ReduceButtonSize" />. </li>
+                    <li>On the left side of the editor, expand the <span class="Emphasis">p</span> group.</li>
+                    <li>Select the <span class="Emphasis">p.Index1</span> style. </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Co-Fl/Styles/Expand-Block-Group1.flsnp" />
+                    </li>
+                    <li>
+                        <p>Using the drop-down in the right column, change the <span class="Emphasis">white-space: nowrap</span> property to <span class="Emphasis">white-space: normal</span>. </p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-Index1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Repeat steps 7 through 9 for the styles <span class="Emphasis">p.Index2</span> through <span class="Emphasis">p.Index9</span>.</li>
+                </ol>
+                <p>Review the generated output after making this change to ensure that there are no other undesired effects.</p>
+            </div>
+            <div targetName="test2" class="troubleshoot">
+                <p class="Subheading">Index entries are not appearing in generated HTML Help output</p>
+                <p class="Subheading">Cause</p>
+                <p>This issue can occur when  the binary index option  in the skin settings  is not selected. Microsoft HTML Help requires that all indexes in merged help systems have a binary index so that they can be properly merged.</p>
+                <p class="Subheading">Solution</p>
+                <p>Perform the following steps for each project to ensure that the index is binary.</p>
+                <ol>
+                    <li>In Project Organizer, navigate to the <span class="Emphasis">Skins</span> folder.</li>
+                    <li>Open your skin and select the <span class="Emphasis">HTML Help Setup</span> tab.</li>
+                    <li>
+                        <p>Select <span class="Emphasis">Index Options</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-HTML-Help1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Select <span class="Emphasis">Binary</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-HTML-Help2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Generate your merged HTML Help. </li>
+                </ol>
+                <p>For more information on this process, see <MadCap:xref href="../Skins/Other-Activities/HTML-Help/Creating-Binary-Index1.htm">Creating a Binary Index</MadCap:xref>.</p>
+            </div>
+            <div style="clear:both">
+            </div>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>

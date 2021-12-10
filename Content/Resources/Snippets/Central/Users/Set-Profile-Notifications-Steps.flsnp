@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>At the top of Central, click your avatar or name, and select <span class="Emphasis">User Settings</span>.</li>
+            <li>
+                <p>Select any of the options on the left, then complete the fields on the right or in the dialog that opens.</p>
+                <div class="topic-only">
+                    <p class="Subheading">Settings</p>
+                    <p>Use the fields on the right to set your avatar and provide general information about yourself. If you do not choose an image for the avatar, Central will use your initials.</p>
+                    <p class="Subheading">Email &amp; Password</p>
+                    <p>Use the tabs and fields on the right to change your email address and/or password.</p>
+                    <p class="TableText">
+                        <MadCap:snippetText src="Password-Requirements.flsnp" />
+                    </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> If you belong to more than one MadCap Central license, your password will be changed for all licenses.</p>
+                    </div>
+                    <p class="Subheading">Teams &amp; Projects</p>
+                    <p>In the upper-right, click <span class="Emphasis">Edit</span>, then use the tabs and check boxes to associate yourself with various teams and projects.</p>
+                    <p class="Subheading">Assign New Task</p>
+                    <p>In the dialog, complete the fields to create a new task and assign it to yourself or another user. Then click <span class="Emphasis">Save</span>.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> For descriptions, see <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Tasks/Creating-Tasks.htm">Creating and Assigning Tasks</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p class="Subheading">Activity</p>
+                    <p>This lets you see the most recent activities involving you.</p>
+                    <p class="Subheading">Permissions</p>
+                    <p>If you are a User Administrator, you can use the check boxes on the right to give yourself permission for certain activities.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> For descriptions, see <MadCap:xref href="../../../../Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> For descriptions, see <MadCap:xref href="../../../../Print-Only-Topics/Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p class="Subheading">Notifications</p>
+                    <p>Use the check boxes on the right to select events for which you want to be notified. </p>
+                    <div class="IndentMedium">
+                        <p class="Subheading">Send Notifications By</p>
+                        <table style="width: 100%; mc-table-style: url('../../../TableStyles/Shared/Fancy.css'); margin-left: 0; margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                            <tbody>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableTextEmphasis">Notification Center</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                        <p class="TableText">Select this option if you want to see recent notifications  (accessed by clicking the bell icon <img src="../../../Images/Central/Interface/Buttons/Notifications-btn.png" alt="" title="" class="ReduceButtonSize" /> at the top of the interface). After you open the Notification Center, the alert (red dot) will be removed from the icon.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <p class="TableTextEmphasis">Email</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                        <p class="TableText">Select this if you want to receive notifications via email. Notifications will be sent to both your primary and secondary email addresses (if the secondary email is provided).</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Users-and-Teams-Guide" />
+                        <p class="Subheading">Receive Notifications When</p>
+                        <table class="TableStyle-Fancy" style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" />
+                            <tbody>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Builds</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Aborted</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a build is hanging indefinitely and Central cancels it. If this occurs, please contact technical support to troubleshoot the issue.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Main-Activities/Generating-Scheduling-Builds.htm">Generating and Scheduling Builds</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Completed</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a target from a project is finished building, regardless of whether the build finishes successfully, fails, or contains errors. This notification is sent to members of the project, except for the person who started (and completed) the build.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Main-Activities/Generating-Scheduling-Builds.htm">Generating and Scheduling Builds</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Started</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a target from a project is generated (manual, scheduled start, or rebuild). This notification is off by default. If enabled, it is sent to members of the project, except for the person who started the build.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Main-Activities/Generating-Scheduling-Builds.htm">Generating and Scheduling Builds</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Stopped</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a target from a project is stopped (canceled) during compilation. This notification is off by default. If enabled, it is sent to members of the project, except for the person who stopped the build.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Main-Activities/Generating-Scheduling-Builds.htm">Generating and Scheduling Builds</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Checklists</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Checklist Created</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a project checklist is created. This notification is sent to members of the project, except the person who created the checklist.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Checklists/Main-Activities/Creating-Project-Checklists.htm">Creating Project Checklists</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Checklist Deleted</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a project checklist is deleted. This notification is sent to members of the project, except the person who deleted the checklist.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Checklists/Main-Activities/Deleting-Project-Checklists.htm">Deleting Project Checklists</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Checklist Updated</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a project checklist is edited (i.e., name, type, rows, columns; not status of items). This notification is sent to members of the project, except the person who edited the checklist.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Checklists/Main-Activities/Editing-Project-Checklists.htm">Editing Project Checklists</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Licenses</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Activated User</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification when a newly activated user logs in for the first time. This notification is sent to User Administrators.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Projects</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Deleted</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a project is deleted. This notification is sent to members of the project, except the person who deleted the project.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Other-Activities/Deleting-Projects.htm">Deleting Projects</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Profile Changed</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a project profile is changed. This notification is sent to members of the project, except the person who changed the profile.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Other-Activities/Editing-Project-Profiles.htm">Editing Project Profiles</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Status Changed</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a project’s status (i.e., Activated, Locked, Archived) is changed. This notification is sent to members of the project, except the person who changed the project's status.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Other-Activities/Changing-Status-Project.htm">Changing the Status of a Project</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:conditions="" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Reports</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Critical Issues Found</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification whenever a new scan finds critical issues in one or more of the reports. This notification is sent to members of the project who have selected this option.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Reports/Reports.htm">Reports and Statistics</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Reviews</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Review Assigned</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if another author has assigned you to review a file.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Reviews/Reviews.htm">Reviews</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Review Document Failed</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a file that was sent for review cannot be loaded into the interface. If you experience this type of issue, please contact MadCap Software Technical Support for assistance.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Reviews/Reviews.htm">Reviews</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Review Finished</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if all reviewers have submitted changes to a file that you have sent them.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Reviews/Main-Activities/Submitting-Review-Files.htm">Submitting Review Files</MadCap:xref>.</p>
+                                        <p MadCap:conditions="Central-Guides.Central-Users-and-Teams-Guide">&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Sites</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Set as "Live"</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a site is set as “live” (i.e., published for public viewing). This notification is sent to members of the project, except for the person who set the site as “live.”</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Setting-Sites-Live.htm">Setting Sites as Live</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Site Created</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a site is created. This notification is sent to members of the project, except the person who created the site.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Creating-Sites.htm">Creating Sites</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Site Deleted</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a site is deleted. This notification is sent to members of the project, except the person who deleted the site.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Sites/Sites-Page-View/Other-Activities/Deleting-Sites.htm">Deleting Sites</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Site Updated</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a site is edited. This notification is sent to members of the site, except the person who edited the site.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Editing-Sites.htm">Editing Sites</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Tasks</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Comments or File Actions</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if comments or files are added to a task. If a comment is left on a task, the task owner (i.e., the user who created the task) and the user assigned to the task will receive the notification. If someone replies to a comment, the task owner, assignee, original commenter, and all repliers will receive the notification.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Other-Activities-Tasks/Adding-Comments-to-Tasks.htm">Adding Comments to Tasks</MadCap:xref> and <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Tasks/Editing-Tasks.htm">Editing Tasks</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Created Board</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification when a task board has been created.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Boards/Creating-Task-Boards.htm">Creating Task Boards</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Deleted</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a task is deleted. <MadCap:snippetText src="Task-Notification-Who-Receives-It.flsnp" /></p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Other-Activities-Tasks/Deleting-Tasks.htm">Deleting Tasks</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Deleted Board</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a task board is deleted. </p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Boards/Deleting-Task-Boards.htm">Deleting Task Boards</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Edited</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a task is edited. This includes details of the task, such as its title, description, priority, hours, and more. <MadCap:snippetText src="Task-Notification-Who-Receives-It.flsnp" /></p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Tasks/Editing-Tasks.htm">Editing Tasks</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Edited Board</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a task board is edited (e.g., name, description). </p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Boards/Editing-Task-Boards.htm">Editing Task Boards</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">New/Assigned</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification when a task has been assigned to you.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Tasks/Creating-Tasks.htm">Creating and Assigning Tasks</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Status Changed (Moved)</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if the status for a task is changed (i.e., To Do, In Progress, Completed, Archived, Backlogged). <MadCap:snippetText src="Task-Notification-Who-Receives-It.flsnp" /></p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Tasks/Moving-Tasks.htm">Moving Tasks</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Teams</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Added/Removed from a Project</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a team is added to a project or removed from one.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Teams/Editing-Teams.htm">Editing Teams</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Added/Removed from a Site</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a team is added to a site or removed from one.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Teams/Editing-Teams.htm">Editing Teams</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Deleted</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a team is deleted. This notification is sent to all team members, except the user who made the change.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Teams/Deleting-Teams.htm">Deleting Teams</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Edited</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if a team is edited. This notification is sent to all team members except the user who made the change.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Teams/Editing-Teams.htm">Editing Teams</MadCap:xref>.</p>
+                                        <p MadCap:conditions="General.Print-Only">&#160;</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-MidTableHeader2" MadCap:pattern="11">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-MidTableHeader2" colspan="2">
+                                        <p class="TableTextEmphasis">Users</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Added/Removed from a Project</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if you have been added to or removed from a project.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Users/Main-Activities/Associating-Users-Teams-Projects.htm">Assigning Users to Teams and Projects</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Added/Removed from a Team</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if you have been added to or removed from a team.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Users/Main-Activities/Associating-Users-Teams-Projects.htm">Assigning Users to Teams and Projects</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <div class="IndentMedium">
+                                            <p class="TableTextEmphasis">Permissions Changed</p>
+                                        </div>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <p class="TableText">Receive a notification if your permissions have changed.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="Subheading">Deactivate</p>
+                    <p>You can click <span class="Emphasis">Deactivate</span> on the right to remove access for yourself on the license and free up a seat.</p>
+                    <p class="Subheading">Delete</p>
+                    <p>You can use the area to the right to remove yourself from the license.</p>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">Save</span>.</li>
+        </ol>
+    </body>
+</html>

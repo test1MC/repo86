@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="390" MadCap:lastWidth="1224">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Convert Multiple Documents to HTML5</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>In <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word</MadCap:conditionalText>, open the Documents window view in the Doc-To-Help Project panel, and click the <span class="Emphasis">Convert Multiple Documents to HTML5</span> button <img id="_x0000_i1027" src="../../../Images/D2H/Interface/Buttons/Content-Convert-HTML5-btn.png" height="19" class="ReduceButtonSize" />.</p>
+                        <p>If you want to convert just a single document, you can right-click on the document in the Documents window view and choose <span class="Emphasis">Convert to HTML5</span>.</p>
+                        <p>The Convert Documents to HTML5 dialog opens.</p>
+                    </li>
+                    <li>By default, the converted documents will be saved to their original location. If you would like to save them to another location, choose <span class="Emphasis">Save converted files to</span> and click the <span class="Emphasis">Browse</span> button).</li>
+                    <li>The "Keep backup copy" check box is selected by default. If you want the option to revert to the original source documents, leave it selected. The files will be saved with a .backup file extension.</li>
+                    <li>Confirm the Word Style Map (the Word to HTML5 styles map file). Click the <span class="Emphasis">Browse</span> button to change it.</li>
+                    <li>If you would like to convert one or more files individually, select the document name(s) on the left, then select the <span class="Emphasis">Use individual conversion settings</span> check box. </li>
+                    <li>Choose the desired options.</li>
+                    <li>Click the <span class="Emphasis">Convert</span> button. The files are converted and appear in the Documents window pane.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

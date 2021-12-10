@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="934" MadCap:lastWidth="1537">
+    <body>
+        <p>By default, Word documents are automatically checked out of the SharePoint Library when you open them  and begin editing. If you would like to change this default, open the Options dialog (<MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"><span class="Emphasis">File &gt; Doc-To-Help Options</span></MadCap:conditionalText><span class="Emphasis" MadCap:conditions="Snippets.Snippet1">File &gt; Doc-To-Help&gt;Common Tasks&gt;Options</span>), select <span class="Emphasis">SharePoint</span>, and clear the <span class="Emphasis">Check out Word documents when editing local copy</span> check box.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Check Documents in and Out of the SharePoint Library</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help</MadCap:conditionalText>, open  the Documents pane, and select the document you would like to check out. </li>
+                    <li>
+                        <p>Right-click and from the menu, choose <span class="Emphasis">SharePoint &gt; Check Out</span>. The document icon indicates that the document is checked out <img src="../../../../Images/D2H/SharePoint/Document-Checked-Out1.png" height="17" class="ReduceButtonSize" />.&#160;</p>
+                        <p>In SharePoint, the document is also flagged with an icon <img src="../../../../Images/D2H/SharePoint/Document-Checked-Out2.png" height="22" class="ReduceButtonSize" />&#160;</p>
+                        <p>You can open the SharePoint Library by right-clicking on the document and choosing <span class="Emphasis">SharePoint &gt; Open in Browser</span>.</p>
+                    </li>
+                    <li>After making edits, save your document and close it. Then right-click on it and choose <span class="Emphasis">SharePoint &gt; Check In</span>.</li>
+                </ol>
+                <div class="note">
+                    <p class="Note-Text">If a document is checked out in SharePoint by another user, there will be a red checked out icon next to it <img src="../../../../Images/D2H/SharePoint/Document-Checked-Out3.png" height="17" class="ReduceButtonSize" />&#160;</p>
+                    <p>You cannot check out these documents. If you would like to know who has it checked out, right-click on it in the Documents pane and choose <span class="Emphasis">Properties</span>. In the <span class="Emphasis">Sharing</span> section, see the "Checked out by" field. You can also hover over the document name and the information will display in a tooltip.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Building Targets</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can build targets even if source documents are checked out of the SharePoint Library by you or another user. However, if there are conflicting document versions that need to be merged, when you attempt to build the target, the Synchronize Documents dialog will open and list the conflicting documents. You can then resolve the issue before you build. Doc-To-Help will give you the option to merge the documents. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Undoing a Check Out</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If you check out a document and make changes to it, then decide you do not want to retain the changes, right click on it in the Documents pane and choose <span class="Emphasis">SharePoint &gt; Discard Check Out</span>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

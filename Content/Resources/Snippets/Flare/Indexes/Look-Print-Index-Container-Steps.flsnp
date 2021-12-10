@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Some of the necessary style properties can also be changed in the Simplified view in the Stylesheet Editor.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+            </li>
+            <li>
+                <p>On the left side of the editor, scroll down and select the <span class="Emphasis">MadCap|IndexProxy</span> style or a class that you have created under it (e.g., MadCap|IndexProxy.myclass). </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../Styles/Note-Assorted-Relevant-Properties.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                <p>For example, if you want to change the width of the entire index, you would first expand the <span class="Emphasis">Box</span> property group. Then to the right of <span class="Emphasis">width</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and in the popup set the value.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">about column count </p>
+                <p>By default, there are usually two columns used in a generated index. However, you can change this:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">PDF </span>For <MadCap:variable name="Outputs.PDF" /> output, the column count is set in a page layout. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Creating-Columns.htm">Creating Columns</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Word </span>For  <MadCap:variable name="Outputs.Word" /> output, the default setting for the index column count is modified in the stylesheet. With the <span class="Emphasis">MadCap|IndexProxy</span> style selected, open the <span class="Emphasis">Unclassified</span> property group and change the <span class="Emphasis">mc-column-count</span> property. However, you can also override this default setting by right-clicking the actual Index proxy wherever you have inserted it, selecting <span class="Emphasis">Edit Index Proxy</span>, and editing the <span class="Emphasis">Column Count</span> field. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/Indexes/Creating-Index-Manually-Print1.htm">Creating an Index Manually for Print</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+                <MadCap:snippetBlock src="../Styles/Note-More-Info-Components-Props-Stylesheet-Editor.flsnp" MadCap:conditions="General.Online-Only" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

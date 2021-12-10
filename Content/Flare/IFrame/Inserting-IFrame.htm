@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\Resources\TemplatePages\Flare\Videos\Flare-IFrames.flmsp');">
+    <head>
+        <meta name="description" content="You can insert external content (e.g., a web page) within an IFrame to a topic, so it displays dynamically in your output." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="IFrame:inserting" />Inserting IFrame</h1>
+        <p>When you have external content that you want to add to a topic (e.g., a web page), you can include it within an IFrame so it displays dynamically in your output.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Insert an IFrame</h2>
+        <ol>
+            <li>
+                <p>Determine content for the IFrame.</p>
+                <ul>
+                    <li>
+                        <p><span class="Emphasis">Remote Content </span>If the content is hosted remotely (e.g., the source is a URL), you can skip this step. </p>
+                    </li>
+                    <li>
+                        <p><span class="Emphasis">Local Content </span>If the external content files for IFrame insertion are located locally, copy these files with their exact folder structure to the <span class="Emphasis">Content</span> folder of your project. This is only necessary if you want the files  in the output when building the target. In this case,  check also the Target Editor's <span class="Emphasis">Advanced</span> tab to make sure the  content to include in the output options is set to <span class="Emphasis">All Content</span>.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>In the XML Editor, place the cursor in an empty paragraph where you want the IFrame to display. </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Insert</span> ribbon, select  <span class="Emphasis">IFrame</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/Flare/Interface/Buttons/Insert-IFrame-btn.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>From the Insert IFrame dialog, type the remote path into the <span class="Emphasis">Source</span> field. (Or, use the <img src="../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" alt="" title="" class="ReduceButtonSize" /> button to navigate to the starting page for the content to be displayed in the IFrame.)  Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/Flare/IFrame/IFrame-Insert-Default.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When linking to an external website, use an <span class="EmphasisItalic">https</span> URL rather than <span class="EmphasisItalic">http</span> (e.g., https://madcapsoftware.com).</p>
+                </div>
+            </li>
+            <li>
+                <p>An IFrame placeholder is displayed in the XML Editor. (The output shows the source content.)</p>
+                <p>
+                    <img src="../../Resources/Images/Flare/IFrame/IFrame-Placeholder.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <p>The output might look like this:</p>
+            <p>
+                <img src="../../Resources/Images/Flare/IFrame/IFrame-Output-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>You might want to change the source or edit the size of the IFrame to fit the needs of the source better. See <MadCap:xref href="Editing-IFrame.htm">Editing IFrame</MadCap:xref>.</p>
+    </body>
+</html>

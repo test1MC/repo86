@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>Place your cursor in a topic or template page and select <span class="Emphasis">Insert &gt; Proxy &gt; Insert Mini-Toc Proxy</span>.</li>
+            <li>
+                <p>(Optional) From the <span class="Emphasis">TOC Depth</span> field, select a number to dictate the depth of the mini-TOC.</p>
+                <p class="topic-only">For example, if the proxy is intended for print output and you want the mini-TOC to be based on heading levels in the topics, you might place the proxy after an h1 heading and select 4 as the depth. In that case, the proxy will include headings that are using h2, h3, and h4 styles (but not h5 or h6).</p>
+            </li>
+            <li>
+                <p>(Optional) From the <span class="Emphasis">Stylesheet class</span> field, you can select a style for the mini-TOC.</p>
+                <p class="topic-only">You might create and use style classes if you want to generate multiple mini-TOCs with different looks for each output. Otherwise, the generated mini-TOC will use the style settings from the parent MadCap|miniTocProxy style. You can create a style class for this purpose in the Stylesheet Editor. To do this, select the <span class="Emphasis">MadCap|miniTocProxy</span> style and click <span class="Emphasis">Add Class</span> to create a class. </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

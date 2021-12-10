@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:proxies;Proxies:troubleshooting" />Troubleshooting Proxy Issues</h1>
+        <p>Following are issues that may occur when working with different types of proxies in Flare.</p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test1" class="TroubleshootingLink">Breadcrumbs proxy displays the incorrect pathway</li>
+            </ul>
+            <div targetName="test1" class="troubleshoot">
+                <p class="Subheading">Breadcrumbs proxy displays the incorrect pathway</p>
+                <p>If  a single topic has more than one  entry in a particular TOC, the breadcrumbs path displays either (1) the  Content Explorer folder location of the topic or (2) the breadcrumb for the last entry of the topic in the TOC, rather than the breadcrumbs for the separate locations of the topic in the TOC.</p>
+                <p>
+                    <img src="../../Resources/Images/Flare/Troubleshooting/TS-Proxies1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p class="Subheading">Cause</p>
+                <p>When the output is generated with Flare, the breadcrumb trail is written into the topic file (it is not dynamic) so it can't change depending on which TOC entry you click on.</p>
+                <p class="Subheading">Solution</p>
+                <p>Here is the workaround for this problem. </p>
+                <ol>
+                    <li>Create the necessary number of empty topics and place them in the desired positions within the Content Explorer. Make sure they all have the same name. See <MadCap:xref href="../Topics/Main-Activities/Creating-Topics.htm">Creating Topics</MadCap:xref>.</li>
+                    <li>Create a snippet out of the topic content that you require. See <MadCap:xref href="../Snippets/Main-Activities/Creating-New-Snippets-Content.htm">Creating New Snippets from Existing Content</MadCap:xref>.</li>
+                    <li>Insert the snippet into each of the topics. See <MadCap:xref href="../Snippets/Main-Activities/Inserting-Snippets.htm">Inserting Snippets</MadCap:xref>.</li>
+                    <li>
+                        <p>Mark <span class="EmphasisItalic">all but one</span> of the topics as un-searchable, so that users do not retrieve multiple instances of the same topic when performing searches. To make topics un-searchable, perform the following steps.</p>
+                        <p class="Subheading">how to  exclude topics in search</p>
+                        <ol class="LowerAlpha">
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/General/Make-Sure-Content-Explorer-Open.flsnp" />
+                            </li>
+                            <li>In the Content Explorer,  select one of the topic files you created.</li>
+                            <li>In the local toolbar of the Content Explorer, click <img src="../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog for the topic opens.</li>
+                            <li>Click the <span class="Emphasis">Topic Properties</span> tab. </li>
+                            <li>Click the check box labeled <span class="Emphasis">Include topic when full-text search database is generated</span> so that it is unchecked.</li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In <MadCap:variable name="Outputs.HTMLHelp" />, all topics are always searchable.</p>
+                        </div>
+                    </li>
+                </ol>
+                <p>For more information on this process see <MadCap:xref href="../Topics/Other-Activities/Including-Excluding-Topics-Search1.htm">Including or Excluding Topics in Search</MadCap:xref>.</p>
+            </div>
+            <div style="clear:both">
+            </div>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>

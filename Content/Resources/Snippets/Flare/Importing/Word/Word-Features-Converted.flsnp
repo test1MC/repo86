@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>The following table shows some Word features how what happens to them when you import documents into Flare.</p>
+        <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Word Feature</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Result After Import</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasisPreWhiteSpace">Artwork and Special Effects</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../Images/Images-Word-Imports-Workarounds.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasisPreWhiteSpace">File Names</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">Image file names are treated in the following ways for linked and embedded images:</p>
+                        <ul>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Linked Images </span>If you have inserted a picture as a <span class="EmphasisItalic">linked</span> image in a Word document, the file name for the image is <span class="EmphasisItalic">preserved</span> when imported into Flare. The image file is stored by default at the root of the Resources &gt; Images subfolder in the Content Explorer.</p>
+                            </li>
+                            <li>
+                                <p><span class="SetOffFirstLevel">Embedded Images </span>If you have inserted a picture as an <span class="EmphasisItalic">embedded</span> image in a Word document, the file name for the image is <span class="EmphasisItalic">based on the topic name</span> when imported into Flare. The image file is stored by default in the Resources &gt; Images &gt; [Word Document Name] subfolder in the Content Explorer.</p>
+                            </li>
+                        </ul>
+                        <div class="topic-only">
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a Word document called "Doggies." Within this document you have an h1 called "Dog Breeds." Under this heading, you have inserted a <span class="EmphasisItalic">linked</span> picture of Beagles (file name: beagles.png). You have also <span class="EmphasisItalic">embedded</span> a picture of West Highland White Terriers (file name: WestHighlandWhiteTerriers.jpg). After you import the document into Flare, you see that the following has occurred:</p>
+                                <p>First, notice that the beagles.png file name has been preserved, and this file is stored in the root of the Images subfolder.</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Word/Word-Import-Preserve-Image-Names1.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <p>Second, notice that the image for the West Highland White Terriers was simply named "Dog Breeds.jpg," after the name of the topic that was created as a result of the h1 text. Also, a subfolder called "Doggies" has been created, based on the name of the Word document. That's where this image file is stored.</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Word/Word-Import-Preserve-Image-Names2.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasisPreWhiteSpace">Image Alt Text and Description</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">If you have an image in a Word document that contains alt text or a description, both are brought in to Flare. After the Word document is imported, you can open the topic containing the image, right-click on the image, and select <span class="Emphasis">Image Properties</span>. In the Image Properties dialog, the description for the image is shown in the Screen Tip field, and the alt text is shown in the Alternate Text field.</p>
+                        <div class="topic-only">
+                            <p MadCap:conditions="General.Online-Only" class="TableText">
+                                <img src="../../../../Images/Flare/Importing/Word/Word-Import-Alt-Text.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                        <p class="TableTextEmphasisPreWhiteSpace">Linked Images</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">When you insert an image in Word, one of the options is to insert it as a linked image.</p>
+                        <div class="topic-only">
+                            <p MadCap:conditions="General.Online-Only">
+                                <img src="../../../../Images/Flare/Importing/Word/Word-Image-Link.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </div>
+                        <p class="TableText" MadCap:conditions="General.Online-Only">These types of images are imported into Flare.</p>
+                        <div class="topic-only">
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you received a Word document with linked images from another person—rather than creating the document yourself—you need to also get the images themselves from that individual. Then you need to re-link the images in the document. Otherwise, Word (and therefore also Flare) will not be able to find them.</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasisPreWhiteSpace">Videos</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">If you import a Word document that contains a direct link to a video, it is brought into the Flare project.</p>
+                        <p class="TableText">This only works for direct video links. For example, if you have Word 2013, you can look for and insert videos from Bing or YouTube. These are direct link videos that are supported. But those from video embed codes are not supported.</p>
+                        <div class="topic-only">
+                            <p MadCap:conditions="General.Online-Only">
+                                <img src="../../../../Images/Flare/Importing/Word/Word-Import-Videos.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

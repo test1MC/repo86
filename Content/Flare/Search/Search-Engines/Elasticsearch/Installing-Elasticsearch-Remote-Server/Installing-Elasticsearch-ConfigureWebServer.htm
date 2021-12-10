@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <meta name="description" content="Installing programs and editing environment variables for the web server." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Search:Elasticsearch;Elasticsearch:installation" />Configuring the Web Server</h1>
+        <p>At this point, .NET Framework and IIS are installed for the Elasticsearch engine. A couple more programs are needed for the server, and a new system environment variable. Go through each section to confirm you have all the programs and correct options set, and then follow the given  procedures if anything is missing.</p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Install .NET Core</h2>
+        <p>The Microsoft .NET Core 3.1.x Windows Hosting Bundle is needed for apps to run behind the IIS. This Windows Hosting Bundle should be installed after IIS is installed.</p>
+        <ol>
+            <li>In a browser, navigate to <a href="https://dotnet.microsoft.com/download/dotnet-core" target="_blank">https://dotnet.microsoft.com/download/dotnet-core</a>.</li>
+            <li>
+                <p>Click <span class="Emphasis">.NET Core 3.1</span>. There are other versions available, but 3.1 is recommended.</p>
+            </li>
+            <li>
+                <p>Scroll down to the release version (e.g., v3.1.1) to download, click the Windows <span class="Emphasis">Hosting Bundle</span> Installer link.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-WinHostingBundle-DownloadEx.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>In Microsoft’s configuration dialog, follow the installation wizard.</li>
+            <li>Reboot (server or computer).</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Download Java JDK</h2>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Oracle charges license fees to use their Java Development Kit (JDK). Therefore, we also provide support for a free alternative to Oracle's JDK. This alternative—Open JDK—can be used to support Elasticsearch on both local and remote servers made through the Content Services Portal. Links to download Oracle and the Open JDK versions are both available from <a href="https://www.madcapsoftware.com/downloads/java.aspx" target="_blank">https://www.madcapsoftware.com/downloads/java.aspx</a>.</p>
+        </div>
+        <ol>
+            <li>In a browser, navigate to <a href="https://www.madcapsoftware.com/downloads/java.aspx" target="_blank">https://www.madcapsoftware.com/downloads/java.aspx</a>.</li>
+            <li>Choose one of the following Java JDK links to download.<ol><ul><li><p>Click <span class="Emphasis">Oracle (JDK) Java SE Development Kit</span> (this option may have costs associated with it).<ol style="list-style-type: lower-alpha;"><li><p>From the Java SE Development Kit 8 Download web page, scroll down to the <span class="Emphasis">Java SE Development Kit 8u261</span> section (see <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html" target="_blank">https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html</a>). The latest version available is subject to change.</p></li><li>Determine the appropriate Windows option for your machine (e.g., Windows x64, or Windows x86).</li><li>Select the corresponding download file (e.g., for Windows x64, the link is jdk-8u261-windows-x64.exe).</li><li>Click the executable file to install.</li></ol></p></li></ul><ul><li><p>Click <span class="Emphasis">Open JDK Java 1.8</span> (this option is free).<ol style="list-style-type: lower-alpha;"><li>From the ojdkbuild web page, scroll down to the <span class="Emphasis">Downloads for Windows x86_64</span> section. See <a href="https://github.com/ojdkbuild/ojdkbuild" target="_blank">https://github.com/ojdkbuild/ojdkbuild</a>.</li><li><p>From the bulleted list items, locate the latest version for the MSI installer (e.g., java-1.8.0-openjdk-1.8.0.265-1.b01.ojdkbuild.windows.x86_64.msi). The latest version available is subject to change (build numbers in path for given example might not match).</p><p><img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-JDK-DownloadEx.png" alt="" title="" class="MaxWidth100Percent" /></p></li><li>Click the <span class="Emphasis">MSI</span> executable file to install.</li></ol></p></li></ul></ol></li>
+        </ol>
+        <h2>How to Edit Environment Variables</h2>
+        <p>After Java JDK has been installed, a new environment variable is needed.</p>
+        <ol>
+            <li>From the Windows Search bar, type <span class="TypedEntry">Environment Variables</span>.</li>
+            <li>Click the resulting item from the Control Panel, <span class="Emphasis">Edit the system environment variables</span>. The System Properties dialog opens.</li>
+            <li>
+                <p>Click the <span class="Emphasis">Environment Variables</span> button.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-SysEnvVar1.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the Environment Variables dialog, in the <span class="Emphasis">System variables</span> section, click <span class="Emphasis">New</span>.</p>
+            </li>
+            <li>
+                <p>In the New System Variable dialog, in the <span class="Emphasis">Variable name</span> field, type <span class="TypedEntry">JAVA_HOME</span>.</p>
+            </li>
+            <li>
+                <p>Use the <span class="Emphasis">Browse Directory</span> or <span class="Emphasis">Browse File</span> to navigate to the folder where Java JDK was installed. Once selected, the <span class="Emphasis">Variable value</span> field populates with that path (e.g., C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.252-2). Then click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-SysEnvVar3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the Environment Variables dialog, click <span class="Emphasis">OK</span>.</p>
+            </li>
+            <li>
+                <p>In the System Properties dialog, click <span class="Emphasis">OK</span>.</p>
+            </li>
+            <li>
+                <p>Reboot after adding the environment variable.</p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>Optional—How to Verify the Java JDK Installation</h2>
+        <ol>
+            <li>From the Windows Search bar, type <span class="TypedEntry">cmd</span>, and press <span class="Emphasis">ENTER</span> to open a command prompt.</li>
+            <li>
+                <p>At the command prompt, type <span class="TypedEntry">javac</span> and press <span class="Emphasis">ENTER</span>. If you see javac options display below the command prompt, then Java JDK is working properly.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Elasticsearch-Remove-Server-Javac.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Close the command prompt.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>
+            <MadCap:xref href="Installing-Elasticsearch-FlareFiles-Remote-Server.htm">Gathering Required Files for the Remote Server</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+    </body>
+</html>

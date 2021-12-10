@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>What if there is a conflict between your selected medium and a media query, or a conflict between media queries themselves? Media queries will always have precedence over your selected medium. As far as multiple media queries are concerned, the end result depends on the order of the media queries in your stylesheet (when viewing it in the Internal Text Editor). The general rule is that priority is given to whichever media query is listed last (i.e., the one that was added most recently) in the stylesheet. Then the next one above has the next highest priority, and so on. You can always open your stylesheet in the Internal Text Editor and change the order of the media queries.</p>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Place the cursor  in an empty paragraph where you want to insert a question section.</li>
+            <li>From the <span class="Emphasis">eLearning</span> ribbon, select the <span class="Emphasis">Multiple Choice</span> button or the <span class="Emphasis">Multiple Response</span> button.<span class="topic-only"> Default question text is added along with one answer.</span></li>
+            <li class="topic-only">(Optional) From the <span class="Emphasis">eLearning</span> ribbon, select the <span class="Emphasis">Question Properties</span> button. The Question Properties window pane opens to the right of the editor. This offers editing options that are not available from the ribbon or editor. See <MadCap:xref href="../../../../Flare/LMS/Other-Activities/Tools-LMS-Content/Question-Properties-Window-Pane.htm">Question Properties Window Pane</MadCap:xref>. </li>
+            <li>Enter your question and answer.<ul><li class="topic-only">Replace the default text in the first paragraph with a question. </li><li class="topic-only">Replace the default text in the second paragraph with an answer.</li></ul></li>
+            <li>To add more answers, press <span class="Emphasis">ENTER</span>  for another paragraph to display. <span class="topic-only">Repeat this until all the answer options are included.</span></li>
+            <li>Assign the correct answer(s).<ul><li class="topic-only"><span class="Emphasis">Multiple Choice </span>Select the circle before the correct answer in the editor. Alternatively, select the correct answer’s paragraph, and then from the Question Properties window pane or from the <span class="Emphasis">MadCap:multipleChoiceItem</span> structure bar context menu, select <span class="Emphasis">Correct Answer</span>.</li><li class="topic-only"><span class="Emphasis">Multiple Response </span>Select the square before each correct answer. Alternatively, select the correct answer's paragraph, and then from the Question Properties window pane or from the <span class="Emphasis">MadCap:multipleChoiceItem</span> structure bar context menu, select <span class="Emphasis">Correct Answer</span>.</li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

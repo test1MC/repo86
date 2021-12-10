@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>From the TOC Editor, right-click the test node and select <span class="Emphasis">Test Options</span>. </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">eLearning</span> tab, next to the <span class="Emphasis">Pass Page</span> field, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Insert-Hyperlink-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+            </li>
+            <li>
+                <p>From the Select File dialog, navigate to your custom pass page file, and select <span class="Emphasis">Open</span>. The file is added in properties as the link.</p>
+            </li>
+            <li>
+                <p>Do the same steps for the <span class="Emphasis">Fail Page</span> option, and click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../Images/Flare/LMS/Pass-Fail-Links.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <p>A custom test results page (i.e., a linked topic) might look like this in the output:</p>
+            <p>
+                <img src="../../../Images/Flare/LMS/LMS-CustomResults-Ex.png" alt="" title="" class="MaxWidth75Percent" />
+            </p>
+        </ol>
+    </body>
+</html>

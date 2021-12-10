@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>If you plan to invite viewers:<ul><li>Make sure you have <a href="../../../../Central/Teams/Creating-Teams.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">created at least one team</a> that will be associated with the live private site.</li><li>Make sure you have <a href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Creating-Sites.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">created a site</a>, setting it as <a href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Setting-Sites-Live.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">live</a> and <a href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Setting-Sites-Private.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">private</a>, and <a href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Associating-Teams-Sites.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">associating the appropriate team(s) with it</a>.</li></ul></li>
+            <li>On the left side of the interface, click <b>Users</b>.</li>
+            <li>In the toolbar click <img src="../../../Images/Central/Interface/Buttons/Create-Team-User-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+            <li>
+                <p>On the first page of the wizard, make note of how many seats of each user type are available to you. If you require more, you can click the link on the page to purchase more seats. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Server/Purchasing-Seats-Space.htm">Purchasing User Seats and Storage Space</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>Alternatively, you can deactivate an existing user to free up a user seat. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Users/Other-Activities/Deactivating-Users.htm">Deactivating Users</MadCap:xref>.</MadCap:conditionalText></p>
+                <p MadCap:conditions="Central-Guides.Central-Users-and-Teams-Guide">For more information, see the online Help.</p>
+            </li>
+            <li>At the bottom select <span class="Emphasis">Add One User</span>.</li>
+            <li>From the <span class="Emphasis">User Seat Type</span> field, select the kind of user you want to invite.</li>
+            <li>Complete the <b>First Name</b>, <b>Last Name</b>, and <b>Email</b> fields. Then Click <span class="Emphasis">Next</span>.</li>
+            <li>
+                <p>If you selected the author seat type, choose the permissions that you want to give the new user. Then click <span class="Emphasis">Next</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For details, see <MadCap:xref href="../../../../Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Central-Guides.Central-Users-and-Teams-Guide">For details, see <MadCap:xref href="../../../../Print-Only-Topics/Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You cannot set permissions for SMEs or viewers.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="Invite-Users-Select-Teams.flsnp" /> Then click <span class="Emphasis">Next</span>.</li>
+            <li>If you selected the viewer seat type, from the <span class="Emphasis">Onboarding Site</span> drop-down, choose the default live private site. Even though viewers might be associated with multiple live private sites, when they first click the link in their invitation email to set up a username and password, they are automatically logged in to the site you choose in this wizard. After selecting a site from this drop-down, click <span class="Emphasis">Next</span>.</li>
+            <li>Click <span class="Emphasis">Send Invite</span>. <span class="topic-only">If the invitation is successful, an email is sent to the user. The user must click the link in the email to activate the account. Until users activate the account, they are listed as "Invited" in the system (on the Users page). </span></li>
+            <li>On the progress page, you can click <span class="Emphasis">Close</span> while the invitation is being sent.</li>
+        </ol>
+    </body>
+</html>

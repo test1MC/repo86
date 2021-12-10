@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All.flsnp" MadCap:conditions="Flare-Guides.Flare-Targets-Guide,General.Online-Only" />
+        <p>Let's say you have imported <MadCap:variable name="Outputs.Word" />, Adobe FrameMaker, Microsoft Excel, or <MadCap:variable name="Other.Product" /> files from another project, and when doing so, you selected the "Easy Sync" option to automatically reimport the files when you generate output. If you want to override that Easy Sync setting for a specific target, you can do so by using the steps below. Therefore, if you want to reimport any of the files, you will need to do so manually. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Global-Project-Linking/GPL-Importing-Files1.htm">Global Project Linking—Importing Files from Other Projects</MadCap:xref>,<MadCap:xref href="../../../../Flare/Importing/Other-Applications-Files/Word/Importing-Word-Files.htm">Importing Word Files</MadCap:xref>, <MadCap:xref href="../../../../Flare/Importing/Other-Applications-Files/FrameMaker/Importing-FM-Files.htm">Importing FrameMaker Files</MadCap:xref>, and <MadCap:xref href="../../../../Flare/Importing/Other-Applications-Files/Excel/Importing-Excel-Files.htm">Importing Excel Files</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Import-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Importing/Importing-Word-Files.htm">Importing Word Files</MadCap:xref>, <MadCap:xref href="../../../../Print-Only-Topics/Flare/Importing/Importing-FM-Files.htm">Importing FrameMaker Files</MadCap:xref>, and <MadCap:xref href="../../../../Print-Only-Topics/Flare/Importing/Importing-Excel-Files.htm">Importing Excel Files</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>You might decide to use this option, for example, if you are testing the generation of output and do not want to wait the extra time for the files to be imported. After you finish your testing, you can deselect this option to return to the automatic imports of the files.</p>
+        <h2>How to Disable Auto-Sync of Import Files</h2>
+        <ol>
+            <li>Open the target.</li>
+            <li>In the Target Editor, select the <span class="Emphasis">General</span> tab. </li>
+            <li>Select the check box labeled <span class="Emphasis">Disable auto-sync of all import files</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

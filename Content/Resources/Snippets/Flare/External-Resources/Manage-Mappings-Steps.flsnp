@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Select <span class="Emphasis">Project &gt; Manage Mappings</span>. </li>
+            <li>
+                <p>Use the Map Files and Folders dialog to do any of the following.</p>
+                <p class="Subheading">To Create or Change a Mapping</p>
+                <ol>
+                    <li>If you are creating a new mapping, in the blank row click in the <span class="Emphasis">Project Path</span> cell. If you are changing an existing mapping, in the appropriate populated row click in the <span class="Emphasis">Project Path</span> cell.</li>
+                    <li>In that cell click <img src="../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />.</li>
+                    <li>In the dialog that opens, find and double-click the copy of the file located in your project.</li>
+                    <li>Click in the <span class="Emphasis">External Path</span> cell.</li>
+                    <li>In that cell click <img src="../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />.</li>
+                    <li>In the dialog that opens, find and double-click the source file located outside of your project.</li>
+                </ol>
+                <p class="Subheading">To Remove a Mapping</p>
+                <ol>
+                    <li>Click on the icon on the far left side of the row you want to delete. This highlights the entire row.</li>
+                    <li>At the bottom of the dialog click <span class="Emphasis">Remove</span>.</li>
+                </ol>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

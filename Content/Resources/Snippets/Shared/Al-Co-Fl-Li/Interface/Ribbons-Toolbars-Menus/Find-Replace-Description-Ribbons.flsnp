@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p class="TableText">Opens a submenu, which lets you choose from various options.</p>
+        <ul>
+            <li value="1" MadCap:conditions="Products.Contributor,Products.Flare,Products.Lingo"><span class="SetOffFirstLevel">Find and Replace in Files </span>Opens the Find and Replace in Files window pane, which lets you search for and replace text in multiple documents. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Editor-Tools/Find-Replace/Main-Activities/Finding-Replacing-Text.htm">Finding and Replacing Text</MadCap:xref></MadCap:conditionalText>.<MadCap:conditionalText MadCap:conditions="Products.Contributor">See <MadCap:xref href="../../../../../../Contributor/Editor-Tools/Find-Replace/Main-Activities/Finding-Replacing-Text.htm">Finding and Replacing Text</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Lingo">See <MadCap:xref href="../../../../../../Lingo/Find-Replace/Main-Activities/Using-Find-Replace.htm">Finding and Replacing Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li value="1" MadCap:conditions="Products.Align"><span class="SetOffFirstLevel">Find in Files </span>Opens the Find in Files window pane, which lets you search for and replace text in multiple documents. See <MadCap:xref href="../../../../../../Align/Find-Replace/Find-Files.htm">Using the Find in Files Feature</MadCap:xref>.</li>
+            <li value="5"><span class="SetOffFirstLevel">Find Results 1 </span>Opens the Find Results 1 window pane, which is used to display results from a search in the Find in and Replace in Files window pane. </li>
+            <li value="6"><span class="SetOffFirstLevel">Find Results 2</span> Opens the Find Results 2 window pane, which is used to display results from a search in the Find in and Replace in Files window pane. </li>
+            <li MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel"><MadCap:keyword term="Finding:elements;Elements:finding" />Find Elements </span>Opens the Find Elements window pane, which is used for finding files containing particular elements—custom tags, MadCap-specific features (e.g., drop-down text, concepts, equations), markup, inline styles, and style classes. You have the flexibility to look in all files in the project or only in the open documents. The results of the search are displayed in either the Find Results 1 window pane or in the Find Results 2 window pane, depending on your selection. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Editor-Tools/Find-Replace/Main-Activities/Finding-Replacing-Elements.htm">Finding and Replacing Elements</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

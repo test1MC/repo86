@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="196" MadCap:lastWidth="756">
+    <body>
+        <p MadCap:conditions="Products.Flare">With this option:</p>
+        <ul MadCap:conditions="Products.Flare">
+            <li>You will not be prompted before the "get" is performed.</li>
+            <li>
+                <MadCap:variable name="Other.Product" /> will not get the latest copy of the files in the Targets folder, because that would conflict with the generation of the output.</li>
+            <li>Conflicts with files will not cause local files to be overwritten. Therefore, if your local files are writable or already checked out, those files will be kept, rather than overwritten with the source control files.</li>
+        </ul>
+    </body>
+</html>

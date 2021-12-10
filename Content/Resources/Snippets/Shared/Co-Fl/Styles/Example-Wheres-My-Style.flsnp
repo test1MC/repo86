@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Lists</p>
+            <p>Your cursor is on a regular paragraph and you want to apply a list style to it in order to turn it into the beginning of a bulleted list. Because it is not yet a list item, but rather a simple paragraph, you won't see your list style in the Styles window pane when you try to select it. Instead, you  see several paragraph styles. In order to use the list style, you first need to turn the paragraph into a bulleted list item, by opening the <span class="Emphasis">Home</span> ribbon and clicking the bullet button <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Bullet-List-btn.png" class="ReduceButtonSize" />.</p>
+            <p>You might notice that if you have your cursor in a list, you only see li (list item) styles in the window pane, but not the broader ol (ordered list) and ul (unordered list) styles. To see these other styles, click at the very beginning of a list item. Then press the left arrow key. This should switch the Style window pane from showing li styles to the ol  and ul  styles. If you have your structure bars on, you'll see why this happens. When you initially click in a list,  the li block bar is highlighted, so <MadCap:variable name="Other.Product" /> assumes you want to do something with that style level. After you press your left arrow key enough,  the next level up (ol or ul) becomes highlighted. And if you keep pressing the left arrow key, <MadCap:variable name="Other.Product" /> highlights the next level of style (e.g., body). Whatever is highlighted in the structure bar should become available as styles in the Style window pane.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Paragraph and Character Styles</p>
+            <p>You've selected multiple paragraphs, or your cursor is simply placed somewhere within a paragraph. In that case, only block-level styles (such as paragraph styles) are shown in the Styles window pane.</p>
+            <p>But if you select only a portion of a paragraph, only character styles are shown in the Styles window pane. So if you expect to be able to choose a block-level style, such as a paragraph style, you can't; because only a portion of the paragraph is selected, <MadCap:variable name="Other.Product" /> thinks you want to choose a character-level style.</p>
+        </div>
+    </body>
+</html>

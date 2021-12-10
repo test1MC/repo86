@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You create a CSS variable on the :root selector and you name it "--Brand." On this variable, you set the color #bed420. Then, you insert that variable into the color property for your h1 style.</p>
+            <p>If you <span class="EmphasisItalic">do not enable the option</span> to resolve CSS variables, the color will not be seen in the topic in Internet Explorer. And if you inspect that topic in the output (e.g., right click on the topic and select <b>Inspect element</b>), you will see this:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Resolve-CSS-Variables2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <p>But if you <span class="EmphasisItalic">do enable the option</span>, the color will be seen in the topic in Internet Explorer. And it will look like this if you inspect the topic:</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Resolve-CSS-Variables3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

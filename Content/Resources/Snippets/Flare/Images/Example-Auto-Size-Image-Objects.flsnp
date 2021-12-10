@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a MadCap Capture image in a topic that looks like this, with a text callout:</p>
+            <p>
+                <img src="../../../Images/Flare/Images/Images-Autosize-Objects2.png" alt="" title="" class="MaxWidth50Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+            <p MadCap:conditions="">You send your project away to be translated into Spanish. When the translator returns the project to you, the callout looks like this, with some text cut off:</p>
+            <p>
+                <img src="../../../Images/Flare/Images/Images-Autosize-Objects3.png" alt="" title="" class="MaxWidth50Percent" />
+            </p>
+            <p MadCap:conditions="">Unfortunately, you do not speak Spanish, so you're not aware of the issue. Therefore, in the target in Flare, you select the option to auto-size the callout object holding the text as necessary.</p>
+            <p MadCap:conditions="">When you generate the output, the callout is automatically resized so that it looks like this, showing all of the translated text:</p>
+            <p>
+                <img src="../../../Images/Flare/Images/Images-Autosize-Objects4.png" alt="" title="" class="MaxWidth50Percent" />
+            </p>
+        </div>
+    </body>
+</html>

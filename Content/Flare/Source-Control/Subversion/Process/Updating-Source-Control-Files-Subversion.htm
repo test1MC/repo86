@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Subversion.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="After you bind a Flare project to Subversion, you can update any of the source control files." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control:get latest version;Projects:source control;Source control:update" />
+            <MadCap:concept term="FilterFeatures" />Updating Source Control Files<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Subversion</MadCap:conditionalText></h1>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Update-Summary.flsnp" />
+        </p>
+        <p>Following are steps for getting the latest version of all files in a project automatically, as well as steps for getting the latest version of files manually.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Automatic Update</h2>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Source-Control/Update-Files-Automatically1.flsnp" />
+        </p>
+        <p>With this option:</p>
+        <ul>
+            <li>You will not be prompted before the update is performed.</li>
+            <li><MadCap:variable name="Other.Product" /> will not get the latest copy of the files in the Targets folder, because that would conflict with the generation of the output.</li>
+            <li>Conflicts with files will not cause local files to be overwritten. Therefore, if your local files have been modified, those files will be kept, rather than overwritten with the source control files.</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+        <div class="IndentMedium">
+            <h3>How to Update Source Control Files Automatically</h3>
+            <ol>
+                <li>Open the target.</li>
+                <li>In the Target Editor, select the <span class="Emphasis">General</span> tab. </li>
+                <li>Select the check box labeled <span class="Emphasis">Automatically get latest version of all files before generating the target</span>. </li>
+                <li>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+                <li>Build the target.</li>
+            </ol>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The "automatic get" feature is not supported if you are building output using the command line, as opposed to the <MadCap:variable name="Other.Product" /> interface. </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+        <h2>Manual Update</h2>
+        <p>You can manually update all of the files in the <MadCap:variable name="Other.Product" /> project or specific files only.</p>
+        <div class="IndentMedium">
+            <h3>How to Update Source Control Files Manually</h3>
+            <ol>
+                <li>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    <ul>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Update</b> (for selected files) or <span class="Emphasis">Source Control &gt; Update All</span> (for all files in the project). </p>
+                        </li>
+                        <li><span class="SetOffFirstLevel">Right-Click </span>If you have the Content Explorer, Project Organizer, Pending Changes window pane, File List open, right-click the file you want to update and select <span class="Emphasis">Source Control &gt; Get Latest Version</span>.</li>
+                        <li><span class="SetOffFirstLevel">Source Control Explorer </span>With the Pending Changes pane open, right-click the file you want to update and select <span class="Emphasis">Get Latest Version</span>.</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>If the local and server files are the same, a message tells you so. Click <span class="Emphasis">OK</span>.</p>
+                    <p>If the local file is different from the file on the server, the Resolve Conflicts dialog opens. If you want to accept all of the differences between the local and server files, thus merging them, click <span class="Emphasis">Auto Merge All</span>. If you want to review the differences in the files side by side and resolve each conflict, click <span class="Emphasis">Resolve</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Source-Control-Guide-Subversion">For more information about merging files and resolving conflicts, see <MadCap:xref href="Merging-Source-Control-Files.htm">Merging Source Control Files—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+                </li>
+            </ol>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">By default, when you open a project that is bound to source control, a message automatically asks if you want to update files. However, you can disable this prompt in the Options dialog (<span class="Emphasis">File &gt; Options</span>). <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion,General.Online-Only">See <MadCap:xref href="../Other-Activities/Disabling-Get-Latest-Prompt-Subversion.htm">Disabling the Get Latest Prompt for Source Control—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

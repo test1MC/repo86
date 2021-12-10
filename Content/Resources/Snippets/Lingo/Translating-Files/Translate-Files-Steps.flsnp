@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>(Optional) Before you start translating text, you may want to select <span class="Emphasis">Home &gt; Translate project with TM</span>. This scans your translation memory to find 100% matches for untranslated segments and applies those translations accordingly. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Lingo-Guides.Lingo-Translation-Guide">See <MadCap:xref href="../../../../Lingo/Translation-Memory/Process/Applying-TM-Suggestions-Segments.htm">Applying TM Suggestions to Segments</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p>From the File List window pane, open the file you want to translate. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Lingo/Translating-Files/Viewing-List-Files-Requiring-Translation.htm">Viewing Files Requiring Translation</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>The file segments are shown in the <MadCap:keyword term="Translation Editor" />Translation Editor. The source text is shown in the left column. The right column, which is initially empty by default, is where you enter the translation.</p>
+                <div class="note" MadCap:conditions="General.Online-Only,Lingo-Guides.Lingo-Translation-Guide">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can customize the way the Translation Editor and Translation Memory Editor display translation segments. You can display the source and target segments next to each other, or with the source segment above the target segment. You can also adjust the editor font size, which resizes translation segments, translation suggestions, and segment notes based on your desired font size. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Lingo/Interface/Dialogs/Options-Dialog.htm#interface">Interface Tab</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+            <li>
+                <p>Click in a target cell (the right column) of a segment row. The cell may remain empty until you type in it, or the cell may become immediately filled with a perfectly matching translation from TM.</p>
+                <div class="note" MadCap:conditions="General.Online-Only,Lingo-Guides.Lingo-Translation-Guide">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you change the fuzzy matches percentage in the Options dialog, a segment doesn't necessarily have to have a 100% match to be automatically filled in when you click on it. For example, you can change the option so that segments with a 95% match are considered exact.</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Translating-Files/Fuzzy-Match-Fill-In.png" alt="" title="" class="MaxWidth95Percent" />
+                    </p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+                <div class="note" MadCap:conditions="General.Online-Only,Lingo-Guides.Lingo-Translation-Guide">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you prefer to use the old behavior from previous versions of <MadCap:variable name="Other.Product" /> (i.e., automatically display a copy of source segments even if no match is found in TM), you can select a check box on the Translation Memory tab of the Options dialog (<span class="Emphasis">File &gt; Options</span>).</p>
+                    <p>
+                        <img src="../../../Images/Lingo/Translating-Files/Copy-Source-No-TM.png" alt="" title="" class="MaxWidth95Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>Type your translation.</li>
+                    <li>If the TM Suggestions tab below shows a match for the segment that you want to use, double-click it. The target cell becomes filled with that translation. You can keep the translation as it is, or you can click in the cell and adjust it.</li>
+                </ul>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul style="list-style-type: square;">
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Home &gt; [one of the Confirm buttons]</b>.</p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">ENTER</span>.</p>
+                        <p>OR</p>
+                        <p>Press <span class="Emphasis">CTRL+SHIFT+Down Arrow</span> or <span class="Emphasis">CTRL+SHIFT+Up Arrow</span> on your keyboard (to move to the next or previous untranslated segment, respectively).</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click</span> Right-click in the cell and from the context menu select <span class="Emphasis">Confirm</span>.</li>
+                </ul>
+                <p>The translation is confirmed and focus moves to the next appropriate cell. After a segment is translated and confirmed, the Status cell becomes gray and a check mark is shown in it. Also, if you are using TM, the translation is automatically uploaded to the database.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

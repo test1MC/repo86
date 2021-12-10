@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If you've used the Foundation framework, you know that there are several styles involved. In the simplified Flare system, there are only a few styles to know about.</p>
+        <p>
+            <MadCap:snippetText src="../Tutorials/Responsive-Layout-Styles-Div.flsnp" />
+        </p>
+        <p>
+            <img src="../../../Images/Flare/Responsive-Design/Responsive-Layout3.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>In fact, when you are all done adding cells to the row and assigning columns, you will also end up with multiple complex selectors in your stylesheet. These selectors consist of div styles, using the nth-child pseudo class for each cell.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-HTML5-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In the following image, we have a responsive layout with three cells, so we have three complex selectors; the number at the end in parentheses represents the order of the cells.</p>
+            <p>
+                <img src="../../../Images/Flare/Responsive-Design/Responsive-Layout4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Maybe you want to make formatting adjustments to the second cell in this row style. In that case, you would select <span class="Emphasis">div.My-Responsive-Layout &gt; div:nth-child(2)</span> and modify the properties for it on the right side of the editor.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+        <p>When you click in a cell in the XML Editor, the Responsive Layout window pane will show the relevant complex selector and the definitions for it. You cannot edit this part of the Responsive Layout window pane, but you can copy and paste it elsewhere if necessary. If you click the <span class="Emphasis">Edit</span> button below this section, the stylesheet opens and automatically chooses the appropriate selector so that you can edit its properties.</p>
+        <p>
+            <img src="../../../Images/Flare/Responsive-Design/Responsive-Layout5.png" alt="" title="" class="MaxWidth60Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+        <MadCap:snippetBlock src="Tip-Responsive-Content-Styles.flsnp" />
+    </body>
+</html>

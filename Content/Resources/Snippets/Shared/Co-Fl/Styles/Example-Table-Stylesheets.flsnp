@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You might use two different types of tables<MadCap:conditionalText MadCap:conditions="Products.Flare"> in your project</MadCap:conditionalText>—a basic one (with simple borders and no shading) and a patterned one (with customized borders and colored shading in certain rows and columns). So you create one table stylesheet (let's say it's called "Basic.css") and format it the way you want, and then you create a second table stylesheet (let's say it's called "Alternate-Row-Color.css") and format it. Then, as you insert tables into your topics, you can associate the new table with one of these two table stylesheets. </p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Styles/Table-Stylesheet-Pattern1.png" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl/Styles/Table-Stylesheet-Pattern2.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

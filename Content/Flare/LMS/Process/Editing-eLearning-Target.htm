@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-LMS-Video7-Targets.flmsp');">
+    <head>
+        <meta name="description" content="The HTML5 target is where you set the eLearning course output options, and where you compile eLearning material. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Learning and development" />
+            <MadCap:concept term="FilterFeatures" />Editing a Target for eLearning Output</h1>
+        <p>An HTML5 target is where you can set eLearning course options for final online output. The format of the output depends on the type of HTML5 skin you choose (e.g., Side Navigation, Top Navigation, Tripane, skinless).</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/LMS/LMS-PDF-Output-Type-Note.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Edit the eLearning Target</h2>
+        <p>The following describes options in the Target Editor for when you have an eLearning course as the target. <MadCap:conditionalText MadCap:conditions="General.Online-Only">If you are interested in editing generic target properties, see <MadCap:xref href="../../Step4-Developing-Targets/Process/Editing-Target-Settings/Editing-Target-Settings.htm">Editing Target Settings</MadCap:xref>.</MadCap:conditionalText></p>
+        <ol>
+            <li>
+                <p>From the Project Organizer, expand the <span class="Emphasis">Targets</span> folder, and double-click your eLearning  target. The Target Editor opens.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">General</span> tab, select the <span class="Emphasis">Startup Topic</span> drop-down. Select a topic that you want learners to land on when first viewing online output. You can optionally select <span class="Emphasis">(default)</span>; this defaults to the first topic in the TOC.<MadCap:conditionalText MadCap:conditions="General.Online-Only">  See <MadCap:xref href="../../Step4-Developing-Targets/More/Specifying-Startup-Topic.htm">Specifying the Startup Topic in a Target</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Primary TOC</span> for the course.</p>
+            </li>
+            <li>
+                <p>(Optional) From the <span class="Emphasis">Skin</span> tab, select the <span class="Emphasis">eLearning Toolbar</span> drop-down to choose a customized toolbar skin component. See <MadCap:xref href="../Other-Activities/Editing-eLearning-Skin-Editor.htm">Working With the eLearning Toolbar Skin</MadCap:xref>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Associate-Skin-Components-Target.flsnp" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p>(Optional) From the <span class="Emphasis">eLearning</span> tab, select the <span class="Emphasis">Standard</span> drop-down. Choose the learning management system (LMS) standard to generate. You can only select one per target. </p>
+                <p>Generating a standard LMS package is not necessary if you just want to test and build a course locally. In this case, select <span class="Emphasis">none</span>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you select to generate an LMS package, a zip file will get created and stored in the target's output folder when the build completes. </p>
+                </div>
+            </li>
+            <li>
+                <p>(Optional) Depending on the LMS standard selected, update the corresponding fields that follow. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/LMS/LMS-eLearning-Standard-Options.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+            </li>
+            <ul>
+                <li>
+                    <p><span class="Emphasis">Name</span> Enter a name that helps to quickly determine the purpose of the course.</p>
+                </li>
+                <li>
+                    <p><span class="Emphasis">Description</span> Optionally enter a description for the course.</p>
+                </li>
+                <li>
+                    <p><span class="Emphasis">ID</span> This is an ID for the course. Use the default, or customize.</p>
+                    <ul>
+                        <li>
+                            <p><span class="Emphasis">xAPI </span>For the xAPI standard, the ID is a URL so the course can launch. A course should have a unique ID (i.e., URL) for a particular target. Each time you build that target, the same ID is used unless you change it.</p>
+                            <p>When an xAPI package is generated, it includes the "tincan.xml" document in the root zip folder. This is a metadata file for the xAPI package.</p>
+                        </li>
+                        <li>
+                            <p><span class="Emphasis">SCORM </span>The ID should be a unique identifier for the manifest file. This value can include letters, numbers, and some characters such as periods and underscores. </p>
+                            <p>The manifest file decribes the contents of the LMS package zip file. When a SCORM package is generated, it includes the  "imsmanifest.xml" document in the root  zip folder. When importing SCORM content to an LMS, the LMS reads information and specifications from the manifest file for a proper import. A SCORM package also has a metadata.xml file that details information  (e.g., course name, description) from the eLearning tab.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Emphasis">Type</span> Enter the type. </p>
+                </li>
+                <ul>
+                    <li>
+                        <p><span class="Emphasis">xAPI </span>Displays for xAPI only. This field is populated with the recommended xAPI course type URL. Update as needed.</p>
+                    </li>
+                </ul>
+                <li>
+                    <p><span class="Emphasis">Tracking</span> Select an eLearning tracking method for the course type. </p>
+                </li>
+                <ul>
+                    <li>
+                        <p><span class="Emphasis">Use Quiz Results </span>Select for a quiz only, or a combination course that includes a quiz and a knowledge check.</p>
+                    </li>
+                    <li>
+                        <p><span class="Emphasis">Use Course Completion </span>Select for just a knowledge check. With this option, a <span class="Emphasis">Percentage</span> box displays. Enter the percentage of the course the learner must complete in order for tracking to occur.</p>
+                    </li>
+                </ul>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/LMS/LMS-Tracking-Note.flsnp" />
+            </ul>
+            <li>
+                <p>(Optional) From the <span class="Emphasis">Advanced</span> tab, in the <span class="Emphasis">Template Page</span> area, select the template page where the eLearning Toolbar proxy for the course is located. See <MadCap:xref href="Adding-eLearning-Toolbar-Proxy1.htm">Adding eLearning Toolbar Proxy</MadCap:xref>.</p>
+                <div class="note" MadCap:conditions="General.Future">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If the majority of topics in your project are included in the eLearning course, it might be beneficial to create a dedicated template page for those topics. Only the topics that you want applied to the course should be associated with the eLearning Toolbar proxy and template page.</p>
+                </div>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>From the Target Editor's local toolbar, click <img src="../../../Resources/Images/Flare/Interface/Buttons/Build-btn2.png" class="ReduceButtonSize" />. This builds the output for your learning course.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Ce-Fl/Output/Optional-View-Output.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <h2><a name="CourseNavigation"></a>Course Navigation</h2>
+        <ul>
+            <li>
+                <p>If question sections are marked as "Optional," learners are not required to answer a question before moving forward to the next question. When they complete the test, they might  receive a warning on the test results page saying that they have not answered all of the questions. To avoid this, keep question sections marked as "Required." This is a default setting for restricting navigation. <MadCap:conditionalText MadCap:conditions="General.Online-Only">To set this option, see <MadCap:xref href="../Other-Activities/Tools-LMS-Content/Question-Properties-Window-Pane.htm">Question Properties Window Pane</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/LMS/Required-Optional-Question.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <p>If you are designing a combination course, be advised that if you include the progress bar component in the navigation controls, the progress bar displays for the entire course as outlined in the TOC. Meaning that it does not  show progress just for the knowledge check, or just for the quiz. </p>
+            </li>
+            <li>
+                <p>For courses that contain a navigation pane (i.e., HTML5 Side Navigation, Top Navigation, or Tripane), learners can potentially skip over the lessons and go directly to the gradable test (if included). In this case, you can  "hide" the pane to restrict navigation. </p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <ul>
+                    <li>
+                        <p><span class="Emphasis">Side Navigation and Top Navigation </span>In the HTML5 Skin Editor, <span class="Emphasis">Setup</span> tab, select <span class="Emphasis">none</span> for the <span class="Emphasis">Main Menu Position</span> and the <span class="Emphasis">Slide-Out Position</span>.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/LMS/LMS-Course-Nav-SetupNone.png" alt="" title="" class="MaxWidth80Percent" />
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><span class="Emphasis">Tripane </span>In the HTML5 Skin Editor, <span class="Emphasis">General</span> tab, deselect the <span class="Emphasis">TOC</span> feature.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/LMS/LMS-Tripane-No-Pane.png" alt="" title="" class="MaxWidth80Percent" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <ul>
+            <li>
+                <p>If the eLearning course uses a full skin, a learner can potentially perform a search on eLearning content in the output. In this case, you can remove the Search bar from showing in the output. You can do this in the following ways:</p>
+                <ul>
+                    <li>
+                        <p><span class="Emphasis">Skinless Output</span> In the Target Editor, select the <span class="Emphasis">Skin</span> tab. From the <span class="Emphasis">Skin</span> drop-down, select <span class="Emphasis">(none)</span>. </p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/LMS/LMS-Target-Skin-None.png" alt="" title="" class="MaxWidth80Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><span class="Emphasis">Hide Search</span> If you want to keep skins for the output, you can "hide" the Search bar from displaying in the output. In the HTML5 Skin Editor, select the <span class="Emphasis">Styles</span> tab. Expand <span class="Emphasis">Search Bar &gt; Layout</span>. From <span class="Emphasis">Display</span>, select <span class="Emphasis">none</span>. (This option is available in the HTML5 Skin Editor for Side Navigation, Top Navigation, and Tripane.)</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/LMS/LMS-HTML5-Hide-Searchbar.png" alt="" title="" class="MaxWidth60Percent" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>If you want to record and share the course using an external LMS, the next step is <MadCap:xref href="Uploading-eLearning-Packages.htm">Uploading eLearning Packages</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+    </body>
+</html>

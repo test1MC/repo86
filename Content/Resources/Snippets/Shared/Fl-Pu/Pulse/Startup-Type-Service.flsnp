@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Make sure the <span class="Emphasis">Startup Type</span> for each service is set as follows, depending on the version of SQL Server:</p>
+        <table style="width: 100%;margin-left: auto;margin-right: auto;mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 60%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Service</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Account Name/Password</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Startup&#160;Type</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">SQL&#160;Server Agent</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText"><span MadCap:createDate="2014-06-30T16:05:38.3652026-07:00" MadCap:creator="kschneider" MadCap:initials="KS" MadCap:comment="Do these need emphasis/bold/table text style?" MadCap:editor="kschneider" MadCap:editDate="2014-06-30T16:05:48.7102370-07:00" class="SetOffFirstLevel">SQL&#160;Server 2008/2008R2 </span>There is no default account for this service. The account you use depends on your security requirements.</p>
+                        <p class="TableText"><span class="SetOffFirstLevel">SQL Server 2012</span> This account defaults to NT Service\SQLAGENT$[Name of Instance].</p>
+                        <p class="TableText">There is no default account for this service. The account you use depends on your security requirements.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Automatic</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">SQL&#160;Server Database Engine</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">SQL&#160;Server 2008/2008R2 </span>The account you use depends on your security requirements.</p>
+                        <p class="TableText"><span class="SetOffFirstLevel">SQL Server 2012 </span>This account defaults to NT Service\MSSQL$[Name of Instance].</p>
+                        <p class="TableText">The account you use depends on your security requirements.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Automatic</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">SQL&#160;Full-text Filter Daemon Launcher</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">SQL&#160;Server 2008/2008R2 </span>This account defaults to NT&#160;AUTHORITY\LOCAL&#160;SERVICE. </p>
+                        <p class="TableText">The account you use depends on your security requirements. Microsoft recommends using a low privilege account.</p>
+                        <p class="TableText"><span class="SetOffFirstLevel">SQL Server 2012 </span>This account defaults to NT Service\MSSQLFDLauncher$[Name of Instance].</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Manual</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">SQL&#160;Server Browser</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">The default logon account is NT&#160;AUTHORITY\LOCAL&#160;SERVICE. </p>
+                        <p class="TableText">You will typically keep this setting.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Automatic</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

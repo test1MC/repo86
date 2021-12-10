@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-CSH-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Adding context-sensitive Help files." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/CSH.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:context-sensitive Help;Context-sensitive Help:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Adding Context-Sensitive Help Files</h1>
+        <p>There are a couple of files that are necessary when creating context-sensitive Help (CSH). One is called a "header file," and the other is called an "alias file."</p>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/CSH/Header-File-Summary.flsnp" />
+        </p>
+        <p>In this tutorial, we will add both of these files, as well as a special skin file. The skin file is optional; it's just a way to present your CSH with a different look than the regular documentation.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Add a Header File</h2>
+        <ol>
+            <li>In the Project Organizer, right-click the <span class="Emphasis">Advanced</span> folder and from the context menu select <span class="Emphasis">Add Header File</span>.</li>
+            <li>In the <span class="Emphasis">File Name</span> field, enter <span class="TypedEntry">My-Header-File</span>.</li>
+            <li>Click <span class="Emphasis">Add</span>. The header file is added to the Advanced folder in the Project Organizer (expand the folder to see it). The Text Editor opens to the right, with the page for the new header file (including an initial identifier) shown.</li>
+            <li>
+                <p>Close the Text Editor by clicking the <span class="Emphasis">x</span> in the tab. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Header-File1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Add an Alias File</h2>
+        <ol>
+            <li>In the Project Organizer, right-click the <span class="Emphasis">Advanced</span> folder and from the context menu select <span class="Emphasis">Add Alias File</span>.</li>
+            <li>In the <span class="Emphasis">File Name</span> field, enter <span class="TypedEntry">My-Alias-File</span>.</li>
+            <li>
+                <p>Click <span class="Emphasis">Add</span>. The alias file is added to the Advanced folder in the Project Organizer. The Alias Editor opens to the right, with the page for the new alias file shown. The file includes an initial identifier for the header file that you created previously.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Alias-File1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Create a Context-Sensitive Help Skin</h2>
+        <ol>
+            <li>In the Project Organizer, right-click the <span class="Emphasis">Skins</span> folder and from the context menu select <span class="Emphasis">Add Skin</span>.</li>
+            <li>
+                <p>From the list of <span class="Emphasis">Factory Templates</span>, select <span class="Emphasis">HTML5 - Top Navigation</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Skin1.png" alt="" title="" class="MaxWidth85Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">File Name</span> field, type <span class="TypedEntry">CSH-Skin</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Skin2.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">Add</span>. The skin is added to the Skins folder in the Project Organizer.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the Skin Editor, select the <span class="Emphasis">Styles</span> tab, and make sure <span class="Emphasis">Web Medium</span> is selected at the top.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Skin3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Let's make a few simple changes. On the left side listing the styles, expand <span class="Emphasis">Main Page</span>, then expand <span class="Emphasis">Size</span>. Then set the <span class="Emphasis">Maximum Width</span> field to <span class="Emphasis">90 em</span>.</li>
+            <li>Now expand <span class="Emphasis">Logo</span> and <span class="Emphasis">Alignment</span>. Then set the <span class="Emphasis">Horizontal</span> field to <span class="Emphasis">middle</span>, and set <span class="Emphasis">Full Row</span> to <span class="Emphasis">yes</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Expand <span class="Emphasis">Search Bar</span> and <span class="Emphasis">Layout</span>. Then set the <span class="Emphasis">Display</span> field to <span class="Emphasis">none</span>. At this point, your settings should look like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Skin4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Scroll down and expand <span class="Emphasis">Central Account Element</span> and <span class="Emphasis">Layout</span>. Then set the <span class="Emphasis">Display</span> field to <span class="Emphasis">none</span>.</li>
+            <li>
+                <p>Scroll down and expand <span class="Emphasis">Top Navigation Menu</span> and <span class="Emphasis">Layout</span>. Then set the <span class="Emphasis">Display</span> field to <span class="Emphasis">none</span>. Your settings should look like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Skin5.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <li>At the top of the editor, select <span class="Emphasis">Tablet Medium</span>.</li>
+            <li>
+                <p>Under <span class="Emphasis">Central Account Element</span>, expand <span class="Emphasis">Layout</span>. Then set the <span class="Emphasis">Display</span> field to <span class="Emphasis">none</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Skin7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

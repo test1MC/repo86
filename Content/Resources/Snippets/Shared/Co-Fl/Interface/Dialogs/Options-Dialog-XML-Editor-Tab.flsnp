@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col style="width: 25%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Options</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <ul>
+                            <li><span class="Emphasis">Enable Drag and Drop Text </span>Place a check mark in this check box to enable the drag-and-drop feature. When enabled, you can highlight and drag text to move it within topics. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Editor-Tools/Drag-Drop/Enabling-Disabling-Drag-Drop.htm">Enabling and Disabling Drag and Drop</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Show web images </span>Select this check box to show or hide web-linked images in the XML Editor. If you have many image tags that link to websites,<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> rather than linking to images in the project,</MadCap:conditionalText> slow website response times may slow down your work. Therefore, you might want to disable the rendering of such images in the XML Editor. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Images/Other-Activities/Showing-Hiding-Web-Images-XML-Editor.htm">Showing and Hiding Web Images in the XML Editor</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Insert Empty Alt Text </span>Select this check box to automatically add an empty alt tag to images when you insert them into a topic or snippet (unless you specifically add an alt tag to an image).<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> See <MadCap:xref href="../../../../../../Flare/Accessibility/Content/Applying-Empty-Alt-Text.htm">Applying Empty Alt Text</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Replace straight quotes with smart quotes </span>Select this check box to use single and double curly smart quotes instead of straight quotes when you type in the XML Editor. This option is disabled by default. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Interface/Editors/XML-Editor/Characters-Symbols/Using-Smart-Quotes.htm">Using Smart Quotes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Contributor">See <MadCap:xref href="../../../../../../Contributor/Editor-Tools/Characters-Symbols/Using-Smart-Quotes.htm">Using Smart Quotes</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li>
+                                <p><span class="Emphasis">Show style previews in UI </span>
+                                    <MadCap:snippetText src="../../Styles/Show-Hide-Style-Previews2.flsnp" />
+                                </p>
+                                <p MadCap:conditions="Products.Flare-Online-Only">
+                                    <img src="../../../../../Images/Flare/Styles/Show-Hide-Style-Previews1.png" alt="" title="" class="MaxWidth90Percent">
+                                    </img>
+                                </p>
+                                <p MadCap:conditions="Products.Contributor">
+                                    <img src="../../../../../Images/Contributor/Styles/Show-Hide-Style-Previews1.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <p class="TableText">If you prefer not to see style previews in these areas of the user interface, remove the check mark from this option.</p>
+                                <p class="TableText">
+                                    <MadCap:snippetText src="../../Styles/Show-Hide-Style-Previews3.flsnp" />
+                                </p>
+                                <p class="TableText" MadCap:conditions="Products.Flare-Online-Only">
+                                    <img src="../../../../../Images/Flare/Styles/Show-Hide-Style-Previews3.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <p MadCap:conditions="Products.Contributor">
+                                    <img src="../../../../../Images/Contributor/Styles/Show-Hide-Style-Previews2.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Text Rendering</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <ul>
+                            <li><span class="Emphasis">Enable ClearType Font Smoothing </span>Displays text in a "ClearType" font, which appears to "smooth out" the words and make them easier to read. ClearType is a software technology developed by Microsoft that improves the readability of text on existing LCDs (Liquid Crystal Displays), such as laptop screens, Pocket PC screens, and flat panel monitors. With ClearType font technology, the words on your computer screen look almost as sharp and clear as those printed on a piece of paper. ClearType works by accessing the individual vertical color stripe elements in every pixel of an LCD screen. Before ClearType, the smallest level of detail that a computer could display was a single pixel, but with ClearType running on an LCD monitor, we can now display features of text as small as a fraction of a pixel in width. The extra resolution increases the sharpness of the tiny details in text display, making it much easier to read over long durations.</li>
+                            <li>
+                                <p><span class="Emphasis">Enable GDI+ Text Renderer </span>Toggles between Microsoft Windows Graphics Device Interface (GDI) and GDI+ in terms of how content is rendered on your monitor. What is the difference between GDI and GDI+? The bottom line is that GDI+ improves the quality of the rendering somewhat, but it can be slower than GDI. For more information about GDI+, see:</p>
+                                <p class="TableText"><a href="http://msdn.microsoft.com/en-us/library/ms533797.aspx" target="_blank">http://msdn.microsoft.com/en-us/library/ms533797.aspx</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Defaults</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <ul>
+                            <li><span class="Emphasis">Paste Text </span>Select the default behavior when pasting text from another program. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Topics/Other-Activities/Pasting-Text-Other-Programs.htm">Pasting Text From Other Programs</MadCap:xref>.</MadCap:conditionalText><ul><li><span class="SetOffFirstLevel">Paragraphs </span><MadCap:snippetText src="../../Topics/Paste-Paragraphs.flsnp" /></li><li><span class="SetOffFirstLevel">Paragraph Block </span><MadCap:snippetText src="../../Topics/Paste-Paragraph-Block.flsnp" /></li><li><span class="SetOffFirstLevel">Inline Text </span><MadCap:snippetText src="../../Topics/Paste-Inline-Text.flsnp" /></li><li><span class="SetOffFirstLevel">Table </span><MadCap:snippetText src="../../Topics/Paste-Text.flsnp" /></li><li><span class="SetOffFirstLevel">List </span><MadCap:snippetText src="../../Topics/Paste-List.flsnp" /></li></ul></li>
+                            <li><span class="Emphasis">Link </span>Select the default behavior when creating a link by dragging a file into the XML Editor—<span class="Emphasis">Cross-References</span> (which are dynamically generated based on commands) or <span class="Emphasis">Hyperlinks</span> (which are based on specific text you provide in the XML Editor). <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Nav-Links/Cross-References/Cross-References.htm">Cross-References</MadCap:xref> and <MadCap:xref href="../../../../../../Flare/Nav-Links/Text-Hyperlinks/Text-Hyperlinks.htm">Text Hyperlinks</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">List </span>Select the default behavior when creating a new numbered or bulleted list. You can include &lt;p&gt; tags within each &lt;li&gt; tag (<span class="Emphasis">Paragraph</span>), or you can just have &lt;li&gt; tags (<span class="Emphasis">Simple</span>) but add &lt;p&gt; tags later manually for list items where you want them. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Lists/Main-Activities/Creating-Numbered-Bulleted-Lists.htm">Creating Numbered and Bulleted Lists</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Definition List </span>Select the default behavior when creating a new definition list. You can include &lt;p&gt; tags within each &lt;dt&gt; and &lt;dd&gt; tag (<span class="Emphasis">Paragraph</span>), or you can just have &lt;dd&gt; and &lt;dt&gt; tags (<span class="Emphasis">Simple</span>) but add &lt;p&gt; tags later manually for list items where you want them. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Lists/Main-Activities/Creating-Definition-Lists.htm">Creating Definition Lists</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Cut Table Columns </span>Select the default behavior when cutting columns in a table. You can choose to cut the entire <span class="Emphasis">Columns</span> (including the contents) or just the <span class="Emphasis">Cell Contents</span>. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Tables/Main-Activities/Cutting-Table-Columns-Rows.htm">Cutting Table Columns and Rows</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Cut Table Rows </span>Select the default behavior when cutting rows in a table. You can choose to cut the entire <span class="Emphasis">Rows</span> (including the contents) or just the <span class="Emphasis">Cell Contents</span>. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Tables/Main-Activities/Cutting-Table-Columns-Rows.htm">Cutting Table Columns and Rows</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Merge Table </span>Select the default behavior when creating or pasting a new table above or below and existing one. You can choose to keep the tables separate (<span class="Emphasis">Don't Merge Tables</span>), or to merge the tables. <span class="Emphasis">Merge Table Up</span> means the new merged table will use the style of the table on top. <span class="Emphasis">Merge Table Down</span> means the new merged table will use the style of the table on bottom. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Tables/Main-Activities/Merging-Tables.htm">Merging Tables</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Merge List </span>Select the default behavior when creating or pasting a new list above or below and existing one. You can choose to keep the lists separate (<span class="Emphasis">Don't Merge Lists</span>), or to <span class="Emphasis">Merge Lists</span> into a single list. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Lists/Other-Activities/Merging-Lists.htm">Merging Lists</MadCap:xref>.</MadCap:conditionalText></li>
+                            <li><span class="Emphasis">Paste Cells Into Tables </span>Select the default behavior when pasting table cells that you have copied or cut. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Tables/Main-Activities/Pasting-Cells-Within-Table.htm">Pasting Cells Within a Table</MadCap:xref>.</MadCap:conditionalText><ul><li><span class="Emphasis">Cells </span><MadCap:snippetText src="../../Tables/Paste-Cells.flsnp" /></li><li><span class="Emphasis">Table </span><MadCap:snippetText src="../../Tables/Paste-Table.flsnp" /></li><li><span class="Emphasis">(Above) </span><MadCap:snippetText src="../../Tables/Paste-Above.flsnp" /></li><li><span class="Emphasis">(Below) </span><MadCap:snippetText src="../../Tables/Paste-Below.flsnp" /></li><li><span class="Emphasis">(Left) </span><MadCap:snippetText src="../../Tables/Paste-Left.flsnp" /></li><li><span class="Emphasis">(Right) </span><MadCap:snippetText src="../../Tables/Paste-Right.flsnp" /></li></ul></li>
+                            <li><span class="Emphasis">Table to Text </span>Select the default behavior when converting a table to text. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../../Flare/Tables/Main-Activities/Converting-Tables-Text.htm">Converting Tables to Text</MadCap:xref>.</MadCap:conditionalText><ul><li><span class="SetOffFirstLevel">Convert to Paragraphs </span><MadCap:snippetText src="../../Tables/Convert-Paragraphs.flsnp" /></li><li><span class="SetOffFirstLevel">Separate with Commas </span><MadCap:snippetText src="../../Tables/Separate-Commas.flsnp" /></li><li><span class="SetOffFirstLevel">Separate with Text </span><MadCap:snippetText src="../../Tables/Separate-Text.flsnp" /></li></ul></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

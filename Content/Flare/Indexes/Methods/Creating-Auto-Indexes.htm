@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Index.flmsp');">
+    <head><title></title>
+        <meta name="description" content="An auto-index lets you automatically add words in your project to a generated index, rather than inserting all of the index markers manually." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Indexes:auto-indexes;Auto-index:creating" />
+            <MadCap:concept term="FilterFeatures" />Creating Auto-Indexes</h1>
+        <MadCap:microContent id="microcontent1">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides/Indexes.flsnp" />
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Indexes/Auto-Index-Summary.flsnp" />
+            </p>
+        </MadCap:microContent>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to make sure that the word "Pasta" appears in your generated index, containing links to all of the topics where that word is found. Your first option is to manually insert the "Pasta" index marker into all of those topics. Your second option is to add the word "Pasta" to an auto-index file. When you generate the output, <MadCap:variable name="Other.Product" /> automatically creates index entries and links for the words and phrases in your auto-index file, including the word "Pasta."</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide" />
+        <h2>How to Create an Auto-Index</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Project &gt; New &gt; Advanced &gt; Auto-index Phrase Set</span>. </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>In the Project Organizer, right-click on the <span class="Emphasis">Advanced</span> folder and from the context menu select <span class="Emphasis">Add Auto-index Phrase Set</span>.</li>
+                </ul>
+                <p>The Add File dialog opens.</p>
+            </li>
+            <li>In the <span class="Emphasis">File Type</span> field at the top, make sure <span class="Emphasis">Auto-index Phrase Set</span> is selected.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Templates/In-Source-Area-Template1.flsnp" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Templates/Template-Options1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/General/Select-Subfolder-Project-Organizer1.flsnp" />
+            </li>
+            <li>In the <span class="Emphasis">File Name</span> field, provide a name for the auto-index phrase set file.</li>
+            <li>(Optional) <MadCap:snippetText src="../../../Resources/Snippets/Flare/Conditions/Select-Relevant-Condition-Tags.flsnp" /> <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>(Optional) <MadCap:snippetText src="../../../Resources/Snippets/Flare/File-Tagging/Select-Relevant-File-Tags.flsnp" /> <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../File-Tagging/Associating-Tags-Files1.htm">Associating Tags With Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Click <span class="Emphasis">Add</span>. The Auto-index Editor opens. Also, the auto-index file <MadCap:keyword term="FLAIX file" />(.flaix extension) is added to the Advanced folder in the Project Organizer. In the future, you can open the auto-index phrase set from there.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide" />
+            <li>For each phrase in your project that you want to be automatically converted to a particular index entry, complete the following steps in the Auto-index Editor:<ol class="LowerAlpha"><li>In the local toolbar, click <img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/New-Item-btn.png" class="ReduceButtonSize" />. The Auto-Index dialog opens and a new row is added to the editor.</li><li><p>In the <span class="Emphasis">Phrase</span> field, type the word(s) that you want <MadCap:variable name="Other.Product" /> to find in your project and use as the basis for a new index entry. Please note that the fields in this dialog are case-sensitive; therefore, if you enter a phrase with the initial word capitalized, only occurrences just like that in your topics will be used to create index entries. <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Variables/Insert-Variable.flsnp" /></p><MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Variables/Variables-Evaluated-Definitions.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet3], exclude[Snippets.Snippet1 or Snippets.Snippet2 or Snippets.Snippet4 or Snippets.Snippet5 or Snippets.Snippet6]" /></li><li>If you want the auto-index to add markers to words regardless of if they are upper or lower case, select <span class="Emphasis">Ignore case</span>.</li><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /><li><p>In the <span class="Emphasis">Index Term</span> field, enter the word(s) to be added to the generated index. To create a multi-level index entry, separate the first-level term and the second-level term with a colon. <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Variables/Again-Insert-Variable.flsnp" /></p><div class="example"><p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You entered <span class="TypedEntry">pasta</span> in the Phrase field and <span class="TypedEntry">Pasta</span> in the Index Term field. In that case, the generated index in the print-based output will display like this:</p><p><img src="../../../Resources/Images/Flare/Indexes/Auto-Index1.png" class="MaxWidth100Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide" /><p>The index entry points to any topics where the lowercase instance of "pasta" has been found. If you also want the index entry to point to occurrences where the word is not all lowercase ("Pasta"),  add another row to the Auto-Index Editor and create a phrase for it (i.e., enter <span class="TypedEntry">Pasta</span> in both the Phrase field and the Index Term field).</p><p>Let's say that your project talks about many kinds of pasta and you want to create multiple index entries for certain words, some with single-level entries and others with sublevels. Maybe you want <MadCap:variable name="Other.Product" /> to scan the project for "rigatoni." When it finds occurrences, you might want a single-level index entry like this:</p><p><img src="../../../Resources/Images/Flare/Indexes/Auto-Index2.png" class="MaxWidth100Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /><p>In that case, you would enter <span class="TypedEntry">rigatoni</span> in the Phrase field and <span class="TypedEntry">Rigatoni</span> in the Index Term field. That index entry would point to all of instances of "rigatoni" in the project. But you also might want a multi-level index entry displayed like this:</p><p><img src="../../../Resources/Images/Flare/Indexes/Auto-Index3.png" class="MaxWidth100Percent" /></p><p>In that case, you would enter <span class="TypedEntry">rigatoni</span> in the Phrase field and <span class="TypedEntry">Pasta:rigatoni</span> in the Index Term field. </p></div></li><p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /></p><li><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /></li></ol></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For print-based outputs, you can also use an option to auto-generate indexes for the output. See <MadCap:xref href="../Other-Activities/Auto-Generating-Indexes-Print.htm">Auto-Generating Indexes for Print</MadCap:xref>.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">If you are creating print-based output, make sure you also create a topic with an Index proxy. See <MadCap:xref href="../../Proxies/Indexes/Creating-Index-Manually-Print1.htm">Creating an Index Manually for Print</MadCap:xref>.</p>
+        <p MadCap:conditions="General.Online-Only">After you generate output, <MadCap:variable name="Other.Product" /> scans the project for the phrases you provided and adds them to the generated index (along with any index markers that you added to topics manually).</p>
+    </body>
+</html>

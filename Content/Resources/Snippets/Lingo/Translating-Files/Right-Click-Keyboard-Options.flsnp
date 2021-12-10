@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p MadCap:conditions="">Several options are available from the context menu when you right-click a segment in the Translation Editor.</p>
+        <p>
+            <img src="../../../Images/Lingo/Translating-Files/Translation-Editor-Right-Click.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <p>You can also use keyboard shortcuts for these options.</p>
+        <ul>
+            <li MadCap:conditions="">
+                <p><span class="Emphasis">Synonyms </span>
+                    <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Synonyms-Option.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../Thesaurus/Note-Synonyms-Thesaurus.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Cut (CTRL+X) </span>
+                <MadCap:snippetText src="../../Shared/All/Interface/Ribbons-Toolbars-Menus/Cut-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Copy (CTRL+C) </span>
+                <MadCap:snippetText src="../../Shared/All/Interface/Ribbons-Toolbars-Menus/Copy-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Paste (CTRL+V) </span>
+                <MadCap:snippetText src="../../Shared/All/Interface/Ribbons-Toolbars-Menus/Paste-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Confirm (ENTER) </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Confirm-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Split Segment (CTRL+T) </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Split-Segment-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Join Segments (CTRL+SHIFT+K) </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Join-Segments-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Add Note </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Add-Note-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Clear Target Segment (CTRL+Delete) </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Clear-Target-Segment-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Copy Source to Target (CTRL+K) </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Copy-Source-Target-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Add Next Tag (CTRL+N) </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Add-Next-Tag-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Add Next Number (CTRL+,) </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Add-Next-Number-Option.flsnp" />
+            </li>
+            <li MadCap:conditions=""><span class="SetOffFirstLevel">Add New Term </span>
+                <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Add-New-Term-Option.flsnp" />
+            </li>
+            <li><span class="Emphasis">Thesaurus (SHIFT+F7) </span>
+                <MadCap:snippetText src="Thesaurus-Right-Click.flsnp" />
+            </li>
+        </ul>
+        <p>You can edit shortcuts from the Options dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Lingo/Shortcuts/Changing-Hot-Keys.htm">Changing Hot Keys</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

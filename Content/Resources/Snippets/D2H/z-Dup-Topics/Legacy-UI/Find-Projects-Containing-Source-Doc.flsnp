@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="403" MadCap:lastWidth="1105">
+    <body>
+        <p>
+            <MadCap:snippetText src="../../Source-Documents/Find-Projects-Containing-Source-Doc.flsnp" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Find Projects Containing a Source Document</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In Word, select the Doc-To-Help ribbon.</li>
+                    <li>In the <span class="Emphasis">Project</span> section, click <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Find Project</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet1">Select Project</span>.</li>
+                    <li>In the dialog that opens, navigate to the Doc-To-Help project that contains your source document, then click <span class="Emphasis">Open</span>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you attempt to open a project that does not contain the open source document, you will receive an error.</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You can also use the Find Project option if you open a source document and the Doc-To-Help Word add-in cannot locate the project file. In this instance, the Word add-in will open in Basic mode, and you can use the Find Project option to find a project associated with the source document. If you find an appropriate project, the add-in will switch to Full mode. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Interface/Ribbons-Toolbars-Menus/Ribbons.htm">Ribbons</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Ribbons-In-D2H.htm">Ribbons</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

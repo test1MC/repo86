@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li MadCap:conditions="Products.Lingo">Select <span class="Emphasis">Tools &gt; MadCap Align</span>.</li>
+            <li>Open the aligned project. <span class="topic-only">Unless you specify otherwise, these types of projects are stored in the Documents\My Aligned Projects folder on your computer. Lingo creates the My Aligned Projects folder when you install the program.</span></li>
+            <li>
+                <p>In the File Map window pane, double-click on a row with aligned files. <span class="topic-only">The Alignment Tool opens, displaying all of the segments from those aligned files.</span></p>
+                <p class="topic-only">If the File Map window pane is not already open, select <span class="Emphasis">Home &gt; File Map</span> or press <span class="Emphasis">CTRL+SHIFT+R</span> on your keyboard.</p>
+            </li>
+            <li>Select the appropriate cell(s) on either the source language side or the target language side. <span class="topic-only">You can hold down your SHIFT or CTRL key to click and select multiple cells.</span></li>
+            <li>
+                <p>
+                    <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">In the local toolbar, click one of the buttons to perform an alignment action (so that the source segments on the left are aligned with the proper target segments on the right). </MadCap:conditionalText>
+                    <MadCap:conditionalText MadCap:conditions="Snippets.Snippet3">In the local toolbar, click <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Join-Selected-Segments-btn.png" />.</MadCap:conditionalText>
+                </p>
+                <div class="topic-only">
+                    <table style="width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+                        <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+                        <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+                        <tbody>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableText">
+                                        <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Swap-Two-Selected-Cells-btn.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">If you have selected two cells (one above and one below) and click this button, the positions of those two cells will be swapped.</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableText">
+                                        <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Swap-Cell-Below-btn.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">Click this button if you want to swap the selected cell(s) with those below it.</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableText">
+                                        <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Swap-Cell-Above-btn.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">Click this button if you want to swap the selected cell(s) with those above it.</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableText">
+                                        <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Split-Selected-Segments-btn.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">Click this button if you have selected one cell and want to split its content into two cells. This button is disabled until you double-click in the cell that you want to split. After double-clicking the cell, place your cursor where you want the split to occur in the segment. Then click this button.</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                    <p class="TableText">
+                                        <img src="../../../../Images/Shared/Al-Li/Interface/Buttons/Join-Selected-Segments-btn.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                    <p class="TableText">Click this button if you have selected multiple cells (above and below one another) and you want to join the content within them into a single cell.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide" />
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Rather than using split and join, you can alternatively use segmentation rules.<MadCap:conditionalText MadCap:conditions="Products.Lingo"> See <MadCap:xref href="../../../../../Lingo/Segmentation-Split-Join/Segmentation-Rules.htm">Using Segmentation Rules</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Align"> See <MadCap:xref href="../../../../../Align/Segmentation-Split-Join/Segmentation-Rules.htm">Segmentation Rules</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                </div>
+            </li>
+            <li class="topic-only">
+                <MadCap:snippetText src="../../All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

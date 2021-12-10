@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="warning">
+            <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">When controlling the look of tables, be aware of conflicts that can arise when you are using standard table styles (e.g., tr, td) from a regular stylesheet and you are also inserting proxies in the project. For example, if you set the text-indent property on the td style, it could affect the indentation of a generated table of contents or mini-toc.</p>
+        </div>
+    </body>
+</html>

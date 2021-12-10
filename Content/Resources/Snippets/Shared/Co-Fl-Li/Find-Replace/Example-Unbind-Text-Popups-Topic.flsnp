@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">First, set the fields like this:</p>
+            <ul>
+                <li><span class="Emphasis">Find </span>
+                    <ul>
+                        <li>
+                            <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Icons/Tag-ico.png" alt="" title="" class="ReduceButtonSize" /> Tag</li>
+                        <li>MadCap:popup</li>
+                    </ul>
+                </li>
+                <li><span class="Emphasis">Replace/Action </span>
+                    <ul>
+                        <li>
+                            <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Icons/Unbind-Tag-ico.png" alt="" title="" class="ReduceButtonSize" /> Unbind Tag</li>
+                    </ul>
+                </li>
+                <li><span class="Emphasis">Find in </span>
+                    <ul>
+                        <li>(current document)</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl-Li/Find-Replace/Find-Elements10.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Click <span class="Emphasis">Replace All</span>. One of the text popup tags is removed; now you need to remove the other.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <p>Set the fields like this:</p>
+            <ul>
+                <li><span class="Emphasis">Find </span>
+                    <ul>
+                        <li>
+                            <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Icons/Tag-ico.png" alt="" title="" class="ReduceButtonSize" /> Tag</li>
+                        <li>MadCap:popupHead</li>
+                    </ul>
+                </li>
+                <li><span class="Emphasis">Replace/Action </span>
+                    <ul>
+                        <li>
+                            <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Icons/Unbind-Tag-ico.png" alt="" title="" class="ReduceButtonSize" /> Unbind Tag</li>
+                    </ul>
+                </li>
+                <li><span class="Emphasis">Find in </span>
+                    <ul>
+                        <li>(current document)</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl-Li/Find-Replace/Find-Elements11.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Click <span class="Emphasis">Replace All</span>. The text popups in the topic all now look like plain text.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <p>However, the popup text remains in the markup (although it is not visible unless you view the markup in the Text Editor), so you can remove that too. Set the fields like this:</p>
+            <ul>
+                <li><span class="Emphasis">Find </span>
+                    <ul>
+                        <li>
+                            <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Icons/Tag-ico.png" alt="" title="" class="ReduceButtonSize" /> Tag</li>
+                        <li>MadCap:popupBody</li>
+                    </ul>
+                </li>
+                <li><span class="Emphasis">Replace/Action </span>
+                    <ul>
+                        <li>
+                            <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Icons/Unbind-Tag-ico.png" alt="" title="" class="ReduceButtonSize" /> Unbind Tag</li>
+                    </ul>
+                </li>
+                <li><span class="Emphasis">Find in </span>
+                    <ul>
+                        <li>(current document)</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>
+                <img src="../../../../Images/Shared/Co-Fl-Li/Find-Replace/Find-Elements12.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Click <span class="Emphasis">Replace All</span>.</p>
+        </div>
+    </body>
+</html>

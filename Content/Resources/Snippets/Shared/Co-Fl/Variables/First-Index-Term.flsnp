@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p><span class="SetOffFirstLevel">FirstIndexTerm </span>Automatically displays the first index term (e.g., Ants, Bugs, Cats, Dogs, Elephants) that occurs on a page with a generated index. In order for this variable to work, it must be inserted in a page layout that is used for the topic where an Index proxy is inserted<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> (see <MadCap:xref href="../../../../../Flare/Proxies/Indexes/Creating-Index-Manually-Print1.htm">Creating a Topic for a Print Index</MadCap:xref>)</MadCap:conditionalText>. In addition, you must specify in the outline TOC that your index topic is using the page layout where you have inserted this variable<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> (see <MadCap:xref href="../../../../../Flare/Page-Layouts/Process/Specifying-Chapter-Breaks1.htm">Specifying Chapter Breaks and Page Layouts</MadCap:xref>)</MadCap:conditionalText>. The option is available only with <MadCap:variable name="Outputs.PDF" />  output. </p>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open a project.</li>
+            <li>Select the <span class="Emphasis">Analysis</span> ribbon. In the <span class="Emphasis">Dynamic Reports</span> section, select <span MadCap:conditions="Snippets.Snippet1" class="Emphasis">Used Items</span><span MadCap:conditions="Snippets.Snippet2" class="Emphasis">Links</span> <span class="Emphasis">&gt;</span> <span MadCap:conditions="Snippets.Snippet1" class="Emphasis">Used Concepts</span><span MadCap:conditions="Snippets.Snippet2" class="Emphasis">Concept Links</span>. The <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Used Concepts window pane</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Concept Links window pane</MadCap:conditionalText> opens, listing all of the concepts used<MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> within concept links</MadCap:conditionalText> throughout the project.</li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Concept </span>Displays the concept used in <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">the file</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">a concept link in the file</MadCap:conditionalText>.</li>
+                    <li><span class="SetOffFirstLevel">File </span>Displays the path and name of the file where the concept<MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> link</MadCap:conditionalText> is inserted.</li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

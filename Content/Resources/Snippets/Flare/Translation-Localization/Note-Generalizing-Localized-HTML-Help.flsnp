@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When generating localized HTML Help targets, it is sometimes necessary to set the Windows system locale to match the language that the project is set to. It is necessary to do this when the project contains topic file names with non-English characters. To do this in Windows: 1. Open the <span class="Emphasis">Control Panel</span>; 2. select <span class="Emphasis">Regional and Language Settings</span>; 3. select the <span class="Emphasis">Advanced</span> tab; 4. from the drop-down in the section called <span class="Emphasis">Language for non-Unicode programs</span>, choose the same language that the <MadCap:variable name="Other.Product" /> project is set to; 5. restart Windows.</p>
+        </div>
+    </body>
+</html>

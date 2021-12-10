@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:PDF;Adobe PDF:troubleshooting" />Troubleshooting PDF Output Issues</h1>
+        <p>Following are issues that may occur when working with Flare and <MadCap:variable name="Outputs.PDF" /> output.</p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test1" class="TroubleshootingLink">Autonumbers on headings are not incrementing correctly in PDF output</li>
+                <li targets="test2" class="TroubleshootingLink">The font magnification feature in Windows 7 causes unexpected output in PDF targets</li>
+                <li targets="test3" class="TroubleshootingLink">Empty pages</li>
+            </ul>
+            <div targetName="test1" class="troubleshoot">
+                <p class="Subheading">Autonumbers on headings are not incrementing correctly in PDF output</p>
+                <p>When an autonumber figure is inserted in between a series of autonumber headings in PDF output, the heading following the figure that has been inserted is reset to the previous autonumber value.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The autonumbering in the figure below is reset to the previous autonumber value after the figure has been inserted. If the figure is removed, the autonumber functions normally.</p>
+                    <p>1 Topic Title </p>
+                    <p>1.1 Sub-Topic Title </p>
+                    <p>1.1.1 Sub-sub-Topic Title </p>
+                    <p>1.1.2 Sub-sub-Topic Title</p>
+                    <p>Figure 1: Image</p>
+                    <p>1.1.1 Sub-sub-Topic Title </p>
+                </div>
+                <p class="Subheading">Cause</p>
+                <p>The autonumber format that is applied to the headings needs a series label to keep the continuity of the numbering across added figures. Series labels take the form of a capital letter followed by a colon placed in front of the autonumber command (for example A:{n+1}).</p>
+                <p class="Subheading">Solution</p>
+                <p>Perform the following steps.</p>
+                <ol>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Flare/Styles/Edit-Style1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                    </li>
+                    <li>In the upper-left corner of the editor, select <img src="../../Resources/Images/Flare/Interface/Drop-Downs/Show-Heading-Styles-dd.png" class="ReduceButtonSize" />.</li>
+                    <li>Open the heading style on which you have set the <span class="Emphasis">mc-auto-number-format</span> property.</li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+                    </li>
+                    <li>
+                        <p>If you are using the group view, expand the <span class="Emphasis">AutoNumber</span> group.</p>
+                    </li>
+                    <li>
+                        <p>Click <img src="../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" /> in the column to the right of <span class="Emphasis">mc-auto-number format</span> to open the Auto-Number Format dialog.</p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-PDF-Output1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>In the Auto-Number format dialog's  <span class="Emphasis">Enter format</span> field, type any capital letter, followed by a colon (for example   <span class="Emphasis">A:</span> or <span class="Emphasis">H:</span>)  in front of the existing autonumber format command.</p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-PDF-Output2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                    </li>
+                    <li>Regenerate the PDF output. The numbers will increment correctly. </li>
+                </ol>
+                <p>For more information, see <MadCap:xref href="../Autonumbers/Autonumbers1.htm">About Autonumbers</MadCap:xref>.</p>
+            </div>
+            <div targetName="test2" class="troubleshoot">
+                <p class="Subheading">The font magnification feature in Windows 7 causes unexpected output in PDF targets</p>
+                <p>The font magnification feature in Windows 7 causes unexpected output in PDF targets, such as odd kerning, spacing and font sizes. </p>
+                <p class="Subheading">Cause</p>
+                <p>This is a compatibility issue between <MadCap:variable name="Outputs.PDF" /> output and Microsoft Windows 7.</p>
+                <p class="Subheading">Solution</p>
+                <p>Reset the magnification feature to Smaller (100%) in Windows 7.</p>
+                <ol>
+                    <li>Open the <span class="Emphasis">Start</span> menu.</li>
+                    <li>Click <span class="Emphasis">Control Panel</span>. The Control Panel opens. </li>
+                    <li>In the Control Panel, click <span class="Emphasis">Appearance and Personalization</span>.</li>
+                    <li>Click <span class="Emphasis">Display</span>.</li>
+                    <li>Click the <span class="Emphasis">Smaller - 100% (default)</span> button.</li>
+                    <li>Click <span class="Emphasis">Apply</span>.</li>
+                    <li>You will be prompted to log off to complete the change.</li>
+                    <li>When you have logged back on, open Flare and regenerate the <MadCap:variable name="Outputs.PDF" /> output. It should appear correctly.</li>
+                </ol>
+            </div>
+            <div targetName="test3" class="troubleshoot">
+                <p class="Subheading">Empty pages</p>
+                <p>When I generate PDF output, sometimes an empty page is added before my next heading. Why does that happen and how can I fix it?</p>
+                <p class="Subheading">Cause and Solution</p>
+                <p>There could be a couple of reasons for this. Below are two of the most common.</p>
+                <p class="Subheading">cause/solution 1</p>
+                <p>
+                    <MadCap:keyword term="Page layouts:empty pages" />One reason might have to do with the fact that you have an empty page included in your page layout.</p>
+                <p class="Subheading">cause/solution 2</p>
+                <p>A second reason could have to do with empty paragraph or other tags at the end of topics. If you do not see an empty paragraph in the XML Editor, you can open the XHTML code for a topic. To do this, click the <span class="Emphasis">Text Editor</span> tab at the bottom of the XML Editor, or click and drag the bottom bar up to work in split view (seeing both the XML Editor and the Internal Text Editor). You can also right-click on the topic file in the Content Explorer and selecting <span class="Emphasis">Open with &gt; Internal Text Editor</span> or <span class="Emphasis">Open with &gt; Notepad</span>. See <MadCap:xref href="../Interface/Editors/Internal-Text-Editor.htm">Internal Text Editor</MadCap:xref>.</p>
+                <p>An empty paragraph might look something like this in the code.</p>
+                <p>&lt;p&gt;&amp;#160;&lt;/p&gt;</p>
+                <p>You can delete that part of the code, save, and try to generate output again.</p>
+            </div>
+            <div style="clear:both">
+            </div>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>

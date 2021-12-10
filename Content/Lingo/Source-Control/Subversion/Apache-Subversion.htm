@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Subversion.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 MadCap:conditions="General.Online-Only">
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Apache Subversion;Source control:Subversion" />
+            <MadCap:keyword term="Source control;Multi-authoring" />Subversion</h1>
+        <h1 MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion">Introduction</h1>
+        <p MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion">
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Definition.flsnp" />
+        </p>
+        <p>Please reference the source control topics in this section if you are using <MadCap:variable name="Other.Product" />'s integrated source control with Apache Subversion.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <h2 class="NoPageBreakBefore">Common Source Control Terms </h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Subversion-Common-Terms.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Subversion-Source-Control-Definitions.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Integrates-Multiple-Source-Control-Providers.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <h2 class="NoPageBreakBefore">Source Control Icons </h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Descriptions-Primary-Icons.flsnp" /> </p>
+        <table class="TableStyle-Fancy" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" cellspacing="0">
+            <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Modified</span>
+                        </p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Modified-SVN.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Committing-Source-Control-Files-Subversion.htm">Committing Source Control Files—Subversion</MadCap:xref> or <MadCap:xref href="Locking-File-Subversion.htm">Locking a File—Subversion</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-New-File-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText"><span class="SetOffFirstLevel">New File</span>
+                        </p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/New-File-Subversion.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Committing-Source-Control-Files-Subversion.htm">Committing Source Control Files</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Red-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by Another User</span>
+                        </p>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Locked-By-Another-User-Subversion.flsnp" />
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Locked-By-Another-User-Subversion2.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Locking-File-Subversion.htm">Locking a File—Subversion</MadCap:xref> and <MadCap:xref href="Unlocking-File-Subversion.htm">Unlocking a File—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Green-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by You</span>
+                        </p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Locked-By-You-Icon2.flsnp" /> Other users can make changes to this file even if you have locked it, but they cannot commit it unless they steal the lock from you first. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Locking-File-Subversion.htm">Locking a File—Subversion</MadCap:xref> and <MadCap:xref href="Unlocking-File-Subversion.htm">Unlocking a File—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-Other-User-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">In Use by Other User</span>
+                        </p>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/In-Use-By-Other-User.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Out-Date-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Out of Date</span>
+                        </p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Out-Date-SVN.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>General Workflow (Multi-User Team)</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Following-Basic-Steps-Source-Control-Subversion.flsnp" />
+        <ol>
+            <li><span class="SetOffFirstLevel">Set Up Subversion </span>Install Subversion and set up the database and any folders where you want to place the project. Also, assign permissions to the proper individuals. This task may be performed by someone else, such as a network administrator.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow2.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Create and Bind New Project </span>Create a new <MadCap:variable name="Other.Product" /> project and simultaneously bind it to Subversion. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Projects/Creating-Projects.htm">Creating New Projects</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p>OR</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Bind Existing Project </span> If you have an existing <MadCap:variable name="Other.Product" /> project on your local machine, bind the project to Subversion. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Binding-Project-Source-Control-Subversion.htm">Binding a Project to Subversion</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Only-One-User-Needs-Bind-Subversion.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Import-Project-Subversion.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Importing-Project-Source-Control-Subversion.htm">Importing a Project from Subversion</MadCap:xref>. </MadCap:conditionalText></p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Update-Subversion.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Updating-Source-Control-Files-Subversion.htm">Manually Updating Source Control Files—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:modify" />Modify Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Modify-Files-SVN.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:lock;Source control:unlock" />Lock/Unlock Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Lock-Files-SVN.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Locking-File-Subversion.htm">Locking a File—Subversion</MadCap:xref> and <MadCap:xref href="Unlocking-File-Subversion.htm">Unlocking a File—Subversion</MadCap:xref>.</MadCap:conditionalText></li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <ol MadCap:continue="true">
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:commit" />Commit Files </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Committing-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Committing-Source-Control-Files-Subversion.htm">Committing Source Control Files</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:merging;Merging:source control" />Merging </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Merging-Commit-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Merging-Source-Control-Files-Subversion.htm">Merging Source Control Files—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <h2>General Workflow (Single User)</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Following-Basic-Steps-Subversion-Integration.flsnp" />
+        <ol>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Set-Up-Subversion.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow2.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Create and Bind New Project </span>Create a new <MadCap:variable name="Other.Product" /> project and simultaneously bind it to Subversion. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Projects/Creating-Projects.htm">Creating New Projects</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p>OR</p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Bind-Existing-Project-Subversion.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Binding-Project-Source-Control-Subversion.htm">Binding a Project to Subversion</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Modify-Files-Subversion.flsnp" />
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:commit" />Commit Files </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Committing-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Committing-Source-Control-Files-Subversion.htm">Committing Source Control Files</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <h2>Other Source Control Tasks and Features</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Following-Additional-Tasks-Features.flsnp" />
+        <ul>
+            <li><span class="SetOffFirstLevel">Automatic Status Checks </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Auto-Status-Checks-SVN.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Enabling-Source-Control-Status-Checks-Subversion.htm">Enabling Source Control Status Checks</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/View-Differences-Subversion.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Viewing-Differences-Source-Control-Files-Subversion.htm">Viewing Differences in Source Control Files—Subversion</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Disabling-Get-Latest-Prompt.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Disabling-Get-Latest-Prompt-Subversion.htm">Disabling the Get Latest Prompt for Source Control</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Disconnect-Source-Control-Subversion.flsnp" />
+                <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="Disconnecting-Source-Control-Subversion.htm">Disconnecting from Source Control</MadCap:xref>.</MadCap:conditionalText>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/View-History-Source-Control-File.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Viewing-History-Source-Control-Files-Subversion.htm">Viewing the History of Source Control Files—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-History-Options-List-SVN.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Locks-Subversion.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Locking-File-Subversion.htm">Locking a File—Subversion</MadCap:xref> and <MadCap:xref href="Unlocking-File-Subversion.htm">Unlocking a File—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/SVN-Check-Out-Lock.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Unbind-Subversion.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Unbinding-Project-Source-Control-Subversion.htm">Unbinding a Project from Subversion</MadCap:xref>. </MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/View-Modify-Network-Settings-Subversion.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Modifying-Network-Settings-Subversion.htm">Modifying Network Settings—Subversion</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">View Modified Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-View-Modified-Files-Summary-SVN.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Viewing-Modified-Files-Subversion.htm">Viewing Modified Files—Subversion</MadCap:xref> and <MadCap:xref href="../../Interface/Window-Panes/File-List-Window-Pane.htm">File List Window Pane</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-CSH.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Generating output and testing context-sensitive Help calls." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/CSH.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:context-sensitive Help;Context-sensitive Help:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Generating and Testing Output</h1>
+        <p>All of the pieces are now in place. So we can now generate the output and see how the context-sensitive Help (CSH) works.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Associate the Main Skin With the Target</h2>
+        <p>Before we build the output, we need to associate the main skin in the project with the target. The reason we need to do this is that the target is currently set to use the default skin for the output, which is the first one it comes to alphabetically. And because we added a new skin for CSH and its name is first in the alphabet, we want to make sure that the bulk of the output doesn't use it. The CSH skin is intended only for the CSH IDs.</p>
+        <ol>
+            <li>In the Target Editor, select the <span class="Emphasis">Skin</span> tab.</li>
+            <li>
+                <p>Click the drop-down arrow in the <span class="Emphasis">Skin</span> field and select <span class="Emphasis">Side-Navigation</span> (the main skin).</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Generate the Target</h2>
+        <ol>
+            <li>In the local toolbar of the Target Editor, click <img src="../../../Resources/Images/Flare/Interface/Buttons/Build-btn2.png" alt="" title="" class="ReduceButtonSize" />. The Builds window pane opens at the bottom of the Flare interface, and the target begins to build.</li>
+            <li>Double-click the row in the Builds window pane to open the output in a browser. Notice the main skin is used for the output.</li>
+        </ol>
+        <h2>How to Test the Context-Sensitive Help</h2>
+        <ol>
+            <li>
+                <p>In Flare, open the <span class="Emphasis">Tools</span> ribbon, and select <span class="Emphasis">Test CSH API Calls</span>. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Test-CSH-Output1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>A new tab opens in your browser with fields you can use for testing.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">ID</span> field, click the down arrow and select <span class="Emphasis">south_by_southwest</span> (one of our topic CSH IDs).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Test-CSH-Output2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>Notice that from the drop-down you can select either a text string as the ID or the number associated with it in the alias file. Either one works just fine.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the <span class="Emphasis">Skin</span> field select <span class="Emphasis">CSH-Skin</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Test-CSH-Output3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Notice the URL field has been populated. This provides us with the end of the URL path that is needed to point to the specific topic in the output. Click this link. The topic opens in the browser in a different skin than the full output.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Test-CSH-Output4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Go back to the browser tab with the fields for testing the CSH. From the drop-down at the top select <span class="Emphasis">zilker_park</span> (one of the micro content phrases). You can leave the Skin field set as is; it won't matter anyway, since skins are not supported for micro content.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Test-CSH-Output5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click the URL link at the bottom. A new tab opens with the response text for the micro content, without any skin.</p>
+            </li>
+        </ol>
+        <h2>In the Real World…</h2>
+        <p>If we were dealing with a real-world situation in which we needed to connect our CSH with parts of a product interface, we would do a couple of other things. </p>
+        <p>First, we would send the CSH IDs to the programmer. You can send the entire contents of the header file to that person, or you can simply provide each ID as you create them. </p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In this tutorial the text ID for the Austin City Limits topic is austin_city_limits, and the generated numerical ID is 1001. So we could give our developer either of those, as well as the name of the skin (CSH-Skin).</p>
+        </div>
+        <p MadCap:conditions="General.Online-Only">Second, we would send the programmer the information in <a href="https://help.madcapsoftware.com/flare2021r2/Default.htm#cshid=CSH_Calls_HTML5_Developers" target="_blank">this Help topic</a>.</p>
+        <p MadCap:conditions="General.Print-Only">Second, we would send the programmer the information the online Help topic called "CSH Calls for HTML5 Output."</p>
+        <p>This topic explains the two primary methods for linking to CSH documentation—JavaScript or URL. In the steps above, we quickly looked at the URL method. Consider the South by Southwest example. The URL on the test page was:</p>
+        <div class="IndentMedium">
+            <p>Default.htm#cshid=south_by_southwest&amp;skinName=CSH-Skin</p>
+        </div>
+        <p>This simply tells the software to open the topic that is associated with the south_by_southwest CSH ID, and to do so in the CSH skin that is specified.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Default.htm is the main entry page for HTML5 outputs. When you end the path with Default.htm, with nothing after it, the output automatically redirects to your designated startup topic that is specified on the General tab of the Target Editor.</p>
+        </div>
+        <p>The developer should therefore create a path that tacks this information onto the end of the main URL. The developer might link the CSH documentation from any number of elements in the software (e.g., a dialog, a window pane, a shortcut key).</p>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The main URL for the latest version of the Flare online Help is: </p>
+            <div class="IndentMedium">
+                <p> https://help.madcapsoftware.com/flare2021r2/Default.htm</p>
+            </div>
+            <p>If we had the South by Southwest topic in our Help system, and the programmer wanted to create a full URL path to it, including the skin, he would write it like this:</p>
+            <div class="IndentMedium">
+                <p>https://help.madcapsoftware.com/flare2021r2/Default.htm#cshid=south_by_southwest&amp;skinName=CSH-Skin</p>
+            </div>
+            <p>Why wouldn't the programmer simply write a URL path that goes directly to the topic? Perhaps like this:</p>
+            <div class="IndentMedium">
+                <p>https://help.madcapsoftware.com/flare2021r2/Content/Flare/Music/South-by-Southwest.htm</p>
+            </div>
+            <p>One good reason not to do this is in case an author renames or moves the topic in Flare's Content Explorer. Let's say an author makes an update to the documentation at some point, renames the "Music" folder to "Music-Stuff," and republishes. The link to the topic would therefore break. But by pointing to the CSH ID, the link will still work.</p>
+        </div>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End.flsnp" />
+        </div>
+    </body>
+</html>

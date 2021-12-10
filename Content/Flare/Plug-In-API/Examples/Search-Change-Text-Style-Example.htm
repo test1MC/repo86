@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Plugin-API.flmsp');">
+    <head>
+        <meta name="description" content="Example where IEditorContext is used to search for a input string and change the style of it throughout the document. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />Search and Change Text Style Example</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Information-Developers.flsnp" MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <p>Following is a basic example where IEditorContext is used to search for a input string and change the style of it throughout the document. See <MadCap:xref href="../Interfaces/IEditorContext.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IEditorContext Interface</MadCap:xref>.</p>
+        <p>In this example, assume your class instance of IEditorContext is named “mEditorContext.”</p>
+        <MadCap:codeSnippet xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSharp;">private void SearchAndChangeStyle(string searchString)
+{
+	IDocument currentDocument = mEditorContext.GetActiveDocument();
+	if (currentDocument != null)
+	{
+		string text = currentDocument.GetDocumentText();
+		int occurences = Regex.Matches(text, searchString).Count;
+		for (int i = 0; i &lt; occurences; i++)
+		{
+			currentDocument.Select(searchString);
+			currentDocument.Selection.ChangeBackColor(Color.Yellow);
+			currentDocument.Selection.ChangeForeColor(Color.Red);
+			currentDocument.Selection.ChangeFontFamily("Comic Sans MS");
+		}
+	}
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

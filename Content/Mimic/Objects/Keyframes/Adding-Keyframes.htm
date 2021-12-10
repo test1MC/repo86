@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Mimic/PDF-Topics/Mimic-Movie-Editing.flmsp');">
+    <head>
+        <meta name="description" content="Learn how to apply keyframes to objects in MadCap Mimic. " />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Keyframes:adding" />Adding Keyframes</h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Mimic/Objects/Keyframes/Keyframes3.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Add Keyframes to Objects</h2>
+        <ol>
+            <li>Open a movie that contains objects, or add an object to a frame. </li>
+            <li>Double-click the object. <MadCap:snippetText src="../../../Resources/Snippets/Mimic/Objects/Object-Properties-Window-Pane-Opens.flsnp" /></li>
+            <li>
+                <p>In the Timeline window pane (<span class="Emphasis">View &gt; Timeline</span>), do one of the following:</p>
+                <ul>
+                    <li>For all standard object types, click <span class="Emphasis">Frame View</span>. Any action objects converted to objects will also be in this view.</li>
+                    <li>For action object types, click <span class="Emphasis">Action View</span>. Any objects converted to action objects will also be in this view.</li>
+                </ul>
+            </li>
+            <li>
+                <p>Add one of the following keyframe types:</p>
+                <p class="Subheading">Opacity</p>
+                <p>Altering the object opacity within keyframes can make an object appear to fade in or out of a frame.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Add-Keyframe-Opacity.flsnp" />
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you want to make an object gradually go from 0-100% opacity (or the other way around), you really only have to set two keyframes. Set the first one at the beginning of the object, then set the final state at the very end of the object. The object is automatically set to have a linear interpolation, so the transition will happen gradually over the duration of the object's time span.</p>
+                </div>
+                <p class="Subheading">Color</p>
+                <p>A&#160;timed, subtle change to an object's color can redirect attention to that object when the transition begins.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Add-Keyframe-Color.flsnp" />
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you want a gradient to display for one or more keyframes but want a solid color for the rest of the object's keyframes, choose one of the gradient background types for the object. For the keyframes you want to remain solid, pick the same color for both gradient fields.</p>
+                </div>
+                <p class="Subheading">Position</p>
+                <p>When you create keyframes in order to move the position of an object, a trajectory is automatically shown in the Frame Editor. Each movement point is indicated by a blue circle on the trajectory's dotted line. </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Add-Keyframe-Position.flsnp" />
+                <p class="Subheading">Size</p>
+                <p>You might want to show an object becoming smaller to accommodate other objects taking over the focal point of the frame.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Add-Keyframes-Size.flsnp" />
+                <p class="Subheading">Rotation</p>
+                <p>Rotating an object on the frame will create a spinning effect.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Add-Keyframe-Rotation.flsnp" />
+                <p class="Subheading">Text</p>
+                <p>Changing the text on an object lets you reuse that object.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Add-Keyframe-Text.flsnp" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">All objects do not have the same keyframe options. For example, cursor objects do not have a rotation property.</p>
+                </div>
+            </li>
+            <li>Continue adding keyframes as needed.</li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Add Keyframes to Clip Effects</h2>
+        <p>You can apply keyframes to clip effects. </p>
+        <ol>
+            <li>Open a movie that contains an object to which a clip effect has been applied. </li>
+            <li>
+                <p>In the Timeline window pane (<span class="Emphasis">View &gt; Timeline</span>), do one of the following:</p>
+                <ul>
+                    <li>For all standard object types, click <span class="Emphasis">Frame View</span>. Any action objects converted to objects will also be in this view.</li>
+                    <li>For action object types, click <span class="Emphasis">Action View</span>. Any objects converted to action objects will also be in this view.</li>
+                </ul>
+            </li>
+            <li>
+                <p>In the Timeline, right-click the effect bar and select <span class="Emphasis">Properties</span>.</p>
+                <p>The Effect Properties window pane opens.</p>
+            </li>
+            <li>
+                <p>Add one of the following keyframe types:</p>
+                <p class="Subheading">Position</p>
+                <p>When you create keyframes in order to move the position of a clip effect, a trajectory is automatically shown in the Frame Editor. Each movement point is indicated by a blue circle on the trajectory's dotted line. </p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>In the Effect Properties window pane, expand the <span class="Emphasis">Object Layout</span> section.</li>
+                    <li>
+                        <p>Manually set the starting position of the clip effect area by dragging the red effect frame to the desired location in the Frame Editor, or set it using the Position fields in the Effect Properties window pane:</p>
+                        <ol style="list-style-type: lower-roman;">
+                            <li>In the first <span class="Emphasis">Position</span> field, select the starting horizontal position for the effect area. Increase the number to move the effect area to the right, or decrease the number to move the effect area to the left.</li>
+                            <li>In the second <span class="Emphasis">Position</span> field, select the starting vertical position for the effect area. increase the number to move the effect area down, or decrease the number to move the effect area up.</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>From beside the <span class="Emphasis">Position</span> fields, click <img src="../../../Resources/Images/Mimic/Interface/Buttons/Keyframe-btn.png" class="ReduceButtonSize" />.</p>
+                        <p>In the Timeline, a position keyframe bar will nest under the effect bar. Additionally, a small blue circle will appear beside the red effect frame in the Frame Editor. As you add position keyframes, these circles will represent each new position, and a dotted path will form between them, showing you the effect area motion.</p>
+                    </li>
+                    <li>In the Timeline, drag the playhead to the point of time when the first position transition should begin.</li>
+                    <li>
+                        <p>Manually set the starting position of the effect area by dragging the red effect area frame to the desired location in the Frame Editor, or set it using the Position fields in the Effect Properties window pane:</p>
+                        <ol style="list-style-type: lower-roman;">
+                            <li>In the first <span class="Emphasis">Position</span> field, select the next horizontal position for the effect area. Increase the number to move the effect area to the right, or decrease the number to move the effect area to the left.</li>
+                            <li>
+                                <p>In the second <span class="Emphasis">Position</span> field, select the next vertical position for the  effect area. increase the number to move the  effect area down, or decrease the number to move the  effect area up.</p>
+                                <p>Once you set one of the positions, a new keyframe will automatically appear in the position keyframe bar. You do not need to click <img src="../../../Resources/Images/Mimic/Interface/Buttons/Keyframe-btn.png" class="ReduceButtonSize" /> again.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>(Optional) Repeat step d and e to continue adding position keyframes.</li>
+                </ol>
+                <p class="Subheading">Size</p>
+                <p>You might want an effect area to increase to create the feeling of a big reveal, or decrease to closing in on important information.</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>In the Effect Properties window pane, expand the <span class="Emphasis">Object Layout</span> section.</li>
+                    <li>
+                        <p>Manually set the starting size of the object by clicking and dragging the red effect area frame, or set it using the Size fields in the Object Layout section:</p>
+                        <ol style="list-style-type: lower-roman;">
+                            <li>In the first <span class="Emphasis">Size</span> field, increase the number to add width, or decrease the number to shrink the width to set the starting size of the effect area.</li>
+                            <li>In the second <span class="Emphasis">Size</span> field, increase the number to add length, or decrease the number to shorten the height to set the starting size of the effect area.</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>From beside the Size fields, click <img src="../../../Resources/Images/Mimic/Interface/Buttons/Keyframe-btn.png" class="ReduceButtonSize" />.</p>
+                        <p>In the Timeline, the Size keyframe bar will nest under the effect bar.</p>
+                    </li>
+                    <li>In the Timeline, drag the playhead to the point of time when the first size transition should begin.</li>
+                    <li>
+                        <p>Manually set the next size of the effect area by clicking and dragging the red effect area frame, or set it using the Size fields in the Object Layout section:</p>
+                        <ol style="list-style-type: lower-roman;">
+                            <li>In the first <span class="Emphasis">Size</span> field, select the next width for the effect area.</li>
+                            <li>
+                                <p>In the second <span class="Emphasis">Size</span> field, select the next height for the effect area.</p>
+                                <p>Once you resize the effect area, a new keyframe will automatically appear in the size keyframe bar. You do not need to click <img src="../../../Resources/Images/Mimic/Interface/Buttons/Keyframe-btn.png" class="ReduceButtonSize" /> again.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>(Optional) Repeat steps e-g to continue adding size keyframes.</li>
+                </ol>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>Continue adding keyframes as needed.</li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>Examples</h2>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>This frame contains a black rectangle object. Right now, the object is opaque. However, we want it to change between black and white during the course of the frame. To do this, we will add a series of background keyframes by using the Keyframe button <img src="../../../Resources/Images/Mimic/Interface/Buttons/Keyframe-btn.png" class="ReduceButtonSize" /> in the Object Properties window pane.</p>
+            <p>
+                <img src="../../../Resources/Images/Mimic/Objects/Keyframe1.png" class="MaxWidth90Percent" />
+            </p>
+            <p>When the object is at the starting point of the transition—in other words, when we first want the object to change color—click the keyframe button next to the Color property in the Object Properties window pane. Once the first keyframe has been added, the background keyframe type bar is added to the object. Each keyframe is indicated by diamond on the keyframe type bar.</p>
+            <p>
+                <img src="../../../Resources/Images/Mimic/Objects/Keyframe2.png" class="MaxWidth90Percent" />
+            </p>
+            <p> For each new color setting, drag the playhead to the time at which the object should change color, then select a new color from the Object Appearance section in the Object Properties window pane. A&#160;new keyframe diamond is automatically added to the Timeline.</p>
+            <p>
+                <img src="../../../Resources/Images/Mimic/Objects/Keyframe3.png" class="MaxWidth90Percent" />
+            </p>
+            <p>Additionally, you can set an interpolation option when creating keyframes. This changes the type of transition between each keyframe. To do this, click the keyframe diamond, then select an option from the Interpolation drop-down in the Keyframe Properties window pane. In this case, you can pick linear or discrete interpolation. A <span class="EmphasisItalic">linear</span> interpolation causes a gradual fade between each color, while a <span class="EmphasisItalic">discrete</span> interpolation causes a distinct change between the colors precisely when the keyframe is reached.</p>
+            <p>
+                <img src="../../../Resources/Images/Mimic/Objects/Keyframe8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Resources/Images/Mimic/Objects/Keyframe9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Multimedia/Movies/Keyframes-Effects.flsnp" />
+        <h2>What’s Noteworthy?</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Tip-Position-Keyframe.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Keyframes/Note-Snap-Keyframe.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can add size and position keyframes to clip effects. Clip is the only effect that supports keyframes. Note that the opacity <span class="EmphasisItalic">keyframe</span> (which can be applied to any object) is not the same as an opacity <span class="EmphasisItalic">effect</span> (which can only be applied to image objects).</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Multimedia/Movies/Hidden-Shapes-Opacity.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Objects/Copying-Keyframes.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you are creating another keyframe within the same object or clip effect and keyframe type, you do not need to click the keyframe button again. Any keyframes added after the first are automatically created when the property is changed.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to change the way the keyframe transitions from one state to the next, you will need to edit each keyframe. This includes editing the trajectory (position keyframes). See <MadCap:xref href="Editing-Keyframes.htm">Editing Keyframes</MadCap:xref>.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you add an object that contains keyframes to a palette, it will retain those keyframes.</p>
+        </div>
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">After you add keyframes, you can make changes to the transition effects between them. See <MadCap:xref href="Editing-Keyframes.htm">Editing Keyframes</MadCap:xref>.</p>
+    </body>
+</html>

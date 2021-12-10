@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="440" MadCap:lastWidth="1205">
+    <body>
+        <ol>
+            <li>Make changes to the synonyms in Pulse.</li>
+            <li>Export the updated synonym file from Pulse.</li>
+            <li>
+                <p>Ensure the file that you exported has the exact same file name as the synonym file in the Flare project. You may need to rename this file to match. </p>
+            </li>
+            <li>Ensure that the Flare project where you plan to copy the file is closed. </li>
+            <li>
+                <p>Double-click the synonym file to open it. This starts the Flare program.</p>
+                <div class="warning">
+                    <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Important: &lt;/span&gt;&lt;/b&gt;">If the Flare project where you are planning to copy the file is open, an error message appears to inform you the desired Flare project is already open in another instance. Close the open Flare project and then open the synonym file again.</p>
+                </div>
+            </li>
+            <li>
+                <p>In the&#160;Copy to Project dialog, select the project where you want to copy the synonym file. Then click <span class="Emphasis">Copy</span>.</p>
+                <p>The program copies the file to the selected project and places it in the \Project\Advanced folder in the Flare project. The program also opens the file in the Synonyms Editor.</p>
+                <p>When Flare recognizes that a target file with the same file name exists, the Copy File dialog appears. </p>
+            </li>
+            <li>In the Copy File dialog, make sure that the appropriate source file and target file names appear. Then click <span class="Emphasis">Overwrite</span>.</li>
+            <li>In the Synonyms Editor, ensure that your updated synonyms appear.</li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

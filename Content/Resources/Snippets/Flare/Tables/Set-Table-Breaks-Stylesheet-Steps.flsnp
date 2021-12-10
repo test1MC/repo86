@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Medium1.flsnp" />
+                </p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Select-Medium2.flsnp" />
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Remembers-Last-Medium.flsnp" />
+                    </p>
+                    <p MadCap:conditions="Flare-Guides.Flare-Tables-Guide,General.Online-Only">
+                        <img src="../../../Images/Shared/Co-Fl/General/Medium.png" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-Table-Styles1.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+            <li>From the list below, select the appropriate style. Usually you want to put a break on table (which sets the break on the entire table) or tr (which sets the break on rows, allowing you to easily end a page with one row due to the amount of content, and begin the next page with the following row).</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Print-Support-Group1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Select-Break-Property-Value1.flsnp" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-Guide" />
+                <div class="topic-only">
+                    <p class="Subheading">Column-Break-Before</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Column-Break-Before.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">always </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Always.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">auto </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="topic-only">
+                    <p class="Subheading">Column-Break-After</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Column-Break-After.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">always </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Always.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">auto </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="topic-only">
+                    <p class="Subheading">Column-Break-Inside</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Column-Break-Inside.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">auto </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="topic-only">
+                    <p class="Subheading">Frame-Break-Before</p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Paragraphs/Frame-Break-Before.flsnp" />
+                    <ul>
+                        <li><span class="SetOffFirstLevel">always </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Always.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">auto </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-Guide" />
+                <div class="topic-only">
+                    <p class="Subheading">Frame-Break-After</p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Paragraphs/Frame-Break-After.flsnp" />
+                    <ul>
+                        <li><span class="SetOffFirstLevel">always </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Always.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">auto </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="topic-only">
+                    <p class="Subheading">Frame-Break-Inside</p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Paragraphs/Frame-Break-Inside.flsnp" />
+                    <ul>
+                        <li><span class="SetOffFirstLevel">automatic </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="topic-only">
+                    <p class="Subheading">Page-Break-Before</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Page-Break-Before.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">always </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Always.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">auto </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">left </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Force-Left-Page.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">right </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Force-Right-Page.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-Guide" />
+                <div class="topic-only">
+                    <p class="Subheading">Page-Break-After</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Page-Break-After.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">always </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Always.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">auto </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">left </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Force-Left-Page.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">right </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Force-Right-Page.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="topic-only">
+                    <p class="Subheading">Page-Break-Inside</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Page-Break-Inside.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">auto </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Automatic.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">avoid </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Avoid.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">inherit </span>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

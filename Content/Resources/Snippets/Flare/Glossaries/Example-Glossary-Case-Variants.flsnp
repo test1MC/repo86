@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have the word "Target" in your glossary, with the "T" capitalized. Also, in your target you've opened the Glossary tab and told Flare to automatically convert all occurrences of matching terms to glossary links in your topics.</p>
+            <p>You might have topics that contain variations of the word, something like the following (with much more topic text than this, of course):</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Glossary-Case-Variants4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Suppose you generate your target without selecting either the "Ignore case…" or "Stem…" options.</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Glossary-Case-Variants5.png" alt="" title="" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <p>In that case, the topic will look like this in the output, with only one term converted to a glossary term link—the word that matches the one in the glossary perfectly.</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Glossary-Case-Variants6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Now suppose you select the option to ignore the case of words.</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Glossary-Case-Variants7.png" alt="" title="" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <p>In that case, the topic will look like this in the output, with two words converted to glossary term links.</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Glossary-Case-Variants8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>And finally, suppose you select both options.</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Glossary-Case-Variants9.png" alt="" title="" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <p>In that case, the topic will look like this in the output, with all of the words converted to glossary term links.</p>
+            <p>
+                <img src="../../../Images/Flare/Glossaries/Glossary-Case-Variants10.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

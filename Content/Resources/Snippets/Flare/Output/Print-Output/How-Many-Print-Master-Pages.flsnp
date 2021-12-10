@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p> That depends on your situation. You might need only one template page, or you might need multiple template pages. </p>
+        <p>If the page settings and header/footer information on all of the pages of your document are consistent, you may be able to use just one print template page. It is possible to have one print template page with multiple body proxies on it. You might do this if you want different page settings (e.g., margins, page number settings) for first, even, and odd pages of a manual. In other words, each proxy can have a different page configuration. You can also add other content (e.g., text, images, Heading variables, Running Head variables) above or below the Body proxy on a template page, and you can designate each of these sets of content to show up specifically on a first, even, or odd page.</p>
+        <p>However, you might not want to use just one template page for an entire document. Why? Because you might have some sections of your manual where you do not want any headers or footers at all (e.g., title page). Or you might want some sections of the manual to use one set of header or footer content and other sections to use different header or footer content.</p>
+    </body>
+</html>

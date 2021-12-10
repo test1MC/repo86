@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Exporting your topic list is useful if you’d like to sort or filter your topics, or if you’d like to provide a list of topics and context IDs to your software development team for the implementation of context-sensitive Help.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/CSH/CSH.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/About-CSH-D2H.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content"> See the online Help or the <span class="EmphasisItalic">Context-Sensitive Help Guide</span>.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Export the Topic List</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">Open the Topics window.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Open the <span class="Emphasis">Project</span> ribbon, and click the <span class="Emphasis">Topics Panel</span> button.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">Choose the <span class="Emphasis">Topics</span> ribbon.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">Click the <span class="Emphasis">Print and Export</span> button.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Print and Export</span> drop-down on the Topics Panel.</li>
+                    <li>From the <span class="Emphasis">Export to…</span> list, choose <span class="Emphasis">Excel</span> or <span class="Emphasis">Text</span>.</li>
+                    <li>The Save As dialog opens. </li>
+                    <li>Choose the file location and name.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Online-Only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Only the columns displayed will be exported.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> For information on how to display/hide topics, see <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Topics-Window-Pane.htm">Topics Window Pane</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> For information on how to display/hide topics, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Topics-Window.htm">Topics Window Panel (Doc-To-Help)</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+    </body>
+</html>

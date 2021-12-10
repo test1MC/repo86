@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/User-Guides-Tutorials/Flare-Custom-Toolbar.flmsp');">
+    <head><title></title>
+        <meta name="description" content="Ways for inserting and editing a topic toolbar proxy." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Toolbars:topic;Proxies:topic toolbars" />
+            <MadCap:concept term="FilterFeatures" />Adding Custom Buttons to a Toolbar</h1>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus.flsnp" />
+        <p>In addition to the toolbar button options provided by Flare, you can add your own custom buttons with some associated JavaScript to serve various purposes. To work through a scenario for adding custom buttons with JavaScript, see the <MadCap:xref href="../../../../Tutorials/JavaScript-Tutorials/Custom-Toolbar-Tutorial/Custom-Toolbar-Tutorial.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Custom Toolbar Tutorial</MadCap:xref>.</p>
+        <h2>How to Add a Custom Toolbar Button</h2>
+        <ol>
+            <li>From the Project Organizer, open your Topic Toolbar skin component (if producing HTML5) or your Standard skin (and select the <span class="Emphasis">Topic Toolbar</span> tab, if producing another output type).</li>
+            <li>At the lower-left of the editor, click <img src="../../../../../Resources/Images/Flare/Interface/Buttons/Add-Custom-Toolbar-Item-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+            <li>In the dialog, provide a name for the new button, then click <span class="Emphasis">OK</span>.</li>
+            <li>On the left side of the editor, double-click the name of your custom button to move it to the right. Then use the arrow keys at the bottom to adjust its placement in the list of buttons. The higher a button is in the list, the further to the left it will be in the toolbar. The lower it is, the further to the right it will be.</li>
+            <li>Add JavaScript for the button:<ul><li>If the button requires multiple lines of JavaScript, select the button name. Then, on the lower-right of the editor, click <span class="Emphasis">Edit</span>. Enter or paste your JavaScript Code, and click <span class="Emphasis">OK</span>.</li><li><p>If the button just requires one line of JavaScript for its event, select the <span class="Emphasis">Styles</span> tab in the editor. Expand the <span class="Emphasis">Toolbar Button</span> node. Then expand the node with the name of your custom button. Finally, expand the <span class="Emphasis">Event</span> node and in the <span class="Emphasis">Click</span> field, enter the JavaScript.</p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The above is for a Topic Toolbar skin component. If you are working in a Standard skin for a non-HTML5 output, the node and field labels are just a bit different (e.g., Toolbar Item, Type, OnClick).</p></div></li></ul></li>
+            <li>
+                <p>Provide a background image to represent the button. Under the node with your button name, expand the <span class="Emphasis">Background</span> node, and complete the <span class="Emphasis">Image</span> field.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are working in a Standard skin for a non-HTML5 output, the node and field labels are just a bit different.</p>
+                </div>
+            </li>
+            <li>(Optional) Use any of the other nodes and fields on the Styles tab to make further design changes for the custom button.</li>
+            <li>
+                <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+    </body>
+</html>

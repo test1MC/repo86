@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Plugin-API.flmsp');">
+    <head>
+        <meta name="description" content="Example of how to add and properly remove a context menu item for a given instance of IDocument." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />Context Menu Example</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Information-Developers.flsnp" MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <p>Following is an example of how to add and properly remove a context menu item for a given instance of IDocument. See <MadCap:xref href="../Interfaces/IDocument.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IDocument Interface</MadCap:xref>.</p>
+        <MadCap:codeSnippet xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSharp;">public void AddContextMenuItem(IDocument doc)
+{
+	if (doc != null)
+	{
+		List&lt;System.Windows.Forms.ToolStripItem&gt; cms = doc.GetUserPendingContextMenuItems();
+		cms.Add(new System.Windows.Forms.ToolStripMenuItem("Editor Plugin Item"));
+	}
+}
+public void RemoveContextMenuItem(IDocument doc)
+{
+	if (doc != null)
+	{
+		List&lt;System.Windows.Forms.ToolStripItem&gt; cms = mCurrentDocument.GetUserPendingContextMenuItems();
+		cms.Clear();
+	}
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <div class="note">
+            <p class="Note-Text" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have multiple documents with custom context menu items, you need to manually clear their context “toolstripitem” lists.</p>
+        </div>
+    </body>
+</html>

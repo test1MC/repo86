@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Tutorials-Videos/Flare-LMS-Tutorial-Advanced.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Removing the Side Navigation skin from targets and viewing the resulting output." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/eLearning-Advanced.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:eLearning;Learning and development:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />Going Skinless</h1>
+        <p>In all of the outputs that we've generated and viewed, there is navigation on the left side of the output that provides links to all of the topics in the table of contents (TOC). In addition, there is a search bar at the top. </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Skinless14.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>All of this is included because our project is based on the Austin project template, which was already set up to use a Side Navigation skin. However, you might not want to include this kind of navigation. </p>
+        <p>Also, remember that in our Knowledge Check Course, the test topics were not included, and in the Test Course, the knowledge check topics were not included. However, that's not entirely true. They were excluded from the navigation, but if you were to search for one of those supposedly excluded topics, you would be able to open it. If you wanted to <span class="EmphasisItalic">completely exclude</span> a topic from a particular output, you would need to place the condition on the topic file itself (or the folder containing it) in the Content Explorer.</p>
+        <p>In your actual project, you might not want either the side navigation or the search capabilities. In that case, you can create what is known as "skinless output." It is called this because you would not be using a main skin (Side Navigation, Top Navigation, or Tripane) at all. However, you still might be using smaller skin components, such as the one that we created for use with the eLearning toolbar. </p>
+        <p>There are a couple of ways to do this, including removing the main Side Navigation skin that is providing the navigation and search bar. But we're going to do something quite simple, while keeping our Side Navigation skin in the project. </p>
+        <h2>How to Remove the Navigation From the Main Skin</h2>
+        <ol>
+            <li>
+                <p>In the Project Organizer, under the <span class="Emphasis">Skins</span> folder, double-click <span class="Emphasis">Side Navigation</span> to open it to the right.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Skinless1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the Skin Editor, select the <span class="Emphasis">Setup</span> tab. Then, from the <span class="Emphasis">Main Menu Position</span> field select <span class="Emphasis">None</span>, and from the <span class="Emphasis">Slide-Out Position</span> field, select <span class="Emphasis">None</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Skinless2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Select the <span class="Emphasis">Styles</span> tab. Then, on the left side expand <span class="Emphasis">Search Bar &gt; Layout</span>, and set the <span class="Emphasis">Display</span> field to <span class="Emphasis">none</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Skinless3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Build and view the output again for the Combination Course target. The output for the Home page now looks like this, with no side navigation and no header bar that includes the search field.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Skinless4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">START&#160;COURSE</span> and navigate through the other pages to see that the navigation and search bar are also hidden from them as well.</p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">There are many other ways to alter the look of your output. For example, you could have a project without a  main skin (e.g., Side Navigation, Top Navigation, Tripane) altogether, but to include a header at the top of topics you could create a custom style, insert your logo image in the template page above the Body proxy, and apply the style to that area (probably to a &lt;div&gt; or &lt;p&gt; tag). That's how the same situation is handled in the eLearning project templates that are built in to Flare. </p>
+        </div>
+    </body>
+</html>

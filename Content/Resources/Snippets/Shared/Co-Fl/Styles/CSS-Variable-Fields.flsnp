@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="Emphasis">HTML Element </span>By default this field is populated with :root for new CSS variables. This is probably what you will use most of the time so that the variable is global. But you can replace this with a specific selector (e.g., p, ol, img) if you want.</li>
+            <li><span class="Emphasis">Name </span>Enter a name for the variable.</li>
+            <li><span class="Emphasis">Property Type </span>Select a property to associate with the variable. The most common property types are listed, but you can also choose “(Custom)” if you need something other than the options shown.</li>
+            <li><span class="Emphasis">Value </span>Enter a value that is appropriate for the variable, based on the property type you selected.</li>
+            <li><span class="Emphasis">Resulting CSS </span>As you complete the fields above, this field shows how the variable will appear in the stylesheet. If you forgot to add two dashes in front of the variable name, <MadCap:variable name="Other.Product" /> adds them automatically in this field (e.g., --Brand: #6be42e).</li>
+        </ul>
+    </body>
+</html>

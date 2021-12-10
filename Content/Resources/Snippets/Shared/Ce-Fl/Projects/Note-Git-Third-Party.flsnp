@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are using Git as your third-party source control tool for the first binding, the dual-bound model works slightly differently than it does if you are using another source control provider. In this situation, you will still use the MadCap Central window pane and Source Control ribbon in Flare to manage your changes. However, you are able to pull and push files from and to <span class="EmphasisItalic">either</span> Central or your Git repository. As a result, your Git repository and your Central repository might be completely different, and you may encounter conflicts. In this situation, Flare's Conflict Resolution dialog will open and you can accept or reject the changes. It is recommended that you establish an internal workflow to dictate the order in which you pull and push from and to each repository to prevent conflicts and ensure that your files in Central stay up-to-date.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can determine where other Flare project outputs are merged relative to your parent project's <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">TOC</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">browse sequence</MadCap:conditionalText> if you are generating <MadCap:variable name="Outputs.WebHelp Plus" MadCap:conditions="Snippets.Snippet3" /><MadCap:variable name="Outputs.HTML5" MadCap:conditions="Snippets.Snippet4" /><MadCap:conditionalText MadCap:conditions="Snippets.Snippet5"><MadCap:variable name="Outputs.WebHelp Plus" /> or <MadCap:variable name="Outputs.HTML5" /></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet4,Snippets.Snippet5"> server-based</MadCap:conditionalText> output and you are publishing the files to a web server running Microsoft IIS.</p>
+    </body>
+    <head>
+    </head>
+</html>

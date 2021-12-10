@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a micro content phrase called "lady bird lake," which links to part of a topic in your project. This response includes a heading, a paragraph, and an image.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Conditions1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>When you generate the HTML5 output and search for Lady Bird Lake, you will see all of this content in the micro content search results. And when you open the topic, you see the same.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>Suppose you want the image to display only in the topic, but not in the micro content search results. Therefore, you begin by creating a condition. Let's say you name it "TopicOnly."</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Conditions2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>In the topic where the content exists, you apply this condition to the image. A small blue square in the upper-right corner indicates that the condition is applied.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Conditions3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>Next, you open the micro content file, right-click the phrase, and select <span class="Emphasis">Properties</span>.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Conditions4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>In the dialog, you select the <span class="Emphasis">Micro Content Conditions</span> tab. Then you select the <span class="Emphasis">Default.TopicOnly</span> condition row and set it to <span class="Emphasis">Exclude</span>.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Conditions5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>After you click <span class="Emphasis">OK</span> and save the changes, you build the HTML5 output.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>When you open the topic in the output, you see all of the content, including the image.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Conditions6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>But when you search for Lady Bird Lake, you only see the heading and paragraph in the micro content.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Conditions7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

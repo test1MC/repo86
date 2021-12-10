@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If you want to create dynamic Help for your own product(s), the <a href="../../../../Flare/CSH/Process/Process-CSH.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">process</a> is essentially the same as it is for context-sensitive Help (CSH) in general. Work with your developer to come up with a plan. As the author, your job is still to create CSH IDs and link them to topics the same way you normally would, and make sure your developer uses the appropriate IDs wherever CSH is needed. The difference is that your developer might need to integrate a window pane in the software to display your Help output (if that is not being done already). Then, other parts of the product's interface (e.g., entire window panes) would be programmed to make the CSH call when a user clicks any part of it, as opposed to, say, clicking an isolated button.</p>
+    </body>
+</html>

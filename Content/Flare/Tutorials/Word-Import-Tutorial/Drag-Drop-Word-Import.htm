@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-Import-Word-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Dragging and dropping Word files into your Flare project is easy to do and fast. Single or multiple docs can be selected at once, and you can quickly customize how files are imported through the user-friendly wizard." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Importing-Word.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:Word import" />
+            <MadCap:concept term="FilterIntroduction" />Dragging and Dropping Word Files Into Flare</h1>
+        <p>Dragging and dropping Word files into your Flare project is easy to do and fast. Single or multiple docs can be selected at once, and you can quickly customize how files are imported through the user-friendly wizard.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Drag and Drop Word Files</h2>
+        <ol>
+            <li>With your new project open in Flare, launch your operating system’s File Explorer.</li>
+            <li>From the File Explorer, navigate to the recently downloaded files for this tutorial. See <MadCap:xref href="Before-We-Begin-Word.htm#WordImportFiles">Word Files for This Tutorial</MadCap:xref>.</li>
+            <li>
+                <p>Select the two Word files, and drag and drop them into the root Content folder in Flare’s Content Explorer. Placing the files at the root level adds them next to the other existing files about Austin.  <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Editor-Tools/Drag-Drop/Dragging-Dropping-Files.htm">Dragging and Dropping Files Into Projects</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Drag-Import.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">When creating your own project, you can organize your files however you want. With larger projects it is logical to create subfolders under the root Content folder.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Since dragging and dropping Word files includes an import process in Flare, a Confirm Import dialog opens. Select the <span class="Emphasis">Import</span> button.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Confirm-Import.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Confirm Import dialog includes a Copy button. Selecting this option would just make a copy of the Word document and paste it into the Content Explorer as a Word doc rather than converting the file(s) to HTML format.</p>
+                </div>
+            </li>
+        </ol>
+        <h2>How to Work With the Wizard</h2>
+        <p>Flare scans the import and automatically opens the Import Microsoft Word Wizard. If you’re in a hurry, you could just select the Finish button at the bottom of the wizard (Flare would break the documents up into HTML files based on the Word style headings). But wait! Let’s see what the wizard has to offer to customize the import.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Wizard-Gen.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak />
+        <ol>
+            <li>In the left pane, select <span class="Emphasis">General</span> (if it is not selected already). For this exercise, we want to import the Word docs into the open Austin project, not into a new project. On the right, ensure that <span class="Emphasis">Import into this project</span> is selected, and that the two documents have been added and display under the MS Word Files column.</li>
+            <li>In the left pane, select <span class="Emphasis">Styles</span>. On the right, Flare lets you associate another stylesheet to the import process which would introduce more styles to the style mapping table from that new stylesheet. In this tutorial we are using the factory stylesheet (the Word styles get appended to the Flare stylesheet), so let's ignore the "Associate a stylesheet" field.</li>
+        </ol>
+        <h2>How to Map Styles</h2>
+        <p>Being able to map styles in Flare is useful and time-saving for getting content into a project, but it works best if the document for import is created using styles. With the Style Mapping feature, topic breaks logically happen at heading styles, but you can create topic breaks anywhere by selecting other styles.</p>
+        <ol>
+            <li>
+                <p>Let's take a look at the Style Mapping Paragraph options. In the left column you see the styles from the Word documents, and in the middle column you see how those Word styles mapped to the Flare style.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-StyleMap-1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This tutorial does not include any character styles, but note that the Style Mapping Character options work in the same way as the Paragraph options. When working with your own Word documents, be sure to remove any inline formatting and use Word character styles instead.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>In the <span class="Emphasis">Map to</span> column, click the down-arrow next to <span class="Emphasis">h1.Heading1</span>. Notice how the Word styles are appended to the Flare styles in the list.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-MapTo.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>For this import, we want the Word headings to mimic the Flare heading styles. Select <span class="Emphasis">h1</span> to replace the h1.Heading1 style, and select <span class="Emphasis">h1</span> to replace the h2.Heading2 style.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-MapTo-h1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>For Heading 1 and Heading 2, select the <span class="Emphasis">Start new topic on</span> box in the right column. When the files get imported, the mapped styles display in Flare as multiple topics and each topic shows as its own HTML file.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-StartOn.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Set Advanced Options</h2>
+        <ol>
+            <li>In the left pane of the wizard, select  <span class="Emphasis">Advanced Options</span>. The options you choose for your project depends on the needs of your project, but many times using the default settings is a good place to start.</li>
+            <li>
+                <p>For this tutorial, do the following to make your settings match the image below:</p>
+                <ul>
+                    <li>In <span class="Emphasis">Styles</span>, deselect <span class="Emphasis">Create new stylesheet</span>. In this example, let’s use Flare’s factory stylesheet. The imported Word styles get added to the project’s primary stylesheet.</li>
+                    <li>In <span class="Emphasis">Topics</span>, select <span class="Emphasis">Automatically set topic title</span> and <span class="Emphasis">Avoid empty topics threshold</span>.</li>
+                    <li>In <span class="Emphasis">Lists</span>, select <span class="Emphasis">Use standard list style type</span>.</li>
+                </ul>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-AdvOpt.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When importing a Word document, the wizard provides many advanced options for styles, topics, tables, lists, equations, page layouts, page breaks, and reimport. All of the options are explained in the online Help. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Importing/Other-Applications-Files/Word/Importing-Word-Files.htm">Importing Word Files</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>Select the <span class="Emphasis">Finish</span> button.</li>
+            <li>
+                <p>The Accept Imported Documents dialog opens to view the generated documents for import. Select <span class="Emphasis">Accept</span>. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-AcceptImport-Embed.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Open Imported Topics in the XML Editor</h2>
+        <p>The new topics from the Word import display in the Content Explorer. Even though we started with two Word documents, more topics exist in the Content Explorer because Flare split them up where we told it to. Let's take a look.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Files-CE.png" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak />
+        <ol>
+            <li>
+                <p>Double-click the <span class="Emphasis">Barbecue Hot Spots</span> topic to open it in the XML Editor. In the original Word doc the heading text had the style of Heading 2. In this tutorial we style mapped it to Flare’s h1 style. Also, the custom bulleted list from the Word doc displays as standard bullets.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-XML-EX.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Double-click the <span class="Emphasis">Circuit of the Americas</span> topic to open it in the XML Editor. Hover over  the image and note its name (Circuit of the Americas.jpg).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Topic-Moto-Embed.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+                <p>In the original Word document, the image was embedded rather than inserted as a linked image. Flare automatically named the image based on the topic name and stored it in its own subfolder under Resources &gt; Images. If the image had been linked, its name would have been preserved during the import.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Word-Import/Word-Image-Embed.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

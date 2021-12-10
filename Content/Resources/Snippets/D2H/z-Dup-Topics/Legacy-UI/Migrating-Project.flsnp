@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Many of us collaborate on Doc-To-Help projects using Team Authoring, TFS, or SharePoint, but sometimes we simply need to transfer a project to a coworker or a client. This is done by sending the entire project folder, but here are a few tips to make the transition easier.</p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide">Transfer the Project</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Transfer the project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Here is a typical project folder:</p>
+                <p>
+                    <img src="../../../../Images/D2H/Projects/Typical-Project-Folder.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>By default, Doc-To-Help projects are stored in the following folder:</p>
+                <div class="IndentSmall">
+                    <p>C:\Users\[user name]\Documents\My Doc-To-Help Projects</p>
+                </div>
+                <p>So when you give colleagues a project, they should drop the entire folder in that location. (This default location can be changed in Doc-To-Help by choosing <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Doc-To-Help Options &gt; Files</span><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options</span></MadCap:conditionalText>.)</p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Tip: &lt;/span&gt;&lt;/b&gt;">If the file size of the project is an issue, you can delete the contents of all the target folders before transferring the project (because your colleague can always build the projects again).</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide">Transfer the Custom Templates and Themes</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Transfer the Custom Templates and Themes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If a project has custom Word templates, and/or themes, those need to be transferred also. Just drop them into the appropriate folders.</p>
+                <p>Drop custom Word templates here (they will have the file extension of .dotx):</p>
+                <div class="IndentSmall">
+                    <p>Windows<span class="Registered-Trademark">®</span> 7 and later at: \\Users\&lt;user name&gt;\AppData\Roaming\Microsoft\Templates</p>
+                </div>
+                <p>Themes are stored here, so drop them in the appropriate folder:</p>
+                <div class="IndentSmall">
+                    <p>C:\Users\[user name]\Documents\My Doc-To-Help Projects\Doc-To-Help\Themes\[name of output]\Themes</p>
+                </div>
+                <p>To make things quicker, you could just transfer the entire Doc-To-Help folder to your colleague. Then your colleague can drop that folder into the My Doc-To-Help Projects folder (C:\Users\[user name]\Documents\My Doc-To-Help Projects).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide">Get Started</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Get Started</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Once transferred, open the project by choosing <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Open Project</span><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">File &gt; Doc-To-Help &gt; Open Project</span></MadCap:conditionalText>. The file extension of all Doc-To-Help projects is .d2h.</p>
+                <p>Double-click on any document in the Documents window pane to begin editing.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p class="TableText">Opens a submenu, which lets you select an option.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Default </span>Adds a placeholder  for you to type a caption in the default position. The factory default position is centered above the table. </li>
+            <li value="1"><span class="SetOffFirstLevel">Above Table </span>Adds a placeholder for you to type a caption above the table.</li>
+            <li value="2" MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">Below Table </span>Adds a placeholder for you to type a caption below the table. However, due to an issue with Internet Explorer, this option places the caption <i>above</i> the table in outputs that may use Internet Explorer (<span><MadCap:snippetText src="../../../Ca-Co-Fl/Output/All-Online-Output-Types.flsnp" /></span>).</li>
+            <li value="3" MadCap:conditions="Products.Flare"><span class="SetOffFirstLevel">None </span>Removes a caption from the table. </li>
+        </ul>
+    </body>
+</html>

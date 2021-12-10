@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:project builds;Output:troubleshooting" />Troubleshooting Project Build Issues</h1>
+        <p>Following are issues that may occur when building projects with Flare.</p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test1" class="TroubleshootingLink">Access to temp directory error</li>
+                <li targets="test2" class="TroubleshootingLink">Internal error: surrogate pair is invalid</li>
+                <li targets="test3" class="TroubleshootingLink">System out of memory error</li>
+            </ul>
+            <div targetName="test1" class="troubleshoot">
+                <p class="Subheading">Access to temp directory error</p>
+                <p>When building a Flare project, the following error appears:</p>
+                <p class="Emphasis">Internal error: Access to the temp directory is denied. Identity under which XMLSerializer is running does not have sufficient permission to access the temp directory</p>
+                <p class="Subheading">Cause</p>
+                <p> This error is a result of Flare not being able to write to a temporary file or directory. </p>
+                <p class="Subheading">Solution</p>
+                <p>Following are several solutions that can fix the problem. </p>
+                <p class="Subheading">solution 1</p>
+                <p>Perform the following steps to clean your output files.</p>
+                <ol>
+                    <li>
+                        <p>Select <span class="Emphasis">Project &gt; Clean Project</span>. </p>
+                        <p>A message displays, asking you to confirm the deletion of the Output folder and its files.</p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+                <p>For more information about cleaning projects, see <MadCap:xref href="../Step5-Building-Publishing-Output/Other-Activities-Features/Cleaning-Output-Files.htm">Cleaning Output Files</MadCap:xref>.</p>
+                <p class="Subheading">solution 2</p>
+                <p>Perform the following steps to delete the Users folder in the Flare project folder.</p>
+                <ol>
+                    <li>Open the Flare project folder in the Windows Explorer.</li>
+                    <li>Open the <span class="Emphasis">Project</span> folder.</li>
+                    <li>Select the <span MadCap:createDate="2013-01-11T08:20:08.8032667-08:00" MadCap:creator="pstoecklein" MadCap:initials="PJS" MadCap:comment="This word should have an Emphasis span tag on it." MadCap:editor="pstoecklein" MadCap:editDate="2013-01-11T08:20:26.8082966-08:00" class="Emphasis">Users</span> folder and press <span class="Emphasis">Delete</span> on the keyboard.</li>
+                    <li>Reopen the project in Flare and build the project.</li>
+                </ol>
+                <p class="Subheading">solution 3</p>
+                <p>Restart your computer.</p>
+                <p class="Subheading">solution 4</p>
+                <p>Uninstall Microsoft .NET Framework and reinstall the latest version.</p>
+                <p class="Subheading">solution 5</p>
+                <p>Check any anti-virus programs you may be running on your computer. Make sure that it allows Flare to write to temporary files and directories. Most of these types of programs have an exception list. Add <span class="Emphasis">Flare.exe</span> to that list. </p>
+            </div>
+            <div targetName="test2" class="troubleshoot">
+                <p class="Subheading">Internal error: surrogate pair is invalid</p>
+                <p>When attempting to build a web target, Flare displays the following error message:</p>
+                <p class="Emphasis">Internal error: The surrogate pair (0xDBC0, OxDBC0) is invlaid. A high surrogate character (0xD800 - 0xDBFF) must always be paired with a low surrogate character (0xDC00 - 0xDFFF)</p>
+                <p class="Subheading">Cause</p>
+                <p>Byte Order Mark (BOM) is required for certain characters to be read. The error occurs because the registry has not turned on the BOM for the compiler when the project is being built.</p>
+                <p class="Subheading">Solution</p>
+                <p>Turn on BOM using the Options dialog. This will enable BOM in your registry.</p>
+                <ol>
+                    <li>Select <span class="Emphasis">File &gt; Options</span>. The Options dialog opens.</li>
+                    <li>Select the <span class="Emphasis">Build</span> tab.</li>
+                    <li>
+                        <p>Click <span class="Emphasis">Enable byte order mark</span> to add a check mark.</p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/Enable-BOM.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </div>
+            <div targetName="test3" class="troubleshoot">
+                <p class="Subheading">System out of memory error</p>
+                <p>Flare displays the following error when building a project.</p>
+                <p class="Emphasis">Internal Error: Exception of type 'System.OutOfMemoryException' was thrown</p>
+                <p class="Subheading">Cause</p>
+                <p>This is caused because Flare has run out of allocated memory.</p>
+                <p class="Subheading">Solution</p>
+                <p>Do one of the following.</p>
+                <p class="Subheading">solution 1</p>
+                <ol>
+                    <li>Save and close the project.</li>
+                    <li>Reopen the project and build it.</li>
+                </ol>
+                <p class="Subheading">solution 2</p>
+                <ol>
+                    <li>Save and close the project, then restart your computer. </li>
+                    <li>Open the project and build it.</li>
+                </ol>
+                <p class="Subheading">solution 3</p>
+                <p>Consider dividing up your project into smaller projects.</p>
+                <p class="Subheading">solution 4</p>
+                <p>Delete the Analyzer folder from the Flare project.This will remove the corrupted Analyzer database. Flare will then generate a new database the next time that you open the project.</p>
+                <p>To accomplish this, perform the following steps. </p>
+                <ol>
+                    <li>Close the project in Flare.</li>
+                    <li>Open the project folder in Windows Explorer.</li>
+                    <li>Navigate to the project's Analyzer folder and delete it.</li>
+                    <li>Open the project in again Flare and build it.</li>
+                </ol>
+                <p class="Subheading">solution 5</p>
+                <p>Use the command line to build the project. For steps on how to build the project in this manner, see <MadCap:xref href="../Step5-Building-Publishing-Output/Build-Options/Building-Targets-Using-Command-Line.htm">Building Targets Using the Command Line</MadCap:xref>.</p>
+                <p>&#160;</p>
+            </div>
+            <div style="clear:both">
+            </div>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>

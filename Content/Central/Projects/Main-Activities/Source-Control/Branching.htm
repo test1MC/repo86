@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:branching;Branch" />Branching</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Central/Micro-Content-Toolbars/User-Guides/Projects-Builds.flsnp" />
+                <div class="Tiles-12-8-4">
+                    <div>
+                        <p>At this time Central does not support source control branching. When you synchronize between a Flare project and Central, you are always pulling and pushing the <span class="EmphasisItalic">master</span> branch. However, it is possible to develop a temporary workaround for this issue.</p>
+                    </div>
+                    <div>
+                        <h2>What the MadCap Documentation Team Does</h2>
+                        <p>Primarily, we use a <a href="Dual-Bound-Projects.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">dual-bound model</a>, with our first binding to Git, and our second binding to Central. Within our first binding, we use branching extensively. Since Central does not yet support branching, we have adopted a project structure involving Global Project Linking in Flare. We will use this temporary structure until Central fully supports branching.</p>
+                        <ol>
+                            <li>Our primary Flare project holds content for <span class="EmphasisItalic">all</span> of our MadCap Software products. In addition to that main project, we have created several smaller projects, each one designed to hold content in a state of development related to a specific MadCap product (e.g., “Central - Develop,” “Flare-Develop,” “Lingo-Develop”).</li>
+                            <li>In our main Flare project, we check out a branch we have named "develop," which contains a compilation of new documentation <span class="EmphasisItalic">as it’s being developed, not the finished result</span>. </li>
+                            <li>We open one of our child "Develop" Flare projects. Based on conditions that are set on files in the main project, we import all of the files for a particular product via Global Project Linking. We do not edit any of these child projects; their sole purpose is to hold a copy of content already existing in the main project.</li>
+                            <li>Each of our child projects has a <a href="Single-Bound-Projects.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">single binding</a> to Central. So we push the files up to Central. Although we are pushing the <span class="EmphasisItalic">master</span> branch for that child project, the content actually originates from our <span class="EmphasisItalic">develop</span> branch of the main project. This allow us to create and manage tasks and checklists, based on documentation that is still in a state of development. It also lets us generate output for internal purposes (e.g., sharing with co-workers documentation intended for the next version of the product).</li>
+                        </ol>
+                    </div>
+                    <div class="Space-Above-Micro-Content-Cells">
+                        <p class="center">
+                            <img src="../../../../Resources/Images/Central/Projects/Branching1.png" alt="" title="" class="ThumbnailMicroContent" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+    </body>
+</html>

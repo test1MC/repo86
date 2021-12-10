@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Any-Level.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Snippets.Snippet3,Snippets.Snippet5" />
+            <li MadCap:conditions="Snippets.Snippet1">
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/First-Glossary-Page-Heading.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Variables-Guide,Snippets.Snippet1" />
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-First-Glossary-Page-Heading.flsnp" />
+            </li>
+            <li MadCap:conditions="Snippets.Snippet1" class="PageBreakBefore">
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/First-Glossary-Page-Term.flsnp" />
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-First-Glossary-Page-Term.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Snippets.Snippet1,Flare-Guides.Flare-Variables-Guide,Snippets.Snippet3,Flare-Guides.Flare-Printed-Output-Guide" />
+            <li MadCap:conditions="Snippets.Snippet1">
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/First-Index-Heading.flsnp" />
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-First-Index-Heading.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Snippets.Snippet1,Flare-Guides.Flare-Variables-Guide" />
+            <li MadCap:conditions="Snippets.Snippet1">
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/First-Index-Term.flsnp" />
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-First-Index-Term.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Variables-Guide,Snippets.Snippet5,Flare-Guides.Flare-Printed-Output-Guide" />
+            <li MadCap:conditions="Snippets.Snippet1">
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Last-Glossary-Page-Heading.flsnp" />
+            </li>
+            <li MadCap:conditions="Snippets.Snippet1">
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Last-Glossary-Page-Term.flsnp" />
+            </li>
+            <li MadCap:conditions="Snippets.Snippet1">
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Last-Index-Heading.flsnp" />
+            </li>
+            <li MadCap:conditions="Snippets.Snippet1">
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Last-Index-Term.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level1.flsnp" />
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-Level1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level2.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level3.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level4.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level5.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Snippets.Snippet4,Flare-Guides.Flare-Printed-Output-Guide" />
+            <li>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level6.flsnp" />
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Snippets.Snippet2,Flare-Guides.Flare-Variables-Guide,Flare-Guides.Flare-Template-Pages-Guide" />
+        <div class="note" MadCap:conditions="Snippets.Snippet2">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The glossary and index variable options are available only in <MadCap:variable name="Outputs.PDF" />  output. </p>
+        </div>
+    </body>
+</html>

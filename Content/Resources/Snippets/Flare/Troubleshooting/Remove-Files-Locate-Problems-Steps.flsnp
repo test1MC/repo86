@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Before you remove anything from your project, first make a copy, or backup, of the project.</li>
+            <li>In Windows, open the folder where the backup project is stored.</li>
+            <li>Delete several files. However, do not remove the few files that are absolutely necessary to open the project and generate the target. This includes the main FLPRJ project file and the target file itself. But otherwise, try deleting many of your content files.</li>
+            <li>Open the backup project in Flare and try generating the target again. You will probably see several warnings in the Builds window pane due to the files you removed. Don't worry about those. You are only concerned about seeing the error that you saw previously.</li>
+            <li>If you experience the same error again, repeat these steps until it does not occur. Then you can put some of the deleted files back into the folder and try again until you narrow the issue down to a specific file. Even then, you may need to then remove content from the problem file and try generating again until you discover the source of the problem.</li>
+        </ol>
+    </body>
+</html>

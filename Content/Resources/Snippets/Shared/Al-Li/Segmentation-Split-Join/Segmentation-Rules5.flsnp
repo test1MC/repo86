@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p>Following are some examples of how you might create segmentation rules:</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Do Not Break</p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">Let's say you import a Word document and the segments look like this in the Translation Editor:</p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">Let's say you open an alignment project and the segments look like this in the Alignment Tool:</p>
+            <p MadCap:conditions="Products.Lingo-Online-Only,Lingo-Guides.Lingo-Translation-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules-Align2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">Notice that the first two rows should be joined into a single segment, and the final three rows should be joined together as well.</p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">Notice that the segments are already aligned, but they are not segmented the way you want. The first two rows should be joined into a single segment, and the final three rows should be joined together as well.</p>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+            <p>To accomplish this with segmentation rules, you can do the following:</p>
+            <p>
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Lingo-Online-Only,Lingo-Guides.Lingo-Translation-Guide">With these rules in place, you can update the project and the segments will look like this:</p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">With these rules in place, you can reimport the project and the segments will look like this:</p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules-Align4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+        <MadCap:snippetBlock src="Example-Break.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Do Not Break (Using Regular Expressions)</p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">Let's say you import a Word document and the segments look like this in the Translation Editor:</p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">Let's say you open an alignment file and the segments look like this in the Alignment Tool:</p>
+            <p MadCap:conditions="Products.Lingo-Online-Only,Lingo-Guides.Lingo-Translation-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules-Align8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">The segments are aligned, but they are not segmented the way you would like them to be. To correct these breaks, you can create a segmentation rule like this:</p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">To correct these breaks, you can create a segmentation rule like this:</p>
+            <p>
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Lingo-Online-Only,Lingo-Guides.Lingo-Translation-Guide">With this rule in place, you can update the project and the segments will look like this:</p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">With this rule in place, you can reimport the project and the segments will look like this:</p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules10.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules-Align10.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+            <p>We can edit the rule so that <MadCap:variable name="Other.Product" /> does not break segments when Vol. or vol. is followed by a number. But if it is followed by a character, it will break. To accomplish this, we can edit the segmentation rule as shown here:</p>
+            <p MadCap:conditions="Products.Lingo-Online-Only,Lingo-Guides.Lingo-Translation-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules11.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Products.Align">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules-Align11.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+            <p>The modified rule tells <MadCap:variable name="Other.Product" /> to avoid breaking a segment when it finds Vol. or vol. followed by a number, including occasions when a space exists before the number. With this rule altered, you can <MadCap:conditionalText MadCap:conditions="Products.Lingo-Online-Only,Lingo-Guides.Lingo-Translation-Guide">update </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">reimport </MadCap:conditionalText>the project and the segments will look like this:</p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules12.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules-Align12.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">Segmentation rules created in Align are applied to both the source and target segments, if applicable.</p>
+        </div>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can use regular expressions with either basic or advanced segmentation rules. However, you may choose to use an advanced segmentation rule if you want to set a rule for a specific language to match the source language.</p>
+    </body>
+</html>

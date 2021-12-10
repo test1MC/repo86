@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="130" MadCap:lastWidth="950">
+    <body>
+        <p>The Pulse setup program installs a third-party tool, RabbitMQ. This runs as a Windows service and supports communication between the Pulse web server (IIS)&#160;and the SQL&#160;Server hosting your Pulse database. </p>
+        <p>RabbitMQ&#160;monitors the amount of RAM on the server, to raise alarms and block connections until the alarm is cleared. This is helpful because it will assist you preventing the server from crashing should free disk space get low.</p>
+    </body>
+</html>

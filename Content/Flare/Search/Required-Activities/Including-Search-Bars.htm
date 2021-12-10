@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:ignoredWords="etc.)?;Examples...;FAQs;this.&quot;;CSS;Stylesheets;F;alternative...;F3;F1;F2;C;F4;F6;F7;F8;F9;F10;F12;J;K;P;W;Y;Z;(.flmsp;Indexing.&quot;;editors...;ConditionTagSet;SearchFilterSet;Stylesheet;TableStyle;VariableSet;tools...;Unformat;etc.);p;topic.);.pdf,;.doc,;.txt),;TocEntry;ToolbarItem;Practice.&quot;;b;Page...;Editor...;panes...;Organizer...;Explorer...;tags.&quot;;hidden.&quot;;none.&quot;;effect.);a.,;b.,;c.,;d.,;A.,;B.,;C.,;D.,;i.,;ii.,;iii.,;iv.,;I.,;II.,;III.,;IV.,;information.);keyword.&quot;;table...;(.flprj);file.);xls;right.);this...;Editor.);s;style.);Software.&quot;;.htm,;.html,;.xhtm,;xhtm;.xml,;.xhtml,;skins.&quot;;movie...;dialog.&quot;;Dialog.&quot;;Main.&quot;;Dialogs.&quot;;MyWebProject.mcwebhelp,&quot;;MyHtmlHelp.chm&quot;).;Close.&quot;;markers.);example...;Tollfree;MadCap1;Wizard...;program.);target.&quot;;'Empty';(.css;MySubhead;MySubhead.Subheading&quot;;EmphasisBlue;EmphasisGreen;EmphasisGreen.EmphasisBlue&quot;;(.mpj,;.xpj,;.hhp;Reimport;project...;MyProject.flprj).;Report.&quot;;Reports.htm;Report.htm).;.jpg,;.gif,;.bmp).;(.flsnp;TimeSheets.&quot;;TimeSheets;dialog...;n;reimport" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head><title></title>
+        <meta name="description" content="The first step in making search accessible in your online documentation is to enable the feature in the skin that you want to use for your output target." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Search:skins;Skins:search" />
+            <MadCap:concept term="FilterFeatures" />Including Search Bars</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="Search:skins;Skins:search" />Enabling Search in Skins</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>The first step in making search accessible in your online documentation is to include a search bar.</p>
+        <p>HTML5 output is designed to show a search bar at the top of all topics via the skin. You just need to make sure this option is enabled, which is the default setting. Therefore, you might not need to do anything.</p>
+        <p>However, you might want to insert a search bar elsewhere (e.g., in the middle of your Home page). In this case, you would need to use a Search Bar proxy. You might also need to hide the search bar from some topics so that you do not have two search bars on a page.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Enable the Search Bar in an HTML5 Skin</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Search/Enablish-Search-Skin-HTML5-Steps.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Insert a Custom Search Bar</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Proxies/Insert-Custom-Search-Bar-Steps.flsnp" />
+        <h2>How to Hide the Search Bar From All Topics</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Search/Hide-Search-Bar-All-Topics-Steps.flsnp" />
+        <h2><a name="HowHideSearchBarSingleTopic"></a>How to Hide the Search Bar From a Single Topic</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Search/Hide-Search-Bar-Single-Topic-Steps.flsnp" />
+        <h2>How to Enable Search in a Skin for Other Output Types</h2>
+        <p>HTML Help, WebHelp, and WebHelp Plus are not as commonly used as HTML5. However, if you are using one of these outputs, you can enable search as follows.</p>
+        <ol>
+            <li>From the Project Organizer, open the Standard skin. </li>
+            <li>Select the <span class="Emphasis">General</span> tab.</li>
+            <li>In the <span class="Emphasis">Features</span> list, click the <span class="Emphasis">Search</span> check box.</li>
+            <li>(Optional) If you are creating <MadCap:variable name="Outputs.HTMLHelp" />, you can include advanced search options. To enable or disable these options, open the skin. In the Skin Editor, click the <span class="Emphasis">HTML Help Setup</span> tab, then place a check in the <span class="Emphasis">Show Advanced </span></li>
+            <li><span class="Emphasis">Search</span> box. </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">After you have finished enabling the search feature in a skin, you need to make sure the skin is associated with a target. See <MadCap:xref href="../../Skins/Process/Associating-Skins-Targets1.htm">Associating Skins With Targets</MadCap:xref>.</p>
+        <p MadCap:conditions="General.Online-Only">Also, if you are generating HTML5 output, you can set up your search engine—MadCap Search, Google Search, or Elasticsearch (for Top Navigation, Side Navigation, or skinless outputs). See <MadCap:xref href="../Search-Engines/Setting-Up-Search-Engine.htm">Setting Up a Search Engine</MadCap:xref>.</p>
+    </body>
+</html>

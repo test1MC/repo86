@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText"> Fuzziness occurs when two words are spelled in such a similar fashion that they could be considered the same word. There are several instances of fuzziness that can take place:</p>
+        <ul>
+            <li>Substitution: ta<span class="Emphasis">b</span>s could be construed as ta<span class="Emphasis">g</span>s</li>
+            <li>Insertion:&#160;<span class="Emphasis">tab</span> could be construed as <span class="Emphasis">tab</span>le</li>
+            <li>Deletion:&#160;se<span class="Emphasis">r</span>ver could be construed as sever</li>
+            <li>Transposition:&#160;f<span class="Emphasis">il</span>e could be construed as f<span class="Emphasis">li</span>es</li>
+            <li>Multiple edits: im<span class="Emphasis">e</span>g &gt; im<span class="Emphasis">a</span>g<span class="Emphasis">e</span>. The first edit was substituting e for i. The second edit was inserting e at the end of the string to find the word image.</li>
+        </ul>
+        <p class="TableText"> By enabling this setting, this allows the following fuzzy matches:</p>
+        <ul>
+            <li>Allows zero edits for strings of one or two characters (i.e., to, by, on)</li>
+            <li>Allows one edit for strings between three to five characters (i.e., rnu could be construed as run, flies could be construed as file, hleps could be construed as helps)</li>
+            <li>Allows two edits for strings greater than five characters (i.e., sievrly could be construed as severely)</li>
+        </ul>
+        <p MadCap:conditions="General.Online-Only">
+            <img src="../../../Images/Flare/Search/Fuzzy-Match-Two-Edits.png" class="MaxWidth100Percent" />
+        </p>
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Sometimes a search string is stemmed when displaying the search results. Stemming is when a word is reduced to its root. For example, say you enter a search criteria for "important." If this word is stemmed, then Elasticsearch may return fuzzy matches for "importing."&#160;This occurs because the initial search criteria has been stemmed to the root "import."</p>
+        </div>
+    </body>
+</html>

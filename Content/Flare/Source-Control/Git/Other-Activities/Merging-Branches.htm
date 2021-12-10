@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Git.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Describes how to merge branches in Git." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:branch" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Branch:merge" />
+            <MadCap:keyword term="Git" />Merging Branches<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Git</MadCap:conditionalText></h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Merging-Branches-Git.flsnp" />
+        <h2>How to Merge Branches in Git</h2>
+        <ol>
+            <li>
+                <p>Do one of the following, depending on the part of the user interface you are using:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Ribbon</span> Select the <span class="Emphasis">Source Control</span> ribbon. In the <span class="Emphasis">Project</span> section, select <span class="Emphasis">Merge</span>.</li>
+                    <li><span class="SetOffFirstLevel">Right-Click</span> If you have the Content Explorer or Project Organizer window pane open, right-click on any file or folder and select <span class="Emphasis">Source Control &gt; Project &gt;&#160;Merge</span>.</li>
+                    <li><span class="SetOffFirstLevel">Source Control Explorer</span> Click the <span class="Emphasis">Merge Branch</span> button.</li>
+                </ul>
+                <p>The Select branch to merge dialog opens.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Source-Control/Select-Branch-Merge-Dialog1.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the drop-down list, select the Git branch you wish to merge into the active branch.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Source-Control/Select-Branch-Merge-Dialog2.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. A dialog will display the status of the merge in progress.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Source-Control/Merge-Branch-Progress.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>When the merge operation is completed, a dialog will display indicating the merge was a success. Click <span class="Emphasis">OK</span> to close the dialog.</li>
+        </ol>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— No Conflicting Changes</p>
+            <p>You have two feature branches that are bound in Git source control.</p>
+            <p>In the first feature branch (e.g., develop-feature1), you are making changes to the "Getting Started" topic. These changes are specific to the first feature being developed.</p>
+            <p>In the second feature branch (e.g., develop-feature2), you also make changes to the "Getting Started"&#160;topic. These changes are specific to the second feature being developed, and are being made in a separate part of the topic from the develop-feature1 changes.</p>
+            <p>After you complete your changes on the second feature branch, you decide you want to merge your changes from the first feature branch to the second feature branch. </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <p>In the Source Control Explorer, you select the <span class="Emphasis">develop-feature2</span> branch. Then, you click the <span class="Emphasis">Merge Branch</span> button. Finally, from the drop-down list of branches, you select the <span class="Emphasis">develop-feature1</span> branch.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Select-Branch-Merge-Dialog3.png" class="MaxWidth100Percent" />
+            </p>
+            <p>You click <span class="Emphasis">OK</span> to merge. Since the changes took place in different sections of the "Getting Started" topic, the merging of the first feature branch into the second feature branch is successful.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Branch-Success.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Conflicting Changes</p>
+            <p>You have two feature branches that are bound in Git source control.</p>
+            <p>In the first feature branch, you are making changes to the  "Getting Started" topic. These changes are specific to the first feature being developed.</p>
+            <p>In the second feature branch, you also make changes to the "Getting Started"&#160;topic. The changes are made to the same paragraph as those you made for the first feature branch. </p>
+            <p>In the Source Control Explorer, you select the <span class="Emphasis">develop-feature2</span> branch. Then, you click the <span class="Emphasis">Merge Branch</span> button. Finally, from the drop-down list of branches, you select the <span class="Emphasis">develop-feature1</span> branch.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Select-Branch-Merge-Dialog3.png" class="MaxWidth100Percent" />
+            </p>
+            <p>You click <span class="Emphasis">OK</span> to merge. Since the changes took place in the same paragraph in the "Getting Started"&#160;topic, you get a dialog indicating conflicts exist. You then click <span class="Emphasis">Yes</span> to resolve the existing conflicts.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Branch-Conflict.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <p>On the Resolve Conflicts dialog, you click <span class="Emphasis">Auto Merge All</span>. </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Branch-Resolve-Conflict.png" class="MaxWidth90Percent" />
+            </p>
+            <p>However, the auto merging is not successful. You click <span class="Emphasis">OK</span>, then <span class="Emphasis">Resolve</span> to fix the remaining conflicts.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Remaining-Conflicts.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <p>When the Resolve Version Conflict dialog displays, you choose to <span class="Emphasis">Merge changes in merge tool</span>. This will allow you to view the specific conflict taking place rather than accepting either the local or the server changes.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Resolve-Version-Conflict.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <p>The Merge Changes dialog opens. The left pane is the file version on your local machine, while the right pane is the server version. The bottom pane displays how the file will display as you make your changes.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Branch-Merge-Changes.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <p>As you review the text, you notice the conflict icon next to the "Do This" bullet point. You decide to keep the server version in the right pane by right-clicking on the conflict icon and selecting <span class="Emphasis">Keep Change</span>.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Changes-Keep-Change-Server.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <p>Notice that when you keep the changes on the right pane, the conflicting changes in the left pane are now disabled and outlined in gray. </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Branch-Changes-Accept.png" class="MaxWidth90Percent" />
+            </p>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">As you resolve conflicts in the merge tool, you can also left-click on the Conflict icon on either the local or server pane to keep the change. If you left-click on the icon again, it will toggle the change to be accepted on the opposite pane of where you are clicking.</p>
+            </div>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <p>Once you have reviewed all of the conflicts and made your changes, you click <span class="Emphasis">OK</span>. At this point, you need to commit the changes that resolved your conflicts. You then type in your comment used to resolve the conflict, and click <span class="Emphasis">Commit</span>.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Commit-Conflict-Resolution-Branch.png" class="MaxWidth90Percent" />
+            </p>
+            <p> When your changes are committed, you can now merge this branch. With the <span class="Emphasis">develop-feature2</span> branch selected, you click the <span class="Emphasis">Merge Branch</span> button. You then select the <span class="Emphasis">develop-feature1</span> branch from the drop-down list. You click <span class="Emphasis">OK</span> to merge. A confirmation dialog displays when the merge is completed.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merge-Branch-Success.png" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <p>The merge will also be displayed in the Branch History dialog.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Git-Merge-Branch-Commit-History.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Note-Git-Branching-Merging.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git" />
+    </body>
+</html>

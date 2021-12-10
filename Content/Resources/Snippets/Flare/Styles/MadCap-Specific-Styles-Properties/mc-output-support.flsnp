@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableTextEmphasis">mc-output-support</p>
+        <p class="TableText">Lets you choose which kinds of outputs (e.g. all, all online, all print, or a specific output type) support a particular style. You typically will not need or want to change the value in this field, but there might be times when you do. For example, instead of using a skin for an index in online output, you could use an index proxy, which is primarily intended for print-based output. Therefore, you could change the mc-output-support property for the MadCap|indexProxy style from all-print to all.</p>
+        <p class="TableText" MadCap:conditions="General.Online-Only">
+            <MadCap:xref href="../../../../../Flare/Proxies/Indexes/Using-Index-Proxy.htm">Using the Index Proxy</MadCap:xref>
+        </p>
+    </body>
+</html>

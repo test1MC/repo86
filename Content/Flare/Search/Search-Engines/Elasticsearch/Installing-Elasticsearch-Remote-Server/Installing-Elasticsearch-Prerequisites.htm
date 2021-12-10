@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <link href="../../../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Installing and setting up prerequisite programs for the Elasticsearch service." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Search:Elasticsearch;Elasticsearch:installation" />Prerequisites for Elasticsearch</h1>
+        <p>The following prerequisites for Elasticsearch are only necessary if you do not already have the programs on your computer. Go through each section to confirm you have all the programs and correct options set, and then follow the given  procedures if anything is missing.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When setting up a computer as a remote server, you can use a Windows Server operating system (e.g., Windows Server 2016), or a regular Windows operating system (e.g., Windows 10). Which system you use depends on your needs. A Windows Server is often used in business settings.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2 MadCap:conditions="General.Online-Only">Elasticsearch Prerequisites</h2>
+        <table style="mc-table-style-original: url('../../../../../Resources/TableStyles/Shared/Fancy.css');mc-table-style: url('../../../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Operating System With Internet Connection</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Make sure your operating system is updated with the latest service packs, critical patches, and security updates from Microsoft.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">.NET Framework 4.6</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This is the software development framework for building and running applications on Windows. The minimum required .NET Framework version required is 4.6. It also works with newer versions of .NET Framework.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">ASP .NET</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">ASP.NET is part of .NET Framework (it does not require a separate install from .NET). ASP.NET is the web application framework for building dynamic web pages. This feature gets “turned on” in Windows.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">IIS Web Server</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Microsoft Internet Information Services (IIS) is a web service role that is enabled in the operating system to give the system its web server capabilities. IIS must be installed on the computer that will act as your Elasticsearch web server. The minimum version required is IIS 6. Newer versions work as well.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">.NET Core 3.1.x Windows Hosting Bundle</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Microsoft .NET Core is used to create server applications that run on Windows, Linux, and Mac.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Java SE Development Kit</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">You can install a paid Oracle (JDK) Java SE Development Kit, or a free Open JDK Java 1.8</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For details about supported operating systems and hardware requirements for Microsoft programs, refer to Microsoft documentation for downloads. See <a href="https://www.microsoft.com/en-us/download/windows.aspx" target="_blank">https://www.microsoft.com/en-us/download/windows.aspx</a>.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The following procedures use Windows 10. Be advised that some user interfaces might vary slightly depending on the operating system you are using.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Determine if Programs are on the Computer</h2>
+        <ol>
+            <li>
+                <p>From the <span class="Emphasis">Window Start</span> menu, select <span class="Emphasis">Windows System &gt; Control Panel</span>. The All Controls Panel Items dialog opens.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Control-Panel.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the All Controls Panel Items dialog, select <span class="Emphasis">Programs and Features</span>.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Control-Panel2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>Compare the listed  applications with the required programs (e.g., Microsoft .NET Core 3.1.x Windows Server Hosting).  If programs for a remote server are missing, you may have to add them.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Control-Panel3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Install .NET Framework</h2>
+        <p>It is necessary to install .NET Framework to run certain applications on Windows that were created with it. However, many versions of Windows already include .NET Framework.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It is important to install .NET Framework before installing the IIS web server.</p>
+        </div>
+        <ol>
+            <li>In a browser, navigate to <a href="https://dotnet.microsoft.com/download/dotnet-framework" target="_blank">https://dotnet.microsoft.com/download/dotnet-framework</a>.</li>
+            <li>Locate the .NET Framework version, and click the link to download the runtime installer. You can choose to install version 4.6 or the latest version 4.8, both will work.</li>
+            <li>In Microsoft’s configuration dialog, follow the installation wizard.</li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are installing on a Windows Server operating system, you can use the Server Manager to enable .NET Framework features. See <MadCap:xref href="#How">How to Set Roles and Features with the Server Manager on Windows Server</MadCap:xref>.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Install Internet Information Services</h2>
+        <p>The Microsoft Internet Information Services (IIS) gives the system its web server capabilities. </p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Since newer versions of Windows come with IIS, check to see if IIS is already on your computer. It might be installed, but you just have to enable it via the <span class="Emphasis">Control Panel &gt; All Control Panel Items &gt; Programs and Features</span>, and then click <span class="Emphasis">Turn Windows features on or off</span>. If you want a newer version, then you might have to download and install it.</p>
+        </div>
+        <ol>
+            <li>
+                <p>Install on the computer that will act as your Elasticsearch web server. In a browser, navigate to <a href="https://www.microsoft.com/en-us/download/details.aspx?id=34679" target="_blank">https://www.microsoft.com/en-us/download/details.aspx?id=34679</a>.</p>
+            </li>
+            <li>For Internet Information Services, click the <span class="Emphasis">Download</span> button.</li>
+            <li>When the program completes installation, set the roles and features. </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If working with a Windows Server operating system, the Server Manager program is available to you to manage and configure web server roles and features (see <MadCap:xref href="#How">How to Set Roles and Features with the Server Manager on Windows Server</MadCap:xref>). If you are working with a regular Windows operating system, use the Windows Feature dialog to manage and configure web server roles and features for .NET and IIS (see <MadCap:xref href="#How2">How to Set Roles and Features with Windows Desktop</MadCap:xref>).</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2><a name="How"></a>How to Set Roles and Features With the Server Manager on Windows Server</h2>
+        <p>To enable roles and features on a Windows Server, you can do so via the Server Manager.</p>
+        <ol>
+            <li>From the Windows Server operating system, open the Server Manager.</li>
+            <li>From the <span class="Emphasis">Manage</span> menu, select <span class="Emphasis">Add roles and features</span>. Click <span class="Emphasis">Next</span>.</li>
+            <li>In the Add Roles and Features wizard, select <span class="Emphasis">Role based or feature based installation</span>. Click <span class="Emphasis">Next</span>.</li>
+            <li>Choose <span class="Emphasis">Select a server from the server pool</span>. Click <span class="Emphasis">Next</span>.</li>
+            <li>Scroll down in the <span class="Emphasis">Server Roles</span> list and select <span class="Emphasis">Web Server (IIS)</span>. Click <span class="Emphasis">Next</span>.</li>
+            <li>
+                <p>In the <span class="Emphasis">Features</span> list, expand and select <span class="Emphasis">.NET  Framework 4.x Advanced Services</span>, and then select <span class="Emphasis">ASP .NET 4.x</span>.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Role Services</span> list, select the following under Web Server (IIS):</p>
+                <ul>
+                    <li>Web Server<ul><li>Common HTTP Features<ul><li>Static Content</li><li>Default Document</li><li>Directory Browsing</li><li>HTTP Errors</li></ul></li><li>Security<ul><li><p class="TableText">Request Filtering</p></li><li><p class="TableText">Basic Authentication</p></li><li><p class="TableText">Windows Authentication</p></li></ul></li><li>Application Development<ul><li><p class="TableText">.NET Extensibility 4.x</p></li><li><p class="TableText">ISAPI Extensions</p></li><li><p class="TableText">ISAPI Filters</p></li><li><p class="TableText">ASP .NET 4.x</p></li></ul></li><li>Health and Diagnostics<ul><li>HTTP Logging</li></ul></li><li>Performance<ul><li>Static Content Compression</li></ul></li></ul></li>
+                    <li>Tools Management<ul><li>IIS Management Console</li><li>IIS 6 Management Capability<ul><li>IIS Metabase and IIS 6 Configuration Compatibility</li></ul></li></ul></li>
+                </ul>
+            </li>
+            <li>Click <span class="Emphasis">Next</span> through to the screen with the <span class="Emphasis">Install</span> button enabled, then click <span class="Emphasis">Install</span>.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2><a name="How2"></a>How to Set Roles and Features With Windows Desktop</h2>
+        <p>To enable roles and features on a regular Windows desktop to set it up as a remote server, you can do so via the Windows Feature, Control Panel app.</p>
+        <ol>
+            <li>In the Windows Search bar, type <span class="TypedEntry">turn on windows</span>.</li>
+            <li>Click the resulting item, <span class="Emphasis">Turn Windows features on or off</span>. The Windows Features dialog opens.</li>
+            <li>Expand <span class="Emphasis">.NET Framework 4.x Advanced Services</span> (the version number may vary depending on the original installation and updates).</li>
+            <li>
+                <p>Select the <span class="Emphasis">ASP.NET 4.x</span> check box.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Windows-Features1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Expand <span class="Emphasis">Internet Information Services</span>.</li>
+            <li>Expand <span class="Emphasis">Web Management Tools</span>, and select <span class="Emphasis">IIS Management Console</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>Expand the <span class="Emphasis">IIS 6 Management Compatibility</span> folder, and select <span class="Emphasis">IIS Metabase and IIS 6 configuration compatibility</span> (the version number may vary depending on original installation and updates).</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Windows-Features2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Expand <span class="Emphasis">World Wide Web Services</span>, and expand the <span class="Emphasis">Application Development Features</span> folder.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>Select items <span class="Emphasis">.NET Extensibility 4.x</span>, <span class="Emphasis">ASP.NET 4.x</span>, <span class="Emphasis">ISAPI Extensions</span>, and <span class="Emphasis">ISAPI Filters</span>.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Windows-Features3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Expand the <span class="Emphasis">Common HTTP Features</span> folder.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>Select items <span class="Emphasis">Default Document</span>, <span class="Emphasis">Directory Browsing</span>, <span class="Emphasis">HTTP Errors</span>, and <span class="Emphasis">Static Content</span>.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Windows-Features4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Expand the <span class="Emphasis">Health and Diagnostics</span> folder, and select <span class="Emphasis">HTTP Logging</span>.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Windows-Features5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>Expand the <span class="Emphasis">Performance Features</span> folder, and select <span class="Emphasis">Static Content Compression</span>.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Windows-Features6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Expand the <span class="Emphasis">Security</span> folder.</p>
+            </li>
+            <li>
+                <p>Select items <span class="Emphasis">Basic Authentication</span>, <span class="Emphasis">Request Filtering</span>, and <span class="Emphasis">Windows Authentication</span>.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Windows-Features7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>. The installation begins.</li>
+            <li>At the Windows completion message, click <span class="Emphasis">Close</span>.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>Optional—How to Verify IIS Installation</h2>
+        <p>Verifying the installation of IIS is not necessary to do, but it might provide peace of mind that it got installed correctly.</p>
+        <ol>
+            <li>From the Windows Search bar, type <span class="TypedEntry">IIS</span>.</li>
+            <li>
+                <p>Click the resulting item, <span class="Emphasis">Internet Information Services (IIS) Manager</span> app. The IIS Manager opens, and should look similar to the image below. When you install IIS for the first time, a "Default Web Site" is automatically created.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-IIS-Mgr.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>Open a web browser, and in the URL field type <span class="TypedEntry">localhost</span>. The default IIS web page displays.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-IIS-Localhost.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>
+            <MadCap:xref href="Installing-Elasticsearch-ConfigureWebServer.htm">Configuring the Web Server</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+    </body>
+</html>

@@ -1,0 +1,45 @@
+﻿/*<meta conditions="Products.All-Products" />*/
+
+@charset "UTF-8";
+
+/* untitled-font-1 */
+
+@font-face 
+{
+	font-family: "untitled-font-1";
+	font-weight: normal;
+	font-style: normal;
+}
+
+:before[data-icon]
+{
+	font-family: "untitled-font-1" !important;
+	content: attr(data-icon);
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+:before[class^="icon-"],
+:before[class*=" icon-"]
+{
+	font-family: "untitled-font-1" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-externallink:before
+{
+	content: "\61";
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>In Flare, open a file (e.g., topic) that has been imported.</li>
+            <li>Make edits to the file and click <img src="../../../Images/Shared/All/Interface/Buttons/Save-btn1.png" alt="" title="" class="ReduceButtonSize" />. (For Global Project Linking files, you do not save at this point.)</li>
+            <li>
+                <p>In the dialog that opens, do one of the following:</p>
+                <p class="Subheading">Most Kinds of Import Files</p>
+                <ol>
+                    <li>Select <span class="Emphasis">Save the document and remove the link</span>.</li>
+                    <li>Click <span class="Emphasis">Continue</span>.</li>
+                </ol>
+                <p class="Subheading">Global Project Linking</p>
+                <ol>
+                    <li>Select <span class="Emphasis">Remove the link and continue the operation</span>.</li>
+                    <li>Click <span class="Emphasis">OK</span> twice. </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                        </p>
+                        <div class="topic-only">
+                            <p>If you open the import file from the Project Organizer, you will see that the file has been added to the "Removed Links" tab.</p>
+                            <p>
+                                <img src="../../../Images/Flare/Importing/Removed-Links.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </div>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>

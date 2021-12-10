@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html>
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </head>
+    <body>
+        <p>When you click the File menu in Word, you can select Doc-To-Help to open a project and perform other actions.</p>
+        <p MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <img src="../../../../Images/D2H/Interface/Ribbons-Toolbars-Menus/D2H-File-Menu-Option.png" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">There are three categories of the Doc-To-Help menu:</p>
+        <ul MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <li>Getting Started This contains the Open/Create and Help submenus.</li>
+            <li>Project This section will display once you have a Doc-To-Help project open. This section contains the Common Tasks and Reports submenus .</li>
+            <li>Team Authoring This submenu provides options for your shared Doc-To-Help project.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Whats-New-Guide,D2H-Guides.D2H-Touring-Workspace-Guide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Whats-New-Guide,D2H-Guides.D2H-Touring-Workspace-Guide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <h2 MadCap:conditions="General.Print-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Getting Started</h2>
+        <MadCap:dropDown xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Getting Started</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The Getting Started submenu lets you do one of the following when you select the Open/Create section:</p>
+                <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Open-Project-btn.png" class="MaxWidth100Percent" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Open an existing Doc-To-Help project in Word.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/New-Project-btn.png" class="MaxWidth100Percent" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Open a wizard to create a new Doc-To-Help project. </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../../Images/D2H/Interface/Buttons/Open-Sample-Project-btn.png" class="MaxWidth100Percent" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Open a sample Doc-To-Help project in Word. This may be helpful to review the structure of an existing project before creating your own project.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Whats-New-Guide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </body>
+</html>

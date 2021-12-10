@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-TFS.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:get latest version;Projects:source control" />
+            <MadCap:concept term="FilterProjects" />Manually Getting the Latest Version<MadCap:conditionalText MadCap:conditions="General.Online-Only"> of Source Control Files—Team Foundation Server</MadCap:conditionalText></h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Get-Latest-Version-Summary.flsnp" />
+        </p>
+        <p>You can manually get the latest version of all of the files in the <MadCap:variable name="Other.Product" /> project or specific files only.</p>
+        <h2>How to Get the Latest Version of Source Control Files Manually</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Get Latest Version</b> (for selected files) or <span class="Emphasis">Source Control &gt; Get Latest Version All</span> (for all files in the project). </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>In the File List, right-click the file you want to get and select <span class="Emphasis">Source Control &gt; Get Latest Version</span>.</li>
+                    <li><span class="SetOffFirstLevel">Local Toolbar </span>In the File List, select the file(s) you want to get. In the local toolbar of the File List, click <img src="../../../Resources/Images/Shared/Ce-Fl-Li/Interface/Buttons/Source-Control-btn.png" />, then select <span class="Emphasis">Get Latest Version</span>   (for selected files) or <span class="Emphasis">Project &gt; Get Latest Version All</span>  (for all files in the project).</li>
+                    <li><span class="SetOffFirstLevel">Source Control Explorer </span>With the Pending Changes pane open, right-click the file you want to update and select <span class="Emphasis">Get Latest Version</span>.</li>
+                </ul>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>If the local and server files are the same, a message tells you so. Click <span class="Emphasis">OK</span>.</p>
+                <p>If the local file is different from the file on the server, the Resolve Conflicts dialog opens. If you want to accept all of the differences between the local and server files, thus merging them, click <span class="Emphasis">Auto Merge All</span>. If you want to review the differences in the files side by side and resolve each conflict, click <span class="Emphasis">Resolve</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information about merging files and resolving conflicts, see <MadCap:xref href="Merging-Source-Control-Files-TFS.htm">Merging Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">By default, when you open a project that is bound to source control, a message automatically asks if you want to get the latest version of files. However, you can disable this prompt in the Options dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Disabling-Get-Latest-Prompt-TFS.htm">Disabling the Get Latest Prompt for Source Control—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you update your read-only files with read-only files and you do not perform a check out, the files will appear to be submitted without actually updating the server-side version.</p>
+        </div>
+    </body>
+</html>

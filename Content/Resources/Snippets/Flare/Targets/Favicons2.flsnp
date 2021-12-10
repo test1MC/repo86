@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>In the Project Organizer, right-click on the <span class="Emphasis">Skins</span> folder and from the context menu select <span class="Emphasis">Add Skin</span>.</li>
+            <li>In the <span class="Emphasis">File Type</span> field at the top, make sure <span class="Emphasis">Skin</span> is selected.</li>
+            <li>In the <span class="Emphasis">Source</span> area select <span class="Emphasis">New from template</span>.</li>
+            <li>
+                <p>Under <span class="Emphasis">Factory Templates</span>, select <span class="Emphasis">HTML5 Component - Favicons</span>.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Flare/Skins/Favicon3.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../General/Select-Subfolder-Project-Organizer1.flsnp" />
+            </li>
+            <li>In the <span class="Emphasis">File Name</span> field, type a new name for the skin component.</li>
+            <li>(Optional) <MadCap:snippetText src="../Conditions/Select-Relevant-Condition-Tags.flsnp" /> <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>(Optional) <MadCap:snippetText src="../File-Tagging/Select-Relevant-File-Tags.flsnp" />&#160;<MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/File-Tagging/Associating-Tags-Files1.htm">Associating Tags with Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Click <span class="Emphasis">Add</span>. The skin component is added to the Skins folder in the Project Organizer. The Favicon Skin Editor opens to the right. Continue with the steps for <a href="../../../../Flare/Skins/Other-Activities/HTML5/Adding-Favicons.htm#HowEditFaviconsSkinComponent" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">editing the skin component</a>.</li>
+        </ol>
+    </body>
+</html>

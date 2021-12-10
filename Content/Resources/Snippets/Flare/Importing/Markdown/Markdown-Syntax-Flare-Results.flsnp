@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Depending on the Markdown flavor, various syntax and tags will be converted in Flare in different ways. The following resources are helpful to understand Markdown's basic and extended syntax:</p>
+        <ul>
+            <li>
+                <p><span class="Emphasis">Basic Syntax </span><a href="https://www.markdownguide.org/basic-syntax/" target="_blank">https://www.markdownguide.org/basic-syntax/</a>
+                </p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Extended Syntax </span><a href="https://www.markdownguide.org/extended-syntax/" target="_blank">https://www.markdownguide.org/extended-syntax/</a>
+                </p>
+            </li>
+        </ul>
+        <p>Usually the conversion is straightforward because there is an obvious HTML counterpart.</p>
+        <div class="example">
+            <p class="Examples-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Examples &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <table style="caption-side: top; mc-table-style: url('../../../../TableStyles/Shared/Fancy.css'); margin-left: 0; margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+                <col style="width: 50%;" class="TableStyle-Fancy-Column-Regular" />
+                <col style="width: 50%;" class="TableStyle-Fancy-Column-Regular" />
+                <thead>
+                    <tr class="TableStyle-Fancy-Head-Header1">
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p class="TableTextHead">Markdown Syntax</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                            <p class="TableTextHead">HTML Result in Flare</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">## My Second-Level Heading</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">&lt;h2&gt;My Second-Level Heading&lt;/h2&gt;</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">I am **really** serious!</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">&lt;p&gt;I am &lt;strong&gt;really&lt;/strong&gt; serious!&lt;/p&gt;</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableText">- First thing</p>
+                            <p class="TableText">- Second thing</p>
+                            <p class="TableText">- Third thing</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                            <p class="TableText">&lt;ul&gt;</p>
+                            <div class="IndentMedium">
+                                <p class="TableText">&lt;li&gt;First thing&lt;/li&gt;</p>
+                                <p class="TableText">&lt;li&gt;Second thing&lt;/li&gt;</p>
+                                <p class="TableText">&lt;li&gt;Third thing&lt;/li&gt;</p>
+                            </div>
+                            <p class="TableText">&lt;/ul&gt;</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you add regular HTML into Markdown files, it will be imported properly into Flare as HTML.</p>
+        </div>
+    </body>
+</html>

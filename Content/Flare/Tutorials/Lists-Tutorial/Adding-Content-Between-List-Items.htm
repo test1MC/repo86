@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials\Flare-Lists-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Adding content between list items." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Lists.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:lists;Lists:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Adding Content Between List Items</h1>
+        <p>We have some lists now, which we have styled. Sometimes you want to add extra information between list items, such as a note or image. This requires a paragraph tag within a list item, like this:</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>This structure is the default behavior when you create a new list, unless you have previously changed this setting in the Options dialog (<span class="Emphasis">File &gt; Options &gt; XML Editor</span> tab). Selecting <span class="Emphasis">Paragraph</span> automatically adds &lt;p&gt; tags within &lt;li&gt; tags, and <span class="Emphasis">Simple</span> just uses &lt;li&gt; tags in lists.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item16.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>You can also manually change the setting for an entire list or for individual list items. Let's do that now, and see how this affects the ability to add content between list items.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Manually Add or Remove Paragraph Tags in Lists</h2>
+        <ol>
+            <li>Open the <span class="Emphasis">Attractions.htm</span> topic where we have created the lists.</li>
+            <li>
+                <p>To the left of the numbered list, right-click the <span class="Emphasis">ol</span> structure bar, and from the context menu select <span class="Emphasis">Make Simple Item(s)</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item17.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <p>All of the &lt;p&gt; tags are removed from the &lt;li&gt; tags.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Right-click the <span class="Emphasis">li</span> tag next to step 3 ("Get in the kayak").</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the context menu, select <span class="Emphasis">Make Paragraph Item(s)</span> (or press <span class="Emphasis">CTRL+;</span>).</p>
+                <p>A &lt;p&gt; tag is inserted within that &lt;li&gt; tag.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item19.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>This means you could add content between steps 3 and 4, without disrupting the numbering.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Right-click the outer <span class="Emphasis">ol</span> structure bar again, and from the context menu select <span class="Emphasis">Make Paragraph Item(s)</span>.</p>
+                <p>Now we are back where we started, with &lt;p&gt; tags inside all &lt;li&gt; tags.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item20.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Add Content Between List Items</h2>
+        <ol>
+            <li>
+                <p>At the end of step 3 ("Get in the kayak"), press <span class="Emphasis">ENTER</span>. You should now see an empty step 4.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item21.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>With your cursor still on that line, press the <span class="Emphasis">BACKSPACE</span>&#160;key.</p>
+                <p>The number is removed and you should see a yellow arrow <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Icons/Paragraph-Item-ico.png" class="ReduceButtonSize" /> to the left of the new paragraph. That simply provides a quick way to exit the paragraph mode and go back to a list item.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item22.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Type the following in the new paragraph:</p>
+                <p class="TypedEntry">We recommend not falling out.</p>
+                <p class="TypedEntry">
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only">
+                <p>
+                </p>
+            </MadCap:pageBreak>
+            <li>
+                <p>Let's add one more line under step 3. Press <span class="Emphasis">ENTER</span> at the end of the paragraph, press the <span class="Emphasis">BACKSPACE</span> key, and type the following:</p>
+                <p class="TypedEntry">Seriously, don't fall out.</p>
+                <p class="TypedEntry">
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Add-Paragraph-Item5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>Notice that the additional content did not disrupt the numbering of the list. You still have steps 1-4.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

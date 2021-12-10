@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>A property called "Section orientation" is available for Manual targets. It lets you specify a portrait or landscape configuration for pages within a given section break in a Word document.</p>
+        <MadCap:snippetBlock src="../../Output/Targets/Set-Page-Orientation1.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Set the Section Configuration on a Paragraph Style</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Output/Targets/Set-Page-Orientation2.flsnp" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Steps</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li MadCap:conditions="Snippets.Snippet2">In Doc-To-Help, open the <span class="Emphasis">Project</span> ribbon, and click <span class="Emphasis">Topic Types</span>. The Project Styles dialog opens.</li>
+                            <li MadCap:conditions="Snippets.Snippet1">In Word, open the <span class="Emphasis">Project</span> ribbon, and click the <span class="Emphasis">Styles</span> button. The Project Styles dialog opens.</li>
+                            <li>
+                                <p>On the left side of the dialog, expand <span class="Emphasis">Paragraph Styles</span> and select one of the styles.</p>
+                                <p class="note">If you have are using a style in your source document that is not available in this dialog, click Add New Style. Then create a new style that has the same name as the style in your document.</p>
+                            </li>
+                            <li>On the right side of the dialog, in the <span class="Emphasis">Basic</span> section, set the <span class="Emphasis">Section break</span> field to one of the following:<ul><li><span class="SetOffFirstLevel">Next page </span></li><li><span class="SetOffFirstLevel">Even page </span></li><li><span class="SetOffFirstLevel">Odd page </span></li></ul></li>
+                            <li>In the <span class="Emphasis">Section orientation</span> field, select one of the following:<ul><li><span class="SetOffFirstLevel">Inherit from template </span>This is the default option. If selected, a new section created by the "Section break" property will have the same page orientation as that used in the template.</li><li><span class="SetOffFirstLevel">Portrait </span></li><li><span class="SetOffFirstLevel">Landscape </span></li></ul></li>
+                            <li>
+                                <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">Example</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <MadCap:snippetBlock src="../../Output/Targets/Set-Page-Orientation4.flsnp" />
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Targets-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Set the Section Configuration on a Manual Target</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">In Doc-To-Help, open the <span class="Emphasis">Home</span> ribbon, and at the bottom of the <span class="Emphasis">Target</span> group click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Help Targets dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">In Word, open the <span class="Emphasis">Target</span> ribbon and click the <span class="Emphasis">Target Properties</span> button. The Help Targets dialog opens.</li>
+                    <li>On the left side of the dialog, select the <span class="Emphasis">Manual</span> target.</li>
+                    <li>In the <span class="Emphasis">Advanced</span> section, set the <span class="Emphasis">Section break</span> field to one of the following:<ul><li><span class="SetOffFirstLevel">Next page </span></li><li><span class="SetOffFirstLevel">Even page </span></li><li><span class="SetOffFirstLevel">Odd page </span></li></ul></li>
+                    <li>In the <span class="Emphasis">Section orientation</span> field, select one of the following:<ul><li><span class="SetOffFirstLevel">Inherit from template </span>This is the default option. If selected, a new section created by the "Section break" property will have the same page orientation as that used in the template.</li><li><span class="SetOffFirstLevel">Portrait </span></li><li><span class="SetOffFirstLevel">Landscape </span></li></ul></li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

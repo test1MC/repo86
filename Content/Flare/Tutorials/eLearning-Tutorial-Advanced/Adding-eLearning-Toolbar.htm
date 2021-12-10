@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Tutorials-Videos/Flare-LMS-Tutorial-Advanced.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Adding an eLearning toolbar so that users can easily navigate from one topic to the next, and see their progress while doing so." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/eLearning-Advanced.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:eLearning;Learning and development:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />Adding an eLearning Toolbar</h1>
+        <p>Now that we have our content, let's add an eLearning toolbar so that learners can easily navigate from one topic to the next, and see their progress while doing so. In fact, if you are viewing this tutorial online, you can see an eLearning toolbar at the bottom of most topics; we've omitted the progress bar in our case, but we've included Next and Previous buttons.</p>
+        <p>There are two parts to adding this toolbar—a proxy and a skin component. The proxy is a placeholder that we will place where we want the toolbar to be generated and displayed in the output. The skin component lets us determine what elements will be included in the toolbar and how the toolbar will look.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp">
+        </MadCap:snippetBlock>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Insert an eLearning Toolbar Into a Template Page</h2>
+        <p>Our online output from this project will consist of a Home page, followed by a series of topics containing information, knowledge checks, and a quiz. We want our new toolbar to display at the bottom of all of those topics, except the Home page. The easiest way to add the same content or look to a lot of topics is to edit the template page associated with those topics. Our project is already set up with two template pages—one associated specifically with the Home page, and the other associated with our target (which we will get to soon). So by inserting the eLearning toolbar into the second template page, all of our topics, except the Home page, will include it in the output.</p>
+        <ol>
+            <li>
+                <p>In the Content Explorer, expand <span class="Emphasis">Resources &gt; Template Pages</span>. Notice the two template pages.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Double-click <span class="Emphasis">Other-Topics.flmsp</span> to open it.</p>
+            </li>
+            <li>
+                <p>So far, this template page has two gray bars, which are proxies. We want to add a new proxy at the bottom. On your keyboard, press the down key until you see the cursor flashing horizontally after the second gray bar.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">eLearning</span> ribbon, select <span class="Emphasis">eLearning Toolbar Proxy</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the eLearning Toolbar Proxy dialog, you could select a skin component, if you have one. But we don't have one yet, so we'll just leave this setting at (default). Click <span class="Emphasis">OK</span>.</p>
+                <p>A new gray bar representing the eLearning Toolbar proxy is added to the template page.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Add and Edit an eLearning Skin Component</h2>
+        <ol>
+            <li>
+                <p>In the Project Organizer, right-click the <span class="Emphasis">Skins</span> folder, and from the context menu select <span class="Emphasis">Add Skin</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the Add File dialog, select <span class="Emphasis">HTML5 Component - eLearning Toolbar</span>. In the <span class="Emphasis">File Name</span> field, enter <span class="TypedEntry">eLearning</span> (although in your actual project, you can name it anything you want). Then, click <span class="Emphasis">Add</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Expand the <span class="Emphasis">Skins</span> folder to see the new file, and notice that the eLearning Toolbar Skin Editor opens to the right. In the following image, the Setup tab is selected, but it's possible a different tab might initially be active when you first open the editor.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>On the left side of the editor, make sure the <span class="Emphasis">Setup</span> tab is selected. Notice that three elements (PreviousTopic, NextTopic, and ProgressBar) have already been added to the right side, and will therefore be displayed in the output in just that order. We could remove any of these, or change the order, but it's set just how we want, so let's leave it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In the output, the "Next" button will automatically change to say "Complete" when it is the final page of all quiz topics under a test node in the TOC.</p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The progress bar will include all topics that are in the TOC. So if you have a TOC with 2,500 topics and decide to insert a short course in the middle of it with an eLearning toolbar that includes a progress bar, you might see something like "Page 943 of 2,500," which would look strange. Notice that in our own Flare online Help output, we have not included the progress bar in our eLearning toolbar, because our output has a small number of tutorials with knowledge checks compared to the rest or our online Help system.</p>
+                </div>
+            </li>
+            <li>
+                <p>On the left side of the editor, select the <span class="Emphasis">Styles</span> tab.</p>
+            </li>
+            <li>
+                <p>This gives us a preview of how the elements will look in the output. We'll leave most of the look and feel as is, but let's change the color in the progress bar to match our orange branding. To start, click the <span class="Emphasis">Highlight</span> button in the local toolbar. This is a handy feature that is going to help us quickly locate the style that we need to edit.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Now that the Highlight button is enabled, click the blue progress bar in the preview. Doing this automatically expands and highlights the Inner Progress Bar style on the left.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Expand <span class="Emphasis">Background</span> under that style.</p>
+            </li>
+            <li>
+                <p>Copy this hex number:</p>
+                <p class="TypedEntry">#F2774B</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Color</span> field, paste that number, replacing the existing one. Notice the progress bar is now orange.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Let's change the font under that bar as well. Currently, it is a shade of blue. We could make it orange like our progress bar, but that might be hard to read. So let's make it black. In the preview, click <span class="Emphasis">Page 1 of 3</span>. This expands the Progress Text style on the left.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Expand the <span class="Emphasis">Font</span> section.</p>
+            </li>
+            <li>
+                <p>Next to the <span class="Emphasis">Color</span> field, click the down arrow and select the black square (in the upper-left).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The color changes in the preview.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On the left side of the editor, scroll up if necessary and expand <span class="Emphasis">Toolbar Button (hover)</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Under that, expand <span class="Emphasis">Background</span>, and in the fields showing the blue hex number, replace it with <span class="TypedEntry">#F2774B</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Toolbar15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Tutorials/Note-Changing-Border-Color.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

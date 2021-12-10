@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-CSH-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating micro content and using it for context-sensitive Help." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/CSH.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:context-sensitive Help;Context-sensitive Help:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Creating Context-Sensitive Help for Micro Content</h1>
+        <p>So far we have created IDs for topics in the project. These kinds of context-sensitive Help (CSH) IDs are useful for connections to large parts of a product user interface (e.g., a dialog or window pane). For smaller parts of an interface (i.e., field-level Help), micro content is more appropriate. That's because micro content is intended to be quite brief compared with full topics. So let's create some micro content in the project, and then produce some CSH IDs for it.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Add a Micro Content File</h2>
+        <ol>
+            <li>
+                <p>In the Content Explorer (not the Alias Editor), select the <span class="Emphasis">Resources</span> folder.</p>
+            </li>
+            <li>
+                <p>In the local toolbar, click <img src="../../../Resources/Images/Flare/Interface/Buttons/New-Folder-btn.png" class="ReduceButtonSize" />. A folder with the temporary name "NewFolder" is added.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Micro-Content-File1.png" alt="" title="" class="MaxWidth85Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Type <span class="TypedEntry">MicroContent</span> as the name and press <span class="Emphasis">ENTER</span>. (Creating a folder is optional, but it's a good idea because it helps keep your micro content files organized and separate from your other resource files.)</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Micro-Content-File2.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Right-click the new <span class="Emphasis">Resources &gt; MicroContent</span> folder, and from the context menu select <span class="Emphasis">New &gt; Micro Content</span>. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Micro-Content-File3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">File Name</span> field, type <span class="TypedEntry">My-Micro-Content</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Micro-Content-File4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click <span class="Emphasis">Add</span>. The micro content file is added to the Content Explorer. The Micro Content Editor opens to the right, displaying micro content phrases on the left and an area to the right for the response. There is one phrase/response already added.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Add-Micro-Content-File5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Create Phrases and Responses for Field-Level Help</h2>
+        <p>There are multiple ways to create micro content phrases and responses. Let's use one of the most common methods to create a couple of phrase/response entries.</p>
+        <ol>
+            <li>
+                <p>In the Content Explorer, double-click <span class="Emphasis">Attractions.htm</span>.</p>
+            </li>
+            <li>
+                <p>In the topic, right-click the <span class="Emphasis">p</span> structure bar to the left of the paragraph under the "State Capitol" heading. Then from the context menu select <span class="Emphasis">Create Micro Content</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Create-Micro-Content-Phrase-Response1.png" alt="" title="" class="MaxWidth65Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the dialog enter <span class="TypedEntry">State Capitol</span> as the phrase.</p>
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. The micro content file now shows the new phrase and response.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Create-Micro-Content-Phrase-Response2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Let's remove the other phrase/response (What is micro content?). Click on that row and press <span class="Emphasis">DELETE</span>.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+            <li>
+                <p>Go back to the Attractions topic and repeat these steps for the paragraph under the "Zilker Park" heading. Enter <span class="TypedEntry">Zilker Park</span> as the phrase. When you are finished, you should see that phrase/response in the micro content file as well.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Create-Micro-Content-Phrase-Response3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Create and Assign a CSH ID for a Micro Content Phrase</h2>
+        <p>Now that we have some micro content, we can create IDs for it.</p>
+        <ol>
+            <li>
+                <p>Go back to the Alias Editor.</p>
+            </li>
+            <li>
+                <p>At the top of the Alias Editor, click <img src="../../../Resources/Images/Flare/Interface/Buttons/Generate-Identifiers-btn.png" class="ReduceButtonSize" />. In the dialog, the settings we saw earlier should still be in place.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Generate Identifiers for</span> field, select <span class="Emphasis">Unassigned micro content</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Create-Assign-Micro-Content-IDs1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click <span class="Emphasis">Create</span>. IDs are generated for the two micro content phrase/response combinations. If you click and drag the <span class="Emphasis">File</span> column divider to the right, you will see that a hash tag was added in each path, followed by the name of the phrase.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/CSH/Create-Assign-Micro-Content-IDs2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>You might have noticed that the skin is not assigned to those two rows. That is because skins are not supported for micro content IDs.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul type="1">
+            <li>
+                <p><b>Create new stylesheet </b>This creates a new stylesheet based on the settings you choose.</p>
+                <p>
+                    <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Create-New-Stylesheet1.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+                <p>If you disable this option, the styles resulting from the import will be added to the project’s primary stylesheet.</p>
+                <p>
+                    <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Create-New-Stylesheet2.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+                <p>
+                    <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Create-New-Stylesheet3.png" alt="" title="" class="MaxWidth65Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you choose to create a stylesheet when importing Word documents into a new project, that stylesheet will be automatically selected in the project properties. If you then open the Word Import Editor, deselect the option to create a new stylesheet, and reimport the documents, that stylesheet will continue to exist in the project.</p>
+                </div>
+            </li>
+            <li><b>[Inline formatting]</b>
+                <ul>
+                    <li>
+                        <p><b>Keep inline formatting </b>This retains inline formatting found in the Word documents.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Keep-Inline-Formatting1.png" alt="" title="" class="MaxWidth65Percent" />
+                        </p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Keep-Inline-Formatting2.png" alt="" title="" class="MaxWidth65Percent" />
+                        </p>
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <li>
+                        <p><b>Convert inline formatting to CSS styles </b>This converts inline styles found in the Word documents to styles in the Flare project.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Convert-Inline-Formatting1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Convert-Inline-Formatting2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><b>Remove inline formatting </b>This removes any inline formatting found in the Word documents, displaying it as regular text instead.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Architecture.flmsp');">
+    <head>
+        <meta name="description" content="Variables are extremely important in Flare projects. You might find that you use only basic variables, or that you have a great many variables for different uses." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project architecture;Architecture" />
+            <MadCap:keyword term="Variables" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterFeatures" />Variables</h1>
+        <p>Variables are extremely important in Flare projects. You might find that you use only basic variables, such as your company name, phone number, version numbers, or other general information. On the other hand, you might need to have a great many variables for different uses. In addition, you might need to use system variables (e.g., headings, date, time) in certain places. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Variables/Variables.htm">About Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Variable Sets</h2>
+        <p>Custom variables are stored in variable sets, and it’s possible you might need only one variable set to hold everything you need. However, the more custom variables you have, the more likely it is that you will want to create multiple variables sets to keep them organized.</p>
+        <h2>Conditions Versus Overriding Variable Definitions</h2>
+        <p>You might be tempted to insert many variables of the same type (e.g., product names) in a topic and then place conditions on each variable in order to separate them at the time you build a target. This is not necessarily wrong, but you might find that it is more efficient to use just one variable and then override the definition as necessary for your various targets.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a project where you are writing documentation for five company products—Product A, Product B, Product C, Product D, and Product E. Instead of typing the name of each product manually throughout your project, you use variables for each one.</p>
+            <p>Now suppose you have a topic that is relevant to all five products. So you create five separate conditioned paragraphs (which is better for translation purposes than one paragraph) and insert the variables at the correct location.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <p>This certainly will work, but there is a simpler way to do the same thing. Instead of five variables (and five paragraphs), you can create just one, perhaps naming it “Product.”</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Then in the topic where all five variables were inserted, you use this one variable instead.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <p>Then in each of the five targets, you override that variable definition with the name of each product.</p>
+            <p>So the target for Product A would look like this:</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables4.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <p>And the target for Product B would look like this:</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables5.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <p>The targets for Products C, D, and E would likewise have the variable definition customized. This means that you always insert the same variable in topics and snippets, regardless of the product(s) affected, and the correct name is automatically shown when you build a certain output.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Multiple Variable Definitions</h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Variables/Add-Multiple-Definitions.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Variables/Main-Activities/Editing-Variables.htm">Editing Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <p>This is not necessarily better nor worse than the other method for overriding variable definitions described above. It is simply another alternative.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your company might have multiple phone numbers. You can associate them all with the same variable and use the appropriate one wherever necessary.</p>
+            <p>When a variable has multiple definitions, cells of the non-default definitions are grayed out (except for the definition cell).</p>
+            <p>The default definition is determined by the order of creation. The first definition created is the default.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Variables/Variable-Definitions1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <p>In the target, you can then override the default definition with any of the others that were created.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Variables/Variable-Definitions2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <h2><a name="WhatMadCapDocTeamDoes"></a>What the MadCap Documentation Team Does</h2>
+        <p>Our variables are organized into the following sets:</p>
+        <ul>
+            <li><span class="Emphasis">Other </span>These are general variables, such as company information (address, phone), product names in various formats (e.g., regular, all caps, lowercase), user guide titles, version numbers, and the year.</li>
+            <li><span class="Emphasis">Outputs </span>These are variables with names of all the output types available in Flare.</li>
+            <li><span class="Emphasis">PDF-URLs </span>These are URLs to all the PDFs that we produce. They are typically used in template pages and some micro content snippets.</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>In the “Other” variable set, we have a couple of date/time variables. We have one variable called “LastUpdated,” which uses the following format:</p>
+        <p>MMMM dd, yyyy "at" hh:mm tt</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables6.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>This variable is inserted at the bottom of a topic that automatically displays the day, year, and time when the output was last generated.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables7.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>We also have a date/time variable called “Yr,” which uses the yyyy format. This format simply displays the current year (e.g., <MadCap:variable name="Other.Yr" />) automatically whenever output is generated. </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables8.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>We never need to update either of these date/time variable definitions because they are always generated automatically when we build the target.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>There are other variables that are entered once in a variable set (e.g., Product, User Guide Title) with a random definition provided (e.g., Flare, Getting Started Guide).</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables9.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>However, in each target we override that variable if necessary by simply renaming the definition by typing it.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables10.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>And there are other variables for which we have provided multiple definitions. This is the case with some our variables that provide PDF URLs. For example, from many products we generate a “Shortcuts” PDF cheat sheet. The variable name is “Shortcuts,” but we provide a different URL for the PDF of each product.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables11.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>Then in each Shortcuts target, we select the appropriate product URL.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Architecture/Architecture-Variables12.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

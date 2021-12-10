@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>In the Project Organizer, double-click the <span class="Emphasis">Variables</span> folder. </li>
+            <li>Double-click a variable set. The Variable Set Editor opens.</li>
+            <li>Click on a row where you want to provide an additional definition.</li>
+            <li>In the local toolbar click <img src="../../../Images/Flare/Interface/Buttons/Add-Variable-Definition-btn.png" alt="" title="" class="ReduceButtonSize" />. A new row is added for the new definition.</li>
+            <li>
+                <p>In the empty cell that is added, type the definition and press <span class="Emphasis">ENTER</span>. <MadCap:snippetText src="../../Shared/Co-Fl/Variables/Insert-Variable.flsnp" /></p>
+                <p>When a variable has multiple definitions, cells of the non-default definitions are grayed out (except for the definition cell).</p>
+                <p>The default definition is determined by the order of creation. The first definition created is the default.</p>
+                <p>
+                    <img src="../../../Images/Flare/Variables/Variable-Definitions1.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+                <MadCap:snippetBlock src="Variables-Evaluated-Definitions.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1 or Snippets.Snippet3 or Snippets.Snippet4 or Snippets.Snippet5 or Snippets.Snippet6]" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

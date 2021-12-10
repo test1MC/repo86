@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><i>EditorView </i><span class="Emphasis">CurrentEditorView </span>Gets the current EditorView in focus. See <MadCap:xref href="../../../../Flare/Plug-In-API/Enums/Editor-View.htm">EditorView Enumeration</MadCap:xref>.</li>
+            <li><i>bool </i><span class="Emphasis">EnableLocks </span>Gets and sets whether locks are enabled in the current document .</li>
+            <li><i>ISelection </i><span class="Emphasis">Selection </span>Gets the ISelection of the currently selected text. See <MadCap:xref href="../../../../Flare/Plug-In-API/Interfaces/ISelection.htm">ISelection Interface</MadCap:xref>.</li>
+            <li><i>bool </i><span class="Emphasis">ShowChanges </span>Gets and sets whether changes are shown in the current document.</li>
+            <li><i>bool </i><span class="Emphasis">ShowLocks </span>Gets and sets whether locks are shown in the current document.</li>
+        </ul>
+    </body>
+</html>

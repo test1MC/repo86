@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="s;W;C;n;es;Y;.tiff.;F;F1;F4;P;Z;Tollfree;MadCap1;F11;F3;F7;NewWord;MadCap's;MyProfile;taskbar;filename1;filename2;filename3;1filename;2filename;3filename;Highcolor;Truecolor;truecolor" class="" style="mc-master-page: url('../../Resources/TemplatePages/Mimic/PDF-Topics/Mimic-Movie-Editing.flmsp');">
+    <head><title></title>
+        <meta name="description" content="How to adjust the pointer shape on bubble objects in MadCap Mimic. Changing the pointer for bubble objects. " />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Pointer:bubbles;Bubbles:pointer" />
+            <MadCap:concept term="FilterDesign" />Adjusting the Pointer on a Bubble Shape</h1>
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/Shared/Ca-Mi/Appearance/Adjust-Pointer-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Adjust the Pointer on a Bubble Shape</h2>
+        <ol>
+            <li>Open a frame that has a bubble shape added to it.</li>
+            <li>Double-click the bubble shape. <MadCap:snippetText src="../../Resources/Snippets/Mimic/Objects/Object-Properties-Window-Pane-Opens.flsnp" /></li>
+            <li>Expand the <span class="Emphasis">Callout</span> section.</li>
+            <li>
+                <p>Make the changes in this section as necessary.</p>
+                <p class="Subheading">To Add Curve to the Tip</p>
+                <ol class="LowerAlpha">
+                    <li>In the Tip section, click <span class="Emphasis">Curved Pointer</span>.</li>
+                    <li>To adjust the amount of curve, change the number in the <span class="Emphasis">Curve Factor</span> field. The higher the number, the greater the curve. You can enter negative numbers too.</li>
+                    <li>You can change the numbers in the <span class="Emphasis">X </span> and <span class="Emphasis">Y </span> fields to alter the distance of the pointer horizontally and vertically. You can enter negative numbers too.</li>
+                </ol>
+                <p class="Subheading">To Modify the Edge Position of the Pointer</p>
+                <p>In the Pointer Base section, click <span class="Emphasis">Base Edge</span> field and select the side of the bubble where you want the pointer to be shown (Left, Right, Top, Bottom).</p>
+                <p class="Subheading">To Modify the Pointer Base</p>
+                <ul>
+                    <li>In the Pointer Base section, change the number in the <span class="Emphasis">Base Width</span> field. The higher the number, the wider the base.</li>
+                    <li>
+                        <p>To set the minimum width for the base, in the <span class="Emphasis">Min Base Width</span> field, enter a number of pixels. This lets you specify the smallest width of the base allowed, in case the bubble is resized.</p>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                            <p>Let's say you set the "Min Base Width" to 10 pixels and you set the "Base Width" to 30%. In this case, the base will be 30% of the bubble width at all times, unless the bubble is resized so much that the base would fall below 10 pixels. If that were to happen, the 10-pixel threshold would kick in and the 30% specification would be ignored.</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>Example</h2>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>When you first draw a bubble shape, it might look something like this:</p>
+            <p>
+                <img src="../../Resources/Images/Shared/Ca-Mi/Appearance/Bubble2.png" />
+            </p>
+            <p>After clicking on the shape, the Object Properties window pane opens. You can expand the <span class="Emphasis">Callout</span> section and make the necessary changes in the <span class="Emphasis">Pointer Base</span> section.</p>
+            <p>
+                <img src="../../Resources/Images/Mimic/Appearance/Bubble-Point1.png" class="MaxWidth80Percent" />
+            </p>
+            <p>Now let's say you want to change the width of the pointer base. In that case, simply adjust the <span class="Emphasis">Base Width</span> and/or <span class="Emphasis">Min Base Width</span> fields.</p>
+            <p>
+                <img src="../../Resources/Images/Mimic/Appearance/Bubble-Point2.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <h2 MadCap:conditions="General.Online-Only">What’s Noteworthy?</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ca-Mi/Palettes/Note-Palette.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Ca-Mi/General/Whats-Next-After-Edit.flsnp" MadCap:conditions="General.Online-Only">
+        </MadCap:snippetBlock>
+    </body>
+</html>

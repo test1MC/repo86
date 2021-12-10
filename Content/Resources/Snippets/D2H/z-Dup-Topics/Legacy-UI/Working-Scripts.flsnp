@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="967" MadCap:lastWidth="980">
+    <body>
+        <p>The Scripts dialog is used to edit existing scripts, as well as create new ones.</p>
+        <p>Doc-To-Help scripts are code modules written in the VBScript language that you can use to modify the behavior of paragraph and character styles during compilation. If you are familiar with event-driven languages such as Visual Basic, you can think of a script as an event handler for a style. Scripts are executed whenever Doc-To-Help encounters a topic or a hot spot defined by a scripted style. </p>
+        <p>For complete VBScript documentation, see the following web page:</p>
+        <p><a href="http://msdn2.microsoft.com/en-us/library/ms950396.aspx" target="_blank">http://msdn2.microsoft.com/en-us/library/ms950396.aspx</a>
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add a New Script</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Select the <span class="Emphasis">Project</span> ribbon.</li>
+                    <li MadCap:conditions="Snippets.Snippet2,General.Online-Only">From the <span class="Emphasis">Project</span> ribbon group, click the <span class="Emphasis">Project Styles</span> or <span class="Emphasis">Topic Types</span> button. The Project Styles dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Styles </span>button. The Project Styles dialog opens.</li>
+                    <li>In the <span class="Emphasis">Behavior</span> group, click the <span class="Emphasis">Script</span> drop-down menu and choose <span class="Emphasis">(Edit scripts …)</span>. The Scripts dialog opens.</li>
+                    <li>In the left panel, click <span class="Emphasis">Add New Script</span>. A script is added to the list with the default name "NewScript."</li>
+                    <li>In the <span class="Emphasis">Properties</span> section, change the name by editing the <span class="Emphasis">Name</span> field, then clicking anywhere in the dialog to change it in the list on the left.</li>
+                    <li>
+                        <p>Enter the script code in the <span class="Emphasis">Code</span> box. </p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">For examples of codes, click on the existing D2HGlossaryRef and D2HGlossaryTerm scripts.</p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How To edit an existing script</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Select the <span class="Emphasis">Project</span> ribbon.</li>
+                    <li MadCap:conditions="General.Online-Only,Snippets.Snippet2">From the <span class="Emphasis">Project</span> ribbon group, click the <span class="Emphasis">Project Styles</span> or <span class="Emphasis">Topic Types</span> button. The Project Styles dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Styles </span>button. The Project Styles dialog opens.</li>
+                    <li>From the left panel, choose the script you’d like to edit.</li>
+                    <li>Make the desired changes to the script and click <span class="Emphasis">OK</span>. If you would like to edit the name of the script, edit the <span class="Emphasis">Name</span> field in the <span class="Emphasis">Properties</span> section.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Suppress Default Script</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This check box specifies whether a user-defined script augments a default character style behavior or completely overrides it. If a script is specified in the Scripts dialog, and the character style already has a default D2HML behavior (noted in the Behavior dropdown of the Project Styles dialog), you can use this option to completely override the default behavior of the style. By default, the D2HML behavior is not overridden, which means that your script will be executed after the default action defined by the style behavior is performed. If you select this check box, your script will be the only action triggered by the style. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Styles/Project-Styles.htm">About Project Styles and Topic Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Styles/About-Project-Styles-and-Topic-Types.htm">About Project Styles and Topic Types</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

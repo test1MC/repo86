@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li><a href="../../../../../Flare/Conditions/Process/Creating-Conditions1.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Create all of the conditions</a> that you plan to apply within micro content responses.</li>
+            <li>Create a micro content file and create phrases linked to responses. This can be done by tagging content in topics as micro content, or by linking phrases from the Micro Content Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See any of the following:</MadCap:conditionalText><ul MadCap:conditions="General.Online-Only"><li><MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method1">Response Method 1: Creating Micro Content From a Topic</MadCap:xref></li><li><MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method2">Response Method 2: Linking Phrases to Entire Topics or Snippets</MadCap:xref></li><li><MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method3">Response Method 3: Linking Phrases to Bookmarks</MadCap:xref></li></ul></li>
+            <li>
+                <p><a href="../../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Apply the necessary conditions to the text or other content in the linked responses</a>.</p>
+                <div class="topic-only">
+                    <div class="tip">
+                        <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">It is a good idea to enable the <span class="Emphasis">Hide/Show Conditional Indicators</span> button <img src="../../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" class="ReduceButtonSize" /> at the bottom of the editor so that you can clearly see where the different tags have been applied.</p>
+                    </div>
+                </div>
+            </li>
+            <li>In the Micro Content Editor, right-click the phrase and select <span class="Emphasis">Properties</span>.</li>
+            <li>
+                <p>In the Properties dialog, select the <span class="Emphasis">Micro Content Conditions</span> tab.</p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You will not see this option if you haven't linked the phrase to a response. Instead, you will see "Snippet Conditions," which can be applied to content entered directly in the Micro Response Editor, just as it can be applied in a regular topic. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Snippets/Main-Activities/Using-Snippet-Conditions1.htm">Using Snippet Conditions</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                </div>
+            </li>
+            <li>If you want to exclude a condition tag from the micro content, select its row to highlight it. Then click the <span class="Emphasis">Exclude</span> option to the right. If you want to include a condition in the micro content, select its row to highlight it, then click the <span class="Emphasis">Include</span> option to the right.</li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Structure Bars</p>
+            <p>You want to apply a condition tag to an entire paragraph, such as a heading in a topic. First, in the Project Organizer, you open the <span class="Emphasis">Conditional Text</span> folder and expand the appropriate condition tag set.</p>
+            <p>Then you click on the condition tag and drag it to the structure bar representing that paragraph in the XML Editor.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Drag5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Drag6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide" />
+            <p>Now let's say you want to apply a condition tag to content that contains a span tag (i.e., a style to be used at the character level, rather than at the block level, such as bold text).</p>
+            <p>First, in the XML Editor you would place your cursor somewhere in the paragraph where the span tag has been applied.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Drag7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide" />
+            <p>Then in the Project Organizer, you open the <span class="Emphasis">Conditional Text</span> folder and expand the appropriate condition tag set.</p>
+            <p>Finally, you click on the condition tag and drag it to the structure bar representing the span tag in the XML Editor.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Drag8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Drag9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If you are unable to open a file, it is possible that the file has invalid XML code (e.g., unclosed tags, starting tag is uppercase with a lowercase end tag). When you have files with invalid XML, they are added to the non-XML Topics window pane. Files such as these can be fixed by validating the file in <MadCap:variable name="Other.Product" />. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Analysis/More-Analysis-Scans/Topics/Viewing-Non-XML-Topics.htm">Viewing Non-XML Topics</MadCap:xref>.</MadCap:conditionalText></p>
+        <p MadCap:conditions="General.Online-Only">
+            <img src="../../../Images/Flare/Folders-Files/Validate-XML1.png" class="MaxWidth100Percent" />
+        </p>
+        <h2>How to Validate XML Files</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Ribbon</span> Select <span class="Emphasis">View &gt; File List</span>.</li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut </span>Press <span class="Emphasis">CTRL+SHIFT+J</span>.</li>
+                </ul>
+            </li>
+            <li>
+                <p>Right-click on a file with invalid XML and select <span class="Emphasis">Validate XML</span>.</p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../../Images/Flare/Folders-Files/Validate-XML3.png" class="MaxWidth75Percent" />
+                </p>
+                <p>The XML Validator dialog opens. The left side shows the markup for the original file, and the right side shows the markup for the file after the invalid XML has been fixed. You can switch to the WYSIWYG view by clicking <span class="Emphasis">Show Source Code</span> to remove the check mark.</p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../../Images/Flare/Folders-Files/Validate-XML2.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>(Optional) You can click <span class="Emphasis">Create Backup File</span> if you want to keep a copy of the original file in your Backups window pane. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Backups/Backups.htm">About Backups</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Click <span class="Emphasis">Save</span>.</li>
+        </ol>
+    </body>
+</html>

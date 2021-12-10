@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Undefined-File-Tags-Window-Summary.flsnp" />
+        </p>
+        <p>
+            <img src="../../../../Images/Flare/File-Tagging/Undefined-File-Tags.png" class="MaxWidth75Percent" />
+        </p>
+        <MadCap:snippetBlock src="../../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <h2>How to View Undefined File Tags</h2>
+        <ol>
+            <li>Open a project. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Analysis &gt; Undefined Items &gt; Undefined File Tags</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Summary Window Pane </span>Double-click the row that mentions undefined file tags.</li>
+                </ul>
+                <p>The Undefined File Tags window pane opens, displaying a list of undefined file tags.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">File Tag </span>
+                        <MadCap:snippetText src="../Used-Items/File-Tag-Column.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../../General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <h2>How to Fix Undefined File Tags</h2>
+        <p>There are a couple of basic ways to fix an undefined file tag. First, you can rename the file tag or file tag set so that it matches what you have associated with the file. Otherwise, you can re-associate the file tag with the file so that it uses an existing file tag or file tag set. </p>
+        <div class="IndentMedium">
+            <h3>To Rename File Tags</h3>
+            <MadCap:snippetBlock src="../Used-Items/Rename-File-Tag-Steps.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+            <h3>To Re-associate File Tags</h3>
+            <ol>
+                <li>Open the Flare project that contains the file. </li>
+                <li>In the Content Explore or Project Organizer, right-click on the file and select <span class="Emphasis">Properties</span>.</li>
+                <li>Select the <span class="Emphasis">File Tags</span> tab.</li>
+                <li>Select the appropriate file tag set and file tag.</li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                </li>
+            </ol>
+        </div>
+        <MadCap:snippetBlock src="../../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Another way to associate a different file tag to many places throughout a project is to use the Find and Replace in Files feature in Flare. For example, let's say that you originally associated a file tag named "Completed" (from the "Status" file tag set) with a lot of files in your project. Later, you renamed the file tag "Finished." You can perform a find and replace in your entire project. In the "Find" field, you can enter <span class="TypedEntry">Status.Completed</span>, and in the "Replace with" field, you can enter <span class="TypedEntry">Status.Finished</span>. Also, make sure you select the "Find in source code" option in the Find and Replace in Files window pane. After replacing this text throughout your project, that file tag will no longer be considered "undefined" in <MadCap:variable name="Other.Product" />. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Editor-Tools/Find-Replace/Find-Replace.htm">About Find and Replace</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">See the Flare online Help for more information.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:snippetBlock src="../Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

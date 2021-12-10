@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All.flsnp" />
+        <MadCap:snippetBlock src="Change-Look-Glossary-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2 MadCap:conditions="General.Online-Only">How to Change the Look of a Glossary (Individual Elements)</h2>
+        <ol MadCap:conditions="General.Online-Only">
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Complete-Following-Advanced-Simplified.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Styles-Advanced-Simplified-Views.flsnp" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to change the actual characters for the alphabetical headings above each section in the glossary, you must use the Advanced view.</p>
+                </div>
+            </li>
+            <p class="Subheading">If Using Simplified View</p>
+            <ol class="LowerAlpha">
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Advanced-Button-Shown.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Grid-Select-Style.flsnp" />
+                    <ul type="1">
+                        <li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:definitions" />To Customize the Definition </span>Select <span class="Emphasis">div.GlossaryPageDefinition</span>.</li>
+                        <li><span class="SetOffFirstLevel">To Customize the Container </span>Select <span class="Emphasis">div.GlossaryPageEntry</span>. This style class affects the "container" that holds each glossary term/definition group.</li>
+                        <li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:headings" />To Customize the Heading </span>Select <span class="Emphasis">div.GlossaryPageHeading</span>. This style class affects the text for each alphabetical heading that is displayed above each section of the glossary.</li>
+                        <li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:terms" />To Customize the Term (for Online Output) </span>Select <span class="Emphasis">a.GlossaryPageTerm</span>. You can also use one of the pseudo classes under it to change the look of the term, depending on its hyperlink behavior (focus, hover, link, visited). </li>
+                        <li><span class="SetOffFirstLevel">To Customize the Term (for Print-Based Output) </span>Select <span class="Emphasis">div.GlossaryPageTerm</span>.</li>
+                    </ul>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Local-Toolbar-Click-Properties-Style.flsnp" />
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Use-Tabs-Fields-Change-Style-Properties.flsnp" />
+                    </p>
+                    <MadCap:snippetBlock src="../Styles/Note-More-Info-Components-Props-Stylesheet-Editor.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/General/Properties-Dialog-Click-OK.flsnp" />
+                </li>
+            </ol>
+            <p class="Subheading">If Using Advanced View</p>
+            <ol class="LowerAlpha">
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+                </li>
+                <li>On the left side of the editor, select the style that you want to edit.<ul type="1"><li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:definitions" />To Customize the Definition </span>Expand <span class="Emphasis">div</span>. Then select <span class="Emphasis">GlossaryPageDefinition</span> under it.</li><li><span class="SetOffFirstLevel">To Customize the Container </span>Expand <span class="Emphasis">div</span>. Then select <span class="Emphasis">GlossaryPageEntry</span> under it. This style class affects the "container" that holds each glossary term/definition group.</li><li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:headings" />To Customize the Heading </span>Expand <span class="Emphasis">div</span>. Then select <span class="Emphasis">GlossaryPageHeading</span> under it. This style class affects the text for each alphabetical heading that is displayed above each section of the glossary.</li><li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:terms" />To Customize the Term (for Online Output) </span>Expand <span class="Emphasis">a</span>. Select <span class="Emphasis">GlossaryPageTerm</span>. You can also use one of the pseudo classes under it to change the look of the term, depending on its hyperlink behavior (focus, hover, link, visited). </li><li><span class="SetOffFirstLevel">To Customize the Term (for Print-Based Output) </span>Expand <span class="Emphasis">div</span>. Then select <span class="Emphasis">GlossaryPageTerm</span>.</li></ul></li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" /> </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                    </p>
+                </li>
+                <li>
+                    <p>(Optional) If you want to change the actual characters (e.g., A, B, C, D) that are used for the glossary headings, do the following.</p>
+                    <p>
+                        <ol class="LowerAlpha">
+                            <li>Under the <span class="Emphasis">div</span> tag on the left side of the editor, make sure <span class="Emphasis">GlossaryPageHeading</span> is selected.</li>
+                            <li>If you are using the group view, expand the <span class="Emphasis">Unclassified</span> property group. </li>
+                            <li>Click in the cell to the right of <span class="Emphasis">mc-heading-format</span> and type the new format. Make sure you place the character within { and } brackets.</li>
+                        </ol>
+                    </p>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The default format is {A}. This means that the headings will simply look like this: A, B, C, D, and so on. If you change it to {a}, the headings will be lowercase: a, b, c, d, and so on. If you change it to -{A}-, the headings will look like this: -A-, -B-, -C-, -D-, and so on.</p>
+                    </div>
+                    <MadCap:snippetBlock src="../Styles/Note-More-Info-Components-Props-Stylesheet-Editor.flsnp" />
+                </li>
+            </ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2 MadCap:conditions="General.Print-Only">How to Change the Look of a Glossary (Individual Elements)</h2>
+        <ol MadCap:conditions="General.Print-Only">
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+            </li>
+            <li>On the left side of the editor, select the style that you want to edit.<ul type="1"><li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:definitions" />To Customize the Definition </span>Expand <span class="Emphasis">div</span>. Then select <span class="Emphasis">GlossaryPageDefinition</span> under it.</li><li><span class="SetOffFirstLevel">To Customize the Container </span>Expand <span class="Emphasis">div</span>. Then select <span class="Emphasis">GlossaryPageEntry</span> under it. This style class affects the "container" that holds each glossary term/definition group.</li><li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:headings" />To Customize the Heading </span>Expand <span class="Emphasis">div</span>. Then select <span class="Emphasis">GlossaryPageHeading</span> under it. This style class affects the text for each alphabetical heading that is displayed above each section of the glossary.</li><li><span class="SetOffFirstLevel"><MadCap:keyword term="Glossaries:terms" />To Customize the Term (for Online Output) </span>Expand <span class="Emphasis">a</span>. Select <span class="Emphasis">GlossaryPageTerm</span>. You can also use one of the pseudo classes under it to change the look of the term, depending on its hyperlink behavior (focus, hover, link, visited). See <MadCap:xref href="../../../../Flare/Styles/Basics-CSS/Important-Style-Terms-Concepts.htm#PseudoClasses">Pseudo Classes</MadCap:xref>.</li><li><span class="SetOffFirstLevel">To Customize the Term (for Print-Based Output) </span>Expand <span class="Emphasis">div</span>. Then select <span class="Emphasis">GlossaryPageTerm</span>.</li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>(Optional) If you want to change the actual characters (e.g., A, B, C, D) that are used for the glossary headings, do the following.</p>
+                <p>
+                    <ol class="LowerAlpha">
+                        <li>Under the <span class="Emphasis">div</span> tag on the left side of the editor, make sure <span class="Emphasis">GlossaryPageHeading</span> is selected.</li>
+                        <li>If you are using the group view, expand the <span class="Emphasis">Unclassified</span> property group. </li>
+                        <li>Click in the cell to the right of <span class="Emphasis">mc-heading-format</span> and type the new format. Make sure you place the character within { and } brackets.</li>
+                    </ol>
+                </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The default format is {A}. This means that the headings will simply look like this: A, B, C, D, and so on. If you change it to {a}, the headings will be lowercase: a, b, c, d, and so on. If you change it to -{A}-, the headings will look like this: -A-, -B-, -C-, -D-, and so on.</p>
+                </div>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>
+            <MadCap:keyword term="DIV tag:glossaries;Glossaries:div" />More About the Glossary DIV Styles</h2>
+        <p>If you use the glossary div styles to change the look of a generated glossary, the following information and diagram may help to clarify the purpose of each style. Because these styles use &lt;div&gt; tags, you can think of them as nested boxes. This is important to understand when you try to align the different glossary elements through the use of <MadCap:keyword term="Glossaries:margins;Margins:glossaries" />margin and <MadCap:keyword term="Glossaries:padding;Padding:glossaries" />padding settings.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Margins </span>Control space outside of the box.</li>
+            <li><span class="SetOffFirstLevel">Padding </span>Controls space inside the box.</li>
+        </ul>
+        <p>As a result of the boxes being nested, the margin and padding settings compound the distances in the output, as the diagram shows.</p>
+        <p>
+            <img src="../../../Images/Flare/Glossaries/Glossary-Div-Styles1.png" class="MaxWidth100Percent" />
+        </p>
+        <p class="PageBreakBefore">In the output, this type of collection of style settings might look like this.</p>
+        <p>
+            <img src="../../../Images/Flare/Glossaries/Glossary-Div-Styles2.png" class="MaxWidth70Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <h2>How to Edit the Look of a Glossary (Entire Container)</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Some of the necessary style properties can also be changed in the Simplified view in the Stylesheet Editor.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+            </li>
+            <li>In the<span class="Emphasis"> Styles</span> section of the editor, scroll down and select the <span class="Emphasis">MadCap|GlossaryProxy</span> style or a class that you have created under it (e.g., MadCap|GlossaryProxy.myclass). </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                <p>For example, if you want to change the width of the entire glossary, you would first expand the <span class="Emphasis">Box</span> property group. Then to the right of the <span class="Emphasis">width</span> property, you would click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" class="ReduceButtonSize" /> and set the value in the popup.</p>
+                <MadCap:snippetBlock src="../Styles/Note-More-Info-Components-Props-Stylesheet-Editor.flsnp" MadCap:conditions="General.Online-Only" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For <MadCap:variable name="Outputs.PDF" /> output, you can insert Heading variables into page layouts. These variables let you automatically display glossary headings at the top of pages. See <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Inserting-Heading-Variables-Frames1.htm">Inserting Heading Variables Into Frames</MadCap:xref>.</p>
+        </div>
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For steps on changing the look of glossary term links, see <MadCap:xref href="../../../../Flare/Glossaries/Other-Activities/Editing-Style-Glossary-Term-Links.htm">Editing the Style of Glossary Term Links</MadCap:xref>.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to change the look of glossaries in online output, you can do so by modifying styles within your skin. See <MadCap:xref href="../../../../Flare/Skins/Standard-Skin-Styles/Standard-Skin-Styles.htm">Standard Skin Styles</MadCap:xref> and <MadCap:xref href="../../../../Flare/Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can change the heading text for an auto-generated glossary in the language skin. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/Auto-Generated-Proxies/Changing-Heading-Text-Auto-Generated-Proxies.htm">Changing the Heading Text for Auto-Generated Proxies</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

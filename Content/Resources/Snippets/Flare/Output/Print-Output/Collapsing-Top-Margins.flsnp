@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../../Banners/Feature-Supported/PDF.flsnp" />
+        <p>In PDF targets you can collapse the top margin for all elements occurring at the top of a new page or column.</p>
+        <h2>How to Collapse Top Margins</h2>
+        <ol>
+            <li>Open the target.</li>
+            <li>In the Target Editor, select the <span class="Emphasis">Advanced</span> tab.</li>
+            <li>In the <span class="Emphasis">Margins</span> section, select <span class="Emphasis"> Collapse top margin at top of page/column</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have top margins set on your headings. If the "collapse top margin" option is not enabled, the results are something like this (a red border has been added to the body frame so you can see the subtle difference):</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Margin-Not-Collapsed.png" class="MaxWidth90Percent" />
+            </p>
+            <p>If the option is enabled, the results are something like this:</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Margin-Collapsed.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Collapsing the top margin will not work on pages where chapter breaks exist, since chapter headings can have a top margin by design.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+    </body>
+</html>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta name="description" content="When you build a target, equations may be converted to another format." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Equations;MathML" />
+            <MadCap:concept term="FilterFeatures" />Converted Output Formats for Equations</h1>
+        <p>When you build a target <MadCap:conditionalText MadCap:conditions="General.Online-Only">(see <MadCap:xref href="../Step5-Building-Publishing-Output/Building-Publishing-Output.htm" MadCap:conditions="General.Online-Only">Step 5: Building and Publishing Output</MadCap:xref>)</MadCap:conditionalText>, equations may be converted to another format. This, however, depends on the output type of the target you are building.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>HTML5 and WebHelp</h2>
+        <p>If you are generating HTML5 or one of the WebHelp formats—WebHelp or WebHelp Plus—you can choose between SVG or PNG as the converted format.</p>
+        <p>To do this, open the Target Editor, select the <span class="Emphasis">Advanced</span> tab, and choose the format from the <span class="Emphasis">Equation Format</span> field. SVG provides a crisper image and is selected by default.</p>
+        <p>
+            <img src="../../Resources/Images/Flare/Equations/Equations-Target-Options.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <div class="note">
+            <p>The "Generate 'web-safe' images" option in the Target Editor does not apply to equations. If you want web-safe equations, you should choose PNG from the Equation Format field.</p>
+        </div>
+        <h2>EPUB</h2>
+        <p>By default, EPUB targets produce equations in MathML format, whether you've inserted a MathML equation or a LaTeX equation.</p>
+        <p>However, you also have the option of converting equations in EPUB to PNG format. To do this, open the EPUB target and select the <span class="Emphasis">EPUB Options</span> tab. In the <span class="Emphasis">Optimization Settings</span> area, you can use the check box labeled <span class="Emphasis">Enable MathML to PNG conversion</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Step4-Developing-Targets/More/Specifying-EPUB-Options.htm">Specifying EPUB Options</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <img src="../../Resources/Images/Flare/Equations/Enable-MathML-PNG-Conversion.png" alt="" title="" />
+        </p>
+        <ul>
+            <li>If the option <span class="EmphasisItalic">is selected</span> both MathML and LaTeX equations are converted to PNG.</li>
+            <li>If the option <span class="EmphasisItalic">is not selected</span> LaTeX equations are converted to MathML. And of course MathML equations remain as they are.</li>
+        </ul>
+        <h2>PDF</h2>
+        <p> If you build PDF output, equations are converted to vector images.</p>
+        <h2>All Other Output Types</h2>
+        <p>For the rest of the output types in Flare, equations are converted to PNG in the output.</p>
+    </body>
+</html>

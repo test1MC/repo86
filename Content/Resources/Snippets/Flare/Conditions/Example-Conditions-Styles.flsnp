@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have created a lot of drop-downs throughout your project. But you want the heading portion of the drop-down to display only in online outputs, not in any print-based outputs.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Styles2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <p>Of course you can manually apply conditions to your drop-down headings, but you would have to do that each time you create a drop-down. A better option is to apply a condition to the style used for the drop-down headings.</p>
+            <p>So you open your stylesheet and select the <span class="Emphasis">MadCap|dropDownHead</span> style. And then in the <span class="Emphasis">mc-conditions</span> property you select a condition that you've created for the purpose of online only outputs.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Styles3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <p>As a result, the online only condition will automatically be applied to any drop-downs you've created in the past, and any that you create in the future.</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Styles4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <p>So when you build online output, you will see this:</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Styles5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <p>And when you build print-based output, you will see this:</p>
+            <p>
+                <img src="../../../Images/Flare/Conditions/Condition-Styles6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

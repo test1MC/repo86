@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="13" MadCap:lastHeight="2751" MadCap:lastWidth="1446">
+    <body>
+        <p>You can create links to topics, bookmarks, link tags, keywords, groups, and glossary entries. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Link</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Word source document, select the text where you want to create a link.</li>
+                    <li>Select the <span class="Emphasis">Doc-To-Help</span> ribbon.</li>
+                    <li>In the <span class="Emphasis">D2HML Styles</span> group, click <span class="Emphasis">Link</span>. The Link dialog opens.</li>
+                    <li>Click the <span class="Emphasis">Link type</span> drop-down and choose the type of link you would like to create. <ul><li>Topic title</li><li>Topic in Document</li><li>Link tag</li><li> Bookmark in Document</li><li>Keyword</li><li>Group</li><li>Glossary term</li></ul></li>
+                    <li>
+                        <p>In the area below, select the appropriate topic, link tag, bookmark, keyword, group, or glossary entry.</p>
+                        <p>
+                            <MadCap:snippetText src="../../Topics/Deleted-Topics-Identified1.flsnp" /> But in this dialog you can create links to such a deleted topic without first rebuilding a target that is conditioned to include it.</p>
+                        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead class="OnlineOnly">
+                                <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <MadCap:snippetBlock src="../../Topics/Deleted-Topics-Identified2.flsnp" />
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead class="OnlineOnly">
+                                <MadCap:dropDownHotspot>Tip</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <div class="tip">
+                                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip: &lt;/span&gt;&lt;/b&gt;">You can click <img src="../../../../Images/D2H/Interface/Buttons/Grid-View-btn.png" alt="" title="" class="ReduceButtonSize" /> or <img src="../../../../Images/D2H/Interface/Buttons/Tree-View-btn.png" alt="" title="" class="ReduceButtonSize" /> to view the "link to" information in Grid View or Tree View.</p>
+                                </div>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead class="OnlineOnly">
+                                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p class="note">You may select more than one keyword or group.</p>
+                                <p class="note"> For topic links, the default target topic will be identical to the selected text. The phrase "Defined by Text" is displayed in the Topic field. </p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </li>
+                    <li>
+                        <p>(Optional) Depending on the link type, you can make selections in the <span class="Emphasis">Link options</span> area.</p>
+                        <p>If you would like the information to display in a popup, select the <span class="Emphasis">Popup</span> check box (if it is available for the selected link type).</p>
+                        <p>By default, the window type of the topic is chosen. If you would prefer the destination topic to display in another window type, choose one from the drop-down list.</p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead class="OnlineOnly">
+                                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p class="note">The (Default) topic window types are set using topic types, which are one component of a paragraph style. These are set for the project in the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Project </MadCap:conditionalText>Styles dialog.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Styles/Project-Styles.htm">About Project Styles and Topic Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Styles/About-Project-Styles-and-Topic-Types.htm">About Project Styles and Topic Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content"> See the online Help or the <span class="EmphasisItalic">Design Guide</span>.</MadCap:conditionalText></p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </li>
+                    <li>(Optional) In the <span class="Emphasis">Options</span> section, you can select <span class="Emphasis">Hide properties in document</span> to hide the tag.</li>
+                    <li>(Optional) In the <span class="Emphasis">Options</span> section, you can select <span class="Emphasis">Show as button</span> if you would like the link to be a button in the online output with the selected text displayed on it.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">Using drag-and-drop linking, you can create links in your Word source document. You can use drag-and-drop linking from the Word Doc-To-Help Project panel<MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> or from a variety of locations in Doc-To-Help</MadCap:conditionalText>. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Nav-Links/Drag-Drop-Linking.htm">Drag-and-Drop Linking</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Drag-Drop-Linking.htm">Drag-and-Drop Linking</MadCap:xref>.</MadCap:conditionalText></p>
+                <p class="note">
+                    <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">If you would like to create a new keyword, group, or link tag, see <MadCap:xref href="../../../../../D2H/Indexes/Creating-Index-Keywords-Source-Document.htm">Creating Index Keywords in a Source Document</MadCap:xref>, <MadCap:xref href="../../../../../D2H/Nav-Links/Groups/Adding-Topic-Group.htm">Adding a Topic to a Group</MadCap:xref>, or <MadCap:xref href="../../../../../D2H/Nav-Links/Adding-Link-Tag.htm">Adding Link Tags</MadCap:xref>.</MadCap:conditionalText>
+                    <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">If you would like to create a new keyword, group, or link tag, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Indexes/Creating-Index-Keywords-in-Source-Document.htm">Creating Index Keywords in a Source Document</MadCap:xref>, <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Adding-Topic-to-Group.htm">Adding a Topic to a Group</MadCap:xref>, or <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/Adding-Link-Tag.htm">Adding Link Tags</MadCap:xref>.</MadCap:conditionalText> You can also create/edit keywords and groups using the Index and Groups view in the Doc-To-Help Project panel.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+    </body>
+</html>

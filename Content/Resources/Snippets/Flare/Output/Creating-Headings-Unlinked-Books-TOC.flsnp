@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Print-EPUB.flsnp" />
+        <p>
+            <MadCap:snippetText src="Print-Output/Determine-Heading-Levels-Summary.flsnp" />
+        </p>
+        <p>
+            <MadCap:snippetText src="Print-Output/Use-TOC-Depth-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/TOCs/Editing-Heading-Levels-Print-TOC1.htm">Determining Heading Levels for a Print TOC</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Output/Editing-Heading-Levels-Print-TOC1.htm">Determining Heading Levels for a Print TOC</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Targets-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Output/Editing-Heading-Levels-Print-TOC4.htm">Determining Heading Levels for a Print TOC</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Output/Editing-Heading-Levels-Print-TOC4.htm">Determining Heading Levels for a Print TOC</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <MadCap:snippetText src="Print-Output/Create-Headings-Unlinked-Books-Summary.flsnp" />
+        </p>
+        <h2>How to Create Headings for Unlinked Books in a Generated TOC</h2>
+        <ol>
+            <li>Open the target.</li>
+            <li>In the Target Editor, select the <span class="Emphasis">Advanced</span> tab.</li>
+            <li>In the <span class="Emphasis">Generated TOC</span> section, select <span class="Emphasis">Inject headings for unlinked books in TOC</span>. </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Targets-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+        <div class="example">
+            <MadCap:snippetBlock src="Print-Output/Example-Print-TOC-Heading1.flsnp" />
+            <p>If you use the TOC depth feature, the print TOC will look like this in the output:</p>
+            <p>
+                <img src="../../../Images/Flare/Output/Online-TOC-Structure3.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="Print-Output/Example-Print-TOC-Heading2.flsnp" />
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Targets-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+            <p>If you use the feature to include the unlinked books, the print TOC will look like this in the output:</p>
+            <p>
+                <img src="../../../Images/Flare/Output/Online-TOC-Structure4.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+    </body>
+</html>

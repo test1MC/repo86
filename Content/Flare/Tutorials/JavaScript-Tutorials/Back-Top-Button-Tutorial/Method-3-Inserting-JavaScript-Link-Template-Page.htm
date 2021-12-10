@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Back-Top-Button.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Method 3: Inserting a link to the script file from the template pages in the project. If you want all of the topics in the project—or at least all of the topics using a particular template page—to use the same script, this is the best method." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Back-Top-Button.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:JavaScript;JavaScript:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Method 3: Inserting a JavaScript Link Into  Template Pages</h1>
+        <p>Now we're going to insert a link to our script file from the template pages in the project. If you want all of the topics in the project—or at least all of the topics using a particular template page—to use the same script, this is the best method.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Insert a JavaScript Link Into Template Pages</h2>
+        <ol>
+            <li>
+                <p>Copy the following.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;script type="text/javascript" defer="defer" src="../Scripts/Scroll-Button.js"&gt;
+&lt;/script&gt;</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </li>
+            <li>From the Content Explorer, expand <span class="Emphasis">Resources &gt; TemplatePages</span>, and double-click <span class="Emphasis">Home-Page.flmsp</span>. The template page opens in the XML Editor.</li>
+            <li>At the bottom of the editor, select the <span class="Emphasis">Text Editor</span> tab.</li>
+            <li>
+                <p>Paste the code between the <span class="Emphasis">&lt;head&gt;</span> and <span class="Emphasis">&lt;/head&gt;</span> tags.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Back-Top/Back-Top-Button-Tutorial6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Back-Top-Button-Tutorial" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Notice that this link includes defer="defer," which means the page will load fully before running the script. This is necessary when you link to the script file from within the &lt;head&gt; tags.</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Be aware that when you link to a separate script file, the path is relative. So in our example, you see one set of dots (../) before the folder and file name. Depending on where your topic and script file are located, this might change to require more sets of dots (e.g., ../../../).</p>
+                </div>
+            </li>
+            <li>Open the <span class="Emphasis">Other-Topics.flmsp</span> template page, and paste the same code in the same place.</li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+            <li>Build and view the <span class="Emphasis">All-About-Austin-HTML5</span> target.</li>
+            <li>In the output, open any of the topics that are long enough to be scrolled, and test the scroll button just as you did with the previous methods.</li>
+        </ol>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End.flsnp" />
+        </div>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If you have multiple stylesheets with conflicting settings, the micro content stylesheet has highest precedence.</p>
+        <p>The order of precedence works as follows when the content is viewed in the interface (XML Editor, Micro Content Editor), as well as when it is displayed in the output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information on how precedence works with multiple stylesheets in a project, see <MadCap:xref href="../../../../../Flare/Styles/General-Information/Primary-Local-Stylesheets-Precedence.htm">Primary and Local Stylesheets (and Precedence)</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Micro-Content-Guide" />
+        <p class="Subheading">Flare Interface</p>
+        <ol>
+            <li>Local stylesheet associated with micro content file</li>
+            <li>Local stylesheet associated with topics </li>
+            <li>Primary stylesheet (styles from only one primary stylesheet can be used)<ol><li><span class="EmphasisItalic">Primary</span> Target</li><li>Project</li></ol></li>
+        </ol>
+        <p class="Subheading">Output</p>
+        <ol>
+            <li>Local stylesheet associated with micro content file</li>
+            <li>Local stylesheet associated with topics</li>
+            <li>Local stylesheet associated with template pages
+</li>
+            <li>Primary stylesheet (styles from only one primary stylesheet can be used)<ol class="LowerAlpha"><li><span class="EmphasisItalic">Any</span> Target </li><li>Project</li></ol></li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have three stylesheets in your project. Two of them are local stylesheets—one at the micro content level and the other at the topic level (for some topics). The third one is a primary stylesheet that is set at the project level. </p>
+            <ul>
+                <li>In the <span class="EmphasisItalic">micro content stylesheet</span>, you specify that paragraph text should be <span class="Emphasis" style="color: #ff0000;">red</span>. </li>
+                <li>In the <span class="EmphasisItalic">topic stylesheet</span>, you specify that the paragraph text should be <span class="Emphasis" style="color: #0000ff;">blue</span>. </li>
+                <li>In the <span class="EmphasisItalic">project stylesheet</span>, you specify that the paragraph text should be <span class="Emphasis">black</span>. </li>
+            </ul>
+            <p>What is the result in the output?</p>
+            <ul>
+                <li>In the <span class="EmphasisItalic">micro content search results</span>, the paragraph text will be <span class="Emphasis" style="color: #ff0000;">red</span>, overriding the other colors.</li>
+                <li>In a <span class="EmphasisItalic">full topic that is associated with the topic stylesheet</span>, the paragraph text will be <span class="Emphasis" style="color: #0000ff;">blue</span>, because it is not being viewed as micro content and it has precedence over the project stylesheet.</li>
+                <li>In <span class="EmphasisItalic">full topics that are not associated with the topic stylesheet</span>, the text will be <span class="Emphasis">black</span>, because it is not being viewed as micro content.</li>
+            </ul>
+        </div>
+    </body>
+</html>

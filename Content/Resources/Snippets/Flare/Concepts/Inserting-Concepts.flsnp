@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can open a topic and use the top area of the Concept window pane to insert concepts into that file.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>
+            <MadCap:keyword term="Drag and drop" />Drag-and-Drop Method</h2>
+        <p>Use this method to quickly insert a concept that already exists in your project. </p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Advantage </span>It is extremely fast.</li>
+            <li><span class="SetOffFirstLevel">Disadvantage </span>The concept that you want to insert must already exist in the project. This means you must first insert the concept into a topic using one of the other methods. </li>
+        </ul>
+        <div class="IndentMedium">
+            <h3>How to Insert a Concept Using the Drag-and-Drop Method</h3>
+            <ol>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">View &gt; Concept Window</span>. </li>
+                        <li><span class="SetOffFirstLevel">Keyboard Shortcut </span>Press <span class="Emphasis">SHIFT+F9</span>.</li>
+                    </ul>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Concepts/Concept-Window-Pane-Opens.flsnp" />
+                </li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                <li>
+                    <p>In the bottom (explorer) area of the Concept window pane, click the concept and drag it to the location in the topic where you want to insert it. As you drag the concept into the topic, a vertical red bar acts as a guide to help you place the concept in the topic. The concept is displayed within a marker in front of the word where you added it (as long as markers are turned on). A marker can hold multiple concepts, but most times you only need one concept per marker.</p>
+                    <p MadCap:conditions="Products.Flare-Online-Only,Flare-Guides.Flare-Navigation-Links-Guide">
+                        <img src="../../../Images/Flare/Concepts/Concept-Entry-Inserted.png" class="MaxWidth70Percent" />
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                    </p>
+                </li>
+            </ol>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+        <h2>Concept Window Pane Method</h2>
+        <p>Use this method to insert a concept in the Concept window pane.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Advantage </span>It lets you continue to perform other tasks in the topic without having to "switch modes."</li>
+            <li><span class="SetOffFirstLevel">Disadvantage </span>It is not quite as fast as the other methods. </li>
+        </ul>
+        <div class="IndentMedium">
+            <h3>How to Insert a Concept Using the Concept Window Pane Method</h3>
+            <ol>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+                </li>
+                <li>Click at the location where you want to insert a concept.</li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">View &gt; Concept Window</span>.</li>
+                        <li><span class="SetOffFirstLevel">Keyboard Shortcut </span>Press <span class="Emphasis">SHIFT+F9</span>.</li>
+                    </ul>
+                    <p>The Concept window pane opens. </p>
+                    <p MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide,General.Online-Only">
+                        <img src="../../../Images/Flare/Concepts/Concept-Entry-Window-Pane.png" class="MaxWidth70Percent" />
+                    </p>
+                </li>
+                <li>Click in an empty field in the <span class="Emphasis">Terms</span> column.</li>
+                <li>Type the concept as you want it to appear. </li>
+                <li>
+                    <p>Press <span class="Emphasis">ENTER</span>. The concept is displayed within a marker in front of the word where you added it (as long as markers are turned on). A marker can hold multiple concepts, but most times you only need one keyword per topic.</p>
+                    <p MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide,General.Online-Only">
+                        <img src="../../../Images/Flare/Concepts/Concept-Entry-Inserted.png" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                    </p>
+                </li>
+            </ol>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+        <h2>Concept Entry Mode Method</h2>
+        <p>Use this method to accomplish the same thing as the Concept window pane method. The difference is that, with this method, you do not need to move your cursor from the topic to the Concept window pane. You simply click at the spot in the text where you want to insert the keyword and start typing. The words you type are added directly into the Concept window pane. This is a good method to use if you plan to create concepts in a lot of topics all at once, without performing any other tasks in the topic.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Advantage </span>It is extremely fast.</li>
+            <li><span class="SetOffFirstLevel">Disadvantage </span>If you are adding a concept as you work on a topic, you need to remember to switch off the Concept Entry Mode so that you can return to editing your topic. </li>
+        </ul>
+        <div class="IndentMedium">
+            <h3>How to Insert a Concept Using the Concept Entry Mode Method</h3>
+            <ol>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+                </li>
+                <li>
+                    <p>In the local toolbar of the XML Editor click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Concept-Entry-Mode-btn.png" class="ReduceButtonSize" />. </p>
+                    <p MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide,General.Online-Only">
+                        <img src="../../../Images/Flare/Concepts/Concept-Entry-Mode.png" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>Click at the place in your topic where you want to add a concept.</li>
+                <li>
+                    <p>Type the phrase that you want to add as the concept. </p>
+                    <p>As you start typing, the Concept window pane opens (if it was not previously opened), and the phrase is added to the first empty field under the Terms column. </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">As you type in the Concept window pane, notice that the cursor does not lose focus in the XML Editor. It merely turns gray so that you know for certain where you are adding the concept. When you return to the XML Editor, the cursor returns to its previous state.</p>
+                    </div>
+                </li>
+                <li>
+                    <p>Press <span class="Emphasis">ENTER</span>. The concept is displayed within a marker in front of the word where you added it (as long as markers are turned on). A marker can hold multiple concepts, but most times you only need one keyword per topic.</p>
+                    <p MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide,General.Online-Only">
+                        <img src="../../../Images/Flare/Concepts/Concept-Entry-Inserted.png" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>If you want to add more concepts in the topic, repeat steps 3-5.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                    </p>
+                    <p>To turn off the Concept Entry Mode and return to regular editing, you can click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Concept-Entry-Mode-btn.png" class="ReduceButtonSize" /> again.</p>
+                </li>
+            </ol>
+        </div>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to see all of the concepts that you have inserted in your project, they are displayed in the bottom portion of the Concept window pane.</p>
+        </div>
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">After you insert concepts, make sure you do one of the following, depending on what you are trying to accomplish with the concepts.</p>
+        <ul MadCap:conditions="General.Online-Only">
+            <li>
+                <MadCap:xref href="../../../../Flare/Concepts/Inserting-Concept-Links.htm">Inserting Concept Links into Topics</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../../Flare/Search/Search-Filter-Sets/Creating-Search-Filters.htm">Creating Search Filters</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../../Flare/Proxies/Lists/Creating-List-Concepts.htm">Creating a List of Concepts</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

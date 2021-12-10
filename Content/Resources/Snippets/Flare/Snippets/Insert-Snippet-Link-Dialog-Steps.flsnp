@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>Place your cursor where you want to insert the snippet.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Insert &gt; Snippet</b>. </p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Local Toolbar</span> Click the face of the <img src="../../../Images/Flare/Interface/Buttons/Insert-Snippet-btn.png" alt="" title="" class="ReduceButtonSize" /> button.</p>
+                        <p>OR</p>
+                        <p>Click the down arrow next to <img src="../../../Images/Flare/Interface/Buttons/Insert-Snippet-btn.png" alt="" title="" class="ReduceButtonSize" />, then select <span class="Emphasis">More Snippets</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+R</span>.</li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>Right-click in the editor and select <span class="Emphasis">Insert &gt; Snippet</span>. This context menu option is available only when your cursor is located in certain places in the editor (e.g., not in a drop-down effect).</li>
+                </ul>
+                <p>The Insert Snippet Link dialog opens.</p>
+            </li>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Snippets-Guide" />
+            <li>
+                <p> <MadCap:snippetText src="Select-Snippet.flsnp" /></p>
+                <p>
+                    <img src="../../../Images/Flare/Snippets/Insert-Snippet-Link.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Snippets-Guide" />
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/SharePoint/Multi-View-Table2.flsnp" />
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you select a snippet file outside the project, that file is then copied and placed inside the project. The image file is stored in the Resources\Snippets folder of the Content Explorer.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The snippet is inserted and is surrounded by brackets (if markers are turned on).<p><img src="../../../Images/Flare/Snippets/Snippets.png" class="MaxWidth100Percent" /></p></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

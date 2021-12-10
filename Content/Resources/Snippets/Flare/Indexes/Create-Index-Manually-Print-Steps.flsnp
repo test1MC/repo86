@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Add a new topic as you normally would.</li>
+            <li>
+                <p>At the top of the topic, enter a title for your index. </p>
+                <p>If you apply any of <MadCap:variable name="Other.Product" />'s h1 through h6 styles to it, the index title will be displayed in the print TOC (if you create one). </p>
+            </li>
+            <li>Most likely, you will want to remove any text after the index title.</li>
+            <li>Select <b>Insert &gt; Proxy &gt; Insert Index Proxy</b>. <p>The Index Proxy dialog opens.</p></li>
+            <li>
+                <p>Complete the options in the dialog.</p>
+                <ul type="1">
+                    <li>
+                        <p><span class="SetOffFirstLevel">Generate Headings </span>Select whether you want the printed index to include headings (e.g., A, B, C).</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also edit this setting using your stylesheet. The default setting is to always include index headings. But if you want headings to always be excluded from indexes, you can modify the mc-index-heading property for the MadCap|indexProxy style. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Indexes/Other-Activities/Including-Excluding-Index-Headings.htm">Using Styles to Include or Exclude Index Headings</MadCap:xref>.</MadCap:conditionalText></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Column Count </span>Select the number of columns that you want to be used in <MadCap:variable name="Outputs.Word" /> output to display the index.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This option is for Word output only. If you are producing PDF output, you can set the number of columns for an index in the page layout. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Creating-Columns.htm">Creating Columns</MadCap:xref>.</MadCap:conditionalText></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">(Optional) Stylesheet Class </span>You can select a style class to associate with the proxy. </p>
+                        <p>You might create and use style classes if you want to generate multiple indexes with different looks for each output. Otherwise, the index will use the style settings from the parent MadCap|indexProxy style. You can create a style class for this purpose in the Stylesheet Editor. To do this, select the <span class="Emphasis">MadCap|indexProxy</span> style and in the local toolbar click <span class="Emphasis">Add Selector</span> to create a class. The class will then be available from this field in the Index Proxy dialog.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to affect the look of the individual entries in the generated index, you can use the IndexHeading and the Index1 through Index9 styles (classes of the p style) in the Stylesheet Editor. For example, if you want to use blue font for the first-level entries in the generated index, you can change the font color setting on the p.Index1 style. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/Indexes/Editing-Look-Print-Index1.htm">Determining the Look of Your Print Index</MadCap:xref>.<MadCap:snippetText src="../../Shared/Co-Fl/General/Styles-Online-Help-Styles-Guide-Summary.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Indexing-Guide" /></MadCap:conditionalText></p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The proxy is added to the topic.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

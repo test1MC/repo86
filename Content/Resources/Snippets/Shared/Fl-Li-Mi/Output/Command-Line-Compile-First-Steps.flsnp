@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li>Open Notepad (to create and save a batch file) or open your command prompt (to run a command immediately).</li>
+            <li>
+                <p>Type the path to the <MadCap:conditionalText MadCap:conditions="Products.Flare">Flare</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Mimic">Mimic</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Lingo">Lingo</MadCap:conditionalText>.app folder where you installed <MadCap:variable name="Other.Product" />, and press <span class="Emphasis">ENTER</span>.</p>
+                <p class="TypedEntry" MadCap:conditions="Products.Flare">cd\Program Files\<MadCap:variable name="Other.CompanyName" />\MadCap Flare <MadCap:variable name="Other.VersionNumber" />\Flare.app</p>
+                <p class="TypedEntry" MadCap:conditions="Products.Mimic">cd\Program Files\<MadCap:variable name="Other.CompanyName" />\MadCap Mimic <MadCap:variable name="Other.VersionNumber" />\Mimic.app</p>
+                <p class="TypedEntry" MadCap:conditions="Products.Lingo">cd\Program Files\<MadCap:variable name="Other.CompanyName" />\MadCap Lingo <MadCap:variable name="Other.VersionNumber" />\Lingo.app</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Alternatively, you can use <span class="Emphasis">cd c:\Program Files\[rest of the path]</span> instead of <span class="Emphasis">cd\Program Files\[rest of the path]</span>.</p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

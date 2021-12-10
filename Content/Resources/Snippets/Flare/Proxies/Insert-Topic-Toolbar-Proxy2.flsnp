@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can select the following options:</p>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Skin File </span>If you have added an HTML5 Topic Toolbar skin component to your project and want to use it to control the look of the toolbar, you can select it from this field. From the Skin Editor, you can select the buttons to be included in the toolbar. Alternatively, you can select buttons from the Buttons field below. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Skins/Process/Editing-Skin-Settings.htm">Editing Skin Settings</MadCap:xref> and <MadCap:xref href="../../../../Flare/Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>If you do not select a Topic Toolbar component in this field, Flare uses the first one it finds in your project (if one exists). Otherwise, Flare provides a default design.</p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Stylesheet class for proxy </span>You can select a class to affect the look of the entire toolbar. This is an alternative, or supplement, to editing the skin component in the Skin Editor. However, for HTML5 output, using a skin component is the most common method for designing the look of the toolbar.</p>
+                <p>You might create and use a proxy style class, for example, if you want to add a border around the toolbar. If you do not select a class from this field, the generated toolbar will use the style settings from the parent MadCap|topicToolbarProxy style. You have the option of creating a class for this proxy style in the Stylesheet Editor. To do this, select the <span class="Emphasis">MadCap|topicToolbarProxy</span> style and in the local toolbar click <span class="Emphasis">Add Selector</span> to create a class. The class will then be available from this field. <MadCap:snippetText src="../../Shared/Co-Fl/General/See-Online-Help-Styles-Guide.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /></p>
+            </li>
+            <li><span class="SetOffFirstLevel">Buttons </span>You have the option of selecting buttons for a toolbar in the Skin Editor or by using this field. You can click <span class="Emphasis">Select buttons</span> to open a dialog, then select the buttons to include in the toolbar. <MadCap:snippetText src="Edit-Topic-Toolbar-Proxy-Summary.flsnp" />&#160;<MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Nav-Links/Toolbars/Topic-Toolbars/Process/Inserting-Editing-Topic-Toolbar.htm">Using the Topic Toolbar Proxy</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

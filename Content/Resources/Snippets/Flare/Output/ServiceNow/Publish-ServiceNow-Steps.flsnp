@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open your Clean XHTML target.</li>
+            <li>On the <span class="Emphasis">General</span> tab of the Target Editor, select your TOC, and choose <span class="Emphasis">Convert stylesheet styles to inline styles</span>.</li>
+            <li>Select the <span class="Emphasis">Publishing</span> tab.</li>
+            <li>Next to your ServiceNow<span class="Registered-Trademark">®</span> destination, select the <span class="Emphasis">Publish</span> check box.</li>
+            <li>Click the <span class="Emphasis">Advanced</span> tab. Select the <span class="Emphasis">Content to include</span> drop-down. Then select one of the options to limit the files included in the output. You can include files linked directly or indirectly from the target, or you can include only files linked directly from the TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Step4-Developing-Targets/More/Including-Specifically-Linked-Content.htm">Including Specifically Linked Content</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>In the local toolbar, click <span class="Emphasis">Build</span>.</li>
+            <li>After the target is finished generating, click <span class="Emphasis">Publish</span> in the local toolbar.</li>
+        </ol>
+    </body>
+</html>

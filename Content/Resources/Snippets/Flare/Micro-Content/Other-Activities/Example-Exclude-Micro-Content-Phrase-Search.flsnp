@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a micro content phrase called "transfer protocol," and the response for this phrase describes a specific field somewhere in your product software user interface.</p>
+            <p>You associate this phrase to a new CSH ID in the Alias Editor, with the idea of producing field-level Help. When a user clicks a Help button next to this field, the short micro content response for this phrase appears.</p>
+            <p>However, when users search for "transfer protocol" in your online Help, this same response displays in the search results. The problem is that your response was really intended for field-level Help only, and requires different wording or more information for it to make complete sense without the context of the interface.</p>
+            <p>Therefore, you deselect the option in the Properties dialog. As a result, the response will still be shown in the field-level Help, but it will not be included in the search results.</p>
+        </div>
+    </body>
+</html>

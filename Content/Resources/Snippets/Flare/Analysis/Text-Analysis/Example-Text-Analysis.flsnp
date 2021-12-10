@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a folder in your project containing three topics: Basic Steps, Getting Started, and What’s New.</p>
+            <p>
+                <img src="../../../../Images/Flare/Text-Analysis/Text-Analysis1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You want to analyze these topics for their readability scores. If you analyze the topics one at a time, you’ll see that the Basic Steps topic has the following results</p>
+            <p>
+                <img src="../../../../Images/Flare/Text-Analysis/Text-Analysis2.png" alt="" title="" class="MaxWidth85Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+            <p>The Getting Started topic has these results:</p>
+            <p>
+                <img src="../../../../Images/Flare/Text-Analysis/Text-Analysis3.png" alt="" title="" class="MaxWidth85Percent" />
+            </p>
+            <p>And the results for the What’s New topic look like this:</p>
+            <p>
+                <img src="../../../../Images/Flare/Text-Analysis/Text-Analysis4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+            <p>Then you decide you want to compare the results for the Basic Steps topic next to the other two. So in the <span class="Emphasis">Compare text in</span> field, you select <span class="Emphasis">(documents in the same folder)</span> and run the analysis. The results look like this:</p>
+            <p>
+                <img src="../../../../Images/Flare/Text-Analysis/Text-Analysis5.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <p>The results on the left are for the Basic Steps topic. The comparison results on the right are a composite of the Getting Started and What’s New topics.</p>
+            <p>
+                <img src="../../../../Images/Flare/Text-Analysis/Text-Analysis6.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <p>Although the Basic Steps topic is included in the same folder as the other two, it doesn’t make sense to include that topic in the second set of results, because that is the topic you are comparing the others to.</p>
+        </div>
+    </body>
+</html>

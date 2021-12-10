@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>All icons in a NetHelp theme can be changed. You can replace the default icon with a different jQuery or FontAwesome icon (FontAwesome icons available only in the Responsive theme), upload your own custom icon images, or have no icon display.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Custom Icon Set</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">On the <span class="Emphasis">Home </span>ribbon, click the <span class="Emphasis">Theme</span> drop-down arrow. Select <span class="Emphasis">Theme Designer</span>.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">In the <span class="Emphasis">Target</span> ribbon, click the <span class="Emphasis">Designer</span> button .</li>
+                    <li>In the settings area on the right, click on the icon you wish to change. The Choose Icon dialog opens.</li>
+                    <li>Scroll down and select the <span class="Emphasis">Standalone custom icon files</span> radio button.</li>
+                    <li>Choose the next empty icon set (there are 20 available).</li>
+                    <li>Click <span class="Emphasis">Upload icon</span>. The Open dialog opens, where you can choose a PNG file from your machine, then click <b>Open</b>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                    <li>If desired, repeat for the <span class="Emphasis">Focus state</span>, <span class="Emphasis">Active state</span>, and <span class="Emphasis">In content</span> icons. If you leave these empty, the image chosen for the Default state will be used for all states. </li>
+                </ol>
+                <p>The custom images will automatically be copied to your theme folder: C:\Users\[username]\Documents\My Doc-To-Help Projects\Doc-To-Help\Themes\NetHelp 2.0\[Name of Theme]\images.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+    </body>
+</html>

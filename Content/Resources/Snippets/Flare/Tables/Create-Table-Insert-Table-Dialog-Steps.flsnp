@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>In the XML Editor place your cursor where you want to add the table.</li>
+            <li>Select <b>Table &gt; Insert Table</b> (face of the button). The Insert Table dialog opens.</li>
+            <li>
+                <p>Select the <span class="Emphasis">General</span> tab and modify the options as necessary.</p>
+                <div class="topic-only">
+                    <p class="Subheading">Table Size</p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Table-Size-Options-List.flsnp" />
+                    <p class="Subheading">Table Caption</p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Table-Caption-Options-List.flsnp" />
+                    <p class="Subheading">Summary</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Table-Summary-Option.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Accessibility/Accessibility.htm">Accessibility</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p class="Subheading">Autofit Behavior</p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Auto-Fit-Options-List.flsnp" />
+                    <p class="Subheading">Align</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Table-Align-Option.flsnp" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+                    <p class="Subheading">Table Style</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Table-Style-Option.flsnp" />  When you add a table stylesheet to your project, it is stored in the Resources &gt; TableStyles subfolder in the Content Explorer.<MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="../../../../Flare/Styles/Styles.htm">Styles and Stylesheets</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p>
+                        <img src="../../../Images/Shared/Co-Fl/Tables/Table-Stylesheet1.png" class="MaxWidth90Percent" />
+                    </p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Table-Style-Options-List.flsnp" />
+                    <p class="Subheading">to add a table style to the insert table dialog</p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Add-Table-Style-Insert-Table-Dialog-Steps.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+                    <p class="Subheading">Text to Table</p>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Text-Table-Option.flsnp" />
+                    </p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Text-Table-Options-List.flsnp" />
+                </div>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Borders</span> tab and modify the options as necessary.</p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Tables/Borders-Options-List.flsnp" />
+                </div>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The table is added. Now you can click in any cells of the table and add content (e.g., text, images, hyperlinks) as necessary.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

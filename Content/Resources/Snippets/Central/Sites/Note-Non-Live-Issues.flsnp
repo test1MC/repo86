@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You might encounter issues for "non-live" output when making a site private and the same build exists in another site but is not set as private. In cases such as this, the first site created "wins."</p>
+            <p>For example, you create a site and point it to an HTML5 build. You do not make the site live or private. Then you create a second site and point to the same build. You do not make this site live, but you do set it as private. When you open the URL&#160;for the second site, you expect it to show login fields, but it doesn't because it is redirected to the URL&#160;of the first site, which is not set as private. If you were to reverse this scenario, you would find yourself opening the URL for a site that isn't set as private, but you are redirected to the URL of the private site.</p>
+        </div>
+    </body>
+</html>

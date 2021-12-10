@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="628" MadCap:lastWidth="828">
+    <body>
+        <p>A conflict will arise if both versions of a document (the SharePoint Library version and the local version on your machine) are different, and you try to save, open, close, or synchronize a single Word document. A dialog will give you the option to overwrite one of the documents, or merge the two documents. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Merge Documents</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>In the Resolve Conflict dialog choose <span class="Emphasis">Merge changes in Microsoft Word</span>.</p>
+                        <p>
+                            <img src="../../../../Images/D2H/SharePoint/Merge-Changes.png" height="296" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>After you click the <span class="Emphasis">Resolve</span> button, Word displays the changes to the document.</li>
+                    <li>Make the necessary corrections (accept all the revisions or only some of them; make additional edits) and save the document.</li>
+                </ol>
+                <p>After you save the document, <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help</MadCap:conditionalText> will suggest that you synchronize the changes. If you merged to the local copy, the merged document will be uploaded to the SharePoint Library. If you merged to the SharePoint Library, the merged document will be downloaded to your local machine.</p>
+                <p>If you do not resolve conflicting document versions, when you attempt to build a target, the Synchronize Documents dialog will open and list the conflicting documents. Right-click on the document name in the Synchronize Documents dialog to view the options.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

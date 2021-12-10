@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1" MadCap:conditions="General.Print-Only">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1" colspan="2" MadCap:conditions="">
+                        <p class="TableTextHead">Select</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">All</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">CTRL+A</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Content Between Current Position of Cursor and New Position</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">SHIFT+CLICK</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet3,Snippets.Snippet6" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Content Between Cursor and Beginning of Block</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">CTRL+SHIFT+UP</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Content Between Cursor and Beginning of Line</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">SHIFT+HOME</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet3,Snippets.Snippet6" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Content Between Cursor and End of Block</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">CTRL+SHIFT+DOWN</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Content Between Cursor and End of Line</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">SHIFT+END</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet6" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Content Between Cursor and Next Portion of Screen </p>
+                        <p class="TableText">If Web Layout view</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">SHIFT+PAGE DOWN</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet6" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Content Between Cursor and Previous Portion of Screen</p>
+                        <p class="TableText"> If Web Layout view</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">SHIFT+PAGE UP</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Next Character</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">SHIFT+RIGHT</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet3,Snippets.Snippet6" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Next Table Cell</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">TAB</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Next Word</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">CTRL+SHIFT+RIGHT</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Previous Character</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">SHIFT+LEFT</p>
+                    </td>
+                </tr>
+                <tr valign="top" MadCap:conditions="Snippets.Snippet1,Snippets.Snippet3,Snippets.Snippet6" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis">Previous Table Cell</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">SHIFT+TAB</p>
+                    </td>
+                </tr>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Previous Word</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">CTRL+SHIFT+LEFT</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

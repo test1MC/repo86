@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>A common tool used for determining if a PDF document is PDF/UA compliant is an accessibility checker. There are many third-party applications available (e.g., Adobe Acrobat Pro, PAC 3) that quickly analyze a PDF for accessibility.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Although running a PDF through an accessibility checker is good practice, relying on it completely   for accessibility is not advisable. While authoring, consider ways to make your content more accessible from the start. You can also take advantage of the analysis tool in Flare that reports potential accessibility issues. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Accessibility/Analysis/Accessibility-Analysis.htm">Accessibility and Analysis</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Before you generate PDF output, make sure all the warnings related to accessibility that you want to know about are set to display. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Accessibility/Analysis/Accessibility-Warnings.htm">Accessibility and Warnings</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

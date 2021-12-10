@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Autonumbers-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating autonumbering for chapter headings by editing the h1 style so that chapter autonumbers are used in PDF output." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Autonumbers.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:autonumbers;Autonumbers:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Creating Autonumbering for Chapter Headings</h1>
+        <p>Let's edit the h1 style so that chapter autonumbers are used in PDF output. We will make some additional adjustments so that the numbering and table of contents (TOC) display correctly.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+        <h2>How to Edit a Style With Chapter Autonumbering</h2>
+        <ol>
+            <li>
+                <p>Open the <span class="Emphasis">Styles.css</span> file, and on the left side of the Stylesheet Editor, select the <span class="Emphasis">h1</span> style. Then expand the <span class="Emphasis">AutoNumber</span> group on the right.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers21.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>We are going to leave the Default medium alone, because chapter numbers do not make sense in online output. But they do in print-based output. So in the <span class="Emphasis">Medium: print</span> section, to the right of <span class="Emphasis">mc-autonumber-format</span>, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers22.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>Copy the following format, and paste it into the field at the top of the dialog. Add a couple of spaces after the colon.</p>
+                <p class="TypedEntry">CH:Chapter {chapnum}:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers23.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Create a Table of Contents Topic for Print Output</h2>
+        <p>This project is set up to automatically generate a TOC for the PDF target. Unfortunately, with this automatic TOC feature, you do not have control over the heading of the TOC, which uses the h1 style, just as the topic headings throughout the project. This means that the chapter autonumbering will begin with the TOC heading, and we don't want that. Therefore, we will create a separate topic to be used for the generated TOC, which gives us more flexibility and the opportunity to start the chapter autonumbering where it should be.</p>
+        <ol>
+            <li>
+                <p>Create a new topic, naming it <span class="TypedEntry">Print-TOC</span>, and place it in the <span class="Emphasis">Print-Only-Topics</span> folder of the Content Explorer. Enter <span class="TypedEntry">Contents</span> for the main heading in the topic.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers24.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Delete the text under the heading, and in its place add a TOC proxy. To do this, select the <span class="Emphasis">Insert</span> ribbon, and from the <span class="Emphasis">Proxy</span> drop-down click <span class="Emphasis">Insert TOC Proxy</span>. Click <span class="Emphasis">OK</span> in the dialog. A gray bar representing the proxy is added to the topic.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers25.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>Now we're going to create a new class of the h1 style that does not have any autonumbering and will not be repeated in the generated TOC. It's easiest to do this in the Internal Text Editor. Begin by copying the following.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">h1.Contents
+{
+	mc-heading-level: 0;
+	mc-auto-number-format: "";
+}</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </li>
+            <li>
+                <p>In the Content Explorer, right-click <span class="Emphasis">Styles.css</span> and select <span class="Emphasis">Open with &gt; Internal Text Editor</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers26.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>Scroll to the bottom of the editor and paste the style and properties.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers27.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Open the <span class="Emphasis">Print-TOC.htm</span> topic, and apply the new <span class="Emphasis">h1.Contents</span> style class to the heading.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers28.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Add the Print TOC Topic to the "Outline" TOC</h2>
+        <p>With print-based output, the TOC file stored in the Project Organizer serves more as an outline than as a TOC. The actual generated TOC will be produced from the proxy that you added to the new topic. But in order for this to happen, we need to add the topic to the TOC file.</p>
+        <ol>
+            <li>From the Project Organizer, open the <span class="Emphasis">TOCs</span> folder and double-click <span class="Emphasis">Print-TOC</span>.</li>
+            <li>
+                <p>From the Content Explorer, drag the new <span class="Emphasis">Print-TOC.htm</span> topic to the TOC Editor, and drop it under the <span class="Emphasis">Title-Page</span> entry. The word "Contents" is shown, because it is set up to automatically use the heading text in that topic.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers29.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>We don't want this topic to accidentally be shown on the same page as the title, or use the same page layout, so in the TOC Editor double-click the new <span class="Emphasis">Contents</span> entry.</li>
+            <li>In the Properties dialog, select the <span class="Emphasis">Printed Output</span> tab.</li>
+            <li>From the <span class="Emphasis">Break Type</span> field, select <span class="Emphasis">Page Layout Break</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>From the <span class="Emphasis">Page Layout</span> field, select <span class="Emphasis">Chapters</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers30.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Reset the Chapter Numbering</h2>
+        <p>Most of our work with chapter numbers is done. However, if you were to build and view the PDF output at this point, you would notice that the first chapter is actually shown as "Chapter 2," and the rest of the chapters increment from there. We need to tell Flare where to start the numbering.</p>
+        <ol>
+            <li>
+                <p>In the TOC Editor showing the outline for the PDF output (i.e., the Print-TOC.fltoc file), double-click the <span class="Emphasis">Introduction</span> entry.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers31.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the Properties dialog, select the <span class="Emphasis">Auto-numbers</span> tab.</li>
+            <li>
+                <p>In the <span class="Emphasis">Chapter Number</span> section, select <span class="Emphasis">Reset to</span>, and enter <span class="TypedEntry">1</span> in the field.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers32.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Review the End Results</h2>
+        <ol>
+            <li>Build and view both of the targets in the project.</li>
+            <li>
+                <p>In the HTML5 online output, open the <span class="Emphasis">Attractions</span> topic. Notice that the heading does not have autonumbering. When you scroll down, you will see that each image has a simple figure autonumber under it, next to the caption. We have designed the autonumber format so that the numbering restarts on each topic (i.e., the first image in a topic will be Figure 1).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers33.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>You can also open the <span class="Emphasis">Introduction</span> topic to view the figure caption there as well.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Autonumbers-Tutorial" />
+            <li>
+                <p>In the PDF output, scroll down and notice that each chapter has autonumbering in the main heading. When you get to the Attractions topic, notice the figure captions under each image. The numbering is a little different from the online output, with the autonumbering tied to the chapter number (e.g., Figure 2-1).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Autonumbers/Autonumbers34.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You might have noticed that the figure caption for the first image in Chapter 1 displays by itself at the top of a page. That happened because we ran out of room on the previous page to display it. But you can fix this by resizing the image so that there is room to display the caption under it.</p>
+                </div>
+            </li>
+            <li>Close the PDF. Otherwise, Flare will be unable to build it again later.</li>
+        </ol>
+    </body>
+</html>

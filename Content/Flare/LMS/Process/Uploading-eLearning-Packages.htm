@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-LMS-Video10-Integrating-LMS.flmsp');">
+    <head>
+        <meta name="description" content="After building the eLearning course, you can optionally upload any generated packages to your learning management system (LMS). They allow eLearning courses and LMS to communicate and work together." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Learning and development:SCORM;Learning and development:xAPI" />
+            <MadCap:concept term="FilterFeatures" />Uploading eLearning Packages</h1>
+        <p>After building the eLearning course output, you can optionally upload generated packages to your learning management system (LMS) or learning record store (LRS). They allow eLearning courses and LMS to communicate and work together. See <MadCap:xref href="../General-Information/LMS-Compliance.htm">SCORM and xAPI-Compliant</MadCap:xref>.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Files to Upload to a Learning System</h2>
+        <p>In the HTML5 Target Editor, eLearning tab, you have the option to generate an xAPI package or a SCORM package. If you want to record and share the course from Flare, then choose to create one of these packages. If you only want to view and test files locally, then it is not necessary to generate them. See <MadCap:xref href="Editing-eLearning-Target.htm">Creating and Building the eLearning Target</MadCap:xref>.</p>
+        <ol>
+            <li>
+                <p>Upon completion of building the target, in the File Explorer, navigate to the project’s <span class="Emphasis">Output</span> folder (e.g., Documents\My Projects\eLearning\Output\Name\HTML5\LMSPackage).</p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">You can quickly locate the output folder from the Builds window for the HTML5 target. Select the dark green row, and from the local toolbar, click <span class="Emphasis">Open Output Folder</span>. Or, from the <span class="Emphasis">Project</span> ribbon, select <span class="Emphasis">Open Output Folder</span>.</p>
+                </div>
+            </li>
+            <li>
+                <p>Double-click the <span class="Emphasis">LMSPackage</span> folder for the LMS compressed (zipped) folder (e.g., Course Name). Looking at the contents within the compressed (zipped) folder, you can quickly determine the LMS standard. SCORM files include an "imsmanifest" XML document, and xAPI files include a "tincan" XML document. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/LMS/LMS-Package-Files.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>You can then upload the zip file packages to your choice LMS to host.</p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Content from a tool designed to create eLearning courses usually supports eLearning technical standards (e.g., SCORM, xAPI). These standards provide a way for the courses to get uploaded to an external LMS or LRS. The LMS is an administrator-driven platform that helps to manage and maintain coursework, distribution, and track progress. It is where learners can access the course.</p>
+                    </div>
+                </p>
+            </li>
+        </ol>
+        <h2 MadCap:conditions="General.Online-Only">Example</h2>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">There are many learning systems available to choose as a platform for hosting and managing training content. It is ultimately up to you to figure out which one will best fit your requirements. Some systems are self-hosted on premises, and others are cloud-based where the course content is accessed through the LMS portal.</p>
+            <p>You decide to use SCORM Cloud by Rustici Software.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/LMS/SCORM-Cloud-Ex1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <p>After login, you can import files by clicking <span class="Emphasis">Add Content</span>.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/LMS/SCORM-Cloud-Ex2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Then, you can select the course to import.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/LMS/SCORM-Cloud-Ex3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <p>Once uploaded, it exists in the library.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/LMS/SCORM-Cloud-Ex4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You can manage your content in various ways such as testing it, sharing and delivering it, and tracking its usage.</p>
+        </div>
+    </body>
+</html>

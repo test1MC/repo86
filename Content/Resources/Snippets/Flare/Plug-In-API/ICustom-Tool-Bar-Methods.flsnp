@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="EmphasisItalic">Button </span><span class="Emphasis">AddButton(string, ICommand, object, string, RibbonIconSize, string, string, string) </span>Adds a button to the toolbar. Returns an instance of <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.button.aspx" target="_blank">System.Windows.Controls.Button</a>.</li>
+            <li><i>Button </i><span class="Emphasis">AddButton(IRibbonControlData) </span>Adds a button to the toolbar. Returns an instance of <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.button.aspx" target="_blank">System.Windows.Controls.Button</a>.</li>
+            <li><i>IRibbonComboBox </i><span class="Emphasis"> AddCombobox(string, ICommand, object, string, RibbonIconSize, string, string, string) </span>Adds a combo box to the toolbar. Returns an instance of IRibbonComboBox. See <MadCap:xref href="../../../../Flare/Plug-In-API/Interfaces/IRibbonComboBox.htm">IRibbonComboBox Interface</MadCap:xref>.</li>
+            <li><i>IRibbonComboBox </i><span class="Emphasis">AddCombobox(IRibbonMenuData) </span>Adds a combo box to the toolbar. Returns an instance of IRibbonComboBox. See <MadCap:xref href="../../../../Flare/Plug-In-API/Interfaces/IRibbonComboBox.htm">IRibbonComboBox Interface</MadCap:xref>.</li>
+            <li><i>IRibbonMenu </i><span class="Emphasis">AddMenuButton(string, string, RibbonIconSize, string, string, string) </span>Adds a menu button to the toolbar. Returns an instance of IRibbonMenu. See <MadCap:xref href="../../../../Flare/Plug-In-API/Interfaces/IRibbonMenu.htm">IRibbonMenu Interface</MadCap:xref>.</li>
+            <li><i>IRibbonMenu </i><span class="Emphasis">AddMenuButton(IRibbonMenuData) </span>Adds a menu button to the toolbar. Returns an instance of IRibbonMenu. See <MadCap:xref href="../../../../Flare/Plug-In-API/Interfaces/IRibbonMenu.htm">IRibbonMenu Interface</MadCap:xref>.</li>
+            <li><i>void</i><span class="Emphasis">AddSeparator() </span>Adds a separator to the toolbar.</li>
+            <li><i>IRibbonMenu </i><span class="Emphasis">AddSplitMenuButton(string, ICommand, object, string, RibbonIconSize, string, string, string) </span>Adds a split menu button to the toolbar. Returns an instance of IRibbonMenu. See <MadCap:xref href="../../../../Flare/Plug-In-API/Interfaces/IRibbonMenu.htm">IRibbonMenu Interface</MadCap:xref>.</li>
+            <li><i>IRibbonMenu </i><span class="Emphasis">AddSplitMenuButton(IRibbonMenuData) </span>Adds a split menu button to the toolbar. Returns an instance of IRibbonMenu. See <MadCap:xref href="../../../../Flare/Plug-In-API/Interfaces/IRibbonMenu.htm">IRibbonMenu Interface</MadCap:xref>.</li>
+            <li><i>ToggleButton </i><span class="Emphasis">AddToggleButton(string, ICommand, object, string, RibbonIconSize, string, string, string) </span>Adds a split menu button to the toolbar. Returns an instance of <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.primitives.togglebutton.aspx" target="_blank">System.Windows.Controls.Primitives.ToggleButton</a>.</li>
+            <li><i>ToggleButton </i><span class="Emphasis">AddToggleButton(IRibbonControlData) </span>Adds a split menu button to the toolbar. Returns an instance of <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.primitives.togglebutton.aspx" target="_blank">System.Windows.Controls.Primitives.ToggleButton</a>.</li>
+        </ul>
+    </body>
+</html>

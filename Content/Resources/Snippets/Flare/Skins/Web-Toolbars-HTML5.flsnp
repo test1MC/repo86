@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/HTML5-Note-Tripane-Skins.flsnp" MadCap:conditions="Flare-Guides.Flare-Skins-Guide,General.Online-Only" />
+        <p>
+            <MadCap:snippetText src="Skin-Toolbar-Settings-WebHelp-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="More-Info-Toolbars.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Specify Custom Toolbar Settings for HTML5 Output</h2>
+        <ol>
+            <li>Open an <MadCap:variable name="Outputs.HTML5" /> Tripane skin.</li>
+            <li>Select the <span class="Emphasis">Toolbar</span> tab.</li>
+            <li>Select options to include specific features (buttons) in the toolbar. Items that will be included in the toolbar are displayed in the Selected section on the right. Items that will not be included in the toolbar are displayed in the Available section on the left. You can use the right arrow button <img src="../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Move-Item-Right-btn.png" class="ReduceButtonSize" /> to move items from the Available section to the Selected section.<p> Following are descriptions of the various items.</p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" /><p class="Subheading">Current Topic Index  </p><p><MadCap:snippetText src="Current-Topic-Index-Item.flsnp" /></p><p><img src="../../../Images/Flare/Skins/Toolbar-Item-Current-Topic-Index-HTML5.png" class="MaxWidth90Percent" /></p><p class="Subheading">Edit User Profile<![CDATA[  ]]></p><p><MadCap:snippetText src="Edit-User-Profile-Item.flsnp" /></p><p><img src="../../../Images/Flare/Skins/Toolbar-Item-Edit-User-Profile-HTML5.png" class="MaxWidth85Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" /><p class="Subheading">Expand All<![CDATA[  ]]></p><p><MadCap:snippetText src="Expand-All-Item.flsnp" /></p><p><img src="../../../Images/Flare/Skins/Toolbar-Item-Expand-All-HTML5.png" class="MaxWidth85Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Navigation-Links-Guide" /><p class="Subheading">Filler<![CDATA[  ]]></p><p>Lets users add a filler item, which is used to specify where the empty space should go in the toolbar.</p><p><img src="../../../Images/Flare/Skins/Filler.png" class="MaxWidth90Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" /><p class="Subheading">Next Topic </p><p><MadCap:snippetText src="Next-Topic-Item.flsnp" /></p><p><img src="../../../Images/Flare/Skins/Toolbar-Item-Next-Topic-HTML5.png" class="MaxWidth90Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Navigation-Links-Guide" /><p class="Subheading">Previous Topic </p><p><MadCap:snippetText src="Previous-Topic-Item.flsnp" /></p><p><img src="../../../Images/Flare/Skins/Toolbar-Item-Previous-Topic-HTML5.png" class="MaxWidth80Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" /><p class="Subheading">Print </p><p><MadCap:snippetText src="Print-Item.flsnp" /></p><p><img src="../../../Images/Flare/Skins/Toolbar-Item-Print-HTML5.png" class="MaxWidth80Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Navigation-Links-Guide" /><p class="Subheading">Remove Highlight </p><p><MadCap:snippetText src="Remove-Highlight-Item.flsnp" /></p><p class="Subheading">Topic Ratings </p><p><MadCap:snippetText src="Topic-Ratings-Item.flsnp" /></p><p><img src="../../../Images/Flare/Skins/Toolbar-Item-Topic-Ratings-HTML5.png" class="MaxWidth90Percent" /></p></li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <li>
+                <p>(Optional) You can use the buttons at the bottom of the tab to perform additional tasks.</p>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                    <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../Images/Flare/Interface/Buttons/Add-Custom-Toolbar-Item-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Opens the New Toolbar Button dialog, which lets you add a custom button to the toolbar. After creating the custom button, select it and click <img src="../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Move-Item-Right-btn.png" class="ReduceButtonSize" /> to move it to the Selected section.</p>
+                                <p>If you want to provide a command for the custom button (e.g., so that clicking the button opens a website), you can select the <span class="Emphasis">Styles</span> tab in the Skin Editor, select one of the styles listed above, expand the <span class="Emphasis">Event</span> property group, and enter a command in the <span class="Emphasis">Click</span> field. For example, the following command opens the <MadCap:variable name="Other.CompanyName" /> website when a user clicks the button:</p>
+                                <p><span class="TypedEntry">window.open("http://www.madcapsoftware.com");</span>
+                                </p>
+                                <p>Alternatively, you can use the JavaScript area on the Toolbar tab to enter a command for the button. See the next step.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../Images/Flare/Interface/Buttons/Remove-Custom-Toolbar-Item-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Removes the selected custom button from the Available section.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Up-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Moves the selected item up in the order in the Selected section. In the output, buttons are displayed left to right according to the order in which they appear on this tab, with the item at the top being the first button shown on the left in the output.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Down-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">Moves the selected item down in the order in the Selected section.</td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../Images/Shared/Al-Ca-Co-Fl-Li-Mi/Interface/Buttons/Delete-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">Removes the selected item(s) from the Selected section.</td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../Images/Flare/Interface/Buttons/Add-Separator-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Adds a separator to the Selected section. A separator is the divider between the toolbar buttons and the navigation pane.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Images/Flare/Skins/Separator.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../Images/Flare/Interface/Buttons/Reset-Default-Items-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">Resets the toolbar to the default settings.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <li>
+                <p>(Optional) If you want to include custom JavaScript in the toolbar, click <span class="Emphasis">Edit</span> in the area to the right. This opens the Toolbar JavaScript dialog, which you can use to enter or load custom JavaScript for the toolbar.</p>
+                <p>For example, the following command opens the <MadCap:variable name="Other.CompanyName" /> website when a user clicks the button:</p>
+                <p><span class="TypedEntry">function MyFunction()</span>
+                </p>
+                <p><span class="TypedEntry">{</span>
+                </p>
+                <p><span class="TypedEntry">window.open("http://www.madcapsoftware.com");</span>
+                </p>
+                <p><span class="TypedEntry">}</span>
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../Proxies/Note-Can-Add-Topic-Toolbar.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Skins-Guide" />
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">Make sure that you associate the skin with the target. See <MadCap:xref href="../../../../Flare/Skins/Process/Associating-Skins-Targets1.htm" target="" title="" alt="">Associating Skins with Targets</MadCap:xref>.</p>
+        <p MadCap:conditions="General.Online-Only">You can also use a skin styles to change the look of toolbars. See <MadCap:xref href="../../../../Flare/Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+    </body>
+</html>

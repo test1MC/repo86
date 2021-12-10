@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Using the TOC to Define Sections Only</p>
+            <p>You want to publish a project containing system requirements to Zendesk. The topics for system requirements comprise only a portion of the Flare project, so you want to define the section for the system requirements in Zendesk.</p>
+            <p>So, under the <b>Support</b> category, you create the <b>System Requirements</b> section.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-Sections-Only-Created.png" class="MaxWidth100Percent" />
+            </p>
+            <p>Next, in Flare you configure the destination file to define your Sections. You still have to select both the default category and the default section, even though you are only structuring by sections. The sections will be created under the default category defined in the destination file.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-Publish-Sections-Only.png" class="MaxWidth100Percent" />
+            </p>
+            <p>We review our TOC prior to publishing. In this case, we have all of our topics on the top level.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-TOC-Top-Level-Topics.png" class="MaxWidth100Percent" /> </p>
+            <p>You publish the output and view it in Zendesk. Notice that new sections have been created based on the topics in the TOC.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-Published-Section-Only-Top-Level-Topics-TOC.png" class="MaxWidth100Percent" />
+            </p>
+            <p>If you structure the TOC  to have one top-level book with the other topics  under this book, the published output is structured differently in Zendesk.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-TOC-Top-Level-Book.png" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-Published-Section-Only-Top-Level-Book-TOC.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The following columns are displayed:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Commit Type</span> This indicates the type of changes checked in on the branch. You can view when a branch was started, when a commit was made, or when a merge occurred.</li>
+            <li><span class="Emphasis">Branches</span> This column displays the branches that are affected by the action taken. If the changes affect more than one branch then all of the affected branches are displayed in this column.</li>
+            <li><span class="Emphasis">Commit</span> This alphanumerical code provides the commit number used by Git.</li>
+            <li><span class="Emphasis">Commit Time</span> This displays the date, followed by the time the commit was made in your Git branch.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <li><span class="Emphasis">Author</span> This displays the name of the author that committed the specific change in the branch.</li>
+            <li><span class="Emphasis">Comments</span> This column displays the comments made for each commit.</li>
+        </ul>
+    </body>
+</html>

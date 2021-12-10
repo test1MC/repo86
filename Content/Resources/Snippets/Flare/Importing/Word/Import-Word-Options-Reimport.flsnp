@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul type="1">
+            <li>
+                <b>Link generated files to source files </b>Enable this if you want to continue editing in Word and reimport as needed. Deselect it if you want to edit the imported files in Flare going forward, severing the connection to the source files.</li>
+            <li>
+                <span class="SetOffFirstLevel">
+                    <MadCap:keyword term="Easy Sync;Auto-reimport;Importing:auto-reimporting;Auto-Sync" />Auto-reimport before generate output </span>If you selected “Link generated files to source files,” you will likely make future content changes in the source files. When you make such changes, the source files need to be reimported into the project so that they can be included in the output. You have the option of reimporting the files manually. However, you can use this option instead and let <MadCap:variable name="Other.Product" /> reimport the files automatically when you attempt to build output.</li>
+        </ul>
+    </body>
+</html>

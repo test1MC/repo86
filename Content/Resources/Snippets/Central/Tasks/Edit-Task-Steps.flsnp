@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="Open-Tasks-Page1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Click-Name-Task-Board.flsnp" /> If no boards display, you might have to create a board and add tasks to it.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Central/Tasks/Main-Activities-Boards/Creating-Task-Boards.htm">Creating Task Boards</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="Locate-Task-Card1.flsnp" />
+            </li>
+            <li>At the top of the dialog, on the <span class="Emphasis">Details</span> tab, you can change the title of the task by clicking in the field and making the changes.</li>
+            <li>
+                <p>You can edit any of the other fields on that tab. <MadCap:conditionalText MadCap:conditions="Central-Guides.Central-Tasks-Guide">For details, see <MadCap:xref href="../../../../Print-Only-Topics/Central/Tasks/Main-Activities-Tasks/Creating-Tasks.htm">Creating and Assigning Tasks</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="topic-only" MadCap:conditions="General.Online-Only">
+                    <MadCap:snippetBlock src="Task-Fields-List.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Tasks-Guide" />
+            <li>
+                <p>(Optional) At the top of the dialog, select <span class="Emphasis">Discussion</span>. You can use this area to add comments and maintain a conversation with others about the task.<MadCap:conditionalText MadCap:conditions="General.Print-Only"> See <MadCap:xref href="../../../../Print-Only-Topics/Central/Tasks/Other-Activities-Tasks/Adding-Comments-to-Tasks.htm">Adding Comments to Tasks</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only"> <span class="topic-only">See </span><MadCap:xref href="../../../../Central/Tasks/Other-Activities-Tasks/Adding-Comments-to-Tasks.htm" class="topic-only">Adding Comments to Tasks</MadCap:xref><span class="topic-only">.</span></MadCap:conditionalText></p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Tasks/Task-Creation8.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also use the paper clip button to add attachments to a comment.</p>
+                    </div>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Tasks-Guide" />
+            <li>
+                <p>(Optional) At the top of the dialog, select <span class="Emphasis">Attachments</span>. You can use this tab to associate one or more files with the task. Others can then click the ellipsis next to an attachment to download it.</p>
+                <p class="topic-only">
+                    <img src="../../../Images/Central/Tasks/Task-Creation7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">Save</span>.</li>
+        </ol>
+    </body>
+</html>

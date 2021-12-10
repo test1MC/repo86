@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>The NetHelp Theme Wizard takes you step-by-step through the process of creating your own custom theme. It lets you do the following:</p>
+        <ul>
+            <li>Create a new theme or update an existing one.</li>
+            <li>Specify a layout and stylesheet.</li>
+            <li>Brand your output.</li>
+            <li>Set some of the most commonly used properties for the NetHelp target.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Use the Wizard</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">On the Doc-To-Help <span class="Emphasis">Home</span> ribbon, click <span class="Emphasis">Select Target</span> and choose a NetHelp target.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">
+                        <p>On the same ribbon, click the <span class="Emphasis">Theme</span> drop-down and select <span class="Emphasis">Theme Wizard</span>.</p>
+                        <p>
+                            <img id="_x0000_i1025" src="../../../../Images/D2H/Themes/Theme-Wizard.png" height="252" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet1">
+                        <p>In Word, select the <span class="Emphasis">Target</span> ribbon, and click <span class="Emphasis">Wizard</span>.</p>
+                        <p>
+                            <img src="../../../../Images/D2H/Themes/Target-Ribbon-Wizard.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+                        </p>
+                    </li>
+                    <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                    <li>
+                        <p>From the drop-down or image gallery, choose a layout: <span class="Emphasis">Accordion</span>, <span class="Emphasis">Responsive</span>, or <span class="Emphasis">Tabs</span>. Then click <span class="Emphasis">Next</span>.</p>
+                        <p>
+                            <img id="_x0000_i1026" src="../../../../Images/D2H/Themes/Choose-Basic-Layout.png" height="347" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                    <li>
+                        <p>From the drop-down or image gallery, choose a stylesheet. Then click <span class="Emphasis">Next</span>. </p>
+                        <p>
+                            <img id="_x0000_i1027" src="../../../../Images/D2H/Themes/Choose-Style.png" height="347" class="MaxWidth100Percent" />
+                        </p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can edit the stylesheet in the theme designer later or you can create your own with the jQuery Theme Roller. See <a href="http://jqueryui.com/themeroller/" target="_blank">http://jqueryui.com/themeroller/</a>.</p>
+                        </div>
+                    </li>
+                    <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                    <li>
+                        <p>From the drop-down or image gallery, choose a predefined theme or a custom theme that you previously created.</p>
+                        <p>
+                            <img id="_x0000_i1028" src="../../../../Images/D2H/Themes/Choose-Theme.png" height="347" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>(Optional) If you want to create a new theme (based on the theme you chose in the previous step), select <b>Create a new theme from the selected source theme</b>. </p>
+                        <p>
+                            <img src="../../../../Images/D2H/Themes/Create-Custom-Theme.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Click <span class="Emphasis">Next</span>.</li>
+                    <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                    <li>
+                        <p>(Optional) On the Basic Branding page, select a favorites icon and logo, specify whether to show the title in the output, and customize the text area of your output. A preview of the output appears on the right side of the window as you set the properties.</p>
+                        <p>
+                            <img id="_x0000_i1029" src="../../../../Images/D2H/Themes/Basic-Branding.png" height="336" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                        <table style="margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+                            <tbody>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableTextEmphasis">FavIcon</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                        <p class="TableText">Click <span class="Emphasis">Choose your icon</span> and select an icon (.ico). The icon will appear in browser tabs, address bars, and in Favorites lists.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableTextEmphasis">Logo</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                        <p class="TableText">Click <span class="Emphasis">Choose your logo</span> and select an image. It will appear in the upper-left corner of your theme header.</p>
+                                        <p class="TableText">In the field below, you can add a URL&#160;or JavaScript link to the logo. This makes the logo interactive, opening another location or performing some kind of action when a user clicks it.</p>
+                                        <p class="TableText" MadCap:conditions="General.Online-Only">
+                                            <img src="../../../../Images/D2H/Themes/Logo-URL5.png" alt="" title="" class="MaxWidth100Percent">
+                                            </img>
+                                        </p>
+                                        <p MadCap:conditions="General.Online-Only">
+                                            <img src="../../../../Images/D2H/Themes/Logo-URL6.png" alt="" title="" class="MaxWidth100Percent" />
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                        <p class="TableTextEmphasis">Header area (Title bar)</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                        <p class="TableText">To make a title appear in the title bar of your output, select <span class="Emphasis">Show the Title of your NetHelp output in the top title bar</span> and enter a height for the header area.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                        <p class="TableTextEmphasis">Text area</p>
+                                    </td>
+                                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                        <p class="TableText">Select <span class="Emphasis">Fit text to window width</span> or enter a <span class="Emphasis">Maximum text width</span> in the text box.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> If you chose a predefined theme on the Choose Theme page, you cannot change the branding properties.</p>
+                        </div>
+                    </li>
+                    <li>Click <span class="Emphasis">Next</span>.</li>
+                    <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                    <li>
+                        <p>(Optional) On the Finishing Touches page, enter a title to appear in the output title bar, select a localization language for the NetHelp interface, and select the <span class="Emphasis">Create Section 508 compliant output</span> check box if you need the output to be accessible for disabled users.</p>
+                        <p>
+                            <img id="_x0000_i1030" src="../../../../Images/D2H/Themes/Finishing-Touches.png" height="336" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Click <span class="Emphasis">Next</span>.</li>
+                    <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+                    <li>
+                        <p>On the Confirmation page, enter a theme name (if you are creating a new theme) and make sure the preview is correct.</p>
+                        <p>
+                            <img src="../../../../Images/D2H/Themes/Create-Custom-Theme2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Click <span class="Emphasis">Finish</span>. If you used an existing theme, a dialog opens, explaining that the properties of the NetHelp target have been updated. If you created a new theme, a dialog opens, explaining that the theme has been created and assigned to your NetHelp target.</li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> The theme appears in the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">Target Theme</span></MadCap:conditionalText><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Theme</span> button drop-down list on the <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Home</span><span MadCap:conditions="Snippets.Snippet1" class="Emphasis">Target</span> ribbon. You can select it and build the target to apply the theme.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+    </body>
+</html>

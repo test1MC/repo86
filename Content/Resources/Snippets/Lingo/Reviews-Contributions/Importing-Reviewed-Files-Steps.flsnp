@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Select <span class="Emphasis">File &gt; Review &gt; Import Review Package</span>.</li>
+            <li>Click <span class="Emphasis">Add</span>.</li>
+            <li>In the dialog that opens, navigate to the review package (LIREV&#160;file) you want to import. Select the package and click <b>Open</b>.</li>
+            <li>
+                <p>(Optional) If you are working with a multilingual project, from the <span class="Emphasis">Language</span> drop-down, select the language you want to import.</p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../General/Note-Multilingual-Only.flsnp" />
+                </div>
+            </li>
+            <li>(Optional) If you need to remove a file from the project, click <span class="Emphasis">Remove</span>.</li>
+            <li>(Optional) If you want to merge changes made by the reviewer into your translation memory, select <b>Insert target segment changes into TM</b>.</li>
+            <li>
+                <p>Click <b>Finish</b>.</p>
+                <p class="topic-only">This opens the Track Changes dialog, where you can accept or reject the reviewer's changes. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Lingo/Reviews-Contributions/Accepting-Changes-Reviews.htm">Accepting Changes to Lingo Review Packages</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol type="1">
+            <li>
+                <MadCap:snippetText src="../../General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>Open an existing destination file or add a new one. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Step5-Building-Publishing-Output/Publishing-Destinations/Process/Adding-Destination-Files.htm">Adding Destination Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>In the Destination Editor, click in the <span class="Emphasis">Type</span> drop-down field, and select <span class="Emphasis">MadCap Connect for Zendesk</span>.</li>
+            <li>
+                <p>Activate your Zendesk license.</p>
+                <ol type="1" style="list-style-type: lower-alpha;">
+                    <li>Click <span class="Emphasis">Activate</span>. A wizard opens.</li>
+                    <li>Enter the license key, then click <span class="Emphasis">Next</span>. </li>
+                    <li>Enter the name and email of the user associated with the license key. Then click <span class="Emphasis">Next</span>.</li>
+                    <li>Select either <span class="Emphasis">Internet Activation</span> or <span class="Emphasis">Manual Activation</span>. Then click <span class="Emphasis">Next</span>.<ul><li>If you choose Internet Activation,  a confirmation displays to indicate that your  license has been activated. Click <span class="Emphasis">Finish</span>.</li><li>If you choose Manual Activation, follow the instructions on-screen to copy and paste the information in an email to customerservice@madcapsoftware.com.</li></ul><MadCap:snippetBlock src="Zendesk-Note-Deactivate-Plugin.flsnp" /></li>
+                </ol>
+            </li>
+            <li>
+                <p>In the Destination Editor, click  <span class="Emphasis">Login Credentials</span>.</p>
+                <MadCap:snippetBlock src="../../Interface/Ribbons-Toolbars-Menus/Note-Proxy-Server.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet3], exclude[Snippets.Snippet1 or Snippets.Snippet2]" />
+            </li>
+            <li>Enter the Zendesk subdomain. Then click <span class="Emphasis">Next</span>.</li>
+            <li>Enter your  <span class="Emphasis">Email</span> and <span class="Emphasis">Password</span>. Then click <span class="Emphasis">Sign in</span>.</li>
+            <li>
+                <p>Complete the <MadCap:dropDownHotspot>MadCap Connect for Zendesk</MadCap:dropDownHotspot> fields.</p>
+                <MadCap:snippetBlock src="../Destinations/Zendesk-Connect-Section-Destination-Editor.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../Destinations/View-URL-Field.flsnp" />
+            </li>
+            <li>
+                <p>(Optional) Select the following upload options when you publish to Zendesk. The <span class="Emphasis">Upload Log File</span> option is automatically selected for Zendesk.</p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffSecondLevel">Upload Only Changed Files </span>Select this option if you want <MadCap:variable name="Other.Product" /> to republish only the files that have changed. This can save significant time.</p>
+                        <MadCap:snippetBlock src="Zendesk-Note-Upload-Only-Changed-Unchecked.flsnp" />
+                    </li>
+                    <li><span class="SetOffSecondLevel">Remove Outdated Published Files </span>Select this option if you want Flare to identify files that were previously published to the destination but are no longer in the source files. Flare will then remove such files from the destination.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

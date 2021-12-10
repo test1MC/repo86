@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:importing;Importing:troubleshooting" />Troubleshooting Importing Issues</h1>
+        <p>Following are issues that may occur when importing content into Flare. </p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test2" class="TroubleshootingLink">General—Topics imported into Flare do not scroll when generated</li>
+                <li targets="test3" class="TroubleshootingLink">FrameMaker—Windows 7 causes Adobe FrameMaker import to fail</li>
+                <li targets="test4" class="TroubleshootingLink">Styles—Imported styles do not appear in Stylesheet Editor</li>
+                <li targets="test5" class="TroubleshootingLink">Visio—Missing arrowheads on lines in SVG images imported from MS Visio</li>
+                <li targets="test6" class="TroubleshootingLink">Word—Import error when importing <MadCap:variable name="Outputs.Word" /> documents into Flare</li>
+                <li targets="test7" class="TroubleshootingLink">Word—When importing from <MadCap:variable name="Outputs.Word" />, artwork and image effects do not come across</li>
+            </ul>
+            <div targetName="test2" class="troubleshoot">
+                <p class="Subheading">Topics imported into Flare do not scroll when generated</p>
+                <p>Topics imported into Flare do not have a scroll bar when generated with the rest of the project. Consequently, all content after the first screen is not viewable. </p>
+                <p class="Subheading">Cause</p>
+                <p>This is the result of a change in the stylesheet's html and/or body styles during the importing process. </p>
+                <p class="Subheading">Solution</p>
+                <p>Perform the following steps.</p>
+                <ol>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Resources/Snippets/Flare/Styles/Edit-Style1.flsnp" />
+                        </p>
+                        <div class="warning">
+                            <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">When editing styles, make sure the proper medium is selected in the Stylesheet Editor before you begin (you can do this from the <span class="Emphasis">Medium</span> drop-down list). <MadCap:variable name="Other.Product" /> remembers the last medium that you used when working in the stylesheet, so it may or may not be the one that you want to use the next time around. If you want all mediums to use the same setting, select the "default" medium and the properties will "trickle down" to the other mediums. If you are not using different mediums, you do not need to worry about selecting one when you edit styles. See <MadCap:xref href="../Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">About Stylesheet Mediums</MadCap:xref>.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                    </li>
+                    <li>In the upper-left corner of the editor, click in the <span class="Emphasis">Show Styles</span> field and select <img src="../../Resources/Images/Shared/Co-Fl/Interface/Drop-Downs/Show-All-Styles-dd.png" class="ReduceButtonSize" />. </li>
+                    <li>Select the <span class="Emphasis">html</span> style.</li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+                    </li>
+                    <li>
+                        <p>If you are using the group view, expand the <span class="Emphasis">Positioning</span> group.</p>
+                    </li>
+                    <li>
+                        <p>To the right of <span class="Emphasis">overflow</span>, click <img src="../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and  select <span class="Emphasis">default</span>.</p>
+                    </li>
+                    <li>Repeat steps 5 through 7 for the <span class="Emphasis">body</span> style.</li>
+                    <li>Regenerate the project.</li>
+                </ol>
+            </div>
+            <div targetName="test3" class="troubleshoot">
+                <p class="Subheading">Windows 7 causes Adobe FrameMaker import to fail</p>
+                <p>The following error appears when trying to import Adobe FrameMakerfiles into Flare:</p>
+                <p class="TypedEntry">"Failed to run command 'Add FrameMaker Import File …'"</p>
+                <p class="TypedEntry">Exception: Failed to update FrameMaker init file (C:\Program Files(x86)\Adobe FrameMaker 7.2\maker.ini)</p>
+                <p class="Subheading">Cause&#160;</p>
+                <p>Failure to import Adobe FrameMaker files into Flare might be a result of Windows 7 and its use of User Account Control (UAC). If this is the case, performing the following steps allows Flare to write to the file.</p>
+                <p class="Subheading">Solution</p>
+                <ol>
+                    <li>Locate the maker.ini file (its location is listed on the message). For example, from the error shown above, you would use the Windows Explorer to navigate to <span class="Emphasis">C:\Program Files(x86)\Adobe FrameMaker 7.2\</span>.</li>
+                    <li>
+                        <p>Right-click on the file called "maker.ini" and from the context menu, select <span class="Emphasis">Properties</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-FrameMaker1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Select the <span class="Emphasis">Security</span> tab.</li>
+                    <li>
+                        <p>Select            <span class="Emphasis">Edit</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-FrameMaker2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <p>The Permissions for maker.ini dialog opens.</p>
+                    </li>
+                    <li>Select your Windows log-in user name.</li>
+                    <li>
+                        <p>Make sure that the <span class="Emphasis">Full Control</span> box is checked.</p>
+                        <p>
+                            <img src="../../Resources/Images/Flare/Troubleshooting/TS-Importing1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Click <span class="Emphasis">Apply</span>.</li>
+                    <li>Click <span class="Emphasis">OK</span>&#160;to exit the Properties dialog. You should now be able to import successfully.</li>
+                </ol>
+            </div>
+            <div targetName="test4" class="troubleshoot">
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Troubleshooting/TS-Styles-Issue3.flsnp" />
+            </div>
+            <div targetName="test5" class="troubleshoot">
+                <p class="Subheading">There are missing arrowheads on lines in SVG images imported from MS Visio</p>
+                <p class="Subheading">Cause</p>
+                <p>The reason for this problem is that Microsoft Visio fails to write the style correctly, causing the arrowheads on lines to disappear.</p>
+                <p class="Subheading">Solution</p>
+                <p>To solve this problem, perform the following steps.</p>
+                <ol>
+                    <li>Open the SVG file in Notepad.</li>
+                    <li>Select <span class="Emphasis">Edit &gt; Replace</span>.</li>
+                    <li>
+                        <p>In the <span MadCap:createDate="2013-01-11T08:48:53.3019024-08:00" MadCap:creator="pstoecklein" MadCap:initials="PJS" MadCap:comment="This should have an Emphasis span tag on it." MadCap:editor="pstoecklein" MadCap:editDate="2013-01-11T08:48:55.1620088-08:00" class="Emphasis">Find</span> field, enter the following.</p>
+                        <p class="TypedEntry">orient="auto"</p>
+                    </li>
+                    <li>
+                        <p>In the <span MadCap:createDate="2013-01-11T08:49:03.6074919-08:00" MadCap:creator="pstoecklein" MadCap:initials="PJS" MadCap:comment="This should have an Emphasis span tag on it." MadCap:editor="pstoecklein" MadCap:editDate="2013-01-11T08:49:04.9615693-08:00" class="Emphasis">Replace</span> field, enter the following.</p>
+                        <p class="TypedEntry"> orient="auto" style="overflow:visible;"</p>
+                    </li>
+                    <li>Open the file in a web browser to verify the arrowheads are now part of the image.</li>
+                    <li>Import the image into Flare.</li>
+                </ol>
+            </div>
+            <div targetName="test6" class="troubleshoot">
+                <p class="Subheading">Import error when importing microsoft word documents into Flare</p>
+                <p>When importing <MadCap:variable name="Outputs.Word" /> projects into a Flare project, Flare displays the following error message:</p>
+                <p class="Emphasis">Error converting the following document:</p>
+                <p class="Emphasis">[document name]</p>
+                <p class="Emphasis">The document can not be imported to Flare unless Microsoft Word can save the file in XML format.</p>
+                <p class="Subheading">Cause and Solution</p>
+                <p>This error can have the following causes.</p>
+                <p class="Subheading">cause/solution 1</p>
+                <p>This error appears because the <MadCap:variable name="Outputs.Word" /> document being imported has its attribute set to "Read-only". Flare cannot save a <MadCap:variable name="Outputs.Word" /> document in XML format when its attribute is set to "Read-only", and therefore cannot import it into a project. </p>
+                <p>Set the attribute of the <MadCap:variable name="Outputs.Word" /> document being imported to "Read-only". Perform the following steps.</p>
+                <ol>
+                    <li>In the Windows Explorer, navigate to the location of the <MadCap:variable name="Outputs.Word" /> file that you want to import into Flare.</li>
+                    <li>Right-click the file and from the context menu, select <span class="Emphasis">Properties</span>.</li>
+                    <li>In the <span class="Emphasis">Attributes</span> section, click the <span class="Emphasis">Read-only</span> check box so that it is unchecked. </li>
+                    <li>Click <span class="Emphasis">Apply</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                    <li>Import the <MadCap:variable name="Outputs.Word" /> document into Flare. The error will not appear.</li>
+                </ol>
+                <p class="Subheading">cause/solution 2</p>
+                <p>The macros set in the <MadCap:variable name="Outputs.Word" /> document are causing problems with the import process.</p>
+                <p>Disable the macros in the <MadCap:variable name="Outputs.Word" /> document.</p>
+                <p class="Subheading">cause/solution 3</p>
+                <p>The document needs to be converted to XML format.</p>
+                <p>Save the document as an XML document, then save it again as a <MadCap:variable name="Outputs.Word" /> document. </p>
+                <ol>
+                    <li>In <MadCap:variable name="Outputs.Word" />, select <span class="Emphasis">File &gt; Save As</span>.</li>
+                    <li>In the <span class="Emphasis">Save as type</span> field, select <span class="Emphasis">Word XML Document</span>.</li>
+                    <li>Click <span class="Emphasis">Save</span>.</li>
+                    <li>Repeat steps 1 through 3, but in the <span class="Emphasis">Save as type</span> field, select <span class="Emphasis">Word Document</span>.</li>
+                    <li>Open Flare and import the <MadCap:variable name="Outputs.Word" /> document. The error should not appear. </li>
+                </ol>
+                <p>For more information see <MadCap:xref href="../Importing/Other-Applications-Files/Word/Importing-Word-Files.htm">Importing Word Files</MadCap:xref>.</p>
+            </div>
+            <div targetName="test7" class="troubleshoot">
+                <p class="Subheading">When importing from <MadCap:variable name="Outputs.Word" />, artwork and image effects do not come across</p>
+                <p class="Subheading">Cause</p>
+                <p>If you apply certain special effects or artwork (e.g., arrows) to images in Word and then import them into <MadCap:variable name="Other.Product" />, those effects will not be retained. For example, a rotated image will return to its straight, original state. However, there are some workarounds (listed below) that may allow you to keep the effects or artwork. As for text floating around images, this effect is not supported in <MadCap:variable name="Other.Product" />. When you import from Word, the text is added below the image.</p>
+                <p class="Subheading">Solution</p>
+                <p>Try the following.</p>
+                <p class="Subheading">solution 1</p>
+                <p>Apply another effect such as a shadow or 3-D to the image in Word (e.g., add a shadow to a rotated image that you want to keep). This forces Word to save the image as an entirely new image with the effects. </p>
+                <p class="Subheading">solution 2</p>
+                <ol>
+                    <li>Save the Word document as a web page (HTML file).</li>
+                    <li> Manually copy that HTM file into the <MadCap:variable name="Other.Product" /> folder.</li>
+                    <li>Open it within <MadCap:variable name="Other.Product" />.  </li>
+                </ol>
+            </div>
+            <div style="clear:both">
+            </div>
+        </div>
+    </body>
+</html>

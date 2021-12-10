@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to include a generated glossary in a PDF manual. So you create a simple topic called "MyGlossary" and insert a Glossary proxy into it. Then you add that topic to the outline TOC that is being used to produce the manual.</p>
+            <p>Next, you open the page layout that you want to use for the topic holding that Glossary proxy. Let's call it "GlossaryPL." Suppose you open the page in that layout that will be used for all left-hand pages in the output. In the header frame, you insert the "FirstGlossaryPageTerm" variable. Perhaps you want to show the complete range of glossary terms on each page. So you type the word "through" and also insert the "LastGlossaryPageTerm" variable. In addition, you type quotation marks around each of the variables so that the terms will stand out in the output. Therefore, you would have something like this in the frame:</p>
+            <p class="Indented">
+                <img src="../../../../Images/Shared/Co-Fl/Variables/First-Last-Glossary-Page-Term-Variable.png" class="MaxWidth70PercentNoThumbnail" />
+            </p>
+            <p>Next, in the outline TOC, you create a chapter break on the entry linked to the topic holding the Glossary proxy, specifying that the entry should use the "GlossaryPL" layout.</p>
+            <p>Generate the PDF. Scroll down to the first left-handed page showing the generated glossary. Let's say the first glossary term on the page is <span class="Emphasis">Moose</span>. The last term on the page is <span class="Emphasis">Sharks</span>. When you look to the very top of the page, you will see this:</p>
+            <p class="Indented"><span class="Emphasis">"Moose" through "Sharks"</span>
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="975" MadCap:lastWidth="1537">
+    <body>
+        <p>By default, Doc-To-Help keeps all versions of all files—including source files, auxiliary files, and the D2H project file—sent to the repository by all team members every time they are checked into the repository. These files are kept in the Backup folder in the repository. They come in handy if someone accidentally removes or overwrites changes made by other team members. The backup files can be used to recover lost data. However, this also means that the disk space occupied by the repository grows rapidly when members check in their changes, especially if the D2H project file is checked in frequently.</p>
+        <p>To conserve the repository disk space, an administrator should delete unneeded backup files from time to time. This can be done using C1D2HTeamAdmin.exe. The administrator can delete backups manually by deleting all or part of the contents of the Backup folder in the repository. Each version number has its own subfolder inside the Backup folder, so you can delete only particular versions, if necessary. If you wish, back up those folders elsewhere before deleting them.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Delete Backup Files in the Repository</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Double-click <span class="Emphasis">C1D2HTeamAdmin.exe</span>. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>Select <span class="Emphasis">File &gt; Open Team Project</span> to connect to the repository. The Load Remote Project dialog opens. </li>
+                    <li>Select the <span class="Emphasis">Repository Type</span>. (If necessary, enter your login credentials.)</li>
+                    <li>Select a team project (or from the drop-down choose <span class="Emphasis">Select Team Project</span> to browse for a project) and click <span class="Emphasis">OK</span>. </li>
+                    <li>Select <span class="Emphasis">Tools &gt; Clear Repository Backup</span>. The Clear Repository Backup dialog opens.</li>
+                    <li>In the lower part of the dialog, select <span class="Emphasis">Delete all backup files older than</span>.</li>
+                    <li>Click the drop-down arrow next to the date and select a date from the calendar. Select a time using the up and down arrows in the time box.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> Backup files prior to the date and time specified are removed from the repository. </li>
+                </ol>
+                <p>The administrator can also use this dialog to change the backup settings specified when the project was first shared. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Changing-Repository-Settings.htm">Changing Repository Settings</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Changing-Repository-Settings.htm">Changing Repository Settings</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

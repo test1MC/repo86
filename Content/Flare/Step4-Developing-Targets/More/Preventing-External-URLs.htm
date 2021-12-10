@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="URL:prevent external" />Preventing External URLs</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/Eclipse-HTML5-WebHelp-WH-Plus.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Targets/Prevent-External-URLs-Summary.flsnp" />
+        <p>
+            <img src="../../../Resources/Images/Flare/Targets/Prevent-External-URLs2.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <p>This option does not prevent external links that are inserted in a topic from opening (e.g., a hyperlink on some text that is pointing to http://madcapsoftware.com will still open that website). Those types of links point directly to the external URL and will not append to your Help system's URL.</p>
+        <p>However, this option does prevent external websites from being loaded from the table of contents (TOC) or a browse sequence. For example, if you have a TOC node that points to www.madcapsoftware.com, it will not load with this option enabled since that node creates a hash (#) followed by the linked URL (e.g., Path/To/HTML5/Default.htm#http://www.madcapsoftware.com). If such a link exists on a TOC or browse sequence node, it will simply open the starting topic in your output when clicked. Therefore, if you want to use the option to prevent external URLs, you should also avoid putting external links on TOC or browse sequence entries.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <h2>How to Prevent External URLs</h2>
+        <ol>
+            <li>Open a target.</li>
+            <li>
+                <p>On the <span class="Emphasis">Advanced</span> tab of the Target Editor, select <span class="Emphasis">Prevent external URLs from frames</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Targets/Prevent-External-URLs1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

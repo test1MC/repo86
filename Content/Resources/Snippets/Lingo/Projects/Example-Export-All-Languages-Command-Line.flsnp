@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text">&#160;</p>
+            <p>Say that you have a Lingo project called "San-Diego" that has been translated into Danish and Dutch. This project is stored in your Translated-Projects folder on your local C drive. The source Flare project file is also located on your C drive in the Source-Files folder. You want to export your project to a network location that is mapped to your S drive. You would first type the path to the Lingo.app folder where you installed Lingo. If you installed Lingo to the default location, you would type this and press <span class="Emphasis">ENTER</span> on your keyboard:</p>
+            <p class="TypedEntry">cd\Program Files\MadCap Software\MadCap Lingo 11\Lingo.app</p>
+            <p>Next, type this and press <span class="Emphasis">ENTER</span> on your keyboard:</p>
+            <p class="TypedEntry">lingoproject.exe -project C:\Translated-Projects\San-Diego.liprjf\San-Diego.liprj -sourcefile C:\Source-Files\San-Diego.flprj -exportTo S:\Exported-Projects<MadCap:conditionalText MadCap:conditions="General.Print-Only">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</MadCap:conditionalText> -syncProject true</p>
+        </div>
+    </body>
+</html>

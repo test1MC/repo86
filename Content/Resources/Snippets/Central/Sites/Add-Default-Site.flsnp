@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>You can select a  site to redirect to when the  root domain is visited.</p>
+        <ol>
+            <li>On the left side of the interface, click <b>Sites</b>.</li>
+            <li>Select the <span class="Emphasis">URLs</span> tab.</li>
+            <li>Click <img src="../../../Images/Central/Interface/Buttons/Three-Dots.png" alt="" title="" class="ReduceButtonSize" /> next to the domain you want to edit and select <span class="Emphasis">Edit</span>.</li>
+            <li>
+                <p>From the Host Mapped Domain wizard, select <span class="Emphasis">Default Site</span>.</p>
+                <p>
+                    <img src="../../../Images/Central/Sites/Domain-DefaultSite.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <li>
+                <p>From the <span class="Emphasis">Default Site</span> drop-down, select a site. </p>
+                <p>
+                    <img src="../../../Images/Central/Sites/Domain-DefaultSite2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Make sure the site you select is also associated with a custom domain. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Creating-Sites.htm">Creating Sites</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">Save</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <li>
+                <p>(Optional) You can quickly see which sites are associated to the host mapped domain by clicking <span class="Emphasis">Sites</span>. The wizard lists the sites. If a site is set as the current default site, it is indicated as such by a globe/star icon.</p>
+                <p>
+                    <img src="../../../Images/Central/Sites/Domain-DefaultSite3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

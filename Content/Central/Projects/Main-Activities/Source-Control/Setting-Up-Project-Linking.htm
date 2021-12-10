@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../Resources/TemplatePages/Central/User-Guides/Central-Projects-Builds.flmsp');">
+    <head>
+        <meta name="description" content="To set up project linking, the Central IDs for your linked projects must be stored in your main project." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Projects:linking" />Setting Up Project Linking</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Central/Projects/Set-Up-Project-Linking1.flsnp" /> </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Central/Projects/Set-Up-Project-Linking2.flsnp" />
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Central/Banners/Upload-Projects-Import-Pull-Push.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Central/Projects/Set-Up-Project-Linking3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+        <h2>Projects Not Bound to Central</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Central/Projects/Set-Up-Project-Linking4.flsnp" />
+        <h2>Projects Bound to Central</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Central/Projects/Set-Up-Project-Linking5.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+        <h2>Projects Bound to Central but Not Linked</h2>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Central/Projects/Set-Up-Project-Linking6.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In the case of Global Project Linking, there is an option in the Project Import Editor in Flare to “Auto-reimport before Generate Output.” This means that the child project will automatically include any changes from the parent project when you build a target. However, in Central this does not mean that the actual source files with those changes are transferred to the child project; they’re simply included in the output. Therefore, if you want those changes to be included in the source for the child project, you will need to reimport them locally using the Project Import Editor. Then when you push the child project back up to Central, the repository will indicate that the changes are included in the source files.</p>
+        </div>
+    </body>
+</html>

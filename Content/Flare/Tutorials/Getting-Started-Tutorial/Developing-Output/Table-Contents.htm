@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-Get-Started-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating a table of contents (TOC) to organize the topics that will go into the targets." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Getting-Started.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:getting started" />
+            <MadCap:keyword term="Tables of contents" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterOutput" />Using a Table of Contents</h1>
+        <p>Let's create a table of contents (TOC) to organize the topics that will go into our targets. </p>
+        <p>But as you do this, keep something very important in mind. A TOC file in online output acts as your online navigation. But for print-based outputs, a TOC file acts more like an outline; it's simply used to tell Flare which topics should be included in the print output and in what order. The actual generated TOC in print-based outputs is done a bit differently. It uses something called a "TOC Proxy."<MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial"> See the online Help for more information.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See </MadCap:conditionalText><MadCap:xref href="../../../Proxies/TOCs/Creating-TOC-Manually-Print.htm" MadCap:conditions="General.Online-Only">Creating a TOC for Print-Based Output</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only">.</MadCap:conditionalText></p>
+        <p> In the San Diego template, there are two TOC files already created for you—one for printed output and one for online output. Since we added a topic to this project earlier (Famous-San-Diegans.htm; see <MadCap:xref href="../Adding-Elements/Topics.htm">Creating Topics</MadCap:xref>), we need to add that topic to these TOCs before we can build our outputs.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Add a Topic to the Online TOC</h2>
+        <ol>
+            <li>In the Project Organizer, expand the <span class="Emphasis">TOCs</span> folder.</li>
+            <li>Double-click <span class="Emphasis">Online-TOC</span>. The TOC Editor opens to the right.</li>
+            <li>Open the Content Explorer.</li>
+            <li>
+                <p>In the Content Explorer, select <span class="Emphasis">Famous-San-Diegans.htm</span> and drag it to the TOC Editor on the right. You will see a blue arrow when you can drop it. Drop the topic under <span class="Emphasis">Cuisine</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/TOC1.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+                <p>If you click elsewhere in the TOC, you’ll see that your new TOC entry is blue, like the others. This doesn’t mean that the text will show up as blue in the output. Instead, what it means is that the TOC entry contains a system variable<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../Variables/General-Information/Types-Variables.htm#SystemVariables">System Variables</MadCap:xref>)</MadCap:conditionalText>. This variable is called “LinkedTitle.” It means that the TOC entry text is tied to the title for that topic.  If the title for the topic changes, the TOC entry will automatically change too so that you don’t have to remember to do it manually.<MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial"> See the online Help for more information.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/TOC2.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You don’t need to use system variables for your TOC entries. Instead, you can override a system variable by simply typing whatever text you want in place of the blue variable text. If you do that, the text will display as black in the TOC Editor.</p>
+                </div>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Dropping-TOC.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+        <h2>How to Add a Topic to the Print TOC</h2>
+        <p>Adding a topic to the Print TOC&#160;follows basically the same steps. However, there are a few additional steps because you must set printed output settings for the new topic.</p>
+        <ol>
+            <li>In the Project Organizer, expand the <span class="Emphasis">TOCs</span> folder.</li>
+            <li>Double-click <span class="Emphasis">Print-TOC</span>. The TOC Editor opens to the right.</li>
+            <li>
+                <p>In the Content Explorer, select <span class="Emphasis">Famous-San-Diegans.htm</span> and drag it to the Print TOC. You will see a blue arrow when you can drop it. Drop the topic under <span class="Emphasis">Cuisine</span> and before <span class="Emphasis">Resources</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/TOC6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Remember that the Print TOC will function as an outline, rather than a true TOC. So even though the TOC entries are blue (linked to a system variable), this doesn’t really matter. This TOC only determines which topics will be included in the output, but the labels on the TOC entries will not be used in the output; they are simply for your information.</p>
+                </div>
+            </li>
+            <li>
+                <p>In the TOC Editor, double-click <span class="Emphasis">Famous San Diegans</span>. The Properties dialog opens.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If double-clicking a TOC&#160;entry opens the topic instead of the Properties dialog, click    <img src="../../../../Resources/Images/Flare/Interface/Buttons/Toggle-Double-Click-TOC-Entry-btn.png" alt="" title="" class="ReduceButtonSize" /> in the local toolbar of the TOC&#160;Editor to toggle the double-click behavior.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>Select the <span class="Emphasis">Printed Output</span> tab.</p>
+                <p>Famous San Diegans should be a new chapter in our PDF guide, so we will set it up to use these settings.</p>
+            </li>
+            <li>In the <span class="Emphasis">Break Type</span> field, select <span class="Emphasis">Chapter Break</span>. </li>
+            <li>
+                <p>In the <span class="Emphasis">Page Layout</span> field, select <span class="Emphasis">Chapters</span>. This is a page layout that is included with the San Diego template.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/TOC4.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>. When you build the PDF&#160;output, you will notice these settings.</li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">There's more to preparing a project for print-based output than what we're showing you here. How much is involved depends on how intricate you want to get with your output.<MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial"> See the online Help for more information.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See </MadCap:conditionalText><MadCap:xref href="../../../Printed-Output/Creating-Printed-Output.htm" MadCap:conditions="General.Online-Only">Creating Print-Based Output</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only">.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+        <h2>How to Assign a TOC&#160;to a Target</h2>
+        <p>The Print TOC file is already associated with our PDF target. But we still need to assign the Online TOC file to our new HTML5 target. </p>
+        <ol>
+            <li>In the Project Organizer, expand the <span class="Emphasis">Targets</span> folder.</li>
+            <li>Double-click the <span class="Emphasis">All-About-San-Diego-HTML5</span> target. The Target Editor opens to the right.</li>
+            <li>Select the <span class="Emphasis">General</span> tab.</li>
+            <li>
+                <p>In the <span class="Emphasis">Primary TOC</span>&#160;field, select <span class="Emphasis">Online TOC</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/TOC5.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

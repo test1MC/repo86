@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Print-EPUB.flsnp" />
+        <p>For print-based output, you can let Flare auto-generate a  table of contents (TOC) for you. Alternatively, you can create a unique topic and insert a TOC proxy into it<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Proxies/TOCs/Creating-TOC-Manually-Print.htm">Creating a TOC for Print-Based Output</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide"> (see <MadCap:xref href="../../../../Flare/TOCs/Additional-Steps-Activities-Print/Creating-TOC-Manually-Print3.htm">Creating a TOC Manually for Print</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Auto-Generate a TOC</h2>
+        <ol>
+            <li>Open a print-based target.</li>
+            <li>
+                <p>On the <span class="Emphasis">Advanced</span> tab of the Target Editor, select <span class="Emphasis">Generate TOC Proxy</span>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This option is disabled by default for existing targets, but enabled for new targets. If a TOC proxy is already present in a topic or snippet that is being included in the output, this auto-generate option has no effect.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <p>When you generate the target, a TOC will be created and inserted at the beginning of the output. If your page layout includes a Title page type<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Page-Layouts/Pages/Inserting-Pages-Page-Layouts.htm">Inserting Pages in Page Layouts</MadCap:xref>)</MadCap:conditionalText>, the TOC is added after the title page in the output.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide" />
+        <h2>Which Page Layout is Used?</h2>
+        <MadCap:snippetBlock src="../Proxies/Auto-Generate-Proxies-Which-Layout.flsnp" />
+        <h2 MadCap:conditions="General.Online-Only">Auto-Generate vs. Manual Proxies</h2>
+        <MadCap:snippetBlock src="../Proxies/Auto-Generate-Versus-Manual-Proxies.flsnp" MadCap:conditions="General.Online-Only" />
+        <h2>Editing Attributes for Generated TOCs, Indexes, and Glossaries</h2>
+        <MadCap:snippetBlock src="../Proxies/Auto-Generate-Proxies-Edit-Attributes.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide" />
+        <h2 MadCap:conditions="General.Online-Only">Example</h2>
+        <MadCap:snippetBlock src="../Proxies/Example-Auto-Generate-Proxies.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../Proxies/Note-Auto-Generate-Proxies3.flsnp" />
+    </body>
+</html>

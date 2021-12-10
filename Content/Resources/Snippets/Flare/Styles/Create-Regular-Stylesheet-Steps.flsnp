@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>In the Content Explorer, right-click on a folder and from the context menu select <span class="Emphasis">New &gt; Stylesheet</span>.</li>
+            <li>In the <span class="Emphasis">File Type</span> field at the top, make sure <span class="Emphasis">Stylesheet</span> is selected.</li>
+            <li>
+                <MadCap:snippetText src="../Templates/In-Source-Area-Template1.flsnp" />
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../Templates/Template-Options1.flsnp" />
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Each factory template has different style settings in it. You might want to try different ones to see which suits you best. </p>
+                        <p>For example, one of the factory templates is called "Modern." This template includes special custom properties that let you set the border radius on a paragraph style (i.e., to create rounded corners). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Paragraphs/Setting-Borders-Paragraphs.htm" target="" title="" alt="">Setting Borders for Paragraphs</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p>You will also see a factory template called "SearchHighlight." This template has a very specific purpose—to let you change how highlighted terms look when users perform a search. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Search/Search-Highlighting/Customizing-Highlight-Color-Search-Hits.htm">Customizing the Highlight Color for Search Hits</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../General/Select-Subfolder-Content-Explorer1.flsnp" />
+                </p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../Folders-Files/Table-Traditional-Default-Folders-Non-Topic-Files.flsnp" />
+                </div>
+            </li>
+            <li>In the <span class="Emphasis">File Name</span> field, type a new name for the stylesheet. </li>
+            <li>(Optional) <MadCap:snippetText src="../Conditions/Select-Relevant-Condition-Tags.flsnp" /><MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>(Optional) <MadCap:snippetText src="../File-Tagging/Select-Relevant-File-Tags.flsnp" /><MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/File-Tagging/Associating-Tags-Files1.htm">Associating Tags with Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Click <span class="Emphasis">Add</span>. The stylesheet is added to the Content Explorer and opens in its own page in the Stylesheet Editor. </li>
+        </ol>
+    </body>
+</html>

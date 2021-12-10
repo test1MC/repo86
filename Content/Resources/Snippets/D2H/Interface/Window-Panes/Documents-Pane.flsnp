@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>You can use the Documents window pane to review and open all of the source documents that are part of the current Doc-To-Help project. Double-click a document to open it in a new instance of Word.</p>
+        <p>The Documents view lets you add and create new documents for your project. You can also rename or remove a document from your project. </p>
+        <p>Use the directional arrows to rearrange, promote, or demote the order of your documents in this view.</p>
+        <p MadCap:conditions="Snippets.Snippet1">You can use the <img src="../../../../Images/D2H/Interface/Buttons/Filter-btn.png" /> button to filter the Documents view. Enter your criteria in the search bar that appears below when you click on the Filter button.</p>
+        <p> You can drag documents from the Documents window view to the current document to create a D2HML&#160;link to another topic. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Nav-Links/Drag-Drop-Linking.htm">Drag-and-Drop Linking</MadCap:xref>.</MadCap:conditionalText></p>
+        <p MadCap:conditions="Snippets.Snippet1,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Documents-Window-Pane.htm">Documents Window Pane (Word)</MadCap:xref>.</p>
+        <p>
+            <img src="../../../../Images/D2H/Interface/Window-Panes/Documents-Window-Pane.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide" />
+        <MadCap:snippetBlock src="Buttons-Documents-View-Project-Panel.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2]exclude[Snippets.Snippet1]" />
+    </body>
+</html>

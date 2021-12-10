@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Architecture.flmsp');">
+    <head>
+        <meta name="description" content="You have various options for structuring the tables of contents (TOCs) in your projects." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project architecture;Architecture" />
+            <MadCap:keyword term="Tables of contents" />
+            <MadCap:concept term="FilterFeatures" />Tables of Contents</h1>
+        <p>You have various options for structuring the tables of contents (TOCs) in your projects. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../TOCs/TOCs.htm">Tables of Contents</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How Many TOCs?</h2>
+        <p>You might be working in a project that has just one TOC, or you might have dozens or even hundreds of TOCs. It largely depends on how many different outputs you need to produce.</p>
+        <p>It is possible to use a single TOC for different outputs. For example, you might be generating both HTML5 and PDF targets and want to use the same TOC. If there are any topics that you want to include in one of the outputs but not in the other, you can set conditions on the TOC entries to control this. However, you might find that this can get somewhat messy if there are many variations. In that case, it might be best to create separate TOCs for each output.</p>
+        <h2>Linking TOCs</h2>
+        <p>Linking one TOC to another is an option that some authors choose. By doing this, the TOCs are combined in the output and appear as a single TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../TOCs/Process/Creating-TOCs/Linking-TOC-Entries.htm">Linking TOC Entries</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+        <p>This feature can be especially beneficial if you have multiple authors working in the same project. By assigning writers to different TOCs, you might be able to keep much of their work separate and reduce the chances of file conflicts.</p>
+        <p>Also, this  allows multiple authors to work on the same TOC in a way, because in the end all of the individual TOCs will be merged together into one. Conversely, if you only had one big TOC, you would really be limited to one person working on it at a time. </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2><a name="WhatMadCapDocTeamDoes"></a>What the MadCap Documentation Team Does</h2>
+        <p>When Flare was first created, we tried to create a single TOC that was used for both online and print-based output. We needed to place conditions on many of the entries in the TOC, because there were some files that were relevant to only one output or the other. Eventually, we changed our plan, producing separate TOCs for each output. Although this has resulted in more files, it has also minimized any confusion and therefore saved much time and effort.</p>
+        <p>For each product being documented in our main “Shared” project, we create one TOC that is used for online output. That TOC is used for both our local and server HTML5 output.</p>
+        <p>Then we create a separate TOC for each PDF that we produce. In the case of Flare alone, this means dozens of TOCs.</p>
+        <p>We do not link any of our TOCs together. Most of our TOCs are quite established, and the amount of changes to a TOC for each release is usually not that extensive. Therefore, we rely mostly on communicating with others when one writer wants to work on the TOC.</p>
+    </body>
+</html>

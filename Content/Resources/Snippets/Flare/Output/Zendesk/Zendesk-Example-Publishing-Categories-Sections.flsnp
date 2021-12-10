@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Using the TOC to Define Categories and Sections</p>
+            <p>You want to publish a Flare project  to Zendesk, using the TOC of the project to define both the categories and sections in Zendesk.</p>
+            <p>First, you ensure the Zendesk dashboard is configured to reflect what you want published. For this project, you want to create categories for Knowledge Base and Support. </p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-Dashboard-Publish-Categories-Sections.png" class="MaxWidth100Percent" />
+            </p>
+            <p>If you are publishing to both categories and sections, you need to create a section prior to publishing. Therefore, under the <b>Knowledge Base</b> category, you create a section  titled “FAQ.”</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-Help-Center-Created-Categories-Sections.png" class="MaxWidth100Percent" />
+            </p>
+            <p>In Flare, you ensure the destination file is configured to use the TOC to define categories and sections.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-Destination-Define-Categories-Sections.png" class="MaxWidth100Percent" />
+            </p>
+            <p>The last step prior to publishing is to check that your TOC is structured to publish the topics to the category and section designated. In this case, you want the contents of your TOC to be published directly under the category and section you set in the destination file. You can use unlinked books in your TOC to mimic the structure of the category and section you are using for Zendesk.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-TOC-Categories-Sections.png" class="MaxWidth100Percent" />
+            </p>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Keep in mind that any top-level books in the TOC are converted into categories beside existing categories in Zendesk.<br /></p>
+            </div>
+            <p>You publish  to Zendesk Help Center, and  review the Zendesk Help Center dashboard to confirm the output has been successfully published to the category and section designated in the destination file.</p>
+            <p>
+                <img src="../../../../Images/Flare/Output/Zendesk-Published-Categories-Sections.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

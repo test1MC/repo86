@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>In Windows Explorer, navigate to the Flare installation's \bin directory. Typically, the path is as follows (where [<span class="TypedEntry">#</span>]= the Flare version number):</p>
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Windows 7 or 8 (64-bit versions) </span>
+                        <ul>
+                            <li>
+                                <p>
+                                    <span class="SetOffSecondLevel">If you are using Flare 12 or later </span>
+                                </p>
+                                <p class="TypedEntry">C:\Program Files\MadCap Software\MadCap Flare&#160;[#]\<br />Flare.app\Resources\Bin</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="SetOffSecondLevel">If you are using Flare 11 or earlier </span>
+                                </p>
+                                <p class="TypedEntry">C:\Program Files\MadCap Software\MadCap Flare&#160;V[#]\<br />Flare.app\Resources\Bin</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="SetOffFirstLevel">Windows 7 or 8 (32-bit versions) </span>
+                        </p>
+                        <p class="TypedEntry">C:\Program Files (x86)\MadCap Software\MadCap Flare&#160;V[#]<br />\Flare.app\Resources\Bin</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The path that you use depends on your specific system configuration. For users running the 64-bit version of Windows, you will see two folders named Program&#160;Files on your C: drive.&#160;Typically, the folder named "\Program&#160;Files (x86)" stores non-native 32-bit applications, and the "\Program Files" folder stores native 64-bit applications, such as Flare. If you installed Flare in a different location, you need to determine the appropriate path to the \bin directory.</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>In the bin directory, double-click the file named <span class="Emphasis">RegisterItcc.bat</span>. </p>
+                <p>This runs the batch file. If the registration is successful, a message appears telling you so.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If the following error message appears, the account you are using may not have sufficient permissions to run the batch file on the computer. </p>
+                    <p>
+                        <img src="../../../Images/Flare/Troubleshooting/Search-ITCC-DLL-Failed.png" class="MaxWidth100Percent" />
+                    </p>
+                    <p>You will need to use your computer's command line utility to register the DLL as described below or contact your Windows administrator for assistance with registering the DLL. </p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

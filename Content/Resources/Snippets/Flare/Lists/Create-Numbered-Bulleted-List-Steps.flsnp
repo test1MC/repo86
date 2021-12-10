@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open the content file and place your cursor where you want to insert a list.</li>
+            <li>Select <b>Home &gt; <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Bullet-List-btn.png" class="ReduceButtonSize" /></b> (down arrow) and choose  a list type from the menu (recommend <span class="Emphasis">Bullet List</span> or <span class="Emphasis">Numbered List</span>). </li>
+            <li>
+                <p>Enter text for the list item. Then press <span class="Emphasis">ENTER</span> to move to the next list item and repeat.</p>
+                <div MadCap:conditions="Snippets.Snippet1">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">By default, Flare adds &lt;p&gt; tags inside &lt;li&gt; tags in a list. This makes it easier to add paragraph items (e.g., notes, images) between list items. On an empty list item line, you can press <span class="Emphasis">BACKSPACE</span> to remove the bullet or number and then add your content. For more details, see <MadCap:xref href="../../../../Flare/Lists/Main-Activities/Working-With-Paragraphs-Simple-List-Items.htm">Adding Paragraphs Between List Items</MadCap:xref>.</p>
+                        <p>On the XML Editor tab of the Options dialog, you can change the default behavior, so that list items do not have paragraph items initially. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Interface/Dialogs/Options-Dialog.htm">Options Dialog</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                    <div class="note">
+                        <p MadCap:conditions="General.Online-Only" class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"><a href="../../../../Flare/Editor-Tools/Shortcuts/Keyboard-Shortcuts.htm#Lists">Click here</a> for keyboard shortcuts that you can use in lists.</p>
+                        <p MadCap:conditions="General.Print-Only" class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">See the online Help for or the Shortcuts Cheat Sheet PDF for shortcuts you can use in lists.</p>
+                    </div>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide" />
+            <li>
+                <p>(Optional) If you want to move to a second level of the list, press <span class="Emphasis">Tab</span> or in the <span class="Emphasis">Home</span> ribbon click the indent button <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Indent-Items-btn.png" class="ReduceButtonSize" alt="" />.</p>
+                <div MadCap:conditions="Snippets.Snippet1">
+                    <p>If you are on one type of list and want to switch to the other kind of list (e.g., you are on a numbered list and want to change to bullets), right-click on the <span class="Emphasis">ol</span> (numbered list) or <span class="Emphasis">ul</span> (bulleted list) <a href="../../../../Flare/Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">structure bar</a> to the left, and from the context menu select <span class="Emphasis">Type</span>. Then click one of the list types (<span class="Emphasis">Bullet List</span> or <span class="Emphasis">Numbered List</span>).</p>
+                    <p>If you want to move back to a higher level list (e.g., you are on the third level and want to move back to the second level), click the outdent button <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Outdent-Items-btn.png" class="ReduceButtonSize" alt="" /> in the <span class="Emphasis">Home</span> ribbon.</p>
+                    <div class="topic-only">
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have <a href="../../../../Flare/Lists/Main-Activities/Editng-List-Styles/Editing-List-Styles.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">created and edited list style classes</a>, you can right-click on the <span class="Emphasis">ol</span> or <span class="Emphasis">ul</span> structure bar to the left, and from the context menu select <span class="Emphasis">Style &gt; [Name of Style Class]</span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>If you are at the end of the entire list and want to exit the list altogether, press <span class="Emphasis">ENTER</span> again on a blank list item. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">You should now be outside of the list and on a regular paragraph.</MadCap:conditionalText></li>
+            <li MadCap:conditions="Snippets.Snippet1">
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

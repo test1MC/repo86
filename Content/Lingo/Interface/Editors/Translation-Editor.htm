@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/All/Main.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Learn how to open the Translation Editor in MadCap&#160;Lingo. Using the local toolbar, and how to work with content in translation mode vs. preview mode." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Translation:files;Files:translating" />
+            <MadCap:keyword term="Translation Editor" />Translation Editor</h1>
+        <p>This editor is used to translate files and use suggestions from a translation memory (TM) database and/or a machine translation (MT) service. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translating-Files/Translating-Files.htm">Translating Files</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>Text from left-to-right (LTR) languages is aligned left, and columns holding right-to-left (RTL) text is aligned right, allowing you to type in the correct direction.</p>
+        <p>
+            <img src="../../../Resources/Images/Lingo/Interface/Editors/RTL-Translation-Editor.png" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Grid-Mode-Visual-Mode-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Open This Editor</h2>
+        <ol>
+            <li>Open the File List window pane (<span class="Emphasis">View &gt; File List</span>).</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Translating-Files/Show-Folders1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Translating-Files/Filter-Field1.flsnp" />
+            </li>
+            <li>Double-click any file in the list.</li>
+        </ol>
+        <h2>
+            <MadCap:keyword term="Toolbars:local" />Local Toolbar</h2>
+        <p>Use the buttons in the bar at the top of the editor to perform actions in either Translation mode or Preview mode.</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Hide-Show-Info-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Al-Co-Fl-Li/Interface/Ribbons-Toolbars-Menus/Hide-Show-Special-Info-Button-Description.flsnp" class="TableText" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Al-Li/Interface/Buttons/Upload-Selected-btn2.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Uploads the selected segment to translation memory. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Memory/Translation-Memory.htm">Translation Memory</MadCap:xref>. </MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Al-Li/Interface/Buttons/Upload-File-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Uploads all segments in the file to translation memory. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Memory/Translation-Memory.htm">Translation Memory</MadCap:xref>.</MadCap:conditionalText> </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Lingo/Interface/Drop-Downs/Status-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Lets you select the status for the open file. Alternatively, you can open the Properties dialog for the file (via the File List window pane) if you want to set the same status for multiple files. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translating-Files/Setting-Translated-Status-Files.htm">Setting the Translated Status of Files</MadCap:xref>.</MadCap:conditionalText> </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Al-Li/Interface/Buttons/Split-Selected-Segments-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Splits the segment where the cursor is placed in the source cell so that it becomes two segments. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Segmentation-Split-Join/Split-Join.htm">Split/Join</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Al-Li/Interface/Buttons/Join-Selected-Segments-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Joins two or more selected segments so that they become one segment. In order to join segments they must be part of the same translation unit (e.g., same paragraph, same list item). If you select segments that are not part of the same translation unit, the join option is disabled. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Segmentation-Split-Join/Split-Join.htm">Split/Join</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Co-Fl-Li/Interface/Buttons/Space-Markers-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Turns space markers on and off. When you turn this feature on, you can see markers that show where space exists between text in a segment.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Lingo/Interface/Drop-Downs/Inline-Styles-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Lets you select and apply inline formatting such as bold, italic, or underlined to text in the target cell. This field is enabled only if the source segment contains that formatting somewhere. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Lingo/Interface/Buttons/Translate-Project-TM-btn2.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Applies 100% and 101% matching suggestions from TM to the appropriate segments in the file. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Memory/Process/Applying-TM-Suggestions-Segments.htm">Applying Translation Memory Suggestions</MadCap:xref>. </MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Lingo/Interface/Buttons/Toggle-Translation-Preview-Mode-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Toggles between the Live Preview mode and the Translation mode of the editor. This button is displayed only for certain types of files. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <img src="../../../Resources/Images/Lingo/Interface/Buttons/Live-Preview-Toggle-btn.png" alt="" title="" />
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p MadCap:conditions="">Toggles the location of the Live Preview pane to display to the right of the Translation Editor or below the Translation Editor. This button is enabled only when using Live Preview mode.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Lingo/Interface/Buttons/Replace-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">This button displays if you have an image file open. Clicking this button opens a dialog that lets you select a different background image for the open file. </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <h2>
+            <MadCap:keyword term="Translation Editor:filter;Filter:Translation Editor" />Filter Fields</h2>
+        <p>Use the fields and buttons above the grid to perform searches to temporarily reduce the number of segments shown in the grid below.</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Source Filter</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter text that you want to find in the source segments.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Target Filter</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Enter text that you want to find in the target segments.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Resources/Images/Lingo/Interface/Buttons/Apply-Filter-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Initiates the search.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Resources/Images/Lingo/Interface/Buttons/Clear-Filter-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Clears the filter fields and returns the grid to its original state.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Resources/Images/Lingo/Interface/Buttons/Filter-Options-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Lets you select options to perform a search with regular expressions or to be case-sensitive.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Example-Filter.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Example-Filter-Reg-Expr.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Example-Filter-Case-Sens.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <h2>
+            <MadCap:keyword term="Translation Editor:translation mode" />Translation Mode</h2>
+        <p>Translation (or grid) mode lets you work with the file content in text strings organized in columns. As the name suggests, this is the mode you will use when actually translating content.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Interface/Editors/Translation-Editor-Options.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <div class="IndentMedium">
+            <h3>Main Interface Elements</h3>
+            <table style="mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">[Source Language]</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Displays the text in the source language.</p>
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Note-Skin-Segments.flsnp" />
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">[Target Language]</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">You can type translation text in these cells. Then press <span class="Emphasis">ENTER</span> on your keyboard to confirm the translation.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Status</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Displays a background color and TM match percentage for each segment. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Memory/Other-Information/Statuses-Matches.htm">Statuses and Matches</MadCap:xref>.</MadCap:conditionalText></p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Note</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Displays an icon to indicate the presence of a note for the segment. For example, you might want to add a note to remind yourself to do additional research about a term, or to tell a reviewer why a particular translation was used.</p>
+                            <p class="TableText">If the icon is gray, no note exists. If the icon is colored, a note exists. When you click on the icon, the Segment Notes tab at the bottom of the editor displays so that you can see or enter any notes for the source or target segment. If you want to create a new paragraph, press <span class="Emphasis">CTRL+ENTER</span>. After you enter a note, the icon changes in the Note column.</p>
+                            <p MadCap:conditions="General.Online-Only">
+                                <img src="../../../Resources/Images/Lingo/Translating-Files/Segment-Notes2.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Properties-Files.flsnp" MadCap:conditions="General.Online-Only" />
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/PDF-EPUB-Segment-Notes.flsnp" MadCap:conditions="General.Online-Only" />
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Translating-Language-Skins.flsnp" MadCap:conditions="General.Online-Only" />
+                            <p class="note" MadCap:conditions="General.Online-Only" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Segment notes travel with the project. Therefore, if you create a new <MadCap:variable name="Other.Product" /> project based on the same source files, the same notes will not automatically be associated with those segments because it is a new project.</p>
+                            <p class="note" MadCap:conditions="General.Online-Only" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you import a review package from Contributor, any annotations from the reviewer are added to the segment as segment notes. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Reviews-Contributions/Importing-Review-Packages.htm">Importing Lingo Review Packages</MadCap:xref> and <MadCap:xref href="../../Reviews-Contributions/Accepting-Changes-Reviews.htm">Accepting Changes to Lingo Review Documents</MadCap:xref>.</MadCap:conditionalText></p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">TM Suggestions</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">If you are using translation memory (TM), any matching translations are displayed in this tab at the bottom of the editor. If you want to use an existing match, double-click it and then press <span class="Emphasis">ENTER</span> on your keyboard to confirm the translation for the segment. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Memory/Process/Applying-TM-Suggestions-Segments.htm">Applying Translation Memory Suggestions</MadCap:xref> and <MadCap:xref href="../../Translation-Memory/Other-Information/Statuses-Matches.htm">Statuses and Matches</MadCap:xref>.</MadCap:conditionalText></p>
+                            <p class="TableText">This area also shows suggestions from machine translation (MT) services. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Machine-Translation/Machine-Translation.htm">Machine Translation</MadCap:xref>.</MadCap:conditionalText></p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextEmphasis">Segment Notes</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                            <p class="TableText">Use this tab to enter source or target notes for a segment.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+            <h3>Right-Click Menu</h3>
+            <table style="mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Cut</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Interface/Ribbons-Toolbars-Menus/Cut-Option.flsnp" class="TableText" />
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Copy</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Interface/Ribbons-Toolbars-Menus/Copy-Option.flsnp" class="TableText" />
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Paste</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Interface/Ribbons-Toolbars-Menus/Paste-Option.flsnp" class="TableText" />
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Confirm</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Confirm-Option.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Split Segment</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Split-Segment-Option.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Join Segments</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Join-Segments-Option.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Add Note</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Add-Note-Option.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Clear Target Segment</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Clear-Target-Segment-Option.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Copy Source to Target</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Copy-Source-Target-Option.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Add Next Tag</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Add-Next-Tag-Option.flsnp" /> </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Add Next Number</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Add-Next-Number-Option.flsnp" /> </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextEmphasis">Add New Term</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                            <p class="TableText">
+                                <MadCap:snippetText src="../../../Resources/Snippets/Lingo/Interface/Ribbons-Toolbars-Menus/Add-New-Term-Option.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <h2>
+            <MadCap:keyword term="Translation Editor:live preview mode" />
+            <MadCap:keyword term="Microsoft PowerPoint:previewing;Previewing:PowerPoint" />
+            <MadCap:keyword term="Microsoft Word:previewing;Previewing:Word" />Live Preview Mode</h2>
+        <p>The Live Preview mode can be used for certain types of files and displays two window panes. The Translation Editor—with both the source and target segments—is shown in the left pane, and a preview of the document in the translated language is shown in the right pane. The Live Preview mode displays the file in the same way that the author edits it in the source tool (e.g., Microsoft Word, PowerPoint, Flare, Contributor), with content shown in complete headings, paragraphs, lists, and so on. When viewing the document in Live Preview mode, you can make changes in the Translation Editor pane, and they will display in real time in the Live Preview pane.</p>
+        <p>
+            <img src="../../../Resources/Images/Lingo/Interface/Editors/Live-Preview1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" class="TableStyle-Fancy" cellspacing="0">
+            <col style="width: 20%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Translation Editor</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This is the left window pane, which displays the source and target segments for the file. You can make changes to the target segments in this pane, and changes will display in the live preview pane.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Live Preview</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">This is the right window pane, which displays the translated file in the target language.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Examples-Preview-Mode-Word.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Preview-Mode-Excel.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Examples-Preview-Mode-PowerPoint.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Capture-Images.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Note-Word-Preview.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Note-PowerPoint-Review.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are looking at Flare or Contributor files, you might notice light green or dark green rectangles in the topic with text inside. These are index keywords and concepts, which are not translated in the same file. For example, if you want to translate all index keywords, you would open the Index.liindexmap file from the File List window pane.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Touring-Workspace-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Translating-Files/Concept-Index-Tags.flsnp" />
+    </body>
+</html>

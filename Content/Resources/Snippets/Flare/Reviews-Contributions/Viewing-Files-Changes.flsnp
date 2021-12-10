@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can view a list of files with tracked changes (and annotations). You can then open the file where the changes are located and deal with them appropriately (e.g., accept or reject changes).</p>
+        <h2>How to View Files With Changes</h2>
+        <ol>
+            <li>
+                <p>  Select <span class="Emphasis">Analysis &gt; More Reports &gt; Files With Changes</span>. </p>
+                <p>The Files With Changes window pane opens. The area at the bottom of the window pane displays all topics in your project where tracked changes have been made.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../General/Folder-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Change</span> Displays the type of change that was made.</li>
+                    <li><span class="SetOffFirstLevel">Initials</span> Displays the initials of the individual who made the change.</li>
+                    <li><span class="SetOffFirstLevel">Creator</span> Displays the user name of the individual who made the change.</li>
+                    <li><span class="SetOffFirstLevel">Timestamp</span> Displays the date and time when the change was made.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>You can double-click any file in the list to accept or reject the changes<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Reviews-Contributions/Track-Changes/Accepting-Rejecting-Tracked-Changes.htm">Accepting or Rejecting Tracked Changes</MadCap:xref>)</MadCap:conditionalText>. </li>
+        </ol>
+        <MadCap:snippetBlock src="../Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

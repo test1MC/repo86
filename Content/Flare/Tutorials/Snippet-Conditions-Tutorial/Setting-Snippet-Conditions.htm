@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Snippet-Conditions.flmsp');">
+    <head>
+        <meta name="description" content="Setting snippet conditions for the tutorial." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Snippet-Conditions.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:snippet conditions;Snippet conditions:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Setting Snippet Conditions</h1>
+        <p>Now that we have all the basic elements created and in place, we can set the snippet conditions.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Set Snippet Conditions</h2>
+        <ol>
+            <li>
+                <p>In the Introduction topic, right-click the snippet under the heading that you inserted previously. In the context menu, select <span class="Emphasis">Snippet Conditions</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>On the left side of the dialog, select <span class="Emphasis">Snippet-Conditions</span>.</li>
+            <li>Select the <span class="Emphasis">Snippet1</span> row, and to the right click <span class="Emphasis">Include</span>.</li>
+            <li>
+                <p>Select the <span class="Emphasis">Snippet2</span> row, and to the right click <span class="Emphasis">Exclude</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> In the topic, notice that the final bullet item is shown, but the text below the list is hidden. Also, an icon is shown in the upper-right corner of the snippet, indicating that a snippet condition has been set on it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions17.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Open the <span class="Emphasis">Home.htm</span> topic, and repeat these steps. However, in this case tell Flare to exclude Snippet1 and include Snippet2. When you are finished, the topic should look as follows. Notice that the final bullet item is hidden and the paragraph after the list is shown.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In this example, we have inserted the snippet into separate topics. But you might experience situations where you have the same snippet inserted multiple times in the same topic, and you might want to set snippet conditions in those cases as well. Just to show that this works in the same way, right-click the snippet inserted in the Home topic, and from the context menu select <span class="Emphasis">Copy</span>.</li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Paste the snippet below the first instance.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions19.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Right-click the second snippet and select <span class="Emphasis">Snippet Conditions</span>. Then switch the conditions so that Snippet1 is included and Snippet2 is excluded. After you click <span class="Emphasis">OK</span>, the topic should look like this.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Snippet-Conditions/Snippet-Conditions20.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>They're the same snippets, just set to display different content</p>
+            </li>
+        </ol>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End.flsnp" />
+        </div>
+    </body>
+</html>

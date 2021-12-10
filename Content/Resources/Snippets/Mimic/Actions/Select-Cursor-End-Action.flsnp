@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../Objects/Select-End-Action-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Select an End Action for a Cursor</h2>
+        <ol>
+            <li>Open the frame.</li>
+            <li>Right-click the cursor. From the context menu, select <span class="Emphasis">Advanced &gt; Convert to Action Object</span>. This lets you add End actions to the cursor.</li>
+            <li>Double-click the cursor shape. <MadCap:snippetText src="../Objects/Object-Properties-Window-Pane-Opens.flsnp" /></li>
+            <li>Expand the <span class="Emphasis">Action</span> section.</li>
+            <li>
+                <p>In the <span class="Emphasis">Event</span> field, select <span class="Emphasis">End</span>.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Action</span> field, select the action that will take place when the event is performed: </p>
+                <MadCap:snippetBlock src="Action-Definitions-Objects-Only.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/Ca-Mi/General/Whats-Next-After-Edit.flsnp" />
+    </body>
+</html>

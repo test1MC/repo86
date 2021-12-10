@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Place your cursor in the XML Editor where you want to begin the list.</li>
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, click the down arrow in the list button <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Bullet-List-btn.png" class="ReduceButtonSize" />, and select <span class="Emphasis">Definition List</span>.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Flare/Lists/Definition-List7.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+                <p>The structure bars to the left indicate that you have a &lt;dl&gt; (list)&#160;tag and a &lt;dt&gt; (term) tag within it.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Flare/Lists/Definition-List8.png" alt="" title="" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Lists-Guide" />
+            <li>
+                <p>Type the term and press <span class="Emphasis">ENTER</span>.</p>
+                <p>Now you see another structure bar representing a &lt;dd&gt; (definition) tag.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Flare/Lists/Definition-List9.png" alt="" title="" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p>Type the definition and press <span class="Emphasis">ENTER</span>.</p>
+                <p>Another &lt;dd&gt; tag is created, in case you want to add another definition line for the term.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Flare/Lists/Definition-List10.png" alt="" title="" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li><span class="Emphasis">Add Another Definition </span>Type the definition, then press <span class="Emphasis">ENTER</span>.</li>
+                    <li><span class="Emphasis">Add Another Term </span>Press <span class="Emphasis">ENTER</span> (which changes the line from a &lt;dd&gt; tag to a &lt;dt&gt; tag), then type the term.</li>
+                    <li><span class="Emphasis">Exit Definition List </span>Press <span class="Emphasis">ENTER</span> twice (which places the cursor on a new &lt;p&gt; tag).</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

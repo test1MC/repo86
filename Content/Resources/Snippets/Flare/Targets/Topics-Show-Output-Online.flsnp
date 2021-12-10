@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>When you build online output, all of the topics in the project will be included in the output unless you use one of the following methods to include or exclude them. If you do not use one of these methods, every topic will be included in the output, even if you add only some of them to the TOC (e.g., readers will be able to locate topics that are not in the TOC by using the search feature).</p>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Applying Condition Tags at the Folder or File Level</span> You can place condition tags on folders or topic files in the Content Explorer, then include or exclude those conditions in the targets. By placing a condition on a folder, it will automatically become associated with all topics within it. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref> and <MadCap:xref href="../../../../Flare/Conditions/Process/Associating-Conditions-Targets.htm">Associating Conditions With Targets</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can place condition tags on files in the Project Organizer as well, but these conditions do not affect which files are included in the output. Rather, these conditions are useful for importing files from one Flare project into another. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Global-Project-Linking/GPL-Importing-Files1.htm">Global Project Linking—Importing Files from Other Projects</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel">Include Specifically Linked Content </span>Another method is to use an option in the Target Editor to include only content files that are linked in some way. First, you include files that are directly or indirectly referenced from the target. This means that if the target is using particular files such as a TOCs, template page, and so on, other files linked directly or indirectly from them will be part of the output. Second, you can include only files that are linked from the TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/More/Including-Specifically-Linked-Content.htm">Including Specifically Linked Content</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

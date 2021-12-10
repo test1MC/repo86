@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="393" MadCap:lastWidth="1072">
+    <body>
+        <p>When working with image maps, you can split an image (or a region you have already created) into equal hot regions.<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Images/Creating-Image-Maps.htm">Creating Image Maps</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Images/Creating-Image-Maps.htm">Creating Image Maps</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Split an Image into Equal Hot Regions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Word source document, select an image.</li>
+                    <li>In the <span class="Emphasis">Doc-To-Help</span> ribbon, click the <span class="Emphasis">Image Map Editor</span> button. The Image Map Editor opens.</li>
+                    <li>(Optional) If you would like to split a previously created region, select that region in the graphic.</li>
+                    <li>Click the <span class="Emphasis">Split into Hot Regions</span> button <img src="../../../../Images/D2H/Interface/Buttons/Split-Hot-Regions-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+                    <li>
+                        <p>In the Split Into Hot Regions dialog, do one of the following: </p>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">Split Entire Image </span>Select the <span class="Emphasis">Split Entire Region</span> radio button and enter the <span class="Emphasis">Row</span> and <span class="Emphasis">Column</span> dimensions.</li>
+                            <li><span class="SetOffFirstLevel">Split a Region </span>Select the <span class="Emphasis">Split selected hot region</span> radio button and enter the <span class="Emphasis">Row</span> and <span class="Emphasis">Column</span> dimensions. If you would like the original region to be deleted, select the <span class="Emphasis">Delete the region after splitting it</span> check box.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />&#160; </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

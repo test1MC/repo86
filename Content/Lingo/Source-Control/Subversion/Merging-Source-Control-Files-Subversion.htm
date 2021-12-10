@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Subversion.flmsp');">
+    <head />
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control:merging;Merging:source control" />Merging Source Control Files<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Subversion</MadCap:conditionalText></h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Merging-Commit-Summary.flsnp" />
+        <h2>How to Merge Source Control Files</h2>
+        <ol>
+            <li>Go through the process of updating files from source control or committing files. See <MadCap:xref href="Updating-Source-Control-Files-Subversion.htm">Manually Updating Source Control Files—Subversion</MadCap:xref> and <MadCap:xref href="Committing-Source-Control-Files-Subversion.htm">Committing Source Control Files—Subversion</MadCap:xref>. If your local copy of the file is different from the server copy (e.g., another user  has already committed the same file), the Resolve Conflicts dialog opens.</li>
+            <li>
+                <p>Click <span class="Emphasis">Auto Merge All</span>. If changes from the other user do not conflict with your changes, this will merge all changes. A message lets you know that a backup of your local copy has been made. This lets you restore that file if you do not want to keep the merged version. You do not need to complete the rest of the steps below.</p>
+                <p>However, if your changes conflict with those from another user, a message displays to tell you. In this case, continue with the next step.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Click-Ok-Conflict-Message.flsnp" /> </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Resolve-Conflicts-Dialog-Click-Resolve.flsnp" />
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Merge-Changes-For-Me.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Merge-Changes-Merge-Tool.flsnp" />
+                        <br />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Undo-My-Local-Changes.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Discard-External-Changes.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Option-Use-Merge-Tool-Merge-Changes-Dialog.flsnp" />
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Click-Change-Remote-Local.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Type-Content.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Previous-Next-Conflict.flsnp" />
+                    </li>
+                </ul>
+                <div class="note">
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/If-Selected-Merge-As-Text.flsnp" />
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/After-All-Conflicts-Resolved.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <div class="example">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Example-No-Conflicting-Changes.flsnp" />
+            <p>
+                <img src="../../../Resources/Images/Lingo/Source-Control/Merging-Files.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

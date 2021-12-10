@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Create a separate stylesheet intended to be used specifically for micro content. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Main-Activities/Creating-Stylesheets.htm">Creating Stylesheets</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>If you have a stylesheet set at the project or target level, make sure the option <span class="Emphasis">Allow local stylesheets</span> is selected. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Main-Activities/Associating-Primary-Stylesheets-All-Files.htm">Associating Primary Stylesheets With All Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>In the Content Explorer, navigate to the folder holding the micro content file.</li>
+            <li>Right-click the file, and from the context menu select <span class="Emphasis">Properties</span>.</li>
+            <li>Select the <b>Stylesheet Links</b> tab.</li>
+            <li>Double-click the stylesheet(s) that you want to associate with the micro content file. The stylesheet is added to the Current Links section on the right.<MadCap:snippetBlock src="../../../Shared/Co-Fl/Styles/Note-Associate-Stylesheet-File1.flsnp" /><div class="topic-only"><MadCap:snippetBlock src="../../../Shared/Co-Fl/Styles/Note-Associate-Stylesheet-File2.flsnp" /></div></li>
+            <li>(Optional) You can also select the option <span class="Emphasis">Disable project, target and topic stylesheets</span> if you do not want to use any other stylesheets along with the micro content stylesheet.</li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> The stylesheet is now associated with the file, and the look of responses in the Micro Content Editor changes accordingly.</li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

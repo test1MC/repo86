@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>To use the bulk invitation process, you first need to create or have access to a comma-separated value (CSV) file containing the information for the users you want to add. The CSV file should have three columns, with the following in the top cells of each column:</p>
+        <ul>
+            <li>Email</li>
+            <li>FirstName</li>
+            <li>LastName</li>
+        </ul>
+        <p>If you do not yet have such a file, you can download a template from Central, as described in the steps below.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can have no more than 1,000 user rows per CSV file. So for example, if you need to send out invitations to 4,813 users, it's best to put those users into five separate CSV files, and go through the invite process in Central five separate times (one for each file).</p>
+        </div>
+    </body>
+</html>

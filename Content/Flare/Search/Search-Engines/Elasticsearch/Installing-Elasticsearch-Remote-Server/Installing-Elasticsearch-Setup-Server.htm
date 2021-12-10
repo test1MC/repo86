@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <meta name="description" content="Installing and setting up items for the Elasticsearch service and the Content Services Portal." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Search:Elasticsearch;Elasticsearch:installation" />Setting Up the Elasticsearch Server and Content Portal</h1>
+        <p>Work through each section below to complete the remaining items needed for the Elasticsearch service. </p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Install the Elasticsearch Service</h2>
+        <p>Install Elasticsearch on the remote server to provide the engine for the Elasticsearch service.</p>
+        <ol>
+            <li>From Windows File Explorer, right-click the <span class="Emphasis">Elasticsearch</span> folder on the remote server, and select <span class="Emphasis">Properties</span>.</li>
+            <li>In the Elasticsearch Properties dialog, select the <span class="Emphasis">Security</span> tab.</li>
+            <li>In the <span class="Emphasis">Groups or user names</span> section, select the <span class="Emphasis">Everyone</span> account. If this account is not listed, do the following.<ol><li>Create this account by clicking <span class="Emphasis">Edit</span>. (You need to be signed is as an administrator.)</li><li>In the Permissions for Elasticsearch dialog, click <span class="Emphasis">Add</span>. The Select Users, Computers, Service Accounts, or Groups dialog opens.</li><li>In the <span class="Emphasis">Enter the object names to select</span> section, type <span class="TypedEntry">Everyone</span>. Click <span class="Emphasis">OK</span>.</li></ol></li>
+            <li>In the Permissions for Elasticsearch dialog, choose the permissions for <span class="Emphasis">Everyone</span>. Under the <span class="Emphasis">Allow</span> category, select <span class="Emphasis">Read</span> and <span class="Emphasis">Write</span>. </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>Navigate to <span class="Emphasis">Elasticsearch\config</span> directory, and open the <span class="Emphasis">elasticsearch.yml</span> file in a text editor (e.g., right-click, and select <span class="Emphasis">Edit with Notepad++</span>).</li>
+            <li>
+                <p>Under the <span class="Emphasis">Network</span> section, find the string “http.port: 9200” and remove the # character from it.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Elasticsearch uses port 9200 by default. You will notice in the Elasticsearch.yml file that the http port is 9200, and in the appsettings.json file the port is 9601 (in a later step). These numbers must match. You can choose to edit one of the files with either number. Just make sure they show the same number after the edits. If you change the port number in the YML file, you can specify the port number where it reads: http.port: 9200.</p>
+                </div>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Elasticsearch-Enable-Port-Number.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Save the YML file.</p>
+            </li>
+            <li>
+                <p>In the Windows Search bar, type <span class="TypedEntry">cmd</span>.</p>
+            </li>
+            <li>
+                <p>In the command prompt, navigate to the location of the copied Elasticsearch\bin directory (e.g., cd C:\Elasticsearch\bin).</p>
+            </li>
+            <li>
+                <p>Type <span class="TypedEntry">elasticsearch-service.bat install</span> and press <span class="Emphasis">ENTER</span>.</p>
+            </li>
+            <li>
+                <p>Type <span class="TypedEntry">elasticsearch-service.bat start</span> and press <span class="Emphasis">ENTER</span>. Elasticsearch is now running as the remote web server.</p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Set Up the Content Services Portal</h2>
+        <p>The Content Services Portal is necessary in order to manage the search data for the Elasticsearch-enabled HTML5 output.</p>
+        <ol>
+            <li>From Windows File Explorer, right-click the <span class="Emphasis">Web.ContentServices</span> folder on the remote server, and select <span class="Emphasis">Properties</span>.</li>
+            <li>In the Web.ContentServices Properties dialog, select the <span class="Emphasis">Security</span> tab.</li>
+            <li>In the <span class="Emphasis">Groups or user names</span> section, select the <span class="Emphasis">Everyone</span> account. If this account is not listed, do the following.<ol><li>Create this account by clicking <span class="Emphasis">Edit</span>. (You need to be signed is as an administrator.)</li><li>In the Permissions for Web.ContentServices dialog, click <span class="Emphasis">Add</span>. The Select Users, Computers, Service Accounts, or Groups dialog opens.</li><li>In the <span class="Emphasis">Enter the object names to select</span> section, type <span class="TypedEntry">Everyone</span>. Click <span class="Emphasis">OK</span>.</li></ol></li>
+            <li>In the Permissions for Web.ContentServices dialog, choose the permissions for <span MadCap:createDate="2020-09-17T13:31:34.0173681-07:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="This is similar to a step in the previous set of steps. In ththose steps this is capitalized and now emphasized (since I added it). Is this correct the way you have it here though?" MadCap:editor="pstoecklein" MadCap:editDate="2020-09-17T13:33:13.9474567-07:00" class="Emphasis">Everyone</span>. Under the <span class="Emphasis">Allow</span> category, select <span class="Emphasis">Read</span> and <span class="Emphasis">Write</span>. </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>In the <span class="Emphasis">Web.ContentServices</span> folder on the remote server, create a folder titled "logs.”</li>
+            <li>In the <span class="Emphasis">Web.ContentServices</span> folder on the remote server, open the <span class="Emphasis">appsettings.json</span>  file in a text editor (e.g., right-click, and select <span class="Emphasis">Edit with Notepad++</span>).<ol><li><p>Under the <span class="Emphasis">ConnectionStrings</span> section, update the path to be used for the DefaultConnection. The default string line should read as shown in the following image. </p><p><img src="../../../../../Resources/Images/Flare/Search/Elasticsearch-App-Settings-Default-Connection.png" alt="" title="" class="MaxWidth100Percent" /></p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Indices.db file is actually not created until the Content Services application is started in IIS and users start searching on the Elasticsearch output. In this step, you are simply specifying the location of where you want this file to reside on your remote server.</p></div><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Elasticsearch uses port 9200 by default. You will notice in the Elasticsearch.yml file that the http port is 9200 (in a previous step), and in the appsettings.json file the port is 9601. These numbers must match. You can choose to edit one of the files with either number. Just make sure they show the same number. If you change the port number in the JSON file, you can specify the port number where it reads:  http://localhost: 9601.</p></div></li><li><p>Under <span class="Emphasis">ContentServicesStartupConfigSettings</span>, update the path to be used for the <span class="Emphasis">DataRootDir</span>. The default string line should read as shown in the following image.</p><p><img src="../../../../../Resources/Images/Flare/Search/Elasticsearch-App-Settings-Data-Root-DIR.png" alt="" title="" class="MaxWidth100Percent" /></p></li><li><p>Save the JSON file.</p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Ensure that the paths you provide for DefaultConnection and DataRootDir in the appsettings.json file have read/write permissions for the user account logging into the web server.</p></div><div class="warning"><p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">If you decide to place the Web.ContentServices folder in a different location from the C:\inetpub\wwwroot location, make sure the configuration settings in the appsettings.json file match the location on your remote server where you placed the Web.ContentServices folder.</p></div></li></ol></li>
+        </ol>
+        <h2>Optional—How to Restrict Access to Content Services </h2>
+        <p>To restrict access to the Content Services Portal, configure the Content Services web application. This is done by installing the URL Rewrite Module, which will enable IP address security restrictions to work in your web.config.file. This is an optional procedure.</p>
+        <ol>
+            <li>In a browser, navigate to <a href="https://www.iis.net/downloads/microsoft/url-rewrite" target="_blank">https://www.iis.net/downloads/microsoft/url-rewrite</a>.</li>
+            <li>From the URL Rewrite web page, scroll down to the <span class="Emphasis">Download URL Rewrite Module 2.1</span> section.<ol><li>Determine the appropriate download option for your machine (e.g., x64 installer), and select it.</li><li>Click the executable file to install.</li></ol></li>
+            <li>In the <span class="Emphasis">Web.ContentServices</span> folder on the remote server, open the <span class="Emphasis">web.config</span> file in a text editor (e.g., right-click, and select <span class="Emphasis">Edit with Notepad++</span>).</li>
+            <li>
+                <p>Remove the comment characters from the <span class="Emphasis">&lt;rewrite&gt;</span> and <span class="Emphasis">&lt;/rewrite&gt;</span> tags in this file.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Elasticsearch-Remote-Server-Web-Config1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Modify <span class="Emphasis">YOUR_IP_ADDRESS</span> with your desired IP address pattern. You can enter a range of IP addresses in this field, or a singular IP address. This will block other addresses that do not match your IP address pattern from gaining administrator access to your Content Services Portal.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Elasticsearch-Remote-Server-Web-Config2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can enter a single IP address of the remote server to limit portal access to users only on that computer. However, you might need to provide access for more than just the remote server computer. For example, enter a range of IP addresses to provide access for authors to publish to the server.</p>
+                </div>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Configure the Content Services Web Application</h2>
+        <ol>
+            <li>From the Windows Search bar, type <span class="TypedEntry">IIS</span>.</li>
+            <li>Click the resulting item, <span class="Emphasis">Internet Information Services (IIS) Manager</span> app to open IIS Manager.</li>
+            <li>Right-click <span class="Emphasis">Application Pools</span>, and select <span class="Emphasis">Add Application Pool</span>. The Application Pool dialog opens.</li>
+            <li>
+                <p>In the <span class="Emphasis">Name</span> field, type a name (e.g., MyAppPool). Keep the other default settings, and click <span class="Emphasis">OK</span>. For information about application pools, refer to Microsoft documentation, <a href="https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/applicationpools/" target="_blank">https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/applicationpools/</a>.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-WebPortal1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the IIS Manager, navigate to <span class="Emphasis">Sites &gt; Default Web Site</span>.</li>
+            <li>Right-click <span class="Emphasis">Default Web Site</span>, and select <span class="Emphasis">Add Application</span>.</li>
+            <li>Enter the name of the <span class="Emphasis">Alias</span> for your Elasticsearch website (e.g., MyPortal).</li>
+            <li>
+                <p>Click the <span class="Emphasis">Select</span> button, and choose your Application pool.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can use the default Application pool or create a new one for this service.</p>
+                </div>
+            </li>
+            <li>Next to the <span class="Emphasis">Physical path</span> field, click the <span class="Emphasis">ellipsis</span> button.</li>
+            <li>
+                <p>Select the <span class="Emphasis">C:\inetpub\wwwroot\Web.ContentServices</span> directory. Or, if you placed the Web.ContentServices directory in another location on your server, select that location instead.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-WebPortal2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. Your Content Services application is now displayed under Default Web Site in IIS.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-WebPortal3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <li>
+                <p>Click <span class="Emphasis">Start</span> (or <span class="Emphasis">Restart</span> if it is already running) on your Default Web Site. The Content Services application is now running.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-WebPortal4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2><a name="Optional"></a>Optional—How to Verify Content Service Portal Installation</h2>
+        <p>Verifying the installation of Content Services Portal is not necessary to do, but it might provide peace of mind that is running properly. </p>
+        <ol>
+            <li>From the Windows Search bar, type <span class="TypedEntry">IIS</span>.</li>
+            <li>Click the resulting item, <span class="Emphasis">Internet Information Services (IIS) Manager</span> app. The IIS Manager opens and should show the website configured from earlier steps.</li>
+            <li>
+                <p>Right-click the portal (e.g. MyPortal) and select <span class="Emphasis">Manage Website &gt; Browse</span>.  If the following page displays, the portal was configured successfully.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-Portal.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The URL for the portal displays as http://localhost/MyPortal where “MyPortal” is the name of the website picked in an earlier step. In order for another computer to have access to this  server, replace “localhost” with the name of the remote server. <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Search/Elasticsearch-URL-example.flsnp" /></p>
+            </li>
+            <li>Ensure the computer with Flare (used to publish to the server) has access to the remote server. Open a browser on that local computer and browse to http://[name of server]/[MyPortal]. It should display the same portal page as in the last step.  This URL is the also the one to use for the Elasticsearch destination file in the Flare project.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>The next steps in the process involve integrating Elasticsearch with Flare. Once those are complete, you’ll be able take advantage of the full capabilities of Elasticsearch as your search engine. See <MadCap:xref href="../Enabling-Elasticsearch-Target-Editor.htm">Enabling Elasticsearch Through the Target Editor</MadCap:xref>.</p>
+    </body>
+</html>

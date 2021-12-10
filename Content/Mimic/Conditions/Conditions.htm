@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" p2:check_list="First Draft,Added To TOC,See Also keywords,Images,Browse Sequences,Ran Smart Index" xmlns:p2="http://www.madcapsoftware.com/schemas/MadCap.xsd" MadCap:ignoredWords="dialog...;Help.);target...;Default.&quot;" class="" style="mc-master-page: url('../../Resources/TemplatePages/Mimic/PDF-Topics/Mimic-Movie-Editing.flmsp');">
+    <head>
+        <link href="../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Use condition tags to define which movies, frames and objects based on the Conditional&#160;Text settings in the target output." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Conditions" />Conditions</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <div class="pdf-download-microcontent"><a href="https://docs.madcapsoftware.com/MimicV8/Mimic-Movie-Editing-Guide.pdf" target="_blank"><img src="../../Resources/Images/Shared/All/Interface/Buttons/User-Guide-btn.png" title="User Guide" class="micro-content-only" /></a>
+                </div>
+                <div class="Tiles-6-6">
+                    <div>
+                        <p>
+                            <MadCap:snippetText src="../../Resources/Snippets/Mimic/Conditions/Conditions-Summary.flsnp" />
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Targets/Targets.htm">Targets</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                            <col class="TableStyle-Fancy-Column-Regular" style="width: 100%;" />
+                            <thead>
+                                <tr class="TableStyle-Fancy-Head-Header1">
+                                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                        <p class="TableTextHead">Process</p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-Fancy-Body-LightRows">
+                                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                        <ol>
+                                            <li>
+                                                <MadCap:xref href="../Projects/Linking-Flare-Projects.htm">Linking to Flare Projects</MadCap:xref>
+                                            </li>
+                                            <li>
+                                                <MadCap:xref href="Creating-Conditions.htm">Creating Condition Tags</MadCap:xref>
+                                            </li>
+                                            <li>
+                                                <MadCap:xref href="Applying-Conditions.htm">Applying Condition Tags</MadCap:xref>
+                                            </li>
+                                            <li>
+                                                <MadCap:xref href="Associating-Conditions.htm">Associating Condition Tags</MadCap:xref>
+                                            </li>
+                                            <li>
+                                                <MadCap:xref href="Previewing-Conditions.htm">Previewing Conditions</MadCap:xref>
+                                            </li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <p class="center">
+                            <img src="../../Resources/Images/Mimic/Conditions/Conditions.png" alt="" title="" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Mimic-Guides.Mimic-Movie-Enhancement-Guide" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Mimic-Guides.Mimic-Movie-Enhancement-Guide" />
+        <MadCap:pageBreak MadCap:conditions="Mimic-Guides.Mimic-Movie-Enhancement-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>You are creating a movie that will be shown to two different audiences. Perhaps all of the frames in the movie are appropriate for each audience, except for the final five frames, which should be shown only to Audience A. In that case, you might create two condition tags—one called "AudienceA" and the other "AudienceB." </p>
+            <p>
+                <img src="../../Resources/Images/Mimic/Conditions/Create-Conditions.png" class="MaxWidth80Percent" />
+            </p>
+            <p>Then you can mark each of the final five frames so that they are associated with the AudienceA marker.</p>
+            <p>
+                <img src="../../Resources/Images/Mimic/Conditions/Apply-Conditions.png" class="MaxWidth90Percent" />
+            </p>
+            <p>In addition, you can create two targets—perhaps one is called "OutputA" and the other "OutputB." </p>
+            <p>
+                <img src="../../Resources/Images/Mimic/Conditions/Create-Targets.png" class="MaxWidth90Percent" />
+            </p>
+            <p>In the OutputA target, you tell Mimic to include the AudienceA condition tag and exclude the AudienceB condition tag. In the OutputB target, you do the opposite.</p>
+            <p>
+                <img src="../../Resources/Images/Mimic/Conditions/Associate-Conditions1.png" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../Resources/Images/Mimic/Conditions/Associate-Conditions2.png" class="MaxWidth90Percent" />
+            </p>
+            <p>When you generate the movie outputs, the movie using OutputA will show the final five frames. The movie using OutputB will not show the final five frames.</p>
+        </div>
+    </body>
+</html>

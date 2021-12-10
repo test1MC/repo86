@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can publish directly in different languages to ServiceNow<span class="Registered-Trademark">®</span>.</p>
+        <p>To do this, make sure the following have been done before publishing Flare output to ServiceNow<span class="Registered-Trademark">®</span>:</p>
+        <ul>
+            <li>Work with a ServiceNow<span class="Registered-Trademark">®</span> administrator to make sure you have the following permissions:<ul><li><span class="Emphasis">v_plugin </span>Read, write access is required to determine the plugin install status for a localized upload.</li><li><span class="Emphasis">sys_translated_text </span>Create, read, write access is required for the record- and field-level properties for creating category translation strings.</li></ul></li>
+            <li>On ServiceNow<span class="Registered-Trademark">®</span>, make sure the plugin for each language is installed.</li>
+            <li>You might need to switch user interface language in ServiceNow<span class="Registered-Trademark">®</span>.</li>
+            <li>In Flare, you must have a target that is configured for multilingual output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Translation-Localization/General-Information/Single-Multilingual-Targets/Creating-Multilingual-Targets.htm">Creating Multilingual Targets</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

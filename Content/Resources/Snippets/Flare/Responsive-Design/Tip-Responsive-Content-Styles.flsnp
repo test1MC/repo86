@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Tip: &lt;/span&gt;&lt;/b&gt;">Depending on the type of content you add to your responsive layouts, certain additional styles and settings might be especially useful for you. If you create a grid where the content in each cell is exactly the same size, you're likely to have a much easier time configuring your layout. But if you have different types of content in your cells, or content that requires more space in some cells than others, you might need to use additional styles and properties in your stylesheet. For example, the "height" property can be quite useful to keep all of your cells looking the same. In the Stylesheet Editor, you would expand <span class="Emphasis">(Complex Selectors)</span>, choose your main selector (e.g., if your layout is named "Grid," you would select <span class="Emphasis">div.Grid &gt; div</span>) and then complete the height or other settings to the right.</p>
+        </div>
+    </body>
+</html>

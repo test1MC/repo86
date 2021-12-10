@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">Opens the Lock dialog, where you can select files you want to lock. If your project is bound to Subversion, you can steal locks from another user's locked files using this dialog.</p>
+        <p class="TableText">When you are working, you may want to lock the files you have modified. Locking a file does not prevent other users from modifying the file. However, no one else can commit a file that you have locked until you unlock the file.</p>
+        <p class="TableText">If your project is bound to Subversion, you can steal a lock from another user if you need to commit a locked file while they are working on it. Likewise, another user can steal a lock on a file you have locked.</p>
+        <p class="TableText">You will see this option if your project is bound to Perforce Helix Core or Subversion.</p>
+        <p class="TableText">
+            <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Source-Control/Linked-Topics/Locking-Files.htm">Locking Files</MadCap:xref>.</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="Products.Lingo">See <MadCap:xref href="../../../../../Lingo/Source-Control/Linked-Topics/Locking-Files.htm">Locking Files</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+    </body>
+</html>

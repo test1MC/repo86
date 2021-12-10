@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Files-Without-File-Tags-Summary.flsnp" />
+        </p>
+        <p>
+            <MadCap:snippetText src="../../../File-Tagging/More-Info-About-File-Tags.flsnp" />
+        </p>
+        <h2>How to View Without File Tags</h2>
+        <ol>
+            <li>Open a project.</li>
+            <li>
+                <MadCap:snippetText src="../../../../Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Analysis &gt; More Reports &gt; Files Without File Tags</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Summary Window Pane</span> Double-click the row that mentions files without file tags.</li>
+                </ul>
+                <p>The Files Without File Tags window pane opens, listing all content files that do not have file tags associated with them.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">File</span> Displays the name of the file.</li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../../General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>You can open a file and associate file tags with it. <MadCap:snippetText src="../../../General/Double-Click-Right-Click-Open.flsnp" /></li>
+            <li>Once the file is open, select <span class="Emphasis">File &gt; Properties</span>. In the Properties dialog, you can use the <span class="Emphasis">File Tags</span> tab to associate file tags.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

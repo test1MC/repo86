@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Products.All-Products-Plus-Doc-Bible">
+    <Page Name="First" Width="7in" Height="9in" Padding="20px" PageType="first" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="0.75in" PaddingBottom="0.75in" BleedLeft="0.5in" Orientation="portrait" BleedBottom="0.5in" BleedTop="0.5in" BleedRight="0.5in" PageSize="Letter" BackgroundType="Solid">
+        <Frame X="0px" Y="84px" Width="672px" Height="77px" FlowIndex="2" Flow="body" Right="0px" Bottom="751px" Rotate="0" Anchors="Left,Top,Bottom" BorderBottomStyle="solid" BorderBottomWidth="2px" BorderBottomColor="#4d6b7d" />
+        <Frame Flow="body" Y="199px" Bottom="72px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="672px" Height="641px" FlowIndex="3">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="865px" Width="672px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../../../Snippets/Shared/All/Print-Output/Right-Page-Footer-Table.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Normal" Width="7in" Height="9in" Padding="20px" PageType="normal" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="0.75in" PaddingBottom="0.75in" BleedLeft="0.5in" Orientation="portrait" BleedBottom="0.5in" BleedTop="0.5in" BleedRight="0.5in" PageSize="Letter">
+        <Frame Flow="body" Y="0px" Bottom="72px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="672px" Height="840px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="865px" Width="672px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../../../Snippets/Shared/All/Print-Output/Right-Page-Footer-Table.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta name="description" content="Example of replacing variables globally in a project." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Find and replace;Finding:files;Files:finding" />
+            <MadCap:keyword term="Finding:elements;Elements:finding" />
+            <MadCap:keyword term="Variables" />
+            <MadCap:concept term="FilterFeatures" />Example—Replacing a Variable Tag's Attributes</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <p>You have a variable set called "General," which holds (among other things) a variable called "CompanyName." You want to find all the places in the project where this variable has been inserted into content files and replace it with another one. The new variable is called "Corporation" and is located in a different variable set called "Business." </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Set the fields like this(you will need to click <span class="Emphasis">Add Row</span> to enter the attribute):</p>
+                    <ul>
+                        <li><span class="Emphasis">Find </span>
+                            <ul>
+                                <li>
+                                    <img src="../../../../Resources/Images/Shared/Co-Fl-Li/Interface/Icons/Tag-ico.png" alt="" title="" class="ReduceButtonSize" /> Tag</li>
+                                <li>MadCap:variable</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <img src="../../../../Resources/Images/Shared/Co-Fl-Li/Interface/Icons/Attribute-ico.png" alt="" title="" class="ReduceButtonSize" /> Attribute</li>
+                                <li>name</li>
+                                <li>
+                                    <p>General.CompanyName</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><span class="Emphasis">Replace/Action </span>
+                            <ul>
+                                <li>
+                                    <img src="../../../../Resources/Images/Shared/Co-Fl-Li/Interface/Icons/Set-Attribute-ico.png" alt="" title="" class="ReduceButtonSize" /> Set Attribute</li>
+                                <li>name</li>
+                                <li>Business.Corporation</li>
+                            </ul>
+                        </li>
+                        <li><span class="Emphasis">Find in </span>
+                            <ul>
+                                <li>(whole project)</li>
+                            </ul>
+                        </li>
+                        <li><span class="Emphasis">File types </span>
+                            <ul>
+                                <li>All Supported Files</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>
+                        <img src="../../../../Resources/Images/Shared/Co-Fl-Li/Find-Replace/Find-Elements23.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>Click <span class="Emphasis">Find All</span>. After the results are all shown, and you confirm you want to change them, click <span class="Emphasis">Replace All</span>.</p>
+                </div>
+            </div>
+        </MadCap:microContent>
+    </body>
+</html>

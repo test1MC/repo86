@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/z-Dark-Print-Background-Supported-Contribution-New-Doc-Workflows.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../Banners/Supported-Review-Contribution-New-Doc-Workflows.flsnp" MadCap:conditions="Contributor-Guides.Contributor-Getting-Started-Guide,Contributor-Guides.Contributor-Contribution-Workflow-Guide" />
+        <p>You can create new documents (or topics) from the <MadCap:variable name="Other.Product" /> interface. If a Flare author has sent you a contribution template that you have saved, you can select that template when creating the new document.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Create a New Document</h2>
+        <ol>
+            <li>Select <span class="Emphasis">File &gt; New</span>.</li>
+            <li>
+                <p>Select a file to use as a basis for your new document, either from a template or from another existing file.</p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel"><MadCap:keyword term="Templates" />Factory Templates</span> If you selected Factory Templates, you can choose from various templates provided by <MadCap:variable name="Other.Product" />.</p>
+                        <MadCap:snippetBlock src="../Reviews-Contributions/Contributor-Doc-Template-Types.flsnp" />
+                        <MadCap:pageBreak MadCap:conditions="Contributor-Guides.Contributor-Getting-Started-Guide" />
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel"><MadCap:keyword term="Contribution templates" />My Templates</span> If you selected My Templates, you can choose from any templates that you have saved in your "Documents\My Templates\Contributor" folder. This would likely include any contribution templates that a Flare author has sent to you. See <MadCap:xref href="../../../../Contributor/Reviews-Contributions/Saving-Contribution-Templates.htm">Saving Contribution Templates</MadCap:xref>.</p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Any templates that you created in the past for X-Edit can still be used in <MadCap:variable name="Other.Product" />, but those files will need to be relocated to the new Contributor folder location in order to use them when creating new documents. </p>
+                    </li>
+                </ul>
+                <MadCap:pageBreak MadCap:conditions="Contributor-Guides.Contributor-Contribution-Workflow-Guide" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">New from existing</span> This lets you choose an existing file of the same type—that you've already created and stored somewhere—as a starting point for your new file. As with template files, your new file will take on all of the settings contained in the file you select. To use this option, click the browse button <img src="../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />, use the Open File dialog to find a file, and double-click it.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>In the <span class="Emphasis">Folder</span> field, select a folder  for the new document. You can browse for a folder by clicking the browse button <img src="../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. The Open File dialog, will open, allowing you to find a file.</li>
+            <li>In the <span class="Emphasis">File Name</span> field, enter a file name.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <p>For most document types, add any content, formatting, or annotations as necessary. If you created a stylesheet or page layout, you can use the respective editors to make changes to those types of files as well. </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After creating a new document, you can do a number of things with it, including the following.</p>
+        <MadCap:snippetBlock src="../Reviews-Contributions/Options-After-Creating-New-Document.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

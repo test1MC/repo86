@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>To successfully import user data from CSV, keep the following in mind:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Import a CSV&#160;File </span>The file must be saved in the CSV&#160;format. </li>
+            <li><span class="SetOffFirstLevel">Include Column Headings in the Top Data Row </span>Always use the first data row to define the column headings. Column headings must use exact spelling shown in the table below under "Column Name."</li>
+            <li><span class="SetOffFirstLevel">Column Order is Not Important </span>As long as you have named the column headings as required, the order of your columns is not important. </li>
+            <li><span class="SetOffFirstLevel">Table Must Contain At Least One Data Row </span>At a minimum, the file must contain at least one row of data.</li>
+            <li><span class="SetOffFirstLevel">Always Include the Required Columns </span>At a minimum, the user data you plan to import must contain these columns:&#160;<span class="TypedEntry">FirstName</span>, <span class="TypedEntry">LastName</span>, <span class="TypedEntry">EmailAddress</span>, and at least one assignment for <span class="TypedEntry">Groups</span>.</li>
+        </ul>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Below is an example of a properly formatted CSV file:</p>
+            <p>
+                <img src="../../../../Images/Shared/Fl-Pu/pulse_import_users_csv_file.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

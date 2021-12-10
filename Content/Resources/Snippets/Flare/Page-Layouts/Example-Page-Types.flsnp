@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are creating a page layout to be used only for the title page that occurs at the very first page of your manual. In that case, your page layout might have one page that uses the Title page type. In addition, you can add an Empty page type to that layout. In the output, the Title page will automatically be followed by an empty page.</p>
+            <p>Now let's say that you are creating a second page layout to be used for the chapters in your document. Suppose that on the first page of each chapter, you do not want any header, but you want a page number at the bottom-right of the page. You also want each chapter to begin on a right page. Therefore, you create one page with a page type of First Right.</p>
+            <p>Next, suppose you want the pages that appear on the left side of the document to have the name of the manual in the upper-left corner and a page number in the lower-left corner. Therefore, you create another page with a page type of Left.</p>
+            <p>Perhaps you want the pages that appear on the right side of the document to have the chapter name of the manual in the upper-right corner and a page number in the lower-right corner. Therefore, you create another page with a page type of Right.</p>
+            <p>Finally, in order to ensure that the first page of each chapter starts on the right side of the manual, you create a fourth page with a page type of Empty Left. This allows an empty page to be forced (if necessary) on the left side immediately before the beginning of the next chapter.</p>
+        </div>
+    </body>
+</html>

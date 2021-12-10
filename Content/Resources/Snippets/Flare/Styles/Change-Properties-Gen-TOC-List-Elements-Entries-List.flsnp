@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li MadCap:conditions="Snippets.Snippet1,Snippets.Snippet3">
+                <p><span class="SetOffFirstLevel">Alignment of Heading Level </span>To change the alignment (left, right, center) for all of the content in a heading level, expand the <span class="Emphasis">Block</span> property group. Then to the right of <span class="Emphasis">text-align</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and select one of the alignment options from the drop-down.</p>
+                <div class="example" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a generated TOC for a PDF document, and it includes three different levels in it. The look of the first level is controlled by the p.TOC1 style, the second level by the p.TOC2 style, and the third level by the p.TOC3 style.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Styles/TOC-Alignment1.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>Suppose you want the first level only to be aligned right. To accomplish this, you select the <span class="Emphasis">p.TOC1</span> style in your stylesheet, expand the <span class="Emphasis">Block</span> property group, and set <span class="Emphasis">text-align</span> to <span class="Emphasis">right</span>.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Styles/TOC-Alignment2.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+                    <p>After you generate the PDF again, it would look like this:</p>
+                    <p>
+                        <img src="../../../Images/Flare/Styles/TOC-Alignment3.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel">Alignment of Page Number (Print Output) </span>To change the alignment (left, right, center) of the page number, expand the <span class="Emphasis">Unclassified</span> property group. Then to the right of <span class="Emphasis">mc-leader-align</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and select one of the alignment options.</li>
+            <li><span class="SetOffFirstLevel">Font Family </span>To change the font family (e.g., Arial, Verdana), expand the <span class="Emphasis">Font</span> property group. To the right of <span class="Emphasis">font-family</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and select the font or a font set you want to use.</li>
+            <li><span class="SetOffFirstLevel">Font Size </span>To change the font size (e.g., 10 pt, 11 pt), expand the <span class="Emphasis">Font</span> property group. To the right of <span class="Emphasis">font-size</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and set the font size.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Leader Format  (Print Output) </span>To change the format of the area between the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">TOC heading</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">item in the list</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet3">mini-TOC heading</MadCap:conditionalText> and the page number, expand the <span class="Emphasis">Unclassified</span> property group. To the right of <span class="Emphasis">mc-leader-format</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and type the character to use. For example, if you want a series of dots, type a period. If you do not want to use a leader format, leave this field blank.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can enter one character only (period, hyphen, or underscore). Spaces are also supported, and if you use a character that is not supported, a space will automatically be used.</p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel">Leader Space Before/After  (Print Output) </span>Expand the <span class="Emphasis">Unclassified</span> property group. To change the <span class="EmphasisItalic">distance  from the end of the list entry to the start of the leader</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> to the right of <span class="Emphasis">mc-leader-indent</span>, and set the margin value. To change the <span class="EmphasisItalic">distance between the end of the leader and the page number</span>,  click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> to the right of <span class="Emphasis">mc-leader-offset</span>, and set the margin value.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <li MadCap:conditions="Snippets.Snippet1">
+                <p class="PageBreakBefore"><span class="SetOffFirstLevel">Page Break (Avoid Heading Orphans in Print Output) </span>To avoid orphan TOC headings (e.g., a first-level heading in the TOC that is stuck by itself at the bottom of the page, with its second-level headings continuing at the top of the next page), you can set that style (e.g., p.TOC1) to avoid a page break after it. To do this, expand the <span class="Emphasis">PrintSupport</span> property group. To the right of <span class="Emphasis">page-break-after</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and select <span class="Emphasis">avoid</span>.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Instead of this…</p>
+                    <p>
+                        <img src="../../../Images/Flare/Styles/TOC-Heading-Orphan1.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>… you can have this.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Styles/TOC-Heading-Orphan2.png" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel">Padding Above </span>To change the amount of empty space (padding) above the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">TOC heading</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">item in the list</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet3">mini-TOC heading</MadCap:conditionalText>, expand the <span class="Emphasis">Box</span> property group. To the right of <span class="Emphasis">padding-top</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and set the padding value. You can also use the other cells in this property group to add padding below, to the left, or to the right.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Space in Front (Indentation) </span>To change the distance from the left page margin to the beginning of the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">TOC heading</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">item in the list</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet3">mini-TOC heading</MadCap:conditionalText>, expand the <span class="Emphasis">Box</span> property group. To the right of <span class="Emphasis">margin-left</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and set the margin value. You can specify additional indentation for headings that wrap to more than one line. To do this, expand the <span class="Emphasis">Unclassified</span> property group. To the right of <span class="Emphasis">mc-multiline-indent</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and set the margin value. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Paragraphs/Creating-Multiline-Indentation1.htm" target="" title="" alt="">Creating Multiline Indentation</MadCap:xref>.</MadCap:conditionalText></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <div class="example" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The following image shows how the <span class="Emphasis">mc-multiline-indent</span> property works alongside the <span class="Emphasis">margin-left</span> property in a print TOC.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Paragraphs/MC-Multiline-Indent-TOC.png" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

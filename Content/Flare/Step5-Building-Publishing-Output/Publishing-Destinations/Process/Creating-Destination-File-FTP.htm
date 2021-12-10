@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="More...;MyDestination.&quot;;me...;needs.);Website;IP;ftp.acme.com.;allowed.);Url;s">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="You can create a destination file using File Transfer Protocol (FTP) if you want to publish output files to another computer over a TCP/IP network and you are not overly concerned with security." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Publishing:destinations;Destinations:creating" />
+            <MadCap:keyword term="File Transfer Protocol" />Creating Destination Files Using File Transfer Protocol</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <div class="Tiles-8-4-Microcontent">
+                    <div>
+                        <p>You can create a destination file using File Transfer Protocol (FTP) if you want to publish output files to another computer over a TCP/IP network and you are not overly concerned with security.</p>
+                    </div>
+                    <div>
+                        <p>
+                            <img src="../../../../Resources/Images/Flare/Output/Destinations-FTP-SFTP.png" class="ThumbnailMicroContent" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Create a Destination File Using FTP</h2>
+        <ol type="1">
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Output/Destinations/Open-Add-Destination.flsnp" />
+            </li>
+            <li>In the Destination Editor, click in the <span class="Emphasis">Type</span> drop-down field, and select <span class="Emphasis">FTP</span>.</li>
+            <li>In the <span class="Emphasis">Host Name</span> field, enter or select the name of the remote server or the computer where the output files will be published (e.g., acme.com).</li>
+            <li>In the <span class="Emphasis">Port</span> field, enter the port that you will use to connect to the remote server. Typically, you can obtain the port from your network administrator. The default port for FTP is 21.</li>
+            <li>In the <span class="Emphasis">Connection Mode</span> field, select either <span class="Emphasis">Active</span> or <span class="Emphasis">Passive</span>. These two modes have to do with security firewalls and how FTP connections are made between the server and the client. With Active mode, the client initiates the connection for the command channel, and the server initiates the connection for the data channel. With Passive mode, the client initiates the connection for both channels. From a security standpoint, Active mode is more beneficial for the server side, and Passive mode is more beneficial for the client side.</li>
+            <li>
+                <p>In the <span class="Emphasis">Directory</span> field, enter the folder where the output files will be published. You might enter something like this: public_html/Help/FictionSoftPro. You can also leave the default setting of "public_html" if you are publishing to the root directory on the server.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you publish output, only the files and subfolders within your target's output folder are sent to the destination. The target output folder itself is not included. For example, let's say you have a target named "AdvancedOutput." If you want the output to be placed in a destination with the same folder name, you need to create the "AdvancedOutput" folder at the final location first. Then in your publishing destination file, you can point to that exact folder. When you publish the output, the necessary files will automatically be placed inside it.</p>
+                </div>
+            </li>
+            <li>(Optional) You can the <span class="Emphasis">Comment</span> field to provide a description of the destination so that its purpose is clear.</li>
+            <li>Select <span class="Emphasis">Login Credentials</span> and enter the user name and password required for accessing the server to which you are publishing. This field is enabled only after you enter the host name.</li>
+            <li>(Optional) Select <span class="Emphasis">Anonymous Login</span> if you want to publish to the server without being required to enter a user name or password. (You may need to check with your network administrator to determine if this is allowed.)</li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Output/Destinations/View-URL-Field.flsnp" />
+            </li>
+            <li>
+                <p>(Optional) You can select the following upload options.</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Output/Destinations/Upload-Only-Changed-Files.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Output/Destinations/Remove-Outdated-Published-Files.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">
+            <MadCap:xref href="Associating-Publishing-Destinations-Targets.htm" target="" title="" alt="">Associating Publishing Destinations with Targets</MadCap:xref>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have two condition tags—one called "Beginner" and another called "Advanced." Let's say that you have a topic containing three paragraphs. You apply the Advanced tag to the first two paragraphs, and you apply the Beginner tag to the last two paragraphs.</p>
+            <p>You have created a target called "Advanced Set Up." For this target, you obviously want to include all content associated with the Advanced tag, but you want to exclude content associated with the Beginner tag. </p>
+            <p>By default, Flare will include content associated with both tags, unless you tell it not to. So you tell Flare to exclude the content associated with the Beginner tag. The problem is the middle paragraph from the topic mentioned above. It is associated with both tags. You have told Flare to exclude content associated with the Beginner tag, and it will do so, overriding the default. But you want to make sure that paragraph is included in the "Advanced Set Up" output. That is why you need to make sure you select the Include option next to the Advanced tag. </p>
+        </div>
+    </body>
+</html>

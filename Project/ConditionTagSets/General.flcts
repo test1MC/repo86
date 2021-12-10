@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags"
+  conditions="Products.All-Products">
+  <ConditionTag
+    Comment=""
+    Name="Print-Only"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#80ff80"
+    Name="Online-Only"
+    Comment=""
+    Color="Normal" />
+  <ConditionTag
+    BackgroundColor="#000000"
+    Name="Not-Server"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="LightCyan"
+    Name="Server-Only"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="Future"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Local-Only"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="Templates"
+    Comment="" />
+</CatapultConditionTagSet>

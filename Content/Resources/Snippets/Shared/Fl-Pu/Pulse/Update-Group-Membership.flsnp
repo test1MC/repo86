@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <p>Select the group to manage (see above).</p>
+                <p>Information for the selected group should now appear in the Manage Groups page. You will see three tabs:&#160;Basic, Membership, and Advanced. </p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Membership</span> tab, you have these options:</p>
+                <ul>
+                    <li>
+                        <p>
+                            <span class="SetOffFirstLevel">Add a Member </span>In the <span class="Emphasis">What users are members of this group?</span> box, type a full or partial name. Then place a check mark next to the user name(s) that you want to add to the group.</p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">When a user is added to multiple groups, their level of system access corresponds to group with the highest permissions. For example, if a user belongs to both the Employees and Customers group, the user will be granted all of the permissions for the Employees group.</p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="SetOffFirstLevel">Remove a Member </span>Clear the check mark next to the appropriate user name to remove the select user(s).</p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If a registered user is not a member of any group, the system provides that user with the same permissions as members of the Customers group.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>Click <span class="Emphasis">Save</span>.</li>
+        </ol>
+    </body>
+</html>

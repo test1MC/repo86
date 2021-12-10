@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="Open-Project.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Open-Build-Management.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Navigate-Target.flsnp" />
+            </li>
+            <li>
+                <p>In the toolbar of the Targets pane, click <img src="../../../Images/Central/Interface/Buttons/Vertical-Dots-btn.png" alt="" title="" class="ReduceButtonSize" />, and from the menu, select <b>Schedule Build</b>.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Projects/Builds/Run-Schedule-Builds6.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                    <p>The Schedule Build dialog opens.</p>
+                    <p>
+                        <img src="../../../Images/Central/Projects/Builds/Run-Schedule-Builds7.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>Complete the fields in the dialog.<div class="topic-only"><ul><li><p><span class="Emphasis">Time </span>Click in this field to open a clock popup.</p><p>On the clock, click any of the numbers to set the hour.</p><p>After this, the minutes area field is automatically selected. So click any of the numbers to set the minutes.</p><p>Click either <b>AM</b> or <b>PM</b>.</p><p>Click <b>OK</b> in the popup.</p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also click in the text field and type the time directly.</p></div></li><li><span class="Emphasis">Time zone </span>Click the down arrow and choose your time zone.</li><li><span class="Emphasis">Su M Tu W Th F Sa </span>Click on the day(s) of the week when you want the target to be generated.</li><li><span class="Emphasis">Build even if nothing changed from previous build </span>Select this option to always generate output on the specified days and times, even if no source files were changed. If you do not select this option, the target will be generated only if a change is detected in the source files.</li></ul><div class="example"><p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to schedule a target to be generated automatically. You want the target to be build every work day (Monday-Friday) at 9 p.m. Pacific time.</p><p>However, you only want the target to be generated if a change is detected in the source files since the previous build.</p><p>Your schedule would look something like this:</p><p><img src="../../../Images/Central/Projects/Builds/Run-Schedule-Builds4.png" alt="" title="" class="MaxWidth80Percent" /></p></div></div></li>
+            <li>
+                <p>Click <span class="Emphasis">Save</span>. An icon is added next to the target to indicate a schedule is associated with it.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Projects/Builds/Run-Schedule-Builds5.png" alt="" title="" class="MaxWidth60Percent" />
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

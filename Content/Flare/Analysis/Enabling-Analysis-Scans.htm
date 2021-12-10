@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Flare/User-Guides/Flare-Analysis-Reports.flmsp');">
+    <head><title></title>
+        <meta name="description" content="You can enable or disable the collection of different types of information when the analysis engine scans a project for possible issues and problems." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project analysis\; analysis" />
+            <MadCap:keyword term="Scan;Scan:enable;Scan:analysis" />
+            <MadCap:concept term="FilterFeatures" />Enabling Analysis Scans</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">Enabling Analysis Scans</h1>
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/Flare/Analysis/Enable-Project-Analysis-Scans-Summary.flsnp" />
+        </p>
+        <h2>How to Enable Analysis Scans</h2>
+        <ol>
+            <li>Select <span class="Emphasis">File &gt; Options</span>. The Options dialog opens.</li>
+            <li>Select the <span class="Emphasis">Project Analysis</span> tab.</li>
+            <li>Enable or disable any of the following:<ul><li><span class="SetOffFirstLevel">Collect Segments </span>Select this check box if you want Flare to collect segments of text while scanning your project. Segment collection lets you view information about your project such as frequent segments found and index keyword suggestions.</li><li><span class="SetOffFirstLevel">Collect Variable Prospects </span>Select this check box if you want Flare to look for text that you might want to convert to variables.</li><li><span class="SetOffFirstLevel">Collect Snippet Prospects </span>Select this check box if you want Flare to look for text that you might want to convert to snippets.</li><li><p><span class="SetOffFirstLevel">Collect Local Style Prospects </span>Select this check box if you want Flare to look for places where you have applied local formatting and might want to apply styles to those areas instead.</p></li><li><p><span class="SetOffFirstLevel">Collect Embedded Stylesheet Prospects </span>Select this check box if you want Flare to look for style information (embedded styles in &lt;style&gt; elements) in your topic files. Disabling this scan limits the results found in the style reports.</p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You should select this option if you have imported topics that have embedded styles. Otherwise, it is not usually necessary to select this option.</p></div></li><li><span class="SetOffFirstLevel">Collect Accessibility Prospects </span>Select this check box if you want Flare to look for text where you might want to add web accessibility features (e.g., captions, alternate text). <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../Accessibility/Accessibility.htm">Accessibility </MadCap:xref>.</MadCap:conditionalText></li><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" /><li><span class="SetOffFirstLevel">Collect Markup Prospects </span>Select this check box if you want Flare to look for a variety of XHTML markup issues in your content (e.g., extra spaces, empty attributes). You can open the affected files and clean up the markup in them. You may be able to fix some issues in the XML Editor, but other issues may require you to open the behind-the-scenes code in the Internal Text Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Interface/Editors/Internal-Text-Editor.htm">Internal Text Editor</MadCap:xref>.</MadCap:conditionalText></li></ul><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In order for these options to be effective, you must set the options before opening your project. If you have your project open and a scan is in process, setting these options will not improve your system performance.</p></div></li>
+            <li>
+                <p>You can click in the <span class="Emphasis">Search Limits</span> field to limit the number of results returned from some  reports. You can limit the search results to 100, 500, 1000, or 5000. If All is selected, there are no limitations for the search results. You might want to use this feature to improve performance.</p>
+                <p>When a limit is selected, it is applied to the following window panes and reports:</p>
+                <ul>
+                    <li>Index Keyword Suggestions</li>
+                    <li>New Style Suggestions</li>
+                    <li>Replace Local Style Suggestions</li>
+                    <li>Undefined Styles</li>
+                </ul>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../Resources/Images/Flare/Analysis/Limit-Search-Results.png" class="MaxWidth85Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

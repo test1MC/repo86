@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Doc-To-Help uses themes to style the "skin" that surrounds your content in online output, as well as the button display and labels, icons, colors, and so much more. Some predefined themes are included for each online target, and it is easy to create a custom theme to meet your needs and preferences. </p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/cHaWmYg6ay4" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+        </div>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">How to Select and Preview a Theme</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>How to Select and Preview a Theme</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">In Doc-To-Help, select the <span class="Emphasis">Home</span> ribbon.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">In Word, select the <span class="Emphasis">Target</span> ribbon.</li>
+                    <li>
+                        <p>Click the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">Target </span></MadCap:conditionalText><span class="Emphasis">Theme</span> drop-down and choose a theme from the list. The themes available will vary depending on the target chosen (to change the target, click the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">Active</span></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"><span class="Emphasis">Select</span></MadCap:conditionalText><span class="Emphasis"> Target</span> button).</p>
+                        <p>If the theme does not open automatically, click the <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">Target</span></MadCap:conditionalText><span class="Emphasis"> Theme</span> button.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">Customizing Themes</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Customizing themes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are the primary tasks for working with custom themes:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Add Theme </span>In order to create a custom theme or theme configuration, you must first add a new theme. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/Adding-Theme-Configuration.htm">Adding a Theme or Theme Configuration</MadCap:xref></MadCap:conditionalText>.<MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Adding-Theme-or-Theme-Configuration.htm">Adding a Theme or Theme Configuration</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Customize Eclipse Help and EPUB Themes </span>There are themes included with Eclipse Help and EPUB targets that you can use as the starting point for creating customized themes. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/Customizing-Eclipse-Help-EPUB-Themes.htm">Customizing Eclipse Help and EPUB Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Customizing-Eclipse-Help-EPUB-Themes.htm">Customizing Eclipse Help and EPUB Themes</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Customize HTML Help, Help Viewer, Help 2.0, or JavaHelp Themes </span>There are themes included with HTML Help, Help Viewer, Help 2.0, and JavaHelp targets that you can use as the starting point for creating customized themes. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/Customizing-HTML-Help-Help-Viewer-Help-20-JavaHelp-Themes.htm">Customizing HTML Help, Help Viewer, Help 2.0, and JavaHelp Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Customizing-HTML-Help-Help-Viewer-Help-20-JavaHelp-Themes.htm">Customizing HTML Help, Help Viewer, Help 2.0, and JavaHelp Themes</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Customize NetHelp Themes </span>There are predefined themes included with NetHelp targets that you can use as the starting point for creating customized themes. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Themes/Customizing-NetHelp-Themes.htm">Customizing NetHelp Themes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Themes/Customizing-NetHelp-Themes.htm">Customizing NetHelp Themes</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Design-Guide">Location of Custom Themes</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Location of Custom Themes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Custom themes are stored by default on your computer in C:\Users\[username]\Documents\My Doc-To-Help Projects\Doc-To-Help\Themes. You can change this location using the Doc-To-Help Options dialog (<span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Options</span><span MadCap:conditions="Snippets.Snippet1" class="Emphasis">File &gt; Doc-To-Help &gt; Options</span>). In the dialog, select <span class="Emphasis">Files</span>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

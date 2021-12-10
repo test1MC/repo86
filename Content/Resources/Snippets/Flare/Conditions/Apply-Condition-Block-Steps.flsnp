@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>Click on the text to which you want to apply the condition tag. (There is no need to highlight it.)</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Structure Bars</span>
+                        <ol class="LowerAlpha">
+                            <li>
+                                <MadCap:snippetText src="../../Shared/Co-Fl/General/Enable-Tag-Block-Bars1.flsnp" />
+                            </li>
+                            <li>
+                                <p>Right-click on the tag bar for the block of content to which you want to apply the condition tag.</p>
+                                <p>
+                                    <img src="../../../Images/Flare/Conditions/Condition-Apply-Select-Block-Bar.png" class="MaxWidth80Percent" />
+                                </p>
+                            </li>
+                            <li>In the context menu, select <span class="Emphasis">Conditions</span>.</li>
+                        </ol>
+                    </li>
+                </ul>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Ribbon </span>Select <b>Home &gt; Conditions</b>.</li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+SHIFT+C</span>.</li>
+                    <li><span class="SetOffFirstLevel">Right-Click</span> Right-click on the text and from the context menu select <span class="Emphasis">Conditions</span>.</li>
+                    <li><span class="SetOffFirstLevel">Drag-and-Drop/Structure Bars </span> Click on the condition tag and drag it to the selected text in the XML Editor. <ol class="LowerAlpha"><li><MadCap:snippetText src="../../Shared/Co-Fl/General/Enable-Tag-Block-Bars1.flsnp" /></li><li>In the Project Organizer, open the <span class="Emphasis">Conditional Text</span> folder and expand the appropriate condition tag set.</li><li>Click on the condition tag and drag it to the structure bar representing that paragraph in the XML Editor. (You can apply only one condition at a time to text using this method. However, you do not need to continue with any of the other steps below.)</li></ol><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide" /><MadCap:snippetBlock src="Drag-Conditions-Example-Structure-Bars.flsnp" /></li>
+                </ul>
+                <p>The Condition Tags dialog opens, with the first condition tag set selected and the associated condition tags shown on the right.</p>
+            </li>
+            <li>In the context menu, select <span class="Emphasis">Conditions</span>. The Condition Tags dialog opens, with the first condition tag set selected and the associated condition tags shown on the right.</li>
+            <li>If you want to see condition tags for a different condition tag set, select it.</li>
+            <li>For each condition tag that you want to apply to the block of content, click the check box next to the tag. A check mark appears in the box.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <p>There are two ways to tell whether a block of content has condition tags applied to it. In the bottom local toolbar of the XML Editor, click one of the following toggle buttons to turn the tag indicators on and off:</p>
+                <table class="TableStyle-Fancy" style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+                    <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableText">
+                                    <img src="../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" />
+                                </p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">
+                                    <MadCap:snippetText src="../../Shared/Co-Fl/Conditions/Show-Hide-Conditions-Option.flsnp" />
+                                </p>
+                                <p MadCap:conditions="Products.Flare-Online-Only,Flare-Guides.Flare-Condition-Tags-Guide">
+                                    <img src="../../../Images/Flare/Conditions/Condition-Applied-Block-Background-Shading.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Blocks-Bar-btn.png" />
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">
+                                    <MadCap:snippetText src="../../Shared/Co-Fl/Conditions/Show-Hide-Block-Bar-Conditions-Off.flsnp" />
+                                </p>
+                                <p MadCap:conditions="Products.Flare-Online-Only,Flare-Guides.Flare-Condition-Tags-Guide">
+                                    <img src="../../../Images/Flare/Conditions/Condition-Applied-Block-Bar.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video3-Primary-Local-CSS-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="How to locate the primary stylesheet and add a new stylesheet to a project." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-MultipleStylesheets.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Creating a Stylesheet</h1>
+        <p>You can launch Flare and start authoring without having to think about styles right away. <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Styles/Creating-Stylesheets-Summary.flsnp" /> </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Locate the Primary Stylesheet</h2>
+        <p>When you start working in the Austin project, there is a stylesheet already set for the project. A stylesheet set at the project or target level is referred to as primary stylesheet, and a stylesheet set the content-file level is a local stylesheet. Let's take a look at the primary stylesheet. </p>
+        <ol>
+            <li>
+                <p>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>. This is the default location for the project stylesheet, Styles.css. (If you use a different template for your project, you may see other stylesheets.)</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Stylesheet-Location.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Project</span> ribbon, click <span class="Emphasis">Project Properties</span>. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Interface/Buttons/Project-Properties-btn.png" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>The Project Properties dialog opens. Select the <span class="Emphasis">Defaults</span> tab. The Primary Stylesheet field is already populated with the Styles.css file.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-Proj-Properties1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li> Click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <p>From the Content Explorer, double-click the <span class="Emphasis">Introduction.htm</span> file. Notice the styles in the topic (orange h1, black h2, font size 12pt, etc.). The styles come from the stylesheet.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Simplified1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Mismatch-Images-Styles-Tutorials.flsnp" />
+            </li>
+            <li>From the <span class="Emphasis">Project</span> ribbon, click the <span class="Emphasis">Build Primary</span> drop-down and select <span class="Emphasis">Build All-About-Austin-HTML5</span>. The Builds window pane opens at the bottom of the Flare interface, and the target begins to generate. When the build finishes successfully, the Build Progress cell turns dark green.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Double-click the row to open the HTML5 output and view the styles in the output.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-StylesCSS-HTML5.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Repeat the steps above to build and view <span class="Emphasis">All-About-Austin-PDF</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-StylesCSS-PDF.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>Notice the styles in the generated output files. They correspond to the styles from the primary stylesheet, and display headings in orange and black.</p>
+            </li>
+        </ol>
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">The simplest and quickest way to get started with a new project is to create a single stylesheet and set it at the project level.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> It is recommended to use one stylesheet for your project if you can get away with it. This means there is only one stylesheet to maintain. However, you might have a project where you need more than one stylesheet to meet your needs. <MadCap:conditionalText MadCap:conditions="General.Online-Only">To determine how many stylesheets you should use for your project, see <MadCap:xref href="../../../Architecture/Internal-Architecture/Stylesheets.htm">Stylesheets</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        </div>
+        <h2>How to Add a Stylesheet</h2>
+        <p>In some cases, having multiple stylesheets might make more sense for your project. Flare makes it easy to add extra stylesheets to a project.</p>
+        <ol>
+            <li>
+                <p>From the Content Explorer, right-click the <span class="Emphasis">Stylesheets</span> folder, and from the context menu select <span class="Emphasis">New &gt; Stylesheet</span>. The Add File dialog opens. (You can add a stylesheet from any folder in the Content Explorer, but by initiating it from the Stylesheets folder, you direct it to store in that folder.)</p>
+            </li>
+            <li>In the <span class="Emphasis">Source</span> section, select <span class="Emphasis">New from template</span>.</li>
+            <li>Expand the <span class="Emphasis">Factory Templates</span> folder, and select <span class="Emphasis">Modern.css</span>.</li>
+            <li>
+                <p>In the <span class="Emphasis">Stylesheet</span> section, in the <span class="Emphasis">File Name</span> field, type <span class="TypedEntry">Modern</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-AddFile-Modern.png" alt="" title="" class="MaxWidth40Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">Add</span>. The new stylesheet is added to the Stylesheets folder, and it opens in the Stylesheet Editor.</p>
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can get a feel for how styles might appear by reviewing the Preview row (Simplified view), or the Preview section (Advanced view) in the Stylesheet Editor. For example, if you select the h1 element, that style displays to preview.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-PreviewStyles.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

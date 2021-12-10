@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can include or exclude a specific TOC entry (book, topic, external link) from a target.</p>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>Expand the <span class="Emphasis">TOCs</span> folder. </li>
+            <li>Double-click  a TOC. The TOC Editor opens to the right. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following.flsnp" />
+                </p>
+                <p class="Subheading">Drag and Drop</p>
+                <MadCap:snippetBlock src="../Conditions/Drag-Drop-Conditions-TOC-Browse-Seq.flsnp" />
+                <p class="Subheading">Properties Dialog</p>
+                <p>This method is best for applying multiple conditions at the same time.</p>
+                <ol class="LowerAlpha">
+                    <li>In the editor, select the entry to which you want to apply the tag.</li>
+                    <li>In the local toolbar, click <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog for the entry opens.</li>
+                    <li>Click the <span class="Emphasis">Conditional Text</span> tab. The first condition tag set is selected and the associated condition tags are shown on the right. </li>
+                    <li>If you want to see condition tags for a different condition tag set, select it.</li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide" />
+                    <li>For each condition tag that you want to apply to the entry, click the blank square next to the tag. A check mark appears in the square.</li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide" />
+                <p>The square next to the TOC entry in the TOC Editor now takes on the color of the condition tag. If you applied more than one condition tag to the TOC entry, each color is shown in the square.</p>
+                <p>If you cannot see the squares next to the TOC entries, click <img src="../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" class="ReduceButtonSize" /> at the bottom of the local toolbar to show the condition indicators. </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../Conditions/Condition-TOC-Entry.flsnp" />
+    </body>
+</html>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Accessibility.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Alternate &quot;alt&quot;&#160;text provides a textual option for non-text elements on a web page, which is required as part of Section 508 compliance." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Alternate text;Accessibility:alternate text" />Applying Alt Text</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/All-Online-PDF.flsnp" />
+        <p>Alternate "alt"&#160;text provides a textual option for non-text elements on a web page, which is required as part of Section 508 compliance. See <MadCap:xref href="../Standards-Guidelines/Section-508-WCAG.htm">Section 508 and WCAG</MadCap:xref>.</p>
+        <p>In Flare, you can apply alt text to many elements, including concept links, drop-down text, expanding text, images, related topics, and more.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+        <h2>How to Apply Alt Text Through the Language Skin</h2>
+        <ol>
+            <li>Add a language skin, or open one if it is already created on your project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Localization/General-Information/Language-Skins/Adding-Lang-Skins.htm">Creating User-Defined Language Skins</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>In the upper-right corner of the skin under <span class="Emphasis">Language Skin Targets</span>, select <span class="Emphasis">Print and Online</span>.</li>
+            <li>Under the <span class="Emphasis">Print and Online</span> category in your skin, scroll down to the section with the <span class="Emphasis">Formats</span>. You may need to sort the <span class="Emphasis">Name</span> column to list the Formats together.</li>
+            <li>
+                <p>In the <span class="Emphasis">Value</span> column, type the text of the  property you wish to modify.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Accessibility/Apply-Alt-Text-Language-Skin.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+        <h2>How to Apply Alt Text Through the Stylesheet</h2>
+        <ol>
+            <li>Open your stylesheet.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+            </li>
+            <li>
+                <p>Scroll down to the section with the MadCap styles. You can modify the alt text for the following:</p>
+                <ul>
+                    <li><b>MadCap|conceptLink</b>
+                    </li>
+                    <li><b>MadCap|dropDown</b>
+                    </li>
+                    <li><b>MadCap|expanding</b>
+                    </li>
+                    <li><b>MadCap|glossaryTerm</b>
+                    </li>
+                    <li><b>MadCap|keywordLink</b>
+                    </li>
+                    <li><b>MadCap|relatedTopics</b>
+                    </li>
+                    <li><b>MadCap|toggler</b>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Select-Show-Relevant-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>If you are using the group view, expand the <span class="Emphasis">Unclassified</span> group.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+            <li>
+                <p>Enter the alt text for each property. You can modify the following properties:</p>
+                <ul>
+                    <li>
+                        <p><span class="Emphasis">mc-closed-image-alt-text</span>
+                        </p>
+                        <p>This enables alt text when the drop-down icon  is closed. This property applies to the following:</p>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">MadCap|dropDown</span>
+                            </li>
+                            <li><span class="SetOffFirstLevel">MadCap|expanding</span>
+                            </li>
+                            <li><span class="SetOffFirstLevel">MadCap|glossaryTerm</span>
+                            </li>
+                            <li><span class="SetOffFirstLevel">MadCap|toggler</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><span class="Emphasis">mc-open-image-alt-text</span>
+                        </p>
+                        <p>This enables alt text when the drop-down icon is open. This property applies to the following:</p>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">MadCap|dropDown</span>
+                            </li>
+                            <li><span class="SetOffFirstLevel">MadCap|expanding</span>
+                            </li>
+                            <li><span class="SetOffFirstLevel">MadCap|glossaryTerm</span>
+                            </li>
+                            <li><span class="SetOffFirstLevel">MadCap|toggler</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><span class="Emphasis">mc-image-alt-text</span>
+                        </p>
+                        <p>This enables alt text on link icons. This property applies to the following:</p>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">MadCap|conceptLink</span>
+                            </li>
+                            <li><span class="SetOffFirstLevel">MadCap|keywordLink</span>
+                            </li>
+                            <li><span class="SetOffFirstLevel">MadCap|relatedTopics</span>
+                            </li>
+                        </ul>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to modify the alt text for the drop-downs in your project. So you modify the alt text when the drop-down  is open, and when it is closed.</p>
+                            <p>
+                                <img src="../../../Resources/Images/Flare/Accessibility/Apply-Alt-Text-Stylesheet.png" class="MaxWidth90Percent" /> </p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+        <h2>
+            <MadCap:keyword term="Images:accessibility;Accessibility:images" />
+            <MadCap:keyword term="Alternate text;Images:alternate text" />Applying Alt Text and Screen Tips to All Image References</h2>
+        <p>When you insert or edit an image, you can apply alternate text or screen tips to one image at a time, or to every instance of the image throughout the project. In Image Properties, you will see a check box that lets you apply the same alternate text and screen tip to all image references. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Images/Main-Activities/Inserting-Images.htm">Inserting Images</MadCap:xref> and <MadCap:xref href="../../Images/Main-Activities/Editing-Images/Editing-Images.htm">Editing Images</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Accessibility/Apply-Alt-Text-Screen-Tip-All.png" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+        <h2>Applying Alt Text and Screen Tips to Links</h2>
+        <p>When you insert or edit a link (e.g., cross-reference, or hyperlink), you can apply alternate text or screen tips. If you open the link dialog, enter text in the appropiate field to alter its properties. See <MadCap:xref href="../Outputs/Accessibility-PDF-Output.htm">Accessibility and PDF Output</MadCap:xref>.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Accessibility/Accessibility-Alt-Text-Links.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Accessibility/Alt-Text-In-Stylesheet-Language-Skin.flsnp" />
+    </body>
+</html>

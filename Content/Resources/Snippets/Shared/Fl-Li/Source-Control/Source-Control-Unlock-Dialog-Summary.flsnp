@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">Opens the Unlock dialog, where you can select files you want to unlock. </p>
+        <p class="TableText">
+            <MadCap:snippetText src="Source-Control-Unlock-Summary.flsnp" />
+        </p>
+        <p class="TableText">You will see this option if your project is bound to Perforce Helix Core or Subversion.</p>
+        <p class="TableText">
+            <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Source-Control/Linked-Topics/Unlocking-Files.htm">Unlocking Files</MadCap:xref>.</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="Products.Lingo">See <MadCap:xref href="../../../../../Lingo/Source-Control/Linked-Topics/Unlocking-Files.htm">Unlocking Files</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+    </body>
+</html>

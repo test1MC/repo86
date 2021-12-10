@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Subversion.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:roll back;Roll back:source control" />
+            <MadCap:keyword term="Source control:differences;Differences:source control" />
+            <MadCap:keyword term="Source control:history;History:source control" />
+            <MadCap:concept term="FilterProjects" />Rolling Back to an Earlier Version of a File<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Subversion</MadCap:conditionalText></h1>
+        <p>One of the benefits of <MadCap:variable name="Other.Product" />'s integrated source control is that you can view the history and differences for a particular file. <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Rollback-Summary.flsnp" /></p>
+        <p>See <MadCap:xref href="Viewing-Differences-Source-Control-Files-Subversion.htm">Viewing Differences in Source Control Files—Subversion</MadCap:xref> and <MadCap:xref href="Viewing-History-Source-Control-Files-Subversion.htm">Viewing the History of Source Control Files—Subversion</MadCap:xref>.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Example-Source-Control-Rollback-SVN.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <h2>How to Roll Back to an Earlier Version of a File</h2>
+        <ol>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Window-Pane-Select-File.flsnp" />
+                </p>
+                <p>OR</p>
+                <p>Open a file.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; View History</b>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>If you have the File List open, right-click the file you want to roll back and select <span class="Emphasis">Source Control &gt; View History</span>.</li>
+                    <li><span class="SetOffFirstLevel">Source Control Explorer </span>With the Pending Changes pane open,  right-click the file you want to roll back and select <span class="Emphasis">View History</span>.</li>
+                </ul>
+                <p>The History dialog opens.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Differences-Editor-Local-Toolbar.flsnp" />
+            </li>
+            <li>In the History dialog, select the version of the file to which you want to roll back.</li>
+            <li>Click <span class="Emphasis">Get Selected Version</span>. That file is retrieved from the server and replaces the local copy of the file in your project.</li>
+            <li>In the History dialog, click <span class="Emphasis">Close</span>.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If this is not enabled, lists are imported with the characters or symbols used for the lists in the Word documents. However, these are contained within span tags in the Flare topics. This allows you to keep special elements, (e.g., Wingdings) that you might have used in Word for custom lists.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a Word document with lists, and it looks like this:</p>
+            <p>
+                <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Use-List-Bullets1.png" alt="" title="" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+            <p>If the option to use standard list style types is enabled, the topic in Flare will look like this:</p>
+            <p>
+                <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Use-List-Bullets2.png" alt="" title="" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+            <p>If the option is disabled, the topic will look like this:</p>
+            <p>
+                <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Use-List-Bullets3.png" alt="" title="" />
+            </p>
+        </div>
+    </body>
+</html>

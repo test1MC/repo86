@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p MadCap:conditions="Flare-Guides.Flare-QR-Codes-Guide" class="TableTextRedBold">The following pages show examples of images with absolute positioning, but the same ideas are valid with QR codes.</p>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Positioning.flsnp" />
+        <p>
+            <img src="../../../Images/Shared/Co-Fl/Positioning/Absolute-Positioning1.png" alt="" title="" class="MaxWidth90Percent" />
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Common Properties and Options for Absolute Positioning</h2>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Positioning-Common-Properties-Options.flsnp" />
+        <div class="IndentMedium">
+            <h3>Absolute Position, Z-Index, and Text Wrap Options</h3>
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Position-Z-Index-Text-Wrap.flsnp" />
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Position-Z-Index-Text-Wrap-List.flsnp" />
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Position-Z-Index-Text-Wrap2.flsnp" />
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Example-Absolute-Position-Z-Index.flsnp" />
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Position-Z-Index-Text-Wrap3.flsnp" />
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Position-Z-Index-Text-Wrap4.flsnp" />
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Position-Z-Index-Text-Wrap-List2.flsnp" />
+            <h3>Left and Top</h3>
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Positioning-Left-Top.flsnp" />
+            <h3>Margins or Padding</h3>
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Positioning-Margins-Padding.flsnp" />
+        </div>
+        <h2>Creating Absolute Positioning</h2>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Positioning-How1.flsnp" />
+        <div class="IndentMedium">
+            <h3>How to Create Absolute Positioning Using Styles</h3>
+            <ol>
+                <li>
+                    <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Medium1.flsnp" />
+                    </p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Select-Medium2.flsnp" />
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Remembers-Last-Medium.flsnp" />
+                    </p>
+                    <p MadCap:conditions="General.Online-Only">
+                        <img src="../../../Images/Shared/Co-Fl/General/Medium.png" class="MaxWidth80Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+                </li>
+                <li>
+                    <p>From the area below, select the appropriate style.  If you want to use a class of the style, select it instead. For example:</p>
+                    <p>For images, select the <span class="Emphasis">img</span> style or a class below it.</p>
+                    <p>For paragraphs, select the <span class="Emphasis">p</span> style or a class below it.</p>
+                    <p>For QR codes, select the <span class="Emphasis">MadCap|qrCode</span> style or a class below it.</p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Positioning-Group1.flsnp" />
+                </li>
+                <li>To the right of <span class="Emphasis">position</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and select <span class="Emphasis">absolute</span>.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-QR-Codes-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <li>
+                    <p>To the right of <span class="Emphasis">z-index</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and and enter one of the following values, depending on the kind of effect you want:</p>
+                    <ul>
+                        <li>
+                            <p><span class="SetOffFirstLevel">0 </span>Wraps text around the absolutely positioned element on any or all sides.</p>
+                            <p>
+                                <img src="../../../Images/Shared/Co-Fl/Positioning/Absolute-Positioning3.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This option is supported only in PDF outputs. In online outputs the element will float to the left of content.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">-1 </span>Places the absolutely positioned element behind text.</p>
+                            <p>
+                                <img src="../../../Images/Shared/Co-Fl/Positioning/Absolute-Positioning7.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+                        <li>
+                            <p><span class="SetOffFirstLevel">1 </span>Places the absolutely positioned element in front of text.</p>
+                            <p>
+                                <img src="../../../Images/Shared/Co-Fl/Positioning/Absolute-Positioning8.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>(Optional) To the right of <span class="Emphasis">left</span> and <span class="Emphasis">top</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and enter the amount of distance the element should be placed from the left and top. You might complete this step if you know you always want absolutely positioned elements to be positioned in the same spot in each topic. Otherwise, you can leave these fields blank and manually drag the element in the topic when you insert it, changing its location at that point.</p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you use these settings and apply the style to an element, that element will be positioned accordingly. If you then manually drag the element somewhere else, that will overrule the location set on the style. The easiest way to revert back to the style location is to select the element, then in the <span class="Emphasis">Home</span> ribbon click <img src="../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Remove-Inline-Formatting-btn.png" alt="" title="" class="ReduceButtonSize" /> to remove the local formatting.</p>
+                    </div>
+                </li>
+                <li>(Optional) If you want to provide extra space between the edges of the absolutely positioned element and the content around it, expand the <span class="Emphasis">Box</span> property group. Then locate the margin or padding property that you want to change. Each side (bottom, left, right, top) has separate properties that you can set (e.g., margin-top, padding-bottom). If you plan to have the same settings for all four sides, you can simply use the <span class="Emphasis">margin</span> or <span class="Emphasis">padding</span> property.</li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <p>Whenever you apply the style to an element, it is absolutely positioned as you have specified. If you are working with an element such as an image or QR code, it is temporarily repositioned until you make further changes to it. Other elements, such as paragraphs, are placed into a container that has handles around the edges.</p>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to apply absolute positioning to the italicized paragraph in this topic.</p>
+                <p>
+                    <img src="../../../Images/Shared/Co-Fl/Positioning/Absolute-Positioning22.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>First, you apply your special paragraph style class to it. As a result, the paragraph changes, displaying inside a container with handles around the edges. That container can be resized and/or dragged where you want to place it.</p>
+                <p>
+                    <img src="../../../Images/Shared/Co-Fl/Positioning/Absolute-Positioning24.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </div>
+            <h3>To Use Local Formatting to Create Absolute Positioning</h3>
+            <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Absolute-Positioning-How-Local.flsnp" />
+        </div>
+        <h2>Example</h2>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Object-Positioning/Example-Absolute-Positioning.flsnp" />
+        <h2>Online vs. Print-Based Output</h2>
+        <p>Absolute positioning is supported in PDF and all online outputs. But due to some differences between these outputs and the viewing modes in the XML editor, there are some important things to consider.</p>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">No Square Text Wrap in Web Layout Mode and Online Outputs </span>The Square wraparound text option is available only in PDF&#160;outputs. For online output, absolute positioning is limited to placing elements either in front of or behind content. Browsers require floats in order to position elements next to text<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Object-Positioning/Using-Float-Positioning1.htm">Using Floats for Positioning Elements</MadCap:xref>)</MadCap:conditionalText>, but you cannot wrap text all around the element like you can in print-based outputs. So if you select the Square wraparound text option in Web Layout mode, it will float the element to the left text and that's how it will be shown in the online output as well.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In Web Layout mode, you can do this:</p>
+                    <p>
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning1.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-QR-Codes-Guide,Flare-Guides.Flare-Styles-Guide" />
+                    <p>But you can't do this:</p>
+                    <p>
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning2.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>If you use the Square wraparound option to position an image, in print output it might look like this:</p>
+                    <p>
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning14.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>But when you generate online output, it would automatically be adjusted to look something like this: </p>
+                    <p>
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning15.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-QR-Codes-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Content May Shift in Output </span>Third, you will notice that content can shift in output, but absolutely positioned elements do not move along with that content because they are not anchored to it. Rather, elements with absolute positioning are simply freed from the main flow of content, so if the main content shifts, the absolutely positioned element stays in place as the rest of the content is adjusted. This is especially noticeable in online outputs, where end users can resize the browser window.</p>
+                <p>
+                    <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>Also, an absolutely positioned element in Print Layout mode will usually display in a different location than in Web Layout mode. That's because Print Layout mode is based on specific page sizes that do not change, so the positioned element doesn't shift when you resize the XML Editor in Flare, unlike Web Layout mode. However, if you use conditions to exclude some content, you might see content shifting in print output while absolutely positioned elements stay in place.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a topic with absolutely positioned images in three successive paragraphs.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning5.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>If you decide to condition the second image so that it is excluded from the output, the text below shifts up to compensate for the space no longer used by that picture. But the image in the third paragraph does not move up with that text.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning6.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Use Conditions to Separate Online Elements from Print Elements </span>If you want to position an element and have it look a certain way in online output and a different way in print-based outputs, we suggest you insert the element twice (one for online output and one for print output) and use conditions to separate them accordingly. In the XML Editor you can use the condition preview button <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Conditions-btn3.png" alt="" class="ReduceButtonSize" /> in the upper-left corner to display only the appropriate one while you are editing, depending on the layout mode (Web or Print).</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to position an image so that text flows all around it in PDF output. You realize that this same image will automatically be floated to the left of content in HTML5 output. But suppose you would prefer the image to be floated to the right in the HTML5 output. Therefore, you decide to have a second copy of the picture positioned to the right, with content flowing to the left of it. So you insert both images, using absolute positioning for the PDF version and a float for the HTML5 version.</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning7.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-QR-Codes-Guide" />
+                    <p MadCap:conditions="">Next, you apply an online condition tag to the image using the float and a print condition tag to the image using absolute positioning.</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning8.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p MadCap:conditions="">Because the topic is currently being displayed in Print Layout mode, you only want to see the image to be used for print outputs while you are editing. So on the left side of the top local toolbar, you click the condition preview button <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Conditions-btn3.png" alt="" class="ReduceButtonSize" />. This opens the Conditional Text dialog. In this dialog, you can select which conditions to include or exclude from view while you are editing. The quickest way to do this is to click the <span class="Emphasis">Target Expressions</span> drop-down and select a target that already has these conditions properly set for inclusion and exclusion.</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning9.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p MadCap:conditions="">After clicking <span class="Emphasis">OK</span> in the dialog, the correct image is shown in the XML Editor while the other one is hidden.</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning10.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p MadCap:conditions="">Now you click the toggle button to switch to Web Layout mode with the default style medium. But the preview conditions are still as you last set them, so the image for print is still shown. Also, because that image is set with the "Square" wraparound option, it is automatically floated left because that is the default behavior when that option is viewed for online outputs (and therefore in Web Layout mode).</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning11.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p MadCap:conditions="">So once again you click the condition preview button <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Conditions-btn3.png" alt="" class="ReduceButtonSize" />. This time in the Conditional Text dialog, you select a target designed for online output.</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning12.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p MadCap:conditions="">After clicking <span class="Emphasis">OK</span> in the dialog, the image for online output is shown in the XML Editor, correctly floated to the right, while the image for print output is hidden.</p>
+                    <p MadCap:conditions="">
+                        <img src="../../../Images/Flare/Object-Positioning/Absolute-Positioning13.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">As an alternative to the condition preview button, you can click the topic preview button <img src="../../../Images/Flare/Interface/Buttons/Preview-btn.png" alt="" title="" class="ReduceButtonSize" /> to see how the topic will look with different condition and target settings.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Topics/Main-Activities/Previewing-Topics.htm">Previewing Topics</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can use absolute positioning across multiple columns of content<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Creating-Columns.htm">Creating Columns</MadCap:xref>)</MadCap:conditionalText>. For example, if you have two columns of text and want an image to be placed in the middle with text in each column wrapping around it, you can do that. However, you cannot use absolute positioning across multiple frames in a page layout.</p>
+        </div>
+    </body>
+</html>

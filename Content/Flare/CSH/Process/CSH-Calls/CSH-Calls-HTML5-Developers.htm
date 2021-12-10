@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides-Tutorials-Videos/Flare-CSH.flmsp');">
+    <head><title></title>
+        <meta name="description" content="Information if you are producing HTML5 and want to incorporate context-sensitive Help (CSH) into the software application." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Output:HTML5;Context-sensitive Help:HTML5;HTML5:context-sensitive Help;HTML5:distributing" />CSH Calls for HTML5 Output</h1>
+        <p>Use the following information if you are producing <MadCap:variable name="Outputs.HTML5" /> and want to incorporate context-sensitive Help (CSH) into the software application.</p>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/nRxI87e98Ik" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+        </div>
+        <p>There are two methods you can use:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Method 1—JavaScript </span>Using this method requires calling a JavaScript function that Flare provides. </li>
+            <li><span class="SetOffFirstLevel">Method 2—URL </span>Using this method, you can create a hyperlink to launch the Help system. </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are using multiple skins for CSH, the author should select the option on the Advanced tab of the Target Editor to generate all skins. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Skins/Other-Activities/General/Setting-All-Skins-Generated.htm">Setting All Skins to Be Generated</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Which Method is Best for You?</h2>
+        <p>Each method has its unique benefits. Generally speaking, the JavaScript method lets you have more control, whereas the URL method is a bit more quick and simple.</p>
+        <p>One reason to choose the JavaScript method is to better control the window size and location. With the URL method, the browser window automatically starts to open at the same size and location as the previous time that browser window was opened. But if you have specified a different size and location for your output window, the window will visibly move and resize accordingly. The JavaScript method prevents this type of behavior by opening the window directly to the size and location you specified. You would set the window size and location in the skin. Then in the JavaScript call you would specify the appropriate skin.</p>
+        <p>Another benefit to using the JavaScript method is that it is required in order for the Browser Settings option to take effect. This option can be found on the Setup tab of the Skin Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Skins/Other-Activities/General/Specifying-Browser-Settings.htm">Specifying Browser Settings</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Flare/CSH/Security-Scans-Javascript-CSH-HTML5.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-CSH-Guide">See <MadCap:xref href="../../Other-Activities/Excluding-Javascript-CSH-Calls-HTML5.htm">Excluding JavaScript for CSH Calls in HTML5 Output</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-CSH-Guide" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Information-Developers.flsnp" />
+        <h2>How to Use the JavaScript Method for CSH Calls</h2>
+        <ol>
+            <li>
+                <p>Add a reference to the JavaScript file (which is created automatically when the author builds the output). This .js file should be named "csh.js." The reference to the JavaScript file should use the following format.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;script type="text/javascript" src="[path of file]/csh.js"&gt;&lt;/script&gt;</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Make sure you use forward slashes (/) in the src path to the file, even if the file is referenced locally. </p>
+                </div>
+            </li>
+            <li>
+                <p>Create a trigger and add the command to let users open the Help system. Here is a format that you can use to add a button.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp(ID, skin name, search string, first pick search string value );" /&gt;</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <p>You can change the input type and the value if necessary. The most important parts that you will adjust are the elements within parentheses (ID, skin name, search string, first pick search string value).</p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">ID </span>This can be either the ID name or number. The topic (or micro content phrase) and skin associated with the ID will be used. If no skin is associated with the ID in Flare, the skin name that you provide in this command will be used. </p>
+                        <p>Alternatively, the ID may contain a topic path. In this case, the specified topic will be loaded with the skin that is specified in this command. The topic path must be relative to the Content folder of the Flare project. You also have the option of entering "null" instead of an ID to use the Help system's default starting topic.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Skin Name </span>This is the name of the skin to use when opening the Help system. If a skin has been assigned to the ID in Flare <span class="EmphasisItalic">and</span> you enter a skin name in this command, the skin name in the command will take precedence. You also have the option of entering "null" instead of a skin name if you want to use the Help system's default skin or to use the skin that is associated with the CSH ID in Flare.</li>
+                    <li><span class="SetOffFirstLevel">Search String </span>This is an optional element that automatically performs a search for a specific string.</li>
+                    <li><span class="SetOffFirstLevel">First Pick Search String Value </span>This element can be used in conjunction with the search string. If you use the first pick option, you can include a true or false value. If the value is true, the first topic found with the specified search string will be opened automatically. If the value is false, the search results will simply be displayed; the first topic will not be opened automatically.</li>
+                </ul>
+            </li>
+        </ol>
+        <p>In the following example, the topic and skin associated with "Welcome" will be used. No search string information is included.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp('Welcome', null, null, null );" /&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>In the following example, the topic associated with "Welcome" will be used. "BlueSkin" will override the skin associated with "Welcome." No search string information is included.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp('Welcome', 'BlueSkin', null, null );" /&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>In the following example, the topic and skin associated with the ID value 1000 will be used. No search string information is included.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp(1000, null, null, null );" /&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>In the following example, the topic associated with the ID value 1000 will be used. "BlueSkin" will override the skin associated with ID value 1000. No search string information is included.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp(1000, 'BlueSkin', null, null );" /&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-CSH-Guide" />
+        <p>In the following example, "Company/Employees.htm" will be used with the default skin. No search string information is included.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp('Company/Employees.htm', null, null, null );" /&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>In the following example, both the default topic and skin will be used. A search will automatically be performed for the words "quarterly report," but the first topic found in the search <span class="EmphasisItalic">will not</span> be opened automatically.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp(null, null, 'quarterly report', false );" /&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>In the following example, the default topic will be used with "BlueSkin." A search will automatically be performed for the words "quarterly report," and the first topic found in the search <span class="EmphasisItalic">will</span> be opened automatically.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp(null, 'BlueSkin', 'quarterly report', true );" /&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-CSH-Guide" />
+        <h2>How to Use the URL Method for CSH Calls</h2>
+        <p>Create a trigger and add a link to let users open a specific area of the Help system. </p>
+        <p>There is a certain amount of flexibility in terms of how you create the link and what you can include in it. Here is the basic structure of the link, although not all of the information shown below is required.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">[main entry file].htm#cshid=[ID number, ID name, or topic path/name]&amp;searchQuery=[search string]&amp;firstPick=true</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>After #, you can specify any combination of the parameters (cshid, searchQuery, firstPick), separated by ampersands (&amp;). The order of the parameters does not matter.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Main entry file </span>Provide the path to the main entry file for the output. The file name is determined by whatever you enter into the <span class="Emphasis">Output File</span> field in the <span class="Emphasis">General</span> tab of the Target Editor. If you do not provide a name in this field, the name "Default" will be used.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">cshid </span>This can be either the identifier name or number. The topic (or micro content phrase)&#160;and skin that is associated with the ID will be used (unless you override it in this link by specifying a different skin name). </p>
+                <p>Alternatively, you can enter the path and name of the specific topic to which you want to link. If you use this element, an ID does not need to be created. The topic path must be relative to the Content folder of the Flare project.</p>
+            </li>
+            <li><span class="SetOffFirstLevel">searchQuery </span>This is an optional element that automatically performs a search for a specific string.</li>
+            <li><span class="SetOffFirstLevel">firstPick </span>This element can be used in conjunction with the search string. If you include the first pick option, the first topic found with the specified search string <span class="EmphasisItalic">will</span> be opened automatically. If you do not include this element, the search results will simply be displayed; the first topic <span class="EmphasisItalic">will not</span> be opened automatically.</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-CSH-Guide" />
+        <p>In the following examples, these values are used:</p>
+        <ul style="list-style-type: square;">
+            <li>Default.htm = main entry file name</li>
+            <li>1000 = CSH ID value</li>
+            <li>Soccer = CSH ID name</li>
+            <li>Soccer.htm = topic in the project, at the root level of the Content Explorer</li>
+            <li>World Cup Standings = search term</li>
+        </ul>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default.htm#cshid=Soccer"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default.htm#cshid=1000&amp;searchQuery=World Cup Standings&amp;firstPick=true"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default.htm#cshid=Soccer&amp;searchQuery=World Cup Standings&amp;firstPick=true"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default.htm#cshid=Soccer.htm&amp;searchQuery=World Cup Standings&amp;firstPick=true"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+    </body>
+</html>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="296" MadCap:lastWidth="908">
+    <body>
+        <p>To change the column display, right-click in the window and from the menu choose <span class="Emphasis">Columns</span>. The options are:</p>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Pending Change </span>Displays file status. TFS projects have different status displays than File or Web Repository projects. File or Web Repositories will note the check out status and the user name, if a document has been modified and who modified it, if it is a new document, and if it is unmodified by anyone. TFS projects will display the lock and edit status. The user name will display in the User column.</p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">User </span>Shows the name of the user working with the file.</p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Latest </span>Indicates whether the file displayed is the latest version.</p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Last Check-in </span>Displays the date/time the file was last checked in.</p>
+            </li>
+        </ul>
+        <p>The Team Log information displays for TFS projects only.</p>
+    </body>
+</html>

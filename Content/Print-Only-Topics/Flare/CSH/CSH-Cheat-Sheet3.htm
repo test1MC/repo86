@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1" MadCap:conditions="">
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1" colspan="2" MadCap:conditions="">
+                        <p class="TableTextHead">Making CSH Calls (the Developer's Part)</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr valign="top" class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Method 1: JavaScript</p>
+                        <p>
+                            <p>Add a reference to the JavaScript file (which is created automatically when the author builds the output). This .js file should be named "csh.js." </p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;script type="text/javascript" src="[path of file]/csh.js"&gt;&lt;/script&gt;</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </p>
+                        <p>
+                            <p>Create a trigger and add the command to let users open the Help system. Following is an example.</p>
+                            <MadCap:codeSnippet>
+                                <MadCap:codeSnippetCopyButton />
+                                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">&lt;input type="button" value="Open Help System" onclick="MadCap.OpenHelp(ID, skin name, search string, first pick search string value );" /&gt;</MadCap:codeSnippetBody>
+                            </MadCap:codeSnippet>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableTextEmphasis">Method 2: URL</p>
+                        <p>Create a trigger and add a link to let users open a specific area of the online output.</p>
+                        <p>Following is the basic structure (although some of the information shown after # is optional).</p>
+                        <MadCap:codeSnippet>
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">[main entry file].htm#cshid=[ID number, ID name, or topic path/name]&amp;searchQuery=[search string]&amp;firstPick=true</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                        <p>A simple structure for HTML5 output would point to the main Default.htm entry file, followed by the CSH ID name. In the following example, "Soccer" is the name.</p>
+                        <MadCap:codeSnippet>
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default.htm#cshid=Soccer"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

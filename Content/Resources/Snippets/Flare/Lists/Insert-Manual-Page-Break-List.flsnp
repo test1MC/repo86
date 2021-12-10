@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <p>Place your cursor on an empty line in the list where you want to insert the page break. When you generate print-based output, the break occurs <span class="EmphasisItalic">after</span> this insertion point. </p>
+                <p>If this is between list items, you will initially see a number or bullet next to that empty line. </p>
+                <p MadCap:conditions="Snippets.Snippet1">
+                    <img src="../../../Images/Flare/Lists/Manual-Page-Break1.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>If there is a &lt;p&gt; tag within the &lt;li&gt; tag, remove the &lt;p&gt; tag by making it a simple list item. To do this, right-click the li structure bar and select <span class="Emphasis">Make Simple Item(s)</span>.</p>
+            </li>
+            <li>
+                <p>Select <b>Insert &gt; Page Break</b>.</p>
+                <p>A gray bar is displayed in the XML Editor, and the number or bullet is removed. The gray bar is also represented by a structure bar on the left side of the XML Editor. You can apply conditions to the break, in case it should be used in some outputs but not others.</p>
+                <p MadCap:conditions="Snippets.Snippet1">
+                    <img src="../../../Images/Flare/Lists/Manual-Page-Break2.png" alt="" title="" />
+                </p>
+                <p>In the code, <MadCap:variable name="Other.Product" /> uses the MadCap:pageBreak element where a page break is inserted.</p>
+            </li>
+        </ol>
+    </body>
+</html>

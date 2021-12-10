@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../Micro-Content-Toolbars/User-Guides/Analysis-Reports.flsnp" />
+        <div class="Tiles-6-6">
+            <div>
+                <p>
+                    <MadCap:snippetText src="../../Analysis/Analysis-Reporting-Summary.flsnp" />&#160;<a href="../../../../../Flare/Architecture/External-Architecture/Analysis-Reporting.htm">More Details…</a></p>
+                <table style="width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0" MadCap:conditions="Responsive.Tablet,Responsive.Web">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 50%;" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                                <p class="TableTextHead">Analysis on Source Files</p>
+                            </th>
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">Analysis on Output Files</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <MadCap:snippetBlock src="Analysis-Source-Files-List.flsnp" />
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <MadCap:snippetBlock src="Analysis-Output-Files-List.flsnp" />
+                                <p class="TableText">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyA-Regular-DarkerRows" colspan="2">
+                                <p class="TableText"><a href="../../../../../Flare/Architecture/External-Architecture/Analysis-Reporting.htm#WhatMadCapDocTeamDoes">What the MadCap Doc Team Does</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table style="width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0" MadCap:conditions="Responsive.Mobile-Online-Only">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 100%;" />
+                    <thead>
+                        <tr class="TableStyle-Fancy-Head-Header1">
+                            <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                <p class="TableTextHead">Analysis on Source Files</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <MadCap:snippetBlock src="Analysis-Source-Files-List.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-MidTableHeader" MadCap:pattern="10">
+                            <td class="TableStyle-Fancy-BodyD-Regular-MidTableHeader">
+                                <p class="TableTextHead">Analysis on Output Files</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <MadCap:snippetBlock src="Analysis-Output-Files-List.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-DarkerRows" colspan="2">
+                                <p class="TableText"><a href="../../../../../Flare/Architecture/External-Architecture/Analysis-Reporting.htm#WhatMadCapDocTeamDoes">What the MadCap Doc Team Does</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <p class="center" style="text-align: center;">
+                    <img src="../../../../Images/Flare/Micro-Content/MLP-Analysis.gif" />
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li><a href="../../../../Flare/TOCs/Process/Adding-TOC.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Add a TOC file</a> (which serves as an outline in print-based output) and within it <a href="../../../../Flare/TOCs/Process/Creating-TOCs/Creating-TOC-Manually.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">create entries</a> that link to topics.</li>
+            <li><a href="../../../../Flare/Topics/Main-Activities/Creating-Topics.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Create a new topic</a>.</li>
+            <li>
+                <p>At the top of the topic, enter a title (e.g., “Contents”) and remove unnecessary text after the topic title. It is probably best not to use an h1 through h6 style for the heading since it will then show up in the generated TOC.</p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">However, it is possible to configure your stylesheet so that certain h1 through h6 styles <i>do not</i> show up in the generated TOC. In the same way, it is possible to create other styles besides h1 through h6 and configure them so that they <i>do</i> show up in the generated TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/TOCs/Editing-Heading-Levels-Print-TOC1.htm">Editing Heading Levels for a Print TOC</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Output/Editing-Heading-Levels-Print-TOC1.htm">Editing Heading Levels for a Print TOC</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Output/Editing-Heading-Levels-Print-TOC2.htm">Tables of Contents</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                </div>
+            </li>
+            <li>From the <span class="Emphasis">Insert</span> ribbon, select <span class="Emphasis">Proxy &gt; Insert TOC Proxy</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+            <li>
+                <p>(Optional) From the <span class="Emphasis">Stylesheet class</span> field, you can select a style for the TOC. </p>
+                <div class="topic-only">
+                    <p>For example, you might create and use style classes if you want to generate multiple TOCs with different looks for each output. Otherwise, the generated TOC in the output will use the style settings from the parent MadCap|tocProxy style. You can create a style class for this purpose in the Stylesheet Editor. To do this, select the <span class="Emphasis">MadCap|tocProxy</span> style and in the local toolbar click <span class="Emphasis">Add Selector</span> to create a class. The class will then be available from this field.</p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to affect the look of the individual entries in the generated TOC, you can use the TOC1 through TOC9 styles (classes of the p style) in the Stylesheet Editor. For example, if you want to use blue font for the first-level headings in the generated TOC, you can change the font color setting on the p.TOC1 style. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/TOCs/Editing-Look-Print-TOC1.htm">Editing the Look of a Print TOC</MadCap:xref>.</MadCap:conditionalText></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>In the "outline" TOC file, <a href="../../../../Flare/Printed-Output/Adding-Print-Topics-Outline-TOC.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">add an entry</a> near the top that links to the new topic containing the TOC proxy.</li>
+        </ol>
+    </body>
+</html>

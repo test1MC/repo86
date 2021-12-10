@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <table class="TableStyle-Fancy" style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" MadCap:conditions="" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1" colspan="2">
+                        <p class="TableTextHead">Template</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Characteristics</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" colspan="2">
+                        <p class="TableTextEmphasis">Austin</p>
+                        <p class="TableText" MadCap:conditions="General.Online-Only">
+                            <img src="../../../Images/Flare/Projects/Austin.png" class="MaxWidth90Percent" alt="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <ul>
+                            <li>Designed to be used alongside various feature tutorials<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Tutorials/Tutorials.htm">Tutorials</MadCap:xref>)</MadCap:conditionalText>.</li>
+                            <li>Tutorials help you in the <span class="Emphasis">creation of Flare features</span>, such as micro content, context-sensitive Help, snippet conditions, and more.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-DarkerRows" colspan="2">
+                        <p class="TableTextEmphasis">San Diego</p>
+                        <p class="TableText" MadCap:conditions="General.Online-Only">
+                            <img src="../../../Images/Flare/Projects/San-Diego.png" class="MaxWidth90Percent" alt="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-DarkerRows">
+                        <ul>
+                            <li>Designed to be used alongside self-paced <span class="Emphasis">Getting Started tutorial</span><MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Tutorials/Getting-Started-Tutorial/Getting-Started-Tutorial.htm">Getting Started Tutorial</MadCap:xref>)</MadCap:conditionalText>.</li>
+                            <li>Tutorial gives you <span class="Emphasis">hands-on experience in Flare</span>, guiding you in the basic steps for creating, developing, and building output.</li>
+                            <li> End result is a PDF guide and online HTML5 output with <span class="Emphasis">top navigation like a modern website</span>, instead of the more traditional tripane format.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

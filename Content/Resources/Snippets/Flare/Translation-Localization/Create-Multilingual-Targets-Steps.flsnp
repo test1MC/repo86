@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>From the Project Organizer, double-click a target. </li>
+            <li>In the Target Editor, select the <span class="Emphasis">Language</span> tab.</li>
+            <li MadCap:conditions="Snippets.Snippet1">From the <span class="Emphasis">Language</span> drop-down, you can change the language.</li>
+            <li>
+                <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">(Optional)&#160;If you want to link to translated projects in other languages, do the following:</MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Link to translated projects in other languages.</MadCap:conditionalText>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>Click <img src="../../../Images/Flare/Interface/Buttons/Add-Language-Row-btn.png" alt="" title="" class="ReduceButtonSize" />. Another row is added to the grid.</li>
+                    <li>
+                        <p>In the <span class="Emphasis">Linked Project</span> column, click the link to select the Lingo or Flare project you want to link to your current project. </p>
+                        <p>If you have not added a linked project yet, the link looks like an ellipsis; if you have added a linked project, the link displays the project's file name.</p>
+                        <p>
+                            <img src="../../../Images/Flare/Translation-Localization/Link-Target-Lang-Ellipsis.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can link to many separate Lingo projects, or you can link multiple rows in this tab to the same multilingual Lingo project, or both.</p>
+                        </div>
+                    </li>
+                    <li> In the dialog, find and select the project you want to link to your current project. Click&#160;<span class="Emphasis">Open</span>.</li>
+                    <li>
+                        <p>If necessary, select the linked project's language from the <span class="Emphasis">Language</span> drop-down. Flare automatically detects the linked project's default language settings, so you only need to update this setting if you are pointing to a multilingual Lingo project, or if it is incorrect in the linked project.</p>
+                        <p>Additionally, if default translations are available for the selected language’s skin, it is noted in the <span class="Emphasis">Localized Skins</span> column. If you have a custom language skin for the selected language in your linked project, Flare automatically uses your custom translations. See <MadCap:xref href="../../../../Flare/Translation-Localization/General-Information/Language-Skins/Adding-Lang-Skins.htm">Creating User-Defined Language Skins</MadCap:xref>.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> If you link to a multilingual Lingo project, only the available languages from a multilingual project can be selected from the drop-down. </p>
+                        </div>
+                        <MadCap:snippetBlock src="Default-Language.flsnp" />
+                    </li>
+                    <li>
+                        <p>(Optional) Continue adding rows and linked projects for each additional target output language.</p>
+                    </li>
+                    <li>(Optional) Use the <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Up-btn.png" alt="" title="" class="ReduceButtonSize" /> and <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Down-btn.png" alt="" title="" class="ReduceButtonSize" /> buttons to rearrange your projects. They display in the output in the order they are listed on the Language tab (e.g., if you include a drop-down for users to choose each language in HTML5 output, or if you are working in a PDF target where one language will follow another in the output).</li>
+                </ol>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Snippets.Snippet3" />
+            <li>(Optional) If you have added links to one or more Lingo projects, you can select <span class="Emphasis">Sync Lingo projects</span> if you want to synchronize updates with those projects.</li>
+            <MadCap:snippetBlock src="../Targets/Sync-Lingo-Projects1.flsnp" />
+            <MadCap:snippetBlock src="../Targets/Warning-Sync-Lingo-Projects.flsnp" />
+            <li>(Optional)&#160;If you selected a right-to-left (RTL) language, you will see the following options at the bottom, which are enabled by default for RTL languages. Leave them selected to automatically invert the following: (1) language-related style rules locally, (2) language-related style rules in the stylesheet, (3) image callouts from MadCap Capture, and (4) page layout settings.<ul style="list-style-type: square;"><li class="SetOffFirstLevel">Invert left/right local styles</li><li class="SetOffFirstLevel">Invert left/right stylesheet rules</li><li class="SetOffFirstLevel">Invert Capture captions</li><li class="SetOffFirstLevel">Invert Page Layouts</li></ul><p>The options that are seen depend on the output type you are using.</p><ul><li><span class="SetOffFirstLevel">PDF/Word </span>All four options display.</li><li><span class="SetOffFirstLevel">HTML5/HTML Help/EPUB/Eclipse Help/WebHelp/WebHelp Plus </span>Local styles, CSS styles, and image callout options display.</li><li><span class="SetOffFirstLevel">DITA </span>No options display.</li></ul><p>These options are useful after you receive the project back from a translator. When you generate the output, the inversion of the styles and page layouts takes place.</p><div class="example"><p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a project in English, a left-to-right (LTR) language, and you need to have it translated into Arabic, a RTL language.</p><p>For your paragraph (p) style, suppose you have a left margin of 5 px and a right margin of 30 px.</p><p>Those settings work fine for targets using the LTR language. But for the RTL language, you need the settings to be flipped so that the left margin is 30 px and the right margin is 5 px.</p><p>So after you receive the project back from the translator, make sure the RTL language in Flare is set at either the project or target level.</p><p>As a result, the inversion options are automatically selected. When output is generated the paragraphs have a left margin of 30 px and a right margin of 5 px.</p></div><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The option to invert page layouts controls every aspect of the page layout file (e.g., it inverts not only frames and content within them, but also styles applied to frame content).  The other invert options have no effect on page layouts.</p></div><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If your selected language is LTR, these options cannot be accessed in the Target Editor.</p></div></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

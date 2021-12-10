@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Medium1.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Select-Medium2.flsnp" />
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Remembers-Last-Medium.flsnp" />
+                </p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../../Images/Shared/Co-Fl/General/Medium.png" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Some of the necessary style properties can also be changed in the Simplified view in the Stylesheet Editor.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+            </li>
+            <li>On the left side of the editor, scroll down and select the <span class="Emphasis">MadCap|miniTOCProxy</span> style or a class that you have created under it (e.g., MadCap|miniTOCProxy.myclass). </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../Styles/Note-Assorted-Relevant-Properties.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                </p>
+                <p>Following are some of the more common properties that you might change.</p>
+                <p class="Subheading">Common Properties</p>
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Background </span>To change the background of a mini-TOC, expand the <span class="Emphasis">Background</span> property group and change any of the properties within it. If you select both a background image and color, the image takes precedence.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Border above </span>To change or remove the border line that appears at the top of a mini-TOC in online output, expand the <span class="Emphasis">Border</span> property group. Then to the right of <span class="Emphasis">border-top</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and in the popup set the border width, unit of measurement, color, and/or style. <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> You can also use the other cells in this property group to add borders below, to the left, or to the right of the mini-TOC.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Depth </span>To change the number of levels of topic links shown in the mini-TOC, expand the <span class="Emphasis">Unclassified</span> property group. Then to the right of <span class="Emphasis">mc-toc-depth</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and select a number. The default setting is 3. Keep in mind that the depth can also be set directly on the proxy wherever it has been inserted. If you keep that proxy set with a depth of "default," the style setting will be used. But if you have a specific depth set on a particular proxy, that number will be used instead of the style setting. Remember that online outputs treat the depth setting differently than print outputs.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Font family </span>To change the font family (e.g., Arial, Verdana), expand the <span class="Emphasis">Font</span> property group. Then to the right of <span class="Emphasis">font-family</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and select the font family or font set you want to use.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Padding above </span>To change the amount of empty space (padding) above the text within the mini-TOC container, expand the <span class="Emphasis">Box</span> property group. Then to the right of <span class="Emphasis">padding-top</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, in the popup set the padding value, and click <span class="Emphasis">OK</span>. You can also use the other cells in this property group to add padding below, to the left, or to the right of the mini-TOC.</li>
+                </ul>
+                <MadCap:snippetBlock src="../Styles/Note-More-Info-Components-Props-Stylesheet-Editor.flsnp" MadCap:conditions="General.Online-Only" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

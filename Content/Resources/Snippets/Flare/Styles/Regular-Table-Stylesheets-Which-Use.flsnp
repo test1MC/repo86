@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Using a stylesheet is always preferred over local formatting (i.e., controlling the look of content only at the place where it has been inserted). The good thing about stylesheets is that they let you separate the presentation from the content. <span class="topic-only">That way, you can manage the look from one place, which can save you a lot of time and effort. For example, you can change the padding in 84 tables by changing a setting in a single stylesheet, as opposed to opening each of those 84 tables and changing the padding in each one. Of course, there may be times when you need to make a change in the properties for a single table only, but for the most part, you should try to use stylesheets.</span></p>
+        <p>So why are there two kinds of stylesheets for tables? Why do you need to use a <span class="EmphasisItalic">table</span> stylesheet when you've already got a <span class="EmphasisItalic">regular</span> stylesheet? You actually do not need to. You can produce a look for tables entirely by using a regular stylesheet. But if you want to create many different table designs, and tables that have different patterns (e.g., every other row might have a green background), it can be very difficult to do this in a regular stylesheet. So Flare lets you use these special table stylesheets to accomplish this task much more easily. You might even use both types of stylesheets to control different aspects of your tables.</p>
+        <p>
+            <img src="../../../Images/Flare/Styles/Two-Kinds-Stylesheets.png" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

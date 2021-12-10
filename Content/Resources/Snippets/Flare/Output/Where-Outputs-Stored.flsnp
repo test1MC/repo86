@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>When you build a target, <MadCap:variable name="Other.Product" /> creates output files and places them in a folder named after the target, which is stored in a subfolder of your project called "Output." For example, let's say your project is stored here: C:\MyProject. In that case, after you generate output, the files would be stored here:</p>
+        <p>C:\MyProject\Output\MyName\TargetName</p>
+        <p>Depending on the output type associated with the target, the generated output might consist of many files.</p>
+    </body>
+</html>

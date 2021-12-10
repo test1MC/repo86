@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>From the MadCap Software program group, launch <span class="Emphasis">Author-it to Flare Converter</span>.</li>
+            <li>Select the location and the Author-it XML file by clicking the browse button […].</li>
+            <li>Select a location where the Flare project should be saved by clicking the browse button […].</li>
+            <li>Select <span class="Emphasis">Content Path Options</span> and choose one of the following:<ul><li><span class="SetOffFirstLevel">Author-it </span>Keeps the existing folder structure outlined in the XML</li><li><span class="SetOffFirstLevel">Flat </span>Puts all topics at the root level under the Content folder</li><li><span class="SetOffFirstLevel">Condensed </span>Removes all empty folders from the XML structure; maintains only folders with topics in the Content Explorer</li></ul></li>
+            <li>Click <span class="Emphasis">Convert</span>. The utility begins. A log report will be sent to the Flare project folder for troubleshooting purposes.</li>
+            <li>When the conversion process is complete, click <span class="Emphasis">Yes</span> to open the folder.</li>
+            <li>Double-click the <span class="Emphasis">project.flprj</span> file to open the project in Flare.</li>
+        </ol>
+    </body>
+</html>

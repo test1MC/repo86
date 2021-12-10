@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open the topic.</li>
+            <li MadCap:conditions="Snippets.Snippet1">
+                <p>
+                    <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p>Select the content that you want to use as a response for a micro content phrase. Then in the <b>Home</b> ribbon, click <b>Create Micro Content</b>.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Creating-Topic-Snippet1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Micro-Content-Guide,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-HTML5-Guide" />
+                    <li>
+                        <p>Right-click selected content, or the structure bar to the left of the content, that you want to use as a response for a micro content phrase. From the context menu, select <b>Create Micro Content</b>.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Creating-Topic-Snippet2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                </ul>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you have several different elements that you want to select (e.g., paragraph, list, image), it sometimes helps to first place all of that content in a &lt;div&gt; tag<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Styles/Creating-Divs-Tag-Groups.htm">Creating Divs and Other Tag Groups</MadCap:xref>)</MadCap:conditionalText>, then choose that div structure bar when creating the micro content.</p>
+                </div>
+                <p>The Create Micro Content dialog opens.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Search-Guide" />
+            <li MadCap:conditions="Snippets.Snippet2">Select the content that you want to use as a response for a micro content phrase. Then in the <b>Home</b> ribbon, click <b>Create Micro Content</b>.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Create-Micro-Content-Dialog1.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="Note-Create-Micro-Content-Dialog.flsnp" MadCap:conditions="Snippets.Snippet1" />
+            </li>
+            <li MadCap:conditions="Snippets.Snippet1">
+                <p>
+                    <MadCap:snippetText src="Create-Micro-Content-Dialog2.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../../Images/Flare/Micro-Content/Variable-Syntax.png" alt="" title="" />
+                </p>
+                <p>
+                    <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Variable.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Micro-Content-Guide,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-HTML5-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="Create-Micro-Content-Dialog3.flsnp" />
+                </p>
+                <p MadCap:conditions="Snippets.Snippet1">
+                    <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Select-File.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Micro-Content-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                </p>
+                <div MadCap:conditions="Snippets.Snippet1">
+                    <MadCap:snippetBlock src="Create-Micro-Content-Dialog4.flsnp" />
+                    <p>
+                        <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Linked-Selected-Content1.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Micro-Content-Guide,Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Search-Guide" />
+                    <MadCap:snippetBlock src="Create-Micro-Content-Dialog5.flsnp" />
+                    <p>
+                        <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Linked-Selected-Content2.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

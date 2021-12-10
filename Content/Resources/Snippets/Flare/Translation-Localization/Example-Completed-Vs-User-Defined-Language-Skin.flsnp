@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You select French as the project language.</p>
+            <p>
+                <img src="../../../Images/Flare/Translation-Localization/Language-Skin1.png" class="MaxWidth90Percent" />
+            </p>
+            <p>If you generate output, the French skin is automatically used, so the output looks something like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Translation-Localization/Language-Skin2.png" class="MaxWidth90Percent" />
+            </p>
+            <p>Now suppose that you want to use Filipino as the project language. Notice in the example above that Filipino does not have a "Yes" next to it. This means that you need to create a language skin for it from the Add File dialog (<span class="Emphasis">Project &gt; New &gt; Advanced &gt; Add Language Skin</span>). </p>
+            <p>In the Add File dialog, you can select a language to use for your language skin.</p>
+            <p>
+                <img src="../../../Images/Flare/Translation-Localization/Language-Skin3.png" class="MaxWidth90Percent" />
+            </p>
+            <p>After you do this, the new language skin opens in the Language Skin Editor, which you can use to edit text labels and make other changes. See <MadCap:xref href="../../../../Flare/Translation-Localization/General-Information/Language-Skins/Editing-Language-Skins.htm">Editing Language Skins</MadCap:xref>.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <p>After you are finished, you can select the language for the project or a specific target. When you do this, you'll notice that the language now has a "Yes" next to it in the Localized Skins column.</p>
+            <p>
+                <img src="../../../Images/Flare/Translation-Localization/Language-Skin4.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

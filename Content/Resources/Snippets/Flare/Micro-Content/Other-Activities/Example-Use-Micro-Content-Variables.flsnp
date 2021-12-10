@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a micro content phrase called "austin history," which links to part of a topic in your project. Within the response content, you have inserted a variable that has a definition of "University of Texas at Austin."</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Variables2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>For the micro content search results, you decide you want to use a shortened version of that—"University of Texas," leaving "at Austin" out of it. Therefore, in the Variable Set Editor, you add another definition for that variable.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Variables3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>Next, you open the micro content file, right-click the phrase, and select <span class="Emphasis">Properties</span>.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Variables4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>In the dialog, you select the <span class="Emphasis">Micro Content Variables</span> tab. Then, next to the variable, you click the small down arrow and choose the shorter definition.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Variables5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>After you click <span class="Emphasis">OK</span> and save the changes, you build the HTML5 output.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>When you open the topic in the output, you see the long version of the variable definition.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Variables6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>But when you search for Austin History, you see the shorter version of the definition.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Micro-Content-Variables7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

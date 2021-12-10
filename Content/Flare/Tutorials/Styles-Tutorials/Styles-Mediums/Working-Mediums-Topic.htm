@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video9-Mediums-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Learning how to work with mediums in a topic. This includes interfacing with table stylesheets and using mediums for tables in a topic." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-Mediums.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Working With Mediums in a Topic</h1>
+        <p>The XML Editor can display content in different layout modes, and the mediums are tied to those modes. By default, the XML Editor is set to display in Layout (Web) mode. </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>Using Mediums in a Topic</h2>
+        <p>Let’s set the editor to present content as it would show in print.</p>
+        <ol>
+            <li>
+                <p>Open the <span class="Emphasis">Famous-Austin-Folks.htm</span> file for a simple edit in print layout mode.</p>
+            </li>
+            <li>
+                <p>In the local toolbar, from the <span class="Emphasis">Layout</span> drop-down, select <span class="Emphasis">Print Layout</span>.</p>
+            </li>
+            <li>
+                <p>A pop-up opens with a message about switching layout modes. Read it and click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-PrintLayout-Popup.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the local toolbar, from the <span class="Emphasis">Medium</span> drop-down, select <span class="Emphasis">print-black</span>. Notice that (multiple) displays to indicate multiple styles are applicable (i.e., print and print-black).</p>
+                <p>You can work in a topic with your preferred or current layout, and with your specific medium styles set. This enables you to see what content will look like before building the output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Interface/Editors/XML-Editor/Layout-Modes.htm">Layout Modes</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li>
+                <p>Create an empty list item after “Lance Armstrong,” and type <span class="TypedEntry">Stephen Fuller Austin</span>.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>(Optional) If you are curious and want to go back and forth between the Layout (Web) and Layout (Print) modes, your edits are applicable to both layouts. But, the web layout will be associated with the online default medium. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-PrintLayout-XMLEx.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-WebLayout-XMLEx.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <li>
+                <p>If you switched back to the web layout mode, make sure the layout mode is set to print layout and that the medium is print-black for the following steps.</p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Mismatch-Images-Styles-Tutorials.flsnp" />
+        <h2>Using Mediums With Table Stylesheets</h2>
+        <p>Up to this point we’ve been using mediums with regular stylesheets. Mediums can also be used with table stylesheets. Let’s add a table and change its look so it has a black header row, and specify this table design with the print-black medium. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Printed-Output/Styles/Setting-Table-Styles-Print-Output1.htm">Setting Table Styles for Print Output</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        <ol>
+            <li>
+                <p>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Table Styles</span>, and double-click <span class="Emphasis">Alternate-Row-Color.css</span>. The Table Style Editor opens to the right.</p>
+            </li>
+            <li>
+                <p>If necessary, click the divider between the fields and the preview, and drag it to the side to view both.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Table-Stylesheet.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the local toolbar, click the <span class="Emphasis">Medium</span> drop-down, and select <span class="Emphasis">Medium: print-black</span>.</p>
+            </li>
+            <li>
+                <p>In the editor, select the <span class="Emphasis">Header</span> tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">Header Style Properties</span> group, change the background color to black.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Table-Edits.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Open the <span class="Emphasis">Music.htm</span> file.</p>
+            </li>
+            <li>
+                <p>After the first paragraph, create an empty paragraph, and place your cursor there.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Insert</span> ribbon, click the <span class="Emphasis">Table</span> button. The Insert Table dialog opens.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../Tables/Main-Activities/Inserting-Tables.htm">Inserting Tables</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Table-Button.png" alt="" title="" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Set the fields in the dialog as follows, and then click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Insert-Table2.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In the Insert Table dialog, you selected the Alternate-Row-Color.css table stylesheet. You might have noticed the Preview section shows it as if it were the online default medium. Since your topic is already set to display the print-black medium, the table will insert with the styles set for that medium.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click in the table and type anything in the header and body rows. The table design corresponds to the specified print-black medium.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-Print-Black-Table.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">An alternate way to apply a table style is through the table structure bar in the XML Editor. After right-clicking the <span class="Emphasis">table</span> bar, you can select <span class="Emphasis">Table Style</span>, and then the desired table stylesheet. </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

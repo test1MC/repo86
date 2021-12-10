@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/PDF.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../Shared/Co-Fl/Images/Page-Layout-Frames.flsnp" />
+            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Page-Layouts.htm">Page Layouts</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+        <h2>How to Add Images to Page Layout Frames</h2>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Images/Add-Images-Page-Layouts-Steps.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In addition to using image frames, you can open other content frames (header, footer, decoration) and insert images as you normally would. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Adding-Text-Content-Frames.htm">Adding Text and Content to Frames</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">After adding an image frame, you will likely want to modify it. This might mean resizing or repositioning the frame, adding a border, and more. See <MadCap:xref href="../../../../Flare/Page-Layouts/Process/Editing-Pages.htm">Editing Pages</MadCap:xref>.</p>
+    </body>
+</html>

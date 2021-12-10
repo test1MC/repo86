@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div MadCap:conditions="Products.Capture">
+            <h3>Ribbons or Tool Strip View&#160; </h3>
+            <p>As an alternative to the classic tool strip view, you can use a more modern ribbon layout that follows the example of newer Microsoft Office products.</p>
+            <p>One of the advantages of the ribbon view is that you can create a Quick Access toolbar at the top of the workspace to display options that you use most often. When options are added to the Quick Access toolbar, they are easily accessible, regardless of the ribbon that is open. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Capture/Interface/Ribbons-Toolbars-Menus/Quick-Access-Toolbar.htm">Quick Access Toolbar</MadCap:xref>.</MadCap:conditionalText></p>
+            <ul>
+                <li><span class="Emphasis">Switching Between Ribbons and the Tool Strip </span>
+                    <MadCap:snippetText src="../../All/Interface/Ribbons-Toolbars-Menus/Switch-Between-Ribbons-Menus-Toolbars-Short.flsnp" />
+                </li>
+                <li><span class="Emphasis">More About Ribbon Options  </span>Keep in mind that the smaller the application window becomes, the more the options in a ribbon shrink. Therefore, you might only see a small icon instead of text, or you might see only a section name displayed with a down arrow to access the options in it. You can hover over small icons to see tooltips that describe them. You can also enlarge the application window or click one of the section drop-downs in the ribbon to locate a hidden feature.</li>
+            </ul>
+        </div>
+        <h3>Multiple Documents Open Simultaneously </h3>
+        <p><MadCap:variable name="Other.Product" /> is unique in that you can have multiple documents open in the interface simultaneously. </p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>If you want to work on <MadCap:conditionalText MadCap:conditions="Products.Lingo">translating </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Flare,Products.Lingo">four topics, two TOCs, and one glossary</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Mimic">three movies</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Capture">three images</MadCap:conditionalText> all at the same time, you do not have to close one of them before working on another. You can have all <MadCap:conditionalText MadCap:conditions="Products.Flare,Products.Lingo">seven</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Mimic">three</MadCap:conditionalText> open at the same time. You can even "float" and move them so that they are placed side-by-side. If you have access to dual monitors, you can have one item displayed on one monitor and another item displayed on the second monitor.</p>
+        </div>
+        <h3>
+            <MadCap:keyword term="Floating:windows" />
+            <MadCap:keyword term="Dockable windows" />Floating and Dockable Window Panes </h3>
+        <p>You can "float" window panes and editors, which lets you then click and drag them wherever you want in the interface. A window pane can be attached (or "docked") to the sides, top, or bottom of the program interface. <MadCap:conditionalText MadCap:conditions="Products.Capture-Online-Only">See <MadCap:xref href="../../../../../Capture/Interface/Customizing-Workspace/Customizing-Workspace.htm">Customizing the Workspace</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Mimic-Online-Only">See <MadCap:xref href="../../../../../Mimic/Interface/Customizing-Workspace/Customizing-Workspace.htm">Customizing the Workspace</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Capture-Guides.Capture-Key-Features-Guide" />
+        <h3>
+            <MadCap:keyword term="Windows:layouts" />Window Layouts&#160;  </h3>
+        <p>You can save a custom configuration (layout) of your workspace. <MadCap:conditionalText MadCap:conditions="Products.Capture-Online-Only">See <MadCap:xref href="../../../../../Capture/Interface/Customizing-Workspace/Customizing-Window-Layouts.htm">Customizing Window Layouts</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Mimic-Online-Only">See <MadCap:xref href="../../../../../Mimic/Interface/Customizing-Workspace/Customizing-Window-Layouts.htm">Customizing Window Layouts</MadCap:xref>.</MadCap:conditionalText></p>
+        <h3>Tab Options&#160;</h3>
+        <p>You can choose how to view window panes in the workspace:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Accordion Tabs</span>&#160;Stacks the document tabs below the window pane or editor.</li>
+            <li><span class="SetOffFirstLevel">Standard Tabs on Top</span>&#160;Places the document tabs on the top of the window pane or editor.</li>
+            <li><span class="SetOffFirstLevel">Standard Tabs on Bottom </span>Places the document tabs on the bottom of the window pane or editor.</li>
+        </ul>
+        <p>To switch between tab types, right-click  in the title bar of the window pane or editor and select a view.</p>
+        <p MadCap:conditions="Products.Flare">
+            <img src="../../../../Images/Flare/Interface/Interface-Files/Tab-Types.png" class="MaxWidth90Percent" />
+        </p>
+        <p MadCap:conditions="Products.Capture">
+            <img src="../../../../Images/Capture/Interface/Touring-Workspace/Tab-Types-Selection2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="Products.Mimic">
+            <img src="../../../../Images/Mimic/Interface/Touring-Workspace/Tab-Types-Selection1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <h3>Quick Access Toolbar</h3>
+        <MadCap:snippetBlock src="../../All/Interface/Ribbons-Toolbars-Menus/Quick-Access-Toolbar.flsnp" />
+        <p MadCap:conditions="Products.Capture-Online-Only">See <MadCap:xref href="../../../../../Capture/Interface/Ribbons-Toolbars-Menus/Quick-Access-Toolbar.htm">Quick Access Toolbar</MadCap:xref>.</p>
+        <p MadCap:conditions="Products.Mimic-Online-Only">See <MadCap:xref href="../../../../../Mimic/Interface/Ribbons-Toolbars-Menus/Quick-Access-Toolbar.htm">Quick Access Toolbar</MadCap:xref>.</p>
+        <div MadCap:conditions="Products.Mimic">
+            <h3>Quick Launch Bar</h3>
+            <MadCap:snippetBlock src="../../Ca-Co-Fl-Li-Mi/General/Quick-Launch-Bar-Summary.flsnp" />
+            <p MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Mimic/Interface/Ribbons-Toolbars-Menus/Quick-Launch-Bar.htm">Quick Launch Bar</MadCap:xref>.</p>
+        </div>
+        <h3>
+            <MadCap:keyword term="Undo" />
+            <MadCap:keyword term="Redo" />Enhanced Undo and Redo </h3>
+        <p> <MadCap:variable name="Other.Product" />'s undo and redo functions are enhanced as follows:</p>
+        <p>
+            <ul>
+                <li><span class="SetOffFirstLevel">Unlimited </span>You can undo or redo an unlimited number of times, back to the last time you opened the document, even after you have saved it.</li>
+                <li><span class="SetOffFirstLevel">Multiple Buffers </span>Each document in the <MadCap:variable name="Other.Product" /> interface has its own Undo/Redo buffer. This means that you can undo actions in one document and then switch to another document and undo actions specific to that file. </li>
+            </ul>
+        </p>
+    </body>
+</html>

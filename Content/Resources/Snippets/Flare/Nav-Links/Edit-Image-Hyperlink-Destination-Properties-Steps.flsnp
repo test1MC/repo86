@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>In the XML Editor, right-click the image.</li>
+            <li>In the context menu, select <span class="Emphasis">Hyperlink Image</span>. The Insert Hyperlink dialog opens.</li>
+            <li>
+                <p>From the <span class="Emphasis">Link to</span> drop-down field, select a way to identify the topic, bookmark, or file to which you want to link. Based the option you choose, the section below gives you a list of selections or additional fields to complete. </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">File in Project&#160;</p>
+                <MadCap:snippetBlock src="File-Project-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">Place in This Document</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Place-Document-Option.flsnp" />
+                <p class="Subheading">External File</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/External-File-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+                <p class="Subheading">Website</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Website-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">Email</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Email-Option.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">HTML Help File</p>
+                <MadCap:snippetBlock src="HTML-Help-File-Option.flsnp" />
+            </li>
+            <li>(Optional) In the <span class="Emphasis">Screen Tip</span> field, you can type a phrase that will appear when the end user hovers over the hyperlink in the output.</li>
+            <li>(Optional) Next to the<span class="Emphasis"> Style Class</span> field, click the <span class="Emphasis">Select</span> button. This opens the Select Class dialog, which lets you apply one of the defined hyperlink styles (a.NameOfStyleClass) from your stylesheet to the link. After you select a style class in the dialog, click <span class="Emphasis">OK</span>. The Style Class field displays the selected style. (If you do not specify a style class, <MadCap:variable name="Other.Product" /> uses the parent "a" style.)</li>
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Target Frame</span> field, click the drop-down arrow to select the way the linked destination will open. This option can be used to open the destination topic or file in a popup. The other options are typically used by advanced users.</p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Nav-Links/Target-Frame-Descriptions-Bullets.flsnp" />
+            </li>
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Tab Index</span> field you can enter a value to specify the order in which users can tab through links. So when a user presses the TAB key the first time, the hyperlink with an index value of 1 will be selected first, the link with a value of 2 will be selected next, and so on. If you want to skip a link, enter -1 in that field.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This feature is supported only in web outputs—<MadCap:snippetText src="../Output/All-Web-Outputs-HTML5-Clean-XHTML.flsnp" />.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The hyperlink is changed in the topic. </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide" />
+    </body>
+</html>

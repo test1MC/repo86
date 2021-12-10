@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">Opens the Select Remote for Push dialog, which lets you select the remote repository to which you will upload your local commits. After you select the repository you want to push to, your files are sent to the remote repository.</p>
+        <p class="TableText">If necessary, <MadCap:variable name="Other.Product" /> will perform a commit before pushing your files.</p>
+        <p class="TableText">You will see this option if your project is bound to Git.</p>
+        <p class="TableText">
+            <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Source-Control/Git/Process/Pushing-Files-Remote.htm">Pushing Files to a Remote Repository</MadCap:xref>.</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="Products.Lingo">See <MadCap:xref href="../../../../../Lingo/Source-Control/Git/Process/Pushing-Files-Remote.htm">Pushing Files to a Remote Repository</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Subversion.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control:get latest version;Projects:source control;Source control:update" />
+            <MadCap:conditionalText MadCap:conditions="General.Online-Only">Manually </MadCap:conditionalText>Updating Source Control Files<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Subversion</MadCap:conditionalText></h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Update-Summary.flsnp" />
+        </p>
+        <p>You can manually update all of the files in the <MadCap:variable name="Other.Product" /> project or specific files only.</p>
+        <h2>How to Update Source Control Files Manually</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Update</b> (for selected files) or <span class="Emphasis">Source Control &gt; Update All</span> (for all files in the project). </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>In the File List, right-click the file you want to update and select <span class="Emphasis">Source Control &gt; Get Latest Version</span>.</li>
+                    <li><span class="SetOffFirstLevel">Local Toolbar </span>In the File List, select the file(s) you want to update. In the local toolbar of the File List, click <img src="../../../Resources/Images/Shared/Ce-Fl-Li/Interface/Buttons/Source-Control-btn.png" />, then select <span class="Emphasis">Update</span>   (for selected files) or <span class="Emphasis">Project &gt; Update All</span>  (for all files in the project).</li>
+                    <li><span class="SetOffFirstLevel">Source Control Explorer </span>With the Pending Changes pane open, right-click the file you want to update and select <span class="Emphasis">Get Latest Version</span>.</li>
+                </ul>
+            </li>
+            <li>
+                <p>If the local and server files are the same, a message tells you so. Click <span class="Emphasis">OK</span>.</p>
+                <p>If the local file is different from the file on the server, the Resolve Conflicts dialog opens. If you want to accept all of the differences between the local and server files, thus merging them, click <span class="Emphasis">Auto Merge All</span>. If you want to review the differences in the files side by side and resolve each conflict, click <span class="Emphasis">Resolve</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information about merging files and resolving conflicts, see <MadCap:xref href="Merging-Source-Control-Files-Subversion.htm">Merging Source Control Files—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">By default, when you open a project that is bound to source control, a message automatically asks if you want to update files. However, you can disable this prompt in the Options dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Disabling-Get-Latest-Prompt-Subversion.htm">Disabling the Get Latest Prompt for Source Control—Subversion</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

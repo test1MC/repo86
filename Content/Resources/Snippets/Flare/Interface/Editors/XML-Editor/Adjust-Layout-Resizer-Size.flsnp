@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p class="topic-only">You can test resizing content as much as you want  in the editor. </p>
+        <ol>
+            <li>
+                <p>Open a content file.</p>
+            </li>
+            <li>
+                <p>If the layout resizer is not shown at the top of the editor, click <img src="../../../../../Images/Flare/Interface/Buttons/Toggle-Layout-Resizer-btn.png" alt="" title="" class="ReduceButtonSize" /> in the bottom toolbar.</p>
+            </li>
+            <li>
+                <p>Hover your cursor on the layout resizer slider. <span class="topic-only">Notice the following:</span></p>
+                <div class="topic-only">
+                    <ul>
+                        <li>
+                            <p>A gray “thumb” (or marker) matches the position of the hand cursor as you hover and move it along the slider. As soon as you click on the slider,  a blue thumb marks a temporary position used in the editor. A text box also displays to the right of the slider showing the position of the blue thumb and unit of measurement.</p>
+                        </li>
+                        <li>
+                            <p>Small  gray rectangles represent media query breakpoints (you might have to extend the XML Editor to see them). Out of the box, Flare includes a tablet breakpoint at 1279 pixels, and a mobile breakpoint at 767 pixels. If you click the gray thumb to an existing media query rectangle, it snaps into place. As a result, the editor renders content based on the selected media query.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>Move the hand cursor along the slider, and click any location on the slider that you might want to see as a resized layout for your content.<span class="topic-only"> Alternatively, you can type a temporary  position into the text box directly.</span></p>
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Marking a temporary position to see what content might look like does not save the layout. You need to save it as a new media query. </p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">From the three vertical dots drop-down <img src="../../../../../Images/Flare/Interface/Drop-Downs/Layout-Resizer-dd.png" alt="" title="" class="ReduceButtonSize" style="width: 15px;height: 16px;" />, you can select <span class="Emphasis">Reset Slider</span> to refresh the slider. This  hides the two thumbs, and the position and unit of measurement boxes. The Layout Mode does not change, and the content is not resized.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Use the following as guides when setting up your URLs and keys.</p>
+            <p><span class="SetOffFirstLevel">SSH URL</span>
+            </p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">git@gitlabomnibus.mycompany.corp:MyUserName/myproject.git</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <p><span class="SetOffFirstLevel">HTTP URL</span>
+            </p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">http://gitlabomnibus.mycompany.corp/MyUserName/myproject.git</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <p><span class="SetOffFirstLevel">SSH Private Key</span>
+            </p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">mycompanySSHkey_id_rsa</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <p><span class="SetOffFirstLevel">SSH Public Key</span>
+            </p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">mycompanySSHkey_id_rsa.pub</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+        </div>
+    </body>
+</html>

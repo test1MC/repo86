@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Break</p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">Let's say you import a Word document and the segments look like this in the Translation Editor:</p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">Let's say you open an alignment project and the segments look like this in the Alignment Tool:</p>
+            <p MadCap:conditions="Products.Lingo-Online-Only,Lingo-Guides.Lingo-Translation-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules-Align5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">This is a situation where you want the first segment to remain as it is, but you need the second segment to break after Dr. You can do this manually by splitting the segment, or you can do it automatically by creating a segmentation rule like the following:</p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">The segments are already aligned, but they are not segmented the way you want. You want the first segment to remain as it is, but you need the second segment to break after Dr. You can do this manually by splitting the segment, or you can do it automatically by creating a segmentation rule like the following:</p>
+            <p>
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Alignment-Guide,Lingo-Guides.Lingo-Translation-Guide" />
+            <p MadCap:conditions="Products.Lingo-Online-Only,Lingo-Guides.Lingo-Translation-Guide">With this rule in place, you can update the project and the segments will look like this:</p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">With this rule in place, you can reimport the project, and the segments will looks like this. Segmentation rules created in Align are applied to both the source and target segments, if applicable.</p>
+            <p MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Products.Lingo-Online-Only">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p MadCap:conditions="Products.Align,Lingo-Guides.Lingo-Alignment-Guide">
+                <img src="../../../../Images/Shared/Al-Li/Segmentation-Split-Join/Segmentation-Rules-Align7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

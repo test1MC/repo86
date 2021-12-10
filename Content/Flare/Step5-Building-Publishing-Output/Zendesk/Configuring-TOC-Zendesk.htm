@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Videos/Flare-Zendesk.flmsp');">
+    <head>
+        <meta name="description" content="You can use default categories and sections if they align with the TOC you are using to publish to Zendesk. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Publishing:destinations;Destinations:Zendesk;Zendesk" />
+            <MadCap:concept term="FilterFeatures" />Configuring the TOC for Zendesk</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5-Clean-XHTML-Note-Side-Top-Nav.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>When you first activate your Zendesk dashboard,  there are default categories and sections already created. You can use these categories and sections if it aligns with the TOC you are using to publish to Zendesk. Otherwise, you should create your own categories and sections that better align with your TOC.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Using TOC to Define Categories and Sections</h2>
+        <p>If you are using the TOC to define your categories and sections in Zendesk, keep the following rules in mind:</p>
+        <ul>
+            <li>The top-level books in your TOC are converted to categories alongside any categories already created.</li>
+            <li>Topics that are linked to top-level books are published to the default category and section.</li>
+            <li>Top-level topics are published to the default category and section. No additional categories are created for the top-level topics.</li>
+            <li>Second-level topics are converted to sections.</li>
+            <li>Any topics linked to second-level books in your TOC are published as articles to that section.</li>
+            <li>How third-level and lower-level books are treated depends on whether you create sub-sections. See <MadCap:xref href="#CreatingSubSections">Creating Sub-Sections</MadCap:xref>.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Output/Zendesk/Zendesk-Example-Publishing-Categories-Sections.flsnp" />
+        <h2>Using TOC to Define Sections</h2>
+        <p>If you are using the TOC to define your sections, keep these rules in mind:</p>
+        <ul>
+            <li>Top-level books in your TOC are converted to sections.</li>
+            <li>Topics that are linked to top-level books are published as articles in that section.</li>
+            <li>Top-level topics are converted into sections and also included as articles in that newly created section.</li>
+            <li>How second-level and lower-level books are treated depends on whether you create sub-sections. See <MadCap:xref href="#CreatingSubSections">Creating Sub-Sections</MadCap:xref>.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Output/Zendesk/Zendesk-Example-Publishing-Sections-Only.flsnp" />
+        <h2><a name="CreatingSubSections"></a>Creating Sub-Sections</h2>
+        <p>You can also create sub-sections when you publish to Zendesk. Refer to the Zendesk documentation regarding whether sub-sections are supported with your Zendesk plan.</p>
+        <div class="IndentMedium">
+            <h3>Mapping to Categories and Sections</h3>
+            <p>When mapping to <span class="Emphasis">Categories and Sections</span>, sub-sections will be created for third and lower level books in the Flare TOC.</p>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If you choose to create sub-sections, the result might be something like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Sub-Sections2.png" alt="" title="" class="MaxWidth90Percent">
+                    </img>
+                </p>
+                <p>Note the following:</p>
+                <ul>
+                    <li>
+                        <p>A category is created for the top-level <span class="Emphasis">Texas</span> book.</p>
+                    </li>
+                    <li>
+                        <p>A section is created for the second-level <span class="Emphasis">Austin</span> book, and it is placed under the <span class="Emphasis">Texas</span> category.</p>
+                    </li>
+                    <li>
+                        <p>The topics directly under <span class="Emphasis">Austin</span> (Introduction, Attractions, Famous Austin Folks) are published as articles  under the <span class="Emphasis">Texas &gt; Austin</span> section.</p>
+                    </li>
+                    <li>
+                        <p>A sub-section is created for the third-level book <span class="Emphasis">Music</span>. This sub-section is placed under <span class="Emphasis">Texas &gt; Austin</span>.</p>
+                    </li>
+                    <li>
+                        <p>The topics linked to the <span class="Emphasis">Music</span> book and the topics under it are all published as articles under the <span class="Emphasis">Texas &gt; Austin &gt; Music</span> section.</p>
+                    </li>
+                </ul>
+                <p>If you do not create sub-sections, the result might be something like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Sub-Sections4.png" alt="" title="" class="MaxWidth90Percent">
+                    </img>
+                </p>
+                <p>Note the following:</p>
+                <ul>
+                    <li>
+                        <p>A category is created for the top-level <span class="Emphasis">Texas</span> book.</p>
+                    </li>
+                    <li>
+                        <p>A section is created for the second-level <span class="Emphasis">Austin</span> book, and it is placed under the <span class="Emphasis">Texas</span> category.</p>
+                    </li>
+                    <li>
+                        <p>All topics under the <span class="Emphasis">Austin</span> book, including all topics linked to and under lower-level books are published as articles under the <span class="Emphasis">Texas &gt; Austin</span> section.</p>
+                    </li>
+                </ul>
+            </div>
+            <h3>Mapping to Sections</h3>
+            <p>When mapping to <span class="Emphasis">Sections</span>, sub-sections will be created for second and lower level books in the Flare TOC.</p>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If you choose to create sub-sections, the result might be something like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Sub-Sections3.png" alt="" title="" class="MaxWidth90Percent">
+                    </img>
+                </p>
+                <p>Note the following:</p>
+                <ul>
+                    <li>
+                        <p>No categories are created when using this option.  Instead, a section is created for the top-level  <span class="Emphasis">Texas</span> book under the selected <span class="Emphasis">Default Category</span>.  In this example, <span class="Emphasis">United States</span> is the selected default category from the destination file.</p>
+                    </li>
+                    <li>
+                        <p>A sub-section is created for the second-level <span class="Emphasis">Austin</span> book, and it is placed under the <span class="Emphasis">United States &gt; Texas</span> section.</p>
+                    </li>
+                    <li>
+                        <p>The topics directly under <span class="Emphasis">Austin</span> (Introduction, Attractions, Famous Austin Folks) are published as articles under the <span class="Emphasis">United States &gt; Texas &gt; Austin</span> section.</p>
+                    </li>
+                    <li>
+                        <p>Another sub-section is created for the third-level book <span class="Emphasis">Music</span>. This sub-section is placed under the <span class="Emphasis">United States &gt; Texas &gt; Austin</span> section.</p>
+                    </li>
+                    <li>
+                        <p>The topics linked to the <span class="Emphasis">Music</span> book and the topics under it are all published as articles under the <span class="Emphasis">United States &gt; Texas &gt; Austin &gt; Music</span> section.</p>
+                    </li>
+                </ul>
+                <p>If you do not create sub-sections, the result might be something like this:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Sub-Sections5.png" alt="" title="" class="MaxWidth90Percent">
+                    </img>
+                </p>
+                <p>Note the following:</p>
+                <ul>
+                    <li>
+                        <p>No categories are created when using this option.  Instead, a section is created for the top-level  <span class="Emphasis">Texas</span> book under the selected <span class="Emphasis">Default Category</span>.  In this example, <span class="Emphasis">United States</span> is the selected default category from the destination file.</p>
+                    </li>
+                    <li>
+                        <p>All topics under the <span class="Emphasis">Texas</span> book, including all topics linked to and under lower-level books are published as articles under the  <span class="Emphasis">United States &gt; Texas</span> section.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h2>Other Considerations</h2>
+        <ul>
+            <li>Any topics that are not in the TOC—regardless if they are linked to topics in the TOC—are published to the default category and section configured in the destination file.</li>
+            <li>
+                <p>Any topics that reside in the third level or lower in your TOC will be published as articles on the same level in Zendesk, unless you enable the option to create sub-sections and you are publishing to a Zendesk guide that supports sub-sections. Without sub-sections, there are only three levels in Zendesk: categories, sections, and articles. With the sub-sections option enabled, you can have categories, sections, sub-sections, and articles; therefore, you might have four or more levels (with nested sub-sections).</p>
+            </li>
+            <li>Any categories and sections that are generated during publishing are added to Zendesk Help Center in the same order they are displayed in the TOC. This also applies to multilingual projects.</li>
+            <li>If the <span MadCap:createDate="2019-03-11T07:26:19.2598301-07:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="Probably need to make this bold so it's clear." MadCap:editor="pstoecklein" MadCap:editDate="2019-03-11T07:26:32.7079272-07:00" class="Emphasis">Use TOC to define</span> option is not checked in the destination file, all topics are published to the designated category and section in the destination editor.</li>
+            <li>You can use unlinked books in your TOC to mimic the categories and sections you are using for Zendesk. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Interface/Editors/TOC-Editor.htm">TOC Editor</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Output/Zendesk/Example-Zendesk-Not-Structuring-TOC.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>
+            <MadCap:xref href="Creating-Destination-File-Zendesk2.htm">Creating a Destination File for Zendesk</MadCap:xref>
+        </p>
+    </body>
+</html>

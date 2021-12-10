@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1391" MadCap:lastWidth="1524">
+    <body>
+        <p>For online output, you can create sections of content that are expanded or collapsed by default.&#160; This is an ideal way to subdivide a long topic in online documentation.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create Expanding/Collapsing Sections</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>In the Word source document, select the header and the text that you would like to make into a section. </p>
+                        <div class="example">
+                            <p class="Example-Text">&#160;</p>
+                            <p>An example header could be "San Diego State University." The text could be a description of the university.</p>
+                        </div>
+                    </li>
+                    <li>Select the <span class="Emphasis">Doc-To-Help</span> ribbon.</li>
+                    <li>In the <span class="Emphasis">D2HML Styles</span> group, click <span class="Emphasis">Collapsible Section</span>. The Collapsible Section dialog opens. The selected text displays in the Header and Text areas.</li>
+                    <li>If you would like the section to be expanded by default, in the <span class="Emphasis">Options</span> area, select <span class="Emphasis">Expanded</span>. If you want the section to be collapsed by default, select <span class="Emphasis">Collapsed</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                    <li>
+                        <p>Continue creating sections. Note that the Heading for each section now has the C1H Section Collapsed or C1H Section Expanded style applied to it.</p>
+                    </li>
+                </ol>
+                <p class="note">The heading for the section now has the C1H Section Collapsed or C1H Section Expanded style applied to it.</p>
+                <p class="note">The header will be displayed in the online output with a + and - control next to it. When the user clicks on the control, the text will be displayed or hidden. The Expand All or Collapse All control at the top of the topic will allow the user to expand/collapse all of the text at once.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="example">
+                    <p class="Example-Text">&#160;</p>
+                    <p>This is an example of a topic with sections collapsed by default. Doc-To-Help automatically added the Expand All control at the top of the topic.</p>
+                    <p>
+                        <img src="../../../../Images/D2H/Nav-Links/Expanding-Collapsing.png" height="315" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">The Generate XHTML check box in the Help Targets dialog must be selected to enable expanding/collapsing sections.</p>
+                <p class="note">In EPUB targets, all content in collapsible sections will be displayed (just as it would in manual targets).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

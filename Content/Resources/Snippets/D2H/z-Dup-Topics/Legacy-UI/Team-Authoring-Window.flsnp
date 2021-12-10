@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The Team Authoring window pane only appears when you open a team project.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring.htm">About Team Authoring</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring.htm">About Team Authoring</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide"> See the online Help or the <span class="EmphasisItalic">Project Management Guide</span>.</MadCap:conditionalText></p>
+        <p>This panel displays all of the document names in the repository, as well as their status,  modification date, and the date they were retrieved from the repository. </p>
+        <div MadCap:conditions="Snippets.Snippet2">
+            <p>The Team Authoring panel opens when you click the Team Authoring tab. It displays the file details. Many options can be performed via the right-click menu.</p>
+            <p>
+                <img src="../../../../Images/D2H/Team-Authoring/Team-Authoring-Panel1.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+            </p>
+            <p>A check mark next to the file name indicates that it has been checked out. A lock icon indicates that the file is part of the team project.</p>
+            <MadCap:snippetBlock src="../../Team-Authoring/Change-Column-Display.flsnp" />
+        </div>
+        <div MadCap:conditions="Snippets.Snippet1">
+            <p>Once have you opened your Team Authoring project, you can access additional related functions for this project. Select  the <span class="Emphasis">Project</span> ribbon and click the <span class="Emphasis">Team Authoring</span> button to view the Team Authoring panel.</p>
+            <p>
+                <img src="../../../../Images/D2H/Team-Authoring/Team-Authoring.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+            </p>
+            <p>The Team Authoring panel displays your project folders and documents. The Doc-To-File project file is displayed at the bottom.</p>
+            <p>
+                <img src="../../../../Images/D2H/Team-Authoring/Team-Authoring-Panel2.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+            </p>
+            <p>You can perform the following functions from this panel:</p>
+            <ul>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../Team-Authoring/Filter-View.flsnp" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Team-Authoring/Refresh-View.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Team-Authoring/Get-Latest-Version.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Team-Authoring/Check-Out.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Team-Authoring/Undo-Pending-Changes.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Team-Authoring/Check-In.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Team-Authoring/Go-Offline.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Team-Authoring/Compare-TFS-Projects.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Team-Authoring/History-TFS-Projects.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Team-Authoring/Open-File-Team-Authoring.flsnp" />
+                </li>
+            </ul>
+            <p>When you right-click on any of the files in this panel, you can select any of those options through here. You can also toggle the option to <span class="Emphasis">Show Documents</span>, <span class="Emphasis">Show Auxiliary Files</span>, or <span class="Emphasis">Just Pending Changes</span> by selecting each one. </p>
+            <p>A check mark next to the file name indicates that it has been checked out. A lock icon indicates that the file is part of the team project.</p>
+            <MadCap:snippetBlock src="../../Team-Authoring/Change-Column-Display.flsnp" />
+        </div>
+    </body>
+</html>

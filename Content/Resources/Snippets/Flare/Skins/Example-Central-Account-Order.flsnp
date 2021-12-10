@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>If you have a Side Navigation skin, the Central Account Element is set to have an order value of 4. This means it appears to the right of both the logo and the search bar, which have lower values for that option (the logo is set at 1, and the search bar is set at 3).</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Central-Account12.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Central-Account13.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You change the values for the Alignment &gt; Order property as follows:</p>
+            <ul>
+                <li>
+                    <p><span class="Emphasis">Logo: </span>4</p>
+                </li>
+                <li>
+                    <p><span class="Emphasis">Search Bar: </span>2</p>
+                </li>
+                <li>
+                    <p><span class="Emphasis">Central Account Element: </span>1</p>
+                </li>
+            </ul>
+            <p>
+                <img src="../../../Images/Flare/Skins/Central-Account14.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Central-Account15.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+            <p>As a result, the header will look like this in the output:</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Central-Account16.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

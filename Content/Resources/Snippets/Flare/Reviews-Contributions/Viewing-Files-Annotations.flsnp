@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="Project-Annotations-Summary.flsnp" />
+        <h2>How to View Files With Annotations</h2>
+        <ol>
+            <li>
+                <p>  Select <span class="Emphasis">Analysis &gt; More Reports &gt; Files With Annotations</span>. </p>
+                <p>The Files With Annotations window pane opens. The area at the bottom of the window pane displays all topics in your project where annotations have been inserted.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../General/Folder-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Text </span>Displays the annotation text.</li>
+                    <li><span class="SetOffFirstLevel">Initials</span> Displays the initials of the individual who inserted the annotation.</li>
+                    <li><span class="SetOffFirstLevel">Creator</span> Displays the user name of the individual who create the annotation.</li>
+                    <li><span class="SetOffFirstLevel">Editor</span> Displays the user name of the individual who last edited the annotation.</li>
+                    <li><span class="SetOffFirstLevel">Create Date</span> Displays the date and time when the annotation was created.</li>
+                    <li><span class="SetOffFirstLevel">Edit Date</span> Displays the date and time when the annotation was last edited.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>You can double-click any topic in the list to view or modify it. </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" description="There are a few enhancements to the host mapped domain feature.">
+    <head>
+        <meta name="description" content="There are a few enhancements to the host mapped domain feature." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="URL;Domains;Host mapped domains" />Host Mapped Domain Enhancements</h1>
+        <p>There are a few enhancements to the host mapped domain feature. A new Host Mapped Domain wizard replaces the Host Mapped Domain dialog, and the wizard includes  Default Site functionality for a root domain redirect. Also, Microsoft Azure is the new SSL certificate binding service (replacing Let's Encrypt).</p>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/l3nZr2gmjKw" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+            <p class="more-videos"><a href="https://www.madcapsoftware.com/videos/central/#Sites" target="_blank">View More Videos in This Series</a>
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Banners/Server-Management-Perm.flsnp" />
+        <h2>How to Add a Host Mapped Domain</h2>
+        <ol>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Sites/Click-Sites.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Sites/Select-URLs-Tab.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Sites/Click-Plus-Button.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Sites/Type-Host-Domain-Wizard.flsnp" />
+            </li>
+            <p>
+                <img src="../../../Resources/Images/Central/Sites/Domain-Wizard1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Sites/Note-Domain-Not-Validated.flsnp" />
+            <li>
+                <p>Choose an SSL certificate.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Sites/SSL-Certificate-Options.flsnp" />
+                <p class="topic-only">
+                    <img src="../../../Resources/Images/Central/Sites/Domain-Wizard2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Sites/Notes-Choose-SSL-Certificate.flsnp" />
+            </li>
+            <li>Select <span class="Emphasis">Bind Domain and SSL Certificate</span>. (This process can take up to 10 minutes.)</li>
+            <p>
+                <img src="../../../Resources/Images/Central/Sites/Domain-Wizard3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>When the  domain is validated and bound, you can use the wizard to change host mapped domain settings.</p>
+            <p>
+                <img src="../../../Resources/Images/Central/Sites/Domain-Wizard5.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>If you click the <span class="Emphasis">Change Domain Settings</span> button, that takes you back to the Domain page of the wizard to update and validate a new host mapped domain.</p>
+            <li>Click the <span class="Emphasis">x</span> in the upper-right corner to close the wizard.</li>
+        </ol>
+        <h2>How to Add a Default Site</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Central/Sites/Add-Default-Site.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In previous releases, visiting a live URL root domain resulted in a "404, page not found" error. </p>
+            <p>
+                <img src="../../../Resources/Images/Central/Sites/Domain-DefaultSite-Note.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>This does not happen anymore. If you set a default site, and you type the root domain into the browser's URL, it redirects to the assigned default site.</p>
+            <p>
+                <img src="../../../Resources/Images/Central/Sites/Domain-DefaultSite-Note2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <h2>URLs Page View</h2>
+        <p>The URLs page view includes a couple of updates to the screen to help you manage your domains better. There are two new columns.</p>
+        <ul>
+            <li>
+                <p><span class="Emphasis">Status</span> This column lets you know if the domain is bound or not.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Default Site</span> This column indicates which site, if any, has been selected as a default site. (While viewing the URLs page, you might have to scroll to the right to see this column.)</p>
+            </li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/Central/Sites/URL-Page-View.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

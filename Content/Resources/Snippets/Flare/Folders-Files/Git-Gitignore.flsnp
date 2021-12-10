@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableText">The .git folder is the local repository for a Flare project and is included when your project is bound to Git (e.g., via MadCap Central). The contents of this folder are updated automatically when you perform source control tasks. The additional .gitignore file is necessary to make sure that certain folders (e.g., Analyzer, FileSync, Output, Project/Users) are ignored when you push and pull files. You do not need to do anything with the .git folder or .gitignore file. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Source-Control/Git/Git.htm">Git</MadCap:xref> and <MadCap:xref href="../../../../Flare/Central/Central-Flare.htm">MadCap Central and Flare</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

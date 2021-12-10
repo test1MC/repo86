@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open the content file (e.g., topic, template page, snippet) to with which you want to associate the stylesheet.</li>
+            <li>Select <b>Home &gt; Stylesheet Links</b>. The Stylesheet Links dialog opens, showing all the regular stylesheets in your project.</li>
+            <li>Double-click the stylesheet(s) that you want to associate with the topic. The stylesheet is added to the Current Links section on the right.<div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For topics, you can alternatively right-click the topic file in the Content Explorer, select <span class="Emphasis">Properties</span>, and on the <span class="Emphasis">Topic Properties</span> tab use the <span class="Emphasis">Stylesheet</span> field to choose the stylesheet. You can also select the option <span class="Emphasis">Disable project and target stylesheets</span> if you do not want to use any primary stylesheets along with the locally set stylesheet.</p></div><MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Note-Associate-Stylesheet-File1.flsnp" /><div class="topic-only"><MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Note-Associate-Stylesheet-File2.flsnp" /></div></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The stylesheet is now associated with the file, and the look of the content file changes in the XML Editor accordingly.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

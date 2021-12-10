@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="233" MadCap:lastWidth="1089">
+    <body>
+        <p>To set up project linking, the Central IDs for your linked projects must be stored in your main project. Depending on the type of project linking you are using, here is what we mean by the “main” project:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Global Project Linking </span>The main project is the child (or target). The linked project is the parent. </li>
+            <li><span class="SetOffFirstLevel">Runtime Merging </span>The main project is the parent. The linked project is the child. </li>
+            <li><span class="SetOffFirstLevel">Multilingual Output </span>The main project is the one using the original language. The linked project has a different language. </li>
+        </ul>
+        <p>In other words, the project you are building output from is generally considered the “main” project. For more information about each of these types of project linking, see the Flare online Help.</p>
+    </body>
+</html>

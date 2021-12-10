@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="SetOffFirstLevel">Title </span>First page in the output, which typically displays the manual title. If you include an Empty page type in your page layout, the title page in the output will be followed by the empty page. It is not mandatory that you use this page type for a title. Instead, you can use one of the other types, such as Normal.</li>
+            <li><span class="SetOffFirstLevel">First </span>First page of a new chapter. This page type can be used in a situation where you are creating a simple configuration and you are not concerned with left and right pages (e.g., a document for electronic distribution only). In most cases, a First page type would be followed by Normal pages.</li>
+            <li><span class="SetOffFirstLevel">First Left </span>For chapters beginning on left-sided pages, using a different look than regular left pages.</li>
+            <li><span class="SetOffFirstLevel">First Right </span>For chapters beginning on right-sided pages, using a different look than regular right pages.</li>
+            <li><span class="SetOffFirstLevel">Left </span>Regular pages appearing on a left (or even) page (e.g., page 42).</li>
+            <li><span class="SetOffFirstLevel">Right </span>Regular pages appearing on a right (or odd) page (e.g., page 43).</li>
+            <li><span class="SetOffFirstLevel">Normal </span>For output not using a Left/Right type of page flow. Instead, the same layout is used on every page, like a screenplay.</li>
+            <li><span class="SetOffFirstLevel">Empty </span>For empty pages appearing in the output, regardless of the side (left or right). You might use this page type after Title pages. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Pages/Using-Empty-Pages.htm">Using Empty Pages</MadCap:xref>.</MadCap:conditionalText>&#160;</li>
+            <li><span class="SetOffFirstLevel">Empty Left </span>Used in conjunction with the First Right page type. This page type is used for empty pages to be injected before First Right pages when necessary (i.e., to force a new chapter to begin on the right side).</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Empty Right </span>Used in conjunction with the First Left page type. This page type is used for empty pages to be injected before First Left pages when necessary (i.e., to force a new chapter to begin on the left side).</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The empty page types are not supported in <MadCap:variable name="Outputs.Word" /> output.</p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

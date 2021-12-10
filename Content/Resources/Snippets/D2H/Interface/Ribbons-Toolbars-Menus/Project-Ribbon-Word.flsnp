@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Settings for your Doc-To-Help project can be modified in this ribbon. You can also apply attributes and styles to your Doc-To-Help project.</p>
+        <p>The Topics Panel is displayed through the Project ribbon. When you click on this button, it displays each of the topics. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Topics-Window-Pane.htm">Topics Window</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>Templates are now added and managed through the Project ribbon. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Templates/Templates-Styles.htm">About Templates and Styles</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>The Team Authoring functions  are available once your Doc-To-Help project has been committed to a shared repository such as TFS, a file system repository, or web repository. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring.htm">About Team Authoring</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Whats-New-Guide" />
+        <p>The following functions can be performed on your Doc-To-Help project through the Project ribbon:</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Project-Panel-btn.png" alt="" title="" />
+                        <p class="TableText">Open the Doc-To-Help Project panel. You can use this panel to access some of Doc-To-Help's most frequently used functions without having to leave Word.  This panel includes five window panes: Documents, Contents, Index and Groups,  Variables, and Related Topics.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Project-Window-Pane.htm">Doc-To-Help Project Panel</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Select-Project-btn.png" />
+                        <p>Use this button to select a project that contains the active document. Or you can add the active document to another Doc-To-Help project.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Project-Settings-btn.png" />
+                        <p>Review and configure your existing settings of your Doc-To-Help project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Projects/Project-Settings/Project-Properties-Settings.htm">About Project Properties and Settings</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Topics-Panel-btn.png" />
+                        <p>Click this button to display the Topics window. You can also click this button to hide this window. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Topics-Window-Pane.htm">Topics Window</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Attributes-btn.png" />
+                        <p>Set an attribute-based condition for the selected document. The document will be included or excluded when creating conditional builds (e.g., internal or external.) Use the Attributes dialog to create custom attributes.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Conditions/Conditions.htm">About Conditions</MadCap:xref>. and <MadCap:xref href="../../../../../D2H/Conditions/Creating-Using-Attributes.htm">Creating and Using Attributes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide,D2H-Guides.D2H-Whats-New-Guide"> See the online Help or the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Windows-btn.png" />
+                        <p>Customize the default window display types. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Interface/Window-Display/Setting-Help-Window-Display.htm">Setting the Window Display</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide,D2H-Guides.D2H-Whats-New-Guide"> See the online Help or the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Styles-btn.png" />
+                        <p>Modify the default paragraph and character styles as currently set by your source template. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/Styles/Styles.htm">About Styles</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide,D2H-Guides.D2H-Whats-New-Guide,D2H-Guides.D2H-Design-Guide"> See the online Help or the <span class="EmphasisItalic">Design Guide</span>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <img src="../../../../Images/D2H/Interface/Buttons/Auto-Index-btn.png" />
+                        <p>Automatically create the index based on one or more topic types or styles. Open the drop-down menu to set preferences.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Indexes/Indexes.htm">About Indexes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide,D2H-Guides.D2H-Whats-New-Guide"> See the online Help or the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/D2H/Interface/Ribbons-Toolbars-Menus/Documents-Section-Project-Ribbon.png" />
+                        </p>
+                        <p>Create or add existing documents to your Doc-To-Help project. <MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide,D2H-Guides.D2H-Whats-New-Guide"> See the online Help or the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/D2H/Interface/Ribbons-Toolbars-Menus/Source-Template-Options.png" />
+                        </p>
+                        <p>The  template currently selected for the open Word source document is displayed at the bottom of this section. You can change the look of the output, edit, or remove the source template. <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Templates/Templates-Styles.htm">About Templates and Styles</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide,D2H-Guides.D2H-Whats-New-Guide"> See the online Help; the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>; or the <span class="EmphasisItalic">Design Guide</span>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/D2H/Interface/Ribbons-Toolbars-Menus/SharePoint-Documents-Section.png" />
+                        </p>
+                        <p>Use this section to share or synchronize a Doc-To-Help project bound to a repository. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../D2H/SharePoint/SharePoint-Integration.htm">About SharePoint Integration</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide,D2H-Guides.D2H-Whats-New-Guide"> See the online Help or the <span class="EmphasisItalic">Project Management Guide</span>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

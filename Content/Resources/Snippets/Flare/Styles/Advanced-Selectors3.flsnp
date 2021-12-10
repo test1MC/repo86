@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You style your unordered (bulleted) lists so that the text is blue.</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Advanced-Selector16.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+            <p>
+                <img src="../../../Images/Flare/Styles/Advanced-Selector17.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <p>But if an unordered list (&lt;ul&gt; tag) is found within a numbered list (&lt;ol&gt; tag) in the markup, you want the bulleted list text to be green. To make this happen, you would create a descendant selector by separating the two selectors by white space, with the ol selector first.</p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Advanced-Selector18.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Advanced-Selector20.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Styles/Advanced-Selector21.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

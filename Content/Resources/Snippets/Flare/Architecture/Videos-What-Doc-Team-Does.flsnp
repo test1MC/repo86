@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>We use MadCap Mimic to produce videos, partly because we are able to use the same palettes that we use for our images in Capture. This helps maintain consistency between our images and videos.</p>
+        <p>
+            <img src="../../../Images/Flare/Architecture/Architecture-Videos4.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <p>We generate video output in the MP4 format and upload our movies to YouTube. Then in Flare topics, we create popup links (using JavaScript) to point to those YouTube videos.</p>
+        <p>
+            <img src="../../../Images/Flare/Architecture/Architecture-Videos5.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>However, we put conditions on the video links in Flare so that they are included only in the server version of our online Help and not in the local version, which can be included in the desktop installation of Flare. We do this in case we need to make changes to any videos, which would result in new YouTube paths. The paths can be easily changed in the server version of the Help, but only through periodic updates for the local Help.</p>
+    </body>
+</html>

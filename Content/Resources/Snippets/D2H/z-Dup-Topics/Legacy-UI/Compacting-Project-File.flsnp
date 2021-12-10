@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="310" MadCap:lastWidth="828">
+    <body>
+        <p>Doc-To-Help includes a project-compacting utility that can reduce the size of your project file. Doc-To-Help automatically checks and compacts your project when it is opened, or any time a noticeable increase in size is detected, but you can run it manually if you wish.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Compact a Doc-To-Help Project</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Make sure you close all Doc-To-Help projects before using the compact utility.</li>
+                    <li>Select <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Compact Project</span><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">File &gt; Doc-To-Help &gt; Common Tasks &gt; Compact</span></MadCap:conditionalText>. The Open Doc-To-Help Project dialog opens.</li>
+                    <li>Choose the project (.d2h file) and click <span class="Emphasis">Open</span>. The project is compacted. A message box informs you when the process is complete.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

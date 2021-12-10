@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="508" MadCap:lastWidth="828">
+    <body>
+        <p>You can add any existing&#160; document stored in a SharePoint Library to your Doc-To-Help projects. The document can remain in its existing library after import for check in/check out, or it can be downloaded with no connection to SharePoint. &#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add SharePoint Libary Documents to Doc-To-Help</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Doc-To-Help Project panel, open the Documents window pane and click the <span class="Emphasis">Add Existing Documents</span> button <img id="_x0000_i1028" src="../../../../Images/D2H/Interface/Buttons/Add-Document-btn.png" height="24" class="ReduceButtonSize" />.&#160;The Document Import Wizard opens.</li>
+                    <li>Choose the <span class="Emphasis">SharePoint</span> option and click <span class="Emphasis">Next</span>.</li>
+                    <li>Enter the document’s <span class="Emphasis">SharePoint URL</span>.</li>
+                    <li>If you wish to import the document(s) without retaining their connection to SharePoint, clear the <span class="Emphasis">Retain SharePoint Connection</span> check box and click <span class="Emphasis">Next</span>.</li>
+                    <li>Choose the document(s) you would like to import using the check boxes. The documents will automatically be copied to the Documents folder in your project by default. You can change the folder location using the <span class="Emphasis">Copy files to</span> ellipsis button. Click <span class="Emphasis">Next</span>.</li>
+                    <li>Confirm your choices and click <span class="Emphasis">Next</span>. The document(s) are imported.</li>
+                    <li>Click <span class="Emphasis">Finish</span>.</li>
+                </ol>
+                <p>Use the arrow buttons in the toolbar of the Documents pane to rearrange the document order.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

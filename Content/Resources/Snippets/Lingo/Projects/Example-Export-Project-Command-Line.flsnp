@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text">&#160;</p>
+            <p>You have a Lingo project called "Nursery Rhymes” that is stored in your Documents\My Translated Projects folder, and you want to export it to a folder on your Desktop. The source is a Flare project located in a folder called "SourceFiles" on your C drive. You would type this:</p>
+            <p>
+                <span class="TypedEntry">lingoproject.exe -project "C:\Users\[username]\Documents\My Translated Projects\Nursery Rhymes.liprjf\Nursery Rhymes.liprj" -sourceFile "C:\SourceFiles\Nursery Rhymes.flprj" -exportTo "C:\Users\[username]\Desktop\Exports" -syncProject true</span>
+            </p>
+        </div>
+    </body>
+</html>

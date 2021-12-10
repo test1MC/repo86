@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Tables.flmsp');">
+    <head>
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Tables.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:tables;Tables:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Creating Table Captions</h1>
+        <p>You can add captions to your tables quite easily. Then, you can use your stylesheet to control how those captions look , including applying autonumbering to them.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Add a Caption in the Table Properties</h2>
+        <ol>
+            <li>Open the <span class="Emphasis">Famous-Austin-Folks.htm</span> topic.</li>
+            <li>Right-click anywhere inside the table and from the context menu select <span class="Emphasis">Table Properties</span>.</li>
+            <li>
+                <p>On the <span class="Emphasis">General</span> tab of the dialog, click in the <span class="Emphasis">Table Caption Text</span> field and enter <span class="TypedEntry">My Table Caption</span>.</p>
+                <p>Leave the other fields in the Table Caption area as they are.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> To learn more about those fields, see <MadCap:xref href="../../Tables/Main-Activities/Editing-Table-Properties.htm">Editing Table Properties</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> To learn more about those fields, see the online Help.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions1.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. The caption is added above the table.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Use Styles to Control the Look of Table Captions</h2>
+        <ol>
+            <li>Open the <span class="Emphasis">Styles.css</span> stylesheet.</li>
+            <li>
+                <p>On the left side of the editor, filter the styles to show <span class="Emphasis">Table Styles</span>. Then select <span class="Emphasis">caption</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Let's give our table captions a larger font, aligned left, with more space between them and the start of the tables. First, expand the <span class="Emphasis">Font</span> property group (if you are using the group view in the Stylesheet Editor), and set the <span class="Emphasis">font-size</span> to <span class="Emphasis">14pt</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">Block</span> group, set the <span class="Emphasis">text-align</span> property to <span class="Emphasis">left</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Box</span> group, set the <span class="Emphasis">padding-bottom</span> property to <span class="Emphasis">12px</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Now let's add an autonumber to the style so that captions are incremented when you have multiple tables. Scroll down and expand the <span class="Emphasis">AutoNumber</span> group. Then to the right of <span class="Emphasis">mc-autonumber-format</span>, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Copy the following format, and paste it into the field at the top of the dialog. Add a couple of spaces at the end of the format (i.e., after {/b}).</p>
+                <p class="TypedEntry">T: {b}TABLE {n+}:{/b}</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In this example, "T" at the beginning of the format is arbitrary. You can use any letter you want. </p>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Go back to the <span class="Emphasis">Famous-Austin-Folks.htm</span> topic. Notice the changes to the caption.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Right-click the <span class="Emphasis">table</span> structure bar to the left of the table, and from the context menu select <span class="Emphasis">Copy</span>.</li>
+            <li>Then right-click the <span class="Emphasis">table</span> structure bar again, and this time select <span class="Emphasis">Paste After</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click the floating paste icon <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Merge-Tables-btn.png" class="ReduceButtonSize" /> at the bottom-right of the second table, and in the menu make sure <span class="Emphasis">Don't Merge Tables</span> is selected. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If the horizontal scroll bar obstructs the icon when you hover over it, clicking at the very top of the icon should open the menu. Another option is to temporarily add a paragraph at the bottom of the topic under the second table so that the scroll bar doesn't get in the way. Then copy and paste the table again.</p>
+                </div>
+            </li>
+            <li>Click anywhere on the caption at the top of the second table. Then press the up arrow key on your keyboard to move the cursor between the tables, and press <span class="Emphasis">ENTER</span>.</li>
+            <li>Type <span class="TypedEntry">Here is some text</span>, just to add some content between the tables.</li>
+            <li>
+                <p>Notice that the second table caption still says TABLE 1. That's because the editor needs to be refreshed to see the correct autonumber. Press <span class="Emphasis">F5</span>.</p>
+                <p>Now it says TABLE 2, while the caption above the first table says TABLE 1.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Create-Table-Captions12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can make more extensive autonumber changes to table captions, such as having a different autonumber format for online vs. print output, or adding chapter numbers. For more details about how this can be done, see the <MadCap:xref href="../Autonumbers-Tutorial/Autonumbers-Tutorial.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Autonumbers Tutorial</MadCap:xref>. That tutorial explores captions on images, but you can apply the same concepts to table captions.</p>
+        </div>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End.flsnp" />
+        </div>
+    </body>
+</html>

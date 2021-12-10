@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="Products.Flare">
+  <TocEntry
+    Title="ComingSoonTitlePage"
+    Link="/Content/Print-Only-Topics/Shared/Coming-Soon-Title-Page.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    conditions="General.Future"></TocEntry>
+  <TocEntry
+    Title="Title"
+    Link="/Content/Print-Only-Topics/Shared/Title-Page-Green.htm"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    PageNumber="(multiple)"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageType="normal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print-Only-Topics/Shared/Copyright.htm"
+    StartSection="false"
+    PageType="normal"
+    PageNumberReset="reset"
+    PageNumber="(multiple)"
+    StartPageLayout="true"
+    BreakPageLayout="/Content/Resources/PageLayouts/Copyright.flpgl"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Copyright/Copyright.flpgl"></TocEntry>
+  <TocEntry
+    Title="PrintTOC"
+    Link="/Content/Print-Only-Topics/Shared/Print-TOC.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/TOCs/TOC-Green.flpgl"
+    PageType="first"
+    PageNumberFormat="lower-roman"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"></TocEntry>
+  <TocEntry
+    Title="CH 1"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="About Targets"
+    Link="/Content/Print-Only-Topics/Flare/Targets/Targets.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumberReset="continue"
+    PageNumber="(multiple)"
+    StartSection="false"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 2"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Determining the Output Type"
+    Link="/Content/Flare/Step4-Developing-Targets/Process/Determining-Output-Type/Determining-Output-Type.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue"
+    StartPageLayout="false"
+    BreakType="none">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Step4-Developing-Targets/Process/Determining-Output-Type/Online-Output-Vs-Print-Output.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Step4-Developing-Targets/Process/Determining-Output-Type/HTML5-Recommended-Online-Output-Type.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Step4-Developing-Targets/Process/Determining-Output-Type/PDF-Word-Recommended-Print-Output-Types.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Step4-Developing-Targets/Process/Determining-Output-Type/Other-Output-Types.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Step4-Developing-Targets/Process/Determining-Output-Type/HTML-Help-Legacy-Online-Output-Type.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Step4-Developing-Targets/Process/Determining-Output-Type/Deprecated-Output-Types.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 3"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Adding Targets"
+    Link="/Content/Flare/Step4-Developing-Targets/Process/Adding-Targets.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 4"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Importing Targets"
+    Link="/Content/Flare/Step4-Developing-Targets/More/Importing-Targets.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 5"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Renaming Targets"
+    Link="/Content/Flare/Step4-Developing-Targets/Process/Renaming-Targets.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 6"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Opening Targets"
+    Link="/Content/Flare/Step4-Developing-Targets/Process/Opening-Targets.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 7"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Setting a Primary Target"
+    Link="/Content/Print-Only-Topics/Flare/Targets/Setting-Primary-Target.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 8"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Editing Target Settings"
+    Link="/Content/Print-Only-Topics/Flare/Targets/Editing-Target-Settings.htm"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    BreakType="none">
+    <TocEntry
+      Title="General Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/General-Tab.htm">
+      <TocEntry
+        Title="Changing the Output Type for a Target"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Changing-Output-Type-Target.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Specifying the Startup Topic"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Specifying-Startup-Topic.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Associating a Master Table of Contents with a Target"
+        Link="/Content/Flare/TOCs/Process/Associating-Primary-TOC-Target.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Associating a Browse Sequence with a Target"
+        Link="/Content/Flare/Browse-Sequences/Associating-Browse-Sequence-Target.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Associating Master Page Layouts with Targets"
+        Link="/Content/Flare/Page-Layouts/Process/Associating-Primary-Page-Layouts-Targets.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Applying Master Style Sheets"
+        Link="/Content/Flare/Styles/Main-Activities/Associating-Primary-Stylesheets-All-Files.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Specifying the Output File and Folder in a Target"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Specifying-Output-File-Folder-Target.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Flare/Step4-Developing-Targets/Output-Types/Word-Output/Specifying-Word-Output-Format.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Converting Stylesheet Styles to Inline"
+        Link="/Content/Flare/Step4-Developing-Targets/Output-Types/Clean-XHTML/Converting-Stylesheet-Styles-Inline.htm" />
+      <TocEntry
+        Title="Getting the Latest Version of Source Control Files"
+        Link="/Content/Flare/Source-Control/TFS/Process/Getting-Latest-Version-Source-Control-Files-TFS.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Disabling Auto-Sync of Import Files"
+        Link="/Content/Flare/Step4-Developing-Targets/Process/Editing-Target-Settings/Disabling-Auto-Sync-Import-Files1.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Skin Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Skin-Tab.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Skins/Associating-Skins-Targets1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Conditional Text Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Conditional-Text-Tab.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Conditions/Associating-Conditions-Targets.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Variables Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Variables-Tab.htm">
+      <TocEntry
+        Title="Overriding Variable Definitions in Targets"
+        Link="/Content/Flare/Variables/Main-Activities/Overriding-Variable-Definitions.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Publishing Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Publishing-Tab.htm">
+      <TocEntry
+        Title="Associating Publishing Destinations with Targets"
+        Link="/Content/Flare/Step5-Building-Publishing-Output/Publishing-Destinations/Process/Associating-Publishing-Destinations-Targets.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Output/Enabling-HTML5-Server-Output4.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Glossary Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Glossary-Tab.htm">
+      <TocEntry
+        Title="Associating Glossaries with Targets"
+        Link="/Content/Flare/Glossaries/Process/Associating-Glossaries-Targets.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Relationship Table Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Relationship-Table-Tab.htm">
+      <TocEntry
+        Title="Associating Relationship Tables with Targets"
+        Link="/Content/Flare/Nav-Links/Relationship-Links/Process/Associating-Relationship-Tables-Targets.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Search Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Search-Tab.htm">
+      <TocEntry
+        Title="Setting Up Search Engine"
+        Link="/Content/Print-Only-Topics/Flare/Search/Setting-Up-Search-Engine.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      <TocEntry
+        Title="Setting Search Results Options"
+        Link="/Content/Flare/Search/Search-Results-Options/Setting-Search-Results-Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="Number of Search Results Per Page"
+          Link="/Content/Flare/Search/Search-Results-Options/Setting-Number-Search-Results-Per-Page.htm" />
+        <TocEntry
+          Title="Abstract Character Limit"
+          Link="/Content/Flare/Search/Search-Results-Options/Setting-Search-Abstract-Character-Limit.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Flare/Search/Search-Results-Options/Including-Stop-Words.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Enabling Partial-Word Search"
+          Link="/Content/Flare/Search/Search-Results-Options/Enabling-Partial-Word-Search.htm"
+          PageNumber="(multiple)"></TocEntry>
+        <TocEntry
+          Title="Importance of Search Results"
+          Link="/Content/Flare/Search/Search-Results-Options/Setting-Search-Result-Importance.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Flare/Micro-Content/Process/Enabling-Micro-Content-Search-Results1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Glossary Terms in Search Results"
+          Link="/Content/Flare/Search/Search-Results-Options/Including-Glossary-Terms-Search-Result.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Flare/Search/Search-Results-Options/Excluding-Non-Words-Search.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Excluding Index Entries from Search"
+          Link="/Content/Flare/Search/Search-Results-Options/Excluding-Index-Entries-Search.htm"
+          PageNumber="(multiple)" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Flare/Search/Search-Results-Options/Pre-merging-Search-Database-Files.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Flare/Search/Search-Results-Options/Chunking-Large-Database-Files.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Flare/Search/Search-Results-Options/Setting-N-Gram-Size.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Search/Generating-Sitemaps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Advanced Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Advanced-Tab.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Flare/Accessibility/Content/Applying-Empty-Alt-Text.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Associating an Alias File with a Target"
+        Link="/Content/Flare/CSH/Process/Associating-Alias-File-Target.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Adding the DOCTYPE Declaration to Generated Topics"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Adding-DOCTYPE-Declaration-Generated-Topics.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Displaying Merged Navigation in HTML Help Child Outputs"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Displaying-Merged-Navigation-HTML-Help.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Patching Style Sheets and Image Links for HTML Help"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Patching-Stylesheets-Image-Links-HTML-Help.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Embedding Images in Microsoft Word Output"
+        Link="/Content/Flare/Images/Other-Activities/Embedding-Images-Word-Output.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Enabling Review Mode in Word Output"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Enabling-Review-Mode-Word-Output.htm" />
+      <TocEntry
+        Title="Generating Web-Safe Images"
+        Link="/Content/Flare/Images/Other-Activities/Generating-Web-Safe-Images.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Synchronizing Nav Elements TOC Entries"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Synchronizing-Navigation-Elements-TOC-Entries.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Removing MadCap Styles"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Removing-MadCap-Styles.htm" />
+      <TocEntry
+        Title="Adding Mark of the Web"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Adding-MOTW.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Associating Master Pages with Targets"
+        Link="/Content/Flare/Template-Pages/Process/Associating-Template-Pages-Targets.htm"
+        PageNumber="(multiple)"></TocEntry>
+      <TocEntry
+        Title="Disabling the Use of Master Pages"
+        Link="/Content/Flare/Template-Pages/Other-Activities/Disabling-Use-Template-Pages.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Adding Custom Meta Tags"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Adding-Custom-Meta-Tags.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Replacing Characters and Spaces with Underscores"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Replacing-Characters-Spaces-Underscores.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Targets/Using-Custom-File-Extensions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Including-Specifically-Linked-Content.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Converting Output File Names and Folders to Lowercase"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Converting-Output-Filenames-Folders-Lowercase.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Omitting the Content Folder from Output"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Omitting-Content-Folder-Output.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Collapsing Top Margins"
+        Link="/Content/Print-Only-Topics/Flare/Targets/Collapsing-Top-Margins1.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Specifying How Online Features are Converted in Printed Output"
+        Link="/Content/Flare/Printed-Output/Other-Activities/Specifying-How-Online-Features-Converted-Printed-Output.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Setting Redacted Text on Targets"
+        Link="/Content/Flare/Redacted-Text/Setting-Redacted-Text-Targets.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Associating a Search Filter Set with a Target"
+        Link="/Content/Flare/Search/Search-Filter-Sets/Associating-Search-Filter-Set-Target.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Setting All Skins to be Generated"
+        Link="/Content/Flare/Skins/Other-Activities/General/Setting-All-Skins-Generated.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Associating a Medium with a Target"
+        Link="/Content/Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Associating-Medium-Target.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Output/Editing-Heading-Levels-Print-TOC4.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Creating Headings for Unlinked Books in a Generated TOC"
+        Link="/Content/Flare/Proxies/TOCs/Creating-Headings-Unlinked-Books-Generated-TOC1.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Removing Images from Headings in a Generated TOC"
+        Link="/Content/Flare/Images/Other-Activities/Removing-Images-Headings-Generated-TOC1.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Enabling Mirror Margins in Word Output"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Enabling-Mirror-Margins-Word-Output.htm"
+        PageNumber="(multiple)" />
+      <TocEntry
+        Title="Preventing External URLs"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Preventing-External-URLs.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Performance Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Performance-Tab.htm">
+      <TocEntry
+        Title="Improving the Processing Performance of the Target"
+        Link="/Content/Flare/Step5-Building-Publishing-Output/Other-Activities-Features/Improving-Processing-Performance-Target.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Build Events Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Build-Events-Tab.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Targets/Creating-Pre-Post-Build-Events.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Analytics Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Analytics-Tab.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Central/Central-Analytics1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Integrating Flare and Pulse"
+        Link="/Content/Flare/Pulse/Install/Integrating-Flare-Pulse.htm"
+        StartSection="false"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Language Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Language-Tab.htm">
+      <TocEntry
+        Title="Selecting a Language for the Target"
+        Link="/Content/Flare/Translation-Localization/Approaches/Translation-Works-Flare/Selecting-Language/Selecting-Language1.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Eclipse Options Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Eclipse-Options-Tab.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Specifying-Eclipse-Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="EPUB Options Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/EPUB-Options-Tab.htm">
+      <TocEntry
+        Title="Specifying EPUB Options"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Specifying-EPUB-Options.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="PDF Options Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/PDF-Options-Tab.htm">
+      <TocEntry
+        Title="Specifying PDF Options"
+        Link="/Content/Flare/Step4-Developing-Targets/More/Specifying-PDF-Options.htm"
+        PageNumber="(multiple)" />
+    </TocEntry>
+    <TocEntry
+      Title="Warnings Tab"
+      Link="/Content/Print-Only-Topics/Flare/Targets/Warnings-Tab.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Print-Only-Topics/Flare/Output/Ignoring-Warnings-Building-Output.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="CH 9"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Building Targets"
+    Link="/Content/Print-Only-Topics/Flare/Output/Building-Output.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    BreakType="none">
+    <TocEntry
+      Title="Building the Primary Target"
+      Link="/Content/Flare/Step5-Building-Publishing-Output/Build-Options/Building-Primary-Target.htm"
+      StartSection="false"
+      StartChapter="false"
+      PageNumber="(multiple)" />
+    <TocEntry
+      Title="Building a Single Target"
+      Link="/Content/Flare/Step5-Building-Publishing-Output/Build-Options/Building-Single-Target.htm"
+      StartChapter="false"
+      PageType="first"
+      PageNumber="(multiple)"
+      PageNumberReset="continue"
+      StartSection="false"
+      StartPageLayout="false" />
+    <TocEntry
+      Title="Building and Publishing Multiple Targets"
+      Link="/Content/Flare/Step5-Building-Publishing-Output/Build-Options/Building-Multiple-Targets.htm" />
+    <TocEntry
+      Title="Building Output Using a Batch Target"
+      Link="/Content/Flare/Step5-Building-Publishing-Output/Build-Options/Building-Output-Using-Batch-Target.htm"
+      PageNumber="(multiple)" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 10"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Viewing Output"
+    Link="/Content/Flare/Step5-Building-Publishing-Output/Other-Activities-Features/Viewing-Output.htm"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    StartSection="false"
+    BreakType="none" />
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/Print-Only-Topics/Shared/Appendix-Incremented.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="PDF Library"
+    Link="/Content/Flare/PDF-Guides/PDF-Guides-Flare.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    StartPageLayout="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartSection="false"
+    AutoEndOnLeftPage="disabled"
+    ComputeToc="false"
+    PageType="first"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/Print-Only-Topics/Shared/Appendix-Incremented.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Landscape.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="Output_Type_Tables"
+    Link="/Content/Print-Only-Topics/Flare/Output-Type-Tables.htm"
+    StartPageLayout="false"
+    BreakPageLayout="/Content/Resources/PageLayouts/ChaptersLandscapeGreen.flpgl"
+    StartSection="false"
+    BreakPageType="normal"
+    PageNumber="(multiple)"
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    PageType="firstright"
+    BreakType="none" />
+</CatapultToc>

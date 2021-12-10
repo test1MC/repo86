@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open a template page or topic, depending on whether you want the search bar to be show on many pages or only one page.</li>
+            <li>Place your cursor where you want the search bar to be shown in the output.</li>
+            <li>Select <span class="Emphasis">Insert &gt; Proxy &gt; Insert Search Bar Proxy</span>. The Search Bar Proxy dialog opens.</li>
+            <li>
+                <p>If you have added a Search Bar skin component to your project and want to use it to control the look of the search bar, you can select it from the <span class="Emphasis">Skin File</span> field. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Skins/Process/Editing-Skin-Settings.htm">Editing Skin Settings</MadCap:xref> and <MadCap:xref href="../../../../Flare/Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>If you do not select a Search Bar skin component in this field, Flare uses the first one it finds in your project (if one exists). Otherwise, Flare provides a default design.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Search Bar proxy and skin component are not supported in HTML5 Tripane output.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The proxy is added.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

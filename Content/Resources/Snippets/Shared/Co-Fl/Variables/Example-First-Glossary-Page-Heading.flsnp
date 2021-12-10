@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to include a generated glossary in a PDF manual. So you create a topic called "MyGlossary" and insert a Glossary proxy into it. Then you add that topic to the outline TOC being used to produce the manual. Next, you open the page layout you want to use for the topic holding that Glossary proxy. Let's call it "GlossaryPL." Suppose you open the page in the layout that will be used for all left-hand pages in the output. In the header frame, you insert the "FirstGlossaryPageHeading" variable. Perhaps you want to show the complete range of glossary headings on each page. So you type the word "through" and also insert the "LastGlossaryPageHeading" variable.</p>
+            <p>Therefore, you would have something like this: </p>
+            <p class="Indented">
+                <img src="../../../../Images/Shared/Co-Fl/Variables/First-Last-Glossary-Page-Heading-Variable.png" class="MaxWidth70PercentNoThumbnail" />
+            </p>
+            <p>Next, in the outline TOC, you create a chapter break on the entry linked to the topic holding the Glossary proxy, specifying that the entry should use the "GlossaryPL" layout.</p>
+            <p>Now you generate the PDF. You scroll down to the first left-handed page showing the generated glossary. Let's say the first glossary heading you see on the page is <span class="Emphasis">F</span>, with all of the terms beginning with the letter "f" following it. Toward the bottom of that page, you see the glossary heading <span class="Emphasis">H</span>, and terms starting with the letter "h" are listed below it. In that case, when you look to the very top of the page, you will see this:</p>
+            <p class="Indented"><span class="Emphasis">F through H</span>
+            </p>
+        </div>
+    </body>
+</html>

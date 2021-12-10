@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Plugin-API.flmsp');">
+    <head>
+        <meta name="description" content="The IPlugin interface represents the plug-in." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />IPlugin Interface</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Information-Developers.flsnp" MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <p>The IPlugin interface represents the plug-in. For the plug-in assembly to be considered valid, it must implement the IPlugin interface.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <h2>Properties</h2>
+        <ul>
+            <li><span class="EmphasisItalic">bool </span><span class="Emphasis">IsActivated </span>Gets a value indicating whether the plug-in is activated or not.</li>
+        </ul>
+        <h2>Methods</h2>
+        <ul>
+            <li><span class="EmphasisItalic">void </span><span class="Emphasis">Execute() </span>Activates the plug-in. This method is called when users click <span class="Emphasis">Enable</span> on the Plugins tab of the Options dialog  (<span class="Emphasis">File &gt; Options</span>).</li>
+            <li><span class="EmphasisItalic">string </span><span class="Emphasis">GetAuthor() </span>Returns the author of the plug-in.</li>
+            <li><span class="EmphasisItalic">string </span><span class="Emphasis">GetDescription() </span>Returns the description of the plug-in.</li>
+            <li><span class="EmphasisItalic">string </span><span class="Emphasis">GetName() </span>Returns the name of the plug-in.</li>
+            <li><span class="EmphasisItalic">string </span><span class="Emphasis">GetVersion() </span>Returns the version of the plug-in.</li>
+            <li><span class="EmphasisItalic">void </span><span class="Emphasis">Initialize(IHost) </span>Initializes the plug-in. An instance of IHost is passed in as a parameter, which gives users access to <MadCap:variable name="Other.Product" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> components. See <MadCap:xref href="IHost.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IHost Interface</MadCap:xref>.</li>
+            <li><span class="EmphasisItalic">void </span><span class="Emphasis">Stop() </span>Deactivates the plug-in. This method is called when users click <span class="Emphasis">Disable</span> on the Plugins tab of the Options dialog  (<span class="Emphasis">File &gt; Options</span>).</li>
+        </ul>
+    </body>
+</html>

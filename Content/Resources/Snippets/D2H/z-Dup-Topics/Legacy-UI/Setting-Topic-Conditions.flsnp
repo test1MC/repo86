@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="688" MadCap:lastWidth="1485">
+    <body>
+        <p>You can set specific platform, target, and/or attribute conditions for a topic.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Set Topic Conditions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Topics Panel, select the topic.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">
+                        <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following.flsnp" />
+                        <ul>
+                            <li>Open the <span class="Emphasis">Topics</span> ribbon, and from the <span class="Emphasis">Condition</span> group, select the condition(s) using the drop-downs.</li>
+                            <li>
+                                <p>Open the <span class="Emphasis">Topics</span> ribbon and click the <span class="Emphasis">Properties</span> button. In the Topic Properties dialog, select the conditions in the <span class="Emphasis">Condition</span> section.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet1">
+                        <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following.flsnp" />
+                        <ul>
+                            <li>Right-click on the selected topic in the Topics Panel, and select <span class="Emphasis">Properties</span>. Select the condition(s) using the drop-downs in the <span class="Emphasis">Condition </span>section.</li>
+                            <li>Open the <span class="Emphasis">Doc-to-Help</span> ribbon, and click the <span class="Emphasis">Topic Properties</span> button. Select the condition(s) using the drop-downs in the <span class="Emphasis">Condition </span>section.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>No matter which method is used to set the conditions, they will always be displayed in the <span class="Emphasis">Topic Properties</span> dialog <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">and the Condition ribbon group</MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">Attributes must be specified in the Help Targets dialog<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> (see <MadCap:xref href="../../../../../D2H/Output/Creating-Targets.htm">Creating and Deleting Targets</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Creating-Targets.htm">Creating and Deleting Targets</MadCap:xref>)</MadCap:conditionalText> to be properly included/excluded from the final output.<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Conditions/Creating-Using-Attributes.htm">Creating and Using Attributes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Conditions/Creating-Using-Attributes.htm">Creating and Using Attributes</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

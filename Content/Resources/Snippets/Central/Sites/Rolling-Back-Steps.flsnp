@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>First, you need to know which build you want to roll back to. So select <b>Projects</b> on the left side of the interface, then click a project name to open it.</li>
+            <li>
+                <MadCap:snippetText src="../Projects/Open-Build-Management.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../Projects/Navigate-Target.flsnp" />
+            </li>
+            <li>
+                <p>In the grid, look for the keep icon <img src="../../../Images/Central/Interface/Icons/Keep-ico.png" alt="" title="" class="ReduceButtonSize" /> next to the build that was previously set as "live." Make note of the ID for the build.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Sites/Roll-Back1.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>On the left side of the interface, click <b>Sites</b>.</li>
+            <li>Click the name of the site you want to edit.</li>
+            <li>In the dialog, click the <span class="Emphasis">Build</span> drop-down.</li>
+            <li>
+                <p>Select the build that was previously used for the live output (i.e., the one with the ID that you noted on the Builds page).</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Sites/Roll-Back2.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Sites-Guide" />
+            <li>
+                <p>Click <span class="Emphasis">Save</span>. That build is now associated with the live site.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Sites/Roll-Back3.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>On the project's Builds page, notice that the live link icon <img src="../../../Images/Central/Interface/Icons/Live-Link-ico.png" alt="" title="" class="ReduceButtonSize"></img> is shown next to the build you selected, and the previously live build now has the keep icon <img src="../../../Images/Central/Interface/Icons/Keep-ico.png" alt="" title="" class="ReduceButtonSize"></img> next to it.</p>
+                    <p>
+                        <img src="../../../Images/Central/Sites/Roll-Back4.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>If you want to delete the build that you replaced, you can remove the keep setting on it (by selecting the check box next to it and clicking <img src="../../../Images/Central/Interface/Buttons/Set-Keep-btn.png" alt="" title="" class="ReduceButtonSize" />), and then remove the build.</p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

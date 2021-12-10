@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Examples-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Examples &lt;/span&gt;&lt;/b&gt;">In the following examples, these values are used:</p>
+            <ul style="list-style-type: square;">
+                <li>Default.htm = main entry file name</li>
+                <li>Soccer.htm = topic in the project, located in subfolder called "Sports"</li>
+                <li>World Cup Standings = search term</li>
+                <li>Green = skin name</li>
+            </ul>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default.htm#Sports/Soccer.htm"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default.htm#searchQuery=World Cup Standings&amp;firstPick=true"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;a href="http://my.mycompany.com/Default.htm#Sports/Soccer.htm&amp;skinName=Green"&gt;Click here to open&lt;/a&gt;</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If you have used Mimic to produce a movie, you can use this feature to create a link in a table of contents entry to the movie's output.</p>
+        <h2>How to Insert a Movie Link Into a TOC</h2>
+        <ol>
+            <li>Open the TOC where you want to insert the movie link.</li>
+            <li>
+                <p>In the TOC Editor, double-click the TOC entry that you want to link to the movie. The Properties dialog opens.</p>
+                <p MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/TOCs/Process/Creating-TOCs/Creating-TOC-Manually.htm">Creating a TOC Manually</MadCap:xref>.</p>
+            </li>
+            <li>Select the <span class="Emphasis">General</span> tab.</li>
+            <li>Select <span class="Emphasis">Mimic Movie or Movie Collection as</span>. The Open dialog opens.</li>
+            <li>Find and select an individual Mimic movie or a movie collection to which you want to link the entry. You can select any of the following types of files.<ul><li><MadCap:snippetText src="../../Shared/Fl-Mi/Folders-Files/MIMOV-Item.flsnp" /></li><li><MadCap:snippetText src="../../Shared/Fl-Mi/Folders-Files/MIPRJ-Item.flsnp" /></li><li><MadCap:snippetText src="Movies/MCMOVIE-Item.flsnp" /></li><li><MadCap:snippetText src="Movies/MCMV-Item.flsnp" /></li><li><MadCap:snippetText src="Movies/MCMOVIESYS-Item.flsnp" /></li></ul></li>
+            <li> Click <span class="Emphasis">Open</span>.</li>
+            <li>
+                <p>(Optional) You can click in the drop-down field to the right and specify an output format.</p>
+                <p class="Subheading">If You Have Mimic 8 or Newer</p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">(default) </span>If you build a <MadCap:variable name="Outputs.HTMLHelp" />, <MadCap:variable name="Outputs.WebHelp" />, <MadCap:variable name="Outputs.HTML5" />, or <MadCap:variable name="Outputs.WebHelp Plus" /> target, the movie uses the <MadCap:variable name="Outputs.HTML5" /> movie format. </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel"><MadCap:keyword term="HTML5:movie format;Movies:HTML5" />HTML5 </span>The movie is generated in the HTML5 movie format.</li>
+                </ul>
+                <p class="Subheading">If You Have Mimic 7 or Older</p>
+                <MadCap:snippetBlock src="Movies/Movie-Output-Format-Options.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1]" />
+            </li>
+            <li>Click <span class="Emphasis">OK</span> in the Properties dialog. The movie link is added to the TOC entry. </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="Movies/Note-Do-Not-Need-Add-Mimic-Files.flsnp" />
+        <MadCap:snippetBlock src="Note-Multimedia-File-Types-Supported.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

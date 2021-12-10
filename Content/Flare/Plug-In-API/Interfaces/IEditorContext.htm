@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Plugin-API.flmsp');">
+    <head>
+        <meta name="description" content="An instance of IEditorContext is returned using the GetEditorContext() method in the IHost interface; it gives access to opened Flare documents in the editor." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />IEditorContext Interface</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Information-Developers.flsnp" MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <p>An instance of IEditorContext is returned using the GetEditorContext() method in the IHost interface (see <MadCap:xref href="IHost.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IHost Interface</MadCap:xref>). IEditorContext gives access to opened Flare documents in the editor.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <h2>Events</h2>
+        <ul>
+            <li><span class="Emphasis">DocumentSwitched </span>Occurs when the active document changes.</li>
+        </ul>
+        <h2>Methods</h2>
+        <ul>
+            <li><i>IDocument </i><span class="Emphasis">GetActiveDocument() </span>Returns the currently active IDocument. See <MadCap:xref href="IDocument.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IDocument Interface</MadCap:xref>.</li>
+            <li><i>IEnumerable&lt;IDocument&gt; </i><span class="Emphasis">GetDocuments() </span>Returns a <a href="http://msdn.microsoft.com/en-us/library/system.collections.ienumerable(v=vs.100).aspx" target="_blank">System.Collections.IEnumerable</a> containing all the IDocument(s) currently open. See <MadCap:xref href="IDocument.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IDocument Interface</MadCap:xref>.</li>
+            <li><i>XmlSchema </i><span class="Emphasis">GetMadCapSchema() </span>Returns the <a href="http://msdn.microsoft.com/en-us/library/system.xml.schema.xmlschema(v=vs.100).aspx" target="_blank">System.Xml.Shema.XmlSchema</a> of available MadCap element names.</li>
+            <li><i>IDocument </i><span class="Emphasis">OpenDocument(string) </span>Opens the given file path and returns the associated IDocument. See <MadCap:xref href="IDocument.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IDocument Interface</MadCap:xref>.</li>
+            <li><i>IDocument </i><span class="Emphasis">OpenDocument(string, EditorView) </span>Opens the given file path in the EditorView passed in and returns the associated IDocument. See <MadCap:xref href="../Enums/Editor-View.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">EditorView Enumeration</MadCap:xref> and <MadCap:xref href="IDocument.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IDocument Interface</MadCap:xref>.</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Plugin-API-Guide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </body>
+</html>

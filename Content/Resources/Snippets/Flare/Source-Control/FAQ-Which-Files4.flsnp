@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>The main FLPRJ file</li>
+            <li>All files from the Content folder</li>
+            <li>All files from the Project folder, except those in the Project &gt; Users subfolder</li>
+            <li>Files from a specific Output subfolder, if using source control publishing<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Step5-Building-Publishing-Output/Publishing-Destinations/Process/Creating-Destinations.htm">Creating Publishing Destinations</MadCap:xref>)</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

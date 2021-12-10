@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <p>From the Content Explorer, expand <span class="Emphasis">Resources &gt; TemplatePages</span>. This is the default location for template pages, however, you might keep yours in a different location. Open  the template page applicable to the course topics (e.g., Other-Topics.flmsp).</p>
+            </li>
+            <li>
+                <p>Place your cursor at the location in the template page where you want to add a proxy (e.g., after other proxies).</p>
+                <p>
+                    <img src="../../../Images/Flare/LMS/eLearning-Toolbar-Proxy-Cursor.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Most template pages include a Topic Body proxy.  If the Topic Body proxy is not included, insert it from the <span class="Emphasis">Insert</span> ribbon, <span class="Emphasis">Proxy &gt; Body Proxy</span>.  This proxy is required as it is the body content placeholder for  each of the topics used in the output.</p>
+                </div>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">eLearning</span> ribbon, select <span class="Emphasis">eLearning Toolbar Proxy</span>. Alternatively, from the <span class="Emphasis">Insert</span> ribbon, select the <span class="Emphasis">Proxy</span> drop-down, and choose <span class="Emphasis">eLearning Toolbar Proxy</span>.</p>
+                <p>
+                    <img src="../../../Images/Flare/Interface/Buttons/LMS-eLearning-Toolbar-Proxy-btn.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>In the eLearning Toolbar Proxy dialog,  from the <span class="Emphasis">Skin File</span> drop-down, you can select a customized eLearning Toolbar skin  component. If you leave the default setting, the first eLearning Toolbar skin component in the project will be used. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../Images/Flare/LMS/eLearning-Toolbar-Proxy-Dialog.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have not created a skin component to associate with the proxy, you can always come back to the inserted proxy later and edit it once the skin component is created. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/LMS/Other-Activities/Editing-eLearning-Skin-Editor.htm">Editing the eLearning Toolbar Skin Component</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

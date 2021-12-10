@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Print-EPUB.flsnp" />
+        <div>
+            <div class="Tiles-4-4-4">
+                <div>
+                    <p>
+                        <MadCap:snippetText src="../Indexes/Manual-Index.flsnp" /> Alternatively, you can let Flare <a href="../../../../Flare/Indexes/Other-Activities/Auto-Generating-Indexes-Print.htm">auto-generate one</a> for you.</p>
+                    <p MadCap:conditions="">The following explains how to use the manual method.</p>
+                    <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+                </div>
+                <div>
+                    <p class="center">
+                        <img src="../../../Images/Flare/Proxies/Index-Proxy1.png" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+                <div>
+                    <p class="center">
+                        <img src="../../../Images/Flare/Proxies/Index-Proxy2.png" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>How to Create an Index Manually for Print</h2>
+        <MadCap:snippetBlock src="../Indexes/Create-Index-Manually-Print-Steps.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Indexing-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>Auto-Generate vs. Manual Proxies</h2>
+        <MadCap:snippetBlock src="../Proxies/Auto-Generate-Versus-Manual-Proxies.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../Indexes/Note-Index-Page-Range.flsnp" />
+        <MadCap:snippetBlock src="../Indexes/Note-PDF-Index-Heading-Variables.flsnp" />
+        <MadCap:snippetBlock src="../Indexes/Note-Index-Autonumbers.flsnp" />
+        <p MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide">Make sure to add the topic with the proxy to the outline TOC. See <MadCap:xref href="../../../../Flare/Printed-Output/Adding-Print-Topics-Outline-TOC.htm">Adding Print Topics to an Outline TOC</MadCap:xref>.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">In addition to creating a topic for a print index, you can create a topic for a print TOC and/or a topic for a print glossary. See <MadCap:xref href="../../../../Flare/Proxies/TOCs/Creating-TOC-Manually-Print.htm" target="" title="" alt="">Creating a TOC for Print-Based Output</MadCap:xref> and <MadCap:xref href="../../../../Flare/Proxies/Glossaries/Creating-Glossary-Manually-Proxy1.htm" target="" title="" alt="">Creating a Glossary Manually for Print</MadCap:xref>.</p>
+        <p MadCap:conditions="General.Online-Only">Then you need to include these print topics in an outline TOC in your project. See <MadCap:xref href="../../../../Flare/Printed-Output/Adding-Print-Topics-Outline-TOC.htm" target="" title="" alt="">Adding Print Topics to an Outline TOC</MadCap:xref>.</p>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/Word.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>
+            <MadCap:snippetText src="../Template-Pages/Page-Headers-Footers.flsnp" />This can be done at the time you insert the proxy<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Proxies/Page-Headers-Footers/Adding-Page-Header-Footer-Proxies1.htm">Adding Page Header and Footer Proxies</MadCap:xref>)</MadCap:conditionalText>, but you can also use the following steps to set the page type on a style. Therefore, that page type will always be used as the default setting, unless you override it at the spot where you have inserted the proxy. </p>
+        <h2 class="NoPageBreakBefore">How to Edit the Page Type for Page Footers and Headers</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-Reusable-Content-Styles1.flsnp" />
+            </li>
+            <li>In the <span class="Emphasis">Styles</span> section on the left of the editor, find and select either <span class="Emphasis">MadCap|pageFooter</span> or <span class="Emphasis">MadCap|pageHeader</span> (or a style class you have created within either style).</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-Set-Properties1.flsnp" />
+            </li>
+            <li>From the <span class="Emphasis">Properties</span> section, expand the <span class="Emphasis">Unclassified</span> property group.</li>
+            <li>To the right of <span class="Emphasis">mc-feader-type</span> click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and select one of these options:<ul><li><span class="SetOffFirstLevel">all </span>Displays the footer or header on all pages in the output.</li><li><span class="SetOffFirstLevel">even </span>Displays the footer or header only on even pages in the output.</li><li><span class="SetOffFirstLevel">first </span>Displays the footer or header only on the first page of each section.</li><li><span class="SetOffFirstLevel">odd </span>Displays the footer or header only on the odd pages in the output.</li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+    </body>
+</html>

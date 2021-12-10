@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Mimic/PDF-Topics/Mimic-Movie-Editing.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Typing:animated typing" />
+            <MadCap:keyword term="Objects:interactive" />Adding Animated Typing Boxes</h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Mimic/Objects/Animated-Typing-Boxes-Definition.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Add an Animated Typing Box</h2>
+        <ol>
+            <li>Open the frame.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Home&gt; Objects &gt; Interactive &gt; Typing Box</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Local Toolbar</span> In the local toolbar of the Frame Editor, select <span class="Emphasis">Objects &gt; Interactive &gt; Typing Box</span>.</li>
+                </ul>
+                <p>The cursor changes to small crosshairs.</p>
+            </li>
+            <li>Click in the frame and drag the mouse to draw a rectangle where you want the animated typing to display. Release the mouse button when you are finished. An empty typing box appears.</li>
+            <li>Double-click the typing box. <MadCap:snippetText src="../../../Resources/Snippets/Mimic/Objects/Object-Properties-Window-Pane-Opens.flsnp" /></li>
+            <li>Expand the <span class="Emphasis">Typing Box</span> section.</li>
+            <li>Complete any of the following fields.<ul><li><span class="SetOffFirstLevel">Start Text</span> Enter the text (if any) that you want to display in the typing box when it appears in the output. If you do not want any start text, leave this field empty.</li><li><span class="SetOffFirstLevel">Typed Text</span> Enter the text that you want to be typed in the box as the frame plays. This text will follow directly after any start text.</li></ul></li>
+            <li>
+                <p>(Optional) You can make other modifications to the typing box, including the following. </p>
+                <p class="Subheading">Modify the Look of the Typing Box</p>
+                <ol class="LowerAlpha">
+                    <li>Double-click the typing box. <MadCap:snippetText src="../../../Resources/Snippets/Mimic/Objects/Object-Properties-Window-Pane-Opens.flsnp" /></li>
+                    <li>Expand the sections and make changes to the typing box properties (e.g., background color, border, font, animation effects, curve of rectangle). See <MadCap:xref href="../../Appearance/Appearance-Frames-Objects.htm">About the Appearance of Frames and Objects</MadCap:xref>.</li>
+                </ol>
+                <p class="Subheading">Increase or Decrease the Typing Speed</p>
+                <ol class="LowerAlpha">
+                    <li>Double-click the typing box. <MadCap:snippetText src="../../../Resources/Snippets/Mimic/Objects/Object-Properties-Window-Pane-Opens.flsnp" /></li>
+                    <li>Expand the <span class="Emphasis">General</span> section and make the desired adjustments:<ul><li><span class="SetOffSecondLevel">Time Span</span> If you want the typing box effect to be displayed for a specific period of time, leave the check mark in this box. If you want to disable timing for the effect, click this check box to remove the check mark. Disabling the timing is useful if you want to ensure that the effect continues to display as long as the frame does.</li><li><span class="SetOffSecondLevel">Start</span> The time at which the typing box effect will display when the frame is played. You can manually adjust the start time by clicking and dragging the effect bar to the desired location in the Timeline.</li><li><p><span class="SetOffSecondLevel">Duration</span> The number of seconds you want the typing box effect to last. You can manually adjust the duration of the effect by clicking and dragging either end of the effect bar to increase or decrease the size.</p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you increase the duration of the typing box, be aware that the timing of the frame must also be long enough to accommodate it.</p></div><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Increasing the duration of the typing box applies to how long the object exists. Text—regardless of if the text is long or short—will be spaced to fit this duration. Keep this in mind to ensure that the typing object can be read easily.</p></div></li></ul></li>
+                </ol>
+                <p class="Subheading">Move or Resize the Typing Box</p>
+                <ul>
+                    <li>To move the entire typing box, click the box and drag it to the new location.</li>
+                    <li>To resize the typing box, click any of the points (i.e., small circles) around the edge of the box and drag it to adjust its size.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Mimic/Actions/Note-Add-Action-Shape.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you record in Automatic mode, you can select whether to add typing box shapes when you perform typing actions. If you select this option, it inserts a typing box object when you type during a recording session. If you disable this option and type during a recording session, the frame in question becomes a <MadCap:keyword term="Full-motion video" />full-motion video (FMV) frame. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Multimedia/Movies-Creating/More/Adding-Typing-Box-Shapes-Recording.htm">Adding Typing Box Shapes for Recording</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ca-Mi/General/Whats-Next-After-Edit.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

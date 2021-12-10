@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>In order to create a custom theme or theme configuration, you must first add a new theme. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add a Theme </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">In the <span class="Emphasis">Home</span> ribbon, click the <span class="Emphasis">Theme</span> drop-down and choose <span class="Emphasis">Add New Theme</span>. The Add New Theme dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">In the <b>Target</b> ribbon, click the <span class="Emphasis">Add New</span> button.</li>
+                    <li>Name the new theme, and choose the <span class="Emphasis">Source theme</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> The Theme Designer opens. An example of the current theme is displayed, complete with navigation buttons and other elements.</li>
+                </ol>
+                <div class="note">
+                    <p class="Note-Text">You can also create a new theme in the Theme Designer by clicking the <b>Add New Theme</b> button <img src="../../../../Images/D2H/Interface/Buttons/Add-Theme-btn.png" height="16" class="ReduceButtonSize" />.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add a Theme Configuration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>These steps are for Eclipse Help and EPUB only.</p>
+                <ol>
+                    <li>Create a new theme.</li>
+                    <li>In the Theme Designer, click the <span class="Emphasis">Add New Theme Configuration</span> button.</li>
+                    <li>Name the new configuration, and choose the <span class="Emphasis">Source Configuration</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+                <div class="note">
+                    <p class="Note-Text">Customized themes and configurations are stored by default on your computer in C:\Users\[username]\Documents\My Doc-To-Help Projects\Doc-To-Help\Themes.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

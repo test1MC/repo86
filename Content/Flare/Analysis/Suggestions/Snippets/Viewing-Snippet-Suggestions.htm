@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/User-Guides/Flare-Analysis-Reports.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="You can view content that matches existing snippets in your project, and you can quickly convert these occurrences to snippets." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Snippets:suggestions;Suggestions:snippets" />Viewing Snippet Suggestions</h1>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Analysis/Suggestions/Snippets/Snippet-Suggestions-Window-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to View Snippet Suggestions</h2>
+        <ol>
+            <li>Open a project. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Analysis &gt; Suggestions &gt; Snippet Suggestions</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Analysis Summary Window Pane</span> Double-click the row that mentions snippet suggestions.</li>
+                </ul>
+                <p MadCap:conditions="General.Online-Only">The Snippet Suggestions window pane opens.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Suggestion</span>&#160;Displays the suggestion that the analysis is making to you (i.e., "Replace with Snippet").</li>
+                    <li><span class="SetOffFirstLevel">Snippet Path</span> Displays the location in your project's Content Explorer where the snippet is found, as well as the name of the snippet (e.g., Resources/Snippets/NewSnippet.flsnp).</li>
+                    <li><span class="SetOffFirstLevel">File</span> Displays the path and name of the file where the content in question is found.</li>
+                    <li><span class="SetOffFirstLevel">Folder</span>&#160;<MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/Folder-Option.flsnp" /></li>
+                    <li><span class="SetOffFirstLevel">Xml Text</span>&#160;Displays the exact XML tag structure of the content in question.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <h2>How to Convert Suggestions to Snippets</h2>
+        <p>Do one of the following, depending on whether you want to convert multiple suggestions to a snippet simultaneously, or if you want to convert only one snippet suggestion at a time.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Analysis/Suggestions/Index-Keywords/Convert-Multiple-Snippet-Suggestions-Steps.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2 or Snippets.Snippet3]" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Analysis/Suggestions/Snippets/Convert-One-Snippet-Suggestion-Steps.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Keep in mind that in order for content to be found and included in the Snippet Suggestions window pane, it must match the tag of the existing snippet exactly. For example, let's say that your snippet is a paragraph within a div tag. If you simply type the same text as the snippet on a simple paragraph in a topic, that content will not be found as a snippet suggestion. However, if you were to place that paragraph within a div tag in the topic, then it would be found as a snippet suggestion.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+    </body>
+</html>

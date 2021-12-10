@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Analysis-Reports.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="You can view a list of all files where you have variables inserted in the content, but those variables have not been defined." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Variables:undefined" />Viewing Undefined Variables</h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Analysis/Undefined-Items/Undefined-Variables-Window-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to View Undefined Variables</h2>
+        <ol>
+            <li>Open a project. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Analysis &gt; Undefined Items &gt; Undefined Variables</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Analysis Summary Window Pane</span> Double-click the row that mentions undefined variables.</li>
+                </ul>
+                <p>The Undefined Variables window pane opens.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Variable </span>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Analysis/Undefined-Items/Variable-Column.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/General/Folder-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Tag </span>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Conditions/Tag-Description.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <h2>How to Fix Undefined Variables</h2>
+        <p>There are a few ways to fix an undefined variable: (1) You can rename the variable or variable set so that it matches what you have used in the topic; (2) you can re-insert the variable in the topic so that it uses an existing variable set/variable name, (3) you can add the undefined variable to the project as a new variable; and (4) you can map the undefined variable to an existing variable.</p>
+        <div class="IndentMedium">
+            <h3>To Rename Variables</h3>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Analysis/Undefined-Items/Rename-Variables-Steps.flsnp" />
+            <h3>To Re-insert Variables</h3>
+            <ol>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/General/Double-Click-Right-Click-Open.flsnp" />
+                    </p>
+                </li>
+                <li>Re-insert the variable in the topic, selecting an existing name from a variable set. See <MadCap:xref href="../../Variables/Main-Activities/Inserting-Variables.htm" MadCap:conditions="General.Online-Only">Inserting Variables</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Print-Only">the <span class="EmphasisItalic">Flare Variables Guide</span> or the Flare online Help</MadCap:conditionalText> for more information about inserting variables.</li>
+            </ol>
+            <h3>To Add a Variable</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all variable occurrences that you want to add to the project. <MadCap:snippetText src="../../../Resources/Snippets/Flare/General/If-Select-All-Some-Rows.flsnp" /></p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../Resources/Images/Flare/Interface/Buttons/Add-Variable-Project-btn.png" alt="" title="" />.</li>
+                        <li><span class="SetOffFirstLevel">Right-Click </span>Right-click on the variable you want to add and from the context menu select <span class="Emphasis">Add Variable</span>.</li>
+                    </ul>
+                    <p>The Variable Set Editor opens, with the new variable(s) displayed.</p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you create a new variable, one of two things will happen:</p>
+                        <ol>
+                            <li>If the Variable Set file specified for the undefined variable exists in the project, Flare will add the new variable to the existing Variable Set file.</li>
+                            <li>If the Variable Set file specified for the undefined variable does not exist in the project, Flare will create a brand new Variable Set file in the project and add the variable to that file.</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>(Optional)&#160;In the Variable Set Editor, edit the variable's properties (e.g., name, definition, comment).</li>
+                <li>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+            <h3>To Map to a Variable</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all variable occurrences that you want to map to an existing variable. <MadCap:snippetText src="../../../Resources/Snippets/Flare/General/If-Select-All-Some-Rows.flsnp" /></p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../Resources/Images/Flare/Interface/Buttons/Map-Variable-btn.png" alt="" title="" />.</li>
+                        <li><span class="SetOffFirstLevel">Right-Click </span>Right-click on the variable you want to add and from the context menu select <span class="Emphasis">Map to Existing Variable</span>.</li>
+                    </ul>
+                </li>
+                <li>In the Variables dialog, select the existing variable in the project to overwrite the current undefined variable reference.</li>
+                <li>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                </li>
+                <li>
+                    <p>A message lets you know how many files were changed. <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> All of the selected variable occurrences are overwritten with the new variable.</p>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Analysis/More-Analysis-Scans/Topics/Note-Can-Use-Backups-Window.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Another way to replace a variable in many places throughout a project is to use the Find and Replace in Files feature in Flare. For example, let's say that you originally inserted a variable named "Company" (from the "Primary" variable set) in a lot of places in your project. Later, you renamed the variable "Branch." You can perform a find and replace throughout your entire project. In the "Find" field, you can enter <span class="TypedEntry">Primary.Company</span>, and in the "Replace with" field, you can enter <span class="TypedEntry">Primary.Branch</span>. Also, make sure you select the "Find in source code" option in the Find and Replace in Files window pane. After replacing this text throughout your project, that variable will no longer be considered "undefined". <MadCap:conditionalText MadCap:conditions="General.Online-Only">For information about using the Find and Replace in Files feature, see <MadCap:xref href="../../Editor-Tools/Find-Replace/Find-Replace.htm">About Find and Replace</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+    </body>
+</html>

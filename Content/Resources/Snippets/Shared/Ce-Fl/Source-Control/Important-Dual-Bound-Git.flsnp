@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="warning">
+            <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">If you are  using a Git/Central dual-binding, you can import projects from Git (using the  Import Project From Source Control Wizard) or from Central. The project will be the same. However, if you import from Central, you will only be able to push changes to and pull changes from Central. If you import from Git<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> (see <MadCap:xref href="../../../../../Flare/Source-Control/Git/Process/Importing-Project-from-Source-Control-Git.htm">Importing a Project from Git</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Central">(see the Flare online Help)</MadCap:conditionalText>, you will be able to push changes to and pull changes from Central <span class="EmphasisItalic">as well as</span> your main Git repository. This is because the project in Central has no connection to the original Git repository, and if you import from Central you will not have those source control bindings.</p>
+        </div>
+    </body>
+</html>

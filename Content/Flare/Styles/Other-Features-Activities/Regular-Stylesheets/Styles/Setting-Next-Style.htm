@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides-Tutorials-Videos/Flare-Styles-Video1-Intro.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="You can specify that a particular style should be used when you press Enter at the end of the current style." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Styles:stylesheets;Next style;Styles:next" />
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:concept term="FilterFeatures" />Setting a "Next" Style</h1>
+        <p>You can specify that a particular style should be used when you press ENTER at the end of the current style. For example, after you type text for a heading and press ENTER, you might want the next style to be something like p.TopicText, rather than the main p style.</p>
+        <p>In this version of <MadCap:variable name="Other.Product" />, you cannot specify this setting in the user interface. Instead, you need to open the stylesheet in the Internal Text Editor, or another editor such as Notepad, and enter the settings manually.</p>
+        <h2>How to Set a "Next" Style</h2>
+        <ol>
+            <li>In the Content Explorer, right-click on the stylesheet, and from the context menu select <span class="Emphasis">Open with &gt; Internal Text Editor</span> or <span class="Emphasis">Open with &gt; Notepad</span>.</li>
+            <li>Find the "current" style (i.e., the style that will immediately precede the "next" style). </li>
+            <li>
+                <p>Within the curly brackets in the CSS file, enter the following text if the next style is a primary style (e.g., p, li).</p>
+                <div class="IndentSmall">
+                    <p><span class="TypedEntry">mc-next-tag:[tag];</span>
+                    </p>
+                </div>
+                <p>OR</p>
+                <p>Within the curly brackets, enter the following text if the next style is a class.</p>
+                <div class="IndentSmall">
+                    <p><span class="TypedEntry">mc-next-tag:[tag];</span>
+                    </p>
+                    <p><span class="TypedEntry">mc-next-class:[class];</span>
+                    </p>
+                </div>
+                <div class="example" MadCap:conditions="General.Online-Only">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If the current style is h2 and the next style should be p, it would look like this:</p>
+                    <p>
+                        <img src="../../../../../Resources/Images/Flare/Styles/Next-Tag1.png" />
+                    </p>
+                    <p>On the other hand, if the current style is h2 and the next style should be a class of p called "TopicText," you would enter this:</p>
+                    <p>
+                        <img src="../../../../../Resources/Images/Flare/Styles/Next-Tag2.png" />
+                    </p>
+                </div>
+            </li>
+            <li>Save your changes.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+    </body>
+</html>

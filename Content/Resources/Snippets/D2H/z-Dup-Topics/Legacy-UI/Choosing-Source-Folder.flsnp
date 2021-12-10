@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="805" MadCap:lastWidth="828">
+    <body>
+        <p>You can set the default folder that your source documents are stored in. This can be done for Word and media files.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Default Folder for Word Source Files</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The default folder for Word source files is Documents. This folder is automatically created when you create a project. It is strongly recommended that all source documents be stored inside this folder, because it helps to keep the project files organized and will ensure that links to files of any kind are preserved.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Default Folder for Media Files</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The default folder for images, video, etc. is Media. This folder is automatically created when you create a project. It is strongly recommended that all media files be stored inside this folder.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add a Source Document Folder</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Select the <span class="Emphasis">Project</span> ribbon.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">At the bottom of the <span class="Emphasis">Project</span> group, click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Project Settings dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Project Settings</span> button. The Project Settings dialog opens.</li>
+                    <li>Depending on the type of files, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> next to the <span class="Emphasis">Document folder(s)</span>, <span class="Emphasis">Plugin folder(s)</span>, or <span class="Emphasis">Media folder(s)</span> field. The Choose Source Folder dialog opens.</li>
+                    <li>Click <span class="Emphasis">Add Folder</span>. A Browse dialog opens.</li>
+                    <li>Choose or create a folder and click <span class="Emphasis">OK</span>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Delete a Folder</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To delete a folder, choose the folder in the window and click Remove Folder.</p>
+                <ol>
+                    <li>Select the <span class="Emphasis">Project</span> ribbon.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">At the bottom of the <span class="Emphasis">Project</span> group, click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Project Settings dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Project Settings</span> button. The Project Settings dialog opens.</li>
+                    <li>Depending on the type of files, click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> next to the <span class="Emphasis">Document folder(s)</span>, <span class="Emphasis">Plugin folder(s)</span>, or <span class="Emphasis">Media folder(s)</span> field. The Choose Source Folder dialog opens.</li>
+                    <li>Select the folder you want to delete and click <span class="Emphasis">Remove Folder</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

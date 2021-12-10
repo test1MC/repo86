@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div>
+            <div class="Tiles-4-4-4">
+                <div>
+                    <p class="micro-content-only"><span class="micro-content-only-inline"><b>Status—Confirming and Matching Translations </b></span>The Status column in the Translation Editor indicates whether a segment’s translation has been confirmed (i.e., accepted), as well as whether and how well it was matched in translation memory (TM) or machine translation (MT). <span class="micro-content-only-inline"><a href="../../../../../Lingo/Translation-Memory/Other-Information/Statuses-Matches.htm">More Details…</a></span></p>
+                    <p class="center">
+                        <img src="../../../../Images/Lingo/Micro-Content/Status.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+                <div>
+                    <p class="micro-content-only"><span class="micro-content-only-inline"><b>Status—File Progress </b></span>A file’s status (e.g., Untranslated, In Progress, Completed, Reviewed, Approved) changes automatically as you work on it, but you can also set it manually. This affects the Status column in the File List window pane (<b>View &gt; File List</b>). <span class="micro-content-only-inline"><a href="../../../../../Lingo/Translating-Files/Setting-Translated-Status-Files.htm">More Details…</a></span></p>
+                    <MadCap:dropDown MadCap:conditions="Snippets.Snippet1" MadCap:excludeAction="unbind">
+                        <MadCap:dropDownHead>
+                            <MadCap:dropDownHotspot><span class="micro-dropdown-head">How to Set the File Status</span>
+                            </MadCap:dropDownHotspot>
+                        </MadCap:dropDownHead>
+                        <MadCap:dropDownBody>
+                            <ul>
+                                <li>
+                                    <p>Open a file, and in the local toolbar of the Translation Editor, click the <b>Status</b> drop-down and make a selection.</p>
+                                    <p>OR</p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>In the File List window pane, select a file, click <img src="../../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />, and on the <b>Translation</b> tab set the status.</li>
+                            </ul>
+                        </MadCap:dropDownBody>
+                    </MadCap:dropDown>
+                </div>
+                <div>
+                    <p class="Emphasis">Other Meanings for Status</p>
+                    <ul>
+                        <li><b>Source Control </b>If your project is bound to <a href="../../../../../Lingo/Source-Control/Source-Control.htm">source control</a>, this can refer to <a href="../../../../../Lingo/Source-Control/Linked-Topics/Enabling-Status-Checks.htm">status checks</a>. For certain vendors, it might also pertain to a file’s “check in” or “check out” situation.</li>
+                        <li><b>File Tagging </b>In the File List window pane, Lingo lets you see <a href="../../../../../Lingo/File-Tagging/File-Tagging.htm">file tags</a> created by Flare authors for various purposes, such as custom statuses to keep track of milestones.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

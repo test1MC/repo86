@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Central provides a default domain that you can use, and it is displayed in gray text on the URLs page view. You also have the option of adding your own host mapped domains, as many as you need.</p>
+        <ul>
+            <li>
+                <p><span class="Emphasis">Default Central Domain </span>The default Central URL begins with your license (e.g., company) name, which is the subdomain. This is followed by a period, then “mcoutput.com,” which is Central’s root domain. When these are combined, you have the full URL.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;"> https://fictionsoft.mcoutput.com</p>
+                </div>
+                <MadCap:snippetBlock src="Setting-Site-Vanities-Summary1.flsnp" />
+                <MadCap:snippetBlock src="Example-Auto-Generated-Number-Build-Target.flsnp" />
+                <p>However, you can add a vanity to the site<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Central/Sites/Sites-Page-View/Main-Activities/Setting-Site-Vanities.htm">Setting Site Vanities</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> (see <MadCap:xref href="../../../../Print-Only-Topics/Central/Sites/Setting-Site-Vanities.htm">Setting Site Vanities</MadCap:xref>)</MadCap:conditionalText>. The vanity will be used in place of the auto-generated ID, making the output easier to identify.</p>
+                <MadCap:snippetBlock src="Example-Site-Vanity.flsnp" />
+            </li>
+            <li>
+                <p><span class="Emphasis">Host Mapped Domains </span>If you prefer end users to see your company’s domain instead of Central’s (“mcoutput.com”), you can create a CNAME (Canonical Name) to map to your own host domain.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;"> https://help.fictionsoft.net</p>
+                    <p>A full URL for a host mapped domain might be something like the following (we've included a site vanity):</p>
+                    <p>https://help.fictionsoft.net/module1-v1/Default.htm</p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>You open an image that is already part of a MadCap Flare project. All of the variables from that Flare project automatically become available for you to use in your image (i.e., they are project link variables, as described above). Suppose that you want to use a variable called "ProductName." The definition that you have provided for that variable name in Flare is "OurSoftware Version 1." So within your image, you might add a bubble callout and add text to it (e.g., "Welcome to"). Then you select the ProductName variable. The callout now displays the text you typed, plus the definition of the variable (e.g., "Welcome to OurSoftware Version 1").</p>
+            <p>Now let's say that it is a year later and your company has created another version of the software, called "OurSoftware Version 2." You need to change this name everywhere in your Flare project, as well as everywhere it has been used in an image callout. If you had not used a variable, you would need to manually find and replace the old name with the new name. Fortunately, you used a variable, so all you need to do is change the definition in one place. If you had created the variable within Capture, you would edit the definition in Capture's <a href="../../../../Capture/Interface/Dialogs/File-Properties-Dialog.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">File Properties dialog</a>. However, in this example, you used a variable from your Flare project. Therefore, you would modify the variable definition from within the Flare project. After you do so, the definition is changed everywhere that the variable was inserted (including within the callout in your image). </p>
+        </div>
+    </body>
+</html>

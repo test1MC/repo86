@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Pulse_Downloads" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <meta name="description" content="Use the setup program to install MadCap Pulse on the web server. This installs the Pulse server application and provides users with access to the Pulse Dashboard and Flare community features." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="MadCap Pulse:installation;MadCap Pulse:web server;Installation:Pulse" />Installing and Activating Pulse</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="MadCap Pulse:installation;MadCap Pulse:web server;Installation:Pulse" />Installing and Activating Pulse</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Banners/Information-Network-Administrators.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Prepare-For-Pulse-Installation.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>List of Pulse Components</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/List-Pulse-Components.flsnp" />
+        <h2>List of Windows Service Applications</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/List-Windows-Service-Applications.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" />
+        <h2>How to Install the Pulse Server Application</h2>
+        <p MadCap:conditions="General.Online-Only">
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Do-Following-On-Web-Server.flsnp" />
+        </p>
+        <ol>
+            <li>Install the prerequisite software. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="2012/Installing-Prerequisites-2012.htm">Installing the&#160;Prerequisites for Windows Server 2012</MadCap:xref>, <MadCap:xref href="2008R2/Installing-Prerequisites-2008R2.htm">Installing the&#160;Prerequisites for Windows Server 2008R2</MadCap:xref>, or <MadCap:xref href="2008/Installing-Prerequisites-2008.htm">Installing the&#160;Prerequisites for Windows Server 2008</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Install-SQL-Server-Instance.flsnp" /> See <MadCap:xref href="Installing-SQL-Server.htm">Install&#160;Microsoft SQL&#160;Server</MadCap:xref>.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Obtain-Installation-Media-License-Code.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">CD </span>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Insert-Installation-CD.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Online </span>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Download-Setup-Program-From-Link.flsnp" />. </li>
+                </ul>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Note-Pulse-License-Code.flsnp" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Pulse/Note-Create-Unlimited-Number-Flare-Communities.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/PulseIISLoginAdministrator.flsnp" />
+                <br />
+            </li>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Right-Click-Pulse-Program-Select-Install.flsnp" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Shared/Fl-Pu/pulse_install_setup_program_install_menu.png" class="MaxWidth100Percent" />
+                </p>
+                <p class="Subheading">if you are not logged in as an administrator</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Install-Context-Menu-Not-Appearing.flsnp" />
+                <ol class="LowerAlpha">
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Navigate-Pulse-Setup-Program.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Right-Click-Setup-Run-Administrator.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/If-Prompted-Windows-UAC.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/If-Logged-On-Different-Account.flsnp" />
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Welcome-Setup-Wizard-Click-Next.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Select-I-Agree.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Select-Installation-Folder.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/View-List-Drives-Install-Pulse.flsnp" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Make-Pulse-Available-Any-User.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Confirm-Installation-Page.flsnp" />
+                </p>
+                <p class="Subheading">if you are prompted to install the visual c++ 2010 redistributable</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Visual-C++2010-Redistributable-Not-Installed.flsnp" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Provide-Your-License-Code.flsnp" />
+                <ol class="LowerAlpha">
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Place-Checkmark-I-Have-Read-Accept-License.flsnp" />
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/If-Following-Message-Appears-Click-Retry.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../Resources/Images/Shared/Fl-Pu/pulse_install_msvisualc_retry.png" class="MaxWidth75Percent" />
+                        </p>
+                    </li>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" />
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Depending-On-System.flsnp" />
+                        </p>
+                        <ul>
+                            <li>
+                                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Prompt-To-Install-Correct-Distributable.flsnp" />
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Click-Cancel-To-Install-Newer-C++.flsnp" />
+                                </p>
+                                <p>
+                                    <img src="../../../Resources/Images/Shared/Fl-Pu/pulse_install_msvisualc_cancel.png" class="MaxWidth75Percent" />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/If-Installation-Did-Not-Succeed-Click-Log-File.flsnp" />
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Log-Check-Verbose.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../Resources/Images/Shared/Fl-Pu/pulse_install_msvisualc_verbose.png" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Scroll-Down-Log-Newer-Distributable.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../Resources/Images/Shared/Fl-Pu/pulse_install_msvisualc_newer.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Note-Newer-Version-Distributable.flsnp" />
+                    </li>
+                    <li>Close the Installation Log.</li>
+                    <li> <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Click-Finish-Installation-Did-Not-Succeed.flsnp" /></li>
+                </ol>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Complete-Click-Close.flsnp" />.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Note-Windows-Update-NET-Framework.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" />
+        <h2>How to Activate Pulse</h2>
+        <p MadCap:conditions="General.Online-Only">
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Activate-After-Installation.flsnp" />
+        </p>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/PulseIISLoginAdministrator.flsnp" /> </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Launch-Pulse-Server-Application.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/How-to-Launch-Pulse-Server.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak />
+        <ol MadCap:continue="true">
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Provide-Your-License-Code.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Type-License-Code.flsnp" />
+                        </p>
+                        <p>OR</p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Copy-License-Code.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../Resources/Images/Shared/Fl-Pu/pulse_activate_license_code.png" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>Click <span class="Emphasis">Next</span>. </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Enter-Your-Information-Page.flsnp" />&#160;</li>
+            <li>Click <span class="Emphasis">Next</span>. </li>
+            <li>
+                <p>Select the desired activation method:</p>
+                <ul>
+                    <li>
+                        <p> <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Internet-Activation-Pulse.flsnp" /></p>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/How-to-Activate-With-Proxy-Server.flsnp" />
+                        <p>OR</p>
+                    </li>
+                    <li> <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Manual-Activation-Pulse.flsnp" /></li>
+                </ul>
+            </li>
+            <li>Click <b>Next</b>.&#160;</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Copy-Paste-Activation-Code.flsnp" />
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">Next</span>.</p>
+                <p>The system activates your product.</p>
+                <p class="Subheading">if you encounter activation issues </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Encountering-Activation-Issue-Message.flsnp" />
+                <p>
+                    <img src="../../../Resources/Images/Shared/Fl-Pu/pulse_activate_network_external.png" class="MaxWidth50Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" />
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Issues-During-Activation.flsnp" />
+                <ul>
+                    <li> <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Entering-Invalid-License-Code.flsnp" /></li>
+                    <li> <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Entering-Activated-License-Code.flsnp" /></li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/System-Cannot-Connect-Activation-Server.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/You-Must-Use-Proxy-Server.flsnp" /> If you experience an issue, the<MadCap:variable name="Other.CompanyName" /> knowledge base has a helpful tip about registration behind a proxy server: <a href="http://kb.madcapsoftware.com/default.htm#cshid=GEN1004Z" target="_blank">http://kb.madcapsoftware.com/default.htm#cshid=GEN1004Z</a></p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Pu/Pulse/Welcome-Pulse-Configuration-Wizard.flsnp" /> See <MadCap:xref href="Pulse-Server-Configuration.htm">Pulse Server Configuration</MadCap:xref>.</p>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>Create a new source control publishing destination, or select an existing source control publishing destination. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Step5-Building-Publishing-Output/Publishing-Destinations/Process/Creating-Destination-File-Source-Control.htm">Creating Destination Files Using Source Control</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When creating a new source control destination, be sure to select <span class="Emphasis">Source Control</span> from the <span class="Emphasis">Type</span> drop-down.</p>
+                </div>
+            </li>
+            <li>Assign the publishing destination to the target you want to publish. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Step5-Building-Publishing-Output/Publishing-Destinations/Process/Associating-Publishing-Destinations-Targets.htm">Associating Destination Files With Targets</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>Build and publish your output. Your output files will be published to the source control location you specified in the destination. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Step5-Building-Publishing-Output/Building-Publishing-Output.htm">Step 5: Building and Publishing Output</MadCap:xref>.</MadCap:conditionalText></li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="caption-side: top;width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Add-Phrase-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">Adds a new phrase to the grid below. Replace the generic text with your own phrase.</p>
+                        <p class="TableText">You can also right-click in the grid and select <b>Add Phrase</b> from the context menu. The keyboard shortcut option is <b>CTRL+SHIFT+N</b>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Add-Alternate-Phrase-btn2.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Adds a new alternate phrase under the main phrase that is selected in the grid below. Replace the generic text with your own alternate phrase. Adding an alternate phrase ensures that the response will display for the end user, even though the main phrase is not used.</p>
+                        <p class="TableText">You can also right-click in the grid and select <b>Add Alternate Phrase</b> from the context menu.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Add-Link-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Opens a dialog, which lets you choose a topic or snippet, linking it to the main phrase that is selected in the grid below. You can also choose a bookmark within the linked file. After adding a link, the content in the linked file is shown in the response area to the right, although it is read-only; to edit the content, you must do so in the topic or snippet file itself. If you selected a bookmark when linking the file, the response will include any content after the point of that bookmark in the file. The linked file name is also shown under the main phrase when you expand it in the grid.</p>
+                        <p class="TableText">After adding a link, the button changes to <img src="../../../../Images/Flare/Interface/Buttons/Remove-Link-btn2.png" class="ReduceButtonSize" />, which you can click to remove the link. In the response area to the right, the content from the linked file is converted to text.</p>
+                        <p class="TableText">You can also right-click in the grid and select <b>Add Link</b> or <b>Remove Link/Convert to Text</b> from the context menu.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="General.Future">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Edit-Phrase-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Highlights the phrase in the grid so that you can edit it. Alternatively, you can slowly click the phrase twice, or select it once and press <span class="Emphasis">F2</span> on your keyboard.</p>
+                        <p class="TableText">You can also right-click in the grid and select <b>Edit Phrase</b> from the context menu.</p>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Delete-Phrase-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">Deletes the selected phrase or alternate phrase in the grid. Use caution when deleting a main phrase, because any associated content entered directly into the response area (as opposed to a linked file) will also be removed.</p>
+                        <p class="TableText">You can also right-click in the grid and select <b>Delete Phrase</b> from the context menu.</p>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="" class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Insert-Variable-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">Opens the Variables dialog, which lets you insert a variable into the phrase. This button is enabled only if you first select the phrase text (e.g., click it and press <span class="Emphasis">F2</span>) so that it can be edited. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Variables/Main-Activities/Inserting-Variables.htm">Inserting Variables</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="Products.Flare">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Show-Hide-Variable-Definitions-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Toggles between showing or hiding any variable definitions found in the grid. By default, only the variable syntax is initially shown, but after clicking this button, you will see its definition.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/All/Interface/Buttons/Expand-All-btn2.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Expands all the phrase entries in the grid below, so that you can see any links or alternate phrases associated with them.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/All/Interface/Buttons/Collapse-All-btn2.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Collapses all the phrase entries in the grid below, so that you can see only the main phrases, rather than any links or alternate phrases associated with them.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <MadCap:snippetBlock src="../../../Shared/Ca-Co-Fl-Mi/Interface/Ribbons-Toolbars-Menus/Hide-Show-Conditional-Indicators-Description.flsnp" class="TableText" MadCap:conditionTagExpression="include[Snippets.Snippet3], exclude[Snippets.Snippet1 or Snippets.Snippet2]" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

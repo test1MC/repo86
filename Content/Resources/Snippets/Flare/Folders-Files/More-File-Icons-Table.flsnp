@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Flare/Interface/Icons/Linked-Flag-Image-ico.png" class="ReduceButtonSize" /> Global Project Linking</p>
+                        <p class="TableText"> If you use Global Project Linking, this icon is added to the top of a linked file in the <MadCap:variable name="Other.Product" /> interface. This lets you know that you need to edit the source file, rather than editing this file. If you remove the connection to the source file, this icon no longer displays on the file. Please note that if you have bound the project to source control, the icons used for source control take precedence over the link icon.</p>
+                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Global-Project-Linking/GPL-Importing-Files1.htm">Global Project Linking—Importing Files from Other Projects</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Flare/Interface/Icons/Mapped-Resource-ico.png" /> External Resources</p>
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Flare/Interface/Icons/Mapped-Resource-ico.png" /> SharePoint</p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../SharePoint/Share-Point-Icon.flsnp" />
+                        </p>
+                        <p class="TableText" MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/External-Resources/Copying-Mapping-External-Resource-Files.htm">Copying and Mapping External Resource Files</MadCap:xref> and <MadCap:xref href="../../../../Flare/SharePoint/Copying-Mapping-SharePoint-Files.htm">Copying and Mapping SharePoint Files</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../Source-Control/Check-Out-Icon.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-New-File-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../Source-Control/Added-Icon.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Locked-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../Source-Control/Read-Only-Icon.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Red-Lock-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../Source-Control/Locked-Icon.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Green-Lock-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../../Shared/Fl-Li/Source-Control/Locked-By-You-Icon.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-Other-User-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../Source-Control/Another-User-Icon.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Out-Date-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../Source-Control/Out-Date-Icon.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-DarkerRows">
+                    <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Cursor-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../Source-Control/Renamed-Icon.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows" colspan="3">
+                        <p class="TableTextEmphasis">
+                            <img src="../../../Images/Flare/Interface/Icons/Source-Control-Deleted-ico.png" />&#160;Source Control</p>
+                        <MadCap:snippetBlock src="../Source-Control/Deleted-Icon.flsnp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

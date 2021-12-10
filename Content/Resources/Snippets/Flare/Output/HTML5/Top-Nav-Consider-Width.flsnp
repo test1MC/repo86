@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If you decide to use Flare's project templates as a basis for your new Top Navigation output, you will notice that we've made the main content area somewhat narrow on the left side of the context-sensitive menu, with content wrapping under the menu. </p>
+        <p>
+            <img src="../../../../Images/Flare/Output/Top-Nav-Output53.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <p>It's a nice look, but it also means that you might experience issues if you have extra wide content, such as big tables. You probably won't have an issue if the wide content in question wraps under the topic menu. But if you have a long topic menu on a particular page due to the number of related links in the TOC, you could have a challenge displaying the wide content properly.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+        <p>If this is the case, you might consider either changing your content so it does not require so much horizontal space or making the content area wider. If you want to change the width, you can use the "Inspect" feature in your browser to see which style is influencing that look. With a topic in the output open, right-click in the browser and select <b>Inspect</b> (the option might be somewhat different depending on your browser).</p>
+        <p>
+            <img src="../../../../Images/Flare/Output/Top-Nav-Output54.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>As you hover over styles in the code that is shown, different parts of the output will be highlighted. If you hover over this:</p>
+        <div class="IndentMedium">
+            <p>&lt;div class="row outer-row sidenav-layout"&gt; == $0</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide">
+        </MadCap:pageBreak>
+        <p>You will notice that the output is highlighted like this:</p>
+        <div class="IndentMedium">
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Nav-Output58.png" alt="" title="" class="MaxWidth100Percent">
+                </img>
+            </p>
+        </div>
+        <p>Then, on the right side, you will see this:</p>
+        <div class="IndentMedium">
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Nav-Output59.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+        <p>So you can open your stylesheet in the Internal Text Editor and add the following, increasing the value of the max-width property:</p>
+        <div class="IndentMedium">
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Nav-Output60.png" alt="" title="" class="MaxWidth100Percent">
+                </img>
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide">
+        </MadCap:pageBreak>
+        <p>In this example, we increased the max-width to 85em, and as a result the content in our output now looks like this:</p>
+        <div class="IndentMedium">
+            <p>
+                <img src="../../../../Images/Flare/Output/Top-Nav-Output61.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

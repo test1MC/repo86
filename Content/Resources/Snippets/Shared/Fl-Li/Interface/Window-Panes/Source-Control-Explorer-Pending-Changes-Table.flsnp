@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Commit/Submit/Check In </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Send your local files to source control. The terminology on this button changes depending on the source control provider you are using. <MadCap:conditionalText MadCap:conditions="Products.Flare">See <MadCap:xref href="../../../../../../Flare/Source-Control/Linked-Topics/Checking-In.htm">Checking In, Committing, and Submitting Source Control Files</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Revert/Undo Check Out </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Return your local files to their most recent state. The terminology on this button changes depending on the source control provider you are using. <MadCap:conditionalText MadCap:conditions="Products.Flare">See <MadCap:xref href="../../../../../../Flare/Source-Control/Linked-Topics/Undoing-Check-Out.htm">Reverting or Undoing  a Checkout of Source Control Files</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Lingo">See <MadCap:xref href="../../../../../../Lingo/Source-Control/Linked-Topics/Undoing-Check-Out.htm">Reverting or Undoing  a Checkout of Source Control Files</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Comment</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Add a comment to the commit/submit/check in. You can view the comment in the file's history. <MadCap:conditionalText MadCap:conditions="Products.Flare">See <MadCap:xref href="../../../../../../Flare/Source-Control/Linked-Topics/Viewing-History.htm">Viewing the History of Source Control Files</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Lingo">See <MadCap:xref href="../../../../../../Lingo/Source-Control/Linked-Topics/Viewing-History.htm">Viewing the History of Source Control Files</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Included Changes</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">The files in this section will be included in the next commit/submit/check in. You can right-click any file or folder to add it to the Excluded Changes section.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Excluded Changes</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">The files in this section will be excluded from the next commit/submit/check in. You can right-click any file or folder to add it to the Included Changes section.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

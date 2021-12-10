@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/Word.flsnp" />
+        <p>In <MadCap:variable name="Other.Product" />, you can specify section breaks for print-based output. Doing this lets you accomplish the following:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Add Section Breaks </span>You can add actual section breaks into Microsoft Word output. Section breaks are a feature unique to Word.</li>
+            <li><span class="SetOffFirstLevel">Autonumber Sections </span>You can take advantage of section autonumbering. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Autonumbers/Autonumbers1.htm">Autonumbers</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p><span class="SetOffFirstLevel">Start a New Section Using Template Pages</span> You can use a section break to apply a template page to Microsoft Word output, starting at that location in the content. Template pages can be used to add header and footer content, insert page numbers, and specify the page size and orientation. The rest of this topic deals with using section breaks to apply template pages. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">As an alternative to template pages, you can use page layouts for print-based output. Whereas template pages are used only for Word output, page layouts can be used for all print-based outputs. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Page-Layouts.htm">Page Layouts</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /></p>
+                </div>
+            </li>
+        </ul>
+        <p>If you create one or more template pages for Word output, you need to specify how those template pages will be used. You have a couple of options:</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+        <h2>How to Specify Section Breaks and Template Pages for Print-Based Output</h2>
+        <p MadCap:conditions="">If you are producing Microsoft Word output, you can specify places in your outline TOC where you want to create section breaks for your print-based output. A primary reason for using a section break is to specify that a particular chunk of Word output should use a certain print template page. The output uses the specified template page for the rest of the document, or until it comes across another section break/template page that you have included in the outline TOC. </p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are producing a print-based document that includes a title page, a TOC, 15 chapters, and an index. If you want to include page numbering in the printed document, starting with the first chapter (i.e., no page numbers on the title page or TOC) and continuing to the end of the document, you can create a print template page for this purpose. You can specify in the print template page that the even numbers are placed at the bottom-left of those pages and the odd numbers are placed at the bottom-right of those pages. Then, in your outline TOC, you can create a section break where the first page of the first chapter occurs and associate the template page with that section.</p>
+        </div>
+        <p MadCap:conditions="">Use these steps if you want to use this method:</p>
+        <ol type="1">
+            <li>
+                <MadCap:snippetText src="../General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>Double-click the <span class="Emphasis">TOCs</span> folder. </li>
+            <li>Double-click the TOC that you plan to use for the print-based output. The TOC Editor opens to the right.</li>
+            <li>Select the entry in the TOC where you want to insert a section break, and where you want a print template page to start being displayed in the print-based output. </li>
+            <li>In the local toolbar, click <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog for the TOC entry opens.</li>
+            <li>Click the <span class="Emphasis">Printed Output</span> tab.</li>
+            <li>Click <span class="Emphasis">Start a new section</span>.</li>
+            <li>Click the down arrow in the field <span class="Emphasis">Configure section using this template page</span>, and select the print template page that you want to use.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <li>
+                <p>Repeat steps 4-9 for each print template page that you want to associate with a particular section. </p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you want to apply the same settings to many TOC entries, you can hold down the CTRL or SHIFT key and select those entries. Then open the Properties dialog and specify the settings.</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You do not have to follow these steps for every single TOC entry within that section—only for the first TOC entry in that section. The template page will be used in the print-based output starting at that location in the content and continuing to the end of the document, or until it comes across another section break/template page that you have designated.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>How to Associate a Template Page With a Print Target</h2>
+        <p>Use the following steps if you want to include only one template page in your Word output, displaying that template page on every page of the output.</p>
+        <ol>
+            <li>Open the Word target that you are using to create the output.</li>
+            <li>Click the <span class="Emphasis">Advanced</span> tab.</li>
+            <li>Click the drop-down arrow in the <span class="Emphasis">Template Page</span> field, and select the print template page that you want to associate with the target.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After specifying section breaks and template pages, you can move on to any of the remaining tasks for creating printed output. See <MadCap:xref href="../../../../Flare/Printed-Output/Creating-Printed-Output.htm">Creating Print-Based Output</MadCap:xref>.</p>
+    </body>
+</html>

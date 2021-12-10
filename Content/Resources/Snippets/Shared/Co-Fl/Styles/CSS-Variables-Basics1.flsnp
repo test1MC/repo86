@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can easily spot a CSS variable. It is any property that begins with two dashes.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">--my-css-variable: green;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>A CSS variable is sometimes called a “custom variable” because you can use whatever name you want (but don’t use spaces), rather than always adhering to standard CSS property names such as “color,” “width,” and “font-size.” For example, you might have a CSS variable written like this in order to identify your company’s primary branding color.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">--main-company-color: #bed420;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>When a CSS variable is referenced by another property, it is done so with the var() function.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">color: var(--main-company-color);</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>You can define a CSS variable either locally or globally. A locally defined CSS variable is set on a particular selector.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">.banner-text
+{
+	--main-company-color: #bed420;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>On the other hand, a globally defined CSS variable is set on the :root selector.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">:root
+{
+	--main-company-color: #bed420;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>Most of the time you will probably use the :root selector for your CSS variables. It’s a good way to group all of your CSS variables in one place. Also, the variables become available throughout the stylesheet and content files (i.e., the variables are global).</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <p>Following are some other important considerations of CSS variables:</p>
+        <ul>
+            <li>Normal rules of inheritance and cascading apply to CSS&#160;variables. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Basics-CSS/Inheritance.htm">Inheritance</MadCap:xref> and <MadCap:xref href="../../../../../Flare/Styles/Basics-CSS/Cascading.htm">Cascading</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>They are case-sensitive, so make sure you are consistent when creating and using them.</li>
+            <li MadCap:conditions="Products.Flare">
+                <p>You can change the value under @media sections in order to override the value on the default medium. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">About Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You might have the following set in the default medium.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">:root
+{
+	--main-company-color: #bed420;
+}</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>But then you have this under the @tablet media query.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">@media tablet
+{
+	:root
+	{
+		--main-company-color: #1c5a97;
+	}
+}</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>As expected, the color will change from green to blue once the screen size is reduced to a tablet.</p>
+                </div>
+            </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">For more detailed information about CSS&#160;variables, you can refer to numerous third-party websites on the internet.</p>
+        </div>
+    </body>
+</html>

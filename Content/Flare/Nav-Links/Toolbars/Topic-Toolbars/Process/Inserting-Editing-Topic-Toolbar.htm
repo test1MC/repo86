@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/User-Guides-Tutorials/Flare-Custom-Toolbar.flmsp');">
+    <head><title></title>
+        <meta name="description" content="Ways for inserting and editing a topic toolbar proxy." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Toolbars:topic;Proxies:topic toolbars" />
+            <MadCap:concept term="FilterFeatures" />Inserting and Editing a Topic Toolbar Proxy</h1>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Proxies/Topic-Toolbar-Proxy-Summary1.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Skins/More-Info-Toolbars.flsnp" />
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Insert a Topic Toolbar Proxy</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>Open a topic where you want the toolbar to appear. This is a good method if you only want the toolbar to be shown in one topic, or just a few topics.</li>
+                    <li>Open a template page that you will use when generating the target. This is the best method if you want the toolbar to be shown on all topics in the output.</li>
+                </ul>
+            </li>
+            <li>Place your cursor where you want the toolbar to be shown in the output (e.g., bottom or top of the topic or template page). If you are working in a template page, you may need to press the down arrow on your keyboard and then press <span class="Emphasis">ENTER</span> at the correct location.</li>
+            <li>Select <span class="Emphasis">Insert &gt; Proxy &gt; Insert Topic Toolbar Proxy</span>. The Topic Toolbar Proxy dialog opens.</li>
+            <li>
+                <p>(Optional) If you are working with HTML5 output, you can select a skin component in the <span class="Emphasis">Skin File</span> field. From the Topic Toolbar Skin Editor, you can select the buttons to be included in the toolbar<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see  <MadCap:xref href="Editing-HTML5-Topic-Toolbar-Skin-Components2.htm">Editing HTML5 Topic Toolbar Skin Components</MadCap:xref>)</MadCap:conditionalText>. Alternatively, you can select buttons from the Buttons field below.</p>
+                <p>If you do not select a skin component in this field, Flare uses the first one it finds in your project (if one exists). Otherwise, Flare provides a default design.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Stylesheet class for proxy</span> field, you can select a class to affect the look of the entire toolbar.</p>
+                <p>You might create and use a proxy style class, for example, if you want to add a border around the toolbar. If you do not select a class from this field, the generated toolbar will use the style settings from the parent MadCap|topicToolbarProxy style. You have the option of creating a class for this proxy style in the Stylesheet Editor. To do this, select the <span class="Emphasis">MadCap|topicToolbarProxy</span> style and in the local toolbar click <span class="Emphasis">Add Selector</span> to create a class. The class will then be available from this field. <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/Co-Fl/General/See-Online-Help-Styles-Guide.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /></p>
+            </li>
+            <li>
+                <p>(Optional) You can select buttons for the toolbar here, rather than doing so in the skin. However, adding buttons in the skin might be preferable, especially since you can also add custom buttons there (see <MadCap:xref href="Adding-Custom-Buttons-Toolbar.htm">Adding Custom Buttons to a Toolbar</MadCap:xref>).</p>
+                <ol class="LowerAlpha">
+                    <li>Click <span class="Emphasis">Select buttons</span>.</li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Buttons-Toolbar-Skin1.flsnp" />
+                        </p>
+                        <p class="Subheading">Add Topic to Favorites</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Add-Topic-Favorites-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Add-Topic-Favorites-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Back</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Back-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Back-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                        <p class="Subheading">Collapse All</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Collapse-All-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Collapse-All-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Current Topic Index</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Current-Topic-Index-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Current-Topic-Index.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Expand All</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Expand-All-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Expand-All-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                        <p class="Subheading">Forward</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Forward-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Forward-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Home</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Home-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Home-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Next Topic</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Next-Topic-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Next-Topic-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                        <p class="Subheading">Previous Topic</p>
+                        <p> <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Previous-Topic-Item.flsnp" /></p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Previous-Topic-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Print</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Print-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Print-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Quick Search</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Quick-Search-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Quick-Search.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                        <p class="Subheading">Refresh</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Refresh-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Refresh-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Remove Highlight</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Remove-Highlight-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Remove-Highlight-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Select Browse Sequence</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Browse-Sequence-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Select-Browse-Sequence-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Select Community</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Community-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Select-Community-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                        <p class="Subheading">Select Favorites</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Favorites-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Select-Favorites-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Select Glossary</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Glossary-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Select-Glossary-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Select Index</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Index-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Select-Index-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                        <p class="Subheading">Select Language</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Language.flsnp" />
+                        </p>
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want your users to be able to switch between US&#160;English, Spanish, and Japanese Help in your HTML5 output.                                             </p>
+                            <p>Before you can build your output, you need to make sure that each of your linked multilingual projects has the Select Language button is available in its HTML5 toolbar, and that you've added the Topic Toolbar proxy to a template page. If it the button isn't there, users won't be able to switch from one language to another in your output.</p>
+                            <p>Open the Project Organizer. In the <span class="Emphasis">Skins</span> folder, open the Topic Toolbar skin component. On the <span class="Emphasis">Setup</span> tab, select the <span class="Emphasis">Select Language</span> button, click <img src="../../../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Move-Item-Right-btn.png" alt="" title="" /> to add it to your skin, and then save your work. </p>
+                            <p>
+                                <img src="../../../../../Resources/Images/Flare/Targets/Multilingual1.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                            <p>Now you can prepare and build your multilingual output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Translation-Localization/Approaches/Translation-Works-Flare/Selecting-Language/Language-Target.htm#HowToSelectLanguagesTarget">How to Select Languages for a Target</MadCap:xref>.</MadCap:conditionalText></p>
+                            <p>When you open the HTML5 output, it defaults to the US&#160;English Help because that is your browser’s default setting.</p>
+                            <p>However, because you added the Select Language button  to your Topic Toolbar skin component, you can easily change the language setting using a drop-down menu.</p>
+                            <p>
+                                <img src="../../../../../Resources/Images/Flare/Targets/Multilingual11.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                            <p>Now the Japanese project is listed before the Spanish project.</p>
+                        </div>
+                        <p class="Subheading">Select Search</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Search-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Select-Search-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                        <p class="Subheading">Select Skin</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-Skin.flsnp" />
+                        </p>
+                        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Skins/Skins-Runtime1.flsnp" />
+                        <p class="Subheading">Select TOC</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Select-TOC-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Select-TOC-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                        <p class="Subheading">Separator</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Separator-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Separator.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Stop</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Stop-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Stop-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                        <p class="Subheading">Toggle Navigation Pane</p>
+                        <p>
+                            <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Skins/Toggle-Navigation-Pane-Item.flsnp" />
+                        </p>
+                        <p>
+                            <img src="../../../../../Resources/Images/Flare/Skins/Toggle-Navigation-Pane-Button.png" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>Click <span class="Emphasis">OK</span> when you are finished.</li>
+                </ol>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The proxy is added.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+        <h2>Editing a Topic Toolbar Proxy</h2>
+        <p>After inserting a Topic Toolbar proxy, you can edit it. To do this, open the topic or template page where the proxy is inserted, right-click on it, and select <span class="Emphasis">Edit Topic Toolbar Proxy</span>.</p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Proxies/Note-Select-Buttons-Topic-Toolbar.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are generating an <MadCap:variable name="Outputs.EclipseHelp" /> target that uses a Topic Toolbar proxy, Flare will automatically remove the proxy when building the output. This is because the Eclipse development platform provides its own toolbar support. See the Platform Plug-in Developer Guide from Eclipse at:&#160;<a href="https://help.eclipse.org/" target="_blank">help.eclipse.org</a></p>
+        </div>
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">If you inserted the proxy into a template page, make sure the template page is associated with your target. See <MadCap:xref href="../../../../Template-Pages/Process/Associating-Template-Pages-Targets.htm">Associating Template Pages With Targets</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+    </body>
+</html>

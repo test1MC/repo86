@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Central/User-Guides/Central-Projects-Builds.flmsp');">
+    <head>
+        <link href="../../../../../Resources/TableStyles/Shared/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="On the Builds page, a column displays an auto-generated ID&#160;for each build. When you click this ID, the Build Profile dialog opens. This dialog lets you see detailed information about a particular build and take certain actions." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Log file;Build log;Output:deleting;Keep builds;Builds:deleting;Builds:live;Live builds;Builds:keep;Output:live;Output:keep;Projects:downloading builds;Builds:downloading;Output:downloading;Builds:viewing;Output:viewing" />Opening the Build Profile Dialog</h1>
+        <p> On the Builds page, a column displays an auto-generated ID&#160;for each build. When you click this ID, the Build Profile dialog opens. This dialog lets you see detailed information about a particular build.</p>
+        <p>
+            <img src="../../../../../Resources/Images/Central/Projects/Builds/Open-Build-Profile-Dialog1.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <p>
+            <img src="../../../../../Resources/Images/Central/Projects/Builds/Open-Build-Profile-Dialog2.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Central/Banners/Build-Profile-Dialog.flsnp" />
+        <p>If you do not have any permissions for builds, the dialog will look like this (with only the Overview section):</p>
+        <p>
+            <img src="../../../../../Resources/Images/Central/Projects/Builds/Open-Build-Profile-Dialog3.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+        <h2>Sections</h2>
+        <p>Following are the possible sections that you might see. You can use these sections to view different information and perform various activities (as an alternative to using toolbar buttons above the Builds grid).</p>
+        <ul>
+            <li>
+                <p><span class="Emphasis">Overview </span>Displays the following information:</p>
+                <ul>
+                    <li>
+                        <p>Build timeline and progress, including its level of success</p>
+                    </li>
+                    <li>
+                        <p>Individual who generated it</p>
+                    </li>
+                    <li>
+                        <p>Project</p>
+                    </li>
+                    <li>
+                        <p>Commit ID</p>
+                    </li>
+                    <li>
+                        <p>Linked sites</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p><span class="Emphasis">Settings </span>Lets you mark successful builds as "keep," or remove this setting. You might set a build to "keep" to avoid accidentally deleting it, perhaps with the intention of rolling back to it at some point (i.e., setting the site associated with that build to "live"). You cannot change a build's "keep" state while it is linked to a "live" site. </p>
+            </li>
+            <li>
+                <p><span class="Emphasis">View Log </span>Displays the log for the build, with tabs showing messages, warnings, and errors.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Download Log </span>Downloads the log (.mclog) file to your computer. You can then open it in a text editor such as Notepad++.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">View Output </span>Opens the output for the build.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Download Build </span>Downloads the output files for the build into a ZIP file.</p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Delete Build </span>Lets you remove the build from the grid permanently. You cannot delete builds that are set to "keep" or associated with a site.</p>
+            </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+        <h2>Build Log Show/Copy Options</h2>
+        <p>If you open the log for a build, you might notice a couple of new options on the Warnings and Errors tabs.</p>
+        <table style="caption-side: top; mc-table-style: url('../../../../../Resources/TableStyles/Shared/Simple.css'); margin-left: 0; margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+            <col style="width: 10%;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 90%;" class="TableStyle-Simple-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../../../Resources/Images/Central/Interface/Buttons/Show-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableText">Opens a popup to show the complete message.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../../../Resources/Images/Central/Interface/Buttons/Copy-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                        <p class="TableText">Copies the message or file path to the clipboard so that you can paste it anywhere you like.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <img src="../../../../../Resources/Images/Central/Projects/Builds/Build-Log.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+    </body>
+</html>

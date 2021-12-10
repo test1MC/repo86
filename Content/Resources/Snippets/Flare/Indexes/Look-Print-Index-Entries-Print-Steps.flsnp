@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../Styles/Note-Steps-Using-Simplified.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../Styles/Filter-Generated-Content-Styles1.flsnp" />
+            </li>
+            <li>On the left side of the editor, expand the <span class="Emphasis">p</span> style. Classes of the style are shown below it.</li>
+            <li>
+                <p>Find and select the p.Index class that you want to customize (e.g., <span class="Emphasis">p.Index1</span>, <span class="Emphasis">p.Index2</span>, <span class="Emphasis">p.Index3</span>). </p>
+                <p>The class p.Index1 is used for the first-level keyword in the print index, p.Index2 is used for the second-level keyword, and so on. The p.IndexHeading class is used for customizing the letter heading (e.g., A, B, C, D) displayed at the beginning of each section in the index.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The page numbers in the generated list inherit their style settings from the list items before them. However, if you want the page numbers to look differently, you can modify the <span class="Emphasis">MadCap|xref.IndexPageNumber</span> style.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../Styles/Note-Assorted-Relevant-Properties.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Do not use the "PrintSupport" property for the Index1 through Index9 style classes.</p>
+                </div>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If you want to change the font size to 10 pt, you would expand <span class="Emphasis">Font</span>. Then to the right of <span class="Emphasis">font-size</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, in the popup set the font size, and click <span class="Emphasis">OK</span>.</p>
+                </div>
+            </li>
+            <li>(Optional) If you want to change the actual characters (e.g., A, B, C, D) that are used for the headings, do the following:<ol style="list-style-type: lower-alpha;"><li>Under the <span class="Emphasis">p</span> tag on the left side of the editor, make sure <span class="Emphasis">IndexHeading</span> is selected.</li><li><MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" /></li><li><MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Unclassified-Group1.flsnp" /></li><li><p>To the right of <span class="Emphasis">mc-heading-format</span>, type the new format in the value cell. Make sure you place the character within { and } brackets.</p><div class="example"><p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The default format is {A}. This means the headings will simply look like this: A, B, C, D. If you change it to {a}, the headings will be lowercase: a, b, c, d. If you change it to -{A}-, the headings will look like this: -A-, -B-, -C-, -D-.</p></div></li></ol></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

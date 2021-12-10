@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="Products.Pulse">
+  <TocEntry
+    Title="ComingSoonTitlePage"
+    Link="/Content/Print-Only-Topics/Shared/Coming-Soon-Title-Page.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    conditions="General.Future"></TocEntry>
+  <TocEntry
+    Title="Title"
+    Link="/Content/Print-Only-Topics/Shared/Title-Page-Pulse.htm"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    PageNumber="(multiple)"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageType="normal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print-Only-Topics/Shared/Copyright.htm"
+    StartPageLayout="true"
+    BreakPageLayout="/Content/Resources/PageLayouts/Copyright.flpgl"
+    StartSection="false"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Copyright/Copyright.flpgl"
+    ComputeToc="false" />
+  <TocEntry
+    Title="PrintTOC"
+    Link="/Content/Print-Only-Topics/Shared/Print-TOC.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/TOCs/TOC-Pulse.flpgl"
+    PageType="first"
+    PageNumberFormat="lower-roman"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"></TocEntry>
+  <TocEntry
+    Title="CH 1"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Pulse.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/Pulse/Getting-Started/Getting-Started.htm"
+    BreakType="none"
+    PageType="firstright"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    PageNumberFormat="decimal"
+    PageNumber="(multiple)">
+    <TocEntry
+      Title="Registering for a Pulse Account"
+      Link="/Content/Pulse/Getting-Started/Registering-Account.htm" />
+    <TocEntry
+      Title="Logging In to Pulse"
+      Link="/Content/Pulse/Getting-Started/Logging-in-Pulse.htm" />
+    <TocEntry
+      Title="Creating and Editing Your Profile"
+      Link="/Content/Pulse/Getting-Started/Creating-Editing-Profiles.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 2"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Pulse.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Posting Content"
+    Link="/Content/Pulse/Posting-Content/Posting-Content.htm"
+    BreakType="none"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ReplaceMergeNode="false"
+    PageNumber="(multiple)">
+    <TocEntry
+      Title="Posting Status Updates"
+      Link="/Content/Pulse/Posting-Content/Posting-Status-Updates.htm" />
+    <TocEntry
+      Title="Posting Questions"
+      Link="/Content/Pulse/Posting-Content/Posting-Questions.htm" />
+    <TocEntry
+      Title="Posting Articles"
+      Link="/Content/Pulse/Posting-Content/Posting-Articles.htm" />
+    <TocEntry
+      Title="Assigning Tasks"
+      Link="/Content/Pulse/Posting-Content/Assigning-Tasks.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 3"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Pulse.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Responding to Posts"
+    BreakType="none"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    Link="/Content/Pulse/Responding-Posts/Responding-Posts.htm"
+    PageNumber="(multiple)">
+    <TocEntry
+      Title="Adding Comments"
+      Link="/Content/Pulse/Responding-Posts/Adding-Comments.htm" />
+    <TocEntry
+      Title="Following Posts"
+      Link="/Content/Pulse/Responding-Posts/Following-Posts.htm" />
+    <TocEntry
+      Title="Liking and Unliking Posts"
+      Link="/Content/Pulse/Responding-Posts/Liking-Unliking-Posts.htm" />
+    <TocEntry
+      Title="Tagging Posts"
+      Link="/Content/Pulse/Responding-Posts/Tagging-Posts.htm" />
+    <TocEntry
+      Title="Mentioning Documents, People, and Groups"
+      Link="/Content/Pulse/Responding-Posts/Mentioning-Documents-People-Groups.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 4"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Pulse.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Messaging"
+    Link="/Content/Pulse/Messaging/Messaging.htm"
+    BreakType="none"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl">
+    <TocEntry
+      Title="Messaging Tasks"
+      Link="/Content/Flare/Pulse/Messaging/Messaging-Tasks.htm" />
+    <TocEntry
+      Title="Checking Your Notifications"
+      Link="/Content/Pulse/Messaging/Checking-Notifications.htm" />
+    <TocEntry
+      Title="Sending Chat Messages"
+      Link="/Content/Pulse/Messaging/Sending-Chat-Messages.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 5"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Pulse.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Moderating Pulse"
+    Link="/Content/Pulse/Moderation/Moderating-Pulse.htm"
+    StartSection="false"
+    BreakType="none"
+    PageType="firstright"
+    PageNumberReset="continue"
+    PageNumber="(multiple)">
+    <TocEntry
+      Title="Moderating (Approving/Rejecting) Posts"
+      Link="/Content/Pulse/Moderation/Moderating-Posts.htm"
+      BreakType="pageLayout"
+      PageType="right"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl" />
+    <TocEntry
+      Title="Contacting Registered Users"
+      Link="/Content/Pulse/Moderation/Contacting-Registered-Users.htm" />
+    <TocEntry
+      Title="Customizing the Your Apps Menu"
+      Link="/Content/Pulse/Your-Apps/Customizing-Your-Apps.htm">
+      <TocEntry
+        Title="Articles"
+        Link="/Content/Pulse/Your-Apps/Articles.htm" />
+      <TocEntry
+        Title="Files"
+        Link="/Content/Pulse/Your-Apps/Files.htm" />
+      <TocEntry
+        Title="Mentions"
+        Link="/Content/Pulse/Your-Apps/Mentions.htm" />
+      <TocEntry
+        Title="Messages"
+        Link="/Content/Pulse/Your-Apps/Messages.htm" />
+      <TocEntry
+        Title="Moderation"
+        Link="/Content/Pulse/Your-Apps/Moderation.htm" />
+      <TocEntry
+        Title="Most Recent"
+        Link="/Content/Pulse/Your-Apps/Most-Recent.htm" />
+      <TocEntry
+        Title="Notifications"
+        Link="/Content/Pulse/Your-Apps/Notifications.htm" />
+      <TocEntry
+        Title="Profile"
+        Link="/Content/Pulse/Your-Apps/Profile.htm" />
+      <TocEntry
+        Title="Questions"
+        Link="/Content/Pulse/Your-Apps/Questions.htm" />
+      <TocEntry
+        Title="Read it Later"
+        Link="/Content/Pulse/Your-Apps/Read-Later.htm" />
+      <TocEntry
+        Title="Statuses"
+        Link="/Content/Pulse/Your-Apps/Statuses.htm" />
+      <TocEntry
+        Title="Tasks"
+        Link="/Content/Pulse/Your-Apps/Tasks.htm" />
+      <TocEntry
+        Title="Top News"
+        Link="/Content/Pulse/Your-Apps/Top-News.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Finding Topic Leaders"
+      Link="/Content/Pulse/Moderation/Finding-Topic-Leaders.htm" />
+    <TocEntry
+      Title="Following Community Activities"
+      Link="/Content/Pulse/Moderation/Following-Community-Activities.htm" />
+    <TocEntry
+      Title="Inviting People"
+      Link="/Content/Pulse/Moderation/Inviting-People.htm" />
+    <TocEntry
+      Title="Reading it Later"
+      Link="/Content/Pulse/Moderation/Reading-Later.htm" />
+    <TocEntry
+      Title="Responding to Status Updates"
+      Link="/Content/Pulse/Moderation/Responding-Status-Updates.htm" />
+    <TocEntry
+      Title="Responding to Questions"
+      Link="/Content/Pulse/Moderation/Responding-Questions.htm" />
+    <TocEntry
+      Title="Responding to Articles"
+      Link="/Content/Pulse/Moderation/Responding-Articles.htm" />
+    <TocEntry
+      Title="Responding to Tasks"
+      Link="/Content/Pulse/Moderation/Responding-Tasks.htm" />
+    <TocEntry
+      Title="Sharing Posts"
+      Link="/Content/Pulse/Moderation/Sharing-Posts.htm"></TocEntry>
+    <TocEntry
+      Title="Subscribing to Feeds"
+      Link="/Content/Pulse/Moderation/Subscribing-Topics.htm" />
+    <TocEntry
+      Title="Tagging Content"
+      Link="/Content/Pulse/Dashboard/Tags/Using-Tags-Menu.htm" />
+    <TocEntry
+      Title="Using Mentions"
+      Link="/Content/Pulse/Moderation/Using-Mentions.htm" />
+    <TocEntry
+      Title="Working with Favorites"
+      Link="/Content/Pulse/Moderation/Working-Favorites.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 6"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Pulse.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Searching for Community Results"
+    Link="/Content/Pulse/Searching-Pulse/Searching-Pulse.htm"
+    BreakType="none"
+    PageType="firstright"
+    PageNumber="(multiple)"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"></TocEntry>
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/Print-Only-Topics/Shared/Appendix.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Pulse.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="PDF Library"
+    Link="/Content/Pulse/PDF-Guides/PDF-Guides-Pulse.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    StartPageLayout="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartSection="false"
+    AutoEndOnLeftPage="disabled"
+    ComputeToc="false"
+    PageType="first"
+    BreakType="none"></TocEntry>
+</CatapultToc>

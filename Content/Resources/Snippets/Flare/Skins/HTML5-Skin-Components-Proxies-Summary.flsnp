@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>In addition to a main skin, you can also use several smaller skin components with HTML5 targets. Most of these components are used in combination with corresponding proxies <MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Proxies/Proxies1.htm">Proxies</MadCap:xref>)</MadCap:conditionalText> to add different features to the output, such as search elements, menus, and toolbars.</p>
+        <p>In most cases, a proxy is the element that actually generates the search element, menu, or toolbar when you build output. The related skin component is used to provide a look for it<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Skins/Process/Editing-Skin-Settings.htm">Editing Skin Settings</MadCap:xref> and <MadCap:xref href="../../../../Flare/Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>)</MadCap:conditionalText>. Except for favicon skin components, a proxy is always necessary to generate the desired element, but a skin component is optional. If you do not add a particular type of skin component to your project, Flare provides a default design.</p>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Here is an example of a URL for NetHelp context-sensitive Help.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html?tab=1&amp;topiconly=true#!documents/topic.html</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>Here, the section after ? is called "query" and the part after # is called "hash," according to the common URL terminology (see <a href="http://en.wikipedia.org/wiki/Url#Syntax" target="_blank">http://en.wikipedia.org/wiki/Url#Syntax</a>). Any URL has the following structure.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">scheme://domain:port/path?query_string#hash_fragment)</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <h2 MadCap:conditions="General.Print-Only">Query Parameters</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>QUERY Parameters</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SetOffFirstLevel">topiconly=true</p>
+                <p>All NetHelp elements will be hidden. Only the topic text will be shown and a css-class "topic-only" will be applied to the &lt;body&gt; element.</p>
+                <p class="SetOffFirstLevel">tab=0|toc|1|index|2|search</p>
+                <p>This parameter specifies the tab (by index or name) that will be shown when NetHelp is loaded. If any other value is specified, the parameter will be ignored.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="General.Print-Only">Hash Parameters</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>HASH parameters</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SetOffFirstLevel">#!url</p>
+                <p>"url" is a path to a topic, either relative to the root NetHelp folder or absolute.</p>
+                <p class="SetOffFirstLevel">#?query</p>
+                <p>"query" is a key-value pair that defines a context sensitive query in the following format: "key=value." Key can be one of the following values: "keyword," "group," "id" and "search."</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Examples</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>Open NetHelp with Search tab active.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html?tab=2</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>or</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html?tab=search</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>Open NetHelp and specified topic.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html#!documents/topic.html</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>Open NetHelp and specified topic and scroll topic to the "bookmark."</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html#!documents/topic.html#bookmark</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>If the keyword "sports" is assigned only to one topic, this topic will be displayed. If the keyword is assigned to several topics, the list of topics will be displayed. Otherwise, if no topics are associated with the keyword, "No topics found" will be displayed. </p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html#?keyword=sports</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>If the group "sports" is assigned only to one topic, this topic will be displayed. If the group is assigned to several topics, the list of topics will be displayed. Otherwise, if no topics are associated with the group, "No topics found" will be displayed.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html#?group=sports</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>Displays topic for search query "sports."</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html#?search=sports</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>Open topic with context ID "10." If there are no topics for the specified context ID, "No topics found" will be displayed.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html#?id=10</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Query/Hash Parameters at Same Time</p>
+                    <p>The following show how can use the Query and Hash parameters at the same time.</p>
+                    <p>Open topic with hidden NetHelp elements (no tabs, header, toolbars).</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html?topiconly=true#!documents/topic.html</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>Open specified topic and tab Index.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html?tab=index#!documents/topic.html</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>Search for "sports" and open search tab.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html?tab=search#?search=sports</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <p>Search for "sports" and display results in topic only mode.</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">http://mysite.com/target/index.html?topiconly=true#?search=sports</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="Open-Project.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Open-Checklists1.flsnp" />
+            </li>
+            <li>In the toolbar click <img src="../../../Images/Central/Interface/Buttons/Template-Manager-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+            <li>Complete the <span class="Emphasis">Name</span> field.</li>
+            <li>
+                <p>From the <span class="Emphasis">Checklist Type</span> field, you can select a project files or generic checklist type.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li>
+                            <span class="SetOffFirstLevel">Project Files </span>
+                            <MadCap:snippetText src="Project-Files-Description.flsnp" />
+                        </li>
+                        <li>
+                            <span class="SetOffFirstLevel">Generic List </span>
+                            <MadCap:snippetText src="Generic-List-Description.flsnp" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="Template-Description-Field.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Columns-Tab.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>If you selected <span class="Emphasis">Generic List</span>, complete the <span class="Emphasis">Rows</span> tab in the same way that you created the columns. The only difference is that you can also complete an <span class="Emphasis">Add Note</span> field for each row.</p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Rows tab is not available if you selected Project Files. That’s because the files will be different with each project where you might be using the project checklist.</p>
+                    </div>
+                </div>
+            </li>
+            <li>Click either <span class="Emphasis">Save</span> (to save the template and keep the dialog open) or <span class="Emphasis">Save and Close</span> (to save the template and close the dialog). <span class="topic-only">The template name appears on the left side of the interface. It will also now be available in the Create Checklist dialog.</span></li>
+        </ol>
+    </body>
+</html>

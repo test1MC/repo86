@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-Get-Started-Tutorial.flmsp');">
+    <head>&#160;<link href="" rel="stylesheet" type="text/css" /><meta name="description" content="You can use styles in your projects to format elements." /></head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Getting-Started.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:getting started" />
+            <MadCap:keyword term="Styles:creating;Styles:stylesheets;Cascading stylesheets;Selectors:creating;Styles:selectors" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterDesign" />Creating Style Classes</h1>
+        <p>You can use styles in your projects to format elements. Although you can use local (or inline) formatting (such as selecting a single word and using the Color button on the Home ribbon to make it red), using styles instead will save you time. If you edit the properties for a style in the stylesheet, that change will automatically be made anywhere you used the style class. You do not need to go back and make the change in every topic.</p>
+        <p>After you create a new Flare project, you'll see that there are already many styles for you to use. And you can change the properties for any of those styles to adjust the look.</p>
+        <p>In addition to using the styles that are already in place, you may find the need now and then to create your own style class. Think of a style class as a "child" of a "parent" style. A style class gives you more flexibility when using a style. For example, you might create a red h1 (heading 1) style class and a blue h1 style class. These would both be children of the h1 style (e.g., h1.red, h1.blue).</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Close Open Files</h2>
+        <p>Before we continue, let's close the files that we've already opened. This is a good thing to do as you work so that you don't have so many items open, which can cause performance issues later. You can close files one at a time by clicking the small x on the right side of each tab, but a quicker way is to use an option to close them all at once.</p>
+        <ol>
+            <li>Select the <span class="Emphasis">Window</span> ribbon.</li>
+            <li>Click <span class="Emphasis">Close All Documents</span>. This closes everything except the Start Page.</li>
+        </ol>
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you want to close all of the files except one of them. Open that file, then instead of clicking the face of the "Close All Documents" button, select the down arrow and choose <span class="Emphasis">Close All But This</span>.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+        <h2>How to Create a Style Class</h2>
+        <p>We are going to create a style class of the parent image (img) style. Then we will modify our style class so that it turns online images into thumbnails. In other words, images will initially display very small but when they are clicked in online output, they will be shown at the full size in a popup.</p>
+        <ol>
+            <li>In the Content Explorer, open <span class="Emphasis">Resources &gt; Stylesheets</span>.</li>
+            <li>Double-click the <span class="Emphasis">Styles.css</span> stylesheet. The Stylesheet Editor opens to the right.</li>
+            <li>
+                <p>You can use the Simplified or Advanced view when editing a stylesheet. Let's use the latter. In the local toolbar of the Stylesheet Editor, make sure the first button is labeled <span class="Emphasis">View: Advanced</span>. If it says <span class="Emphasis">View: Simplified</span>, click it so that it change to the Advanced view.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Styles5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the upper-left of the editor, set the drop-down to <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Drop-Downs/Show-Image-Styles-dd.png" alt="" title="" class="ReduceButtonSize" /> to make it easier to find the style.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Images2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the <span class="Emphasis">Styles</span> section, select <span class="Emphasis">img</span>.</li>
+            <li>In the local toolbar of the editor, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Add-Class-btn.png" alt="" title="" class="ReduceButtonSize" />. The New Selector dialog opens.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>In the <span class="Emphasis">Class Name</span> field, type <span class="TypedEntry">thumbnail</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Create-Styles.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. The thumbnail style class appears in the stylesheet, indented under the img parent style.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Styles1.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+                <p>The style class is added, but the only properties it has right now are the ones it has inherited from the img style.  Now we need to add unique properties to the thumbnail style class.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>With the new <span class="Emphasis">thumbnail</span> class selected, from the <span class="Emphasis">Show</span> field in the upper-right corner of the editor, select <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Drop-Downs/Show-Assorted-Relevant-Properties-dd.png" alt="" title="" class="ReduceButtonSize" />. This will display only the properties that are related to images, making it a lot easier to find the properties that you need to set.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Images4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Make sure the properties on the right side of the editor are shown in group view, which means there will be different categories that you can expand and collapse. In the local toolbar, you should see a <span class="Emphasis">Grouped View</span> button <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Styles-Group-View-btn.png" alt="" title="" class="ReduceButtonSize" />. If instead you see the <span class="Emphasis">Alphabetical View</span> button <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Styles-Alphabetical-View-btn.png" alt="" title="" class="ReduceButtonSize" />, click it to switch to Group View.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Images5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Expand the <span class="Emphasis">Thumbnail</span> group.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+            <li>
+                <p>Next to the <span class="Emphasis">mc-thumbnail</span> property, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" /> and select <span class="Emphasis">popup</span>. We will leave the other thumbnail settings as they are. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/Styles2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

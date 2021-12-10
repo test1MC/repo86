@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/D2H/PDF-Topics/D2H-New-User-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Tutorials;Targets;Output" />Building and Examining a Target</h1>
+        <p>So far, we have done very little, but we have given Doc-To-Help enough to work with. If we build right now, we can take a look at what Doc-To-Help will do out-of-the-box. But first, let’s take a quick look at our Word document. If it is not already open, from the <b>Documents pane</b> double-click the <b>SanDiegoQuickTour.doc</b> file to open it.</p>
+        <p>It is structured like this:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Heading 1 </span>All About San Diego</li>
+            <li><span class="SetOffFirstLevel">Heading 1 </span>San Diego Attractions<ul><li><span class="SetOffSecondLevel">Heading 2 </span>Balboa Park</li><li><span class="SetOffSecondLevel">Heading 2  </span>San Diego Zoo</li><li><span class="SetOffSecondLevel">Heading 2  </span>Petco Park</li></ul></li>
+            <li><span class="SetOffFirstLevel">Heading 1 </span>San Diego Colleges and Universities</li>
+        </ul>
+        <p>Your Doc-To-Help project will use this structure to create topics, the table of contents (TOC), and automatic links. </p>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Getting-Started-Tutorial" />
+        <p>Select the <span class="Emphasis">Target</span> ribbon, and notice that the left section of this ribbon is named after the choice of your active target. This is initially set to <b>NetHelp</b> by default. </p>
+        <p>
+            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Active_Target_Drop-Down1.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Getting-Started-Tutorial" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Steps</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>On the <span class="Emphasis">Target</span> ribbon, click the face of the <span class="Emphasis">Build</span> button (not the down arrow). </p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Target-Ribbon-Build.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>The default NetHelp target generates. The Doc-To-Help Build window pane displays at the bottom while the build is in progress.</p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Build-Log.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+                        </p>
+                        <p>Once the build is completed, Doc-To-Help prompts you to view the target. Click <span class="Emphasis">Yes</span>. </p>
+                        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Getting-Started-Tutorial" />
+                        <div class="warning">
+                            <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Warning: &lt;/span&gt;&lt;/b&gt;">Your browser’s security settings may block display of NetHelp. If so, click <span class="Emphasis">Allow blocked content</span> to view your target.</p>
+                        </div>
+                        <p>The TOC structure is based on the heading styles. Since Balboa Park, San Diego Zoo, and Petco Park used Heading 2 styles under the Heading 1 of San Diego Attractions, they were converted to subtopics.</p>
+                    </li>
+                    <li>
+                        <p>In the TOC of the NetHelp output, click the <span class="Emphasis">San Diego Attractions</span> topic. The topic has three automatic subtopic links—Balboa Park, San Diego Zoo, and Petco Park—which were created by Doc-To-Help based on the document structure. We will learn later how to add custom subtopics, but these are created automatically.</p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Grouped-Topics2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Getting-Started-Tutorial" />
+                    <li>
+                        <p>In Word, click <b>X</b> in the upper-right corner of the Doc-To-Help Build window pane to close it.</p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Close-D2H-Build-Window.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Getting-Started-Tutorial" />
+                    <li>
+                        <p>In the Doc-To-Help Project panel (<span class="Emphasis">Doc-To-Help &gt; Project Panel</span>), click the <span class="Emphasis">Contents</span> accordion bar.</p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Click-Contents-Accordion-Bar.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Getting-Started-Tutorial" />
+                        <p>The TOC is displayed. It looks exactly like the TOC in the NetHelp output. </p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/TOC-Displayed.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Getting-Started-Tutorial" />
+                        <p>In the Doc-To-Help ribbon, you can use the Add, Rename, and Delete options  to edit the names of your topics and modify the TOC. Once a change is made in the TOC, the word "Customized" displays in the top-right of the Contents pane to indicate the TOC has been modified.</p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Contents-Window-Pane1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <p>However, the automatically generated TOC uses a logical structure and is ready to be used for your project, so we will leave it as is. </p>
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Getting-Started-Tutorial" />
+                    <li>
+                        <p>On the <span class="Emphasis">Project</span> ribbon, click <span class="Emphasis">Topics Panel</span>.</p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Click-Topics-Panel.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <p>The Topics window pane opens, showing the topics that were automatically created when you generated the target. Each Heading 1 and Heading 2 style starts a separate topic in the project. This makes it possible to create links between topics, and more.</p>
+                        <p>
+                            <img src="../../../Resources/Images/D2H/Tutorials/Getting-Started/Contents-Window-Pane2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>What's Next</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Now that we have seen our baseline, let's add more to this project.</p>
+                <p MadCap:conditions="General.Online-Only">Next, let's <a href="Inserting-Image.htm">insert an image</a>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

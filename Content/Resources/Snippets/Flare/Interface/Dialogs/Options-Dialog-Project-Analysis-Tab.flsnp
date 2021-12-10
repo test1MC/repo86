@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>In order for the following options to be effective, you must set the options before opening your project. If you have your project open and a scan is in process, setting these options will not improve your system performance.</p>
+        <table style="caption-side: top;margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" cellspacing="0" class="TableStyle-Fancy">
+            <col style="width: 25%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Collect Segments</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this check box if you want Flare to collect segments of text while scanning your project. Segment collection lets you view information about your project such as frequent segments found and index keyword suggestions. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Collect Variable Prospects</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this check box if you want Flare to look for text that you might want to convert to variables. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Collect Snippet Prospects</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this check box if you want Flare to look for text that you might want to convert to snippets. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Collect Local Style Prospects</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this check box if you want Flare to look for places where you have applied local formatting and might want to apply styles to those areas instead. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Collect Embedded Stylesheet Prospects</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this check box if you want Flare to look for style information (embedded styles in &lt;style&gt; elements) in your topic files. Disabling this scan limits the results found in the style reports. </p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You should select this option if you have imported topics that have embedded styles. Otherwise, it is not usually necessary to select this option.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Collect Accessibility Prospects</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this check box if you want Flare to look for text where you might want to add web accessibility features (e.g., captions, alternate text). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Accessibility/Accessibility.htm">Accessibility</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Collect Markup Prospects</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select this check box if you want Flare to look for a variety of XHTML markup issues in your content (e.g., extra spaces, empty attributes). You can open the affected files and "clean up" the markup in them. You may be able to fix some issues in the XML Editor, but other issues may require you to open the behind-the-scenes code in the Internal Text Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Interface/Editors/Internal-Text-Editor.htm">Internal Text Editor</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Search Limits</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">You can limit the number of results returned from some analysis reports. You can limit the search results to 100, 500, 1000, or 5000. If "All" is selected, there are no limitations for the search results. You might want to use this new feature to improve performance.</p>
+                        <p class="TableText">When a limit is selected, it is applied to the following window panes and reports.</p>
+                        <ul>
+                            <li>Index Keyword Suggestions</li>
+                            <li>New Style Suggestions</li>
+                            <li>Replace Local Style Suggestions</li>
+                            <li>Undefined Styles</li>
+                        </ul>
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Analysis/Limit-Search-Results.png" class="MaxWidth90Percent" />
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

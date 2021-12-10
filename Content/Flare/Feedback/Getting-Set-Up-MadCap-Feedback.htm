@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head><title></title>
+        <meta name="description" content="Summarizes the basic steps for getting MadCap&#160;Feedback set up to work with the supported MadCap Flare output types." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="MadCap Feedback" />
+            <MadCap:concept term="FilterFeatures" />Getting Set Up with MadCap Feedback</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus.flsnp" />
+        <p>Getting set up to use MadCap Feedback involves the following basic steps.</p>
+        <h2>Basic Setup Steps</h2>
+        <ol>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="MadCap Feedback:installing" />Install MadCap Feedback Server </span>Provide your system administrator (or other responsible individual) with the instructions that are necessary for installing the software and other components. See <MadCap:xref href="Installing-MadCap-Feedback-Server-Admin-Other-Components.htm">Installing MadCap Feedback Server</MadCap:xref>.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="MadCap Feedback:Feedback Server Admin" />Configure Feedback Server Admin </span>Provide your system administrator (or other responsible individual) with the instructions that are necessary for configuring the MadCap Feedback Server Admin. This includes the ability to require a password for Feedback Explorer access, test settings, set up an SMTP server for email notifications, specify redirection web pages for end users who register, and schedule automatic backups of the database and transaction log. See <MadCap:xref href="Configuring-Maintaining-MadCap-Feedback-Server-Admin.htm">Configuring MadCap Feedback Server Admin</MadCap:xref>.</li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="MadCap Feedback:Feedback Explorer" />Install Feedback Explorer </span>
+                    <MadCap:snippetText src="../../Resources/Snippets/Flare/Feedback/Feedback-Explorer-Summary.flsnp" /> Each user on your team who plans to use Feedback Explorer to view user comments and statistics can install this software locally. This includes managers who do not use Flare but want to be kept informed about user activity on the published Help output. If some individuals (such as managers) do not want to install and use Feedback Explorer, another individual (perhaps an author) can add them as administrators in his copy of the application, and set them up to receive manifest emails automatically; these emails contain summaries of user activity in a Flare target. For more information, see the online Help in Feedback Explorer.</p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="MadCap Feedback:license" />Obtain Feedback License(s) </span>You need a separate Feedback license for each Flare target that you want to track. After you purchase MadCap Feedback Server, you will be issued the appropriate Feedback license(s) from <MadCap:variable name="Other.CompanyName" />. </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have three authors and a manager on your team. You have a total of five different Flare projects, and from each of those projects, you and the other authors are generating two online targets. So as a team, you are producing a total of ten online outputs (two targets each from five projects). How many Feedback licenses are needed so that the authors and manager can track the user activity for all of those targets? In this case, you would need ten licenses (one for each output that you want to track).</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It is possible to use the same Feedback license for different targets. However, you must keep in mind that the statistics for the various targets will then become merged when you view them in Feedback Explorer. You will not be able to determine which statistics resulted from which targets.</p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="MadCap Feedback:enabling" />Enable Feedback </span>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/Feedback/Feedback-Enable-Summary.flsnp" /> See <MadCap:xref href="Enabling-Feedback.htm">Enabling Feedback in Flare</MadCap:xref>.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Configure Target with Feedback Explorer </span>
+                    <MadCap:snippetText src="../../Resources/Snippets/Flare/Feedback/Feedback-Configure-Explorer-Summary.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet4 or Snippets.Snippet6] exclude[Snippets.Snippet3] " />
+                </p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Feedback/Note-Configure-Target-Feedback-Explorer.flsnp" />
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Any authors on your team who want to track user activity for a particular Flare target would enter the same license in that target (if they have a copy of the Flare project on their local drive). They can then click the button in the Target Editor labeled <span class="Emphasis">Configure with Feedback Explorer Application</span>. The Feedback Explorer will then launch and open a file that is configured with the Flare target. This file is used to display the user activity for that target.</p>
+                    <p>However, because the manager on your team will not be using Flare, he can create a Feedback file in Feedback Explorer, entering the same license that you entered in Flare. For each target that the manager wants to track, he would create a new Feedback file in Feedback Explorer and enter the appropriate license. Alternatively, that manager can simply receive periodic manifest emails.</p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="MadCap Feedback:comments;Comments:MadCap Feedback;Skins:Feedback comments" />(Optional) Disable Comments in the Skin </span>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/Feedback/Enabling-Community-Wide-Comments.flsnp" /> See <MadCap:xref href="Comments/Displaying-Comments-Feedback.htm">Disabling Feedback User Comments in Skins</MadCap:xref>.</li>
+            <li><span class="SetOffFirstLevel">(Optional) Display Email Notifications for Users </span>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/Feedback/Feedback-Email-Notification-Display-Summary.flsnp" /> See <MadCap:xref href="Comments/Displaying-Feedback-Notification-Options-Users.htm">Displaying Feedback Notification Options to Users</MadCap:xref>.</li>
+        </ol>
+    </body>
+</html>

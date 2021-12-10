@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:bind;Projects:source control" />Bind </span>This means to connect your project to Apache Subversion. After doing this, you can take advantage of all the automated source control tasks (such as commit, revert, update, and so on). </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:commit;Commit" />Commit </span>This means to send changes from your working copy of a <MadCap:variable name="Other.Product" /> file to the Subversion repository, on a server.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:revert;Revert" />Revert </span>This means to undo changes you have made to a <MadCap:variable name="Other.Product" /> file. Changes are reverted to the way they were at the last commit. </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:update" />Update </span>This means to update your working copy of a <MadCap:variable name="Other.Product" /> file with changes from the repository.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:lock;Lock" />Lock </span>This means to prevent other users from committing changes to a <MadCap:variable name="Other.Product" /> file in the repository.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:unlock;Unlock" />Unlock </span>This means to remove an existing lock from a <MadCap:variable name="Other.Product" /> file in the repository so other users can commit changes to the file.</li>
+        </ul>
+    </body>
+</html>

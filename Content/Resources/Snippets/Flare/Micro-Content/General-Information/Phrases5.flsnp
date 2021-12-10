@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Here are a couple of things to keep in mind when working with phrases:</p>
+        <ul>
+            <li><span class="Emphasis">Exactness of Phrases </span>What if a user enters search text that is close to your micro content phrase, but the wording is not exact? For example, maybe your phrase is “create widget” but a user enters “creating widget.” Fortunately, Flare uses a scoring mechanism behind the scenes that allows for slight differences between a phrase and the text entered in a search. To account for searches that are not close enough to be handled automatically by Flare’s calculation, you should create alternate phrases. There isn’t a way to measure this beforehand; you simply need to test your output and adjust your micro content accordingly.</li>
+            <li>
+                <p><span class="Emphasis">Analytics </span>The response part of micro content is important, because it contains the information that the reader needs. However, the initial phrase (or search term) portion of micro content is just as important, if not more so. Why? Because the response will be completely useless if users never encounter it. It is vital that you begin with the correct phrases (or questions).</p>
+                <p>So how can you be sure you are using the right phrases? You could just rely on educated guessing, or perhaps you created a glossary some time ago that gives you an idea of what users might want to know about. But a better approach is to use analytics on your output, such as MadCap Central, Google Analytics, or some other resource. After looking at reports of the most commonly used search keywords, you can create micro content with the same phrases. Central’s analytics feature is particularly useful because it has a “Phrases” report that indicates whether a certain search term is associated with micro content in your project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Architecture/External-Architecture/Analysis-Reporting.htm">Analysis and Reporting</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="video" MadCap:conditions="General.Server-Only">
+                    <p class="buttonT32-play"><a href="https://youtu.be/XgrAZc7mM00" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+                    </p>
+                    <p class="more-videos"><a href="https://www.madcapsoftware.com/videos/flare/#MicroContent" target="_blank">View More Videos in This Series</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

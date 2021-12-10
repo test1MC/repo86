@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>If you are working with multiple stylesheets in a project, keep in mind that there are options to enable or disable stylesheets at different levels.</p>
+        <ul>
+            <li>
+                <p><span class="Emphasis">Allow local stylesheets </span>This option is located in the Project Properties dialog and the Target Editor (where you select a primary stylesheet).</p>
+                <p>
+                    <img src="../../../../Images/Flare/Styles/Allow-Local-Stylesheets-Project.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../../Images/Flare/Styles/Allow-Local-Stylesheets-Target.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Micro-Content-Guide" />
+            <li>
+                <p><span class="Emphasis">Disable project and target stylesheets </span>This option is located in the Topic Properties dialog&#160;(where you select a topic stylesheet). </p>
+                <p>
+                    <img src="../../../../Images/Flare/Styles/Disable-Project-Target-Stylesheets.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p><span class="Emphasis">Disable project, target, and topic stylesheets </span>This option is located in the Micro Content Properties dialog (where you select a micro content stylesheet).</p>
+                <p>
+                    <img src="../../../../Images/Flare/Styles/Disable-Project-Target-Topic-Stylesheets.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ul>
+        <p>The following explains what happens when various options in the interface are enabled or disabled.</p>
+        <div class="warning">
+            <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">Keep in mind that even when disabling some stylesheets, those styles <span class="Emphasis">might continue to be used in micro content search results</span>. That's because the search results page still relies on those other stylesheets. However, when viewed independently of search results, the micro content will display as indicated below.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>Select <span class="Emphasis">View &gt; SharePoint Explorer</span>. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Interface/Window-Panes/SharePoint-Explorer.htm">SharePoint Explorer</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li>
+                <p>Locate the file(s) that you want to check in. You can use the "multi-view" to do this.</p>
+                <MadCap:snippetBlock src="Multi-View-Table.flsnp" />
+            </li>
+            <li>Select the file(s) that you want to check in. If the window pane is split into two halves, you can select the appropriate folder on the left side and select the files on the right side. <MadCap:snippetText src="../../All/General/Hold-SHIFT-CTRL-Keys.flsnp" /></li>
+            <li>Right-click the file(s) and from the context menu select <span class="Emphasis">Check In</span>.</li>
+            <li>
+                <p>Click <span class="Emphasis">Check In</span>.</p>
+                <MadCap:snippetBlock src="Note-Checkmarks.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

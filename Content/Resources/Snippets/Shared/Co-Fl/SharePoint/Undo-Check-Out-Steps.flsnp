@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Select <span class="Emphasis">View &gt; SharePoint Explorer</span>. </li>
+            <li>
+                <p>Locate the file(s). You can use the "multi-view" to do this.</p>
+                <MadCap:snippetBlock src="Multi-View-Table.flsnp" />
+            </li>
+            <li>Select the file(s). If the window pane is split into two halves, you can select the appropriate folder on the left side and select the files on the right side. <MadCap:snippetText src="../../All/General/Hold-SHIFT-CTRL-Keys.flsnp" /></li>
+            <li>Right-click the file(s) and from the context menu select <span class="Emphasis">Undo Check Out</span>.</li>
+            <li>
+                <p>In the dialog that opens, click <span class="Emphasis">Undo Check Out</span>.</p>
+                <p class="note" MadCap:conditions="General.Online-Only" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">By default there is a check mark next to all files that were selected. If necessary, you can click any check box to remove the check mark, which means that file will still be checked in when you are finished.</p>
+            </li>
+        </ol>
+    </body>
+</html>

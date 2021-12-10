@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video1-Intro-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Identifying styles in the XML Editor and the Text Editor." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-Basic.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Style Tags in Flare Editors</h1>
+        <p>In addition to the Stylesheet Editor, the XML Editor and Internal Text Editor are Flare’s primary editors when working with style elements. Once style properties are defined in the stylesheet, they can be applied to the content.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Identify Styles in the XML Editor</h2>
+        <p>Flare's structure bars are a great visual tool for identifying topic tags and page architecture. The bars provide information about content and the styles that are applied to that content.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">Structure Bars</MadCap:xref>.</MadCap:conditionalText></p>
+        <div class="IndentMedium">
+            <h3>Tag Bars</h3>
+            <ol>
+                <li>
+                    <p>Open <span class="Emphasis">Introduction.htm</span>. Let’s look at styles from within the content file. The structure bars to the left of the content are "tag bars" that show blocks of content.</p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-XMLed-TagBars.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>
+                    <p>With the cursor in the XML Editor, hover your cursor over the <span class="Emphasis">h1</span> structure bar. Notice it shows an &lt;h1&gt; tag which corresponds to the h1 heading to the right.</p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">To show or hide tag bars, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Blocks-Bar-btn.png" class="ReduceButtonSize" /> at the bottom of the XML Editor.</p>
+                    </div>
+                </li>
+                <li>
+                    <p>Let's edit the h1 heading. It might look better without the 20px indentation. We can take action from the structure bars directly. Right-click the <span class="Emphasis">h1</span> tag bar.</p>
+                </li>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <li>From the context menu, select <span class="Emphasis">Style Class &gt; Edit Style Class</span>. The Styles.css file opens in the Advanced view.</li>
+                <li>In the left pane tree structure, ensure the <span class="Emphasis">h1</span> style has focus (if not, select it).</li>
+                <li>From the local toolbar <span class="Emphasis">Show</span> drop-down, select <span class="Emphasis">Show: Set (Locally) Properties – properties set in this stylesheet</span>.</li>
+                <li>
+                    <p>Expand the <span class="Emphasis">Box</span> group. In the <span class="Emphasis">margin-left</span> field, change the value to <span class="TypedEntry">0px</span>, and press <span class="Emphasis">ENTER</span>.</p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Advanced2.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+                <li>Go back to the <span class="Emphasis">Introduction.htm</span> topic, and view the heading update.</li>
+                <li>
+                    <p>Open <span class="Emphasis">Austin-City-Limits.htm</span>. Let’s apply a different style to the last heading. </p>
+                </li>
+                <li>Place your cursor anywhere in the “Venue” heading.</li>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <li>
+                    <p>From the <span class="Emphasis">Home</span> ribbon, select the <span class="Emphasis">Style</span> drop-down, and choose <span class="Emphasis">h3</span>.  This is a quick way to apply a style to content. </p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Home-dropdown.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Notice the styles available in the Style drop-down are valid for block-level (e.g., h3, p, div) content only. If we were looking to apply a style to character-level (e.g., span, b) content, we would have to select the appropriate text within the block (e.g., heading, paragraph)&#160;first, and the styles in the drop-down would correspond to its type.</p>
+                    </div>
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+        <div class="IndentMedium">
+            <h3>Span Bars</h3>
+            <ol>
+                <li>Open <span class="Emphasis">Introduction.htm</span>.</li>
+                <li>
+                    <p>Under the "Climate" heading, place your cursor within the bold phrase “long and hot summers.” Notice the tag at the top part of the topic. This is a “span bar.” These bars show formatting tags at the character level.</p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-XMLed-SpanBars.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">To show or hide span bars, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Spans-btn.png" class="ReduceButtonSize" /> at the bottom of the XML Editor.</p>
+                    </div>
+                </li>
+                <li>Hover your cursor over the span bar at the top. The phrase's style is &lt;span&gt; class: Emphasis.</li>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <li>
+                    <p>Right-click the span tag, and select <span class="Emphasis">Unbind</span>. The style is removed from the text.</p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Span-RightClickMenu.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>Re-select the text “long and hot summers.”</li>
+                <li>
+                    <p>From the <span class="Emphasis">Home</span> ribbon, select <span class="Emphasis">Style Window</span>. The Styles window pane opens to show you styles that are valid for character-level content.</p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Window-Button.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> In the previous steps we selected styles from the Home &gt; Style drop-down.  You can also apply styles from the Floating Style Picker by pressing CTRL+SHIFT+H. As you can see, there are multiple ways to apply a style.</p>
+                    </div>
+                </li>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <li>
+                    <p>From the <span class="Emphasis">Available Styles</span> section, select <span class="Emphasis">span.Emphasis</span>. The content changes back to its original state. </p>
+                    <p>
+                        <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Window.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+        </div>
+        <h2>How to Identify Styles in the Text Editor</h2>
+        <p>An alternative way to view topic content or tags is through the Internal Text Editor. The editor displays the same information—just presented in a different way. Users who know their way around XHTML and CSS code might use the Text Editor more frequently.</p>
+        <ol>
+            <li>Open <span class="Emphasis">Introduction.htm</span>. </li>
+            <li>
+                <p>At the bottom of the topic, select the <span class="Emphasis">Text Editor</span> tab.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Text-Tab.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>From the local toolbar, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Show-Syntax-Colors-btn.png" />. By toggling the syntax colors off and on, it is easier to pinpoint how HTML and XHTML elements work hand in hand with CSS elements.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Text-LocalToolbar.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Notice how the &lt;span&gt; class: Emphasis style is written in true code.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Text-Span.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Select the <span class="Emphasis">XML Editor</span> tab at the bottom to go back to the other view.</li>
+        </ol>
+        <h2>How to Edit a CSS File in the Text Editor</h2>
+        <p>The following steps introduce you to editing styles using the Text Editor. A full understanding of CSS code is in no way a requirement for using Flare, but it is helpful to know styles can be edited this way. More advanced users may find this editor useful. </p>
+        <ol>
+            <li>From the Content Explorer, right-click the <span class="Emphasis">Styles.css</span> file.</li>
+            <li>
+                <p>From the context menu, select <span class="Emphasis">Open with</span>, and then select <span class="Emphasis">Internal Text Editor</span>. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-CSS-Texted.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <p>All the styles and properties from the Stylesheet Editor are displayed to the right in the Text Editor.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-CSS-Text.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Scroll down to roughly line 210 to view the heading settings. Notice the property values reflect the updates we made in the Stylesheet Editor. (If you do not see line numbers to the left of the editor, from the local toolbar, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Show-Line-Numbers-btn.png" />. This shows or hides the numbered lines.)</p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Quick-Find-Styles-Tutorials.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>Let's change the font-family property for the h1 and  h2 elements. <ol><li>Under <span class="Emphasis">h1</span>, locate the font-family property, and type <span class="TypedEntry">Arial</span>.</li><li><p>Under <span class="Emphasis">h2</span>, locate the font-family property, and type <span class="TypedEntry">Arial</span>. </p><p><img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-CSS-EditLine.png" alt="" title="" class="MaxWidth100Percent" /></p></li></ol></li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+            <li>Open the <span class="Emphasis">Introduction.htm</span> topic (or any topic) to view the updated headings.</li>
+            <li>From  the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</li>
+        </ol>
+    </body>
+</html>

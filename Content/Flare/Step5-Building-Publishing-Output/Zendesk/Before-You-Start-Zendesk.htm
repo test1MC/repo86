@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Videos/Flare-Zendesk.flmsp');">
+    <head>
+        <meta name="description" content="Best practices and guidelines for configuring Zendesk Help Center prior to publishing your output. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Publishing:destinations;Destinations:Zendesk;Zendesk" />
+            <MadCap:concept term="FilterFeatures" />Before You Start Publishing to Zendesk</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5-Clean-XHTML-Note-Side-Top-Nav.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>Following are some steps you should complete and information you should know before you publish from Flare to Zendesk. For example, these guidelines can help when structuring the table of contents (TOC), and configuring the destination file being used for Zendesk.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Zendesk Side</h2>
+        <p>Following are settings and considerations on the Zendesk side of this process.</p>
+        <div class="IndentMedium">
+            <h3>Administrator or Team Leader</h3>
+            <p>To publish output from Flare to Zendesk, you must be set as either an Administrator or Team Leader on Zendesk.</p>
+            <h3>Categories and Sections</h3>
+            <p>You have different options when it comes to publishing Flare output to your Zendesk categories and sections. Depending on your situation, you might even be using a combination of these options when you publish to Zendesk.</p>
+            <ul>
+                <li>You can publish output to the initial categories and sections in your Zendesk Help Center, designating which ones you want to use as defaults in your Flare destination file. </li>
+                <li>You can create other categories and sections in Zendesk to better align with your Flare TOC. Flare will then populate those categories and sections with articles if it finds they match your TOC. Flare will not change the order of the categories and sections as you create them in Zendesk. Instead, Flare will simply populate those with articles. Only newly created categories and sections resulting from the Flare publishing process will be added in the order dictated by the Flare TOC.</li>
+                <li>You can create categories and sections on the fly during the publishing process from Flare. New categories and/or sections will automatically be added to Zendesk based on your settings and the structure of the Flare TOC.</li>
+            </ul>
+            <p>Keep in mind that Zendesk is limited to a certain number of levels of structure. You can have categories, sections, and articles in Zendesk. Also, for some subscription plans, Zendesk supports sub-sections. Flare has no limit to the number of levels supported in the TOC. Therefore, at some point in Zendesk you might encounter a simple list of articles under a section or sub-section, since there are no more levels to store those articles. If possible, you might consider restructuring your Flare TOC to reduce the number of levels (i.e., nested books). For example, if you have four levels in Zendesk (category, section, sub-section, article), but six levels in your Flare TOC, you might want to restructure your Flare TOC to also have only four levels of books and topics.</p>
+            <p>For more information and examples, see <MadCap:xref href="Configuring-TOC-Zendesk.htm">Configuring the TOC for Zendesk</MadCap:xref>.</p>
+            <h3>Topics and Articles</h3>
+            <p>If you are using the same topic multiple times in the TOC, that topic  is published only once in Zendesk.</p>
+            <p>If you remove topics from a TOC and republish that target to Zendesk, those corresponding articles are removed from the dashboard. However, an empty section might remain on the dashboard if all underlying articles have been removed. The empty section needs to be manually removed through your Zendesk dashboard.</p>
+            <h3>Search</h3>
+            <p>Although some Flare targets, such as HTML5, let you choose a search engine, you are not using Flare's search for output published to Zendesk. Instead, the search provided on Zendesk is used for that content.</p>
+            <h3>Attachment Limits</h3>
+            <p>Zendesk limits you to 20 MB per attachment for images and other files (e.g., videos).</p>
+            <h3>Multilingual Targets and Language Settings</h3>
+            <p>Multilingual targets in Flare can be published to Zendesk. Users in Zendesk can then switch between languages in the interface to see the categories, sections, and articles in a particular language. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Translation-Localization/Translation-Localization.htm">Translation and Localization</MadCap:xref> and <MadCap:xref href="../../Translation-Localization/Other-Information/Multilingual-Support-Zendesk.htm">Multilingual Support for MadCap Connect to Zendesk</MadCap:xref>.</MadCap:conditionalText></p>
+            <p>Also, whether you are publishing multilingual output or just content in a single language, it is a good idea to make sure the language that is set in the Zendesk Help Center matches the language set in the user's profile. For example, English (United States) is not the same thing as English (United Kingdom). The two should match exactly. Otherwise, you might not be able to see the list of categories and sections from the Flare destination file.</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Output/Zendesk/Zendesk-Note-Categories-Sections-Language.flsnp" />
+            <h3>Brands</h3>
+            <p>Keep in mind that you can publish to alternate brands in a multi-brand account.</p>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Publishing to Alternate Brands in Multi-Brand Account</p>
+                <p>In Zendesk you have a subdomain called “MadCap Software,” the name of your company.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Brands1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>Instead of publishing everything to that subdomain, you want to publish specific content to each or your company’s products: Product A, Product B, and Product C. Therefore, you create brands for each of those products.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Brands2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>In Flare, you have a target, destination file, and TOC dedicated to Product A. The target points to both that destination file and the TOC.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Brands3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>When you enter your credentials in the Destination Editor, you provide the URL for that brand.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Brands4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Brands5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>After you publish the target, the content for Product A displays within the Product A brand on Zendesk.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Brands6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/Zendesk-Brands7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </div>
+        </div>
+        <h2>Flare Side</h2>
+        <p>Following are settings and considerations on the Flare side of this process.</p>
+        <div class="IndentMedium">
+            <h3>Clean XHTML or HTML5 Skinless</h3>
+            <p>In order to publish to Zendesk, you must be using either Clean XHTML or skinless HTML5 as the target format. So if you choose HTML5, make sure you open the target, select the <span class="Emphasis">Skin</span> tab, and from the <span class="Emphasis">Skin</span> drop-down choose <span class="Emphasis">(none)</span>. In addition, do not include skin components (e.g., for search bars, menus) in your output, because anything having to do with a skin is not supported.</p>
+            <h3>Targets, TOCs, and Destination Files</h3>
+            <p>If you want to publish multiple groups of content to Zendesk, it is best not to do so from the same target (e.g., switching the TOC in the target file each time you want to publish different content). Otherwise, the most recently published content will replace the content published earlier. Instead, it is best to use a different target, destination file, and table of contents (TOC) for each distinct group of content.</p>
+            <h3>Flare to Zendesk Only</h3>
+            <MadCap:microContent id="microcontent1">
+                <p>Flare supports sending output to Zendesk, but not importing content from it. Therefore, after publishing topics from Flare, you should not edit the resulting articles in Zendesk if you plan to republish from Flare in the future. Otherwise, any changes you make in Zendesk will be overwritten by the newly published topics.</p>
+            </MadCap:microContent>
+            <h3>Limiting Content Published</h3>
+            <p>You have different options when it comes to limiting the content that is published to Zendesk:</p>
+            <ul>
+                <li>There is an <span class="Emphasis">Exclusions</span> field in the Destination Editor where you can enter specific files to be held back from the publishing process. This is particularly useful to exclude files such as Default.htm, which is the main entry file for HTML5 formats.</li>
+                <li>You can use conditions on topic files in Flare, then include or exclude them appropriately in the Target Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Conditions/Conditions.htm">Conditions</MadCap:xref> and <MadCap:xref href="../../Conditions/Process/Associating-Conditions-Targets.htm">Associating Conditions With Targets</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>In the Target Editor, you can select the <span class="Emphasis">Advanced</span> tab and choose an option in the <span class="Emphasis">Content to include</span> drop-down. You can include files linked directly or indirectly from the target, or you can include only files linked directly from the TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Step4-Developing-Targets/More/Including-Specifically-Linked-Content.htm">Including Specifically Linked Content</MadCap:xref>.</MadCap:conditionalText></li>
+            </ul>
+            <h3>Duplicate Headings</h3>
+            <p>When you view a published article in Zendesk, you might notice a title at the top of the article with the identical text in the heading from the Flare topic. The text at the top is populated automatically based on the &lt;title&gt; tag found for that topic in Flare. Often, the author doesn't provide a separate set of text for that tag, so the main heading text is used. </p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Output/Zendesk-Duplicate-Headings1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>If you want to have a different title for your articles in Zendesk, you need to open the properties for the topic file in Flare, then on the <span class="Emphasis">Topic Properties</span> tab, enter text in the <span class="Emphasis">Topic Title</span> field.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Output/Zendesk-Duplicate-Headings2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>If you don't want to change the topic titles, but just don't want to see the same text duplicated in the heading after it, you can use conditions or styles (or even both) in Flare to hide that heading in the published article in Zendesk. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Conditions/Conditions.htm">Conditions</MadCap:xref> and <MadCap:xref href="../../Conditions/Other-Information/Conditions-Styles.htm">Conditions on Styles</MadCap:xref>.</MadCap:conditionalText></p>
+            <h3>API Rate Limitations</h3>
+            <p>You should avoid publishing multiple targets to Zendesk from a batch at the same time in order to avoid any API&#160;rate limitations during the upload process. You can still publish targets in a batch, but you probably want to open the Options dialog (<span class="Emphasis">File &gt; Options</span>), select the <span class="Emphasis">Build</span> tab, and set the <span class="Emphasis">Maximum Concurrent Builds</span> to <span class="Emphasis">1</span>.</p>
+            <p>For more information about API rate limitations, see the following:</p>
+            <p><a href="https://develop.zendesk.com/hc/en-us/articles/360001074328-Best-practices-for-avoiding-rate-limiting" target="_blank">https://develop.zendesk.com/hc/en-us/articles/360001074328-Best-practices-for-avoiding-rate-limiting</a>
+            </p>
+            <h3>Practice Publishing</h3>
+            <p>Since you have many options for publishing content to Zendesk, you might find it helpful to practice publishing output using different settings in Flare. If your Zendesk account supports a Sandbox, it is recommended you use that. Once you identify results that you like in Zendesk, you can than publish output to your production environment.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>
+            <MadCap:xref href="Installing-MadCap-Connect-Zendesk.htm">Installing MadCap Connect for Zendesk</MadCap:xref>
+        </p>
+    </body>
+</html>

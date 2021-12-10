@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video2-Create-Edit-CSS-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Creating and applying character-level styles. The character-level element only applies to selected text and is used within a block element." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-CreatingApplying.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Creating and Applying Character-Level Styles</h1>
+        <p>In contrast to the block-level element which takes up the full width of a line, the character-level element only applies to selected text and is used within a block element.  </p>
+        <p>You can only create child styles classes of root (or parent) styles. There are many standard CSS character tags, such as  &lt;b&gt;, &lt;i&gt;, &lt;img&gt;, &lt;span&gt;, and &lt;sup&gt;, which have corresponding styles in the stylesheet. The &lt;span&gt; style is often used for creating general character-level style classes (i.e., when there isn't already another character-level style that meets your needs).</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Create a Character Style Class</h2>
+        <p>Let’s create a span class to emphasize text with bold and italic formatting.</p>
+        <ol>
+            <li>Open <span class="Emphasis">Styles.css</span>.</li>
+            <li>In the local toolbar, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Add-Class-btn.png" class="ReduceButtonSize" />. </li>
+            <li>In the New Selector dialog, from the <span class="Emphasis">HTML Element</span> drop-down, select <span class="Emphasis">span</span>.</li>
+            <li>
+                <p>In the <span class="Emphasis">Class Name</span> field, type <span class="TypedEntry">Emphasis-BoldItalic</span>. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The image above shows the New Selector dialog with Advanced Options expanded. Notice the name of the selector is "span.Emphasis-BoldItalic." When creating a new style class, it is appended to the root (or parent) style, and separated by a period. In this case, "span" is the parent while "Emphasis-BoldItalic" is the child. <MadCap:conditionalText MadCap:conditions="General.Future">The other options available will come into play later for advanced style functions. </MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">Character Styles</span>.</li>
+            <li>In the left pane tree structure, make sure <span class="Emphasis">span</span> is expanded, and <span class="Emphasis">Emphasis-BoldItalic</span> is selected.</li>
+            <li>In the <span class="Emphasis">Show </span>drop-down, select <span class="Emphasis">Show: Assorted Relevant Properties</span>.</li>
+            <li>Expand the <span class="Emphasis">Font</span> group.</li>
+            <li>
+                <p>Next to the <span class="Emphasis">font-style</span> property, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 13px;height: 7px;" />, and select <span class="Emphasis">italic</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex2.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Next to the <span class="Emphasis">font-weight</span> property, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 13px;height: 7px;" />, and select <span class="Emphasis">bold</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex3.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Apply a Character Style Class</h2>
+        <ol>
+            <li>Open <span class="Emphasis">Austin-City-Limits.htm</span>.</li>
+            <li>Select “University of Texas” in the last paragraph.</li>
+            <li>
+                <p>Right-click and from the context menu, select <span class="Emphasis">Span Class &gt; span.Emphasis-BoldItalic</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex4.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+            </li>
+            <li>Open <span class="Emphasis">Introduction.htm</span>.</li>
+            <li>Select “University of Texas” in the second paragraph.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Press <span class="Emphasis">CTRL+SHIFT+H</span>, and from the Style Picker, select <span class="Emphasis">span.Emphasis-BoldItalic</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Creating-Applying/Styles2-Common-Ex5.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp">
+                </MadCap:snippetBlock>
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Since this is a character-level style that might be used quite a bit, you can pin it to appear at the top of style lists for quick accessibility in the Style drop-down, Style Picker, or the Styles window.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../Styles/Other-Features-Activities/Regular-Stylesheets/Styles/Pinning-Styles.htm">Pinning Styles</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">To revisit how styles can be easily identified in editors, see <MadCap:xref href="../Styles-Understanding-Basics/Style-Tags-Flare-Editors.htm">Style Tags in Flare Editors</MadCap:xref>.</p>
+        </div>
+    </body>
+</html>

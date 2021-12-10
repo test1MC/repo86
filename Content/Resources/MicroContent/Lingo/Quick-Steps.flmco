@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroContentSet Comment="Default micro content set.">
+    <MicroContent id="import">
+        <MicroContentPhrase>import</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../../Snippets/Lingo/Micro-Content/Quick-Steps/QS-Import.flsnp" />
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="bundle">
+        <MicroContentPhrase>bundle</MicroContentPhrase>
+        <MicroContentPhrase>create bundle</MicroContentPhrase>
+        <MicroContentPhrase>prepare bundle</MicroContentPhrase>
+        <MicroContentPhrase>project package</MicroContentPhrase>
+        <MicroContentPhrase>package</MicroContentPhrase>
+        <MicroContentPhrase>zip</MicroContentPhrase>
+        <MicroContentPhrase>liprjzip</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../../Snippets/Lingo/Micro-Content/Quick-Steps/QS-Bundle.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1] " />
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="tmx">
+        <MicroContentPhrase>tmx</MicroContentPhrase>
+        <MicroContentPhrase>translation memory exchange</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../../Snippets/Lingo/Micro-Content/Quick-Steps/QS-TMX.flsnp" />
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="tbx">
+        <MicroContentPhrase>tbx</MicroContentPhrase>
+        <MicroContentPhrase>termbase exchange</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../../Snippets/Lingo/Micro-Content/Quick-Steps/QS-TBX.flsnp" />
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="join-segments">
+        <MicroContentPhrase>join segments</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:head>
+                    <xhtml:link xhtml:href="../../TableStyles/Shared/Simple.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                </xhtml:head>
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../../Snippets/Lingo/Micro-Content/Quick-Steps/QS-Join-Segments.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1] " xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="review">
+        <MicroContentPhrase>review</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../../Snippets/Lingo/Micro-Content/Quick-Steps/QS-Review.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="merge-bundle">
+        <MicroContentPhrase>merge bundle</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Bundles/Merging-Completed-Bundles.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="update-project">
+        <MicroContentPhrase>update project</MicroContentPhrase>
+        <MicroContentPhrase>update</MicroContentPhrase>
+        <MicroContentPhrase>delta</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Projects/Updating-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="command-line">
+        <MicroContentPhrase>command line</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Projects/Managing-Projects-Command-Prompt.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="export-project">
+        <MicroContentPhrase>export project</MicroContentPhrase>
+        <MicroContentPhrase>export</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Exporting/Exporting-Translated-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="export-tmx">
+        <MicroContentPhrase>export tmx</MicroContentPhrase>
+        <MicroContentPhrase>export translation memory</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Translation-Memory/Other-Activities/Exporting-TMX-Files.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="import-tmx">
+        <MicroContentPhrase>import tmx</MicroContentPhrase>
+        <MicroContentPhrase>import translation memory</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Translation-Memory/Other-Activities/Importing-TMX-Files.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="export-termbase">
+        <MicroContentPhrase>export termbase</MicroContentPhrase>
+        <MicroContentPhrase>export tbx</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Termbase/Other-Activities/Exporting-TBX-Files.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="import-termbase">
+        <MicroContentPhrase>import termbase</MicroContentPhrase>
+        <MicroContentPhrase>import tbx</MicroContentPhrase>
+        <MicroContentResponse href="../../../Lingo/Termbase/Other-Activities/Importing-TBX-Files.htm#microcontent1" />
+    </MicroContent>
+</MicroContentSet>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Click <img src="../../../../Images/Shared/Al-Ca-Co-Fl-Li-Mi/Interface/Buttons/Quick-Find-Filter-btn.png" class="ReduceButtonSize" alt="" /> to select any of the following filter options:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Whole word </span>
+                <MadCap:snippetText src="../../Al-Co-Fl-Li/Find-Replace/Whole-Word-Option.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Match case </span>
+                <MadCap:snippetText src="../../Al-Co-Fl-Li/Find-Replace/Match-Case-Option.flsnp" />
+            </li>
+            <li MadCap:conditions="Products.Lingo"><span class="SetOffFirstLevel">Source text </span><MadCap:variable name="Other.Product" /> finds only occurrences of the text that appear in source (untranslated)&#160;documents.</li>
+            <li MadCap:conditions="Products.Lingo"><span class="SetOffFirstLevel">Target text </span><MadCap:variable name="Other.Product" /> finds only occurrences of the text that appear in target (translated)&#160;documents.</li>
+            <li><span class="SetOffFirstLevel">Regular Expressions </span>If you select this option, you can use regular expressions when you look for content. <MadCap:conditionalText MadCap:conditions="Products.Flare">See <MadCap:xref href="../../../../../Flare/Editor-Tools/Find-Replace/Other-Activities-Information/Regular-Expressions.htm">Regular Expressions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Contributor">See <MadCap:xref href="../../../../../Contributor/Editor-Tools/Find-Replace/Other-Activities-Information/Regular-Expressions.htm">Regular Expressions</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">Wildcards </span>If you select this option, you can use wildcards when you look for content. <MadCap:conditionalText MadCap:conditions="Products.Flare">See <MadCap:xref href="../../../../../Flare/Editor-Tools/Find-Replace/Other-Activities-Information/Wildcards.htm">Wildcards</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Contributor">See <MadCap:xref href="../../../../../Contributor/Editor-Tools/Find-Replace/Other-Activities-Information/Wildcards.htm">Wildcards</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">Find and Replace in Files </span>This option opens the Find and Replace in Files window pane, which lets you perform more advanced searches, including global searches<MadCap:conditionalText MadCap:conditions="Products.Flare"> throughout the project</MadCap:conditionalText>. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Editor-Tools/Find-Replace/Main-Activities/Finding-Replacing-Text.htm">Using the Find and Replace in Files Feature</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

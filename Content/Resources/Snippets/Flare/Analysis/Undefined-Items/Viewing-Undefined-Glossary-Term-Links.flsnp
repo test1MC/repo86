@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Undefined-Glossary-Term-Links-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to View Undefined Glossary Term Links</h2>
+        <ol>
+            <li>Open a project. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Analysis &gt; Undefined Items &gt; Undefined Glossary Term Links</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Analysis Summary Window Pane </span>Double-click the row that mentions undefined glossary term links.</li>
+                </ul>
+                <p>The Undefined Glossary Term Links window pane opens.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Term </span>Displays the term that is used in a glossary term link in the file.</li>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../../General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <h2>How to Fix Undefined Glossary Term Links</h2>
+        <p>There are a few basic ways to fix an undefined glossary term link: (1) You can rename the glossary term; (2) you can unbind the glossary term link; (3) you can remove the glossary term link from the file; (4) you can add the same glossary term to the glossary file; (5) you can replace an undefined glossary term with an existing glossary term; and (6) you can create a new glossary term.</p>
+        <div class="IndentMedium">
+            <h3>To Rename Glossary Terms in a File</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all glossary term link occurrences that you want to rename. <MadCap:snippetText src="../../General/If-Select-All-Some-Rows.flsnp" /></p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">All glossary term occurrences that you select will be renamed to the same glossary term that you provide in the following steps.</p>
+                    </div>
+                </li>
+                <li>In the local toolbar, click the <span class="Emphasis">Rename</span> button.</li>
+                <li>In the <span class="Emphasis">New glossary term link name</span> field, enter a new glossary term.</li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                </li>
+                <li>
+                    <p>A message lets you know how many files were changed. <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> All of the selected glossary term link occurrences are renamed. </p>
+                    <MadCap:snippetBlock src="../More-Analysis-Scans/Topics/Note-Can-Use-Backups-Window.flsnp" />
+                </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+            <h3>To Unbind Glossary Term Links in a File</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all glossary term link occurrences that you want to unbind. <MadCap:snippetText src="../../General/If-Select-All-Some-Rows.flsnp" /></p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The links for all glossary term occurrences that you select will be removed.</p>
+                    </div>
+                </li>
+                <li>In the local toolbar, click the <span class="Emphasis">Unbind</span> button. </li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                </li>
+                <li>
+                    <p>A message lets you know how many files were changed. <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> The links for all of the selected glossary term link occurrences are removed. </p>
+                    <MadCap:snippetBlock src="../More-Analysis-Scans/Topics/Note-Can-Use-Backups-Window.flsnp" />
+                </li>
+            </ol>
+            <h3>To Remove Glossary Terms From a File</h3>
+            <ol>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../General/Double-Click-Right-Click-Open.flsnp" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Keyboard-Press-Delete.flsnp" /> Add regular text if necessary.</li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+            <h3>To Add Matching Terms to a Glossary</h3>
+            <ol>
+                <li>In the Undefined Glossary Term Links window pane, select the row that you want to correct. <MadCap:snippetText src="../../General/Double-Click-Right-Click-Open.flsnp" /> The file opens in the XML Editor of the application, with the glossary term link highlighted.</li>
+                <li>Open the glossary and add a matching glossary term. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Glossaries/Glossaries.htm">About Glossaries</MadCap:xref> and <MadCap:xref href="../../../../../Flare/Glossaries/Process/Creating-Glossary-Terms-Definitions.htm">Creating Glossary Terms and Definitions</MadCap:xref>.</MadCap:conditionalText></li>
+            </ol>
+            <h3>To Replace an Undefined Glossary Term With an Existing Term</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all glossary term link occurrences that you want to replace. <MadCap:snippetText src="../../General/If-Select-All-Some-Rows.flsnp" /></p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../../Images/Flare/Interface/Buttons/Create-Glossary-Term-Link-btn.png" alt="" title="" />.</li>
+                        <li><span class="SetOffFirstLevel">Right-Click </span>Right-click on the glossary term you want to replace and from the context menu select <span class="Emphasis">Create Glossary Term Link</span>.</li>
+                    </ul>
+                    <p>The Create Glossary Link dialog opens.</p>
+                </li>
+                <li>On the right side of the dialog, select the existing glossary term you want to link to the undefined term. </li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> The undefined glossary terms are replaced with the term you selected.</li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+            <h3>To Create a Glossary Term</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select the glossary term link occurrences that you want to add to the project. </p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../../Images/Flare/Interface/Buttons/Create-Glossary-Term-Link-btn.png" alt="" title="" />.</li>
+                        <li><span class="SetOffFirstLevel">Right-Click </span>Right-click on the glossary term you want to replace and from the context menu select <span class="Emphasis">Create Glossary Term Link</span>.</li>
+                    </ul>
+                    <p>The Create Glossary Link dialog opens.</p>
+                </li>
+                <li>
+                    <p>Click <span class="Emphasis">Add New Term</span>.</p>
+                    <p>The Create Glossary Term dialog opens.</p>
+                </li>
+                <li>Enter a new term and definition, which will be added to the glossary when you are finished.</li>
+                <li>(Optional) You can also use the <span class="Emphasis">Insert Variable</span> button <img src="../../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Insert-Variable-btn.png" alt="" title="" />, if you want to add a variable to the definition.</li>
+                <li>
+                    <p>(Optional) If you want to sort a glossary entry using a different term, in the <span class="Emphasis">Sort As</span> field, enter the term you want to use for sorting. "Sort As" terms appear in the <span class="Emphasis">Sort As</span> column of the glossary.</p>
+                    <MadCap:snippetBlock src="../../Glossaries/Tip-Sort-As.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                </li>
+                <li>In the Create Glossary Link dialog, click <span class="Emphasis">OK</span>. The undefined glossary terms are replaced with the new glossary term.</li>
+            </ol>
+        </div>
+        <MadCap:snippetBlock src="../../../Shared/All/General/Whats-Noteworthy.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

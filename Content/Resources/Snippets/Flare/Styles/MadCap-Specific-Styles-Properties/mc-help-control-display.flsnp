@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableTextEmphasis">mc-help-control-display</p>
+        <p class="TableText">Lets you specify whether the default setting for Help control links should be "list" or "popup"<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../../Flare/Concepts/Inserting-Concept-Links.htm">Inserting Concept Links</MadCap:xref>, <MadCap:xref href="../../../../../Flare/Nav-Links/Keyword-Links/Inserting-Keyword-Links.htm">Inserting Keyword Links</MadCap:xref>, and <MadCap:xref href="../../../../../Flare/Nav-Links/Related-Topics-Links/Inserting-Related-Topics-Links.htm">Inserting Related Topics Links</MadCap:xref>)</MadCap:conditionalText>. Therefore, this property is used for the following styles: MadCap|conceptLink, MadCap|keywordLink, and MadCap|relatedTopics.</p>
+        <p class="TableText">This can also be specified at the spot where you insert the Help control, but if you want all Help controls to automatically use the same display, you can edit this style property instead.</p>
+        <p class="TableText" MadCap:conditions="General.Online-Only">
+            <MadCap:xref href="../../../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Styles/Editing-Display-Help-Control-Links.htm">Using Styles to Determine the Display for Help Control Links</MadCap:xref>
+        </p>
+    </body>
+</html>

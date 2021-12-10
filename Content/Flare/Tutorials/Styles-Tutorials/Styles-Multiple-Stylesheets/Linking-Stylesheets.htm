@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video3-Primary-Local-CSS.flmsp');">
+    <head>
+        <meta name="description" content="Linking stylesheets together is a convenient way to leverage certain styles from another stylesheet for a project." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-MultipleStylesheets.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Linking Stylesheets</h1>
+        <p>Linking stylesheets together is a convenient way to leverage certain styles from another stylesheet for a project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Styles/Other-Features-Activities/Regular-Stylesheets/Stylesheets/Linking-Stylesheets.htm">Linking Stylesheets</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Link Stylesheets</h2>
+        <p>With the project stylesheet still set at Modern, let’s link the original stylesheet, Styles.css, to it.</p>
+        <ol>
+            <li>From the Content Explorer, open <span class="Emphasis">Attractions.htm</span>.</li>
+            <li>From the first paragraph, select the text “State Capitol, Zilker Park, and Lady Bird Lake.”</li>
+            <li>
+                <p>Right-click and from the context menu, hover over <span class="Emphasis">Span Class</span>. Notice the styles available.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-Link-Styles.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Open <span class="Emphasis">Modern.css</span>. </li>
+            <li>In the local toolbar of the Stylesheet Editor, make sure the first button is labeled <span class="Emphasis">View: Advanced</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">Character Styles</span>, and select the <span class="Emphasis">span</span> element.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-StyleEditor1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the local toolbar, <span class="Emphasis">Show</span> drop-down, select <span class="Emphasis">Show: Set (Locally) Properties – properties set in this stylesheet</span>. Notice that no property values have been defined for the span element in the Modern.css.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-StyleEditor2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Double-click <span class="Emphasis">Styles.css</span>. The stylesheet opens in the Stylesheet Editor.</li>
+            <li>
+                <p>Expand the <span class="Emphasis">span</span> element and notice the Emphasis class.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-StyleEditor3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Select <span class="Emphasis">Emphasis</span>, and expand the <span class="Emphasis">Font</span> property. A span.Emphasis style class is already defined for the font property in this stylesheet. Let’s link the two stylesheets together to borrow this style class.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-StyleEditor4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click the <span class="Emphasis">Modern.css</span> tab.</li>
+            <li>
+                <p>From the local toolbar, select the <span class="Emphasis">Options</span> drop-down, and then select <span class="Emphasis">Stylesheet Links</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-Options.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>In the Stylesheet Links dialog, double-click the <span class="Emphasis">Styles.css</span>. It populates to the Current Links section. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-StylesCSS-Links.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Go back to <span class="Emphasis">Attractions.htm</span>.</li>
+            <li>
+                <p>From the selected text “State Capitol, Zilker Park, and Lady Bird Lake,” right-click to choose <span class="Emphasis">Span Class</span>, and then select <span class="Emphasis">Span.Emphasis</span>. This style is leveraged from the linked stylesheet.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Multiple-Stylesheets/Styles3-Link-Styles2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Use caution when linking stylesheets together. You might get unexpected results if you are unaware of all the styles from the linked stylesheet that may impact your main stylesheet. If linking a stylesheet to another, it is going to use its styles if it does not find explicit settings in the main stylesheet. </p>
+                    <p>In this case, you might have noticed the paragraph font size increased, as well as gaining the span.Emphasis style class.  The paragraph element in the Modern.css stylesheet does not have the font size value for the font property specifically set, so it is inheriting its setting from somewhere else. When we linked Styles.css to Modern.css, the font settings from Styles.css got used.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>From the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</li>
+        </ol>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End-Styles.flsnp" />
+        </div>
+    </body>
+</html>

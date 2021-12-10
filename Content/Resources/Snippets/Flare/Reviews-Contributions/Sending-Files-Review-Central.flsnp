@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Following are steps for sending files to others for review in Central.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Send Files for Review on Central</h2>
+        <ol>
+            <li>If you have not already done so, open the MadCap Central window pane (<span class="Emphasis">View &gt; MadCap Central</span>) and log in to Central. See <MadCap:xref href="../../../../Flare/Central/Main-Activities/Logging-In-Out-Central.htm">Logging In and Out of Central in Flare</MadCap:xref>.</li>
+            <li>Open a topic or snippet.</li>
+            <li>Select <b>Review &gt; Send For Review</b>. The Send Files For Review Wizard opens.</li>
+            <li>
+                <p>(Optional) If you want to add more files to the package file, do the following:</p>
+                <ol class="LowerAlpha">
+                    <li>Click <img src="../../../Images/Shared/Fl-Li/Interface/Buttons/Plus-btn.png" class="ReduceButtonSize" alt="" />.</li>
+                    <li>
+                        <p>Use the multi-view buttons to find the file(s) you want to add. If you want to add multiple files, make sure <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Files-btn.png" class="ReduceButtonSize" /> is selected.</p>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/SharePoint/Multi-View-Table5.flsnp" />
+                    </li>
+                    <li>Find and select the file(s) you want to add to the review. <MadCap:snippetText src="../../Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /> When you are finished click <span class="Emphasis">Open</span> in the dialog.</li>
+                </ol>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+                <MadCap:snippetBlock src="../../Shared/Ce-Fl/Reviews-Contributions/Tip-Central-Review-Workflow.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1]" />
+            </li>
+            <li>
+                <p>Below the Files grid, select <span class="Emphasis">Send to MadCap Central</span>.</p>
+                <p>
+                    <img src="../../../Images/Shared/Ce-Fl/Reviews-Contributions/Central-Flare-Reviews-Workflow2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+            <li>
+                <p>Click <span class="Emphasis">Next</span>.</p>
+                <MadCap:snippetBlock src="../../Shared/Ce-Fl/Reviews-Contributions/Note-Central-Review-Workflow2.flsnp" />
+            </li>
+            <li>
+                <p>On the next page of the wizard, select the users on your Central license who you want to review the file(s). This might include SMEs (individuals who have reviewer-only permission in Central), as well as other Flare authors. Anyone selected during this process will automatically become associated with that Flare project on Central. Also, anyone selected  will become an assigned reviewer for all files chosen in the wizard.</p>
+                <p>
+                    <img src="../../../Images/Shared/Ce-Fl/Reviews-Contributions/Central-Flare-Reviews-Workflow3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can select users who are active on the Central license, as well as those who are still in the "Invited" status (i.e., those users have not yet set up a profile and become active users). After invited users become active, they will receive review notifications and see all files sent to them for review.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+            <li>
+                <p>Click <span class="Emphasis">Send</span>.</p>
+                <MadCap:snippetBlock src="../../Shared/Ce-Fl/Reviews-Contributions/Central-Review-Workflow7.flsnp" />
+                <p>
+                    <img src="../../../Images/Shared/Ce-Fl/Reviews-Contributions/Central-Flare-Reviews-Workflow5.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>
+                    <img src="../../../Images/Shared/Ce-Fl/Reviews-Contributions/Central-Flare-Reviews-Workflow4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+                <MadCap:snippetBlock src="../../Shared/Ce-Fl/Reviews-Contributions/Central-Review-Workflow8.flsnp" />
+                <p>
+                    <img src="../../../Images/Shared/Ce-Fl/Reviews-Contributions/Central-Flare-Reviews-Workflow6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/Ce-Fl/Reviews-Contributions/Note-Central-Review-Workflow3.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After you send files for review on Central, you need to wait for the reviewers to edit and submit the finished files. If you have selected the appropriate email notifications on Central, you will receive an email when all reviewers have submitted the file(s). After that, you can close out the review process for those files. See <MadCap:xref href="../../../../Flare/Reviews-Contributions/Central/Closing-Review-Files.htm">Closing Central Review Files</MadCap:xref>.</p>
+    </body>
+</html>

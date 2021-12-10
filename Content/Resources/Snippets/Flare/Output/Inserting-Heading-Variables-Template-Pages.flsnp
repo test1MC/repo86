@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/Word.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>
+            <MadCap:snippetText src="../Variables/Heading-Variable-Master-Pages.flsnp" />
+        </p>
+        <h2>How to Insert a Heading Variable Into a Template Page</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Template-Pages/Open-Template-Page1.flsnp" />
+            </li>
+            <li>
+                <p>Place your cursor inside a particular page header or page footer proxy. </p>
+                <p MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/Page-Headers-Footers/Adding-Page-Header-Footer-Proxies1.htm">Adding Page Header and Footer Proxies</MadCap:xref>.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Insert &gt; Variable</b>. </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Insert-Variable-btn.png" class="ReduceButtonSize" />.</li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut </span>On your keyboard press <span class="Emphasis">CTRL+SHIFT+V</span>.</li>
+                </ul>
+                <p>The Variables dialog opens, with the variable set(s) on the left and the variables associated with the selected set on the right. </p>
+            </li>
+            <li>Select the <span class="Emphasis">Heading</span> variable set. </li>
+            <li>
+                <p>Select the variable you want to add:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">AnyLevel </span>Automatically displays the text in the first heading on a page that uses any of the h1 through h6 styles. </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Level1 </span>Automatically displays the first text on a page that uses the mc-heading-level style property set at 1. By default, the h1 style has the mc-heading-level set to 1 (that's why it's called a first-level heading), but you can change it, and you can set the mc-heading-level to 1 for other styles if you want. </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Template-Pages-Guide,Flare-Guides.Flare-Variables-Guide" />
+                        <div class="example">
+                            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are using the keep the mc-heading-level set to 1 for the h1 style. Furthermore, you use the h1 style only for your chapter titles at the beginning of each chapter. If you insert the Heading.Level1 variable into the heading frames in the page layout that you are using for chapters, the appropriate chapter title will display automatically at the top of each chapter in the output.</p>
+                        </div>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Level2 </span>Automatically displays the first text on a page that uses the mc-heading-level style property set at 2. By default, the h2 style has the mc-heading-level set to 2 (that's why it's called a second-level heading), but you can change it, and you can set the mc-heading-level to 2 other styles if you want.</li>
+                </ul>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Level3 </span>Automatically displays the first text on a page that uses the mc-heading-level style property set at 3. By default, the h3 style has the mc-heading-level set to 3 (that's why it's called a third-level heading), but you can change it, and you can set the mc-heading-level to 3 for other styles if you want.</li>
+                    <li><span class="SetOffFirstLevel">Level4 </span>Automatically displays the first text on a page that uses the mc-heading-level style property set at 4. By default, the h4 style has the mc-heading-level set to 4 (that's why it's called a fourth-level heading), but you can change it, and you can set the mc-heading-level to 4 for other styles if you want.</li>
+                    <li><span class="SetOffFirstLevel">Level5 </span> Automatically displays the first text on a page that uses the mc-heading-level style property set at 5. By default, the h5 style has the mc-heading-level set to 5 (that's why it's called a fifth-level heading), but you can change it, and you can set the mc-heading-level to 5 for other styles if you want.</li>
+                    <li><span class="SetOffFirstLevel">Level6 </span>Automatically displays the first text on a page that uses the mc-heading-level style property set at 6. By default, the h6 style has the mc-heading-level set to 6 (that's why it's called a sixth-level heading), but you can change it, and you can set the mc-heading-level to 6 for other styles if you want.</li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The glossary and index variable options are available only in <MadCap:variable name="Outputs.PDF" />  output. </p>
+                </div>
+                <p>
+                    <img src="../../../Images/Flare/Variables/Heading-Variable-Set.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The variable is added to the template page.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

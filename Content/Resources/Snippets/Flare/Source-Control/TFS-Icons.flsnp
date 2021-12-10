@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Following are descriptions for the primary icons that you may see next to files when using source control. </p>
+        <table class="TableStyle-Fancy" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');" cellspacing="0">
+            <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Checked Out</span>
+                        </p>
+                        <MadCap:snippetBlock src="Source-Control-Checked-Out-Status-Description.flsnp" class="TableText" />
+                        <p>
+                            <MadCap:keyword term="Source control:lock" />You may see this icon in conjunction with the <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Green-Lock-ico.png" class="ReduceButtonSize" /> icon, indicating that you have checked out and locked the file. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-New-File-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">New File (Pending Add)</span>
+                        </p>
+                        <MadCap:snippetBlock src="Source-Control-Pending-Add-Status-Description.flsnp" class="TableText" />
+                        <p>
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Source-Control/TFS/Process/Adding-Files-Source-Control-TFS.htm">Adding Files to Source Control—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Locked-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Not Checked Out</span>
+                        </p>
+                        <MadCap:snippetBlock src="../../Shared/Fl-Li/Source-Control/Source-Control-Not-Checked-Out-Status-Description.flsnp" class="TableText" />
+                        <p>
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Source-Control/TFS/Process/Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Red-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by Another User</span>
+                        </p>
+                        <p class="TableText">This indicates that another user has locked the file. You cannot check in the file while it is locked by another user. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Source-Control/TFS/Process/Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Green-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by You</span>
+                        </p>
+                        <p class="TableText">This indicates that you have locked the file. You can lock a file when you check it out. Other users cannot check in the file while it is locked. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Source-Control/TFS/Process/Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-Other-User-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Checked Out By Other User</span>
+                        </p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../../Shared/Fl-Li/Source-Control/Source-Control-Checked-Out-Other-User-Status-Description.flsnp" />
+                        </p>
+                        <p class="TableText">You may see this icon in conjunction with the <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Red-Lock-ico.png" /> icon, indicating that another user has checked out and locked the file. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Fl-Li/Interface/Icons/Source-Control-Out-Date-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Out of Date</span>
+                        </p>
+                        <MadCap:snippetBlock src="../../Shared/Fl-Li/Source-Control/Source-Control-Out-Date-Status-Description.flsnp" class="TableText" />
+                        <p class="TableText">
+                            <MadCap:conditionalText MadCap:conditions="General.Online-Only">See   <MadCap:xref href="../../../../Flare/Source-Control/TFS/Process/Checking-Out-Source-Control-Files-TFS.htm">Checking Out Source Control Files—Team Foundation Server</MadCap:xref> or <MadCap:xref href="../../../../Flare/Source-Control/TFS/Process/Getting-Latest-Version-Source-Control-Files-TFS.htm">Getting the Latest Version of Source Control Files—Team Foundation Server</MadCap:xref>.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../Images/Flare/Interface/Icons/Source-Control-Deleted-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows" MadCap:conditions="">
+                        <p class="TableTextEmphasis"><span class="SetOffFirstLevel">Deleted</span>
+                        </p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="Source-Control-Deleted-File-Status-Description.flsnp" />
+                        </p>
+                        <p MadCap:conditions="General.Online-Only" class="TableText">See <MadCap:xref href="../../../../Flare/Source-Control/Linked-Topics/Adding-Files.htm">Adding Files to Source Control</MadCap:xref> or <MadCap:xref href="../../../../Flare/Source-Control/Linked-Topics/Deleting-Files.htm">Deleting Files from Source Control</MadCap:xref>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

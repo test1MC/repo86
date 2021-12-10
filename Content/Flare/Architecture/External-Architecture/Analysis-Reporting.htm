@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Architecture.flmsp');">
+    <head>
+        <meta name="description" content="You can use various tools to analyze project source files for issues, and view user activity on output." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Project architecture;Architecture" />
+            <MadCap:keyword term="Analysis:project" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Analysis;Reports" />
+            <MadCap:keyword term="Text analysis" />
+            <MadCap:concept term="FilterOutput" />Analysis and Reporting</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Analysis/Analysis-Reporting-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Analysis on Source Files</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Analysis/Analysis-Source-Files.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2>Analysis on Output Files</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Analysis/Analysis-Output-Files.flsnp" />
+        <div class="IndentMedium">
+            <h3>MadCap Central Analytics</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Central/Analytics-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Central/General-Information/Central-Analytics/Central-Analytics.htm">Central Analytics</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" /></p>
+            <p>
+                <img src="../../../Resources/Images/Shared/Ce-Fl/Analysis/Analytics.png" alt="" title="" class="MaxWidth100Percent">
+                </img>
+            </p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ce-Fl/Analysis/Analytics-Summary2.flsnp" />
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ce-Fl/Analysis/Host-Output-Anywhere.flsnp" />
+            <h3>MadCap Content Services</h3>
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Search/Content-Services-Portal.flsnp">
+                </MadCap:snippetText> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Search/Search-Engines/Elasticsearch/Elasticsearch.htm">Elasticsearch</MadCap:xref> and <MadCap:xref href="../../Search/Search-Engines/Elasticsearch/Content-Services-Portal.htm">Content Services Portal</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Architecture-Guide"></MadCap:snippetText></p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Search/Content-Services.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <h3>Google Analytics</h3>
+            <p>You might decide to use Google Analytics (or another third-party tool) for reporting activity on your output. If you have a Google Analytics account, you can obtain a tracking code, which you can then add to your template page(s) in a Flare project. After publishing the output, you can use the Google Analytics website to see various reports about your output.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Architecture/Architecture-Google-Analytics1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+        <h2><a name="WhatMadCapDocTeamDoes"></a>What the MadCap Documentation Team Does</h2>
+        <p>We use analysis on both our source and output files.</p>
+        <div class="IndentMedium">
+            <h3>Analysis on Source Files</h3>
+            <p>When we get close to a product release, we scan the source files in our main “Shared” Flare project to discover various information about our source files, including:</p>
+            <ul>
+                <li><span class="SetOffFirstLevel">Critical Issues </span>These are problems that must be fixed, such as broken links or bookmarks.</li>
+                <li><span class="SetOffFirstLevel">Files With Annotations </span>We occasionally insert annotations in topics and snippets as reminders to do something before a topic is considered complete. Scanning the project for files with annotations lets us quickly locate these instances and take action if necessary.</li>
+                <li><span class="SetOffFirstLevel">Topics Without Concepts </span>We use concept keywords in order to create search filter sets, as well as boost search results for certain topics. Therefore, we run this scan to make sure all necessary topics contain concept keywords.</li>
+                <li><span class="SetOffFirstLevel">Topics Not In Index </span>We do not use an index for online output, but we do for some PDF targets. Also, index keywords can help boost search results for topics. So we run this scan to make sure we have inserted index keywords where necessary.</li>
+                <li><span class="SetOffFirstLevel">Unused Images </span>We periodically run this scan to find obsolete images that can be removed from the project.</li>
+            </ul>
+            <p>There are many other project analysis scans that you can run, but the ones listed above are those that we usually focus on.</p>
+            <p>Occasionally, we run text analysis on certain files, especially more complex ones, to make sure their readability level is acceptable.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Architecture-Guide" />
+            <h3>Analysis on Output Files</h3>
+            <p>Our outputs are integrated with MadCap Central. We log in to our Central license and use the Analytics page to view reports. These reports help us determine if we need to make changes.</p>
+            <p>We pay particular attention to the reports on search phrases. The “Phrases” report tells us which terms users are using the most to look for information. We can also easily see if any micro content yet exists for a phrase, or whether we should create it.</p>
+            <p>The “Phrases with No Results” report lets us know if we should create some new content or synonyms in Flare so that frequently searched phrases produce results in the future.</p>
+        </div>
+    </body>
+</html>

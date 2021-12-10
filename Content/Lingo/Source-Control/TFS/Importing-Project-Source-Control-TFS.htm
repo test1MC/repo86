@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-TFS.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 MadCap:conditions="General.Online-Only">
+            <MadCap:concept term="FilterImporting" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Importing:source control projects;Source control:importing projects;Multi-authoring;Source control:Microsoft Team Foundation Server" />Importing a Project From Microsoft Team Foundation Server</h1>
+        <h1 MadCap:conditions="General.Print-Only">
+            <MadCap:keyword term="Importing:source control projects;Source control:importing projects;Multi-authoring;Source control:Microsoft Team Foundation Server" />Importing From Microsoft TFS</h1>
+        <p>This topic focuses on importing a <MadCap:variable name="Other.Product" /> project from source control. You might use this method, for example, if you are working on a project with several other translators and another member of the team has placed the <MadCap:variable name="Other.Product" /> project in Microsoft Team Foundation&#160;Server. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="../Source-Control.htm">About Source Control</MadCap:xref>.</MadCap:conditionalText></p>
+        <h2>How to Import a Project From Source Control</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon</span> Select <span class="Emphasis">File &gt; New Project &gt; Import Project</span>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source Control Explorer:Home pane" />Source Control Explorer </span> From the <span class="Emphasis">View</span> ribbon, open the Source Control Explorer. From the drop-down, select the Home pane. Click <span class="Emphasis">Import Project</span>.</li>
+                </ul>
+                <p>The Import Project from Source Control Wizard dialog opens.</p>
+            </li>
+            <li>From the drop-down, select <span class="Emphasis">Microsoft Team Foundation Server</span>. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Bind-TFS2.flsnp" />
+                </p>
+                <ol class="LowerAlpha">
+                    <li>To add a server, click <img src="../../../Resources/Images/Shared/Co-Fl-Li/Interface/Buttons/Add-Custom-Attribute-btn.png" class="ReduceButtonSize" />. The Add Team Foundation Server dialog opens. </li>
+                    <li>Enter the name or URL of the server. </li>
+                    <li>Enter the path and port number. </li>
+                    <li>Select the protocol (HTTP or HTTPS).</li>
+                </ol>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/May-Need-Obtain-Info-Sys-Admin.flsnp" /> Click <span class="Emphasis">OK</span> in the dialogs until you return to the main wizard page.</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you run into issues in this dialog, chances are your user permissions do not have access to all of the collections on the TFS server. Please try to enter in the server/collection path manually.</p>
+                </div>
+            </li>
+            <li>Next to the <span class="Emphasis">Team Project</span> field, click <img src="../../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. If the Log In dialog opens, complete the <span class="Emphasis">User name</span> and <span class="Emphasis">Password</span> fields.</li>
+            <li>Click on the Team Foundation project. </li>
+            <li>Click <span class="Emphasis">Next</span>.</li>
+            <li>
+                <p>Next to the <span class="Emphasis">Project</span> field, click <span class="Emphasis">Browse</span>. The Browse Source Control Files dialog opens.</p>
+            </li>
+            <li>Find and click on the <MadCap:variable name="Other.Product" /> project file (<MadCap:keyword term="LIPRJ file" />LIPRJ) that you want to import. (You may need to log in with your user name and password.)</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>Click <span class="Emphasis">Next</span>.</li>
+            <li>In the <span class="Emphasis">Project name</span> field, the name of the project being imported is displayed. It is recommended that you leave the name as it is, especially if you are working with other users on the project. However, you can enter a different project name if you want.</li>
+            <li>In the <span class="Emphasis">Project folder</span> field, either accept the default location for the new project or click <img src="../../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to browse for and select a folder.</li>
+            <li>Click <span class="Emphasis">Finish</span>. The project is imported and loaded into <MadCap:variable name="Other.Product" />.</li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Apply-Bind-Detection.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Interface/Dialogs/Options-Dialog.htm">Options Dialog</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

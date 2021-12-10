@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h2>How to Use Snippet Conditions</h2>
+        <ol>
+            <li>
+                <p>Create all of the condition tags that you plan to use for separating your snippet content. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Conditions/Process/Creating-Conditions1.htm">Creating Condition Tags</MadCap:xref> and <MadCap:xref href="../../../../Flare/Conditions/Process/Adding-Condition-Tag-Sets.htm">Adding Condition Tag Set Files</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">You might want to include the word "Snippet" somewhere in the name of a new snippet condition tag (e.g., Snippet1, Snippet2). This way, you can easily identify it, rather than confusing it with the rest of the condition tags that you use for other purposes  (e.g., online output or printed output condition tags).</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The more variations that you have in your snippet content, the more condition tags you will need to create. An average number is four to eight condition tags, but you may find that you require fewer or more tags than this for snippet content. It is always preferable to create more condition tags than you may need, rather than to realize later that you have too few. You can even create a separate condition tag set to be used specifically for holding your snippet condition tags, while keeping the rest of your condition tags in other tag sets. </p>
+                </div>
+            </li>
+            <li>Create and open the snippet. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Snippets/Main-Activities/Creating-New-Snippets-Content.htm">Creating New Snippets from Existing Content</MadCap:xref> and <MadCap:xref href="../../../../Flare/Snippets/Main-Activities/Opening-Snippets.htm">Opening Snippets</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p>Apply the necessary condition tags to the text or other content in the snippet. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm">Applying Condition Tags to Content</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">It is a good idea to click the <span class="Emphasis">Hide/Show Conditional Indicators</span> button <img src="../../../Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" class="ReduceButtonSize" /> at the bottom of the editor so that you can clearly see where the different tags have been applied in the snippet.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Snippets-Guide,Flare-Guides.Flare-Condition-Tags-Guide" />
+            <li>
+                <p>Do one of the following.</p>
+                <p class="Subheading">To Apply Snippet Conditions at the Snippet Level</p>
+                <p>This method is recommended in most cases. It allows you more flexibility and tends to be easier to maintain topics as time goes by. Snippet conditions at the snippet level override snippet conditions applied at the topic level.</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                        <MadCap:snippetText src="Snippet-Conditions1.flsnp" />
+                        <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Snippets/Main-Activities/Inserting-Snippets.htm">Inserting Snippets into Topics</MadCap:xref> and <MadCap:xref href="../../../../Flare/Folders-Files/Viewing-File-Links.htm">Viewing File Links</MadCap:xref>.</MadCap:conditionalText>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Snippets/Snippet-Conditions1.flsnp" />
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Snippets/Snippet-Conditions2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                    <li>(Optional)&#160;Repeat steps b-d for any other instances of the snippet in the topic.</li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/All/General/Save-File.flsnp" />
+                    </li>
+                </ol>
+                <p class="Subheading">To Apply Snippet Conditions at the Topic Level</p>
+                <p>This method is good if you have snippet conditions set throughout a topic and you want to include and exclude the same conditions for the entire topic. Otherwise, it is recommended that you apply snippet conditions at the snippet level.</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                        <p>Insert the snippet into the topics, or determine which topics already contain the snippet. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Snippets/Main-Activities/Inserting-Snippets.htm">Inserting Snippets into Topics</MadCap:xref> and <MadCap:xref href="../../../../Flare/Folders-Files/Viewing-File-Links.htm">Viewing File Links</MadCap:xref>.</MadCap:conditionalText></p>
+                    </li>
+                    <li>
+                        <p>After you determine that a particular topic should display only certain tagged content from the inserted snippet, open the Content Explorer and select the topic file.</p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If there are several topics that you know in advance will include a particular snippet condition tag, you can open the File List window pane (<span class="Emphasis">View &gt; File List</span>) instead and select all of those files at the same time.</p>
+                    </li>
+                    <li>In the local toolbar, click <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog for the topic opens.</li>
+                    <li>Click the <span class="Emphasis">Snippet Conditions</span> tab.</li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Snippets-Guide" />
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Snippets/Snippet-Conditions2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" /> </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <h2 MadCap:conditions="General.Online-Only">Examples</h2>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Snippet Level</p>
+            <p>You are writing a user guide. There is a three-step process that users need to repeat very frequently, so you create a snippet for those steps. However, there occasionally is a fourth step in the process, where users can optionally select an extra check box before completing the process. You sometimes need to include this process multiple times in the same topic, so you create a snippet for the four-step process, and apply a condition to the optional step. </p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Snippets-Guide,Flare-Guides.Flare-Condition-Tags-Guide" />
+            <p>You add your snippet to the topic...</p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Snippets-Guide,Flare-Guides.Flare-Condition-Tags-Guide" />
+            <p>...and then exclude the snippet condition on the second instance of the snippet. By doing this, you won’t see the optional step in that instance of the snippet.</p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Later, if you need to edit the content, you only have one snippet to edit.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Snippets-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Topic Level</p>
+            <p>You have a table with 15 rows and four columns. Suppose the table needs to be included in 40 topics. Rather than copying and pasting the table 40 times, you create one snippet containing the table and insert it into those 40 topics. However, let’s say that in 30 of those topics, you need to add three more rows to the table to explain something. In the remaining 10 topics, the three additional rows are not necessary. Otherwise, the table content is the same in all 40 topics. What do you do? You have a few options. </p>
+            <p>The first option is to add a note to the table explaining that the three additional rows are intended only for some of the topics but not others. However, this might be confusing to your readers.</p>
+            <p>The second option is to create two separate snippets—one for the 30 topics and another for the 10 topics. However, this means that you need to maintain identical information in two different places. And that is no way to single-source your content.</p>
+            <p>The third option is to create snippet conditions. Here is how you might do it in this example:</p>
+            <ol>
+                <li>Create a condition tag. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Conditions/Process/Creating-Conditions1.htm">Creating Condition Tags</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>Open the snippet and add the necessary three rows to the table. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Snippets/Main-Activities/Opening-Snippets.htm">Opening Snippets</MadCap:xref> and <MadCap:xref href="../../../../Flare/Tables/Main-Activities/Inserting-Table-Columns-Rows.htm">Inserting Table Columns and Rows</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>Using the table row structure bars, apply the new condition tag to the additional three rows. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">About Structure Bars</MadCap:xref> and <MadCap:xref href="../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm">Applying Condition Tags to Content</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>Use the File List window pane <span class="Emphasis">(View &gt; File List</span>) to select the 30 topics requiring the additional rows, and open the Properties dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Interface/Window-Panes/File-List-Window-Pane.htm">File List Window Pane</MadCap:xref> and <MadCap:xref href="../../../../Flare/Interface/Dialogs/Properties-Dialog-Topics.htm">Properties Dialog (Topics)</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>Select the <span class="Emphasis">Snippet Conditions</span> tab.</li>
+                <li>Highlight the new condition tag, and select the <span class="Emphasis">Include</span> option to the right.</li>
+                <li>Use the File List window pane to select the 10 topics not requiring the additional rows, and open the Properties dialog.</li>
+                <li>Select the <span class="Emphasis">Snippet Conditions</span> tab.</li>
+                <li>Highlight the new condition tag, and select the <span class="Emphasis">Exclude</span> option to the right.</li>
+                <li>After you save all of your changes and generate the target, you will notice that the three additional rows are displayed only in the 30 topics where they were included. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Step5-Building-Publishing-Output/Building-Publishing-Output.htm">Building Output</MadCap:xref>.</MadCap:conditionalText></li>
+            </ol>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Snippets-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Snippet Level Overriding Topic Level</p>
+            <p>You are working in a topic that has several snippet conditions set at the topic level. When you insert an existing snippet into your topic, you notice that some of the text in the snippet is excluded using the condition tag Snippet1. However, the Snippet1 condition tag is also excluded at the topic level in the topic you are working on, so that text does not appear in the XML&#160;Editor or your output.</p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions-Override1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions-Override2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide,Flare-Guides.Flare-Snippets-Guide" />
+            <p>Snippet conditions on individual snippets override those at the topic level. So in the topic you right-click the snippet and choose <span class="Emphasis">Snippet Conditions</span>. </p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions-Override5.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Snippets-Guide,Flare-Guides.Flare-Condition-Tags-Guide" />
+            <p>In the Snippet Conditions dialog, you set the conditions on this snippet  to <span class="EmphasisItalic">include</span> Snippet1.  While Snippet1 will still be excluded at the topic level, in this particular snippet, you will be able to see the text that is marked with that tag.</p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions-Override3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Snippets/Snippet-Conditions-Override4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Snippets-Guide,Flare-Guides.Flare-Condition-Tags-Guide" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/Ca-Co-Fl-Mi/Conditions/Warning-Include-Exclude.flsnp" />
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you are using snippet conditions, you may want to enable snippet condition indicators from the <span class="Emphasis">Show tags</span> drop-down <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Tags-btn.png" class="ReduceButtonSize" /> in the XML&#160;Editor. This command enables or disables a marker <img src="../../../Images/Flare/Interface/Buttons/Snippet-Conditions-Marker-btn.png" alt="" title="" class="ReduceButtonSize" /> that overlays snippets that have snippet conditions applied to them.</p>
+            <p>
+                <img src="../../../Images/Shared/Co-Fl/Interface/Editors/Snippet-Conditions-Marker.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Snippets/Snippet-Condition-Indicator.flsnp" />
+            </p>
+        </div>
+        <MadCap:snippetBlock src="Snippet-Conditions-Single-Instance.flsnp" />
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can generate a report to see topics in your project that contain snippet conditions at the topic or snippet level.    <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Analysis/Reports/Reports.htm" target="" title="" alt="">About Reports</MadCap:xref> and <MadCap:xref href="../../../../Flare/Analysis/Reports/Generating-Reports.htm" target="" title="" alt="">Generating Reports</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

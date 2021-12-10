@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Following are benefits of server-based HTML5 output:</p>
+        <ul>
+            <li><span class="SetOffSecondLevel">Multiple Platforms </span>
+                <MadCap:snippetText src="HTML5-Key-Features-Server-Based-Multiple-Platforms.flsnp" />
+            </li>
+            <li><span class="SetOffSecondLevel"><MadCap:keyword term="Search:non-XHTML files;HTML5:search;Search:HTML5" />Searching of Non-XHTML Content </span>
+                <MadCap:snippetText src="../WHP/Search-Non-XHTML-Files.flsnp" />&#160;<MadCap:snippetText src="../WHP/Search-Non-XHTML-Files2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2 or Snippets.Snippet3]" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../Flare/Search/Optional-Activities/Including-Non-XHTML-Files-Search-HTML5.htm" target="" title="" alt="">Including Non-XHTML Files in HTML5 Search</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" /></li>
+            <li><span class="SetOffSecondLevel">Microsoft IIS&#160;Search Engine </span>
+                <MadCap:snippetText src="HTML5-Key-Features-Server-Based-IIS-Engine.flsnp" />
+            </li>
+            <li>
+                <p><span class="SetOffSecondLevel">Automatic Runtime Merging of Flare Projects </span>
+                    <MadCap:snippetText src="HTML5-Key-Features-Server-Based-Auto-RT-Merging.flsnp" />
+                    <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../../Flare/Merging-Projects/HTML5-AutoMerge/Merging-Output-Runtime-Using-HTML51.htm">Runtime Merging Server-Based HTML5 Output</MadCap:xref>.</MadCap:conditionalText>
+                    <MadCap:snippetText src="../../../Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

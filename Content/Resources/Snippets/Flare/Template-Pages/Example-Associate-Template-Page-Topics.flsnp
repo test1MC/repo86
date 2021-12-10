@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a template page called "Primary," which you want most of your online topics to use. This template page is set up so that in the output most topics will display breadcrumbs and a search bar at the top of each page, a menu on the side, and some copyright text at the bottom.</p>
+            <p>
+                <img src="../../../Images/Flare/Template-Pages/Template-Page-Topics4.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Template-Pages/Template-Page-Topics1.png" alt="" title="" class="MaxWidth80Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Template-Pages-Guide" />
+            <p>But you also have a secondary template page called "Special." This template page includes the same things as the Primary template page, but you also have your company logo under the copyright text. You want 8 specific topics to use the Special template page.</p>
+            <p>
+                <img src="../../../Images/Flare/Template-Pages/Template-Page-Topics5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Template-Pages/Template-Page-Topics2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>To accomplish this, you associate the Primary template page with the target<MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Template-Pages-Guide"> (see <MadCap:xref href="../../../../Flare/Template-Pages/Process/Associating-Template-Pages-Targets.htm">Associating Template Pages With Targets</MadCap:xref>)</MadCap:conditionalText>. But for the other topics, you can open the Properties dialog and choose the Special template page.</p>
+            <p>
+                <img src="../../../Images/Flare/Template-Pages/Template-Page-Topics3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

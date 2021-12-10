@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1079" MadCap:lastWidth="1381">
+    <body>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+        <div class="example">
+            <p class="Example-Text">&#160;</p>
+            <p>Let's say you have a file with the term "Car" appearing three times.</p>
+            <p>
+                <img src="../../../Images/Lingo/Translation-Memory/Update-Segments-Identical-Source1.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Lingo-Guides.Lingo-Whats-New-Guide" />
+            <p>Suppose you translate the first "Car" term as "Carro" and confirm it. The second and third instances are marked as repetitions and the Carro translation is copied to them.</p>
+            <p>
+                <img src="../../../Images/Lingo/Translation-Memory/Update-Segments-Identical-Source2.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide,Lingo-Guides.Lingo-Whats-New-Guide" />
+            <p> If you change the translation for the second "Car" term to "Coche" and confirm it, the third "Car" term remains as "Carro."</p>
+            <p>
+                <img src="../../../Images/Lingo/Translation-Memory/Update-Segments-Identical-Source3.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Lingo-Guides.Lingo-Whats-New-Guide" />
+            <p>This is the default behavior, with the option <span class="EmphasisItalic">not</span> selected.</p>
+            <p>If this option <span class="EmphasisItalic">is</span> selected and you change the translation of the second "Car" term to "Coche," all three of the rows will show that translation.</p>
+            <p>
+                <img src="../../../Images/Lingo/Translation-Memory/Update-Segments-Identical-Source4.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

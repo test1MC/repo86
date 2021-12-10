@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="n;b;(.mimov;Tooltip;s;(.swf">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li>
+                <span class="SetOffFirstLevel">File </span>Displays the path to the movie or collection file after you select it.</li>
+            <li>
+                <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />  Lets you find and select a different movie or collection file.</li>
+            <li>
+                <p>
+                    <span class="SetOffFirstLevel">Format </span>You can use this drop-down to select the type of output to be generated.</p>
+                <p class="Subheading">If You Have Mimic 8 or Newer</p>
+                <ul>
+                    <li>
+                        <p>
+                            <span class="SetOffFirstLevel">(default) </span>If you build a <MadCap:variable name="Outputs.HTMLHelp" />, <MadCap:variable name="Outputs.WebHelp" />, <MadCap:variable name="Outputs.HTML5" />, or <MadCap:variable name="Outputs.WebHelp Plus" /> target, the movie uses the <MadCap:variable name="Outputs.HTML5" /> movie format. </p>
+                    </li>
+                    <li>
+                        <span class="SetOffFirstLevel">HTML5 </span>The movie is generated in the HTML5 movie format.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">
+                        <span class="SetOffFirstLevel">HTML5 (Embed) </span>The movie is generated in the HTML5 movie format and is embedded in your output.</li>
+                </ul>
+                <p class="Subheading">If You Have Mimic 7 or Older</p>
+                <MadCap:snippetBlock src="Movie-Output-Format-Options.flsnp" />
+            </li>
+            <li>
+                <span class="SetOffFirstLevel">Style Class </span>Select the kind of style class to be used for the link to affect the way it looks and behaves. You can select the main hyperlink style (a) or a class of that style. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Styles/Styles.htm">Styles and Stylesheets</MadCap:xref>.</MadCap:conditionalText></li>
+            <MadCap:pageBreak MadCap:conditions="Snippets.Snippet2" />
+            <li>
+                <p>
+                    <span class="SetOffFirstLevel">Link Text </span>Displays the text that you highlighted in the topic, which will be used as the movie link. Leave the text as it is, unless you decide you would like to change it. If you want to change the link text, type the new text in the field. It will replace the previously selected text in the topic. If you do not provide link text, the file name for the movie or collection will be used.</p>
+            </li>
+            <li>
+                <span class="SetOffFirstLevel">Screen Tip </span>Type a phrase that will appear when the end user hovers over the movie link in the output.</li>
+        </ul>
+    </body>
+</html>

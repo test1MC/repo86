@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="4"
+  SkinType="Component"
+  Comment="eLearning Toolbar skin"
+  ComponentType="ELearningToolbar"
+  EnableResponsiveOutput="True"
+  conditions="Products.All-Products">
+  <Stylesheet />
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="PreviousTopic|NextTopic" />
+  <Strings />
+</CatapultSkin>

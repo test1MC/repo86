@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials\Flare-Product-Foldout-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Adding content to topics for the Product Foldout tutorial." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Product-Foldout.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:Product Foldout" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterProjects" />Adding Content to Topics</h1>
+        <p>Adding your own content to the topics is relatively simple. But because the output is print-based, and a bit unique, there are a few things to keep in mind as you work in the XML Editor.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>Layout Modes and Style Mediums</h2>
+        <p>The way a topic is displayed in the XML Editor depends on the layout mode that is selected, as well as the medium. This is especially important with this template, because you really need to see the appropriate page layout as you add content. If you are looking at a topic in Web Layout mode, you won't see this and it will be more difficult to work.</p>
+        <div class="IndentMedium">
+            <h3>How to Select the Correct Layout Mode</h3>
+            <ol>
+                <li>
+                    <p>Open the Content Explorer and double-click <span class="Emphasis">Front2.htm</span>.</p>
+                    <p>Chances are pretty good that your topic will initially be displayed in Web Layout mode with the default medium, like this:</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content1.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>Click the <span class="Emphasis">Layout (Web)</span> drop-down and select <span class="Emphasis">Print Layout</span>.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content2.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>The look of the topic changes to this:</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content3.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>This is the Back page layout (not the one you created, but the original page layout that came with the template). It is being shown because it is the first page layout listed alphabetically in the Content Explorer.</p>
+                    <p>But what you really need is the Front2 page layout that you created.</p>
+                </li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>In the local toolbar click the <span class="Emphasis">Page Layout</span> drop-down and select <span class="Emphasis">Front2.flpgl</span>, and in the flyout menu select <span class="Emphasis">Normal</span>&#160;(the name of the only page in that layout).</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content4.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>The display changes, showing the correct page layout:</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content5.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                    <p>Also, notice that the medium selected is <span class="Emphasis">print</span>. (You might need to click in the topic first to see this change.)</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content6.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>This happened automatically when you switched from Web Layout mode to Print Layout mode. Flare anticipated that you might create both online and print-based output from your project, and the default medium is typically used for online output while the print medium is used for print-based output.</p>
+                </li>
+                <li>In the Content Explorer, double-click <span class="Emphasis">Back2.htm</span>.</li>
+                <li>
+                    <p>If the topic displays in the wrong mode, click the Layout (Web) drop-down and select <span class="Emphasis">Print Layout</span>.</p>
+                    <p>The topic displays with the original Back.flpgl page layout. It looks correct, but lets sync it with the new page layout you created.</p>
+                </li>
+                <li>
+                    <p>In the local toolbar click the <span class="Emphasis">Page Layout</span> drop-down and select <span class="Emphasis">Back2.flpgl</span>, and in the flyout menu select <span class="Emphasis">Normal</span>&#160;(the name of the only page in that layout).</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content15.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+            </ol>
+        </div>
+        <h2>Adding Content in the Front2 Topic</h2>
+        <p>Now we need to add content to the topics.  This includes text, images and variables. We will start with the Front2 topic.</p>
+        <p>In this template, we've created some variables. On the first panel of the foldout, we used them for the year of publication and company name. Then on the last panel we used a variable for the product foldout title. Variables can be beneficial if you plan to use the same page layout for multiple outputs. For one target you can use the default definitions for the variables, and you can override the variable definitions for any of the other targets you might generate<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../Variables/Main-Activities/Overriding-Variable-Definitions.htm">Overriding Variable Definitions in Targets</MadCap:xref>)</MadCap:conditionalText>. <MadCap:conditionalText MadCap:conditions="General.Print-Only">For more about variables and overriding definitions in targets, see the online Help.</MadCap:conditionalText></p>
+        <div class="IndentMedium">
+            <h3>How to Add Content for the First Panel in the Front2 Topic</h3>
+            <ol>
+                <li>In the XML Editor, click the <span class="Emphasis">Front2.htm</span> topic tab to bring it to the front.</li>
+                <li>In the Front2 topic, replace the heading with the text <span class="TypedEntry">H1 General Information</span>. Then replace the paragraph below it with different text. Don’t make it too long, but a few lines is okay; you can copy text from the original Front.htm topic if you like.</li>
+                <li>After the new paragraph text, press <span class="Emphasis">ENTER</span> to create a new empty paragraph.</li>
+                <li>In the Content Explorer, expand the <span class="Emphasis">Resources</span> folder, then expand <span class="Emphasis">Images</span> under it.</li>
+                <MadCap:pageBreak />
+                <li>
+                    <p>Click the <span class="Emphasis">Squares.png</span> file, then drag and drop it to the new empty paragraph in the XML Editor.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content25.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>Click after the new image, and press <span class="Emphasis">ENTER</span> to create a new empty paragraph.</li>
+                <li>In the local toolbar, click the <span class="Emphasis">Character</span> button <img src="../../../Resources/Images/Shared/Co-Fl-Li/Interface/Buttons/Quick-Character-btn.png" class="ReduceButtonSize" />. </li>
+                <li>Find and select the copyright © character. Click <span class="Emphasis">Insert</span>, then <span class="Emphasis">Close</span> when finished (if you used the dialog).</li>
+                <li>Type a space after the copyright character that was inserted. Then in the local toolbar click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Insert-Variable-btn.png" class="ReduceButtonSize" /> (the face of the button, not the down arrow). The Variables dialog opens.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>With the <span class="Emphasis">General</span> variable set selected on the left side, choose the <span class="Emphasis">Year</span> variable.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content7.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The variable is inserted into the topic.</li>
+                <li>Type a space after the variable that was inserted. Then in the local toolbar click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Insert-Variable-btn.png" class="ReduceButtonSize" /> again. The Variables dialog opens.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>With the <span class="Emphasis">General</span> variable set selected on the left side, choose the <span class="Emphasis">CompanyName</span> variable.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content8.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The variable is inserted into the topic.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>After that variable, press <span class="Emphasis">ENTER</span> again. You can then enter another line of text if you want to match what was done in the original Front topic. When finished, the first panel of your Front2 topic should look something like this:</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content9.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" /> </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <h3>How to Add Content for the Third Panel in the Front2 Topic</h3>
+            <p>The text that you just added will display in the first panel of the output. The background image will display by itself as the second panel. Now we want to start adding content for the third panel.</p>
+            <ol>
+                <li>After the last line of text in the first panel, press <span class="Emphasis">ENTER</span>. Then type <span class="TypedEntry">H2 Lorem Ipsum</span>, which will be a second-level heading.</li>
+                <li>
+                    <p>Press <span class="Emphasis">ENTER</span> again and enter some paragraph text so that it takes up a couple of lines (again, you can copy text from the original Front.htm topic if you like).</p>
+                    <p>Notice that the new text moves past the image and into the third panel automatically. That’s because the first text that you added, as well as the image, are using the first body frame, which is twice the width of the other two body frames. The right margin in the first body frame is so wide that it doesn’t allow any text to display over the background image. So when you add more text than can fit in the first body frame, it starts using the second body frame, which as far as the end user is concerned, appears as the third panel.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content10.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>Select the new heading and paragraph text, then copy and paste it a couple of times. When you are finished, it might look something like this:</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content11.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <h3>How to Add Content for the Fourth Panel in the Front2 Topic</h3>
+            <p>In the fourth panel of the front topic, we want to add a company logo, followed by a variable that displays the foldout title. However, since we have not yet applied styles, the new content will not yet be placed where they should.</p>
+            <ol>
+                <li>After the last line of text in the third panel, press <span class="Emphasis">ENTER</span>.</li>
+                <li>In the Content Explorer, expand the <span class="Emphasis">Resources</span> folder, then expand <span class="Emphasis">Images</span> under it.</li>
+                <li>
+                    <p>Click the <span class="Emphasis">Logo.eps</span> file, then drag and drop it to the new empty paragraph in the XML Editor.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content12.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>Click after the new image, and press <span class="Emphasis">ENTER</span> to create a new empty paragraph.</li>
+                <li>In the local toolbar click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Insert-Variable-btn.png" class="ReduceButtonSize" /> (face of the button, not the down arrow). The Variables dialog opens.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>With the <span class="Emphasis">General</span> variable set selected on the left side, choose the <span class="Emphasis">Title</span> variable.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content13.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The variable is inserted into the topic.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content14.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+        </div>
+        <h2>Adding Content in the Back2 Topic</h2>
+        <p>Now let’s move on to the Back2 topic, where we have a similar situation in that one of the panels has a background image with color. However, in this case, we want to add some content to that panel so that it displays on top of the background image.</p>
+        <div class="IndentMedium">
+            <h3>How to Add Content for the First Panel in the Back2 Topic</h3>
+            <ol>
+                <li>
+                    <p>In the XML Editor, click the <span class="Emphasis">Back2.htm</span> topic tab to bring it to the front. The first panel contains the background image and default text.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content16.png" alt="" title="" class="MaxWidth65Percent" />
+                    </p>
+                </li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>The h1 text currently has the same color as the background image, so you cannot even see the text. However, if you select it, you will temporarily see the text while it is highlighted.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content17.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>Replace the heading and the paragraph under it with the following paragraphs:</p>
+                    <ul>
+                        <li><span class="Emphasis">First paragraph </span>Get Started in</li>
+                        <li><span class="Emphasis">Second paragraph </span>Just a Few Steps</li>
+                        <li><span class="Emphasis">Third paragraph </span>For more help or troubleshooting, please visit our online documentation:</li>
+                        <li><span class="Emphasis">Fourth paragraph </span>www.yourcompany.com/help</li>
+                        <li><span class="Emphasis">Fifth paragraph </span>Created Using MadCap Flare</li>
+                    </ul>
+                    <p>When you are finished, it should look something like this (if you once again highlight the heading):</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content18.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <h3>How to Add Content for the Second Panel in the Back2 Topic</h3>
+            <ol>
+                <li>After the last line of text in the first panel, press <span class="Emphasis">ENTER</span>.</li>
+                <li>In the Content Explorer, expand the <span class="Emphasis">Resources</span> folder, then expand <span class="Emphasis">Images</span> under it.</li>
+                <li>
+                    <p>Click the <span class="Emphasis">Step1.png</span> file, then drag and drop it to the new empty paragraph in the XML Editor.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content19.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </li>
+                <li>Click after the new image, and press <span class="Emphasis">ENTER</span> to create a new empty paragraph.</li>
+                <li>Type <span class="TypedEntry">Step 1</span> and press <span class="Emphasis">ENTER</span>.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>Type a short two-line paragraph. When you are finished, the foldout might look something like this:</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content20.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                    <p>All of the content is still in the first panel, but later when we apply styles, this will change. In an actual project, you probably would apply styles as you add content, but because we want to treat styles separately in this tutorial, we’re going to do all of that later.</p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <h3>How to Add Content for the Third Panel in the Back2 Topic</h3>
+            <ol>
+                <li>After the last line of text created for the second panel, press <span class="Emphasis">ENTER</span>.</li>
+                <li>In the Content Explorer, expand the <span class="Emphasis">Resources</span> folder, then expand <span class="Emphasis">Images</span> under it.</li>
+                <li>
+                    <p>Click the <span class="Emphasis">Step2.png</span> file, then drag and drop it to the new empty paragraph in the XML Editor. The image displays at the top of the second panel, but that will change later.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content21.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>Click after the new image, and press <span class="Emphasis">ENTER</span> to create a new empty paragraph.</li>
+                <li>Type <span class="TypedEntry">Step 2</span> and press <span class="Emphasis">ENTER</span>.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>Type a short two-line paragraph. When you are finished, the foldout might look something like this:</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content22.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+            <h3>How to Add Content for the Fourth Panel in the Back2 Topic</h3>
+            <ol>
+                <li>After the end of the paragraph that you typed, press <span class="Emphasis">ENTER</span>.</li>
+                <li>In the Content Explorer, expand the <span class="Emphasis">Resources</span> folder, then expand <span class="Emphasis">Images</span> under it.</li>
+                <li>
+                    <p>Click the <span class="Emphasis">Step3.png</span> file, then drag and drop it to the new empty paragraph in the XML Editor.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content23.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>Click after the new image, and press <span class="Emphasis">ENTER</span> to create a new empty paragraph.</li>
+                <li>Type <span class="TypedEntry">Step 3</span> and press <span class="Emphasis">ENTER</span>.</li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Product-Foldout-Tutorial" />
+                <li>
+                    <p>Type a short two-line paragraph. When you are finished, the foldout might look something like this, with the most recent text at the top of the third panel:</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Product-Foldout/Product-Foldout-Tutorial-Add-Content24.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>

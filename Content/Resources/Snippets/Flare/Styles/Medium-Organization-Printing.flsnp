@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Different mediums (and media queries) in a stylesheet are set apart by the @media rule and sets of curly brackets. This can be seen when you open the stylesheet source file; to do this, navigate to the CSS file in the Content Explorer, right-click on it, and select <span class="Emphasis">Open with &gt; Internal Text Editor</span>.</p>
+        <p>
+            <img src="../../../Images/Flare/Styles/Stylesheet-Mediums.png" class="MaxWidth100Percent" />
+        </p>
+        <p>The placement of the medium section in the stylesheet affects which styles are used when you print topics. For example, if you are using the print medium and want those styles to be used when printing a topic from a web browser, the @media print section should be placed in the stylesheet after your default media section, because style properties lower in a CSS take precedence over properties placed above them. You can always move the medium sections around in the stylesheet (if you want them to be placed higher or lower in the file) by cutting and pasting them in the Internal Text Editor.</p>
+    </body>
+</html>

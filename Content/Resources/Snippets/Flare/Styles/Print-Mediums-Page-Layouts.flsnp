@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Page layouts render content using the print medium settings in the stylesheet. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Page-Layouts.htm">Page Layouts</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide">See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Page-Layouts/Page-Layouts.htm">Page Layouts</MadCap:xref>.</MadCap:conditionalText></p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a style class called "p.Section" and you apply it to the text you have in a header frame in a page layout. In the default style medium, the font color for this style is red, but in the print medium it is black. It makes more sense to display the font for a page layout based on the print medium, because that medium will most likely be used in the print-based output. Therefore, the text displays as black in the page layout.</p>
+        </div>
+    </body>
+</html>

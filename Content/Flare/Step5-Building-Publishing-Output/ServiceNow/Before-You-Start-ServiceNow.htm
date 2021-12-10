@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Videos/Flare-ServiceNow.flmsp');" description="Best practices and guidelines for configuring ServiceNow and Flare prior to publishing your output. ">
+    <head>
+        <meta name="description" content="Best practices and guidelines for configuring ServiceNow and Flare prior to publishing your output. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Publishing:destinations;Destinations:ServiceNow;ServiceNow" />
+            <MadCap:concept term="FilterFeatures" />Before You Start Publishing to ServiceNow<span class="Registered-Trademark">®</span></h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/Clean-XHTML.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>Following are some steps you should complete and information you should know before you publish from Flare to ServiceNow<span class="Registered-Trademark">®</span>.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Keep in mind that the ServiceNow<span class="Registered-Trademark">®</span> interface can change periodically, so the labels and directions described below might not always match the most current ServiceNow<span class="Registered-Trademark">®</span> interface. For full steps on ServiceNow<span class="Registered-Trademark">®</span> tasks, please refer to the ServiceNow<span class="Registered-Trademark">®</span> documentation. </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>ServiceNow<span class="Registered-Trademark">®</span> Side</h2>
+        <p>Following are settings and considerations on the ServiceNow<span class="Registered-Trademark">®</span> side of this process.</p>
+        <div class="IndentMedium">
+            <h3>Knowledge Base</h3>
+            <p>You must have a Knowledge Base in ServiceNow<span class="Registered-Trademark">®</span>. This is where your Flare output will be published. </p>
+            <ol>
+                <li>
+                    <p>Navigate to <span class="Emphasis">Administration &gt; Knowledge Bases</span>.</p>
+                </li>
+                <li>
+                    <p>Click <span class="Emphasis">New</span>.</p>
+                </li>
+                <li>
+                    <p>Give the new Knowledge Base a name and owner, and select any other options you want.</p>
+                </li>
+                <li>
+                    <p>Click <span class="Emphasis">Submit</span>.</p>
+                </li>
+            </ol>
+            <h3>Categories</h3>
+            <p>You have different options when it comes to publishing Flare output to your ServiceNow<span class="Registered-Trademark">®</span> categories. Depending on your situation, you might even be using a combination of these options when you publish to ServiceNow<span class="Registered-Trademark">®</span>.</p>
+            <ul>
+                <li>You can choose not to publish to any categories at all.</li>
+                <li>You can publish output to a default category. If so, you should create that category on ServiceNow<span class="Registered-Trademark">®</span> before editing your destination file in Flare.</li>
+                <li>You can create other categories in ServiceNow<span class="Registered-Trademark">®</span> to better align with your Flare TOC. Flare will then populate those categories with articles if it finds they match your TOC.</li>
+                <li>You can create categories on the fly during the publishing process from Flare. New categories will automatically be added to ServiceNow<span class="Registered-Trademark">®</span> based on your settings and the structure of the Flare TOC.</li>
+            </ul>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you make changes in Flare (e.g., rename a TOC book that previously created a category in ServiceNow<span class="Registered-Trademark">®</span>) and then republish, you might then have an empty category remaining on ServiceNow<span class="Registered-Trademark">®</span>. That empty category would need to be manually removed through ServiceNow<span class="Registered-Trademark">®</span>.</p>
+            </div>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">ServiceNow<span class="Registered-Trademark">®</span> lets you limit the number of category levels, as well as the number of characters used for a category name. If you are mapping your TOC to ServiceNow<span class="Registered-Trademark">®</span> to create categories, make sure your Flare TOC meets those settings. If not, you can increase the limits on ServiceNow<span class="Registered-Trademark">®</span> so that new categories can be created to match your TOC appropriately.</p>
+            </div>
+            <h3>Knowledge Admin Role</h3>
+            <p>Any users who will be publishing from Flare to ServiceNow<span class="Registered-Trademark">®</span> must be set up with the knowledge_admin role on ServiceNow<span class="Registered-Trademark">®</span>. </p>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Theoretically, you could set up users with a different, custom role. However, knowledge_admin is typically already configured to have the correct permissions (see <MadCap:xref href="#AccessControlLevels">Access Control Levels</MadCap:xref>). </p>
+            </div>
+            <ol>
+                <li>
+                    <p>Navigate to <span class="Emphasis">System Security &gt; Users and Groups &gt; Users</span>. </p>
+                </li>
+                <li>
+                    <p>Click on the user.</p>
+                </li>
+                <li>
+                    <p>On the page that opens, select the <span class="Emphasis">Roles</span> tab. </p>
+                </li>
+                <li>
+                    <p>Click <span class="Emphasis">Edit</span>.</p>
+                </li>
+                <li>
+                    <p>Filter list by entering <span class="TypedEntry">knowledge</span>.</p>
+                </li>
+                <li>
+                    <p>Add <span class="Emphasis">knowledge_admin</span> to the right side. (You can also add <span class="Emphasis">knowledge_manager</span> to give the user additional permissions.)</p>
+                    <p>Adding these will also add the <span class="Emphasis">knowledge</span> role automatically because it is inherited.</p>
+                </li>
+                <li>
+                    <p>Click <span class="Emphasis">Save</span>.</p>
+                </li>
+                <li>
+                    <p>Click <span class="Emphasis">Update</span>.</p>
+                </li>
+            </ol>
+            <h3><a name="AccessControlLevels"></a>Access Control Levels</h3>
+            <p>Flare uses the ServiceNow<span class="Registered-Trademark">®</span> API to publish articles to ServiceNow<span class="Registered-Trademark">®</span>. The ability to do just about anything on ServiceNow<span class="Registered-Trademark">®</span> is dependent on the access control levels (ACLs) provided to the user who is logged in. You might not need to make any changes to the ACLs since the knowledge_admin role should already be connected to the appropriate permissions. But if you want to use a different role, you need to make sure that role is configured as described below (in place of knowledge_admin).</p>
+            <ol>
+                <li>
+                    <p>Navigate to <span class="Emphasis">System Definition &gt; Tables</span>. However, only an administrator with elevated security admin permissions can do this. Following are the required settings (some settings might already be enabled by default).</p>
+                </li>
+                <li>
+                    <p>Search for the kind of permissions you want to work with (e.g., kb). </p>
+                </li>
+                <li>
+                    <p>Click the system definition label that you want to edit (e.g., Knowledge Category). </p>
+                </li>
+                <li>
+                    <p>On the page that opens, scroll down to the <span class="Emphasis">Access Controls</span> tab. </p>
+                </li>
+                <li>
+                    <p>Click the name for the operation that you want to edit (e.g., kb_category for delete). </p>
+                </li>
+                <li>
+                    <p>Make sure <span class="Emphasis">knowledge_admin</span> is added as a role.</p>
+                    <p>These are just the general steps. The sections below describe the specific permissions that the author must have for the tasks involved with publishing from Flare to ServiceNow<span class="Registered-Trademark">®</span>.</p>
+                </li>
+            </ol>
+            <div>
+                <h4>To Manage Knowledge Bases, Categories, and Articles</h4>
+                <p>Add the knowledge_admin role to:</p>
+                <ul>
+                    <li>
+                        <p class="Emphasis">kb_knowledge </p>
+                        <ul>
+                            <li>
+                                <p>kb_knowledge: create (see example below)</p>
+                            </li>
+                            <li>
+                                <p>kb_knowledge: read</p>
+                            </li>
+                            <li>
+                                <p>kb_knowledge: write</p>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You might need to edit the script to change the else statement to "answer = true;” then click <span class="Emphasis">Update</span> to save the changes. This might be necessary to correct an issue where you publish to ServiceNow<span class="Registered-Trademark">®</span> in draft mode, and then the publishing process subsequently fails when you try to republish.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p>kb_knowledge: delete</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="Emphasis">kb_category</p>
+                        <ul>
+                            <li>
+                                <p>kb_category: create</p>
+                            </li>
+                            <li>
+                                <p>kb_category: read</p>
+                            </li>
+                            <li>
+                                <p>kb_category: write</p>
+                            </li>
+                            <li>
+                                <p>kb_category: delete</p>
+                                <div class="note">
+                                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">ServiceNow<span class="Registered-Trademark">®</span> has a default configuration where you cannot delete categories that have nested categories. To avoid having to delete each nested category individually, you can override this by enabling <span class="Emphasis">Admin overrides</span> for the <span class="Emphasis">kb_category:delete</span> permission.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="Emphasis">kb_knowledge_base</p>
+                        <ul>
+                            <li>
+                                <p>kb_knowledge_base: read</p>
+                            </li>
+                            <li>
+                                <p>kb_knowledge_base: write</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4>To Manage Keywords</h4>
+                <p>If you want your index keywords or concepts in Flare to be converted to keywords on ServiceNow<span class="Registered-Trademark">®</span>, add the knowledge_admin role to:</p>
+                <ul>
+                    <li>
+                        <p class="Emphasis">kb_keyword</p>
+                        <ul>
+                            <li>
+                                <p>kb_keyword: create</p>
+                            </li>
+                            <li>
+                                <p>kb_keyword: read</p>
+                            </li>
+                            <li>
+                                <p>kb_keyword: write</p>
+                            </li>
+                            <li>
+                                <p>kb_keyword: delete</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="Emphasis">kb_knowledge_keyword</p>
+                        <ul>
+                            <li>
+                                <p>kb_knowledge_keyword: create</p>
+                            </li>
+                            <li>
+                                <p>kb_knowledge_keyword: read</p>
+                            </li>
+                            <li>
+                                <p>kb_knowledge_keyword: write</p>
+                            </li>
+                            <li>
+                                <p>kb_knowledge_keyword: delete</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4>To Manage Tags</h4>
+                <p>If you want your index keywords or concepts in Flare to be converted to tags on ServiceNow<span class="Registered-Trademark">®</span>, add the knowledge_admin role to:</p>
+                <ul>
+                    <li>
+                        <p class="Emphasis">label</p>
+                        <ul>
+                            <li>
+                                <p>label: create</p>
+                            </li>
+                            <li>
+                                <p>label: read</p>
+                            </li>
+                            <li>
+                                <p>label: write</p>
+                            </li>
+                            <li>
+                                <p>label: delete</p>
+                            </li>
+                            <li>
+                                <p>label*: read</p>
+                            </li>
+                            <li>
+                                <p>label*: write</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="Emphasis">label_entry</p>
+                        <ul>
+                            <li>
+                                <p>label_entry: create</p>
+                            </li>
+                            <li>
+                                <p>label_entry: read</p>
+                            </li>
+                            <li>
+                                <p>label_entry: write</p>
+                            </li>
+                            <li>
+                                <p>label_entry: delete</p>
+                            </li>
+                            <li>
+                                <p>label_entry*: read</p>
+                            </li>
+                            <li>
+                                <p>label_entry*: write</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="Emphasis">label_entry.table</p>
+                        <ul>
+                            <li>
+                                <p>label_entry: create</p>
+                            </li>
+                            <li>
+                                <p>label_entry: read</p>
+                            </li>
+                            <li>
+                                <p>label_entry: write</p>
+                            </li>
+                            <li>
+                                <p>label_entry: delete</p>
+                            </li>
+                            <li>
+                                <p>label_entry*: read</p>
+                            </li>
+                            <li>
+                                <p>label_entry*: write</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="Emphasis">label_entry.table_key</p>
+                        <ul>
+                            <li>
+                                <p>label_entry: create</p>
+                            </li>
+                            <li>
+                                <p>label_entry: read</p>
+                            </li>
+                            <li>
+                                <p>label_entry: write</p>
+                            </li>
+                            <li>
+                                <p>label_entry: delete</p>
+                            </li>
+                            <li>
+                                <p>label_entry*: read</p>
+                            </li>
+                            <li>
+                                <p>label_entry*: write</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">By default, tags added in ServiceNow<span class="Registered-Trademark">®</span> are visible only to the user who created them. However, you can set tags to have different visibility levels. For more details, please refer to the ServiceNow<span class="Registered-Trademark">®</span> documentation.</p>
+                </div>
+                <h4>To Publish and Manage Multilingual Output</h4>
+                <p>Add the knowledge_admin role to:</p>
+                <ul>
+                    <li>
+                        <p class="Emphasis">v_plugin</p>
+                        <ul>
+                            <li>
+                                <p>v_plugin: read</p>
+                            </li>
+                            <li>
+                                <p>v_plugin: write</p>
+                            </li>
+                            <li>
+                                <p>v_plugin*: read</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="Emphasis">sys_translated_text</p>
+                        <ul>
+                            <li>
+                                <p>sys_translated_text: create</p>
+                            </li>
+                            <li>
+                                <p>sys_translated_text: read</p>
+                            </li>
+                            <li>
+                                <p>sys_translated_text: write</p>
+                            </li>
+                            <li>
+                                <p>sys_translated_text: delete</p>
+                            </li>
+                            <li>
+                                <p>sys_translated_text*: read</p>
+                            </li>
+                            <li>
+                                <p>sys_translated_text*: write</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to add the knowledge_admin role to  kb_knowledge: create.</p>
+                <p>First, navigate to <span class="Emphasis">System Definition &gt; Tables &gt; kb_knowledge</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/ServiceNow-Knowledge_Admin1.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>Scroll to the bottom of the page to the <span class="Emphasis">Access Controls</span> tab.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/ServiceNow-Knowledge_Admin2.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>Click <span class="Emphasis">kb_knowledge</span> (with <span class="Emphasis">create</span> in the Operation column, and <span class="Emphasis">true</span> in the Active column).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/ServiceNow-Knowledge_Admin3.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>In the <span class="Emphasis">Require roles </span>table, make sure <span class="Emphasis">knowledge_admin</span> is shown.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Output/ServiceNow-Knowledge_Admin4.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </div>
+            <h3>Setting Up Additional Languages for Multilingual Output</h3>
+            <p>If you are publishing multilingual output to ServiceNow<span class="Registered-Trademark">®</span>, you must first add the relevant languages to the ServiceNow<span class="Registered-Trademark">®</span> instance. </p>
+            <ol>
+                <li>
+                    <p>Navigate to <span class="Emphasis">System Definition &gt; Plugins</span>. </p>
+                </li>
+                <li>
+                    <p>Search for "<span class="Emphasis">i18n</span>." </p>
+                </li>
+                <li>
+                    <p>Next to any languages you want to add, click <span class="Emphasis">Install</span>. Each language can take up to 2 hours to complete installation.</p>
+                </li>
+            </ol>
+            <p>For information on creating multilingual output from Flare, see <MadCap:xref href="../../Translation-Localization/Translation-Localization.htm">Translation and Localization</MadCap:xref> and <MadCap:xref href="../../Translation-Localization/Other-Information/Multilingual-Support-ServiceNow.htm">Multilingual Support for ServiceNow®</MadCap:xref>.</p>
+            <h3>Client ID and Secret (via Oauth API Endpoint)</h3>
+            <p>ServiceNow<span class="Registered-Trademark">®</span> requires an OAuth API endpoint to be created for external clients to log in to the instance. Therefore, this endpoint must be created in ServiceNow<span class="Registered-Trademark">®</span> by a system administrator before you can publish from Flare to ServiceNow<span class="Registered-Trademark">®</span>. See <MadCap:xref href="Retrieving-ServiceNow-Credentials.htm">Retrieving ServiceNow® Credentials</MadCap:xref>.</p>
+            <p>After you obtain the client ID and secret from your system administrator, you can enter them into your destination file. See <MadCap:xref href="Creating-Destination-File-ServiceNow2.htm">Creating Destination Files for ServiceNow®</MadCap:xref>.</p>
+        </div>
+        <h2>Flare Side</h2>
+        <p>Following are some settings and considerations on the Flare side of this process.</p>
+        <div class="IndentMedium">
+            <h3>Clean XHTML</h3>
+            <p>Only the Clean XHTML format is fully supported when publishing from Flare to ServiceNow<span class="Registered-Trademark">®</span>. </p>
+            <h3>Targets, TOCs, and Destination Files</h3>
+            <p>If you want to publish multiple groups of content to ServiceNow<span class="Registered-Trademark">®</span>, it is best not to do so from the same target (e.g., switching the TOC in the target file each time you want to publish different content). Otherwise, the most recently published content will replace the content published earlier. Instead, it is best to use a different target, destination file, and table of contents (TOC) for each distinct group of content.</p>
+            <h3>Index Keywords and Concepts</h3>
+            <p>If you have created index keywords and/or concepts in your Flare project and want them to be converted to keywords in ServiceNow<span class="Registered-Trademark">®</span>, make sure that the index keywords and concepts do not contain spaces between words.</p>
+            <h3><a name="ConvertingInlineStyles"></a>Converting to Inline Styles</h3>
+            <p>In Flare, it is recommended that you enable the option <span class="Emphasis">Convert stylesheet styles to inline styles</span>, which can be found on the General tab of the Target Editor. This will ensure that your styling is maintained when you publish the Clean XHTML output to ServiceNow<span class="Registered-Trademark">®</span>. This is necessary because ServiceNow<span class="Registered-Trademark">®</span> does not support external stylesheets.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Output/Clean-XHTML-Convert-Stylesheet-Inline-Styles.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <h3>Body Style</h3>
+            <p>Normally, we recommended that you set certain global properties (e.g., font size and type) on the body style in your stylesheet. That way, the settings trickle down to all of your other styles. However, the &lt;body&gt; tag will not be retained when you publish to ServiceNow<span class="Registered-Trademark">®</span>. Therefore, anything that you have originally set on your body style will need to instead be set on lower styles in the hierarchy (e.g., p, ul, div).</p>
+            <h3>Multimedia</h3>
+            <p>Multimedia files, such as MP4 videos, are not published to ServiceNow<span class="Registered-Trademark">®</span>. However, links to YouTube and Vimeo videos will work. </p>
+            <h3>Flare to ServiceNow<span class="Registered-Trademark">®</span> Only</h3>
+            <p>Flare supports sending output to ServiceNow<span class="Registered-Trademark">®</span>, but not importing content from it. Therefore, after publishing topics from Flare, you should not edit the resulting articles in ServiceNow<span class="Registered-Trademark">®</span> if you plan to republish from Flare in the future. Otherwise, any changes you make in ServiceNow<span class="Registered-Trademark">®</span> will be overwritten by the newly published topics.</p>
+            <h3>Limiting Content Published</h3>
+            <p>You have different options when it comes to limiting the content that is published to ServiceNow<span class="Registered-Trademark">®</span>:</p>
+            <ul>
+                <li>There is an <span class="Emphasis">Exclusions</span> field in the Destination Editor where you can enter specific files to be held back from the publishing process. This is particularly useful to exclude files such as Default.htm.</li>
+                <li>You can use conditions on topic files in Flare, then include or exclude them appropriately in the Target Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Conditions/Conditions.htm">Conditions</MadCap:xref> and <MadCap:xref href="../../Conditions/Process/Associating-Conditions-Targets.htm">Associating Conditions With Targets</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>In the Target Editor, you can select the <span class="Emphasis">Advanced</span> tab and choose an option in the <span class="Emphasis">Content to include</span> drop-down. You can include files linked directly or indirectly from the target, or you can include only files linked directly from the TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Step4-Developing-Targets/More/Including-Specifically-Linked-Content.htm">Including Specifically Linked Content</MadCap:xref>.</MadCap:conditionalText></li>
+            </ul>
+            <h3>Server Limitations</h3>
+            <p>You should avoid publishing multiple targets to Salesforce<span class="Registered-Trademark">®</span> from a batch at the same time in order to avoid any server limitations during the upload process. You can still publish targets in a batch, but you probably want to open the Options dialog (<span class="Emphasis">File &gt; Options</span>), select the <span class="Emphasis">Build</span> tab, and set the <span class="Emphasis">Maximum Concurrent Builds</span> to <span class="Emphasis">1</span>.</p>
+            <h3>Practice Publishing</h3>
+            <p>Since you have many options for publishing content to ServiceNow<span class="Registered-Trademark">®</span>, you might find it helpful to practice publishing output to a test development instance using different settings in Flare. Once you identify results that you like in ServiceNow<span class="Registered-Trademark">®</span>, you can than publish output to production.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>
+            <MadCap:xref href="Retrieving-ServiceNow-Credentials.htm">Retrieving ServiceNow® Credentials</MadCap:xref>
+        </p>
+    </body>
+</html>

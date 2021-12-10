@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can view a list of all topics that have been created in the project, but they have not yet been linked to any items in a TOC. A drop-down filter lets you select a specific TOC to analyze, or you can select "Any TOC" to analyze all TOCs in a project.&#160;<MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Interface/Ribbons-Toolbars-Menus/Ribbons/Analysis-Ribbon.htm">Analysis Ribbon</MadCap:xref>.</MadCap:conditionalText></p>
+        <h2>How to View Topics Not Added to the TOC</h2>
+        <ol>
+            <li>  Select <span class="Emphasis">Analysis &gt; More Reports &gt; Topics Not In Selected TOC</span>. <p>The Topics Not In Selected TOC window pane opens. The area at the bottom of the window pane displays all topics that have not yet been added to a TOC.</p></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>(Optional) You can drag topics from the Topics Not In Selected TOC window pane into an open TOC by selecting a TOC from the&#160;<span class="Emphasis">Filter</span>&#160;field in the Topics Not in Selected TOC window pane, then dragging topics from the pane into the TOC. You may need to float and position the TOC so you can see both it and the Topics Not in Selected TOC window pane.</li>
+            <li>(Optional) You can double-click any topic in the list to view or modify it. </li>
+        </ol>
+        <MadCap:snippetBlock src="../Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

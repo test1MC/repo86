@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-Responsive-Output-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Creating and applying character-level styles. The character-level element only applies to selected text and is used within a block element." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Responsive-Output.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Responsive Skins</h1>
+        <p>Responsive content, layouts, and skins all contribute to the responsive design of your output; meaning, the way it renders and how it adjusts automatically for different device sizes. Responsive design techniques use HTML and CSS to increase usability while making your HTML5 output look good on any screen.</p>
+        <p>Consider the skin when thinking about output. A skin is a file that contains information about the appearance of an online output window. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Tutorials/Responsive-Design-Summary5.flsnp" /></p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> Responsive output is always enabled for Side and Top Navigation skin types, and skinless output. Keep in mind that the Austin template includes a Side Navigation skin.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to View Responsive Skins and Media Queries</h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Tutorials/Responsive-Output-Skin-Styles-Mediums.flsnp" />
+        </p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Sometimes the terms mediums and media queries are used interchangeably. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <ol>
+            <li>
+                <p>From the Project Organizer, expand the <span class="Emphasis">Skins</span> folder, and double-click <span class="Emphasis">Side-Navigation</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-Skin-SideNav.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the HTML5 Skin Editor, select the <span class="Emphasis">Styles</span> tab (if not already selected).</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the local toolbar, the default <span class="Emphasis">Web Medium</span> should be selected. This is what you will see if viewing output on a large screen. In the preview area to the right, notice the menu on the left side, and the search bar in the upper-right corner.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-SkinEditor-Web.png" alt="" title="" class="MaxWidth85Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select <span class="Emphasis">Tablet Medium</span>. This is what you will see if viewing output on a tablet, or when the width of the window is narrower and reaches a certain breakpoint. Notice the decreased width, the flyout menu in the upper-right corner, and the repositioning of the search bar.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-SkinEditor-Tablet.png" alt="" title="" class="MaxWidth85Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select <span class="Emphasis">Mobile Medium</span>. This is what you will see if viewing output on a mobile device, or when the window gets narrow enough for the mobile breakpoint. Notice the decreased width.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-SkinEditor-Mobile.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Create a New Skin</h2>
+        <p>For the Austin project, let’s create a new skin. Like the Side Navigation skin, the Top Navigation skin is frameless, flexible, and looks modern (where the main menu is positioned at the top).</p>
+        <ol>
+            <li>
+                <p>From the Project Organizer, right-click the <span class="Emphasis">Skins</span> folder.</p>
+            </li>
+            <li>
+                <p>From the context menu, select <span class="Emphasis">Add Skin</span>. The Add File dialog opens.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-AddSkin-Menu.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Source</span> area, select <span class="Emphasis">New from template</span>, and select <span class="Emphasis">HTML5 – Top Navigation</span>.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">Skin</span> area, in the <span class="Emphasis">File Name</span> field, type <span class="TypedEntry">TopNav</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-AddSkin-Dialog.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">Add</span>. The new skin is added to the Skins folder, and it opens in the HTML5 Skin Editor.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>With the <span class="Emphasis">Styles</span> tab selected, click through the different mediums to get familiar with the new skin.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-SkinEditor-TopNav.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the local toolbar, click <span class="Emphasis">Mobile Medium</span>.</p>
+            </li>
+            <li>
+                <p>Let’s make a quick style change to the skin. Expand the <span class="Emphasis">Header</span> item, and then expand <span class="Emphasis">Background</span>.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Color</span> property, type <span class="TypedEntry">#964B00</span>. (This will make the header background for the mobile medium brown.)</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-HeaderColor-Mobile.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Associate a Skin With a Target</h2>
+        <p>In order to see a new skin in generated output, you can associate it with the target.</p>
+        <ol>
+            <li>
+                <p>From the Project Organizer, expand <span class="Emphasis">Targets</span>, and double-click <span class="Emphasis">All-About-Austin-HTML5</span>.</p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Skin</span> tab.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">General</span> area, from the <span class="Emphasis">Skin</span> drop-down, select <span class="Emphasis">TopNav</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-Skin-Target.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Project</span> ribbon. Then from the <span class="Emphasis">Build Primary</span> drop-down, select <span class="Emphasis">Build All-About-Austin-HTML5</span>. The Builds window pane opens at the bottom of the Flare interface, and the target begins to generate. When the build finishes successfully, the Build Progress cell turns dark green.</p>
+            </li>
+            <li>
+                <p>Double-click the row to open the HTML5 output, and view it in a regular browser with the window maximized. Notice the new look that the TopNav skin design provides.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-HTML5-TopNav.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click and drag the browser window to reduce it. Notice the header turns from black to brown when it reaches the responsive setting breakpoint for the mobile screen size. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-HTML5-TopNav-Brown.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">With a maximized window, you might have to click the <span class="Emphasis">Restore Down</span> icon first, in order to click and drag to reduce the size of the browser window.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Output-Skins/Responsive-RestoreDown.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In the <span class="Emphasis">Target Editor &gt; Skin</span> tab, you can view the default Responsive Output Settings; that is, the Tablet Breakpoint, and the Mobile Breakpoint.</p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

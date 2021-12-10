@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="Emphasis">Use default category for all articles </span>If you select this option, you can then select one or more data categories in the Default Categories field below. All published articles will therefore become associated with those categories in Salesforce<span class="Registered-Trademark">®</span>.</li>
+            <li>
+                <p><span class="Emphasis">Use TOC to map to matching category names </span>This uses the table of contents (TOC) path selected for each topic and places the published article in the closest matching Salesforce<span class="Registered-Trademark">®</span> category name.</p>
+                <ul>
+                    <li>
+                        <p>The TOC structure needs to strictly match the category structure in Salesforce<span class="Registered-Trademark">®</span>. </p>
+                    </li>
+                    <li>
+                        <p>The top-level book in the TOC book must match the Salesforce<span class="Registered-Trademark">®</span> category group name. </p>
+                    </li>
+                    <li>
+                        <p>There should only be one child category under the first-level book, because that is all that is allowed in Salesforce<span class="Registered-Trademark">®</span>.</p>
+                    </li>
+                    <li>
+                        <p> If there is no matching Salesforce<span class="Registered-Trademark">®</span> category for the TOC path of the topic, the topic will be mapped to the default categories specified in the destination file.  If there is no default category specified, the topic will not have a category applied.</p>
+                    </li>
+                </ul>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Mapping to One Salesforce<span class="Registered-Trademark">®</span> Category Group</p>
+                    <p>You have a Salesforce<span class="Registered-Trademark">®</span> category group named "Products." In your Flare TOC, the top-level book matches it.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-One-Category-Group.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>The second-level book in the TOC ("All Products") matches the top-level category node in Salesforce<span class="Registered-Trademark">®</span>.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-One-Category-Group2.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <p>Any topic linked in the next level of the TOC will map to the next Salesforce<span class="Registered-Trademark">®</span> category if the TOC path matches the Salesforce<span class="Registered-Trademark">®</span> category path.</p>
+                    <p>To map a single topic to multiple categories (e.g., Smart Phones in the image), include the topic under each TOC entry that represents the category in Salesforce<span class="Registered-Trademark">®</span>.</p>
+                    <p>In this example:</p>
+                    <ul>
+                        <li>
+                            <p>The topic "About our products" has a TOC path of Products &gt; All Products &gt; About our products. There is no exact Salesforce<span class="Registered-Trademark">®</span> category match but  there is a partial match to a Salesforce<span class="Registered-Trademark">®</span> category.  It will be mapped to Products &gt; All Products  in Salesforce<span class="Registered-Trademark">®</span> because this is the closest match.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-One-Category-Group4.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>The topic linked to the TOC book "Consumer Electronics" and the "Consumer" topic  will be mapped to Products &gt; All Products &gt; Consumer Electronics in Salesforce<span class="Registered-Trademark">®</span>.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-One-Category-Group5.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>The topic "Smart Phones" will be mapped to two categories since it is included twice in the TOC.  It will be mapped to Products &gt; All Products &gt; Consumer Electronics &gt; Smart Phones, as well as Products &gt; All Products &gt; Computers &gt; Smart Phones.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-One-Category-Group3.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>All topics under the TOC book "Laptops" will be mapped to Products &gt; All Products &gt; Computers &gt; Laptops.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-One-Category-Group6.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>The topic "Routers" will be mapped to Products  &gt; All Products &gt; Enterprise Electronics &gt; Routers since it matches the TOC path exactly.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-One-Category-Group7.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>The topic "Services" will not be mapped because it does not have an exact or partial matching Salesforce<span class="Registered-Trademark">®</span> data category.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-One-Category-Group8.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Mapping to More Than One Salesforce<span class="Registered-Trademark">®</span> Category Group</p>
+                    <p>You have a Salesforce<span class="Registered-Trademark">®</span> category group named "Products." In your Flare TOC, the first top-level book matches it. You have a second Salesforce<span class="Registered-Trademark">®</span> category group named "Vendors." In your Flare TOC, the second top-level book matches it.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-More-Than-One-Category-Group1.png" alt="" title="" class="MaxWidth75Percent" />
+                    </p>
+                    <p>There are many articles arranged to be mapped to both category groups.  For example, the "Dell Latitude" topic will  be mapped to Products &gt; All Products &gt; Computers &gt; Laptops, as well as Vendors &gt; All &gt; Dell.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Output/Salesforce-Example-Mapping-More-Than-One-Category-Group2.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p><span class="Emphasis">Use TOC to map to matching category unique names </span>This is similar to the previous option, but uses the "unique names" instead of the "name" for Salesforce<span class="Registered-Trademark">®</span> categories.   This option is most useful if there are multiple data categories in Salesforce<span class="Registered-Trademark">®</span> with the same category name but different category unique names.  You can select the specific category using the unique name set in Salesforce<span class="Registered-Trademark">®</span>.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have two "Smart Phones" categories and also two "Tablets" categories.  They each have unique category unique names.  The Flare TOC entries use labels that match the category unique name so that each topic can be mapped to the appropriate Salesforce<span class="Registered-Trademark">®</span> category.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Output/Salesforce-Example-Use-TOC-Books-Matching-Unique-Names.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-TFS.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:check in;Multi-authoring;Check in" />
+            <MadCap:concept term="FilterProjects" />Checking In Source Control Files<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Team Foundation Server</MadCap:conditionalText></h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Check-In-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <h2>How to Check In Files to Source Control</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Check In</b> (for selected files) or <span class="Emphasis">Source Control &gt; Check In All</span> (for all files in the project). </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>In the File List, right-click the file you want to check in and select <span class="Emphasis">Source Control &gt; Check In</span>   (for selected files) or <span class="Emphasis">Source Control &gt; Project &gt; Check In All</span>  (for all files in the project).</li>
+                    <li><span class="SetOffFirstLevel">Local Toolbar </span>In the File List, select the file(s) you want to check in. In the local toolbar of the File List, click <img src="../../../Resources/Images/Shared/Ce-Fl-Li/Interface/Buttons/Source-Control-btn.png" />, then select <span class="Emphasis">Check In</span>   (for selected files) or <span class="Emphasis">Project &gt; Check In All</span>  (for all files in the project).</li>
+                </ul>
+                <p>The Check In dialog opens. The selected files are listed with check boxes next to them.</p>
+            </li>
+            <li>(Optional) <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Check-In-Comment-Option.flsnp" /></li>
+            <li>(Optional) If you want to see all files with pending changes (rather than only those you selected), click <img src="../../../Resources/Images/Shared/Ce-Fl-Li/Interface/Buttons/Show-All-Pending-Changes-btn.png" class="ReduceButtonSize" />.</li>
+            <li>Make sure to click the check box next to each file you want to check in so that it contains a check mark.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Keep-Checked-Out-Option.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1] exclude[Snippets.Snippet3] " />
+            </li>
+            <li>
+                <p>Click <span class="Emphasis">Check In</span>.</p>
+                <p>If no other users have also made changes to the file and checked it in while you were working on it, your version of the file is checked in.</p>
+                <p>However, if that is not the case, the Resolve Version Conflict dialog opens to let you know that another user has already checked in the file with changes. You can merge the files automatically if there are no conflicting changes (i.e., changes do not occur in the same location in the file). If there are conflicting changes, you can use the Merge Changes dialog to determine how changes are merged. See <MadCap:xref href="Merging-Source-Control-Files-TFS.htm">Merging Source Control Files—Team Foundation Server</MadCap:xref>.</p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+        <h2>How to Check In Files to Source Control—Explorer</h2>
+        <ol>
+            <li>Select <b>View &gt; Source Control Explorer</b>. The Source Control Explorer opens.</li>
+            <li>
+                <p>From the drop-down or the Home pane, select <span class="Emphasis">Pending Changes</span>.</p>
+                <p>The Pending Changes pane opens. Files that will be checked in are listed under <span class="Emphasis">Included Changes</span>, and files that will not be checked in are listed under <span class="Emphasis">Excluded Changes</span>. You can identify changed files because they say <span class="Emphasis">[edit]</span> next to the file name.</p>
+                <p>
+                    <img src="../../../Resources/Images/Lingo/Source-Control/Source-Control-Explorer-New-Vs-Edit-TFS.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you check out a file in source control, you may sometimes see a SKL&#160;file alongside the XLF and original files. This skeleton file is a placeholder file. Be sure to check in all three associated files together. Checking in just the SKL&#160;file may result in errors.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-TFS" />
+            <li>(Optional) <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Explorer-Add-Comment.flsnp" /></li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>(Optional) If you want to select the files or folders that you include in the check-in, right-click a file or folder and select one of the following options from the context menu.<ul><li><p><span class="SetOffFirstLevel">Exclude </span> Excludes the selected file from the check-in</p></li><li><p><span class="SetOffFirstLevel">Exclude Unselected </span> Excludes all unselected files from the check-in</p></li><li><p><span class="SetOffFirstLevel">Include </span> Includes the selected file in the check-in</p></li><li><p><span class="SetOffFirstLevel">Include Unselected </span> Includes all unselected files in the check-in</p></li></ul></li>
+            <li>
+                <p>Click <span class="Emphasis">Check In</span> to check in all of the files in the <span class="Emphasis">Included Changes </span> list.</p>
+                <p>If no other users have also made changes to the file and checked it in while you were working on it, your version of the file is checked in. </p>
+                <p>However, if that is not the case, the Resolve Version Conflict dialog opens to let you know that another user has already checked in the file with changes. You can merge the files automatically if there are no conflicting changes (i.e., changes do not occur in the same location in the file). If there are conflicting changes, you can use the Merge Changes dialog to determine how changes are merged. See <MadCap:xref href="Merging-Source-Control-Files-TFS.htm">Merging Source Control Files—Team Foundation Server</MadCap:xref>.</p>
+            </li>
+        </ol>
+    </body>
+</html>

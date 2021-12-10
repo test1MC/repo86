@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Open a project.</li>
+            <li>Select <span class="Emphasis">Project &gt; Export Project</span>. The Export Project Wizard opens.</li>
+            <li>In the <span class="Emphasis">New Project Name</span> field, enter a name for the exported project.</li>
+            <li>
+                <p>(Optional) <MadCap:snippetText src="New-Project-Path-Field.flsnp" /></p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you select Project Template below in step 6, this area is grayed out because the project files will automatically be placed in your templates folder.</p>
+                    </div>
+                </div>
+            </li>
+            <li>In the <span class="Emphasis">Export From</span> drop-down, select one of the options.<div class="topic-only"><MadCap:snippetBlock src="Export-Project-Options-List.flsnp" /></div><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" class="topic-only" /><p class="topic-only"><MadCap:snippetText src="Export-Project-Properties.flsnp" /></p><div class="topic-only"><MadCap:snippetBlock src="Note-Export-Project-Missing-Files.flsnp" class="topic-only" /></div></li>
+            <li>In the <span class="Emphasis">Output</span> drop-down, select one of the options.<div class="topic-only"><MadCap:snippetBlock src="Export-Project-Output-Options-List.flsnp" /></div></li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+            <li>(Optional) Select <span class="Emphasis">Save settings</span> if you want to retain your settings for future re-exports. The export project file (.flexp) is stored in the Exports folder in the Project Organizer. <span class="topic-only">When you open this export file, the Export Project File Editor opens. This editor lets you change any of your settings (if necessary) and export the project again (see the set of steps below for exporting a project using the Export Project File Editor).</span></li>
+            <li>Click <span class="Emphasis">Next</span>.</li>
+            <li>If you are exporting based on a target, click in the <span class="Emphasis">Target </span>drop-down field and select the appropriate target from the source project.</li>
+            <li>(Optional) You can select one or both of the following:<ul><li><span class="SetOffFirstLevel">Convert variables to text </span>Select this option if you want all relevant variables to be converted to text.</li><li><span class="SetOffFirstLevel">Convert snippets to text </span>Select this option if you want all relevant snippets to be converted to text.</li></ul></li>
+            <li>
+                <p>If you are exporting an entire project or using a target, you can skip to step 12. Otherwise, if you made another selection in step 5, click <span class="Emphasis">Next</span> and complete the options as necessary.</p>
+                <div class="topic-only">
+                    <p class="Subheading">If Using Conditions</p>
+                    <p>
+                        <MadCap:snippetText src="Using-Conditions1.flsnp" />
+                    </p>
+                    <p>
+                        <MadCap:snippetText src="Using-Conditions2.flsnp" />&#160;<MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Conditions2.flsnp" /></p>
+                    <MadCap:snippetBlock src="../../Shared/Co-Fl/Conditions/Basic-Advanced-Conditions6.flsnp" />
+                    <MadCap:snippetBlock src="Using-Conditions3.flsnp" MadCap:conditions="General.Online-Only" />
+                    <p MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide">For details and examples on using each of these methods, see the online Help.</p>
+                    <MadCap:snippetBlock src="../Conditions/Note-Using-Conditions.flsnp" />
+                    <MadCap:snippetBlock src="../../Shared/Ca-Co-Fl/Conditions/Note-Begin-With-Basic-Mode.flsnp" />
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Finish button is not enabled until you create at least one condition expression on this page.</p>
+                    </div>
+                    <p class="Subheading">If Using File Tags</p>
+                    <ol class="LowerAlpha">
+                        <li>In the <span class="Emphasis">Tag Type</span> field, you can select a specific file tag set or choose to display all file tags to the right.</li>
+                        <li>
+                            <p>
+                                <MadCap:snippetText src="Using-File-Tags1.flsnp" />
+                            </p>
+                            <p>
+                                <MadCap:snippetText src="Using-Conditions2.flsnp" />&#160;<MadCap:snippetText src="../../Shared/Ca-Co-Fl/Conditions/Basic-Advanced-Conditions2.flsnp" /></p>
+                            <MadCap:snippetBlock src="../../Shared/Co-Fl/Conditions/Basic-Advanced-Conditions6.flsnp" />
+                            <MadCap:snippetBlock src="Using-File-Tags2.flsnp" MadCap:conditions="General.Online-Only" />
+                            <p MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide">The process for creating file tag expressions is essentially the same as that for condition tag expressions.</p>
+                            <MadCap:snippetBlock src="Note-Using-File-Tags1.flsnp" />
+                            <MadCap:snippetBlock src="../../Shared/Ca-Co-Fl/Conditions/Note-Begin-With-Basic-Mode.flsnp" />
+                            <div class="note">
+                                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Finish button is not enabled until you create at least one file tag expression on this page.</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <p class="Subheading">If Select Files</p>
+                    <ol class="LowerAlpha">
+                        <li>
+                            <p>
+                                <MadCap:snippetText src="Select-Files1.flsnp" />
+                            </p>
+                            <p>
+                                <img src="../../../Images/Flare/Exporting/Export-Project9.png" alt="" title="" class="MaxWidth90Percent" />
+                            </p>
+                        </li>
+                        <li>Click <span class="Emphasis">Next</span>.</li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+                        <li>
+                            <p>
+                                <MadCap:snippetText src="Select-Files2.flsnp" />
+                            </p>
+                            <p>
+                                <img src="../../../Images/Flare/Exporting/Export-Project10.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </li>
+                    </ol>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+                </div>
+            </li>
+            <li>
+                <p>If you are exporting project files or zip files (step 6), click <span class="Emphasis">Finish</span>. The project is exported, and Windows opens to the location, showing you the project or zip files. However, if you are exporting to a template, continue with the wizard and complete the remaining options.</p>
+                <div class="topic-only">
+                    <p class="Subheading">If Project Template</p>
+                    <MadCap:snippetBlock src="Project-Template-Steps.flsnp" />
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

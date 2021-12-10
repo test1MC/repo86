@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>In one of the window panes (e.g., <MadCap:conditionalText MadCap:conditions="Products.Flare">Content Explorer, </MadCap:conditionalText>File List, <MadCap:conditionalText MadCap:conditions="Products.Flare">Project Organizer, </MadCap:conditionalText>Pending Changes window pane), select the relevant file(s).</li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Keyboard-Press-Delete.flsnp" />
+            </li>
+            <li>The Delete dialog opens. Select the bound files you want to delete.</li>
+            <li>Click <span class="Emphasis">Delete</span>. The files are removed from your project and from the source control repository. Files that are deleted from projects bound to Subversion cannot be undeleted.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="398" MadCap:lastWidth="828">
+    <body>
+        <p>Glossaries may be used in modular hub projects, but HTML Help  targets require a few adjustments to avoid duplicate items in the hub table of contents and index.</p>
+        <p>In NetHelp projects, all child project glossaries are merged in the hub and duplicate glossary entries are automatically purged. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Work with Glossaries in HTML Help Files</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Verify all child projects, and the hub project, contain the same Glossary document file. </li>
+                    <li>Open a child project.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">Select the <span class="Emphasis">Home</span> tab. At the bottom of the <span class="Emphasis">Target</span> group, click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Help Targets dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Target Properties</span> button on the <span class="Emphasis">Target</span> ribbon. The Help Targets dialog opens.</li>
+                    <li>In the <span class="Emphasis">Advanced</span> section, select the <span class="Emphasis">Skip glossary</span> check box.</li>
+                    <li>Build the output.</li>
+                    <li>Repeat this for all child projects.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are using the Web Layout mode. Therefore, the XML Editor displays the styles specified in the default medium. A topic might look like this:</p>
+            <p class="TableText">
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Modes1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+            <p>But if you switch to Print Layout mode, the XML Editor automatically displays the styles specified in the print medium. It might look like this:</p>
+            <p class="TableText">
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Modes2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+            <p>If you choose the Web Layout (Tablet) mode, you'll notice that the topic looks similar to the regular Web Layout mode, except the content is shown at the maximum width of your tablet settings.</p>
+            <p class="TableText">
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Modes3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+            <p>And if you choose the Web Layout (Mobile) mode, the content will be narrower. The XML Editor adjusts to show the topic as if it were displayed on a mobile device. The Medium drop-down displays as (multiple) when multiple styles are applied. When the layout is in mobile mode, both the mobile and tablet mediums are applicable.</p>
+            <p class="TableText">
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Modes4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+            <p>Suppose you want to reduce the width of the tablet and mobile media queries. In that case, you open your HTML5 target and change the breakpoints, perhaps to something like this:</p>
+            <p class="TableText">
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Modes5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+            <p>Now when you go back to the XML Editor and view the topic in Web Layout (Tablet) mode, it will look like this:</p>
+            <p class="TableText">
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Modes6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+            <p>And in Web Layout (Mobile) mode, it will look like this:</p>
+            <p class="TableText">
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Modes7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p MadCap:conditions="Flare-Guides.Flare-Styles-Guide">Using styles, you can affect the look and feel of generated tables of contents (TOCs) in print-based output. You can do this in the following ways:</p>
+        <ul MadCap:conditions="Flare-Guides.Flare-Styles-Guide">
+            <li><span class="SetOffFirstLevel">Heading Levels </span>You can determine which topic headings will be displayed at which level in the generated TOC. See <MadCap:xref href="#UsingStylesHeadingLevels">Using Styles for Print TOC Heading Levels</MadCap:xref>.</li>
+            <li><span class="SetOffFirstLevel">Look of Print TOC </span>You can change how the entries in a generated TOC look. See <MadCap:xref href="../../../../Flare/Proxies/TOCs/Editing-Look-Print-TOC1.htm">Using Styles to Determine the Look of a Print TOC</MadCap:xref>.</li>
+            <li><span class="SetOffFirstLevel">Look of Print Mini-TOC </span>If you include a mini-TOC in topics, you can use styles to change the way the mini-TOC looks in the output. See <MadCap:xref href="../../../../Flare/Proxies/Mini-TOCs/Editing-Look-MiniTOC1.htm">Using Styles to Determine the Look of a Mini-TOC</MadCap:xref>.</li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Page numbers:printed output;Print-based output:page numbers" />Page Number Suppression </span>
+                <MadCap:snippetText src="Print-Output/Suppress-Page-Numbers.flsnp" /> See <MadCap:xref href="../../../../Flare/Proxies/TOCs/Suppressing-Page-Numbers-Print-TOC1.htm" target="" title="" alt="">Suppressing Page Numbers in a Print TOC</MadCap:xref> and <MadCap:xref href="../../../../Flare/TOCs/Other-Activities/Suppressing-Page-Numbers-Print-Mini-TOC1.htm" target="" title="" alt="">Suppressing Page Numbers in a Print Mini-TOC</MadCap:xref>.</li>
+        </ul>
+        <p class="note" MadCap:conditions="Flare-Guides.Flare-Styles-Guide" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to change the look of your TOC in online output, you can do so by modifying styles within your skin. See <MadCap:xref href="../../../../Flare/Skins/Standard-Skin-Styles/Standard-Skin-Styles.htm">Standard Skin Styles</MadCap:xref> and <MadCap:xref href="../../../../Flare/Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</p>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+        <p MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide">
+            <MadCap:snippetText src="Print-Output/Determine-Heading-Levels-Summary.flsnp" /> This can be determined via one of the following methods:</p>
+        <MadCap:snippetBlock src="Print-Output/Heading-Level-Methods-List.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+        <MadCap:snippetBlock src="Print-Output/Heading-Level-Both-Methods.flsnp" MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Printed-Output-Guide,General.Online-Only" />
+    </body>
+</html>

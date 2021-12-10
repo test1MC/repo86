@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can view a list of all files in your project that have been added more than once to a TOC using the Duplicate TOC Items window pane.</p>
+        <h2>How to View Duplicate Items in the TOC</h2>
+        <ol>
+            <li>Open a project.</li>
+            <li>Select <span class="Emphasis">Analysis &gt; More Reports &gt; Duplicate TOC Items</span>. The Duplicate TOC Items window pane opens, displaying all files that have been added more than once to a TOC.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../General/Folder-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">TOC</span> Displays the name of the TOC where the multiple links to the file are found. </li>
+                    <li><span class="SetOffFirstLevel">Count</span> Displays the count.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>You can open any file in the list to view or modify it in an editor. <MadCap:snippetText src="../General/Double-Click-Right-Click-Open.flsnp" /></li>
+        </ol>
+        <MadCap:snippetBlock src="../Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

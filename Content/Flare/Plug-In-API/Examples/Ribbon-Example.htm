@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Plugin-API.flmsp');">
+    <head>
+        <meta name="description" content="Example using data binding to the IRibbonControlData/IRibbonMenuData interfaces." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />Ribbon Example</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Information-Developers.flsnp" MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <p>To add a ribbon tab for your plug-in, you need to use the INavContext interface. See <MadCap:xref href="../Interfaces/INavContext.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">INavContext Interface</MadCap:xref>.</p>
+        <p>From it, you may call GetRibbon() to retrieve an IRibbon instance. With the IRibbon instance, you may add a new ribbon tab. </p>
+        <p>Here is an example using data binding to the IRibbonControlData/IRibbonMenuData interfaces. See <MadCap:xref href="../Interfaces/IRibbonControlData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IRibbonControlData Interface</MadCap:xref> and <MadCap:xref href="../Interfaces/IRibbonMenuData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IRibbonMenuData Interface</MadCap:xref>.</p>
+        <MadCap:codeSnippet xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSharp;">private void CreatePluginRibbon()
+{
+	IRibbon ribbon = mNavigationContext.GetRibbon();
+	IRibbonTab tab = ribbon.AddNewRibbonTab("PluginTab", "P");
+	IRibbonGroup group = tab.AddNewRibbonGroup("PluginGroup");
+	Button searchAndHighlightButton = group.AddRibbonButton(PluginViewModel.SearchHighlight);
+	IRibbonComboBox comboMenu = group.AddRibbonCombobox(PluginViewModel.Fonts);
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Plugin-API-Guide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <p>Here is sample code for the PluginViewModel.</p>
+        <MadCap:codeSnippet xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSharp;">public static classPluginViewModel
+{
+	private staticRibbonControlData _searchHighlight;
+	private staticRibbonMenuData _fonts;
+	public staticRibbonControlData SearchHighlight
+	{
+		get
+		{
+			if (_searchHighlight == null)
+			{
+				_searchHighlight = new RibbonControlData()
+				{
+					Label = "Search and Highlight",
+					Command = new ButtonCommand(),
+					KeyTip = "S"
+				};
+			}
+			return _searchHighlight;
+		}
+	}
+	public staticRibbonMenuData Fonts
+	{
+		get
+		{
+			if (_fonts == null)
+			{
+				BitmapImage image = new BitmapImage(new Uri("C:/TFS/Trunk/ObjectApplications/Debug/Flare.app/Plugins/NavigationPlugin/Icons/EditDocument.png"));
+				_fonts = new RibbonMenuData()
+				{
+					Label = "My Fonts",
+					LargeImage = image
+				};
+				_fonts.ControlDataCollection.Add(new RibbonControlData()
+				{
+					Label = "Arial"
+				});
+				_fonts.ControlDataCollection.Add(new RibbonControlData()
+				{
+					Label = "Helvetica"
+				});
+				_fonts.ControlDataCollection.Add(new RibbonControlData()
+				{
+					Label = "Times New Roman"
+				});
+			}
+			return _fonts;
+		}
+	}
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <div class="note">
+            <p class="Note-Text" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The ribbon tab is only visible when the Flare interface is in “Ribbon” mode.</p>
+        </div>
+    </body>
+</html>

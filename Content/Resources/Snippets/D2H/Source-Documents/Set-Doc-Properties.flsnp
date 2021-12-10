@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The Document Properties dialog is used to view or change the properties of a document. If you would like to view or change the properties of a single topic, use the Topic Properties dialog<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> (see <MadCap:xref href="../../../../D2H/Topics/Viewing-Changing-Topic-Properties.htm">Viewing/Changing Topic Properties</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> (see <MadCap:xref href="../../../../D2H/Legacy-HTML5/Topics/Viewing-Changing-Topic-Properties.htm">Viewing/Changing Topic Properties</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Set Document Properties</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word</MadCap:conditionalText>, open the Documents window pane in the Doc-To-Help Project panel and select a document.</li>
+                    <li>
+                        <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Select the <span class="Emphasis">Home</span> ribbon.</MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Right-click on the document you wish to modify.</MadCap:conditionalText></li>
+                    <li>
+                        <p>
+                            <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">At the bottom of the <span class="Emphasis">Source</span> group, click <img src="../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />.</MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Select Properties.</MadCap:conditionalText> The Document Properties dialog opens.</p>
+                        <p class="note" MadCap:conditions="Snippets.Snippet2" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Alternatively, you can right-click on a document in the Documents window pane and choose <span class="Emphasis">Properties</span>.</p>
+                    </li>
+                    <li>
+                        <p>Set any of the following:</p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Document</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="Document-Name.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="Document-Type.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="Document-File-Size.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="Document-File-Modified.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Condition</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>These can also be set and will appear in the Source group in the ribbon. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../D2H/Conditions/Conditions.htm">About Conditions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../D2H/Legacy-HTML5/Conditions/About-Conditions-D2H.htm">About Conditions</MadCap:xref>.</MadCap:conditionalText></p>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="Document-Platforms.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="Document-Targets.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="Document-Attributes.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Sharing</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>These fields only apply to documents that have been shared to a SharePoint Library.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../D2H/SharePoint/SharePoint-Integration.htm">About SharePoint Integration</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../D2H/Legacy-HTML5/SharePoint/About-SharePoint-Integration-D2H.htm">About SharePoint Integration</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content"> See the online Help or the <span class="EmphasisItalic">Project Management Guide</span>.</MadCap:conditionalText></p>
+                                <ul>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Document URL </span>The location of this document on the SharePoint Library server.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Auxiliary Files </span>The location of this document's auxiliary files (usually graphics and video) on the SharePoint Library server.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">First Uploaded by </span>The name of the person who first uploaded this document to the SharePoint Library server.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">First Upload date </span>The date this document was first uploaded to the SharePoint Library server.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Last changed by </span>The name of the last person to edit this document.  </p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Last download date </span>The latest date this document was downloaded from the SharePoint Library server.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="SetOffFirstLevel">Checked out by </span>If this document is currently checked out from the SharePoint Library, the name of the person who has it checked out. If it is you, it will read "me."</p>
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Advanced</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../Projects/Project-Keep-Outline-Numbers.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../Projects/Project-Adjust-Left-Indent.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="Documents-Natural-Search.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../Projects/Project-Keep-Page-Breaks.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../Projects/Project-Plain-Text-Popups.flsnp" />
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Online-Only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For more source document tasks, see <MadCap:xref href="../../../../D2H/Source-Documents/Source-Documents.htm">About Source Documents</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For more source document tasks, see <MadCap:xref href="../../../../D2H/Legacy-HTML5/Source-Documents/About-Source-Documents.htm">About Source Documents</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

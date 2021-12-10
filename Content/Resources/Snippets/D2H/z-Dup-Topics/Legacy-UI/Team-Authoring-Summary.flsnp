@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Team authoring is a source control feature that makes it possible for multiple authors to work together on a single project. Authors work on their own local copy of a project on their machine (called the working copy), while the parent project (or the team project) is located on the organization's network or on a web server. Although the same project is made available to the entire team, one author's changes will not be overwritten by another author's changes.</p>
+        <p> With team authoring, your projects can be stored in the following kinds of repositories:</p>
+        <ul>
+            <li>Microsoft<span class="Registered-Trademark">®</span> Team Foundation Server</li>
+            <li>Web Repository</li>
+            <li>File System Repository</li>
+        </ul>
+        <p MadCap:conditions="Snippets.Snippet1">If you would prefer to store your documents in Microsoft<span class="Registered-Trademark">®</span> SharePoint<span class="Registered-Trademark">®</span>, see <MadCap:xref href="../../../../../D2H/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</p>
+        <p MadCap:conditions="Snippets.Snippet2">If you would prefer to store your documents in Microsoft<span class="Registered-Trademark">®</span> SharePoint<span class="Registered-Trademark">®</span>, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide">How It Works</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>How It Works</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Team members work on their own local copy of the Doc-To-Help project. When a document is checked out and is being edited by one team member, it is locked so that others can’t edit it at the same time. Until changes are checked in, they remain local to the author's machine, appearing only in the team member's working copy of the project. Likewise, changes made by other authors cannot be viewed until they are retrieved from the repository. Doc-To-Help makes it easy to check files in and out of the repository.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide"><a name="TeamAuthoringRequirements"></a>Team Authoring Requirements</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="TeamAuthoringRequirements"></a>Team Authoring Requirements</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>A Doc-To-Help project must meet the following team authoring requirements:</p>
+                <ul>
+                    <li>All of the project's documents and auxiliary files must be located within subfolders of the project folder (Media, CSS files, Documents, etc.). Doc-To-Help automatically sets your project up this way by default.</li>
+                    <li>If your project uses customized templates or themes, all team members must have the same versions of those files in the same locations on each of their machines.</li>
+                    <li>All team members must have the same version (including build number) of Doc-To-Help installed on their machine. This information is available from the <span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Help &gt; About MadCap Doc-To-Help</span><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">About </span>button on the <span class="Emphasis">Doc-To-Help</span> ribbon</MadCap:conditionalText>.</li>
+                    <li>If using a Team Foundation Server repository, all team members must install Microsoft Visual Studio Team Explorer 2008 or later.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide">Steps Associated With Team Authoring</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Steps Associated With Team Authoring</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are the primary steps associated with team authoring:</p>
+                <ol>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Set Up Project </span>Each team authoring project must have an administrator (usually the documentation manager or lead writer). The administrator makes the project available to other team members by uploading it to the central repository and configuring the settings. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Setting-Up-Team-Project.htm">Setting Up a Team Project</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Setting-Up-Team-Project.htm">Setting Up a Team Project</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p>In addition, the administrator handles other functions, such as: removing backup files, unlocking files from the repository, upgrading the team project, and disconnecting team authoring support from working copies of projects. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</MadCap:conditionalText></p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Connect to Project </span>After a team authoring project is set up, team members must connect to and download the team project in order to create their own working copies of the project. Once team members have a working copy, they can check files out, edit them, and check them back in. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Connecting-Team-Project.htm">Connecting to a Team Project</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Connecting-to-Team-Project.htm">Connecting to a Team Project</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Work in Team Project </span>After connecting to a team project, team members can work in their own working copy of the project. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Working-Team-Project.htm">Working in a Team Project</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Working-in-Team-Project.htm">Working in a Team Project</MadCap:xref>.</MadCap:conditionalText></li>
+                </ol>
+                <p>Additional team authoring options can be set in the Options dialog (<span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Tools &gt; Options &gt; Team</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet1">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options &gt; Team</span>).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide"><a name="TeamAuthoringEnvironment"></a>Team Authoring Environment</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot><a name="TeamAuthoringEnvironment_Online"></a>Team Authoring Environment</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When you open the working copy of a team project, Doc-To-Help will include an additional ribbon and window, both named "Team Authoring."</p>
+                <p>Three different file types make up a team authoring project:</p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Documents </span>These are the source documents included in your Doc-To-Help project. By default, they will be located in the Documents folder. Any rich content variable documents will be included in these folders also.</p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Auxiliary Files </span>These are any files that are not documents. Examples include image and CSS files. By default, these will be located in the Media and CSSFiles folders.</p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Project File (.d2h Extension) </span>This is the project itself, which contains all project information such as keywords, attributes, windows, and project properties.</p>
+                    </li>
+                </ul>
+                <p>You can check out and work with all three file types. In projects stored in a File or Web Repository, when a document or auxiliary file is checked out by an author, no one else can edit that file until those files are checked back in. When an entire project is checked out, no one else can edit the project or the files within it until the project is checked back in. Projects stored in Team Foundation Server (TFS) repositories have additional check out options. </p>
+                <p>You can manage components of your Doc-To-Help project in the following ways if you intend to bind it with a shared repository:</p>
+                <ul>
+                    <li MadCap:conditions="General.Online-Only,Snippets.Snippet1">
+                        <MadCap:xref href="../../../../../D2H/Team-Authoring/Connecting-Team-Project.htm">Connecting to a Team Project</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet2,General.Online-Only">
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Connecting-to-Team-Project.htm">Connecting to a Team Project</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="General.Online-Only,Snippets.Snippet1">
+                        <MadCap:xref href="../../../../../D2H/Team-Authoring/Setting-Up-Team-Project.htm">Setting Up a Team Project</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet2,General.Online-Only">
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Setting-Up-Team-Project.htm">Setting Up a Team Project</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="General.Online-Only,Snippets.Snippet1">
+                        <MadCap:xref href="../../../../../D2H/Team-Authoring/Changing-Repository-Settings.htm">Changing Repository Settings</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet2,General.Online-Only">
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Changing-Repository-Settings.htm">Changing Repository Settings</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="General.Online-Only,Snippets.Snippet1">
+                        <MadCap:xref href="../../../../../D2H/Team-Authoring/Getting-Latest-Version-Project.htm">Getting Latest Version of the Project</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet2,General.Online-Only">
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Getting-Latest-Version-Project.htm">Getting Latest Version of the Project</MadCap:xref>
+                    </li>
+                </ul>
+                <p>Once your Team Authoring project is open, you can access the Team Authoring panel for more functions to help manage this project. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring-Window.htm">Team Authoring Window Pane</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Team-Authoring-Window.htm">Team Authoring Window Panel (Doc-To-Help)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Touring-Workspace-Guide"> See the online Help or the <span class="EmphasisItalic">Project Management Guide</span>.</MadCap:conditionalText></p>
+                <MadCap:dropDown class="SecondLevel" MadCap:conditions="Snippets.Snippet2">
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Team Authoring ribbon</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>After you have opened your project, you can do the following with the Team Authoring ribbon:</p>
+                        <p>
+                            <img src="../../../../Images/D2H/Team-Authoring/Team-Authoring-Ribbon.png" class="MaxWidth100Percent" />
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../Team-Authoring/Filter-View.flsnp" />
+                                </p>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Team-Authoring/Refresh-View.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Team-Authoring/Get-Latest-Version.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Team-Authoring/Check-Out.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Team-Authoring/Undo-Pending-Changes.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Team-Authoring/Check-In.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Team-Authoring/Go-Offline.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Team-Authoring/Compare-TFS-Projects.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Team-Authoring/History-TFS-Projects.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Team-Authoring/Open-File-Team-Authoring.flsnp" />
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Doc-To-Help integrates directly with Team Foundation Server and Microsoft SharePoint. It does not directly integrate with third-party tools such as ClearCase. However, Doc-To-Help will not interfere with those tools, so you can use them with your Doc-To-Help projects.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

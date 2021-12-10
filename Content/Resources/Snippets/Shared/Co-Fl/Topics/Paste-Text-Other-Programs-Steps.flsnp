@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>After copying the text in the other program, open a <MadCap:snippetText src="../General/Content-File-Document.flsnp" /> in <MadCap:variable name="Other.Product" />.</li>
+            <li>Place your cursor where you want to paste the text.</li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Home &gt; Paste</b>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click</span> Right-click and from the context menu select <span class="Emphasis">Paste</span>.</li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+V</span>.</li>
+                </ul>
+                <p>The content is pasted using the default behavior, and the paste icon <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Paste-btn.png" class="ReduceButtonSize" /> appears after it. The drop-down arrow is visible when you hover over the icon.</p>
+            </li>
+            <li>
+                <p>(Optional) If you want to change the way the content is added to the file, click the drop-down arrow in the paste icon and select the option that best suits your needs.</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Paste Paragraphs </span>
+                        <MadCap:snippetText src="Paste-Paragraphs.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Paste Paragraph Block </span>
+                        <MadCap:snippetText src="Paste-Paragraph-Block.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Paste Inline Text </span>
+                        <MadCap:snippetText src="Paste-Inline-Text.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Paste Table </span>
+                        <MadCap:snippetText src="Paste-Text.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Paste List </span>
+                        <MadCap:snippetText src="Paste-List.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Paste HTML </span>Paste text from an HTML source, such as a website.</li>
+                    <li>
+                        <MadCap:snippetText src="../Tables/Set-Default-Option.flsnp" />
+                    </li>
+                </ul>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You frequently copy text from Word documents into your<MadCap:conditionalText MadCap:conditions="Products.Flare"> Flare topics</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Contributor"> documents or topics</MadCap:conditionalText>. Normally you bring the text in as regular paragraphs, so you use that as the default behavior.</p>
+                    <p>
+                        <img src="../../../../Images/Shared/Co-Fl/Topics/Content-Paste1.png" class="MaxWidth90Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide" />
+                    <p>But suppose that in this case you want the content to be brought in as a list. In that case, you simply click on the paste icon and select <span class="Emphasis">Paste List</span>.</p>
+                    <p>
+                        <img src="../../../../Images/Shared/Co-Fl/Topics/Content-Paste2.png" class="MaxWidth90Percent" />
+                    </p>
+                    <p>And here is the result.</p>
+                    <p>
+                        <img src="../../../../Images/Shared/Co-Fl/Topics/Content-Paste3.png" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

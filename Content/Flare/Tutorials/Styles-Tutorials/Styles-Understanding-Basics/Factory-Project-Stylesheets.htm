@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video1-Intro-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Things to keep in mind before creating and applying new styles in the tutorial. " />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-Basic.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Factory and Project Stylesheets</h1>
+        <p>The following explains the difference between factory and project stylesheets. </p>
+        <ul>
+            <li><span class="Emphasis">Factory</span> When installing Flare, all of its program files, including factory stylesheets, are located in the Windows folder where you installed the product. These stylesheets contain style settings that might be used in your project, even though those stylesheets are not located in the project.</li>
+            <li><span class="Emphasis">Project</span> You can add stylesheets to a project, but most project templates typically come with a stylesheet. For example, the Austin template project comes with a stylesheet file (Styles.css). This is a project stylesheet because it is located within the project. In many cases, your content might use style values from a factory stylesheet automatically. If you provide specific settings in a project stylesheet, and they conflict with settings from a factory stylesheet, the values from the project stylesheet have precedence.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to View Inherited Property Values</h2>
+        <p>The steps below show how a style property value is inherited from a factory stylesheet.</p>
+        <ol>
+            <li>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>, and double-click the <span class="Emphasis">Styles.css</span> file.</li>
+            <li>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">All Styles</span> (if not already shown).</li>
+            <li>
+                <p>In the left pane tree structure, notice the styles listed. Some display as a light gray, and some are shown in a darker font. (If the tree structure displays only darker items, click <span class="Emphasis">Hide Inherited</span> in the local toolbar.)</p>
+                <p>Style elements that display in gray indicate that the style is inheriting its default values from somewhere else (e.g., factory stylesheet). An inherited style means it has no specific settings yet in the project's stylesheet. When you explicitly set a new value for the style, the label changes from gray to the darker text (meaning it is no longer inheriting its style). </p>
+            </li>
+            <li>
+                <p>Hover your cursor over the <span class="Emphasis">abbr</span> gray style element. A Windows path displays, showing where the inherited information is coming from. The stylesheet is located outside of the project. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Factory-Path.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The abbr tag defines an abbreviation or acronym. The acronym tag is not supported in HTML5, so we will edit the abbr element.</p>
+                </div>
+            </li>
+        </ol>
+        <h2>How to Set a Value in the Project Stylesheet</h2>
+        <p>The steps below  change a property value in the project stylesheet, so it is no longer inherited from the factory stylesheet.</p>
+        <ol>
+            <li>Select <span class="Emphasis">abbr</span>.</li>
+            <li>From the local toolbar, <span class="Emphasis">Show</span> drop-down, select <span class="Emphasis">Show: Set (Locally) Properties - properties set in this stylesheet</span>.</li>
+            <li>
+                <p>In the <span class="Emphasis">Add Properties</span> drop-down, select <span class="Emphasis">color</span>. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Factory-AddProperties.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Color Property</span> field, replace the default property "inherit," by typing a new value of <span class="TypedEntry">Purple</span>, and press <span class="Emphasis">ENTER</span>. Notice the abbr item has changed to the darker font. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The value of a color can be set by typing the name of the color, a color hex code, or selecting a color from the color palette. Additionally, you can interact with the Color Picker dialog to set a color, or engage the cursor to pick a screen color.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open the <span class="Emphasis">South-by-Southwest.htm</span> topic.</li>
+            <li>Select the "SXSW" text.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, <span class="Emphasis">Style</span> drop-down, select the <span class="Emphasis">abbr</span> style element.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Factory-abbr2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Click off the selected text to see that it turned purple in the XML Editor.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you do not see the style preview (purple) in the <span class="Emphasis">Style</span> drop-down, the option to do so is probably not set. To set it, go to <span class="Emphasis">File &gt; Options</span>. In the Options dialog, select the <span class="Emphasis">XML Editor</span> tab, and then select <span class="Emphasis">Show style previews in UI</span>. </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

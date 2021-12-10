@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Videos/Flare-MadCap-Central-Integration.flmsp');">
+    <head>
+        <meta name="description" content="As an alternative to building a target on MadCap Central, you can publish output directly to Central from the local Flare project." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="MadCap Central:publishing directly;Publishing:MadCap Central" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterOutput" />Publishing Directly to Central</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/All.flsnp" />
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides-Videos/Central.flsnp" />
+                <div class="Tiles-8-4-Microcontent">
+                    <div>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ce-Fl/Central/Publish-Directly-Central-Summary.flsnp" />
+                    </div>
+                    <div>
+                        <p>
+                            <img src="../../../Resources/Images/Shared/Ce-Fl/Central/Destinations-MadCap-Central.png" class="ThumbnailMicroContent" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ce-Fl/Banners/Run-Schedule-Builds-Perm.flsnp" />
+        <h2 class="NoPageBreakBefore">How to Publish Directly to Central</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ce-Fl/Central/Publish-DirectlyCentral-Steps.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+        <h2><a name="CommandLIne"></a>Command Line</h2>
+        <p>You can also use the command line for this feature. Notice that you need to include your email and Central password in the command. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Step5-Building-Publishing-Output/Build-Options/Building-Targets-Using-Command-Line.htm">Building Targets Using the Command Line</MadCap:xref>.</MadCap:conditionalText></p>
+        <div class="IndentMedium">
+            <h3>How to Use the Command Line to Publish Directly to Central</h3>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Compile-First-Steps.flsnp" />
+            <ol>
+                <li value="3">
+                    <p>Type the following and press <span class="Emphasis">ENTER</span> on your keyboard (entering the correct information in place of the sections in square brackets):</p>
+                    <MadCap:codeSnippet>
+                        <MadCap:codeSnippetCopyButton />
+                        <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project [project] -centralUsername [email address] -centralPassword [password] -target [target]</MadCap:codeSnippetBody>
+                    </MadCap:codeSnippet>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Projects/Note-Spaces-Quotation-Marks-Command-Line.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-MadCap-Central-Integration-Guide" />
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your email address is bsmith@fictionsoft.com, and your Central password is R!ffraff22. You have a project called "FictionSoftPro" that you have stored in a folder of the same name at the root level of the C: drive. If you want to publish the target named "Beginner" to Central, you can type this:</p>
+                        <MadCap:codeSnippet>
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project c:\fictionsoftpro\fictionsoftpro.flprj -centralUsername bsmith@fictionsoft.com -centralPassword R!ffraff22 -target Beginner</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </div>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If the project is located in a folder called "My Projects,” and the target is named "Beginner Online Help" (with spaces between words), you would type this:</p>
+                        <MadCap:codeSnippet>
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Batch;">madbuild -project "c:\my projects\fictionsoftpro.flprj" -centralUsername bsmith@fictionsoft.com -centralPassword R!ffraff22 -target "Beginner Online Help"</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ce-Fl/Central/Note-Publish-Directly-Synchronize.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">MadCap Search and Elasticsearch are supported with this feature. Google Search is not supported. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Search/Search-Engines/Setting-Up-Search-Engine.htm">Setting Up a Search Engine</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Build events are supported when publishing directly to Central. However, when building from Central itself, build events are not supported. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Step4-Developing-Targets/More/Creating-Pre-Post-Build-Events.htm">Creating Pre- and Post-Build Events</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

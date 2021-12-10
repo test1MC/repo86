@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="4"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True"
+  conditions="Products.All-Products">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="MarginBottom">33px</Property>
+          <Property
+            Name="MarginRight">-4px</Property>
+          <Property
+            Name="Float">right</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Toolbar">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="ExpandAll">
+            <Properties>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">0px</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="Width">40px</Property>
+              <Property
+                Name="Height">40px</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="ButtonIcon">url('Collapse_Icon-default.png')</Property>
+              <Property
+                Name="ButtonIconHeight">40px</Property>
+              <Property
+                Name="ButtonIconWidth">40px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Print">
+            <Properties>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderTopLeftRadius">0px</Property>
+              <Property
+                Name="BorderTopRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomRightRadius">0px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">0px</Property>
+              <Property
+                Name="Width">40px</Property>
+              <Property
+                Name="Height">40px</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="ButtonIcon">url('Printer_Icon-default.png')</Property>
+              <Property
+                Name="ButtonIconHeight">40px</Property>
+              <Property
+                Name="ButtonIconWidth">40px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="CollapseAll">
+            <Properties>
+              <Property
+                Name="Width">40px</Property>
+              <Property
+                Name="Height">40px</Property>
+              <Property
+                Name="ButtonIcon">url('Collapse_Icon-2.png')</Property>
+              <Property
+                Name="ButtonIconHeight">40px</Property>
+              <Property
+                Name="ButtonIconWidth">40px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="RemoveHighlight">
+            <Properties>
+              <Property
+                Name="Width">40px</Property>
+              <Property
+                Name="Height">40px</Property>
+              <Property
+                Name="BorderTop">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 0px #e1e1e1</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="ButtonIcon">url('highlightclear_icon-default.png')</Property>
+              <Property
+                Name="ButtonIconHeight">40px</Property>
+              <Property
+                Name="ButtonIconWidth">40px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+        <Properties>
+          <Property
+            Name="PaddingLeft">3px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Toolbar Button Separator">
+        <Properties>
+          <Property
+            Name="Color">#f3f3f3</Property>
+        </Properties>
+      </Style>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="Collapse_Icon.png">H4sIAAAAAAAEAAGTAWz+iVBORw0KGgoAAAANSUhEUgAAACAAAAAXCAYAAABqBU3hAAABWklEQVRIic3WMUtcQRQF4O/p6NpYhEC0CWmyRawMksIihVVIJdjlXxiwSplGu/yCVCmstwghsGCxXUIgVVJoK0QbBQV1XWOKmdXZlXQ7zz0wMHdm4Jx3ue/cWzXbHZjCI/zFIa7UhIAKv/A0nX3HciZiFg8LcJ/hIGA6I4cXWMSPFO9iroAAaAQx7Tmu8SeLt/G8APkxegGX2MJG2r/DfvbwbQHyG1SpCGFGzEa3JOEwQrY/r5O4j4n7IB1LASv4jBaW6hQQMIkvaKSzl3iCkxS/wrMC3Kf4GEQbbmQXDxLhtxS3hu5HiU99H7jISI7wO3u0qlwGukH0/NeiEfXw3m364WtaRdD3gZ20asfY/IZjIWBGbM33ImBTLLxjrNcpoGq2O1MGO+A1HrttyR+UmwfWgrt1UGE+E/BGuYkoBPHr9wzOhD+zR03lZsJuEFO+4P9T8YlBYxop/gHj+UekBRbXQwAAAABJRU5ErkJgghMaHLmTAQAA</Resource>
+      <Resource
+        Name="Printer_Icon.png">H4sIAAAAAAAEAAH9AQL+iVBORw0KGgoAAAANSUhEUgAAACYAAAAfCAYAAACLSL/LAAABxElEQVRYhe3XP2sUQRiA8d/JYgLGfyBiQPAkBKzUykIiiUQkX8AqhZ22tlbiN7AN2FikE+sgOTi5BPwQSiKkEsFLYqEgnMXNkcXb28nu7coJeWC4g3feeR/25t6ZbcxvduRwAZfyJozBN3RXt1qZwSSS/BbLVRsFWngwKhgTG8Sf4mtFQpexFqsdExvwHrtjCg1oHmfSqYqKVc6JWFEa85udRbxCIyM+hxn8RK+qmpjGD3zOiPfwLMEd3I4sNl2RVJoZ3BoRu5k4elJN7P81oYFzNUjBgeFf4bzw70+3i310Mxb4XotWIN351xeOevnEbv4TsaJkHUlT2MB1/Y1/tqbahzhYX1jewcrqVutXTOw0buBKTUIDLoYxFWpGxQ4xG763saj/9HYrEmpiBx+wNOo+NrF7bGLFjnsfS/MSjwvmvMGLIgllxGZxrUROIdJiXwyfXWcycp6EMS530U0fQ1I3nASfDB/e/4Ksa1ZP32Uvwbswsmjrt4s0c7hXUKJj+O61LaddlNljr7FUMKeN+0USyog9x0rBnI2iRcqIfQyjVv77BvtQtW/iUWJiv8Pn2nguuWtnEhN7hKuye8449LCXN+EPxJRMv/2xDA4AAAAASUVORK5CYIJOyrRK/QEAAA==</Resource>
+      <Resource
+        Name="Remove-Highlight-Icon.png">H4sIAAAAAAAEAAHpAhb9iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAYAAAAMq2gFAAACsElEQVRIibXXT4hWVRjH8c87jIUFglGSTQpqky4cqEALfF29tMilEJoX3bgSXUTEkOK2P+IuQbF20etYCG5sY3PT8DoZiLgI/y1c+CeUalq5yChdnHPreufM+15nnGdzLue593zP8zy/53Bua3j8jAa2CK/gBm7jQenIirzJ9wYavcUxnMVN3MHneKvht6DVIKKhCuAi3sZg9F3HEXyZFfmNXos0iWgzWvgKG/ASdmICy7EX3/RbpAloUxyPxvE3HMQ6vB/nfpktaAXW4KqQtrq9U9vEjEHvxXEs4VuEjlC707MFlWlL1WCjIIpjWZH/MxvQCFbjAq4k/Fvi2O0H6QfaHMdvE74htIUG/vlJgVL1KSU/lhX5g4S/MWit0CMTwq7rVpf8jEG9Fuon+cagASE1/0rXp5fkHwvUFo6ZU7ib8PeS/LQ2mJgrZZva8RTJd9udl/Ex9mdF/t9R1G131mAXRrMiv1uPaJ7QiPdxPAEqo6mm9DVsw6luuzMSIW9iPM6vYmrqOngBJzGZAE2pT1bkJ7APz+OHbruzJX6/ALuzIv8xBepV6GklnxX5RxXY1xXIZ+U7VdB8vCuk7UQC1K93juMvoZHv4buqswraEWFP4RL24/XKe9NKPtbkJJ5GgWeFNI6kQM/E8RoW40NBXZfxhSD502qS77Y7q/xfk31Zka/3aM2W1UEX4jiBJfgA5wXVbI++7+vR4MUYwSexVmXNPsXCCHzkcvIc/ogRrawsNCr0yQCWmSoE3XZnXlbkf9d3UJ2vRjQpNOGrQqMN4UBMQyvOJW86KUh9vi7vskkP4FZc/HfhinUotVhTq4P24Kf4PIlzeEM492Zl9bNuIYbxK5ai711gpqA/hSPoiVtrePzMfOF4ac0FQPghOD+IrTg8R5DSdg8KfwpX5xh06SFjxLwwFC6qAwAAAABJRU5ErkJggiGRHM7pAgAA</Resource>
+      <Resource
+        Name="Collapse_Icon-2.png">H4sIAAAAAAAEAAGQAW/+iVBORw0KGgoAAAANSUhEUgAAACAAAAAXCAYAAABqBU3hAAABV0lEQVRIie2Wr0tDcRTFP9PvcysGEdQyVjS4NBGDwWASk2Dzv5iwZLQoliWjyWBeEDHZFcGkQaugFoUJ0zl/cOU+uTzEtPudYQe+8O57D855l/vOPblkZxcgAcaAD+ABeCcSApADLoFJpTwD5o2IYWDUQU4LuBcBQ4ZcMAdUgHOtr4Fxp37kg7bd4hO4M/UBMONA/gR0RMAbsA3U9HoDuDUvrjuQ/yAdQkFBu9H2JMwimPolJnGKgV6Q/ksBi8Ah0ABmYwqQGRgEjuSf1HsLQAloar0ETDtwPwN7QW04bx6MKOGp1o3M825iP/WBV0PyCFwZkhXHDrSDev6yGlEH2DTtFxzrcUHqAyd6oqPvA1ZAQVdzTwRs6eDJiqzGFCDbMMlsQMkDRbOS6455YDX8MgcS0SaMgDXHRBREgHz9TSYTXpiXphwz4bcRScvLf6RimQ1rTN0D8AWP/kYkzRZLiwAAAABJRU5ErkJggsUjepeQAQAA</Resource>
+      <Resource
+        Name="Printer_Icon-2.png">H4sIAAAAAAAEAAHlARr+iVBORw0KGgoAAAANSUhEUgAAACYAAAAfCAYAAACLSL/LAAABrElEQVRYhe2XzysEURzAP6tlld8l2VJsLk4o5aCESP4BZzeurk5ydXJx2HJxl/OmlE3K0c2FUHuSYjkptXr1Hc1O783bN/tG1H7qNe28+X6/n2ner8207x8SQz8wGPdAE7wAb6bwrCXvCbCcktg5sGLqtIkF/VvAsyehIaBoq20TCzgDHj2JjTXyUJunYt5pibmixtgCcABkNLHjcr0Fap5qBnVmgBtNv6qzrcRmgWlLsk5PUmG6gSlD32Q29AZqtlQjD6i+3hSkFO+ar9AXzP7wclE1rMSvKYnF0pqVrvzp5SJKDigBBRn4PSnV/pAJ8ACsAZ82sQ5gAhhOSShgQFpOataJ6T6lepO8LBVluVeQ3z5aQXKWJVdeatbRGvyuNHoeC7MHbDjGHAO7LgFJxNSYGE0Q40RY7Emzd3Vpkm1Ka5Y5zRb4c8JRYneazfs30B2zauJSUWKn0nRcyHktjDqjzTuKXwL3kXtXwKIpIMkYO4pLaEC94JJLQBKxHdlCXCi5Fkkidi0tVf79Arvq+Z+4FZvYl1yLnqR0ubXYxNaBEcOa0wxqvaoYEwDfxiM7xUizssQAAAAASUVORK5CYIL32UbJ5QEAAA==</Resource>
+      <Resource
+        Name="Remove-Highlight-Icon-2.png">H4sIAAAAAAAEAAGaAmX9iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAYAAAAMq2gFAAACYUlEQVRIibXWSaiPURjH8c/VRShF5qmueUGhLsq1kgVLJUOxsRJKkik7mXeE2BFdpGxIIUMZ6yYLmcrGLFwrC2Toreet19v5D9z/fTZPPed9z/ec5/k955ymnvsOqcOGYDxe4g1+1/NT0XrU+d053MYrvMcBzG40aCTa8A6XMBDrcBcvsANjGgFaiiacwEKMwBrcwVhsx5lGgJaEPx3+Iw5jDtZH7FFXQePQimd4mBhfUFrEf4OWhW9PjGVKnBfiuNFVUJ62VA0WoTkU+bMroKmYggd4mhhfHv5ULUgt0NLwZxNjueSzBr7fKFCqPrnk2+s9JSqBZkaP3IlVl60s+f8GVZuoluTrBvWI1PyqUJ9qkv8nUFscM9fxITFeTfL/BMplm1pxSvKjcDziRWuN+NAUqGc04necr7KbYkqnYWVkYGrEZuFqxCenQNmRMhiX0ZkApepzAXsxCNciI9n//bEVN8URUmui3KpJfkv4zTgZPZZB9uQfFHfUB4sjbRcSoFq9k6X6W0C+4mJxsAhaHbBeeIz9mF74rprkZ0W6euMW+kUa85r9Beob/jmGY2Oo6wmOheRvJCQ/uVCTrFZzSzVrKYMehM9qMBob0BETrYqxK4ndDIsd7CrUKvO7MSCAis+t7NHxOXY0qTDRJuyMRbVUOPuytvhRLV7cUWc04USsjavgYKShKWIpiAqQv+LlPsqbNAO8jsk/YT6OVJisLiuDtsV7Ld/hPcyIru+SlRs2K94EvI1HYc23QL1WBn2JI6jh1hxNOjMK3h2WXfUdGWgFjnYTJLet+bssu5a7z3j8B9VKhkQ3cBNAAAAAAElFTkSuQmCCBVHAfpoCAAA=</Resource>
+      <Resource
+        Name="Printer_Icon-default.png">H4sIAAAAAAAEAAHmARn+iVBORw0KGgoAAAANSUhEUgAAACYAAAAfCAYAAACLSL/LAAABrUlEQVRYhe2Xu0oDQRRATyQYwTeIGAjoYmOlgmAhiIoi/oCNjZ22tlbiH9hJwMZerIMgGESwtLNRVEglgkYrQYgM3JVNmNnJbGZFIQeGJTt77z3LziuZwsYhMQwAQ3EPtMAL8GYKz1ryngDLKYmdAyumTptY2L8NPHsSGgaKtto2sZAz4NGT2FgzD3V4KuadtpgraowtAAdARhM7LtdboOapZlhnBrjR9Ks6O0psFpi2JOvyJBWlB5gy9E1mI2+gZku14QHV15eClOJd8xX6w9kfXS6qhpX4NSWxWNqz0pU/vVw0kgNKQCADvzel2h8yAR6ANeDTJtYJTAAjKQmFDErLSc06Md2nVG+Sl6WiLPcC+e2jBZKzLLnyUrOO9uB3pdnzWJR9YNMx5hjYcwlIIqbGxGiCGCeiYk+avatbk2xLWqvMabbAnxOOErvTbN6/ge6YVROXihI7labjQs5rUdQZbd5R/BK4b7h3BSyaApKMsaO4hAbUCy65BCQR25UtxIWSa5EkYtfSUuXfL7Crnv+JW7GJfcm16ElKl1uLTWwdKBjWnFZQ61XFmAD4Bhw2O66AD544AAAAAElFTkSuQmCCD8ZG++YBAAA=</Resource>
+      <Resource
+        Name="Collapse_Icon-default.png">H4sIAAAAAAAEAAGQAW/+iVBORw0KGgoAAAANSUhEUgAAACAAAAAXCAYAAABqBU3hAAABV0lEQVRIie2Wr0tDcRTFP9Pv3IpBBDU4LBpcUsRgMJjENLC5v0LBZLRszWgyGcwLIia7Ipg0zCqoZcIEdc4fXLlPLg9Z2v3OsANfePe9B+e8y33nnsxkeR8gC4wBn8Aj8EEkBCADXAPTSnkBLBkRw8Cog5wX4EEEDBlywSIwB1xqXQfGnfqRC9p2iy/g3tRHwLwD+RPQFgHvQBXY1usd4M68uOVA/otkCAV57UbLkzCNYOrXmMQJBnpB+i8FrADHQA1YiClAZmAQOJF/Uu8tA1NAU+tVYNaB+xk4CGrDOfNgRAnPta6lnncTh4kPvBmSBnBjSEqOHWgF9fw1NaI2sGvaLzjV44LEB870REffB6yAvK7mngio6ODJityMKUC2YTa1ASUPFMxK3nPMA+vhjzmQiDZhBGw4JqIgAuTrb1OZ8Mq8NOOYCX+MSFpe7JCKZTasMXUPwDeHHkXfuw3y0wAAAABJRU5ErkJggnXF4iiQAQAA</Resource>
+      <Resource
+        Name="highlightclear_icon-default.png">H4sIAAAAAAAEAAGbAmT9iVBORw0KGgoAAAANSUhEUgAAABoAAAAgCAYAAAAMq2gFAAACYklEQVRIibXWSaiPURjH8c+VIZQis0uZLSiUobCSBUslQ7GxEkqSKTuZsqOIHZEhZXOlkKG4qNvNQtdQNmaZVhbI0FvPW+99O/+B//8+m6ee877ne87z/J5zTkvrmuPqsOGYhJd4gz/1/FS0XnV+dwn38ArvcQTzmw0ag4V4h6sYgs24jxfYi3HNAK1CC05jGUZjI9oxAXtwoRmgleHPh/+IY1iALRF73ChoIubgGR4lxpeWFvHfoNXhzyXGMiUuDnHcbhSUpy1Vg+XoHYr81QhoBqajE08T42vCn60FqQVaFf5iYiyXfNbAD5sFStUnl/y5ek+JSqC50SPtseqylSX/36BqE9WSfN2gXpGa3xXqU03y/wRaGMfMLXxIjFeT/D+BctmmVpySfCtORbxocyI+IgXqE434A5er7KaY0plYFxmYEbF5uBHxaSlQdqQMwzV8SYBS9WnDIQzFzchI9v8g7MIdcYTUmii3apLfGX4HzkSPZZCD+QfFHfXHikhbWwJUq3eyVH8PyDdcKQ4WQRsC1hddOIxZhe+qSX5epKsf7mJgpDGvWTfQgPDPMQrbQl1PcDIkfzsh+WmFmmS1WlSq2fgyqDN8VoOx2IqOmGh9jF1P7GZk7GB/oVaZP4DBAVR8bmWPjs+xo6mFibZjXyxqfIWzL2uLn9XixR19iSacgk1xFRyNNLRELAVRAdItXu6jvEkzwOuY/BOWoK6XZiUrg3bHey3f4QPMjq5vyMoNmxVvMt7Go7DmW6BeK4O+xhHUdOsdTTo3Ct4Tll31HRloLU70ECS3Xfm7LLuWe87o+gtS+oYWY7GjAAAAAABJRU5ErkJggokS9AmbAgAA</Resource>
+    </Resources>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="Print|RemoveHighlight" />
+  <Strings />
+</CatapultSkin>

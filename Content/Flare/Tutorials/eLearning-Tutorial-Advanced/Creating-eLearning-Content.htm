@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Tutorials-Videos/Flare-LMS-Tutorial-Advanced.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating topics, questions, answers, feedback, and other eLearning content." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/eLearning-Advanced.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:eLearning;Learning and development:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />Creating eLearning Content</h1>
+        <p>The project already has several topics, which we will use as learning blocks as part of the course. We also need some additional learning blocks containing questions and answers. In other words, our eLearning course will consist of several topics that learners can navigate through; some of the topics will simply display information, while others will have interactive question sections and feedback.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp">
+        </MadCap:snippetBlock>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Add Folders</h2>
+        <ol>
+            <li>
+                <p>First, let's create some folders to organize the new topics that we'll be adding. In the Content Explorer, right-click the root <span class="Emphasis">Content</span> folder, and from the context menu select <span class="Emphasis">New &gt; Folder</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Add-Folders1.png" alt="" title="" class="MaxWidth60Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Type <span class="TypedEntry">Knowledge-Check-Topics</span> as the name of the folder, and press <span class="Emphasis">ENTER</span>.</p>
+            </li>
+            <li>
+                <p>Repeat these steps to add another folder named <span class="TypedEntry">Test-Topics</span>.</p>
+                <p>Knowledge check topics consist of  information that is relayed to a learner, but the learning exercise is not formally graded. You have the option to track if the learner completed the course or not. In this tutorial, we'll add a couple of knowledge check topics in the middle of the course.</p>
+                <p>Test topics consist of quiz questions with specific answers that are graded. A quiz is a basic way to determine a level of knowledge. It can reveal gaps in knowledge. We'll add some test topics at the end of the course. </p>
+                <p>Either knowledge checks or test results can be tracked by integrating them with an external learning management system (LMS). We'll go over this more later (see <MadCap:xref href="Creating-Developing-Targets.htm">Creating and Developing Targets</MadCap:xref> and <MadCap:xref href="Accessing-LMS-Package.htm">Accessing the LMS Package</MadCap:xref>).</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">On the next page of this tutorial, we have included an optional knowledge check.</p>
+                </div>
+            </li>
+        </ol>
+        <h2>How to Add Topic Files</h2>
+        <ol>
+            <li>
+                <p>In the Content Explorer, right-click the <span class="Emphasis">Knowledge-Check-Topics</span> folder, and from the context menu select <span class="Emphasis">New &gt; Topic</span>. The Add File dialog opens.</p>
+            </li>
+            <li>
+                <p>Under the Factory Templates, select the <span class="Emphasis">NewTopic.htm</span> template.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the <span class="Emphasis">File Name</span> field, type <span class="TypedEntry">First Knowledge Check</span> as the name for the first new topic.</li>
+            <li>
+                <p>Click <span class="Emphasis">Add</span>. The topic is added to the Content Explorer, and the XML Editor opens to the right, displaying the topic.</p>
+            </li>
+            <li>
+                <p>Add another topic to the same folder, and name it <span class="TypedEntry">Second Knowledge Check</span>. </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Add a third topic in that folder and name it <span class="TypedEntry">The End</span>.</p>
+                <p>Here is what you should see.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Repeat the steps above to add the following new topics under the <span class="Emphasis">Test Topics</span> folder:</p>
+                <p class="TypedEntry">Quiz</p>
+                <p class="TypedEntry">Question 1</p>
+                <p class="TypedEntry">Question 2</p>
+                <p>Here is what you should see.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Add  Content to the Knowledge Check Topics</h2>
+        <ol>
+            <li>
+                <p>Open the <span class="Emphasis">First Knowledge Check.htm</span> topic. (You can either double-click the topic file in the Content Explorer, or select the tab at the top of the editor area.)</p>
+            </li>
+            <li>
+                <p>Delete the placeholder text under the heading so that it's an empty paragraph.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">eLearning</span> ribbon at the top of Flare, click <span class="Emphasis">Multiple Choice</span> (with the circles).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Interface/Buttons/LMS-Multiple-Choice-btn.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>For the question, copy and paste this text:</p>
+                <p class="TypedEntry">What is the capital of Texas?</p>
+            </li>
+            <li>
+                <p>For the first answer, enter <span class="TypedEntry">Waterloo</span>, and press <span class="Emphasis">ENTER</span>.</p>
+            </li>
+            <li>
+                <p>For the second answer, enter <span class="TypedEntry">San Antonio</span>, and press <span class="Emphasis">ENTER</span>.</p>
+            </li>
+            <li>
+                <p>For the third answer, enter <span class="TypedEntry">Austin</span>. This time, <span class="EmphasisItalic">do not</span> press ENTER, since this is the last answer for the question.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click the circle next to <span class="Emphasis">Austin</span>, since that is the correct answer. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Now let's add some feedback, depending on whether the learner chooses the correct or incorrect answer. In the <span class="Emphasis">eLearning</span> ribbon click <span class="Emphasis">Add Feedback</span>. </p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">You can also right-click a MadCap structure bar to the left of the content to add feedback (or perform other eLearning tasks). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">Structure Bars</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>
+                <p>Replace the first line of text with this:</p>
+                <p class="TypedEntry">Correct. The capital of Texas is Austin.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Replace the second line of text with this:</p>
+                <p class="TypedEntry">Incorrect. The capital of Texas is Austin.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Next, we need a button so that learners can submit their answer. So in the <span class="Emphasis">eLearning</span> ribbon click <span class="Emphasis">Add Submit Button</span>. A button with the word "Submit" is added at the end.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>We're going to add another question section after this one. But this time, we will allow multiple selections. To begin, click after the <span class="Emphasis">Submit</span> button in the topic, so that you see the flashing horizontal cursor under it.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Press <span class="Emphasis">ENTER</span>.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">eLearning</span> ribbon, click <span class="Emphasis">Multiple Response</span> (with the squares).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Interface/Buttons/LMS-Multiple-Response-btn.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>For the question, copy and paste this text:</p>
+                <p class="TypedEntry">What kind of weather is likely in Austin? (Select all that apply.)</p>
+            </li>
+            <li>
+                <p>Add the following three responses, pressing <span class="Emphasis">ENTER</span> after the first and second answers, but not the third:</p>
+                <p class="TypedEntry">Long hot summers</p>
+                <p class="TypedEntry">Snowfall in autumn</p>
+                <p class="TypedEntry">Short mild winters</p>
+            </li>
+            <li>
+                <p>Click the first and third check boxes as the correct answers.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics9.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Use the <span class="Emphasis">Add Feedback</span> button to provide the following:</p>
+                <p class="TypedEntry">Correct. Austin's climate is considered humid subtropical.</p>
+                <p class="TypedEntry">Incorrect. Austin experiences long hot summers and short mild winters.</p>
+                <p>Then click <span class="Emphasis">Add Submit Button</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">You can also start by selecting just <span class="Emphasis">Add Submit Button</span>. This will add not only the placeholder feedback text, but the Submit button as well.</p>
+                </div>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>Open the <span class="Emphasis">Second Knowledge Check.htm</span> topic. In the same way as above, add two question sections. Copy and paste the following text (a multiple choice first, then a multiple response), add submit buttons, and set the correct answers as shown in the image below.</p>
+                <p class="Emphasis">First Question Section</p>
+                <p class="TypedEntry">What is Austin known as?</p>
+                <p class="TypedEntry">"The Live Music Capital of the World"</p>
+                <p class="TypedEntry">"Best Barbecue in the World"</p>
+                <p class="TypedEntry">"Center for Urban Bat Colonies"</p>
+                <p class="TypedEntry">Correct. Even though BBQ and urban bats are found in Austin, the city is  known for its vibrant music scene. Its official slogan is "The Live Music Capital of the World."</p>
+                <p class="TypedEntry">Incorrect. Austin has a vibrant music scene, and is officially known as "The Live Music Capital of the World."</p>
+                <p class="Emphasis">Second Question Section</p>
+                <p class="TypedEntry">What music events are in Austin? (Select all that apply.)</p>
+                <p class="TypedEntry">Lollapalooza</p>
+                <p class="TypedEntry">Austin City Limits</p>
+                <p class="TypedEntry">South by Southwest</p>
+                <p class="TypedEntry">Correct. Austin is home to the SXSW music festival and the ACL music festival.</p>
+                <p class="TypedEntry">Incorrect. Austin hosts South by Southwest and Austin City Limits. Chicago hosts the Lollapalooza music festival.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Notice the small markers indicating that both of these questions are required, just as they are in the First Knowledge Check. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>This means that learners must answer the question in order to use the navigation button (which we'll add soon) to proceed to the next page of the course. Let's make both of the questions in the Second Knowledge Check optional, which means learners do not have to answer them before moving to the next page. In the <span class="Emphasis">eLearning</span> ribbon, click <span class="Emphasis">Question Properties</span>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Markers are shown only when you're working in the XML Editor in Flare; they are not shown in the output. To enable or disable markers, go to the local toolbar at the top of the XML Editor, click the <span class="Emphasis">Show Tags </span><img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Show-Tags-btn.png" class="ReduceButtonSize" /> drop-down field, and then select <span class="Emphasis">Markers</span>.</p>
+                </div>
+            </li>
+            <li>
+                <p>Click any of the content for the first question section (i.e., the question itself, any of the answers, the feedback, the submit button). The Question Properties window pane to the right contains some fields that reflect the properties for that element. Even as you click on different parts of that question section, you will see the values for the fields changing (e.g., click the different answers to see which is set as the correct one in the window pane). We're not going to use or change most of the options in the window pane for this tutorial <MadCap:conditionalText MadCap:conditions="General.Online-Only">(for details about the various options, see <MadCap:xref href="../../LMS/Other-Activities/Tools-LMS-Content/Question-Properties-Window-Pane.htm">Question Properties Window Pane</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">(for details about the various options, see the online Help)</MadCap:conditionalText>. But let's change one thing. From the <span class="Emphasis">Required for Navigation</span> drop-down, select <span class="Emphasis">False</span>. This changes the marker for the question to "Optional."</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In addition to setting questions as required (or not) individually using the Question Properties window pane, you can set it on the <span class="Emphasis">MadCap|multipleChoice</span> style in your stylesheet. For example, if you don't want any of your questions to be required, setting the <span class="Emphasis">mc-required-question</span> property (located in the Unclassified section of the Stylesheet Editor ) on this style to false can save you a lot of time, so that you don't have to set each question one at a time from the Question Properties window pane. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Styles/Main-Activities/Editing-Styles.htm">Editing Styles in a Regular Stylesheet</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+            <li>
+                <p>Do the same for the second question section in the topic. Now both questions are optional.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>Open the topic called <span class="Emphasis">The End.htm</span>. We're not going to add any question sections to this topic. We're simply going to use it to show that the learner has reached the end of the course. Paste the following text into the topic, replacing the placeholder text:</p>
+                <p class="TypedEntry">This is the end of the course. Thanks for learning all about the city of Austin, Texas.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Tutorials/Note-Convert-Content-Question-Sections.flsnp" />
+        <h2>How to Add Content to the Test Topics</h2>
+        <ol>
+            <li>
+                <p>Open the topic called <span class="Emphasis">Quiz.htm</span>. Again, we're not going to add any question sections to this topic. It's purpose is simply to inform people that they are at the beginning of the quiz. Paste the following into it, replacing the placeholder text:</p>
+                <p class="TypedEntry">This is the start of a short quiz to test your knowledge about Austin. Navigate to the next topic to begin the gradable portion of the course.</p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>Open the <span class="Emphasis">Question 1.htm</span> topic.</p>
+            </li>
+            <li>
+                <p>Delete the placeholder text under the heading so that it's an empty paragraph.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">eLearning</span> ribbon, click <span class="Emphasis">Multiple Choice</span> (with the circles).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Interface/Buttons/LMS-Multiple-Choice-btn.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>For the question, copy and paste this text:</p>
+                <p class="TypedEntry">Who is known as the "Father of Texas"?</p>
+            </li>
+            <li>
+                <p>Add the following three answers:</p>
+                <p class="TypedEntry">Stone Cold Steve Austin</p>
+                <p class="TypedEntry">Stephen F. Austin</p>
+                <p class="TypedEntry">Lyndon Johnson</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click the circle next to <span class="Emphasis">Stephen F. Austin</span>, since that is the correct answer. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" /> </p>
+                <p>We're not adding feedback or a Submit button this time, because we don't want learners to see instant feedback. We could add just feedback without a Submit button, in which case the feedback content would be shown at the end on the quiz results page. But in this tutorial, we're going to just let that page show the results, instead of any additional feedback.</p>
+            </li>
+            <li>
+                <p>Open the <span class="Emphasis">Question 2.htm</span> topic.</p>
+            </li>
+            <li>
+                <p>Delete the placeholder text under the heading so that it's an empty paragraph.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">eLearning</span> ribbon, click <span class="Emphasis">Multiple Response</span> (with the squares).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Interface/Buttons/LMS-Multiple-Response-btn.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>For the question, copy and paste this text:</p>
+                <p class="TypedEntry">Which are not official slogans for Austin? (Select all that apply.)</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Add the following three answers:</p>
+                <p class="TypedEntry">"Best Barbecue in the World"</p>
+                <p class="TypedEntry">"The Live Music Capital of the World"</p>
+                <p class="TypedEntry">"Center for Urban Bat Colonies"</p>
+            </li>
+            <li>
+                <p>Click the first and third check boxes as the correct answers.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Topics14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

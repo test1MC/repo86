@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>For print-based output, there are two ways to set the configuration (e.g., page size, margins, headers, footers) for pages in the output: page layouts and template pages. <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide">Page layouts are newer and are recommended over template pages. One reason for this is that page layouts are easier to use. Another reason is that page layouts can be used with either <MadCap:variable name="Outputs.PDF" /> or <MadCap:variable name="Outputs.Word" />), whereas template pages can be used only for <MadCap:variable name="Outputs.Word" /> targets.</MadCap:conditionalText></p>
+        <ul MadCap:conditions="General.Online-Only">
+            <li><a href="../../../../Flare/Page-Layouts/Page-Layouts.htm">Page Layouts (Recommended)</a>
+            </li>
+            <li><a href="../../../../Flare/Template-Pages/Template-Pages.htm">Template Pages</a>
+            </li>
+        </ul>
+    </body>
+</html>

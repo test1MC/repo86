@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>When creating a response, you can do so using a few different methods, and each has pros and cons.</p>
+        <div class="video" MadCap:conditions="General.Server-Only">
+            <p class="buttonT32-play"><a href="https://youtu.be/_AAqTsa0WCM" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+            </p>
+            <p class="more-videos"><a href="https://www.madcapsoftware.com/videos/flare/#MicroContent" target="_blank">View More Videos in This Series</a>
+            </p>
+        </div>
+        <table style="width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 40%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 40%;" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Method</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Pros</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Cons</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method1">Response Method 1: Creating Micro Content From a Topic</MadCap:xref>
+                        </p>
+                        <p class="TableText">&#160;</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <ul>
+                            <li>You are linking to existing content, rather than creating new content.</li>
+                            <li>You can be more specific with the response than the other linking methods.</li>
+                            <li>A link to the corresponding topic is automatically added to the bottom of the featured snippet in the search results.</li>
+                        </ul>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <ul>
+                            <li>Some content contained in a topic might look just fine as a standalone micro content response. However, sometimes you might find the need to make edits to that content first.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method2">Response Method 2: Linking Phrases to Entire Topics or Snippets</MadCap:xref>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <ul>
+                            <li>You are linking to existing content, rather than creating new content.</li>
+                            <li>A link to the corresponding topic is automatically added to the bottom of the featured snippet in the search results.</li>
+                        </ul>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <ul>
+                            <li>Linking to some topics (even using a bookmark) might be too much content for a micro content response.</li>
+                            <li>If you link to a snippet, you will not see an automatic link at the bottom of the search results, like you would see when linking to a topic.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method3">Response Method 3: Linking Phrases to Bookmarks</MadCap:xref>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <ul>
+                            <li>You are linking to existing content, rather than creating new content.</li>
+                            <li>A link to the corresponding topic is automatically added to the bottom of the featured snippet in the search results.</li>
+                        </ul>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <ul>
+                            <li>Although this method lets you be more specific than linking to an entire topic, it will still include everything after the bookmark to the end of the topic, and that might be too much content.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <MadCap:xref href="../../../../../Flare/Micro-Content/Process/Creating-Micro-Content.htm#Method4">Response Method 4: Entering Responses Directly in the Micro Content Editor</MadCap:xref>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <ul>
+                            <li>This method is simple. Just start adding content in the editor. </li>
+                        </ul>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <ul>
+                            <li>Unless you are inserting links to separate files (e.g., snippets, images) in the Micro Content Editor, you are not single-sourcing if that same content exists elsewhere in the project.</li>
+                            <li>You don’t have as many options as you do in a topic or snippet. For example, you cannot add a responsive layout directly in the Micro Content Editor, but you can copy content such as this from a topic or snippet into that editor.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

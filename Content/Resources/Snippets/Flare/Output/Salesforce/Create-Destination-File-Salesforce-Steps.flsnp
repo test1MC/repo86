@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol type="1">
+            <li>
+                <MadCap:snippetText src="../../General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>Open an existing destination file or add a new one. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Step5-Building-Publishing-Output/Publishing-Destinations/Process/Adding-Destination-Files.htm">Adding Destination Files</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p>Click in the <span class="Emphasis">Type</span> drop-down field in the Destination Editor, and select <span class="Emphasis">MadCap Connect for Salesforce</span><span class="Registered-Trademark">®</span>.</p>
+            </li>
+            <li>
+                <p>Activate your Salesforce<span class="Registered-Trademark">®</span> license.</p>
+                <ol type="1" style="list-style-type: lower-alpha;">
+                    <li>Click <span class="Emphasis">Activate</span>. A wizard opens.</li>
+                    <li>Enter the license key, then click <span class="Emphasis">Next</span>. </li>
+                    <li>Enter the name and email of the user associated with the license key. Then click <span class="Emphasis">Next</span>.</li>
+                    <li>Select either <span class="Emphasis">Internet Activation</span> or <span class="Emphasis">Manual Activation</span>. Then click <span class="Emphasis">Next</span>.<ul><li>If you choose Internet Activation,  a confirmation displays to indicate that your  license has been activated. Click <span class="Emphasis">Finish</span>.</li><li>If you choose Manual Activation, follow the instructions on-screen to copy and paste the information in an email to customerservice@madcapsoftware.com.</li></ul></li>
+                </ol>
+            </li>
+            <li>
+                <p>In the Destination Editor, click  <span class="Emphasis">Login Credentials</span>. Then enter the user name and password required for  publishing to Salesforce<span class="Registered-Trademark">®</span>. </p>
+                <p>You also might see a window indicating that a verification code has been sent to your email address. You need to retrieve the code from your email and enter it into the field to proceed.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have created a sandbox environment in Salesforce<span class="Registered-Trademark">®</span>, select the <span class="Emphasis">Login to Sandbox</span> option if you wish to login to it.</p>
+                </div>
+                <MadCap:snippetBlock src="../../Interface/Ribbons-Toolbars-Menus/Note-Proxy-Server.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1 or Snippets.Snippet3]" />
+            </li>
+            <li>In the next window, click <span class="Emphasis">Allow</span> to give MadCap Connect access to your information and data.</li>
+            <li>
+                <p>Complete the <MadCap:dropDownHotspot>MadCap Connect for Salesforce<span class="Registered-Trademark">®</span></MadCap:dropDownHotspot> fields.</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Article-Type.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Rich-Text.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Connect-Record-Type.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Shared-Asset-Library.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Category-Mapping.flsnp" />
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Category-Mapping-List.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Default-Categories.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Channels1.flsnp" />
+                    </li>
+                    <MadCap:snippetBlock src="../Destinations/Salesforce-Channels2.flsnp" />
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Exclusions.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-Article-Summary.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../Destinations/Salesforce-URL-Naming.flsnp" />
+                        <MadCap:snippetBlock src="../Destinations/Note-URL-Naming-Hyphens.flsnp" />
+                        <MadCap:snippetBlock src="../Destinations/URL-Naming-List.flsnp" />
+                        <MadCap:snippetBlock src="../Destinations/Note-URL-Naming-Suffix-Prefix.flsnp" />
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../Destinations/Salesforce-Include-Images.flsnp" />
+                        </p>
+                        <MadCap:snippetBlock src="../Note-Include-Images-Salesforce-Formats-Supported.flsnp" />
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../Destinations/Salesforce-Publish-Articles.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../Destinations/Salesforce-Connect-Create-Lightning-Style-Links.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../Destinations/Salesforce-Use-Compression-Bulk-Upload.flsnp" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>(Optional) The <span class="Emphasis">Destination ID</span> section tracks the files published to the shared asset library or private library in Salesforce<span class="Registered-Trademark">®</span>.   This is especially useful for a team of writers, because it ensures all the authors can update the same set of articles published from Flare.</p>
+                <p>Once you start setting up a Salesforce<span class="Registered-Trademark">®</span> destination, you get a generated destination ID right away. You probably won't need to click <span class="Emphasis">Generate GUID</span> to create a new one. However, you can click it if the need arises. For example, if you copy a Salesforce<span class="Registered-Trademark">®</span> destination file to create a new one, you probably want to generate a new destination ID&#160;for that file.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../Destinations/View-URL-Field.flsnp" />
+            </li>
+            <li>
+                <p>(Optional) Select the following upload options when you publish to Salesforce<span class="Registered-Trademark">®</span>. The <span class="Emphasis">Upload Log File</span> option is automatically selected for Salesforce<span class="Registered-Trademark">®</span>. </p>
+                <ul>
+                    <li><span class="SetOffSecondLevel">Upload Only Changed Files </span>Select this option if you want <MadCap:variable name="Other.Product" /> to republish only the files that have changed. This can save significant time.</li>
+                    <li><span class="SetOffSecondLevel">Remove Outdated Published Files </span>Select this option if you want Flare to identify files that were previously published to the destination but are no longer in the source files. Flare will then remove such files from the destination.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

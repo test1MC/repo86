@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Accessibility.flmsp');">
+    <head>
+        <meta name="description" content="You can make tables more accessible by including a header row, captions, or a summary." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Accessibility:tables;Tables:accessibility" />Accessibility and Tables</h1>
+        <p>You can make tables more accessible by performing certain tasks. Also, support for Accessible Rich Internet Applications (ARIA) tags helps make tables more accessible.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Accessibility Tasks</h2>
+        <p>You can improve the accessibility of tables by including the following to each one:</p>
+        <ul>
+            <li>Header row</li>
+            <li>Captions </li>
+            <li>Summary </li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/Flare/Accessibility/Table.png" alt="" title="" class="MaxWidth90Percent" />
+        </p>
+        <p MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Tables/Main-Activities/Inserting-Tables.htm">Inserting Tables</MadCap:xref> and <MadCap:xref href="../../Tables/Main-Activities/Editing-Table-Properties.htm">Editing Table Properties</MadCap:xref>.</p>
+        <h2>
+            <MadCap:keyword term="Accessibility:ARIA;ARIA" />ARIA Tags</h2>
+        <p>For HTML5 output, Flare adds ARIA attributes to new tables automatically. This helps make tables more accessible in HTML5 output by letting users know where the cursor is located in the table. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../User-Interface/Accessibility-ARIA-Tags.htm">Accessibility and ARIA Tags</MadCap:xref>.</MadCap:conditionalText> </p>
+        <p>Depending on how you structure the table or table stylesheet, the following attributes will be included in the code:</p>
+        <ul>
+            <li>
+                <p class="Emphasis">scope="col" </p>
+                <ul>
+                    <li>
+                        <p>This displays when the content in a &lt;th&gt; tag is within a &lt;thead&gt; tag.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Tables1.png" alt="" title="" class="MaxWidth90Percent">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>It tells the user that the content covers the scope of the current column.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Tables2.png" alt="" title="" class="MaxWidth90Percent">
+                            </img>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+            <li>
+                <p class="Emphasis">scope="row" </p>
+                <ul>
+                    <li>
+                        <p>This displays when the row content is within a header column. You can create this scenario by changing the &lt;td&gt; tag in a row to a &lt;th&gt; tag.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Tables3.png" alt="" title="" class="MaxWidth100Percent">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>It tells the user that the content covers the scope of the current row.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Tables4.png" alt="" title="" class="MaxWidth100Percent">
+                            </img>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+            <li>
+                <p class="Emphasis">role="rowheader"</p>
+                <ul>
+                    <li>
+                        <p>This displays when the content is in a column header, as specified by the Column Type (Header) in a table stylesheet.</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Tables5.png" alt="" title="" class="MaxWidth100Percent">
+                            </img>
+                        </p>
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Accessibility-Guide" />
+                    <li>
+                        <p>It tells the user that the content covers the scope of the current row (when it is in a &lt;td&gt; tag rather than a &lt;th&gt; tag).</p>
+                        <p>
+                            <img src="../../../Resources/Images/Flare/Accessibility/ARIA-Tables6.png" alt="" title="" class="MaxWidth100Percent">
+                            </img>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have already added these kinds of attributes to existing tables by using the Internal Text Editor, Flare will not overwrite them.</p>
+        </div>
+    </body>
+</html>

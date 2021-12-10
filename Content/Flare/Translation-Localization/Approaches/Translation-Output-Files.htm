@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Translation.flmsp');">
+    <head>
+        <meta name="description" content="The translation of output files is not recommended. Always have the source files translated." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Translation" />Method 5: Translation of Output Files</h1>
+        <p>You might be considering just having the output files translated, which might eliminate the worry of having to filter out a variety of project files. Although this approach is possible, it is not practical in the long run, and it does not benefit from single-sourcing.</p>
+        <p>It is not recommended to translate output files for the following reasons:</p>
+        <ul>
+            <li>Translation is based on output files (online or PDF). You are responsible for extracting all the translatable files manually.</li>
+            <li>Sending one output file might seem like a quick way to get a project translated, but you run the risk of higher translation costs later. </li>
+            <li>You cannot create other output types using translated files in the project (without the assistance from a translator).</li>
+            <li>For HTML5 targets, some search files get compiled during the build. If translating the output files, any JavaScript files in the data folder would need to be parsed, and translated without context of where each word is located in the content.</li>
+            <li>After the translation of output files, you are left with many different files for each output. This can be a maintenance challenge for updating and publishing.</li>
+        </ul>
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">It is recommended to always have the source files translated. By translating the source project (and not the output files), you increase the integrity of the project, you avoid potential workflow and maintenance challenges, and you reduce your overall translation costs.</p>
+        </div>
+    </body>
+</html>

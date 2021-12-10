@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="Products.Flare">
+  <TocEntry
+    Title="ComingSoonTitlePage"
+    Link="/Content/Print-Only-Topics/Shared/Coming-Soon-Title-Page.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    conditions="General.Future"></TocEntry>
+  <TocEntry
+    Title="Title"
+    Link="/Content/Print-Only-Topics/Shared/Title-Page-Green.htm"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    PageNumber="(multiple)"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageType="normal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print-Only-Topics/Shared/Copyright.htm"
+    StartSection="false"
+    PageType="normal"
+    PageNumberReset="reset"
+    PageNumber="(multiple)"
+    StartPageLayout="true"
+    BreakPageLayout="/Content/Resources/PageLayouts/Copyright.flpgl"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Copyright/Copyright.flpgl"></TocEntry>
+  <TocEntry
+    Title="PrintTOC"
+    Link="/Content/Print-Only-Topics/Shared/Print-TOC.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/TOCs/TOC-Green.flpgl"
+    PageType="first"
+    PageNumberFormat="lower-roman"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"></TocEntry>
+  <TocEntry
+    Title="CH 1"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print-Only-Topics/Flare/Source-Control/Git.htm"
+    BreakType="none"
+    PageNumber="(multiple)"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="CH 2"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Flare/Source-Control/Git/General-Information/General-Information-Git.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Source-Control/Git/General-Information/Common-Source-Control-Terms.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Source-Control/Git/General-Information/Source-Control-Icons.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 3"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Flare/Source-Control/Git/Process/Process-Git.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Source-Control/Git/Process/Binding-Project-Source-Control-Git.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Source-Control/Git/Process/Importing-Project-from-Source-Control-Git.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Pulling Files From a Remote Repository"
+      Link="/Content/Flare/Source-Control/Git/Process/Pulling-Files-Remote.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Committing Source Control Files"
+      Link="/Content/Flare/Source-Control/Git/Process/Committing-Source-Control-Files-Git.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Pushing Files to a Remote Repository"
+      Link="/Content/Flare/Source-Control/Git/Process/Pushing-Files-Remote.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Adding Files to Source Control"
+      Link="/Content/Flare/Source-Control/Git/Process/Adding-Files-Source-Control-Git.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Merging Source Control Files"
+      Link="/Content/Flare/Source-Control/Git/Process/Merging-Source-Control-Files-Git.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 4"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Flare/Source-Control/Git/Other-Activities/Other-Git-Activities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Branch-Tasks-Git.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="Branches—Creating"
+        Link="/Content/Flare/Source-Control/Git/Other-Activities/Creating-Branches.htm" />
+      <TocEntry
+        Title="Branches—Deleting"
+        Link="/Content/Flare/Source-Control/Git/Other-Activities/Deleting-Branches.htm" />
+      <TocEntry
+        Title="Branches—Merging"
+        Link="/Content/Flare/Source-Control/Git/Other-Activities/Merging-Branches.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Branches—Publishing"
+        Link="/Content/Flare/Source-Control/Git/Other-Activities/Publishing-Branches.htm" />
+      <TocEntry
+        Title="Branches—Reverting"
+        Link="/Content/Flare/Source-Control/Git/Other-Activities/Reverting-Branches.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Branches—Selecting"
+        Link="/Content/Flare/Source-Control/Git/Other-Activities/Selecting-Branches.htm" />
+    </TocEntry>
+    <TocEntry
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Deleting-Source-Control-Files-Git.htm"
+      Title="Deleting Source Control Files" />
+    <TocEntry
+      Title="Disabling the Get Latest Prompt for Source Control"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Disabling-Get-Latest-Prompt-Git.htm" />
+    <TocEntry
+      Title="Enabling Source Control Status Checks"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Enabling-Source-Control-Status-Checks-Git.htm" />
+    <TocEntry
+      Title="Modifying Network Settings"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Modifying-Network-Settings-Git.htm" />
+    <TocEntry
+      Title="Publishing to Source Control"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Publishing-Source-Control-Git.htm" />
+    <TocEntry
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Reverting-Source-Control-File-Git.htm"
+      Title="Reverting Modified Source Control Files" />
+    <TocEntry
+      Title="Rolling Back to an Earlier Version of a File"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Rolling-Back-Earlier-Version-File-Git.htm" />
+    <TocEntry
+      Title="Setting Color Options for Project File Differences"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Setting-Color-Options-Project-File-Differences-Git.htm" />
+    <TocEntry
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Synchronizing-Files.htm"
+      Title="Synchronizing Source Control Files" />
+    <TocEntry
+      Title="Unbinding a Project From Source Control"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Unbinding-Project-Source-Control-Git.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Using-Git-Windows.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Viewing Differences in Source Control Files"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Viewing-Differences-Source-Control-Files-Git.htm"
+      MarkAsNew="false" />
+    <TocEntry
+      Title="Viewing the History of Source Control Files"
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Viewing-History-Source-Control-Files-Git.htm"
+      MarkAsNew="false" />
+    <TocEntry
+      Link="/Content/Flare/Source-Control/Git/Other-Activities/Viewing-Modified-Files-Git.htm"
+      Title="Viewing Modified Files"
+      MarkAsNew="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/Print-Only-Topics/Shared/Appendix.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="PDF Library"
+    Link="/Content/Flare/PDF-Guides/PDF-Guides-Flare.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    StartPageLayout="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartSection="false"
+    AutoEndOnLeftPage="disabled"
+    ComputeToc="false"
+    PageType="first"
+    BreakType="none"></TocEntry>
+</CatapultToc>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <meta name="description" content="N-grams can be applied to the search database to improve its ability to retrieve more accurate matches for Chinese, Japanese, and Korean languages." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Search:n-gram;N-gram;Translation:search" />
+            <MadCap:concept term="FilterFeatures" />Setting the N-Gram Size for Search</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="Search:n-gram;N-gram;Translation:search" />Setting the N-Gram Size for Search</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5-WebHelp-WH-Plus.flsnp" />
+        <p>N-grams can be applied to the search database to improve its ability to retrieve more accurate matches for Chinese, Japanese, and Korean languages.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>About N-Grams</h2>
+        <p>In the English language, sentences are composed of a sequence of words. Because English words are separated by spaces, search engines have a reliable pattern for detecting word boundaries when retrieving search results. In other languages, such as Chinese, Japanese, and&#160;Korean, spaces are not used to separate words. This makes the task of retrieving accurate matches for these languages more challenging for search engines.</p>
+        <p>To address this issue efficiently, the search database can be set to use the n-gram model to help it more accurately predict word patterns. This improves the search feature's ability to retrieve accurate search results for the Chinese, Japanese, and Korean languages.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Targets-Guide" />
+        <h2>How to Set the N-Gram Size</h2>
+        <ol>
+            <li>In the Project Organizer, open the desired target.</li>
+            <li>In the Target Editor, click the <span class="Emphasis">Search</span> tab.</li>
+            <li>Expand the <span class="Emphasis">Advanced Search Options</span> section.</li>
+            <li>
+                <p>In the <span class="Emphasis">N-gram size</span> box, select a value between 1- 5. <MadCap:conditionalText MadCap:conditions="General.Online-Only">Typically, the default value of one&#160;(1)&#160;is optimal for most projects.</MadCap:conditionalText></p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">Applying an n-gram value to a project affects the size of the search database. It also affects the quantity and accuracy of the search results. In general, lower n-gram values (e.g., 1-2) result in a smaller database. As a result, end user search queries will typically retrieve a higher number results with less accurate matches. Similarly, larger n-gram values (e.g., 4-5) result in a larger database. Therefore, search queries will typically retrieve a smaller number of results with more accurate matches.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+    </body>
+</html>

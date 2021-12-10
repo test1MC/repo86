@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <p>In the Project Organizer, right-click the <span class="Emphasis">TOCs</span> folder, select <span class="Emphasis">Add Table of Contents</span>, give it a name, and click <b>Add</b>.</p>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When creating a new project, Flare sometimes provides you with an initial TOC, depending on the project template you use; therefore, you may not need to add one.</p>
+                    </div>
+                </div>
+            </li>
+            <li>If you have an existing TOC file, double-click it to open it in the editor to the right.</li>
+            <li>
+                <p>Drag and drop topics from the Content Explorer to the TOC Editor, or use buttons in the local toolbar of the TOC Editor to <a href="../../../../Flare/TOCs/Process/Creating-TOCs/Creating-TOC-Entries.htm">add TOC entries</a> and <a href="../../../../Flare/TOCs/Process/Creating-TOCs/Linking-TOC-Entries.htm">link them to files</a>.</p>
+                <p MadCap:conditions="General.Online-Only" class="topic-only">
+                    <img src="../../../Images/Flare/Micro-Content/QS-Create-TOC.gif" />
+                </p>
+                <div class="topic-only">
+                    <div class="tip">
+                        <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you want to choose multiple files at the same time from the Content Explorer, click the <span class="Emphasis">Show Files</span> button <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Show-Files-btn.png" class="ReduceButtonSize" /> in the local toolbar. The Content Explorer splits into two halves. On the right half of the Content Explorer, find and select the folder and topic files that you want to include in the TOC. <MadCap:snippetText src="../../Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /></p>
+                    </div>
+                </div>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Make sure you do not select the Resources folder in the Content Explorer, which holds your ancillary content files (e.g., images, stylesheets). If you do, that folder and its contents will also be included in the TOC. </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

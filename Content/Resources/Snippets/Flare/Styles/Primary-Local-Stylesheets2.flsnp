@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="Emphasis">Primary </span>You can set stylesheets at the project or target level (in the Project Properties or Target Editor, respectively). These are considered primary stylesheets because they control the look of all files associated with the project or target just from that one setting. See <MadCap:xref href="../../../../Flare/Styles/Main-Activities/Associating-Primary-Stylesheets-All-Files.htm">Associating Primary Stylesheets With All Files</MadCap:xref>.</li>
+            <li><span class="Emphasis">Local </span>In the Project Properties or Target Editor, you can enable the <span class="Emphasis">Allow local stylesheets</span> option. This lets you set stylesheets at the lower, content-file level (e.g., topics, micro content files). These are considered local stylesheets because they control the look of that single file.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Styles/Main-Activities/Associating-Stylesheets-Specific-Files1.htm">Associating Stylesheets Locally With Specific Files</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> See <MadCap:xref href="../../../../Print-Only-Topics/Flare/Styles/Associating-Stylesheets-Specific-Files1.htm">Associating Stylesheets Locally With Specific Files</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

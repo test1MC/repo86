@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="HTML5" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Some output types support searches with the use of boolean operators, the asterisk (*) wildcard character, and other syntax." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Search:methods;Search:syntax" />
+            <MadCap:concept term="FilterFeatures" />Search Methods and Syntax</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="Search:methods;Search:syntax" />Search Methods and Syntax</h1>
+        <p>Depending on the output type you are searching, end users can perform a variety of simple text and phrase searches. Some output types also support the use of boolean operators, the asterisk (*) wildcard character, and other syntax.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>
+            <MadCap:keyword term="Search:full-text" />Full-Text Search</h2>
+        <p>All online output types support full-text search.</p>
+        <p>For <MadCap:variable name="Outputs.EclipseHelp" /> targets,&#160;search is provided by the Eclipse platform. For server-based output, search is provided by the either the Microsoft Indexing Service or Windows Search.</p>
+        <p>For all other output types, Flare scans all of the target content and creates a database index for search. When a user enters a search query, the search engine in the index to retrieve a list of topics with matches. In Flare, search results include these matches:</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Case-insensitive&#160;Matches </span>Search is not case-sensitive. For example, a search for the word "run" will find matches for "Run" and "run."</li>
+            <li><span class="SetOffFirstLevel">Matches with Variant Endings </span>For example, a search for the word "run" will also find matches for words such as, "runner," "running," and "runs." Since matches are not case-sensitive, the results will include topics containing matches such as, "Runner,"&#160;"Running," and "Runs."</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <div class="IndentMedium">
+            <h3>How to Perform a Full Text Search</h3>
+            <ol>
+                <li>Open the online output.</li>
+                <li>In the search field, type a partial word or number string. <p>For example, type <span class="TypedEntry">ham</span>.</p></li>
+                <li>
+                    <p>Press <span class="Emphasis">ENTER</span> or click <span class="Emphasis">Search</span>.</p>
+                    <p>
+                        <img src="../../../Resources/Images/Flare/Search/Full-Word-Search.png" class="MaxWidth100Percent" />
+                    </p>
+                </li>
+            </ol>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Search/Note-Search-Highlighting.flsnp" />
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>
+            <MadCap:keyword term="Search:phrases" />Phrase Search</h2>
+        <p>All online output types support phrase search.</p>
+        <p>For <MadCap:variable name="Outputs.EclipseHelp" /> targets,&#160;search is provided by the Eclipse platform. For server-based outputs, search is provided by the either the Microsoft Indexing Service or Windows Search.</p>
+        <p>End users can search for phrases by enclosing their search terms in quotation marks. This is useful when end users want to restrict a search to locate terms that appear in an exact order. For example, you might want to search for a phrase such as "Dog Friendly."</p>
+        <div class="IndentMedium">
+            <h3>How to Perform a Phrase Search</h3>
+            <ol>
+                <li>Open the online output.</li>
+                <li>In the search field, type a word, number, or character string. </li>
+                <li>Press <span class="Emphasis">ENTER</span> or click the <span class="Emphasis">Search</span> button.</li>
+                <li>
+                    <p>Double-click a match in the list to open the corresponding topic.</p>
+                    <div class="warning">
+                        <p class="Important-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Important &lt;/span&gt;&lt;/b&gt;">If you have enabled the stop words feature, search will not find matches for queries containing stop words in quotes. For example, if you search for the phrase "Pets are fun," search will only include topics with the words "pets"&#160;and "fun."&#160;This is because the word "are"&#160;is part of the stop word list. See <MadCap:xref href="../Search-Results-Options/Including-Stop-Words.htm">Including Stop Words in Search</MadCap:xref>.</p>
+                    </div>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Search/Note-Search-Highlighting.flsnp" />
+                </li>
+            </ol>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>
+            <MadCap:keyword term="Search:boolean" />Boolean Operators</h2>
+        <p>The <MadCap:variable name="Outputs.HTMLHelp" />, <MadCap:variable name="Outputs.WebHelp" />, and <MadCap:variable name="Outputs.HTML5" /> output types support boolean operators —e.g., AND, OR, NEAR, NOT, and (&#160;). Note that when providing users with server-based <MadCap:variable name="Outputs.WebHelp" /> or <MadCap:variable name="Outputs.HTML5" /> output, boolean operators are not supported. Operators can be used in combination with search terms to increase or decrease the number of search results.</p>
+        <div class="IndentMedium">
+            <h3>Requirements and Dependencies</h3>
+            <ul>
+                <li><span class="SetOffFirstLevel">Eclipse Help </span>Boolean search is supported by the search engine that you configure in the Eclipse platform.&#160;See the&#160;Eclipse documentation at <a href="http://help.eclipse.org./" target="_blank">help.eclipse.org</a>.</li>
+                <li><span class="SetOffFirstLevel">HTML&#160;Help </span>Boolean search is provided by the viewer in accordance with the Microsoft Compiled HTML&#160;(CHM) specification. You must select the supported boolean operator from a predefined drop-down list. See <MadCap:xref href="Searching-HTML-Help.htm">Searching a Microsoft HTML&#160;Help System</MadCap:xref>.</li>
+                <li><span class="SetOffFirstLevel">HTML5 </span>Boolean search is provided by Flare in client-based output only. When delivering server-based output, the Microsoft Indexing Service or Windows&#160;Search handles search. See the Microsoft documentation for information about the Indexing Service (<a href="http://msdn.microsoft.com/en-us/library/ee805985(v=vs.85).aspx" target="_blank">http://msdn.microsoft.com/en-us/library/ee805985(v=vs.85).aspx</a>) or Windows&#160;Search (<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ff628790(v=vs.85).aspx" target="_blank">http://msdn.microsoft.com/en-us/library/windows/desktop/ff628790(v=vs.85).aspx</a>). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See also <MadCap:xref href="../../Step4-Developing-Targets/Output-Types/HTML5-Output/Other-Information/Server-Based-Output/Enabling-HTML5-Server-Output1.htm">Enabling HTML5 Server-Based Output</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Search-Guide">See also <MadCap:xref href="../Optional-Activities/Enabling-HTML5-Server-Output2.htm">Enabling HTML5 Server-Based Output</MadCap:xref>.</MadCap:conditionalText></li>
+                <li><span class="SetOffFirstLevel">WebHelp and WebHelp Plus </span>Boolean search is provided by Flare in client-based output only. When delivering server-based output (WebHelp Plus), the Microsoft Indexing Service or Windows&#160;Search service handles search. See the Microsoft documentation for information about the Indexing Service (<a href="http://msdn.microsoft.com/en-us/library/ee805985(v=vs.85).aspx" target="_blank">http://msdn.microsoft.com/en-us/library/ee805985(v=vs.85).aspx</a>) or Windows&#160;Search (<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ff628790(v=vs.85).aspx" target="_blank">http://msdn.microsoft.com/en-us/library/windows/desktop/ff628790(v=vs.85).aspx</a>). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See also <MadCap:xref href="../../Step4-Developing-Targets/Output-Types/WebHelp-Plus-Output/Enabling-WebHelp-Plus-Output1.htm">Enabling WebHelp Plus Output</MadCap:xref>. </MadCap:conditionalText></li>
+            </ul>
+            <h3>How to Search with Boolean Operators</h3>
+            <p>In the table below, a check mark shows the operators supported by each client-based output type. It also details any supported variables and provides usage examples:</p>
+            <table style="mc-table-style-original: url('../../../Resources/TableStyles/Shared/Fancy.css');mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');width: 100%;margin-left: auto;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 45%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 15%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 15%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 15%;" />
+                <thead>
+                    <tr class="TableStyle-Fancy-Head-Header1">
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p class="TableTextHead">Operators</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p class="TableTextHead">Usage</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p>HTML Help</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p>HTML5<sup>1</sup></p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                            <p>WebHelp</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows" rowspan="4">
+                            <p class="TableTextEmphasis">AND</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Use to narrow the search and retrieve only the topics that contain all of the words it separates.</p>
+                            <p class="TableText">Type <span class="TypedEntry">AND</span> between two or more terms. This is not case sensitive. </p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Because the operator is not case sensitive, you can type <span class="TypedEntry">cat AND&#160;dog AND&#160;parrot</span>, <span class="TypedEntry">cat And dog And parrot</span>, or <span class="TypedEntry">cat and dog and parrot</span>.</p>
+                                <p>Below are the results of a search for <span class="TypedEntry">cat and dog and parrot</span>.</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-And-Search.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">When separating terms with a blank space, the AND&#160;is always inferred. This is only available in <MadCap:variable name="Outputs.HTML5" /> help.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Because AND&#160;is inferred in HTML5 search, here are the results of a search for <span class="TypedEntry">cats dogs</span>.</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Result-Inferred-And.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Instead of the word <span class="TypedEntry">AND</span>, type the plus symbol (<span class="TypedEntry">+</span>).</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Below are the results of a search for <span class="TypedEntry">cat +&#160;dog +&#160;parrot</span>:</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-Plus.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Instead of the word <span class="TypedEntry">AND</span>, type the ampersand symbol (<span class="TypedEntry">&amp;</span>).</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Below are the results of a search for <span class="TypedEntry">cat &amp;&#160;dog &amp;&#160;parrot</span>:</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-Ampersand.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows" rowspan="3">
+                            <p class="TableTextEmphasis">OR</p>
+                            <p class="TableTextEmphasis">&#160;</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Use to search for two or more words. This broadens the search results by retrieving topics that contain any of the words it separates.</p>
+                            <p class="TableText">Type <span class="TypedEntry">or</span> between two or more terms. This operator is not case sensitive.&#160;</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Because the operator is not case sensitive, you can search for&#160;<span class="TypedEntry">cat OR&#160;dog OR&#160;parrot</span>, <span class="TypedEntry">cat Or dog Or parrot</span>, <span class="TypedEntry">cat or dog or parrot</span>, or <span class="TypedEntry">cat dog parrot</span>. </p>
+                                <p>Below are the results of a search for <span class="TypedEntry">cat or dog or parrot</span>:</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-Or.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">When separating terms with a blank space, the OR is always inferred. This is not available in <MadCap:variable name="Outputs.HTML5" /> help.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Because OR is inferred, here are the results of a search for <span class="TypedEntry">cats dogs</span> in a WebHelp target.</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Result-Inferred-Or.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" style="width: 14px;height: 14px;" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Type the pipe symbol (|) instead of typing OR.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You can search for <span class="TypedEntry">dog | cat | parrot</span>.</p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">NEAR</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Select from the operator list to find topics that contain matches that are in close proximity to each other.</p>
+                            <p class="TableText">This is only available in <MadCap:variable name="Outputs.HTMLHelp" />. The operator must be selected from a list. </p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In the&#160;<MadCap:variable name="Outputs.HTMLHelp" /> output type, you can type a search term, and then select <span class="Emphasis">NEAR</span> from the list:</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-HTML-Near-Select.png" class="MaxWidth100Percent" />
+                                </p>
+                                <p>The illustration below shows you the results of a search for <span class="TypedEntry">dogs NEAR cats</span>: </p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-HTML-Dogs-Near-Cats.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows" rowspan="3">
+                            <p class="TableTextEmphasis">NOT</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p rowspan="2" class="TableText">Use to search only for matching topics that do not contain the term following the operator.</p>
+                            <p class="TableText">Type <span class="TypedEntry">NOT</span> before a term. This operator is not case-sensitive.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Because the operator is not case-sensitive, you can search for&#160;<span class="TypedEntry">NOT&#160;parrot</span>, <span class="TypedEntry">Not parrot</span>, or <span class="TypedEntry">not parrot</span>. </p>
+                                <p>Below are the results of a search for <span class="TypedEntry">not parrot</span>:</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-Not.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico2.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Type the exclamation mark (<span class="TypedEntry">!</span>) instead of the word NOT.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Below are the results of a search for <span class="TypedEntry">! parrot</span>:</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-Exclamation.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Use to find topics that contain one term but not the other.</p>
+                            <p class="TableText">Type a term, followed by the carat symbol (<span class="TypedEntry">^</span>), and then type another term.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">To search for topics containing the word dog and not cat, search for <span class="TypedEntry">dog ^&#160;cat</span>:</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-Carat.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico3.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextEmphasis"><span class="Emphasis">( )</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableText">Use parentheses&#160;to combine boolean phrases and search terms. </p>
+                            <p class="TableText">Type parentheses <span class="TypedEntry">( )</span>&#160;around the combined terms.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">To search for topics containing cat and either the term dog or puppy, search for <span class="TypedEntry">cat and (dog or puppy)</span>:</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Booelan-Grouped.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="TableStyle-Fancy-Foot-Footer1">
+                        <td class="TableStyle-Fancy-FootD-Regular-Footer1" colspan="5">
+                            <p colspan="15" class="TableTextFootnote"><sup style="font-weight: bold;">1</sup>In HTML5, this is supported only with MadCap Search set as the search engine. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Search-Engines/Setting-Up-Search-Engine.htm">Setting Up a Search Engine</MadCap:xref> and <MadCap:xref href="../Search-Engines/MadCap-Search/Madcap-Search.htm">MadCap Search</MadCap:xref>.</MadCap:conditionalText></p>
+                            <p colspan="15" class="TableTextFootnote"><sup style="font-weight: bold;">2</sup>This only works if you search for one term but not another (e.g., MadCap NOT&#160;Flare).</p>
+                            <p colspan="15" class="TableTextFootnote"><sup style="font-weight: bold;">3</sup>The carat symbol (^) can be used interchangeably with an exclamation point (!) and NOT.</p>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>
+            <MadCap:keyword term="Search:asterisk;Search:wildcard" />Asterisk (*)&#160;Wildcard Search</h2>
+        <p>In the  <MadCap:variable name="Outputs.HTMLHelp" /> and <MadCap:variable name="Outputs.WebHelp" /> output types, end users can use the asterisk (*) wildcard character with the search feature as detailed below.</p>
+        <div class="IndentMedium">
+            <h3>Requirements and Dependencies</h3>
+            <ul>
+                <li>
+                    <p><span class="SetOffFirstLevel">Eclipse Help </span>Asterisk (*) wildcard search is supported by the search engine that you configure in the Eclipse platform.&#160;For details, see the&#160;Eclipse documentation at:</p>
+                    <p><a href="http://help.eclipse.org/" target="_blank">help.eclipse.org</a>
+                    </p>
+                </li>
+                <li><span class="SetOffFirstLevel">WebHelp </span>For asterisk (*) wildcard search capabilities to be supported, you must enable the partial-word search feature. See <MadCap:xref href="../Search-Results-Options/Enabling-Partial-Word-Search.htm">Enabling Partial-Word Search</MadCap:xref>.</li>
+            </ul>
+            <h3>How to Search With the Asterisk (*) Wildcard</h3>
+            <p>In the table below, a check mark shows the different ways you can use the asterisk (*) wildcard in search. It also provides usage guidelines and examples.</p>
+            <table style="mc-table-style-original: url('../../../Resources/TableStyles/Shared/Fancy.css');mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: auto;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 60%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                <col class="TableStyle-Fancy-Column-Regular" MadCap:conditions="General.Future" style="width: 10%;" />
+                <thead>
+                    <tr class="TableStyle-Fancy-Head-Header1">
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p class="TableTextHead">Placement</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p class="TableTextHead">Usage</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p>HTML Help</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                            <p>WebHelp</p>
+                        </th>
+                        <th class="TableStyle-Fancy-HeadD-Regular-Header1" MadCap:conditions="">
+                            <p>HTML5</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Before a Term</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Place the asterisk (*) in front of a term to represent unknown characters.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In the supported output types, a search for <span class="TypedEntry">*.doc</span> would find any matches that end in .doc. </p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Asterisk-Before2.png" class="MaxWidth100Percent" />
+                                </p>
+                                <p>As shown below, a search for <span class="TypedEntry">*ppy </span>would find matches such as happy, puppy, and scrapp.</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Asterisk-Before1.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico1.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">Inside a Term</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableText">Place the asterisk (*) inside a term to represent unknown characters.</p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In the example below, a search for <span class="TypedEntry">pup*y</span> would find occurrences of the word "puppy."</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Asterisk-Inside.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows" MadCap:conditions="">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/X-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextEmphasis">After a Term</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableText">Place the asterisk (*) after a term to represent unknown characters. </p>
+                            <div class="example" MadCap:conditions="General.Online-Only">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">As an example, a search for <span class="TypedEntry">pup*</span> would find matches such as pupil, pupils, puppy, puppies, and puppyhood.</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Flare/Search/Search-Asterisk-After.png" class="MaxWidth100Percent" />
+                                </p>
+                            </div>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows" MadCap:conditions="">
+                            <p class="TableTextCenter">
+                                <img src="../../../Resources/Images/Shared/All/Interface/Icons/Check-ico.png" class="ReduceButtonSize" />
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="TableStyle-Fancy-Foot-Footer1">
+                        <td class="TableStyle-Fancy-FootD-Regular-Footer1" colspan="5">
+                            <p class="TableTextFootnote"><sup style="font-weight: bold;">1</sup>In <MadCap:variable name="Outputs.HTMLHelp" />, the asterisk (*)&#160;wildcard cannot be used in combination with other characters and symbols. For example, instead of searching for <span class="TypedEntry">*.doc</span>, end users must search for <span class="TypedEntry">*doc</span>.</p>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>
+            <MadCap:keyword term="Search:partial-word" />Partial-Word Search</h2>
+        <p>The <MadCap:variable name="Outputs.HTML5" />, <MadCap:variable name="Outputs.WebHelp" />, and <MadCap:variable name="Outputs.WebHelp Plus" /> output types support partial-word searches in their target outputs. This search method is similar to simple text search, only it allows users to search for partial-word and number strings. This feature can be enabled in the Performance tab of the Target&#160;Editor. See <MadCap:xref href="../Search-Results-Options/Enabling-Partial-Word-Search.htm">Enabling Partial-Word Search</MadCap:xref>.</p>
+        <p>For <MadCap:variable name="Outputs.EclipseHelp" />, partial-search is provided by the Eclipse platform.</p>
+        <div class="IndentMedium">
+            <h3>How to Perform a Partial-Word Search</h3>
+            <ol>
+                <li>
+                    <p>In the search field, type part of a word or number string. </p>
+                    <p>For example, type <span class="TypedEntry">cond</span>. </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The minimum number of characters that you can set for partial searches is 3. See <MadCap:xref href="../Search-Results-Options/Enabling-Partial-Word-Search.htm">Enabling Partial-Word Search</MadCap:xref>. </p>
+                    </div>
+                </li>
+                <li>
+                    <p>Press <span class="Emphasis">ENTER</span> or click <span class="Emphasis">Search</span>. </p>
+                    <p>The system reveals a list of ranked topics that include matches for the entered search string. </p>
+                </li>
+                <li>
+                    <p>Double-click a topic in the list to open it. </p>
+                    <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Search/Note-Search-Highlighting.flsnp" />
+                </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Search for <span class="TypedEntry">cond</span>.</p>
+                <p>As shown below, search retrieves topics containing the string "cond," such as "condition" and "second."</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Search/Partial-Word-Search.png" class="MaxWidth90Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+                <p>Search for <span class="TypedEntry">201</span>.</p>
+                <p>As shown below, the search retrieves topics containing the number string&#160;"201,"&#160;such as 2010, 2011, 2012, 2013, 2014, 2015, 0.201, and 0.0201.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Search/Partial-String-Search.png" class="MaxWidth90Percent" />
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

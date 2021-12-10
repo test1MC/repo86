@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-Responsive-Output.flmsp');">
+    <head>
+        <meta name="description" content="Creating and applying character-level styles. The character-level element only applies to selected text and is used within a block element." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Responsive-Output.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Responsive Layouts</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Responsive-Design/Responsive-Design-Summary4.flsnp" />
+        <p>For this tutorial, let's focus on Flare's responsive layout system. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Responsive-Design/Responsive-Layout-Systems.htm">Responsive Layout Systems</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Create a Table With Content</h2>
+        <p>First, let’s create some content in a table to illustrate why a responsive layout is valuable, and why using a table might not meet your needs.</p>
+        <ol>
+            <li>
+                <p>From the Content Explorer, open the <span class="Emphasis">Introduction</span> topic.</p>
+            </li>
+            <li>
+                <p>After the first h2 tag (History), create an empty paragraph.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Table</span> ribbon, click <span class="Emphasis">Insert Table</span> (down-arrow).</p>
+            </li>
+            <li>
+                <p>Hover over the grid to choose one row and two columns.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-InsertTable.png" alt="" title="" />
+                </p>
+                <p>The table should look like this.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Table.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Copy the image, and paste it into the second column. And then copy the two paragraphs of text, and paste them into the first column. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Table2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>To clean up the topic, delete the original image and text.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Build the HTML5 output, and open it in a browser.</p>
+            </li>
+            <li>
+                <p>From the main menu, select the <span class="Emphasis">Introduction</span> topic.</p>
+            </li>
+            <li>
+                <p>Click and drag the browser window to reduce it. In this example, the image gets smaller as the screen size is reduced. Ideally, the image size should stay the same, and stack underneath the text when the screen size is reduced. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Table3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Close the HTML5 output.</p>
+            </li>
+        </ol>
+        <h2>How to Create a Responsive Layout</h2>
+        <p>Let's create a responsive layout using the Responsive Layout window pane. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Tutorials/Flare-Responsive-Layout-System1.flsnp" /></p>
+        <ol>
+            <li>
+                <p>Go back to the <span class="Emphasis">Introduction</span> topic. Place the cursor at the end of the <span class="Emphasis">History</span> heading.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, select <span class="Emphasis">Responsive Layout</span>. The Responsive Layout window pane opens. Notice the Web, Tablet, and Mobile media query buttons at the top.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Layout-Window.png" alt="" title="" class="MaxWidth45Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Make sure <span class="Emphasis">Web</span> is selected.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Tutorials/Edit-Responsive-Layout-Recommend.flsnp" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Row</span> area, click <span class="Emphasis">New Style</span>. The New Row Style dialog opens.</p>
+                <p> <MadCap:snippetText src="../../../Resources/Snippets/Flare/Tutorials/Twelve-Column-Grid1.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Responsive-Design/Responsive-Layout-Systems.htm#12ColumnGrid">The 12-Column Grid System</MadCap:xref>.</MadCap:conditionalText> <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Class Name</span> field, type <span class="TypedEntry">My-6x6-Layout</span>.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Select Row Template</span> area, select <span class="Emphasis">(Row template) Row-6 6</span>. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-New-Row-Style.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the Responsive Layout window pane, click <span class="Emphasis">Insert Row</span>. In the XML Editor, the new row (a div style) gets inserted after the History heading. Click in <span class="Emphasis">Cell 1</span>. In the Responsive Layout window pane notice that the <span class="Emphasis">Cell Width</span> is 6 columns. This equates to 50%, or half the maximum width for a row.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Div-Style.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Flare/Tutorials/Responsive-Layout-Styles-Div.flsnp" /> In the <span class="Emphasis">Cell Style</span> area at the bottom of the Responsive Layout window pane, notice the div style, div.My-6x6-Layout.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Layout-Cell-Style.png" alt="" title="" class="MaxWidth45Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From your previous table, copy the image, and paste it into <span class="Emphasis">Cell 2</span>, and then copy the corresponding text paragraphs into <span class="Emphasis">Cell 1</span>. (Replace the default cell text in the layout grid.)</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Div-Style2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>To clean up the topic, delete the table.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Place the cursor in one of the new cells. (If your XML Editor is narrow, the two cells might stack one of top of the other. That is okay.)</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the Responsive Layout window pane, click the <span class="Emphasis">Mobile</span> media query button. Notice the <span class="Emphasis">Cell Width</span> is 12 columns (rather than 6), and the <span class="Emphasis">Cell Style</span> displays the width as 100% (rather than 50%). Because of the Mobile breakpoint and column size, the text and image should stack when the output is generated. (If you click on the Tablet media query button, notice that it has the same setup as the Web media query.)</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Layout-Window-Mobile.png" alt="" title="" class="MaxWidth45Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Build the HTML5 output, and open it in a browser.</p>
+            </li>
+            <li>
+                <p>From the main menu, select the <span class="Emphasis">Introduction</span> topic.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click and drag the browser window to reduce it. Compared to the previous table, the new style in the responsive layout adjusts better as the screen gets narrower. The image retains its size and the content stacks at the appropriate breakpoint. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Div-Style3.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Close the HTML5 output.</p>
+            </li>
+        </ol>
+        <h2>How to Edit the Responsive Layout Style</h2>
+        <p>Let’s look at the new row style for the Web media query in the stylesheet.</p>
+        <ol>
+            <li>
+                <p>Click the <span class="Emphasis">Styles.css</span> tab. (The Stylesheet Editor automatically opened when the new row style got added.)</p>
+            </li>
+            <li>
+                <p>In the left pane tree structure, expand the <span class="Emphasis">div</span> element. Under it you'll see the class My-6x6-Layout.</p>
+            </li>
+            <li>
+                <p>Scroll to the top of the left pane structure tree, and expand <span class="Emphasis">(Complex Selectors)</span>.</p>
+                <p>When you created the responsive layout, multiple complex selectors were added to the stylesheet. These selectors consist of div styles, using the nth-child pseudo class for each cell. In our case, the container holding both the cells is named div.My-6x6-Layout &gt; div, Cell 1 is named div.My-6x6-Layout &gt; div:nth-child(1), and Cell 2 is named div.My-6x6-Layout &gt; div:nth-child(2).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Complex-Selectors.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Let’s make a formatting adjustment to the second cell (Cell 2). Select <span class="Emphasis">div.My-6x6-Layout &gt; div:nth-child(2)</span>.</p>
+            </li>
+            <li>
+                <p>In the local toolbar, select from the <span class="Emphasis">Show</span> drop-down, select <span class="Emphasis">Show: Set (Locally) Properties - properties set in this stylesheet</span>.</p>
+            </li>
+            <li>
+                <p>Expand the <span class="Emphasis">Box</span> group (if in the Grouped view).</p>
+            </li>
+            <li>
+                <p>Change the <span class="Emphasis">margin-left</span> property to <span class="Emphasis">5%</span>, and the <span class="Emphasis">width</span> property to <span class="Emphasis">45%</span>. Click off the field.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-StylesCSS.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Go back to the <span class="Emphasis">Introduction</span> topic.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the Responsive Layout window pane, click the <span class="Emphasis">Web</span> media query button. </p>
+                <p>Notice that Cell 2 is now formatted with a 5% left margin. If you click in Cell 2, you can see the Cell Style update in the Responsive Layout window pane for the Web media query. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Layout-Window-Offset.png" alt="" title="" class="MaxWidth75Percent" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Layout-Styles/Responsive-Div-Style4.png" alt="" title="" class="MaxWidth85Percent" />
+                </p>
+                <p>(If your XML Editor is narrow, the two cells might stack one of top of the other. That is okay.)</p>
+            </li>
+            <li>
+                <p>Build the HTML5 output, and open it in a browser to have a final look. For the Web screen size, notice the left margin for Cell 2. </p>
+            </li>
+            <li>
+                <p>Close the HTML5 output.</p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</p>
+            </li>
+        </ol>
+        <div class="tip">
+            <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">For optimal responsive layout appearance, set the sum of all cell widths and margins in a row to equal 100 percent.</p>
+        </div>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End.flsnp" />
+        </div>
+    </body>
+</html>

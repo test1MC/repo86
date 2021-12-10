@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Unused-File-Tags-Summary.flsnp" />
+        </p>
+        <p MadCap:conditions="General.Online-Only">
+            <img src="../../../../../Images/Flare/File-Tagging/Unused-File-Tags.png" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <MadCap:snippetText src="../../../File-Tagging/More-Info-About-File-Tags.flsnp" />
+        </p>
+        <h2>How to View Unused File Tags</h2>
+        <ol>
+            <li>
+                <MadCap:snippetBlock src="Select-Unused-Items.flsnp" />
+                <MadCap:snippetBlock src="Unused-Items-Window-Opens.flsnp" />
+            </li>
+            <li>Click the drop-down field at the top of the window pane and select <span class="Emphasis">Unused File Tags</span>. The unused file tags in the project are listed.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">File Tag </span>Displays the name of the file tag not being used.</li>
+                    <li><span class="SetOffFirstLevel">Type </span>Displays the type of file tag (e.g., Status, Author).</li>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../../../General/File-Description.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+            <li>If you want to remove any unused file tags from <MadCap:variable name="Other.Product" />, as well as from the project being analyzed, select the file tag in the list and click <img src="../../../../../Images/Shared/Al-Ca-Co-Fl-Li-Mi/Interface/Buttons/Delete-btn.png" class="ReduceButtonSize" /> in the local toolbar.</li>
+            <li>
+                <p>You can open the set file for any file tag in the list to view it in the File Tag Set Editor. </p>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p MadCap:conditions="Flare-Guides.Flare-Styles-Guide">
+            <MadCap:snippetText src="Print-Output/Determine-Heading-Levels-Summary.flsnp" />
+        </p>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide">One option is to base the headings on style levels. </MadCap:conditionalText>The mc-heading-level property is used to indicate a TOC level for a style. This property is already set to 1 for h1 styles, 2 for h2 styles, 3 for h3 styles, and so on. Therefore, you can simply use the h1 through h6 styles in your content. You can also set the mc-heading-level property to the appropriate depth level for any paragraph style that you want to use as a heading, or you can set the mc-heading-level property to 0 for styles that you do not want to include in the TOC. In the output, the print TOC will display styles with an mc-heading-level value of 1 at the highest (far left) level, those with a value of 2 at the next level, and so on (regardless of the structure of the outline TOC).</p>
+        <div class="IndentMedium">
+            <h3>How to Use Styles for Heading Levels</h3>
+            <ol>
+                <MadCap:snippetBlock src="../Styles/Edit-Style1.flsnp" />
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Medium1.flsnp" />
+                    </p>
+                    <div class="topic-only">
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Select-Medium2.flsnp" />
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Remembers-Last-Medium.flsnp" />
+                        </p>
+                        <p MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Tables-of-Contents-Guide">
+                            <img src="../../../Images/Shared/Co-Fl/General/Medium.png" class="MaxWidth80Percent" />
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../Styles/Filter-Heading-Styles1.flsnp" />
+                </li>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide" />
+                <li>From the area below, select the h1 through h6 style (h1, h2, h3, h4, h5, h6) that you want to customize. If you created other custom styles for your headings (e.g., p.MyIndexHeading), you can select those styles instead (you may first need to switch to a view that shows all paragraph styles). The mc-heading-level property (which is the property that determines the heading level in a print TOC) can be applied to any paragraph style.</li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Print-Support-Group1.flsnp" />
+                </li>
+                <li>To the right of <span class="Emphasis">mc-heading-level</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />, and select the level for the heading style (e.g., 0, 1, 2, 3). The higher the number, the lower in the hierarchy the heading will be displayed in the print TOC. If you select 0, the heading will not be included in the print TOC.</li>
+                <li>
+                    <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have applied h1, h2, and h3 styles to headings in your topics, but you only want the headings with h2 and h3 styles to be included in the print TOC (omitting h1 headings from the print TOC). You can do this by designating the level of the "mc-heading-level." A level of 0 means the heading is not included in the print TOC, a level of 1 means that it is included at the highest level in the TOC hierarchy (farthest to the left), a level of 2 means that it is included at the second highest level in the TOC hierarchy, and so on. Therefore, for this example, you might set the mc-heading-level for the h1 style to 0. And if you want to move the h2 and h3 headings up a level, you could set the mc-heading-level property for h2 to 1, and the property for h3 to 2.</p>
+            </div>
+        </div>
+    </body>
+</html>

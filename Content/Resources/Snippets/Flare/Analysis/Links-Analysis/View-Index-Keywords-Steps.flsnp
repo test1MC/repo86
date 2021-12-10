@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li>Open a project.</li>
+            <li> Select&#160;<span class="Emphasis">Analysis &gt; </span><span MadCap:conditions="Snippets.Snippet3" class="Emphasis">Used Items</span><span MadCap:conditions="Snippets.Snippet4" class="Emphasis">Links</span> <span class="Emphasis">&gt;</span> <span MadCap:conditions="Snippets.Snippet3" class="Emphasis">Used Index Keywords</span><span MadCap:conditions="Snippets.Snippet4" class="Emphasis">Index Keyword Links</span>.<p>The <MadCap:conditionalText MadCap:conditions="Snippets.Snippet3">Used Index Keywords window pane</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet4">Index Keyword Links window pane</MadCap:conditionalText> opens, listing all of the index keywords used<MadCap:conditionalText MadCap:conditions="Snippets.Snippet4"> within index links</MadCap:conditionalText> throughout the project.</p></li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Keyword </span>Displays the index keyword used in <MadCap:conditionalText MadCap:conditions="Snippets.Snippet3">the file</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet4">an index link in the file</MadCap:conditionalText>.</li>
+                    <li><span class="SetOffFirstLevel">File </span>Displays the path and name of the file where the index keyword<MadCap:conditionalText MadCap:conditions="Snippets.Snippet4"> link</MadCap:conditionalText> is inserted.</li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

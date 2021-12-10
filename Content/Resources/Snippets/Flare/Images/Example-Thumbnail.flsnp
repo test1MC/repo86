@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are creating a Help system that contains small images (e.g., less than 48 pixels high) as well as bigger images (e.g., larger than 48 pixels high). Suppose you want all of the bigger images to appear as thumbnails in the output. In that case, you might create a class of the img style and name it "BigImages." For the smaller images, you can use the parent img style (or even a style class), but for the larger ones, you can use the img.BigImages style class. The large images will automatically be displayed as thumbnails in the output, until the end user performs an action to see the image in its full size.</p>
+        </div>
+    </body>
+</html>

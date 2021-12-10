@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>On the left side of the interface, click <b>Sites</b>.</li>
+            <li>Select the <span class="Emphasis">Security</span> tab at the top.</li>
+            <li>Make sure you have <a href="../../../../Central/Sites/Security-Page-View/Adding-Trusted-Domain-Groups.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">added a trusted domain group</a>, and click it on the left side of the page to select it.</li>
+            <li>
+                <p>On the right side of the page, under <span class="Emphasis">Trusted Domains List</span>, click in the <span class="Emphasis">Add Domain</span> field and enter the domain (e.g., https://madcapsoftware.com). <span class="topic-only">To help avoid cross-site scripting attacks, adhere to the following guidelines when completing this field.</span></p>
+                <div class="topic-only">
+                    <p><span class="Emphasis">Host </span>Only allow resources to load from a specific host, with optional scheme, port, and path.</p>
+                    <div class="example">
+                        <p class="Examples-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Examples &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                        <p>example.com</p>
+                        <p>*.example.com</p>
+                        <p>https://*.example.com:12/path/to/file.js</p>
+                    </div>
+                    <p><span class="Emphasis">Scheme </span>Only allow resources to load over a specific scheme; it should always end with a colon.</p>
+                    <div class="example">
+                        <p class="Examples-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Examples &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                        <p>https:</p>
+                        <p>http:</p>
+                        <p>data:</p>
+                    </div>
+                </div>
+            </li>
+            <li>Press <span class="Emphasis">ENTER</span> or click <img src="../../../Images/Central/Interface/Buttons/Add-btn2.png" alt="" title="" class="ReduceButtonSize" /> to the right.</li>
+            <li>
+                <p>Click <span class="Emphasis">Save</span>. <span class="topic-only">Any domains that you add are now listed on the right side of the page.</span></p>
+                <p class="topic-only">
+                    <img src="../../../Images/Central/Sites/Trusted-Domains2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

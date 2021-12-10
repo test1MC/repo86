@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="A Breadcrumbs proxy is a placeholder (usually inserted into a template page) that displays a &quot;trail of breadcrumbs&quot; of table of contents (TOC) entries in the output." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Breadcrumbs:proxy;Proxies:breadcrumbs" />
+            <MadCap:concept term="FilterFeatures" />Creating Breadcrumbs</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus.flsnp" />
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <div class="Tiles-4-4-4">
+                    <div>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Proxies/Breadcrumbs-Proxy-Summary.flsnp" />
+                        </p>
+                        <p>To insert a proxy, open a template page (see <MadCap:xref href="../../Template-Pages/Process/Creating-Template-Pages.htm">Creating Template Pages</MadCap:xref>), place your cursor where you want to insert the proxy, and select <span class="Emphasis">Insert &gt; Proxy &gt; Breadcrumbs Proxy</span>.</p>
+                        <div class="topic-only">
+                            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+                        </div>
+                    </div>
+                    <div>
+                        <p class="center">
+                            <img src="../../../Resources/Images/Flare/Proxies/Breadcrumbs2.png" class="MaxWidth100Percent" />
+                        </p>
+                    </div>
+                    <div>
+                        <p class="center">
+                            <img src="../../../Resources/Images/Flare/Proxies/Breadcrumbs1.png" class="ThumbnailMicroContent" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <h2>Hyperlinked Breadcrumbs</h2>
+        <p>If the books in the TOC are linked to topics in the project, the breadcrumbs will be hyperlinked in the output; if the books are not linked in the TOC, the breadcrumbs will not be hyperlinked.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Here is a TOC where some of the books are not linked to topics.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Proxies/Hyperlink-Breadcrumbs1.png" class="MaxWidth100Percent" />
+            </p>
+            <p>Therefore, the breadcrumbs in the output look like this:</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Proxies/Hyperlink-Breadcrumbs2.png" class="MaxWidth100Percent" />
+            </p>
+            <p>Here is a TOC where the books are linked to topics in the project.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Proxies/Hyperlink-Breadcrumbs3.png" class="MaxWidth100Percent" />
+            </p>
+            <p>Therefore, the breadcrumbs in the output look like this:</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Proxies/Hyperlink-Breadcrumbs4.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <h2>How to Link a TOC Book to a Topic</h2>
+        <ol>
+            <li>Open the TOC.</li>
+            <li>Select the TOC book.</li>
+            <li>In the local toolbar of the TOC Editor, click <img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog opens.</li>
+            <li>Click <span class="Emphasis">Select Topic</span>. The Link to Topic dialog opens, displaying all the topics in your project.</li>
+            <li>Select the topic to which you want to link the entry and click <span class="Emphasis">Open</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/General/Properties-Dialog-Click-OK.flsnp" /> The book is now linked to the topic.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">After you insert a Breadcrumbs proxy into a template page, you can modify the look of the breadcrumbs using styles. See <MadCap:xref href="Editing-Look-Breadcrumbs.htm">Editing the Look of Breadcrumbs</MadCap:xref>.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are generating an <MadCap:variable name="Outputs.EclipseHelp" /> target that uses a template page with a Breadcrumbs proxy, Flare will automatically remove the proxy when building the output. This is because the Eclipse development platform provides its own breadcrumb support.  See the Platform Plug-in Developer Guide from Eclipse at&#160;<a href="https://help.eclipse.org/" target="_blank">help.eclipse.org</a>.</p>
+        </div>
+    </body>
+</html>

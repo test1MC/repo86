@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/User-Guides/Flare-Translation.flmsp');">
+    <head>
+        <meta name="description" content="Formatting tips for when preparing documentation for translation." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Translation" />Formatting for Translation</h1>
+        <MadCap:microContent id="microcontent1">
+            <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides/Translation-Localization.flsnp" />
+            <p>After having files translated, you might have to make adjustments to text or layouts to fine-tune formatting  for the target language publications. If a Flare project is set up well and optimized, that can help to mitigate formatting issues later on.</p>
+        </MadCap:microContent>
+        <p>When it comes to formatting translated documentation, keep in mind the following:</p>
+        <ul>
+            <li><span class="Emphasis">Use CSS Stylesheets and Avoid Inline Formatting</span> Applying inline styles (or local formatting) instead of formatting content using a stylesheet can make it hard to apply changes quickly. When inline styles are set, those styles override properties in the stylesheet, and so changes to that inline formatting must be done manually; making the process more time-consuming and expensive.</li>
+            <li>
+                <p><span class="Emphasis">Text Expansion</span> Many times, <MadCap:annotation MadCap:createDate="2020-03-06T08:13:25.4969558-08:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="Future- Try to find a suitable example to show text expansion.." MadCap:editor="pstoecklein" MadCap:editDate="2020-03-10T09:25:22.6312561-07:00">formatting translated files is necessary</MadCap:annotation> due to text expansion. This is when translated text is significantly shorter  or longer (up to 30% or more) than the source text. Chinese or Japanese tends to be shorter, while German tends to be much longer. </p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">Ask your translator in advance to perform a pseudo translation (a process that tests translating files into another language). This should include a text expansion of at least 30%. This might detect troublesome formatting areas in your documentation where there might be text expansion. </p>
+                </div>
+            </li>
+            <li>
+                <p><span class="Emphasis">Directional Icons</span> Make sure that icons are reusable in the target locations. For example, a hand icon pointing to the right is appropriate for left-to-right languages, but it would have to be adapted for a different reading direction, to accommodate right-to-left languages  (such as Hebrew or Arabic).</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Translation-Localization/Translation-Directional-Icons-Format-RTL-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li MadCap:conditions="General.Future">
+                <p><span class="Emphasis"><MadCap:annotation MadCap:createDate="2020-03-06T08:16:03.6475043-08:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="Furture - conditioned for a future so more information can be found on this point. not entirely clear as is." MadCap:editor="pstoecklein" MadCap:editDate="2020-03-10T09:25:46.5396180-07:00">Header Tag</MadCap:annotation></span> Always include a header tag in each topic (e.g., &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, or &lt;h6&gt;). Otherwise Flare defaults to using the file name, and translators do not typically translate file names.</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Translation-Localization/Trans-Format-Header-Tag.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li><span class="Emphasis">A4 Paper Size</span> It is important to identify what publications are needed from your targets, and ask yourself if they might work overseas. Be aware that international paper sizes differ from those used in North America and a few other countries. Because of this, make a template page format in the A4 size, and make page layout designs flexible. Consider using external anchors to margins, specifying height or width for a header and footer, and not using hard-coded widths and heights for the body frame. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Page-Layouts/Frames/Setting-Frame-Anchors.htm">Setting Frame Anchors</MadCap:xref>, and <MadCap:xref href="../../../../Page-Layouts/Frames/Specifying-Frame-Size.htm">Specifying Frame Size</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+    </body>
+</html>

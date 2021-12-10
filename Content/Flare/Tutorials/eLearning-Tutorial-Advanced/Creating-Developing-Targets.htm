@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Tutorials-Videos/Flare-LMS-Tutorial-Advanced.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating and developing some targets to see eLearning output." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/eLearning-Advanced.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:eLearning;Learning and development:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />Creating and Developing Targets</h1>
+        <p>We're getting closer to producing some output, but first we need to create and develop some targets, which are the files that actually generate the output. Our project already has two targets—one intended for online output (using the necessary HTML5 format), and the other for PDF output. But in this tutorial, we actually want to create three different online outputs—one that will include the knowledge check and test topics (i.e., combination), a second that will include only the knowledge check topics, and a third that will include only the test topics. Of course, all of these outputs will also include the other regular topics containing information about the city of Austin, Texas, but our goal for these three targets is to pinpoint which eLearning topics are shown. </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp">
+        </MadCap:snippetBlock>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Rename and Develop the Combination Target</h2>
+        <p>Let's rename our existing online target so that it reflects our intention to create output combining the knowledge checks and test.</p>
+        <ol>
+            <li>
+                <p>In the Project Organizer, expand <span class="Emphasis">Targets</span>.</p>
+            </li>
+            <li>
+                <p>Right-click <span class="Emphasis">All-About-Austin-HTML5</span>, and from the context menu, select <span class="Emphasis">Rename</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Type <span class="TypedEntry">Combination-Course</span> and press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Double-click that target to open it.</p>
+            </li>
+            <li>
+                <p>We're going to leave a lot of the settings in the target just the way they are, but we want to look at and edit a few things. On the left side of the editor, select the <span class="Emphasis">General</span> tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Notice that the <span class="Emphasis">Output Type</span> field is set as <span class="Emphasis">HTML5</span>, which is the most popular (and recommended) target format for online output, and what you need in order to include an interactive eLearning course. Also, from the <span class="Emphasis">Primary TOC</span> field, make sure <span class="Emphasis">Online-TOC</span> is selected.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">eLearning</span> tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In this tutorial, we're not actually going to integrate the output with an external learning management system (LMS). But for the moment, let's pretend that we will be doing that. From the <span class="Emphasis">Standard</span> field, select <span class="Emphasis">SCORM 2004</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">SCORM 2004 is just one of the standards available. You can select a different one from the field (i.e., SCORM 1.2 or xAPI) if you want.</p>
+                </div>
+            </li>
+            <li>
+                <p>For the <span class="Emphasis">Name</span>, enter <span class="TypedEntry">Austin Combination Course</span>.</p>
+            </li>
+            <li>
+                <p>We could also provide a description and custom ID, but for this tutorial, let's just leave those fields as they are.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the <span class="Emphasis">Tracking</span> field, select <span class="Emphasis">Use Test Result</span>. Because we have include a test node in our TOC, this is the option we want, so that the external LMS uses the results from that quiz.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Conditional Text</span> tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Here is where we finally make use of those conditions that we created and applied earlier. We need to tell Flare which conditions should be included or excluded from the output generated by this target. On the left side of the editor, select <span class="Emphasis">Default</span>. Then, click the <span class="Emphasis">CombinationCourseOnly</span> row, and on the right side select <span class="Emphasis">Include</span>. This sets the action for that condition row.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>For the <span class="Emphasis">KnowledgeCheck</span> and <span class="Emphasis">Test</span> condition rows, select <span class="Emphasis">Include</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>For the <span class="Emphasis">KnowledgeCheckOnly</span> and <span class="Emphasis">TestOnly</span> condition rows, select <span class="Emphasis">Exclude</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>The PrintOnly and ScreenOnly condition rows are already set. The idea is that the PrintOnly condition can be applied to content and files that should be included only in print-based targets (such as PDF), and the ScreenOnly condition can be applied to content and files that should be included only in online targets. Of course, you don't need to use these conditions in your actual project if you so choose, or you can rename them and use them for another purpose. The other three condition rows that are shown in this target are Mobile, Tablet, and Web, which are intended to be used for responsive outputs. In other words, you can apply these conditions to content so that the online content is displayed in a certain way, depending on whether the learner is viewing it on a small, medium, or large screen. Currently, these are not set, so by default they will be included in the output with no special circumstances. But let's set them as intended, just in case you want to use those conditions on content in the future. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more details, see <MadCap:xref href="../../Conditions/Other-Information/Responsive-Conditions.htm">Responsive Conditions</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>To begin, select the <span class="Emphasis">Mobile</span> condition row, and on the right, select <span class="Emphasis">Display by Media Query</span>, then <span class="Emphasis">Mobile</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Tablet</span> condition row, and on the right, select <span class="Emphasis">Display by Media Query</span>, then <span class="Emphasis">Tablet</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Web</span> condition row, and on the right, select <span class="Emphasis">Display by Media Query</span>, then <span class="Emphasis">Web</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Advanced</span> tab on the left side of the editor.</p>
+            </li>
+            <li>
+                <p>Scroll down and notice that the <span class="Emphasis">Template Page</span> field is pointing to the <span class="Emphasis">Other-Topics</span> template page. This is how Flare knows to use that particular template page (which, in this case, contains our eLearning Toolbar proxy) for most of the topics in the output. The only topic that is using a different template page is the Home page (in that case, the Home-Page template page is set in the topic properties for that file).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Develop the Knowledge Check Target</h2>
+        <p>Most of the settings for our second output—which will display the knowledge check topics but not the test topics—should be identical to those in the target we just edited. So the easiest thing to do in this case is make a copy of the first target, rename it, and make a couple of tweaks.</p>
+        <ol>
+            <li>
+                <p>In the Project Organizer on the left side of Flare, select the <span class="Emphasis">Combination-Course</span> target file and press <span class="Emphasis">CTRL+C</span> on your keyboard. Then, press <span class="Emphasis">CTRL+V</span>.</p>
+            </li>
+            <li>
+                <p>Right-click the copy of the target that is added, and from the context menu, select <span class="Emphasis">Rename</span>.</p>
+            </li>
+            <li>
+                <p>Type <span class="TypedEntry">Knowledge-Check-Course</span> for its new name and press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the same way, make a copy of that target and rename the new target <span class="TypedEntry">Test-Course</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Double-click <span class="Emphasis">Knowledge-Check-Course</span> to open that target.</p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">eLearning</span> tab.</p>
+            </li>
+            <li>
+                <p>Change the <span class="Emphasis">Name</span> field to <span class="TypedEntry">Austin Knowledge Check Course</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Tracking</span> field, select <span class="Emphasis">Use Course Completion</span>. This is different from the option we chose in the previous target, because this output will not include a gradable quiz. We'll leave the Percentage field set to 100, which means learners must complete the entire course.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Conditional Text</span> tab.</p>
+            </li>
+            <li>
+                <p>Change the settings so that they match the following image.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets17.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Develop the Test Target</h2>
+        <ol>
+            <li>
+                <p>In the Project Organizer double-click the <span class="Emphasis">Test-Course</span> target file to open it.</p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">eLearning</span> tab.</p>
+            </li>
+            <li>
+                <p>Change the <span class="Emphasis">Name</span> field to <span class="TypedEntry">Austin Test Course</span>. We'll leave the Tracking field as is because this output will include the gradable quiz.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">Conditional Text</span> tab.</p>
+            </li>
+            <li>
+                <p>Change the settings so that they match the following image.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-Targets19.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

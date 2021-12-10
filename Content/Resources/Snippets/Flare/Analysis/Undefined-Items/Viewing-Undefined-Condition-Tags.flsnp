@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>
+            <MadCap:snippetText src="Undefined-Condition-Tags-Window-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to View Conditions</h2>
+        <ol>
+            <li>Open a project.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Ribbon </span>Select <span class="Emphasis">Analysis &gt; Undefined Items &gt; Undefined Condition Tags</span>.</li>
+                    <li><span class="SetOffFirstLevel">Summary Window Pane </span>Double-click the row that mentions undefined condition tags.</li>
+                </ul>
+                <p>The Undefined Condition Tags window pane opens, displaying a list of undefined condition tags.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Drag-Divider-See-More.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Condition Tag </span>
+                        <MadCap:snippetText src="../Used-Items/Condition-Tag-Column.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../../General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../General/Folder-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Tag </span>
+                        <MadCap:snippetText src="../../Conditions/Tag-Description.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Exclude Action</span>
+                        <MadCap:snippetText src="../Used-Items/Exclude-Action-Description.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+            <li>
+                <MadCap:snippetText src="../../../Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Fix Undefined Conditions</h2>
+        <p>There are a few different ways to fix an undefined condition tag: (1) You can rename the condition tag or condition tag set so that it matches what you have used in the topic; (2) you can reapply the condition tag in the topic so that it uses an existing condition tag set/condition tag; (3) you can add the undefined condition tag to the project as a new condition tag; (4)&#160;you can map the undefined condition tag to an existing condition tag; and (5) you can delete references in content files (e.g., topics, snippets) to the condition.</p>
+        <div class="IndentMedium">
+            <h3>To Rename Conditions</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all condition tag occurrences that you want to rename. <MadCap:snippetText src="../../General/If-Select-All-Some-Rows.flsnp" /></p>
+                    <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">All condition tag occurrences that you select will be renamed to the same condition tag that you provide in the following steps.</p>
+                </li>
+                <li>In the local toolbar, click the <span class="Emphasis">Rename</span> button. The Rename Condition Tag(s) dialog opens.</li>
+                <li>In the <span class="Emphasis">New condition tag name</span> field, enter a new condition tag. Type the name of the condition tag set, followed by a period, then the name of the condition tag (e.g., Primary.Print).</li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                </li>
+                <li>
+                    <p>A message lets you know how many files were changed. <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> All of the selected condition tag occurrences are renamed.</p>
+                    <MadCap:snippetBlock src="../More-Analysis-Scans/Topics/Note-Can-Use-Backups-Window.flsnp" />
+                </li>
+            </ol>
+            <h3>To Reapply Conditions</h3>
+            <ol>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../General/Double-Click-Right-Click-Open.flsnp" />
+                    </p>
+                </li>
+                <li>Reapply the condition tag to the content, selecting an existing name from a condition tag set. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../Flare/Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">See the <span class="EmphasisItalic">Flare Condition Tags Guide</span> or the Flare online Help for more information.</MadCap:conditionalText></li>
+            </ol>
+            <h3>To Add a Condition</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all condition tag occurrences that you want to add to the project. <MadCap:snippetText src="../../General/If-Select-All-Some-Rows.flsnp" /></p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../../Images/Flare/Interface/Buttons/Add-Condition-Tag-Project-btn.png" alt="" title="" />.</li>
+                        <li><span class="SetOffFirstLevel">Right-Click </span>Right-click on the condition tag you want to add and from the context menu select <span class="Emphasis">Add New Condition Tag</span>.</li>
+                    </ul>
+                    <p>The Condition Tag Set Editor opens, with the new condition tag(s) displayed.</p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you create a new condition tag, one of two things will happen:</p>
+                        <ol>
+                            <li>If the Condition Tag Set file specified exists in the project, Flare will add the new condition tag to the existing file.</li>
+                            <li>If the Condition Tag Set file specified does not exist in the project, Flare will create a brand new Condition Tag Set file and add the new condition tag to that file.</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>(Optional)&#160;In the Condition Tag Set Editor, edit the condition tag's properties (e.g., name, color, comment).</li>
+                <li>
+                    <MadCap:snippetBlock src="../../../Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <h3>To Map a Condition</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all condition tag occurrences that you want to map to an existing condition tag. <MadCap:snippetText src="../../General/If-Select-All-Some-Rows.flsnp" /></p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../../Images/Flare/Interface/Buttons/Map-Condition-Tag-btn.png" alt="" title="" />.</li>
+                        <li><span class="SetOffFirstLevel">Right-Click </span>Right-click on the condition tag you want to add and from the context menu select <span class="Emphasis">Map to Existing Condition Tag</span>.</li>
+                    </ul>
+                    <p>The Condition Tags dialog opens.</p>
+                </li>
+                <li>In the dialog, select the existing condition tag in the project to overwrite the current undefined condition tag reference.</li>
+                <li>
+                    <MadCap:snippetBlock src="../../../Shared/All/General/Click-OK.flsnp" />
+                </li>
+                <li>
+                    <p>A message lets you know how many files were changed. <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> All of the selected condition tag occurrences are overwritten with the new condition tag.</p>
+                    <MadCap:snippetBlock src="../More-Analysis-Scans/Topics/Note-Can-Use-Backups-Window.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../../Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide" />
+            <h3>To Delete References to a Condition</h3>
+            <ol>
+                <li>
+                    <p>In the window pane, select all condition tag occurrences whose references you want to delete. <MadCap:snippetText src="../../General/If-Select-All-Some-Rows.flsnp" /></p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    </p>
+                    <ul>
+                        <li><span class="SetOffFirstLevel">Local Toolbar </span>Click <img src="../../../../Images/Shared/Al-Ca-Co-Fl-Li-Mi/Interface/Buttons/Delete-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+                        <li><span class="SetOffFirstLevel">Right-Click </span>Right-click on the condition tag and from the context menu select <span class="Emphasis">Delete</span>.</li>
+                    </ul>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                </li>
+            </ol>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This activity deletes the references to the undefined condition only. It does not affect your content file(s) in any other way.</p>
+            </div>
+        </div>
+        <MadCap:snippetBlock src="../../../Shared/All/General/Whats-Noteworthy.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Another way to apply a different condition tag to many places throughout a project is to use the Find and Replace in Files feature in Flare. For example, let's say that you originally applied a condition tag named "Print" (from the "Primary" condition tag set) to a lot of content in your project. Later, you renamed the condition tag "PDF." You can perform a find and replace in your entire project. In the "Find" field, you can enter <span class="TypedEntry">Primary.Print</span>, and in the "Replace with" field, you can enter <span class="TypedEntry">Primary.PDF</span>. Also, make sure you select the "Find in source code" option in the Find and Replace in Files window pane. After replacing this text throughout your project, that condition tag will no longer be considered "undefined" in <MadCap:variable name="Other.Product" />. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For information about using the Find and Replace in Files feature, see <MadCap:xref href="../../../../../Flare/Editor-Tools/Find-Replace/Find-Replace.htm">About Find and Replace</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:snippetBlock src="../Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

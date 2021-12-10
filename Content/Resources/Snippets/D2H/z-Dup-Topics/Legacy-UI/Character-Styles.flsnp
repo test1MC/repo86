@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="2618" MadCap:lastWidth="1498">
+    <body>
+        <p>Use the following options to configure character styles. Unavailable options will be grayed out.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Basic</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Name.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-HTML-Name.flsnp" />
+                    </li>
+                    <MadCap:snippetBlock src="../../Styles/Styles-HTML-Name2.flsnp" />
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Display</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Affects-Appearance.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Include-Page-Number-Reference.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Hidden.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Replacement.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Window.flsnp" />
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Behavior</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Auto-Index.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Multi-Link.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Behavior.flsnp" />
+                    </li>
+                    <MadCap:snippetBlock src="../../Styles/Styles-Behavior2.flsnp" />
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Link-Type.flsnp" />
+                    </li>
+                    <MadCap:snippetBlock src="../../Styles/Styles-Link-Type2.flsnp" />
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Script.flsnp" />
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Condition</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p MadCap:conditions="General.Online-Only,Snippets.Snippet1">For more about conditions, see <MadCap:xref href="../../../../../D2H/Conditions/Conditions.htm">About Conditions</MadCap:xref>.</p>
+                <p MadCap:conditions="General.Online-Only,Snippets.Snippet2">For more about conditions, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Conditions/About-Conditions-D2H.htm">About Conditions</MadCap:xref>.</p>
+                <p MadCap:conditions="D2H-Guides.D2H-Design-Guide">For more about conditions, see the online Help or the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>.</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Platforms.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Targets.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Attributes.flsnp" />
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+    </body>
+</html>

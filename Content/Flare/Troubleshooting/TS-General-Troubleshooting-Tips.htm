@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:general tips" />General Troubleshooting Tips</h1>
+        <p>The following general troubleshooting tips may be useful for certain issues. </p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test1" class="TroubleshootingLink">Avoid huge files</li>
+                <li targets="test2" class="TroubleshootingLink">Build warnings: locating files that contain issues</li>
+                <li targets="test3" class="TroubleshootingLink">Keep open files to a minimum</li>
+                <li targets="test4" class="TroubleshootingLink">Remove files to locate problems</li>
+            </ul>
+            <div targetName="test1" class="troubleshoot">
+                <p class="Subheading">Avoid huge files</p>
+                <p>Although it is possible to create topics or snippets that contain a great deal of content, it is recommended that you try to keep files sizes to a minimum. Try to break the content up and place it into multiple topics or snippets, rather than putting it all into one very long file. The more content that a file contains—especially pictures and multimedia—the longer it takes to load it.</p>
+            </div>
+            <div targetName="test2" class="troubleshoot">
+                <p class="Subheading">Build warning: locating files that contain issues</p>
+                <p>If you generate a target with warnings or errors, they are displayed in the Builds window pane. Warnings do not prevent the output from being generated. Instead they might be issues that you need to fix (e.g., missing files) or suggestions for improving your output (e.g., accessibility settings). Errors are critical problems that stop the project from building output.</p>
+                <p>
+                    <img src="../../Resources/Images/Flare/Output/Build-Targets-Background6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>In the Builds window pane, click <span class="Emphasis">Open Build Log</span> in the local toolbar to open this file so that you can review and address any issues.</p>
+                <p>If necessary, you can click the tab at the top of the Log File window and drag down to float it. Then you can maximize the window to see as much information as possible.</p>
+                <p>The Warnings grid contains several columns. The Description column shows the problem, and for certain types of problems the file at the center of the issue is also included.</p>
+                <p>
+                    <img src="../../Resources/Images/Flare/Troubleshooting/TS-General-Tips1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>If you scroll to the right, you will see the File column, which shows the file where the issue occurs. If you double-click the row, the file opens where the problem occurs.</p>
+                <p>
+                    <img src="../../Resources/Images/Flare/Troubleshooting/TS-General-Tips2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </div>
+            <div targetName="test3" class="troubleshoot">
+                <p class="Subheading">Keep open files to a minimum</p>
+                <p>Although you can have multiple files open in Flare's interface at the same time, it's not a good idea to keep too many of them open. This goes for window panes too. If you have 35 files open, as well as a dozen window panes, Flare's processing performance may suffer. You will especially notice Flare taking longer to load all of these files and window panes if you previously closed the application with all of them still open. Flare remembers what you had open when you closed, so it has to take the time to re-open them all again.</p>
+                <p>One handy feature to quickly close many files at once can be found in <span class="Emphasis">Windows &gt; Close All Documents</span> or <span class="Emphasis">Close All But This</span> (i.e., close all files except the one that currently has focus).</p>
+            </div>
+            <div targetName="test4" class="troubleshoot">
+                <p class="Subheading">Remove files to locate problems</p>
+                <p>Sometimes you might experience a problem where it seems particularly difficult to locate the source of the issue. This is particularly true when you have a build error that prevents a target from finishing the compilation process.</p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Troubleshooting/Remove-Files-Locate-Problems.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Troubleshooting/Remove-Files-Locate-Problems-Steps.flsnp" />
+            </div>
+            <div style="clear:both">
+            </div>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>

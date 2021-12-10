@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="You can take actions to optimize the site where your output is published." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Search:optimization" />Optimizing a Site</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="Search:optimization" />Optimizing a Site</h1>
+        <p>You can take actions to optimize the site where your output is published. This includes generating a sitemap, including a robots.txt file, enabling non-XHTML files in search, showing navigation links, changing search pagination, and adding search abstracts.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Generating Sitemaps</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Targets/Generate-Sitemap.flsnp" />
+        <div class="IndentMedium">
+            <h3>How to Generate a Sitemap</h3>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Targets/Generate-Sitemap-SEO.flsnp" />
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>
+            <MadCap:keyword term="Robots.txt file;Search:robots.txt file" />Including a Robots.txt File</h2>
+        <p>A robots.txt file is typically implemented by a website developer or website owners. It is used to advise search engine robots and spiders about what site content can and cannot be crawled. The robots.txt protocol is a simple text file that you can create in a text editor. </p>
+        <p>There are several reasons why you may want to consider creating a robots.txt file to use with your published output:</p>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Block Access to Content </span>If you do not want the robot or spider to crawl certain content, you may want to publish those content files in a password-protected directory and include a robots.txt file. It is recommended that you work with your website or web server administrator to ensure your requirements are met. </p>
+            </li>
+            <li><span class="SetOffFirstLevel">Block Access to Specific Files and/or Folders </span>If you have specific content that want to block from search engines, you can advise cooperating robots and spiders to exclude that content from their index. Keep in mind that most major search engines cooperate with these instructions. However, some search engines do not.</li>
+            <li><span class="SetOffFirstLevel">Block Your Site from Specific Search Engines </span>If you would like to block a specific search engine from crawling your site, you can advise its robot or spider to exclude your site from its index. To be successful, the robots.txt file must explicitly define the robot to block by name and the spider must be programmed to cooperate with your instructions. </li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <div class="IndentMedium">
+            <h3>How to Include a Robots.txt File</h3>
+            <ol>
+                <li>Open a text editor. </li>
+                <li>Create a new file and name it "robots.txt."</li>
+                <li>
+                    <p>Include the desired instructions. </p>
+                    <div class="tip">
+                        <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">To learn what to include in a robots.txt file, see <a href="http://www.robotstxt.org/" target="_blank">http://www.robotstxt.org/</a>. You should discuss specific requirements with your web server administrator and/or website developer.</p>
+                    </div>
+                </li>
+                <li>
+                    <p>Place the file at the root of the website hosting your published content. </p>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You plan to publish your Help content to a site named:</p>
+                        <p> https://www.help.example.com</p>
+                        <p>In this scenario, you should place the robots.txt file at the root of the site: </p>
+                        <p>https://www.help.example.com/robots.txt</p>
+                    </div>
+                </li>
+                <li>Publish your content and ensure the robots.txt file is still in place.</li>
+                <li>
+                    <p>Test your robots.txt using a validation tool. Some major search engines provide their own testing tools (e.g., Google) .</p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Most major search engines (e.g., Google, Bing,&#160;and Yahoo) are known to cooperate with the instructions in a robot.txt file. However, many search engines also have the ability to discover information using other methods. For example, let's say you have blocked a file named "form_1.html" in robots.txt. However, another website has created a link on their site to your "form_1.html" page. In this scenario, the URL for that linked page may be included in an engine's search results. </p>
+                    </div>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It is also generally understood that there are existing search engines, including malicious ones, that do not cooperate with the robots.txt protocol. Be sure to work closely with a web developer or your web host to ensure you get the best results possible with your robots.txt file. </p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>Enabling Non-XHTML Files in Search</h2>
+        <p>Because search engines have added non-HTML formats to their search indexes, it is helpful to enable non-XHTML search in your output. This allows the Flare search engine to return matches for non-HTML content in your project (e.g., PDF,&#160;DOC, and XLS&#160;files). You can enable non-XHTML search in the HTML5 and <MadCap:variable name="Outputs.WebHelp Plus" /> server-based outputs. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Step4-Developing-Targets/Output-Types/WebHelp-Plus-Output/Search/Including-Non-XHTML-Files-Search.htm">Including Non-XHTML Files in WebHelp Plus Search</MadCap:xref> and <MadCap:xref href="../Optional-Activities/Including-Non-XHTML-Files-Search-HTML5.htm">Including Non-XHTML Files in HTML5 Search</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Search-Guide">See <MadCap:xref href="../Optional-Activities/Including-Non-XHTML-Files-Search-HTML5.htm">Including Non-XHTML Files in HTML5 Search</MadCap:xref>.</MadCap:conditionalText></p>
+        <h2>Showing Navigation Links</h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Skins/Show-Nav-Links-Standalone-Summary1.flsnp" />
+        </p>
+        <p MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Skins/Other-Activities/General/Showing-Navigation-Links-Standalone-Topics.htm">Showing Navigation Links in WebHelp Standalone Topics</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>
+            <MadCap:keyword term="Pagination" />Changing the Number of Search Results Per Page</h2>
+        <p>You can change the number of search results that appear on each page in <MadCap:variable name="Outputs.HTML5" /> outputs. This makes it easier for users to navigate between pages of search results and improves search result loading times, especially for users who access your output from a mobile device. In order to use this feature, you must be using Elasticsearch or MadCap Search. This is feature is not suppoted for Google Search.<MadCap:conditionalText MadCap:conditions="General.Online-Only">  See <MadCap:xref href="../Search-Engines/Setting-Up-Search-Engine.htm">Setting Up a Search Engine</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Targets-Guide"> See <MadCap:xref href="../../../Print-Only-Topics/Flare/Search/Setting-Up-Search-Engine.htm">Setting Up a Search Engine</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Search/Search-Result.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Search-Results-Options/Setting-Number-Search-Results-Per-Page.htm">Setting the Number of Search Results Per Page</MadCap:xref>.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>
+            <MadCap:keyword term="Abstract" />Changing the Abstract Character Limit in Search Results</h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Search/Abstract-Character-Limit.flsnp" />&#160;This feature is only supported for MadCap Search. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Targets-Guide">See <MadCap:xref href="../Search-Results-Options/Setting-Search-Abstract-Character-Limit.htm">Setting the Search Abstract Character Limit</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Targets/Search-Abstract1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Targets/Search-Abstract2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>You can also add a manual search abstract using meta descriptions in the topic's Properties dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Topics/Other-Activities/Adding-Meta-Descriptions-Topics1.htm">Adding Meta Descriptions for Topics</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Search-Guide">See <MadCap:xref href="Adding-Meta-Descriptions-Topics2.htm">Adding Meta Descriptions for Topics</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

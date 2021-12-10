@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials\Flare-Lists-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Creating advanced lists with autonumbers." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Lists.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:lists;Lists:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Creating Advanced Lists With Autonumbers</h1>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Lists/Autonumbers-Lists.flsnp" />&#160;<MadCap:snippetText src="../../../Resources/Snippets/Flare/Lists/Advanced-Lists-Autonumbers.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../Autonumbers/Autonumbers1.htm">Autonumbers</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Add Autonumber List Styles</h2>
+        <p>There are many ways to accomplish most things with styles. The following styles and settings are just one way to do it for a simple, single-level list. If you want to create multiple levels or add comments between steps, more styling is necessary.</p>
+        <p>Also, with the following we are associating autonumbers with an ol style class, but you can accomplish something similar by using autonumbers with paragraph style classes.</p>
+        <ol>
+            <li>
+                <p>Copy the following.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">ol.StepNumber &gt; li
+{
+	list-style-type: none;
+	mc-auto-number-format: 'S:Step {n+}: ';
+	mc-auto-number-class: StepNumber;
+	margin-left: -35px;
+	padding-left: 59px;
+	text-indent: -59px;
+}
+
+ol.StepNumber &gt; li:first-child
+{
+	mc-auto-number-format: 'S:Step {n=1}: ';
+	
+}
+
+span.StepNumber
+{
+	font-weight: bold;
+}
+
+MadCap|xref.StepNumber
+{
+	mc-format: '{paranumonly}';
+}</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </li>
+            <li>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>. </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Right-click <span class="Emphasis">Styles.css</span>, and from the context menu select <span class="Emphasis">Open with &gt; Internal Text Editor</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Scroll to the bottom of the editor and paste the styles.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Apply Autonumber List Styles</h2>
+        <ol>
+            <li>Open the <span class="Emphasis">Attractions.htm</span> topic.</li>
+            <li>
+                <p>Scroll down to the bottom of the topic, click at the end of the final list item, and press <span class="Emphasis">ENTER</span> twice to create a new empty paragraph after the list.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Copy and paste the following at that location.</p>
+                <div class="IndentMedium">
+                    <p>How to Get to Lady Bird Lake</p>
+                    <p>Get in the car.</p>
+                    <p>Follow the GPS directions to Lady Bird Lake.</p>
+                    <p>If your mom calls, pull over safely and stop the car to take the call.</p>
+                    <p>Go back to .</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Place your cursor anywhere in the first paragraph ("How to Get to Lady Bird Lake"), and from the <span class="Emphasis">Home</span> ribbon, click in the <span class="Emphasis">Style</span> drop-down and select <span class="Emphasis">h3</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers4.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Select the rest of the text under the new heading.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, click the down arrow next to the <span class="Emphasis">List</span> button <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Bullet-List-btn.png" class="ReduceButtonSize" /> and select <span class="Emphasis">Numbered List</span>.</p>
+                <p>You now have a simple numbered list.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>Before continuing, we need to remove the &lt;p&gt; tags from the &lt;li&gt; tags. So right-click the <span class="Emphasis">ol</span> structure bar for the list, and from the context menu select <span class="Emphasis">Make Simple Item(s)</span>.</li>
+            <li>
+                <p>Select (i.e., left-click) the <span class="Emphasis">ol</span> structure bar for the list.</p>
+                <p>The entire list should be highlighted.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, click the <span class="Emphasis">Style</span> drop-down and select <span class="Emphasis">ol.StepNumber</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Initially the numbering might not be seen in the XML Editor, so press <span class="Emphasis">F5</span> to refresh.</p>
+                <p>The list should now look like this.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Insert a Cross-Reference to a Step</h2>
+        <ol>
+            <li>
+                <p>Click before the word <span class="Emphasis">Follow</span> in step 2. Then, from the <span class="Emphasis">Insert</span> ribbon, select <span class="Emphasis">Bookmark</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Type <span class="TypedEntry">GPS</span> as the name of the new bookmark and click <span class="Emphasis">Add</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>A marker is shown in step 2 (if you have markers turned on). Markers do not display in the output.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>In step 4, click right before the period at the end of the sentence, then in the toolbar click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Insert-Cross-Reference-btn.png" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>In the dialog select <span class="Emphasis">Place in this document</span>. Under <span class="Emphasis">Bookmarks</span>, select <span class="Emphasis">GPS</span>. And at the bottom of the dialog, select <span class="Emphasis">MadCap:xref.StepNumber</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. </p>
+                <p>The autonumber for step 2 is automatically used as the link.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>At the end of step 1 press <span class="Emphasis">ENTER</span> to create a new list item, and type <span class="TypedEntry">Buckle your seatbelt.</span></li>
+            <li>
+                <p>Press <span class="Emphasis">F5</span> to refresh the editor.</p>
+                <p>It should look like this now. Notice that the link still says "Step 2," even though the GPS information is now on step 3.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak />
+            <li>
+                <p>From the <span class="Emphasis">Tools</span> ribbon select <span class="Emphasis">Update Cross-References</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers17.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the dialog, click <span class="Emphasis">Update</span>. Notice the link now shows "Step 3."</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Lists/Advanced-List-Autonumbers18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It's not mandatory that you refresh the XML Editor or update the cross-references. Doing that is only for you to make sure the content is correct. If you fail to do this, the output will still be correct.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

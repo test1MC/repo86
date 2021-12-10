@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/User-Guides-Videos/Flare-Transition-FM.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="A topic alias marker is a special marker that you can insert into your FrameMaker source content wherever you want a new context-sensitive Help (CSH) identifier to be created in Flare (after you import the FrameMaker document)." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterImporting" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Importing:FrameMaker documents;Adobe FrameMaker:importing;Adobe FrameMaker:topic alias markers;Adobe FrameMaker:context-sensitive Help;Identifiers:creating and assigning;Context-sensitive Help:identifiers" />
+            <MadCap:keyword term="Topic IDs;Context-sensitive Help:topic IDs;Identifiers;Context-sensitive Help:identifiers" />Creating Topic Alias Markers in FrameMaker for CSH</h1>
+        <MadCap:microContent id="microcontent1">
+            <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Micro-Content-Toolbars/User-Guides-Videos/Transition-FM.flsnp" />
+            <p>
+                <MadCap:snippetText src="../../../../../Resources/Snippets/Flare/Importing/FrameMaker-Topic-Alias-Markers-Summary.flsnp" />
+            </p>
+        </MadCap:microContent>
+        <p>You can use these markers as an alternative to creating the identifiers in Flare. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="../../../../CSH/Process/Creating-Assigning-Identifiers.htm">Creating and Assigning Identifiers</MadCap:xref> and <MadCap:xref href="../../../../CSH/CSH.htm">Context-Sensitive Help</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-CSH-Guide">For more information see <MadCap:xref href="../../../../CSH/Process/Creating-Assigning-Identifiers.htm">Creating and Assigning Identifiers</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../../../Resources/Snippets/Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Import-Guide" /></p>
+        <p>Following are steps for creating these markers in Adobe FrameMaker. For more information, please refer to the documentation provided with FrameMaker.</p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Transition-from-FM-Guide" />
+        <h2>How to Create a Topic Alias Marker for Context-Sensitive Help</h2>
+        <p>The following steps may vary in different versions of FrameMaker.</p>
+        <ol>
+            <li>Open the FrameMaker document.</li>
+            <li>In FrameMaker, create the topic alias marker type that is required for this feature. This is a one-time step in the document. Afterward, you can simply select the newly created marker type when applying it to content. To create the topic alias marker type, do the following:<ol type="1" class="LowerAlpha"><li>In FrameMaker, select <span class="Emphasis">Special &gt; Marker</span>. The Marker dialog opens.</li><li>From the <span class="Emphasis">Marker Type</span> field, click the down arrow and select <span class="Emphasis">Edit</span>. The Edit Custom Marker Type dialog opens.</li><li>In the field, replace the existing text and type <span class="TypedEntry">TopicAlias</span>.</li><li>Click <span class="Emphasis">Add</span>.</li><li>Click <span class="Emphasis">Done</span>.</li></ol></li>
+            <li>
+                <p>In the FrameMaker document, place your cursor at the location where you want to insert a topic alias marker. </p>
+                <p>Usually you will place the cursor at the beginning of a heading that you want to be the start of a new online topic in Flare.</p>
+            </li>
+            <li>If it is not already displayed, open the Marker dialog (<span class="Emphasis">Special &gt; Marker</span>).</li>
+            <li>If the topic alias marker type is not already displayed in the dialog, click the <span class="Emphasis">Marker Type</span> down arrow and select <span class="Emphasis">TopicAlias</span>.</li>
+            <li>
+                <p>In the <span class="Emphasis">Marker Text</span> field, enter the text to be used as the topic ID. </p>
+                <p>You might simply type the same text that occurs in the paragraph heading. That way, it will be easily identified by both you and the developer. When typing the topic ID, make sure you use underscores between words, because spaces are not allowed (e.g., Properties_Dialog).</p>
+            </li>
+            <li>Click <span class="Emphasis">New Marker</span>.</li>
+            <li>Close the Marker dialog.</li>
+            <li>Save the FrameMaker document.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Flare/Importing/FrameMaker/Note-FM-Supports-7-Newer.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-CSH-Guide" />
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only,Flare-Guides.Flare-CSH-Guide">After you import the FrameMaker document(s), you can open the alias or header file to see the new identifiers created from the topic alias markers. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Importing-FM-Files.htm">Importing FrameMaker Files</MadCap:xref>, <MadCap:xref href="../../../../CSH/Other-Activities/Alias-Files/Opening-Alias-Files.htm">Opening Alias Files</MadCap:xref>, and <MadCap:xref href="../../../../CSH/Other-Activities/Header-Files/Opening-Header-Files.htm">Opening Header Files</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

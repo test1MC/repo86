@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Doc-To-Help’s integration with Microsoft SharePoint makes it easy to collaborate with your team, as well as across your company. </p>
+        <p>Upload your content to a SharePoint Library and take advantage of SharePoint’s management and workflow features. Doc-To-Help works with SharePoint’s check in/check out features and permissions, so you get a complete source control and version control system. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/SharePoint-Library.htm">About the SharePoint Library</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/About-SharePoint-Library.htm">About the SharePoint Library</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Doc-To-Help has two other SharePoint publishing options. You can publish NetHelp output to a SharePoint Document Library, or a &#160;SharePoint Wiki Library. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Publishing-SharePoint.htm">Publishing to SharePoint</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Publishing-to-SharePoint.htm">Publishing to SharePoint</MadCap:xref>.</MadCap:conditionalText></p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">SharePoint collaboration is compatible with Microsoft<span class="Registered-Trademark">®</span> SharePoint<span class="Registered-Trademark">®</span> 2007 and above, as well as Office 365 (SharePoint Online). SharePoint 2010 or 2013 is required when publishing Doc-To-Help targets to a SharePoint Wiki Library. </p>
+                <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Doc-To-Help’s SharePoint integration works with the free versions of SharePoint that install with some versions of Microsoft Office. </p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">The Options dialog has a tab named SharePoint that you can use to set your preferences. To open this dialog in Doc-To-Help, select <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"><span class="Emphasis">File &gt; Doc-To-Help &gt; Common Tasks &gt; Options</span></MadCap:conditionalText><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">File &gt; Doc-To-Help Options</span>.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Interface/Dialogs/Options-Dialog.htm">Options Dialog</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Options-Dialog-D2H.htm">Options Dialog</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="note">
+                    <p class="Note-Text">If you open a document from the SharePoint server (not the local copy), the Word will not automatically find the Doc-To-Help project. You must open the document separately for Doc-To-Help to find the project.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

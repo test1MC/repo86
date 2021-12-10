@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Perforce.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 MadCap:conditions="General.Online-Only">
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Perforce Helix Core;Source control:Perforce Helix Core" />
+            <MadCap:keyword term="Source control;Multi-authoring" />Perforce Helix Core</h1>
+        <h1 MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Perforce">Introduction</h1>
+        <p MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Perforce">
+            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Definition.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Reference-Source-Control-Topics.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Perforce" />
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Perforce" />
+        <h2 class="NoPageBreakBefore">Common Source Control Terms </h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Lingo/Source-Control/Definitions-Common-Phrases.flsnp" />
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Bind-Defnition.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Submit-Definition.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Check-Out-Definition.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Get-Latest-Version-Definition.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Revert-Definition.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Lock-Definition.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Unlock-Definition.flsnp" />
+            </li>
+        </ul>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"><MadCap:variable name="Other.Product" /> integrates with multiple source control providers to provide built-in source control support. Each of the source control providers built-in to <MadCap:variable name="Other.Product" /> uses different terms. As such, <MadCap:variable name="Other.Product" />'s source control interface is different depending on which source control provider you use. Please refer to the sections for each source control provider if you need to see information about the terms used by other built-in systems.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Perforce" />
+        <h2 class="NoPageBreakBefore">Source Control Icons</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Descriptions-Primary-Icons.flsnp" />
+        <table class="TableStyle-Simple" style="mc-table-style: url('../../../Resources/TableStyles/Shared/Simple.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 22px;" class="TableStyle-Simple-Column-Column1" />
+            <col class="TableStyle-Simple-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableText"><span class="SetOffFirstLevel">Checked Out</span>
+                        </p>
+                        <p class="TableText">This indicates that the file has been checked out from source control. You can submit the file when you are ready (if you are the user who has checked it out). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Submitting-Source-Control-Files-Perforce.htm">Submitting Source Control Files—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1" MadCap:conditions="">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1" MadCap:conditions="">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-New-File-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1" MadCap:conditions="">
+                        <p class="TableText"><span class="SetOffFirstLevel">New File</span>
+                        </p>
+                        <p class="TableText">This indicates that you have a file in your project but have not yet submitted it to Perforce Helix Core. This might occur if you import a Lingo project from source control and have not yet checked in your files to the server, or if you update a project and new files are added from the source project.  To resolve this, simply right-click on the file(s) and select <span class="Emphasis">Source Control &gt; Submit</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Submitting-Source-Control-Files-Perforce.htm">Submitting Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Locked-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableText"><span class="SetOffFirstLevel">Not Checked Out</span>
+                        </p>
+                        <p class="TableText">This indicates that the file is added to source control but is not currently checked out, which means that it contains a "Read Only" designation in its properties. In order to edit the file, you must check it out from source control. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Red-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by Another User</span>
+                        </p>
+                        <p class="TableText">This indicates that another user has locked the file. You will often see this icon in conjunction with the <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-Other-User-ico.png" class="ReduceButtonSize" /> icon, indicating that another user is both using the file and has locked the file. You can still make changes to this file even if another user has locked it, but you cannot submit them until the lock is removed.  <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Locking-File-Perforce.htm">Locking a File—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="Unlocking-File-Perforce.htm">Unlocking a File—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Green-Lock-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <p class="TableText"><span class="SetOffFirstLevel">Locked by You</span>
+                        </p>
+                        <p class="TableText">This indicates that you have locked the file. You will often see this icon in conjunction with the <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-ico.png" /> icon, indicating that you have both locked and checked out the file. Other users can make changes to this file even if you have locked it.  <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Locking-File-Perforce.htm">Locking a File—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="Unlocking-File-Perforce.htm">Unlocking a File—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Checked-Out-Other-User-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Checked-Out-Other-User.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Fl-Li/Interface/Icons/Source-Control-Out-Date-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                        <p class="TableText"><span class="SetOffFirstLevel">Out of Date</span>
+                        </p>
+                        <p class="TableText">This indicates that the file is not current (i.e., the local copy of the file is older than the source control copy). This might happen, for example, if another user checks out the file, makes changes to it, and submits it to source control. If this occurs, you can check the file out or get the latest version of the file from source control. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref> or <MadCap:xref href="Getting-Latest-Version-Source-Control-Files-Perforce.htm">Manually Getting the Latest Version of Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Perforce" />
+        <h2>General Workflow (Multi-User Team)</h2>
+        <p>Following are the basic steps for using <MadCap:variable name="Other.Product" />'s source control integration for a multi-user team.                     </p>
+        <ol>
+            <li>
+                <p><span class="SetOffFirstLevel">Set Up Perforce Helix Core </span>Install Helix Core and set up the database and any folders where you want to place the project. Also, assign permissions to the proper individuals. This task may be performed by someone else, such as a network administrator.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow2.flsnp" />
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow3.flsnp" />
+                        </p>
+                        <p>OR</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:bind;Projects:source control" />Bind Existing Project </span> If you have an existing <MadCap:variable name="Other.Product" /> project on your local machine, bind the project to the source control application. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Binding-Project-Source-Control-Perforce.htm">Binding a Project to Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Only one of the users needs to perform this task. The other users on the team can follow Step 3 below. </p>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:importing projects" />Import Project </span>Other users on the team can easily import the project from source control. This creates a copy of the <MadCap:variable name="Other.Product" /> project on the user's computer. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Importing-Project-Source-Control-Perforce.htm">Importing a Project From Perforce Helix Core</MadCap:xref>. </MadCap:conditionalText></li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:get latest version" />Get Latest Version </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Get-Latest-Version-Summary.flsnp" /> When working with other users, it is a good idea to do this frequently (e.g., at the beginning of each day) in order to ensure you have the latest changes that those users have made, and that they have the latest changes you've made. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Getting-Latest-Version-Source-Control-Files-Perforce.htm">Manually Getting the Latest Version of Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check out" />Check Out Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Check-Out-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:lock; Source control:unlock" />Lock/Unlock Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Lock-Files-PER.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Locking-File-Perforce.htm">Locking a File—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="Unlocking-File-Perforce.htm">Unlocking a File—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:submit;Submit:source control" />Submit Files </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Submit-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Submitting-Source-Control-Files-Perforce.htm">Submitting Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:merging;Merging:source control" />Merging </span>There may be times when you need to merge changes from different users when checking in a file. The merge occurs automatically if there are no conflicting changes (i.e., changes do not occur in the same location). If there are conflicting changes, a dialog opens, allowing you to determine how changes are merged. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Merging-Source-Control-Files-Perforce.htm">Merging Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Perforce" />
+        <h2>General Workflow (Single User)</h2>
+        <p>Following are the basic steps for using <MadCap:variable name="Other.Product" />'s Helix Core integration for a single user.</p>
+        <ol>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Set-Up-Perforce.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow2.flsnp" />
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Basic-Workflow3.flsnp" />
+                        </p>
+                        <p>OR</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:bind;Projects:source control" />Bind Existing Project </span> If you have an existing <MadCap:variable name="Other.Product" /> project on your local machine, bind the project to the source control application. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Binding-Project-Source-Control-Perforce.htm">Binding a Project to Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check out" />Check Out Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Check-Out-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:submit" />Submit Files </span>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Submit-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Submitting-Source-Control-Files-Perforce.htm">Submitting Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Source-Control-Guide-Perforce" />
+        <h2>Other Source Control Tasks and Features</h2>
+        <p>Following are some additional tasks and features related to source control.                     </p>
+        <ul>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:status updates" />Automatic Status Checks </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Auto-Status-Checks.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Enabling-Source-Control-Status-Checks-Perforce.htm">Enabling Source Control Status Checks—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:differences;Differences:source control" />Differences </span>You can view differences between files in various ways. For more information see<MadCap:conditionalText MadCap:conditions="General.Online-Only"> <MadCap:xref href="Viewing-Differences-Source-Control-Files-Perforce.htm">Viewing Differences in Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:get latest version;Projects:source control" />Disable Prompt for Get Latest </span>By default, when you open a project that is bound to source control, a message automatically asks if you want to get the latest version of files. However, you can disable this prompt in the Options dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Disabling-Get-Latest-Prompt-Perforce.htm">Disabling the Get Latest Prompt for Source Control—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:disconnect" />Disconnect from Source Control </span>There may be times that you need to disconnect from source control to work offline. You can disconnect from source control and reconnect at any time. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Disconnecting-Source-Control-Perforce.htm">Disconnecting From Source Control—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:history;History:source control" />History </span>You can view the history of a particular source control file. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Viewing-History-Source-Control-Files-Perforce.htm">Viewing the History of Source Control Files—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-History-Options-List-PER.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+            </li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:check out;Multi-authoring;Check out;Locks:source control" />Locks </span>You can lock files so that other users cannot submit those same files when you have them checked out. You might use this feature to prevent conflicting changes from occurring and having to merge files as a result. You can set files to be locked automatically when you check out files. This can be done from the Options dialog (Source Control tab). Another option is to manually set files to be locked whenever you check out files. This can be done from the Check Out dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Checking-Out-Source-Control-Files-Perforce.htm">Checking Out Source Control Files—Perforce Helix Core</MadCap:xref>, <MadCap:xref href="Locking-File-Perforce.htm">Locking a File—Perforce Helix Core</MadCap:xref>, and <MadCap:xref href="Unlocking-File-Perforce.htm">Unlocking a File—Perforce Helix Core</MadCap:xref>.</MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel">Unbind </span>You can unbind a project from source control. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Unbinding-Project-Source-Control-Perforce.htm">Unbinding a Project From Perforce Helix Core</MadCap:xref>. </MadCap:conditionalText></li>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Source control:pending changes;Source control:check out;Check out" />View Checked-Out Files </span>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-View-Files-Checked-Out-Summary-PER.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Viewing-Files-Checked-Out-Perforce.htm">Viewing Files that are Checked Out—Perforce Helix Core</MadCap:xref> and <MadCap:xref href="../../Interface/Window-Panes/File-List-Window-Pane.htm">File List Window Pane</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Fl-Li/Source-Control/When-Remove-Files-Project.flsnp" />
+    </body>
+</html>

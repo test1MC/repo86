@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Close the Flare project, and open Windows to the location where the project is stored.</li>
+            <li>Rename the FLPRJ file.</li>
+            <li>
+                <p>Right-click in an empty area of Windows (not on a file or folder), and from the context menu select <span class="Emphasis">Git Bash Here</span>.</p>
+                <p class="topic-only">
+                    <img src="../../../Images/Central/Projects/Git-Bash1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In Git Bash type <span class="TypedEntry">git add -A</span> and press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Git-Bash2.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>Type  <span class="TypedEntry">git commit -m "My comment"</span> and press <span class="Emphasis">ENTER</span>. (The text in quotes can be any comment you want to enter.)</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Git-Bash3.png" alt="" title="" />
+                </p>
+            </li>
+            <li>
+                <p>Type <span class="TypedEntry">git push</span> and press <span class="Emphasis">ENTER</span>.</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Git-Bash4.png" alt="" title="" />
+                </p>
+                <div class="topic-only">
+                    <p>In Central, you will notice on the Files page view for the project that the new name is shown.</p>
+                    <p>
+                        <img src="../../../Images/Central/Projects/Renamed-Project-Name.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

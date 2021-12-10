@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="TableTextEmphasis">mc-hidden</p>
+        <p class="TableText">Determines whether a style class is hidden in the interface (such as from the Styles window pane or the ribbon). This does not hide the content itself.</p>
+        <p class="TableText">You might want to use this if you have created a style but do not want it to be editable, or if you do not want it to be selectable in the interface (e.g., a rarely used company-mandated style that should not be edited). </p>
+        <p class="TableText">Hiding a style is somewhat different from disabling a style. Although neither hidden nor disabled styles are visible in the interface, disabled styles can only be renabled from the Disable Styles dialog, because they are also removed from the stylesheet. Hidden styles are still visible in the stylesheet, and are not counted among "disabled"&#160;styles in the Disable Styles dialog. Disabling a style is preferable to hiding a style if you want to "clean up" your stylesheet and only show the styles you regularly use.</p>
+        <p class="TableText" MadCap:conditions="General.Online-Only">
+            <MadCap:xref href="../../../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Styles/Disabling-Styles.htm">Disabling and Hiding Styles</MadCap:xref>
+        </p>
+    </body>
+</html>

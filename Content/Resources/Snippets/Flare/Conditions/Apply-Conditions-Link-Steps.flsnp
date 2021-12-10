@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>Make sure the span bars are visible at the top of the XML Editor. If they are not, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Toggle-Show-Spans-btn.png" class="ReduceButtonSize" /> at the bottom of the local toolbar to show them<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Interface/Editors/XML-Editor/Structure-Bars/Structure-Bars.htm">Structure Bars</MadCap:xref>)</MadCap:conditionalText>. </li>
+            <li>
+                <p>Right-click on the span bar above the topic that corresponds with the link. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you first click on the link in the topic, the corresponding span bar is highlighted above. For hypertext links, the span bar is labeled "a." For cross-references, the span bar is labeled "MadCap:xref."</p>
+                </div>
+            </li>
+            <li>In the menu, select <span class="Emphasis">Conditions</span>. The Condition Tags dialog opens, with the first condition tag set selected and the associated condition tags shown on the right. </li>
+            <li>If you want to see condition tags for a different condition tag set, select it.</li>
+            <li>For each condition tag that you want to apply to the link, click the check box next to the tag. A check mark appears in the box.</li>
+            <li>In the <span class="Emphasis">Exclude Action</span> section, select one of the options.<ul><li><span class="SetOffFirstLevel">Remove </span>Deletes the link text from the output.</li><li><p><span class="SetOffFirstLevel">Unbind </span>Removes the link from the content in the output, but leaves the text. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Printed-Output/Conditions/Applying-Condition-Tags-Printed-Output.htm#UsingTagsRemoveLink" target="" title="" alt="">Using Condition Tags to Unbind Hyperlinks</MadCap:xref>.</MadCap:conditionalText></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Condition-Tags-Guide" /><div class="example"><p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are creating both online and print-based output from your project. You might have some content where you have inserted hyperlinks, and you might want this content to be included in both the online and printed output. However, let's say that a particular hyperlink connects to another topic that you are not including in the print-based output that you are generating. When you build the online output, everything is fine. But when you generate the print-based output, an error is displayed in the log because it cannot find the topic referenced in the hyperlink. </p><p>The way to avoid seeing the error (and to avoid users experiencing a broken link when viewing the print-based document online) is to apply a condition tag (e.g., ScreenOnly) to the hyperlink and select the Unbind option. If you then exclude that condition tag from your print-based target, you will still see the hyperlink text in the print-based output, but the link will be removed. Therefore, you will no longer receive an error and the link will not be broken.</p></div></li></ul></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

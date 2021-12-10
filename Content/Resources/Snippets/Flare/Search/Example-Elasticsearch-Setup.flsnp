@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Bob wants to use Elasticsearch with his HTML5 output.</p>
+            <p>First, he sends his network administrator the steps for setting up an Elasticsearch remote server.</p>
+            <p>After the network administrator finishes setting up the server, she sends Bob the URL for it. In this case, let’s say the URL is https://ourelasticsearchservices.fictionsoft.com.</p>
+            <p>Bob opens his HTML5 target, selects the <span class="Emphasis">Search</span> tab, and chooses <span class="Emphasis">Elasticsearch</span> as the search engine type.</p>
+            <p>
+                <img src="../../../Images/Flare/Search/Elasticsearch-Setup1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>He also decides which Elasticsearch options on that tab he wants to use and sets them accordingly. </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <p>Next, Bob creates a primary publishing destination. This is the destination where he will send his output.</p>
+            <p>
+                <img src="../../../Images/Flare/Search/Elasticsearch-Setup2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Let’s say Bob needs to upload his output to this location:</p>
+            <p>help.fictionsoft.com/myoutput/</p>
+            <p>One option is that Bob could use file transfer protocol (FTP)&#160;to copy his output directly up to the server where his output will be hosted. But suppose Bob prefers to use a third-party tool (say, FileZilla) to transfer his output files to the server. In that case, Bob chooses <span class="Emphasis">File System</span> as the type, and for the directory he selects a folder that he created in his Documents folder.</p>
+            <p>
+                <img src="../../../Images/Flare/Search/Elasticsearch-Setup3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Now Bob creates an Elasticsearch destination file. In this file, he chooses <span class="Emphasis">Elasticsearch</span> as the type, and he enters the URL that his network administrator gave him (https://ourelasticsearchservices.fictionsoft.com).</p>
+            <p>
+                <img src="../../../Images/Flare/Search/Elasticsearch-Setup4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+            <p>Next, Bob returns to his target and opens the <span class="Emphasis">Publishing</span> tab. In this tab, he places a check mark next to his primary destination. Then in the <span class="Emphasis">Elasticsearch Destination</span> cell, he chooses the other destination file.</p>
+            <p>
+                <img src="../../../Images/Flare/Search/Elasticsearch-Setup5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>After saving all his changes, Bob builds the target. When that is done, he clicks the <span class="Emphasis">Publish</span> button in the Target Editor, which copies the output files to the local folder he set up in his Documents directory.</p>
+            <p>Finally, Bob uses his third-party tool to transfer the output files from that Documents folder up to their final destination (help.fictionsoft.com/myoutput/). When users access that output, the search function will be using Elasticsearch features. (If Bob decided to use FTP or SFTP, the output would transfer directly to the server, and using the third-party tool would not be necessary.)</p>
+        </div>
+    </body>
+</html>

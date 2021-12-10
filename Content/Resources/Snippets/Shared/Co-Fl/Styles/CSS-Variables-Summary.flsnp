@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>A CSS variable lets you place the value for a style in one place and reuse it throughout a stylesheet. As with other kinds of single-sourcing, this can help with speed, ease of use, and consistency. Whenever you want to change the value, you only need to do so in one place and the new value is propagated everywhere that the variable is referenced. You certainly could use the "find and replace" feature instead to change the value, but CSS variables are preferred because you won’t need to worry about inconsistencies in your stylesheet. For example, some values—such as colors—can be written in various ways, so in those cases CSS variables make a lot of sense. </p>
+    </body>
+</html>

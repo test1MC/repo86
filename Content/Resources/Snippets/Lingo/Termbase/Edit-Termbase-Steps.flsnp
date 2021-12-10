@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../General/Select-Resources-Ribbon.flsnp" /> In the <span class="Emphasis">Termbase</span> section, select <span class="Emphasis">Edit Termbase</span>.</p>
+            </li>
+            <li>
+                <p>From the submenu,select the termbase you want to edit. The Termbase Editor opens. The editor is split into multiple sections.</p>
+                <p>
+                    <img src="../../../Images/Lingo/Termbase/Termbase1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Termbase-Guide" />
+            <li>
+                <p>Use the different sections to add and edit concepts (i.e., rows in the grid), terms, and as much information about each that you want.</p>
+                <p class="Subheading">filter</p>
+                <MadCap:snippetBlock src="Termbase-Filter1.flsnp" />
+                <MadCap:snippetBlock src="Example-Termbase-Filter.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Termbase-Guide" />
+                <p class="Subheading">concept/language grid</p>
+                <MadCap:snippetBlock src="Term-Language-Grid.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Termbase-Guide" />
+                <p class="Subheading">term and language information</p>
+                <MadCap:snippetBlock src="Term-Language-Info.flsnp" />
+                <table style="caption-side: top;width: 100%;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                    <col style="width: 15%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col style="width: 85%;" class="TableStyle-Fancy-Column-Regular" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Localized Definition</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">You can enter the definition of the term for the specified language.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                                <p class="TableTextEmphasis">Usage</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                                <p class="TableText">
+                                    <MadCap:snippetText src="Usage-Definition.flsnp" />
+                                </p>
+                                <MadCap:snippetBlock src="Example-Usage.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Context</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">You can enter an example sentence of the term.</p>
+                                <div class="example">
+                                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                                    <p>If the term is "motorcycle," you might enter "My motorcycle is very fast."</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                                <p class="TableTextEmphasis">Grammar</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                                <p class="TableText">You can indicate grammar information for the term.</p>
+                                <p class="Subheading">gender</p>
+                                <MadCap:snippetBlock src="Gender.flsnp" />
+                                <p class="Subheading">type</p>
+                                <MadCap:snippetBlock src="Term-Type.flsnp" />
+                                <p class="Subheading">location</p>
+                                <MadCap:snippetBlock src="Location.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Customer</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">
+                                    <MadCap:snippetText src="Customer-Definition.flsnp" />
+                                </p>
+                                <MadCap:snippetBlock src="Customer.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                                <p class="TableTextEmphasis">Project</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                                <p class="TableText">
+                                    <MadCap:snippetText src="Project.flsnp" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Term Source</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">
+                                    <MadCap:snippetText src="Source-Definintion.flsnp" />
+                                </p>
+                                <MadCap:snippetBlock src="Example-Source.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-DarkerRows">
+                                <p class="TableTextEmphasis">Geographical</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-DarkerRows">
+                                <p class="TableText">
+                                    <MadCap:snippetText src="Geographical-Definition.flsnp" />
+                                </p>
+                                <MadCap:snippetBlock src="Example-Geographical.flsnp" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Termbase-Guide" />
+                <p class="Subheading">concept information</p>
+                <MadCap:snippetBlock src="Concept-Information.flsnp" />
+                <table style="width: 100%;caption-side: top;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                    <col style="width: 15%;" class="TableStyle-Fancy-Column-Regular" />
+                    <col style="width: 85%;" class="TableStyle-Fancy-Column-Regular" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Subject</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">Enter the subject of the concept (term). </p>
+                                <div class="example">
+                                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                                    <p>If the term is "motorcycle," the subject might be something like "Vehicles," or something else related to motorcycles.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                                <p class="TableTextEmphasis">Source</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                                <p class="TableText">Enter the source of the term.</p>
+                                <div class="example">
+                                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                                    <p>The source could be a dictionary, Wikipedia, a project name, a manual, or something else.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Description</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <MadCap:snippetBlock src="Definition.flsnp" />
+                                <MadCap:snippetBlock src="Example-Definition.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                                <p class="TableTextEmphasis">Grammar</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                                <p class="TableText">You can indicate grammar information for the concept.</p>
+                                <p class="Subheading">part of speech</p>
+                                <MadCap:snippetBlock src="Part-Speech.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">External Reference</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">You can specify an external file with more information about the term (e.g., a website containing an online termbase). In the first field, you can enter the display text (e.g., you might enter "click here," which is used to display the online termbase). In the second field, you can enter the path to the external file (e.g.,  http://www.mycompanywebsite.com/myonlinetermbase.htm).</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-DarkerRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-DarkerRows">
+                                <p class="TableTextEmphasis">Image</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-DarkerRows">
+                                <p class="TableText">You can load an image file related to the term. In the first field, you can enter the display text (e.g., you might enter "click here," which is used to display the image). You can click the Browse button to select the path to the image file (e.g., http://www.mycompanywebsite.com/motorcycle.jpeg).</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Related Concept</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">You can select another concept in the Termbase that is related to the current one.</p>
+                                <div class="example">
+                                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                                    <p>If the term is "motorcycle," you might select "engine," "motor," "transportation," and so on.</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

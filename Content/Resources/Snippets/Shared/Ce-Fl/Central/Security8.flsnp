@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Following are some of the notable features in Central that contribute to a secure, accessible work experience:</p>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel">Permissions </span>
+                    <MadCap:snippetText src="Permissions-Summary.flsnp" />
+                    <MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only"> See <MadCap:xref href="../../../../../Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>.</MadCap:conditionalText>
+                </p>
+                <p>
+                    <img src="../../../../Images/Shared/Ce-Fl/Central/Set-Permissions.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li><span class="SetOffFirstLevel">Importing Projects </span>
+                <MadCap:snippetText src="../Projects/Importing-Projects-Central.flsnp" />
+                <MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only"> See <MadCap:xref href="../../../../../Central/Projects/Main-Activities/Importing-Projects.htm">Importing Projects</MadCap:xref>.</MadCap:conditionalText>
+            </li>
+            <li><span class="SetOffFirstLevel">Downloading Builds </span>
+                <MadCap:snippetText src="../Projects/Downloading-Builds.flsnp" />
+                <MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only"> See <MadCap:xref href="../../../../../Central/Projects/Page-Views/Builds/Other-Activities/Downloading-Builds.htm">Downloading Builds</MadCap:xref>.</MadCap:conditionalText>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Purchasing Seats and Space </span>Built-in widgets inform you when space or user count becomes a concern. <MadCap:snippetText src="../Server/Server.flsnp" /><MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only"> See <MadCap:xref href="../../../../../Central/Server/Purchasing-Seats-Space.htm">Purchasing User Seats and Storage Space</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../../Images/Shared/Ce-Fl/Central/Storage-Usage-Widget.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p><span class="SetOffFirstLevel">Single-Bound and Dual-Bound Projects </span>
+                    <MadCap:snippetText src="../Source-Control/Source-Control-Central1.flsnp" />&#160;<MadCap:snippetText src="../Source-Control/Source-Control-Central2.flsnp" /><MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only"> See <MadCap:xref href="../../../../../Central/Projects/Main-Activities/Source-Control/Source-Control-Central.htm">Source Control and MadCap Central</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../../Images/Shared/Ce-Fl/Source-Control/Single-Bound2.png" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../../Images/Shared/Ce-Fl/Source-Control/Dual-Bound12.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p><span class="SetOffFirstLevel">Security Options </span>
+                    <MadCap:snippetText src="Security-Options-Summary.flsnp" /> <MadCap:conditionalText MadCap:conditions="Products.Central-Online-Only">See <MadCap:xref href="../../../../../Central/Server/Security-Options.htm">Setting Security Options</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../../Images/Shared/Ce-Fl/Server/Security-Settings.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

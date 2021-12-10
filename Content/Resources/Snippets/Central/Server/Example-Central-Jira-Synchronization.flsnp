@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your company uses Jira for issue management, but you also use Central and want to keep your tasks synchronized between the two.</p>
+            <p>In Central you open the <span class="Emphasis">Tasks</span> page and click <img src="../../../Images/Central/Interface/Buttons/Add-btn1.png" alt="" title="" class="ReduceButtonSize" /> to create a new task board.</p>
+            <p>You name it <span class="TypedEntry">My Task Board1</span> and give it a description.</p>
+            <p>
+                <img src="../../../Images/Central/Server/Task-Board-Jira1.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Next, you select the <span class="Emphasis">Jira</span> tab at the top.</p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Server-Mgmt-Purchasing-Guide" />
+            <p>You already have some projects on Jira with which you could associate your new Central board. But you decide to connect the new Central task board with a new project/board on Jira. So from the drop-down you select <span class="Emphasis">*Generate Project*</span> and make sure <span class="Emphasis">Synchronize Jira</span> is enabled.</p>
+            <p>
+                <img src="../../../Images/Central/Server/Task-Board-Jira2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Server-Mgmt-Purchasing-Guide" />
+            <p>After clicking <span class="Emphasis">Save</span>, you see that a row has been added to the main Task Boards page, but it doesn't yet have any tasks in it. From the Jira column, you can see that it has a connection to Jira.</p>
+            <p>
+                <img src="../../../Images/Central/Server/Task-Board-Jira3.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>You click the name of the board, and Central opens the interface for it, where you can create tasks and use the other page views (Grid, Calendar, Backlog, Archive). You create three tasks.</p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Server-Mgmt-Purchasing-Guide" />
+            <p>Over time, you move the First Task to the Completed milestone and the Second Task to the In Progress milestone.</p>
+            <p>
+                <img src="../../../Images/Central/Server/Task-Board-Jira4.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>In Jira, you can see that a new project was added, named "My Task Board1," the same name that you provided in Central. When you open the board, you see your tasks in the appropriate columns. You also notice an extra column (Selected for Development), which Jira adds by default to new classic Kanboards.</p>
+            <p>
+                <img src="../../../Images/Central/Server/Task-Board-Jira5.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Server-Mgmt-Purchasing-Guide" />
+            <p>You remove the extra column because you do not plan to use it, and now the Jira board looks like this.</p>
+            <p>
+                <img src="../../../Images/Central/Server/Task-Board-Jira6.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>Over time, you eventually move the Second Task to the Completed milestone in Central, and you move the Third Task to the In Progress milestone.</p>
+            <p>
+                <img src="../../../Images/Central/Server/Task-Board-Jira7.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Server-Mgmt-Purchasing-Guide" />
+            <p>Not much later, you look in Jira and see the tasks were automatically moved to those matching columns.</p>
+            <p>
+                <img src="../../../Images/Central/Server/Task-Board-Jira8.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>If your linked projects are already bound to Central, do the following:</p>
+        <ol>
+            <li>
+                <p>
+                    <MadCap:snippetText src="Open-Main-Project-Build-Target1.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="Open-Main-Project-Import-Content.flsnp" />
+                <MadCap:snippetBlock src="Bring-Central-ID-Into-Main-Project.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Push-Changes-Main-Project.flsnp" />
+                <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Central/Projects/Main-Activities/Source-Control/Committing-Synchronizing-Single-Bound.htm">Committing and Synchronizing (Pull, Push) in a Single-Bound Model</MadCap:xref> or <MadCap:xref href="../../../../Central/Projects/Main-Activities/Source-Control/Pushing-Dual-Bound-Model.htm">Pushing in a Dual-Bound Model</MadCap:xref>.</MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide"> See <MadCap:xref href="../../../../Print-Only-Topics/Central/Projects/Main-Activities/Source-Control/Committing-Synchronizing-Single-Bound.htm">Committing and Synchronizing in a Single-Bound Model</MadCap:xref> or <MadCap:xref href="../../../../Central/Projects/Main-Activities/Source-Control/Pushing-Dual-Bound-Model.htm">Pushing in a Dual-Bound Model</MadCap:xref>.</MadCap:conditionalText>
+            </li>
+        </ol>
+    </body>
+</html>

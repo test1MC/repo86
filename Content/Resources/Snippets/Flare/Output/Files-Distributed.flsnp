@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>The number of files that are generated and should be distributed depends on the output type you are creating and the settings that you provide when developing your project.</p>
+        <table class="TableStyle-Fancy" style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Borders" MadCap:pattern="12" />
+            <col class="TableStyle-Fancy-Column-Borders" MadCap:pattern="12" />
+            <col class="TableStyle-Fancy-Column-Borders" MadCap:pattern="12" />
+            <col class="TableStyle-Fancy-Column-Borders" MadCap:pattern="12" />
+            <col class="TableStyle-Fancy-Column-Borders" MadCap:pattern="12" />
+            <col class="TableStyle-Fancy-Column-Borders" MadCap:pattern="12" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1" MadCap:conditions="">
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header1" MadCap:conditions="">
+                        <p class="TableTextHead">ONLINE</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header1" colspan="2">
+                        <p class="TableTextHead">PRINT</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header1" colspan="3">
+                        <p class="TableTextHead">OTHER</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">LEGACY</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-Fancy-Head-Header2">
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header2">
+                        <p>HTML5</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header2">
+                        <p>PDF</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header2">
+                        <p>Word</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header2">
+                        <p>Clean XHTML</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header2">
+                        <p>Eclipse Help</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Borders-Header2">
+                        <p>EPUB</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header2">
+                        <p>HTML Help</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Borders-LightRows">
+                        <p class="TableTextCenter">All output files<sup class="small">1</sup></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Borders-LightRows">
+                        <p class="TableTextCenter">One .pdf file</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Borders-LightRows">
+                        <p class="TableTextCenter">One or more files<sup class="small">2</sup></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Borders-LightRows">
+                        <p class="TableTextCenter">All output files (content)<sup class="small">1</sup></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Borders-LightRows">
+                        <p class="TableTextCenter">All output files<sup class="small">3</sup></p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Borders-LightRows">
+                        <p class="TableTextCenter">One .epub file</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableTextCenter">One .chm file</p>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="TableStyle-Fancy-Foot-Footer1">
+                    <td class="TableStyle-Fancy-FootD-Borders-Footer1" colspan="7">
+                        <p class="TableTextFootnote"><sup style="font-weight: bold;">1</sup>The main entry file has an .htm extension.</p>
+                        <p class="TableTextFootnote"><sup style="font-weight: bold;">2</sup>The file format (.xml, .doc, .docx, .xps, or .pdf) that is generated depends on your target settings. When you build Word output, <MadCap:variable name="Other.Product" /> may create an extra folder called Resources (if your project contains ancillary files, such as images). If you want to embed images in your Word document, you can use an option on the Advanced tab of the Target Editor<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Images/Other-Activities/Embedding-Images-Word-Output.htm">Embedding Images in Word Output</MadCap:xref>)</MadCap:conditionalText>. If you do not embed images in your Word files and you move those output files to another location than your Output folder, you must remember to also move the Resources folder. Without that folder in the proper location, the referenced images will no longer be displayed in the output files. If you convert the Word files to PDF, the images will then be incorporated into the PDF file, and you can move that single file anywhere you like.</p>
+                        <p class="TableTextFootnote"><sup style="font-weight: bold;">3</sup>Flare generates an XML-based plug-in file (plugin.xml) that specifies the context Help (csh.xml), index (index.xml), and table of contents (toc.xml) files that Eclipse needs to load your Flare content in the <MadCap:variable name="Outputs.EclipseHelp">hunNp</MadCap:variable> system. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For information on distributing an Eclipse Help system, see <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/Output-Types/Eclipse-Output/Creating-Eclipse-Help-Plug-In.htm">Creating an Eclipse Help Plug-In</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

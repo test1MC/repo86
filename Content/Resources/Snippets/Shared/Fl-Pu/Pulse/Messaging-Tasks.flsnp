@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Pulse-Admin-Employee-Customer.flsnp">
+        </MadCap:snippetBlock>
+        <p>The Messages app gives you the ability to read, send, and hide conversations with other Pulse users. You must access the Messages app from the Pulse dashboard. Messages are not accessible from the Flare output.</p>
+        <MadCap:snippetBlock src="../../All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Pulse-Guides.Pulse-Server-Admin-Guide" />
+        <MadCap:snippetBlock src="../../All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Send a Message</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="PulseDashLoginAnyGroup.flsnp" />
+            </li>
+            <li>
+                <p>In the dashboard, choose one of these options:</p>
+                <MadCap:snippetBlock src="PulseOpenMessagesPage.flsnp" />
+            </li>
+            <li>In the Messages page, click <span class="Emphasis">New Message</span>. </li>
+            <li>
+                <p>In the New Message dialog, do the following:</p>
+                <MadCap:snippetBlock src="PulseNewMessageDialog.flsnp" />
+            </li>
+            <li>Click <span class="Emphasis">Send</span>.</li>
+        </ol>
+        <h2>How to View Messages</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="PulseDashLoginAnyGroup.flsnp" />
+            </li>
+            <li>
+                <p>In the dashboard, choose one of these options:</p>
+                <MadCap:snippetBlock src="PulseOpenMessagesPage.flsnp" />
+            </li>
+            <li>In the Messages page, your most recent messages and conversations appear in the list. </li>
+            <li>Click a message to open the conversation thread. </li>
+        </ol>
+        <h2>How to Load Earlier Messages</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="PulseDashLoginAnyGroup.flsnp" />
+            </li>
+            <li>
+                <p>In the dashboard, choose one of these options:</p>
+                <MadCap:snippetBlock src="PulseOpenMessagesPage.flsnp" />
+            </li>
+            <li>In the Messages page, your most recent messages and conversations appear in the list. </li>
+            <li>Click a message to open the conversation thread. </li>
+            <li>Click the <span class="Emphasis">Load&#160;earlier messages</span> link.</li>
+        </ol>
+        <h2>How to Reply to a Message</h2>
+        <MadCap:snippetBlock src="ReplyToMessage.flsnp" />
+        <h2>How to Download a Message Attachment</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="PulseDashLoginAnyGroup.flsnp" />
+            </li>
+            <li>
+                <p>In the Pulse dashboard choose one of these options:</p>
+                <MadCap:snippetBlock src="PulseOpenMessagesPage.flsnp" />
+            </li>
+            <li>In the Messages page, your most recent messages and conversations appear in the list. </li>
+            <li>Click a message to open the conversation thread. </li>
+            <li>Click the desired attachment to download it to your computer. </li>
+        </ol>
+        <MadCap:snippetBlock src="../../All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you do not know how to access the Pulse dashboard, see the Pulse Server Administrator for the Site&#160;URL. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Pulse/Install/Pulse-Server-Configuration.htm">Pulse Server Configuration</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Pulse-Online-Only,Pulse-Guides.Pulse-User-Guide">See <MadCap:xref href="../../../../../Pulse/Install/Pulse-Server-Configuration.htm">Pulse Server Configuration</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

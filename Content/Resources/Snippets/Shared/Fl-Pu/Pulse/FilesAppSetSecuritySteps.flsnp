@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1236" MadCap:lastWidth="610">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Access the Files app where you want to set security access for a folder that you've created. See <MadCap:xref href="#HowToAccessFilesApp">How to Access the Files App</MadCap:xref>.</li>
+            <li>
+                <p>Click the small box at the right end of the folder row, and from the context menu click <span class="Emphasis">Security</span>.</p>
+                <p>
+                    <img src="../../../../Images/Shared/Fl-Pu/file_sharing20.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The page that opens displays which users or groups have access to the folder.</p>
+            </li>
+            <li>
+                <p>You can click <span class="Emphasis">Add a user or group</span> to add others to the security access.</p>
+                <p>
+                    <img src="../../../../Images/Shared/Fl-Pu/file_sharing21.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../../Images/Shared/Fl-Pu/file_sharing22.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p> You can also click the drop-down to the right to adjust the security permissions level of each user or group.</p>
+                <p>
+                    <img src="../../../../Images/Shared/Fl-Pu/file_sharing23.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:snippetBlock src="../../All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.Pulse-Whats-New-Guide,Pulse-Guides.Pulse-User-Guide" />
+                <p>Following are the different security permission levels. These can also be configured on a system. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Pulse/Dashboards/Systems/Using-Systems-Menu.htm#HowToConfigurePermissions">How to Configure the Privacy Settings for a System</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Pulse-Online-Only">See <MadCap:xref href="../../../../../Pulse/Dashboard/Systems/Using-Systems-Menu.htm#HowToConfigurePermissions">How to Configure the Privacy Settings for a System</MadCap:xref>.</MadCap:conditionalText></p>
+                <MadCap:snippetBlock src="SecurityPermissionsTable.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

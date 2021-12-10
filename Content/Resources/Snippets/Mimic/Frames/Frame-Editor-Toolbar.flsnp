@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>Buttons and Sections</h2>
+        <table style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css'); margin-left: 0; margin-right: auto; caption-side: top; width: 100%; mc-table-style-original: url('../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Mimic/Interface/Buttons/Frame-Size-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Indicates the actual size of the frames in the movie. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Mimic/Interface/Drop-Downs/Frame-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the number of the current frame in the movie sequence. If you click the down arrow, you can select any frame in the movie to open it.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Mimic/Interface/Drop-Downs/Objects-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Opens a submenu which lets you create the following objects:</p>
+                        <p class="Subheading">Rectangle</p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../Objects/Rectangle-Mode.flsnp" />
+                        </p>
+                        <p class="Subheading">Polygon</p>
+                        <p>
+                            <MadCap:snippetText src="../Objects/Polygon-Mode.flsnp" />
+                        </p>
+                        <p class="Subheading">Oval</p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../Objects/Oval-Mode.flsnp" />
+                        </p>
+                        <p class="Subheading">Polyline</p>
+                        <p>
+                            <MadCap:snippetText src="../Objects/Polyline-Mode.flsnp" />
+                        </p>
+                        <p class="Subheading">Graphics</p>
+                        <ul>
+                            <li><span class="Emphasis">Bubble</span> <MadCap:snippetText src="../Objects/Callout-Mode.flsnp" /></li>
+                            <li><span class="Emphasis">Loop</span> <MadCap:snippetText src="../Objects/Loop-Mode.flsnp" /></li>
+                            <li><span class="Emphasis">Arrow</span> <MadCap:snippetText src="../Objects/Arrow-Mode.flsnp" /></li>
+                            <li><span class="Emphasis">Cursor</span> <MadCap:snippetText src="../Objects/Cursor-Mode.flsnp" /></li>
+                        </ul>
+                        <h2>Interactive </h2>
+                        <p>Interactive objects include the following object types: </p>
+                        <ul>
+                            <li><span class="Emphasis">Button</span><![CDATA[   ]]><MadCap:snippetText src="../Objects/Button-Mode.flsnp" /></li>
+                            <li><span class="Emphasis">Typing Box</span> <MadCap:snippetText src="../Objects/Typing-Box-Mode.flsnp" /></li>
+                            <li><span class="Emphasis">Input Box</span> <MadCap:snippetText src="../Objects/Input-Box-Mode.flsnp" /></li>
+                        </ul>
+                        <p class="Subheading">Text Rectangle</p>
+                        <p class="TableText">
+                            <MadCap:snippetText src="../Objects/Text-Rectangle-Mode.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Mimic/Interface/Drop-Downs/Effects-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Opens a submenu which lets you apply effects. See <MadCap:xref href="../../../../Mimic/Appearance/Effects/Adding-Effects.htm">Adding Effects</MadCap:xref>.</p>
+                        <p class="Subheading">Clip</p>
+                        <MadCap:snippetBlock src="../Interface/Ribbons-Toolbars-Menus/Clip-Definition.flsnp" />
+                        <p class="Subheading">Opacity</p>
+                        <p MadCap:conditions="Products.Mimic">
+                            <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Opacity-Definition.flsnp" />
+                        </p>
+                        <p class="Subheading">Gray Scale </p>
+                        <p MadCap:conditions="Products.Mimic">
+                            <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Gray-Scale-Definition.flsnp" />
+                        </p>
+                        <p class="Subheading">Blur&#160;</p>
+                        <p MadCap:conditions="Products.Mimic">
+                            <MadCap:snippetText src="../Interface/Ribbons-Toolbars-Menus/Blur-Definition.flsnp" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Mimic/Interface/Drop-Downs/Master-Frame-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Opens a submenu which lets you choose which master frames are visible in the Frame Editor. See <MadCap:xref href="../../../../Mimic/Frames/Master-Frames/Showing-Hiding-Master-Frames.htm">Showing and Hiding Master Frames</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Mimic/Frames/Zoom-Field.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Increases or reduces the scale of the frame. Use the drop-down to select a scale between 12.5% and 1600%.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Ca-Mi/Interface/Buttons/Zoom-Out-btn2.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Reduces the scale of the frame  each time you click the button.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Ca-Mi/Interface/Buttons/Zoom-100-Percent-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Resets the scale of the frame to 100%.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Ca-Mi/Interface/Buttons/Zoom-In-btn2.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Increases the scale of the frame each time you click the button.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Ca-Mi/Interface/Buttons/Fit-Width-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Scales the frame so that its width fits in the Frame Editor.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Ca-Mi/Interface/Buttons/Fit-Height-btn1.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Scales the frame so that its height fits in the Frame Editor.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows" MadCap:conditions="">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Images/Shared/Ca-Mi/Interface/Drop-Downs/Grid-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">Lets you work with grids in the frame, including showing/hiding the grid, snapping objects to the grid, and editing grids. See <MadCap:xref href="../../../../Mimic/Multimedia/Movies-Creating/More/Working-Grids.htm">Working with Grids</MadCap:xref>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your main Top Navigation skin has a black header background, but you want users to be able to select a skin with a green header background and a different logo, or even a third skin that does not have a header at all. Therefore, you create the additional skins and edit them to look the way you want. Then you add the Skins button in your Topic Toolbar skin component.</p>
+            <p>In the output, a user can click the  button <img src="../../../Images/Flare/Interface/Buttons/Skins-btn.png" alt="" title="" class="ReduceButtonSize" /> in the topic toolbar and choose one of the options, which are based on the skin file name.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Runtime-Skins1.png" class="MaxWidth80Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+            <p>If the user selects <b>Green</b>, the output might look something like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Runtime-Skins2.png" class="MaxWidth90Percent" />
+            </p>
+            <p>And if the user selects <b>NoHeader</b>, the output might look something like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Runtime-Skins7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+            <p>The name of the skin is reflected at the end of the URL in the browser.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Runtime-Skins3.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

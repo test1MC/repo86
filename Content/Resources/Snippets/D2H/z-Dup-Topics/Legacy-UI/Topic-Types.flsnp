@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1219" MadCap:lastWidth="1063">
+    <body>
+        <p>Use the following options to configure topic types. Unavailable options will be grayed out.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Basic</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Name.flsnp" />
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Navigation</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Auto-Buttons.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Auto-Link.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Auto-Navigate.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Auto-Next.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Explicit-Access.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Mid-Topic.flsnp" />
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Display</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Contents-Only.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Popup.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Use Comments </span>If selected, all topics with this topic type will have DISQUS commenting enabled in NetHelp targets.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Output/NetHelp/Adding-DISQUS-Commenting-NetHelp-Targets.htm">Adding DISQUS Commenting to NetHelp Targets</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Adding-DISQUS-Commenting-to-NetHelp-Targets.htm">Adding DISQUS Commenting to NetHelp Targets</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="D2H-Guides.D2H-Design-Guide"> See the online Help or the <span class="EmphasisItalic">Targets Guide</span>.</MadCap:conditionalText></li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Suppress-Empty-Topics.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Untitled.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Exclude from Search </span>If selected, all topics with this topic type will not be displayed in search results.</li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Replacement.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Window.flsnp" />
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Behavior</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Auto-Context-ID.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Auto-Keyword.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Styles/Styles-Script.flsnp" />
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Design-Guide" />
+    </body>
+</html>

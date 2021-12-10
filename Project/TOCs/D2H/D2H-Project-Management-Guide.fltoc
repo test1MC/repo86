@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  conditions="Products.D2H">
+  <TocEntry
+    Title="ComingSoonTitlePage"
+    Link="/Content/Print-Only-Topics/Shared/Coming-Soon-Title-Page.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    conditions="General.Future"></TocEntry>
+  <TocEntry
+    Title="Title"
+    Link="/Content/Print-Only-Topics/Shared/Title-Page-Turquoise.htm"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    PageNumber="1"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageType="normal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print-Only-Topics/Shared/Copyright.htm"
+    StartPageLayout="true"
+    BreakPageLayout="/Content/Resources/PageLayouts/Copyright.flpgl"
+    StartSection="false"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Copyright/Copyright.flpgl"></TocEntry>
+  <TocEntry
+    Title="PrintTOC"
+    Link="/Content/Print-Only-Topics/Shared/Print-TOC.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/TOCs/TOC-Turquoise.flpgl"
+    PageType="first"
+    PageNumberFormat="lower-roman"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"></TocEntry>
+  <TocEntry
+    Title="CH 1"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Turquoise.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/D2H/Introduction/Features/Project-Management.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"
+    PageType="firstright"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 2"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Turquoise.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Migrating a Project"
+    Link="/Content/D2H/Projects/Migrating-Project.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"
+    PageType="firstright"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 3"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Turquoise.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Modular Projects"
+    Link="/Content/D2H/Projects/Modular/Modular-Projects.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"
+    PageType="firstright"
+    BreakType="none">
+    <TocEntry
+      Title="Creating a Hub Project"
+      Link="/Content/D2H/Projects/Modular/Creating-Hub-Project.htm" />
+    <TocEntry
+      Title="Creating a Child Project"
+      Link="/Content/D2H/Projects/Modular/Creating-Child-Project.htm">
+      <TocEntry
+        Title="Cross-Project Linking"
+        Link="/Content/D2H/Projects/Modular/Cross-Project-Linking.htm" />
+      <TocEntry
+        Title="Modifying Context IDs in Modular Projects"
+        Link="/Content/D2H/Projects/Modular/Modifying-Context-IDs-Modular-Projects.htm" />
+      <TocEntry
+        Title="Modular Glossaries"
+        Link="/Content/D2H/Projects/Modular/Modular-Output-Glossaries.htm" />
+      <TocEntry
+        Title="Modular TOC Utility"
+        Link="/Content/D2H/Projects/Modular/Modular-TOC-Utility.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Creating Modular Ouptut for Help Viewer Targets"
+      Link="/Content/D2H/Projects/Modular/Creating-Modular-Output-Help-Viewer-Targets.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 4"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Turquoise.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Project Properties and Settings"
+    Link="/Content/D2H/Projects/Project-Settings/Project-Properties-Settings.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"
+    PageType="firstright"
+    BreakType="none">
+    <TocEntry
+      Title="Compacting a Project File"
+      Link="/Content/D2H/Projects/Project-Settings/Compacting-Project-File.htm" />
+    <TocEntry
+      Title="Importing and Exporting Project Settings"
+      Link="/Content/D2H/Projects/Project-Settings/Importing-Exporting-Project-Settings.htm" />
+    <TocEntry
+      Title="Project Properties"
+      Link="/Content/D2H/Projects/Project-Settings/Setting-Project-Properties.htm">
+      <TocEntry
+        Title="Choosing a Source Folder"
+        Link="/Content/D2H/Projects/Project-Settings/Choosing-Source-Folder.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="CH 5"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Turquoise.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Reports"
+    Link="/Content/D2H/Reports/Reports.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"
+    PageType="firstright"
+    BreakType="none"></TocEntry>
+  <TocEntry
+    Title="CH 6"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Turquoise.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="SharePoint"
+    Link="/Content/D2H/SharePoint/SharePoint-Integration.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"
+    PageType="firstright"
+    BreakType="none">
+    <TocEntry
+      Title="SharePoint Library"
+      Link="/Content/D2H/SharePoint/SharePoint-Library.htm"
+      BreakType="none"
+      StartSection="Unchecked"
+      PageType="normal">
+      <TocEntry
+        Title="Adding SharePoint Library Documents to a Doc-To-Help Project"
+        Link="/Content/D2H/SharePoint/Adding-SharePoint-Library-Docs-Project.htm" />
+      <TocEntry
+        Title="Checking Documents In and Out"
+        Link="/Content/D2H/SharePoint/Checking-Docs-In-Out-SharePoint-Library.htm" />
+      <TocEntry
+        Title="Merging Documents"
+        Link="/Content/D2H/SharePoint/Merging-Word-Documents.htm" />
+      <TocEntry
+        Title="Stop Sharing a Document"
+        Link="/Content/D2H/SharePoint/Stop-Sharing-Document.htm" />
+      <TocEntry
+        Title="Synchronizing Documents"
+        Link="/Content/D2H/SharePoint/Synchronizing-Documents.htm" />
+      <TocEntry
+        Title="Uploading Documents to a SharePoint Library"
+        Link="/Content/D2H/SharePoint/Uploading-Documents-SharePoint-Library.htm" />
+      <TocEntry
+        Title="Working Offline"
+        Link="/Content/D2H/SharePoint/Working-Offline.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Publishing to SharePoint"
+      Link="/Content/D2H/SharePoint/Publishing-SharePoint.htm">
+      <TocEntry
+        Title="Editing a SharePoint Wiki"
+        Link="/Content/D2H/SharePoint/Editing-SharePoint-Wiki.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="CH 7"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Turquoise.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Team Authoring"
+    Link="/Content/D2H/Team-Authoring/Team-Authoring.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"
+    PageType="firstright"
+    BreakType="none">
+    <TocEntry
+      Title="Setting Up a Team Project"
+      Link="/Content/D2H/Team-Authoring/Setting-Up-Team-Project.htm"></TocEntry>
+    <TocEntry
+      Title="Connecting to a Team Project"
+      Link="/Content/D2H/Team-Authoring/Connecting-Team-Project.htm" />
+    <TocEntry
+      Title="Working in a Team Project"
+      Link="/Content/D2H/Team-Authoring/Working-Team-Project.htm">
+      <TocEntry
+        Title="Adding a New File to the Team Project"
+        Link="/Content/D2H/Team-Authoring/Adding-New-File-Team-Project.htm" />
+      <TocEntry
+        Title="Checking Out the Project File"
+        Link="/Content/D2H/Team-Authoring/Checking-Out-Project-File.htm" />
+      <TocEntry
+        Title="Comparing Documents"
+        Link="/Content/D2H/Team-Authoring/Comparing-Documents-TFS-Repositories-Only.htm" />
+      <TocEntry
+        Title="Deleting a File from the Team Project"
+        Link="/Content/D2H/Team-Authoring/Deleting-File-Team-Project.htm" />
+      <TocEntry
+        Title="Editing a Document"
+        Link="/Content/D2H/Team-Authoring/Editing-Document.htm" />
+      <TocEntry
+        Title="Getting the Latest Version of a File"
+        Link="/Content/D2H/Team-Authoring/Getting-Latest-Version-File.htm" />
+      <TocEntry
+        Title="Viewing the Document History"
+        Link="/Content/D2H/Team-Authoring/Viewing-Document-History-TFS-Repositories-Only.htm" />
+      <TocEntry
+        Title="Viewing File Properties"
+        Link="/Content/D2H/Team-Authoring/Viewing-File-Properties-TFS-Repositories-Only.htm" />
+      <TocEntry
+        Title="Working Offline"
+        Link="/Content/D2H/Team-Authoring/Working-Offline.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Team Authoring Administrative Functions"
+      Link="/Content/D2H/Team-Authoring/Team-Authoring-Administrative-Functions.htm">
+      <TocEntry
+        Title="Changing Repository Settings"
+        Link="/Content/D2H/Team-Authoring/Changing-Repository-Settings.htm" />
+      <TocEntry
+        Title="Removing Backup Files from the Repository"
+        Link="/Content/D2H/Team-Authoring/Removing-Backup-Files-Repository.htm" />
+      <TocEntry
+        Title="Removing Team Authoring Support from a Working Copy"
+        Link="/Content/D2H/Team-Authoring/Removing-Team-Authoring-Support-Working-Copy.htm" />
+      <TocEntry
+        Title="Unlocking Files in the Repository"
+        Link="/Content/D2H/Team-Authoring/Unlocking-Files-Repository.htm" />
+      <TocEntry
+        Title="Unlocking the DHV File"
+        Link="/Content/D2H/Team-Authoring/Unlocking-DHV-File.htm" />
+      <TocEntry
+        Title="Upgrading a Team Authoring Project"
+        Link="/Content/D2H/Team-Authoring/Upgrading-Team-Authoring-Project.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/Print-Only-Topics/Shared/Appendix.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Turquoise.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="PDF Library"
+    Link="/Content/D2H/PDF-Guides/PDF-Guides-D2H.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    StartPageLayout="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartSection="false"
+    AutoEndOnLeftPage="disabled"
+    ComputeToc="false"
+    PageType="first"
+    BreakType="none" />
+</CatapultToc>

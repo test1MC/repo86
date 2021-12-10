@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <MadCap:snippetBlock src="../Styles/Edit-Style1.flsnp" />
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-Table-Styles1.flsnp" />
+            </li>
+            <li>On the left side of the editor, select <span class="Emphasis">table</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-Relevant-Properties1.flsnp" />
+            </li>
+            <li>If you are using the group view <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Styles-Group-View-btn.png" class="ReduceButtonSize" />, expand the <span class="Emphasis">Table</span> group.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" />
+                </p>
+                <ul type="1">
+                    <li><span class="SetOffFirstLevel">mc-caption-repeat</span> If you want captions to repeat on tables that span multiple pages in print-based output,  click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and select <span class="Emphasis">true</span>.</li>
+                    <li><span class="SetOffFirstLevel">mc-caption-continuation</span> You can add text to the end of captions that repeat on subsequent pages (e.g., continued)."</li>
+                </ul>
+                <p class="topic-only">
+                    <img src="../../../Images/Flare/Output/Table-Caption-Repeat-Continuation-Style-Adv.png" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" /> Captions are repeated for any tables where you have added them in the table properties.</li>
+        </ol>
+    </body>
+</html>

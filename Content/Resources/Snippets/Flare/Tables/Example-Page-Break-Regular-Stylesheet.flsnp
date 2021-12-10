@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Page Break in Regular Stylesheet</p>
+            <p>You have a long table. In the output, the first part of the table might be shown on page 14, and the second part of it is shown on page 15. Suppose the final table row on page 14 has so much content that it wraps around to page 15, in essence splitting that row. If you would rather not split rows such as this, but rather keep them entirely on one page or another, you can set a page break on the tr style in a regular stylesheet. In this situation, you would set the "page-break-inside" property to "avoid." Therefore, all tables in your output would simply break automatically at the end of pages when necessary.</p>
+        </div>
+    </body>
+</html>

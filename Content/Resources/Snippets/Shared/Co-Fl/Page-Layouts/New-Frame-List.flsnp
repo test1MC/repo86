@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li><span class="SetOffFirstLevel"><MadCap:keyword term="Page layouts: frame modes" />New Frame Mode </span>
+                <MadCap:snippetText src="New-Frame-Mode.flsnp" />
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">New Header Frame Mode </span>This lets you draw a header frame. <MadCap:snippetText src="Header-Frame-Summary1.flsnp" /></p>
+                <MadCap:snippetBlock src="Note-One-Header-Frame-Page.flsnp" />
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">New Footer Frame Mode </span>This option lets you draw a footer frame. <MadCap:snippetText src="Footer-Frame-Summary1.flsnp" /></p>
+                <MadCap:snippetBlock src="Note-One-Footer-Frame-Page.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+            <li><span class="SetOffFirstLevel">New Body Frame Mode </span>This option lets you draw a body frame. <MadCap:snippetText src="Body-Frame-Summary1.flsnp" /></li>
+            <li>
+                <p><span class="SetOffFirstLevel">New Decoration Frame Mode </span>This option lets you draw a decoration frame. <MadCap:snippetText src="Decoration-Frame-Summary1.flsnp" /></p>
+                <MadCap:snippetBlock src="Note-Decoration-Frames-Not-Supported-Word-FM.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Touring-Workspace-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">New Image Frame </span>This option lets you draw an image frame. <MadCap:snippetText src="Image-Frame-Summary.flsnp" /></p>
+                <MadCap:snippetBlock src="Note-Image-Frames-Not-Supported-Word-FM.flsnp" MadCap:conditions="Products.Flare" />
+            </li>
+        </ul>
+    </body>
+</html>

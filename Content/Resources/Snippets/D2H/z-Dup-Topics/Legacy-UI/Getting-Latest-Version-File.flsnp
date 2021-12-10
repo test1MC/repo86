@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="658" MadCap:lastWidth="1537">
+    <body>
+        <p>It is possible to retrieve the latest version of a file (including a project file) from the server. TFS projects have the additional option to retrieve a specific version of a file from the server. Getting the latest version does not check out the file, but synchronizes your working copy with the server.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Get the Latest Version of a File</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>In the Team Authoring window, select the file.</li>
+                    <li>Click the <span class="Emphasis">Get Latest Version</span> button.</li>
+                    <li>If you are using a file or web repository and you selected the project (D2H) file, the Get Latest Version dialog opens. Confirm the information and click the <span class="Emphasis">OK</span> button.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">In TFS projects you have the option of retrieving a specific version of a file from the repository. To do so, click the <span class="Emphasis">Get Latest Version</span> drop-down and choose <span class="Emphasis">Get Specific Version</span>. The Get Specific Version dialog will allow you to choose the files to get by a variety of options, including Date and Changeset. After making your selection and choosing the appropriate overwrite option, click the <span class="Emphasis">Get</span> button. </p>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Team-Authoring/Working-Team-Project.htm">Working in a Team Project</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Working-in-Team-Project.htm">Working in a Team Project</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

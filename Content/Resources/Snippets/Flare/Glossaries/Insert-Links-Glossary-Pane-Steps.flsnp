@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>
+                <p>Highlight the word or phrase that you want to add as a glossary term link. Then do one of the following depending on what part of the user interface you are using. (The text does not need to match an existing glossary term.)</p>
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Ribbon </span>Select <b>Insert &gt; Glossary Term Link</b>.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+SHIFT+T</span>.</li>
+                </ul>
+                <p>The Create Glossary Link dialog opens.</p>
+            </li>
+            <li>In the <span class="Emphasis">Select Glossary File</span> section on the left, select the glossary file (if you have more than one).</li>
+            <li>
+                <p>In the <span class="Emphasis">Select Glossary Term</span> section on the right, select the glossary term. The definition text is shown at the bottom of the dialog.</p>
+                <p>
+                    <img src="../../../Images/Flare/Glossaries/Glossary-Select-Term.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>(Optional) If you do not see a term that you want to link to, you can add one by doing the following:</p>
+                <ol class="LowerAlpha">
+                    <li>Click <span class="Emphasis">Add New Term</span>. The Create Glossary Term dialog opens.</li>
+                    <li>Enter a new term and definition, which will be added to the glossary when you are finished.</li>
+                    <li>(Optional) You can also use the <span class="Emphasis">Insert Variable</span> button <img src="../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Insert-Variable-btn.png" alt="" title="" />, if you want to add a variable to the definition.</li>
+                    <li>
+                        <p>(Optional) If you want to sort a glossary entry using a different term, in the <span class="Emphasis">Sort As</span> field, enter the term you want to use for sorting. "Sort As" terms appear in the <span class="Emphasis">Sort As</span> column of the glossary. See <MadCap:xref href="../../../../Flare/Glossaries/Other-Information/Sorting-Glossaries.htm">Sorting Glossaries</MadCap:xref>.</p>
+                        <MadCap:snippetBlock src="Tip-Sort-As.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The word or phrase is now shown as a linked glossary term with an icon <img src="../../../Images/Flare/Interface/Icons/Glossary-Term-Link-ico.png" class="ReduceButtonSize" /> beside it.</p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can adjust the capitalization of the term in the topic or snippet if you like. It does not matter if the term is uppercase in the glossary but lowercase in the topic or snippet.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

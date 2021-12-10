@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Tables-Tutorials.flmsp');">
+    <head>
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Tables.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:tables;Tables:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Controlling Styles for Table Content</h1>
+        <p>There are multiple ways to control the look of content in tables. In this lesson, let's take a look at using cell content styles, as well as employing advanced selectors in a stylesheet.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Adjust Styles in a Regular Stylesheet</h2>
+        <p>Before we use a cell content style in a table, let's make some simple adjustments in a regular stylesheet. Doing this will help us more clearly see what happens when you work inside a table.</p>
+        <ol>
+            <li>
+                <p>In the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>. Then double-click <span class="Emphasis">Styles.css</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>On the left side of the local toolbar in the Stylesheet Editor, select <span class="Emphasis">Table Styles</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the <span class="Emphasis">td</span> style, and set the <span class="Emphasis">font-size</span> property to <span class="Emphasis">10pt</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Change the filter to show <span class="Emphasis">Paragraph Styles</span>, and set the <span class="Emphasis">p</span> style to a <span class="Emphasis">font-size</span> of <span class="Emphasis">18pt</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open the <span class="Emphasis">Famous-Austin-Folks.htm</span> topic.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Place your cursor at the end of <span class="Emphasis">Ben Crenshaw</span> and press <span class="Emphasis">ENTER</span>. Notice the much larger font size. This happened because each cell of a table uses the &lt;td&gt; tag initially to hold content, and the stylesheet is set to display that content at 10 pt. However, each cell can have only one &lt;td&gt; tag, so as soon as you press ENTER, Flare puts the content inside &lt;p&gt; tags, which are nested within the &lt;td&gt; tag. And because you set the p style at 18 pt, the text is much larger than the text in the rest of the table, where there are not yet &lt;p&gt; tags.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <img src="../../../Resources/Images/Shared/All/Interface/Buttons/Undo-btn.png" alt="" title="" class="ReduceButtonSize" /> to undo your changes.</li>
+        </ol>
+        <h2>How to Apply a Cell Content Style</h2>
+        <p>One way to get around the dilemma from the previous set of steps is to use a cell content style for your tables.</p>
+        <ol>
+            <li>Go back to the <span class="Emphasis">Styles.css</span> stylesheet.</li>
+            <li>
+                <p>On the left side of the Stylesheet Editor, expand the <span class="Emphasis">p</span> style, and under it select the <span class="Emphasis">table-text</span> class. Then set the <span class="Emphasis">color</span> property to <span class="Emphasis">blue</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>From the Content Explorer, expand <span class="Emphasis">TableStyles</span> and double-click <span class="Emphasis">Alternate-Column-Color.css</span>.</li>
+            <li>In the TableStyle Editor, select the <span class="Emphasis">Rows</span> tab. Notice that this stylesheet only has one row pattern (i.e., one row in the grid at the top of the editor), which means you only have to set the cell content style once. If you had more row patterns, you would need to set the style on each of them.</li>
+            <li>
+                <p>Scroll down in the field portion of the editor to the <span class="Emphasis">Cell Content Style</span> field. In the <span class="Emphasis">Tag</span> field select <span class="Emphasis">p</span>, and in the <span class="Emphasis">Class</span> field select <span class="Emphasis">table-text</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you were to open the Alternate-Row-Color.css table stylesheet, you would see that the same cell content style has already been set for both of the row patterns.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Go back to the <span class="Emphasis">Famous-Austin-Folks.htm</span> topic.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Insert a new table in the topic, associating the <span class="Emphasis">Alternate-Column-Color.css</span> stylesheet with it when you do. Then once the table is inserted, type some text in the cells. Notice that each cell of the regular rows already has the p.table-text class in it, and the font is therefore blue.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <img src="../../../Resources/Images/Shared/All/Interface/Buttons/Undo-btn.png" alt="" title="" class="ReduceButtonSize" /> repeatedly until the new table is removed.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Notice that the existing table still has text without the blue color. You can update an existing table to use that cell content style. First, select all of the regular body cells in the table.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Table</span> ribbon, click <span class="Emphasis">Cell Content Style</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Scroll down in the dialog and select <span class="Emphasis">p.table-text</span>. Then click <span class="Emphasis">OK</span>.</li>
+            <li>Click off the table and notice that all of the cell text is blue, even if you press ENTER&#160;after one of the names and type more text.</li>
+        </ol>
+        <h2>How to Use an Advanced Selector to Control Table Cell Content</h2>
+        <ol>
+            <li>In the Famous-Austin-Folks.htm topic, click <img src="../../../Resources/Images/Shared/All/Interface/Buttons/Undo-btn.png" alt="" title="" class="ReduceButtonSize" /> repeatedly until the blue text is removed from the table.</li>
+            <li>
+                <p>Open the <span class="Emphasis">Alternate-Column-Color.css</span> and <span class="Emphasis">Alternate-Row-Color.css</span> stylesheets, and on the <span class="Emphasis">Rows</span> tab remove the values in the <span class="Emphasis">Cell Content Style</span> fields (i.e., you can delete the class from the second field and set the first field to <span class="Emphasis">(default)</span>). Remember, in the Alternate-Row-Color.css stylesheet, you need to do this for each of the row patterns on that tab (i.e., select the first row pattern and remove the cell content style, then select the second row and remove the cell content style from it as well).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content11.png" alt="" title="" class="MaxWidth70Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" />
+            </li>
+            <li>Open the <span class="Emphasis">Styles.css</span> stylesheet.</li>
+            <li>On the left side of the Stylesheet Editor, filter for <span class="Emphasis">Table Styles</span>.</li>
+            <li>
+                <p>Select the <span class="Emphasis">td</span> style. Then set the <span class="Emphasis">color</span> to <span class="Emphasis">green</span> and the <span class="Emphasis">font-size</span> to <span class="Emphasis">12pt</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>This will automatically use those values in all regular body cells of your tables. But what happens if you press ENTER at the end of text, creating &lt;p&gt; tags withing the &lt;td&gt; tag? That's what we'll take care of next by creating an advanced selector.</p>
+            </li>
+            <li>In the local toolbar of the Stylesheet Editor, click <span class="Emphasis">Add Selector</span>.</li>
+            <li>
+                <p>In the dialog, click in the <span class="Emphasis">HTML Element</span> field and enter <span class="TypedEntry">td</span> (if it isn't already there). Then click the <span class="Emphasis">Advanced Options down</span> arrow to show more fields.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the <span class="Emphasis">Advanced Selector</span> field, add a space after <span class="Emphasis">td</span>, then type <span class="TypedEntry">p</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>This is a special style where you are telling Flare that when it finds a &lt;p&gt; tag within a &lt;td&gt; tag, you want it to look a certain way.</p>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Filter the Stylesheet Editor to show <span class="Emphasis">All Styles</span>, and at the top of the list of styles, expand <span class="Emphasis">(Complex Selectors)</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content15.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Under <span class="Emphasis">(Complex Selectors)</span>, scroll down and select <span class="Emphasis">td p</span>. Then set its <span class="Emphasis">color</span> to <span class="Emphasis">green</span> and its <span class="Emphasis">font-size</span> to <span class="Emphasis">12pt</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Tables/Control-Styles-Table-Content16.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Go back to the <span class="Emphasis">Famous-Austin-Folks.htm</span> topic, and notice that the table text is now green and 12 pt. Click after any of the names and press <span class="Emphasis">ENTER</span> to create &lt;p&gt; tags and type more content. That text looks the same—green and 12 pt.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Tables/Note-Advanced-Selector-vs-Cell-Content-Style.flsnp" />
+    </body>
+</html>

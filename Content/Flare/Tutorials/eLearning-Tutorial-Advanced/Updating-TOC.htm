@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Tutorials-Videos/Flare-LMS-Tutorial-Advanced.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Incorporating eLearning topics in the table of contents." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/eLearning-Advanced.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:eLearning;Learning and development:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />Updating the Table of Contents</h1>
+        <p>We have our eLearning topics. Now we need to incorporate them into our table of contents (TOC).</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp">
+        </MadCap:snippetBlock>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Add the Knowledge Check Topics to the TOC</h2>
+        <ol>
+            <li>
+                <p>In the Project Organizer on the left side of Flare, expand the <span class="Emphasis">TOCs</span> folder, and double-click <span class="Emphasis">Online-TOC</span>.</p>
+            </li>
+            <li>
+                <p>In the Content Explorer, expand the <span class="Emphasis">Knowledge-Check-Topics</span> folder (if necessary). Then, click and drag the <span class="Emphasis">First Knowledge Check.htm</span> topic into the TOC, placing it between the <span class="Emphasis">Introduction</span> and <span class="Emphasis">Attractions</span> entries.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-TOC1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click and drag the <span class="Emphasis">Second Knowledge Check.htm</span> topic into the TOC, placing it between the <span class="Emphasis">Music</span> and <span class="Emphasis">Famous Austin Folks</span> entries.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-TOC2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click and drag the topic called <span class="Emphasis">The End.htm</span> into the TOC, placing it after the <span class="Emphasis">Famous Austin Folks</span> entry.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-TOC3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Add the Test Topics to the TOC</h2>
+        <p>Test (or quiz) topics in the TOC are unique in that they need to be placed in a special test node. That is how the system knows that the questions and answers in these topics should be treated as gradable. </p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Keep in mind that you can have only one test node per TOC. </p>
+        </div>
+        <ol>
+            <li>
+                <p>In the TOC, make sure the final entry (<span class="Emphasis">The End</span>) is selected. Then, in the local toolbar click <img src="../../../Resources/Images/Flare/Interface/Buttons/New-Test-Node-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-TOC7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Type <span class="TypedEntry">Quiz</span> as the name for the node, and press <span class="Emphasis">ENTER</span>.</p>
+            </li>
+            <li>
+                <p>Select that new node and press <span class="Emphasis">F4</span> on your keyboard to open the Properties dialog.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Select the <span class="Emphasis">General</span> tab, and click the <span class="Emphasis">Select Topic</span> radio button (even if it's already selected).</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-TOC8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>In the dialog that opens, expand the <span class="Emphasis">Test-Topics</span> folder and select <span class="Emphasis">Quiz.htm</span>. Then click <span class="Emphasis">Open</span>.</p>
+            </li>
+            <li>
+                <p>Back in the Properties dialog, select the <span class="Emphasis">eLearning</span> tab.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>There are various options you can select for the quiz <MadCap:conditionalText MadCap:conditions="General.Online-Only">(for details about each field, see <MadCap:xref href="../../LMS/Other-Activities/Editing-TOC-LMS1.htm">Editing the TOC for eLearning</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">(for details about each field, see the online Help)</MadCap:conditionalText>. We're going to leave most of these as they are, but let's tell Flare to switch up the order of the answers so that they're not the same each time the course is launched. Select <span class="Emphasis">Randomize Test Answers</span>. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-TOC9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> Our Quiz topic is now linked to that node, removing the flag icon next to it.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the Content Explorer, click and drag the <span class="Emphasis">Question 1.htm</span> and <span class="Emphasis">Question 2.htm</span> topics under that node, so that they are indented. If necessary, you can use the right arrow button (<img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Move-Item-Right-btn.png" class="ReduceButtonSize" />) in the local toolbar to get them positioned. When finished, it should look like this.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/LMS/eLearning-Advanced/eLearning-Tutorial-TOC6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

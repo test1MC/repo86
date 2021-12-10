@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="Open-Project.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Open-Checklists1.flsnp" />
+            </li>
+            <li>In the toolbar click <img src="../../../Images/Central/Interface/Buttons/Add-btn1.png" alt="" title="" class="ReduceButtonSize" />. <span class="topic-only">The Create Checklist dialog opens.</span></li>
+            <li>
+                <p>On the <b>Settings</b> tab, complete the <span class="Emphasis">Name</span> field.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists1aa.png" alt="" title="" class="MaxWidth80Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+            <li>
+                <p>From the <span class="Emphasis">Checklist Type</span> field, you can select a generic or project files checklist type. However, if you plan to use a template (see next step), you can skip this step because the template will populate this field (and others) automatically.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Generic List </span>
+                                <MadCap:snippetText src="Generic-List-Description.flsnp" />
+                            </p>
+                            <p>
+                                <img src="../../../Images/Central/Projects/Checklists/Project-Checklists2.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </li>
+                        <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                        <li>
+                            <p><span class="SetOffFirstLevel">Project Files </span>
+                                <MadCap:snippetText src="Project-Files-Description.flsnp" />
+                            </p>
+                            <p>
+                                <img src="../../../Images/Central/Projects/Checklists/Project-Checklists1.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+            <li>
+                <p>(Optional) From the <span class="Emphasis">Templates</span> field, you can choose a template that you’ve previously created<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Central/Projects/Page-Views/Checklists/Templates/Creating-Checklist-Templates.htm">Creating Checklist Templates</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide"> (see <MadCap:xref href="../../../../Print-Only-Topics/Central/Projects/Page-Views/Checklists/Templates/Creating-Checklist-Templates.htm">Creating Checklist Templates</MadCap:xref>)</MadCap:conditionalText>. <span class="topic-only">Information from the template (i.e., type, description, columns, rows, notes) will populate the corresponding fields in this dialog. After the fields are populated, you can edit them if necessary.</span></p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists3.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="Template-Description-Field.flsnp" />
+                </p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists4.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="Columns-Tab.flsnp" />
+                </p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists5.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+            <li>
+                <p>Select the <span class="Emphasis">Rows</span> tab to create rows for the checklist. This is done differently, depending on the type of checklist you are creating.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Generic List </span>In the text box, type the label for a row and click <img src="../../../Images/Central/Interface/Buttons/Add-btn2.png" alt="" title="" class="ReduceButtonSize" />. Repeat this for each row you want to add. You can use the up and down arrows to change the order of the rows.</p>
+                            <p>You can also complete the <span class="Emphasis">Add Note</span> field for any row.</p>
+                            <p>
+                                <img src="../../../Images/Central/Projects/Checklists/Project-Checklists6.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Project Files </span>Your project folders and files are shown on the Rows tab, with check boxes next to each item. Any item with a check mark will be included in the checklist. It is likely that you will only want to include certain files in the checklist. Therefore, remove the check marks for any files you want to exclude. If you want to include a small number of items in a folder, the easiest thing to do is to begin by removing the check mark from the folder. Then navigate to the items you want to include and select them.</p>
+                            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                            <div class="example">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a Flare project where the Content Explorer looks as follows, and you want to create a checklist that includes only the indicated topics.</p>
+                                <p>
+                                    <img src="../../../Images/Central/Projects/Checklists/Project-Checklists6a.png" alt="" title="" class="MaxWidth100Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                                <p>When you create the checklist, you will see the following on the Rows tab:</p>
+                                <p>
+                                    <img src="../../../Images/Central/Projects/Checklists/Project-Checklists7.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                                <p>You don’t want any of the files from the Project Organizer to be part of the checklist, and you don’t want the main project file included either. So you can remove both of those check marks.</p>
+                                <p>
+                                    <img src="../../../Images/Central/Projects/Checklists/Project-Checklists8.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                                <p>The files to be included in the checklist are topics, which are found in the Content folder. However, most of the topics and other files from the Content folder will not be part of the checklist. So the easiest thing is to initially remove the check mark from that folder as well.</p>
+                                <p>
+                                    <img src="../../../Images/Central/Projects/Checklists/Project-Checklists9.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                                <p>To choose specific topics in the Content folder, click the arrow to the left to expand it. You will see all of the subfolders and files within it.</p>
+                                <p>
+                                    <img src="../../../Images/Central/Projects/Checklists/Project-Checklists10.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                                <p>Since you want all of the topics in “B-Feature-Topics”  to be included, you can just click the check box next to that subfolder. If you expand that subfolder, you will see that all of the topics within it are automatically selected.</p>
+                                <p>
+                                    <img src="../../../Images/Central/Projects/Checklists/Project-Checklists11.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                                <p>You only want two of the topics in the “D-Reference” subfolder to be included, so expand that folder and select those topics.</p>
+                                <p>
+                                    <img src="../../../Images/Central/Projects/Checklists/Project-Checklists12.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                                <p>And finally, you want the Home topic at the root level of the Content folder to be included, so select it. The dialog should now look as follows when all subfolders are collapsed. Notice that the “D-Reference” subfolder has a small dash instead of a check mark; that’s because only some of the topics within it are selected.</p>
+                                <p>
+                                    <img src="../../../Images/Central/Projects/Checklists/Project-Checklists13.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">Save</span>. <span class="topic-only">The checklist is created and its name appears on the left side of the interface. The checklist graph and items appear to the right.</span></li>
+            <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+            <li>
+                <p>If you have created a checklist based on project files, you will see the first folder level (e.g., Content) below the graph.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists15.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+                <p>To navigate to a particular subfolder or set of files, click that folder. You will then see the content within that folder, as well as a breadcrumbs trail.</p>
+                <div class="topic-only">
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists16.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                    <p>When you open a folder that contains files, you will see a circle for each column. These circles are where you set the status of each item.</p>
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists17.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You will not see the status circles for rows represented by folders. You can set the status for files only.</p>
+                        <p>
+                            <img src="../../../Images/Central/Projects/Checklists/Project-Checklists17b.png" alt="" title="" class="MaxWidth95Percent" />
+                        </p>
+                    </div>
+                    <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                    <p>If you want to navigate back to a particular folder or subfolder, click it in the breadcrumbs.</p>
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists18.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p>Click a circle and it will cycle through all the statuses each time you click. Alternatively, you can right-click on the circle and choose one of the statuses from the context menu.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li class="SetOffFirstLevel">To Do</li>
+                        <li class="SetOffFirstLevel">In Progress</li>
+                        <li class="SetOffFirstLevel">Complete</li>
+                        <li><span class="SetOffFirstLevel">N/A </span>Select this status if a particular column is not applicable for that row.</li>
+                    </ul>
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists19.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>Depending on your selection, the appearance of the circle changes. In addition, the graph above is updated.</p>
+                    <p>
+                        <img src="../../../Images/Central/Projects/Checklists/Project-Checklists20.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                    <div class="tip">
+                        <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">You can also click <img src="../../../Images/Central/Interface/Buttons/Settings-btn2.png" alt="" title="" class="ReduceButtonSize" /> in a column heading and set all of the items in that column to the same status. This menu can also be used to pin a column to the left or right.</p>
+                        <p>
+                            <img src="../../../Images/Central/Projects/Checklists/Project-Checklists20b.png" alt="" title="" class="MaxWidth95Percent" />
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>(Optional) If you want to add a comment for a particular row, you can click in the <span class="Emphasis">Note</span> cell and type it.</li>
+            <li>(Optional) If you want to move a particular column to the far left or right, click <img src="../../../Images/Central/Interface/Buttons/Settings-btn2.png" alt="" title="" class="ReduceButtonSize" /> and select <span class="Emphasis">Pin Left</span> or <span class="Emphasis">Pin Right</span>. You can also select <span class="Emphasis">Unpin</span> to remove the setting.</li>
+        </ol>
+    </body>
+</html>

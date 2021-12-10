@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Although this kind of output is called "Top Navigation," it is designed to work responsively, changing its layout if it is being viewed on smaller device such as a tablet or smart phone. When this occurs, the top menu is replaced with a flyout menu on the side.</p>
+        <p>
+            <img src="../../../../Images/Flare/Output/Top-Nav-Output19.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+        <p>This kind of layout is better able to display longer lists of TOC items that would not look as good in a top menu.</p>
+        <p>
+            <img src="../../../../Images/Flare/Output/Top-Nav-Output33.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+        <p>If you would like this kind of layout for larger browser windows—as well as for smaller tablets and mobile devices—you can turn off the top navigation altogether via the responsive output settings. To do this, open the Target Editor, select the <span class="Emphasis">Skin</span> tab, and set the <span class="Emphasis">Tablet Breakpoint</span> to a very high number. Doing this displays the output on extremely large monitors the same way that it looks on small tablets (i.e., with the side flyout menu instead of the top navigation menu). This workaround is probably the easiest way to deal with a long TOC without having to make changes to it.</p>
+        <p>
+            <img src="../../../../Images/Flare/Output/Top-Nav-Output20.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

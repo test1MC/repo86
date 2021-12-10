@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head>
+        <script src="script.js" type="text/javascript">
+        </script>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterTroubleshooting" />
+            <MadCap:keyword term="Troubleshooting:XML Editor;XML Editor:troubleshooting" />Troubleshooting XML Editor Issues</h1>
+        <p>Following are issues that may occur when using the XML&#160;Editor in Flare.</p>
+        <div id="madcapToggler" style="min-width:800px">
+            <ul class="troubleshooting1">
+                <li targets="test1" class="TroubleshootingLink">When saving  a topic in the XML Editor, a message appears saying that the topic has been updated outside of the editor</li>
+                <li targets="test2" class="TroubleshootingLink">Flare's "spell check while typing" feature is malfunctioning</li>
+            </ul>
+            <div targetName="test1" class="troubleshoot">
+                <p class="Subheading">When saving  a topic in the XML Editor, a message appears saying that the topic has been updated outside of the editor</p>
+                <p>When saving  a topic in the XML Editor, the following message appears:</p>
+                <p class="Emphasis">[Topic Name and location] has been changed outside the editor.</p>
+                <p class="Emphasis">Do you want to discard the changes and reload?</p>
+                <p class="Subheading">Cause</p>
+                <p>This issue is caused when there is an unsaved  topic in the XML Editor and changes are made to the same topic in an interface outside of the XML Editor. For example, if you access topic properties from the Content Explorer and change properties on the unsaved topic (e.g., file tags, language settings, the topic name, topic style class) and then click OK, the message will appear. Flare recognizes that changes have been made to the topic outside of the XML Editor and prompts you with this message to decide whether you want to discard changes and reload the topic. </p>
+                <p>Selecting "yes" to the "discard the changes and reload" option will result in any changes made to the topic in the XML Editor to be discarded. The topic will then be saved. The changes made to the topic outside of the XML Editor will also be saved. Selecting the "no" option will save the changes in the external interface but leave the XML Editor changes unsaved. </p>
+                <p class="Subheading">Solution</p>
+                <p>If you want to avoid this dialog, simply save topic in the XML Editor before you make changes to a topic in an interface outside of the XML&#160;Editor.</p>
+                <p>For more information see <MadCap:xref href="../Interface/Editors/XML-Editor/XML-Editor.htm">XML Editor</MadCap:xref>.</p>
+            </div>
+            <div targetName="test2" class="troubleshoot">
+                <p class="Subheading">Flare's "spell check while typing" feature is malfunctioning</p>
+                <p>The "spell check while typing" function in the XML Editor is flagging all of the text as misspelled.</p>
+                <p class="Subheading">Cause</p>
+                <p>This problem can be caused by having the incorrect language set on the project or topic.</p>
+                <p class="Subheading">Solution</p>
+                <p>Make sure that the correct language is set on the project or topic.</p>
+                <p class="Subheading">how to select a language for the entire project</p>
+                <ol>
+                    <li>Select <span class="Emphasis">Project &gt; Project Properties</span>. The Project Properties dialog opens.</li>
+                    <li>Select the<span class="Emphasis"> Language</span> tab.</li>
+                    <li>From the list, select a language (those in bold font are supported in spell check).</li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                    </li>
+                </ol>
+                <p class="Subheading">how to select a language for a specific topic</p>
+                <ol>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Co-Fl/General/Make-Sure-Content-Explorer-Open.flsnp" />
+                    <li>Find and select the topic.</li>
+                    <li>In the local toolbar of the Content Explorer, click <img src="../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. The Properties dialog opens.</li>
+                    <li>Select the <span class="Emphasis">Language</span> tab.</li>
+                    <li>From the list, select a language (those in bold font are supported in spell check).</li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </div>
+            <div style="clear:both">
+            </div>
+            <p>&#160;</p>
+        </div>
+    </body>
+</html>

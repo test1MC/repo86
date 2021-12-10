@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="Open-Project.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Open-Build-Management.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="Navigate-Target.flsnp" />
+            </li>
+            <li>
+                <p>In the toolbar, click <img src="../../../Images/Central/Interface/Buttons/Build-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <div class="topic-only">
+                    <p>
+                        <MadCap:snippetText src="../../Shared/Ce-Fl/Output/Optional-View-Output.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                    </p>
+                    <p>
+                        <img src="../../../Images/Central/Projects/Builds/Run-Schedule-Builds2.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <p>If you click on a build row (not on the check box), the row expands, showing  details about the selected build (i.e., the private URL and whether the build is associate with a <a href="../../../../Central/Sites/Sites.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">site</a>).</p>
+                    <p>
+                        <img src="../../../Images/Central/Projects/Builds/Run-Schedule-Builds3.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

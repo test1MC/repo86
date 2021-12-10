@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You plan to import some FrameMaker documents to Flare and you have locations in those documents where you want to link to CHM files. The problem is that FrameMaker does not allow you to create links to CHM files in such a way that those links can then be imported into another software application. </p>
+            <p>Therefore, you create a passthrough marker in the FrameMaker document, providing the beginning "href" tag and path to the CHM file. Like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Importing/FrameMaker/Passthrough-Marker1.png" class="MaxWidth50Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Transition-from-FM-Guide" />
+            <p>Then you create a second passthrough marker, providing the end tag for the link. Like this:</p>
+            <p>
+                <img src="../../../Images/Flare/Importing/FrameMaker/Passthrough-Marker2.png" class="MaxWidth50Percent" />
+            </p>
+            <p>When you import the FrameMaker document(s), you can specify that the passthrough markers should be imported as XML fragments. In Flare, the link to the CHM file will look and work as it should. </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-Get-Started.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="When you have finished adding all of your content to the project and made sure all of the styles and target settings are set, you are ready to build your final PDF output." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Getting-Started.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:getting started" />
+            <MadCap:keyword term="Building:output;Targets:building output;Output:building targets" />
+            <MadCap:keyword term="Adobe PDF;Output:Adobe PDF" />
+            <MadCap:concept term="FilterIntroduction" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterOutput" />Building and Viewing PDF Output</h1>
+        <p>Now let's build the PDF output.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Build PDF Output</h2>
+        <ol>
+            <li>In the Project Organizer, expand the <span class="Emphasis">Targets</span> folder.</li>
+            <li>Double-click the <span class="Emphasis">All-About-San-Diego-PDF</span> target.</li>
+            <li>In the local toolbar of the Target Editor, click <img src="../../../../Resources/Images/Flare/Interface/Buttons/Build-btn2.png" alt="" title="" class="ReduceButtonSize" />. The Builds window pane opens at the bottom of the Flare interface, and the target begins to build.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+        <h2>How to View PDF&#160;Output</h2>
+        <p>After you have built your output, you can view it. In the Builds window pane, you can double-click the row. Alternatively, in local toolbar of the Target Editor, you can click <img src="../../../../Resources/Images/Flare/Interface/Buttons/View-btn2.png" alt="" title="" class="ReduceButtonSize" />. PDF output opens in your default PDF&#160;viewer.</p>
+        <p>
+            <img src="../../../../Resources/Images/Flare/Tutorials/Getting-Started/PDF.png" alt="" title="" class="MaxWidth80Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Getting-Started-Tutorial" />
+        <h2>Review the San Diego Project in PDF Output</h2>
+        <p>Following is a list of things you might want to look at in the PDF output. When you build your HTML5 output (see <MadCap:xref href="HTML5-Output.htm">Building HTML5 Output</MadCap:xref>), compare the two and see how these items differ.</p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Snippets and Condition Tags</span> Open the <span class="Emphasis">Introduction</span> chapter, and notice the content at the top that is contained in a snippet. It looks just like the rest of the content in the topic. Also notice that the condition was applied correctly in the snippet so that the paragraph mentioning the PDF guide displays, but not the paragraph talking about a website.</li>
+            <li><span class="SetOffFirstLevel">Cross-References</span> Look at the context-sensitive cross-references in the <span class="Emphasis">Cuisine</span>  chapter. Notice the page number and reference to "the next page" instead of just providing the names of the headings.</li>
+            <li><span class="SetOffFirstLevel">Drop-Down Text and Images</span> In the <span class="Emphasis">Attractions</span> chapter, notice that the drop-down effects display as regular text. You'll also see some light gray horizontal lines. These are associated with the drop-down style in the stylesheet. So they might be more appropriate for online output but not such much for print output. If you want to get rid of them in the PDF output, you can use the Print medium in your stylesheet to remove the bottom border from the MadCap|dropDown style <MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../Styles/Other-Features-Activities/Mediums-Media-Queries/Mediums/Mediums1.htm">Mediums</MadCap:xref>)</MadCap:conditionalText>. Finally, notice that the images on these pages are full size, not thumbnails.</li>
+        </ul>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End.flsnp" />
+        </div>
+    </body>
+</html>

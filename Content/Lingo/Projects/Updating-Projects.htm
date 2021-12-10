@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Lingo/User-Guides-Videos/Lingo-Getting-Started.flmsp');">
+    <head><title></title>
+        <meta name="description" content="How to update a MadCap Lingo project. Using the Update Project command in the File menu to translate source file changes to a target language." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Projects:updating" />
+            <MadCap:concept term="FilterProjects" />Updating Projects</h1>
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Lingo/Micro-Content-Toolbars/User-Guides-Videos/Getting-Started.flsnp" />
+                <div class="Tiles-6-6-Microcontent">
+                    <div>
+                        <p class="micro-content-only">
+                            <MadCap:snippetText src="../../Resources/Snippets/Lingo/Projects/Update-Project-Summary.flsnp" />
+                        </p>
+                        <div class="topic-only">
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+                        </div>
+                        <h2>How to Update a Project</h2>
+                        <ol>
+                            <li>Select <span class="Emphasis">File &gt; Update Project</span>.</li>
+                            <li>Navigate to and select the project or file that has been changed. <span class="topic-only">A processing dialog temporarily displays as the changed files are integrated into the <MadCap:variable name="Other.Product" /> project. This dialog closes automatically when it is finished.</span></li>
+                            <li>
+                                <p>(Optional) If you want to update the localized images in your Lingo project with the images from the source, select <span class="Emphasis">Replace localized images for this project</span>, and click <span class="Emphasis">OK</span>.</p>
+                                <div class="topic-only">
+                                    <div class="note">
+                                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You may want to replace the localized images if the images in the source project have changed considerably. Localized images will only be replaced if the source image is newer (i.e., more recently updated) than the localized image; localized images that have not changed in the source project will not be replaced.</p>
+                                    </div>
+                                    <div class="note">
+                                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You will only be prompted to replace images if there are images in your Lingo project.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="micro-content-only">
+                        <p class="center" style="text-align: center;">
+                            <img src="../../Resources/Images/Lingo/Micro-Content/QS-Update-Project.gif" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Getting-Started-Guide" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If the changed source file has segments that exactly match those in <MadCap:keyword term="Translation memory" />TM, the segments automatically receive those translations. If there are changes where matches do not occur in TM, those changes are reflected in the Lingo project in a couple of ways. First, the Difference column in the File List window pane indicates whether a file has changed. Also, if you switch to Preview mode in the <MadCap:keyword term="Translation Editor" />Translation Editor (for files such as Word documents, PowerPoint files, and Flare topics, which can be displayed in that mode), icons are displayed next to segments that have been changed.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When you use this feature, <MadCap:variable name="Other.Product" /> only scans files that have been changed, instead of all files in the project. This results in quicker updates.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Lingo/Projects/Update-Project-Disabled.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you make changes to a project's filtering or flattening settings in the Project Properties dialog, you do not need to update the project to apply these settings. Instead, the changes are applied dynamically.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Lingo/Translation-Memory/Xliff-Alternate-TM-Source.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After updating a project, you can open a list of files that require translation (see <MadCap:xref href="../Translating-Files/Viewing-List-Files-Requiring-Translation.htm">Viewing a List of Files Requiring Translation</MadCap:xref>). If the Difference column indicates a change was made to a particular file, you can open that file to translate the new text (you may need to drag the divider in the File List window pane to see the Difference column).</p>
+        <p MadCap:conditions="General.Online-Only">
+            <img src="../../Resources/Images/Lingo/Projects/Update-Project.png" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

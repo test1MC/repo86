@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/User-Guides/Flare-Analysis-Reports.flmsp');">
+    <head><title></title>
+        <meta name="description" content="The Markup Suggestions window pane lets you see a list of files where the XHTML markup (code) can be improved." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Markup:suggestions;Suggestions:markup" />
+            <MadCap:concept term="FilterFeatures" />Viewing and Applying Markup Suggestions</h1>
+        <p>The Markup Suggestions window pane lets you see a list of files where the XHTML markup (code) can be improved (e.g., empty tags, CDATA tags, empty attributes, excessive spaces). When the analysis tool finds markup issues, there are a couple of ways that you can "clean them up." First, you can click the Apply button in the local toolbar to automatically apply the suggestions to the selected files. Alternatively, you can double-click a row to open that file and work on the issues manually. You may be able to fix some issues for a specific file in the XML Editor. Other issues may require you to open the behind-the-scenes code in the Internal Text Editor.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to View Markup Suggestions</h2>
+        <ol>
+            <li>Open a project. </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select&#160;<span class="Emphasis">Analysis &gt; Suggestions &gt; Markup Suggestions</span>.</p>
+                    </li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Summary Window Pane</span> Double-click the row that mentions markup suggestions.</p>
+                        <p>The Markup Suggestions window pane opens.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Drag-Divider-See-More.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Suggestion</span> Displays the suggestion to resolve the issue (e.g., "Remove empty attribute," "Make single space").</li>
+                    <li><span class="SetOffFirstLevel">Context</span> Displays the context of the issue in question, along with a tag if applicable for the suggestion (e.g., img, p, h1, li). For example, if the issue is that a tag has an empty attribute, this shows the tag and name of the attribute within it.</li>
+                    <li><span class="SetOffFirstLevel">File </span>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/File-Description.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Title </span>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Interface/Ribbons-Toolbars-Menus/Title-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Folder </span>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/Folder-Option.flsnp" />
+                    </li>
+                </ul>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../../../Resources/Images/Flare/Analysis/Markup-Suggestions-Dialog1.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/General/Page-Nav-Buttons.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <h2>How to Apply Markup Suggestions Automatically</h2>
+        <ol>
+            <li>View the markup suggestions.</li>
+            <li>In the Markup Suggestions window pane, select all issues that you want to resolve. <MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/If-Select-All-Some-Rows.flsnp" /></li>
+            <li>
+                <p>In the local toolbar, click the <span class="Emphasis">Apply</span> button. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Analysis/Markup-Suggestions-Dialog2.png" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>A message asks if you want to apply the selected suggestions. <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /></li>
+            <li>If your Backups folder is not empty, a message asks if you want to empty it and continue. If so, click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <p>Click <span class="Emphasis">OK</span> once more.</p>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Analysis/More-Analysis-Scans/Topics/Note-Can-Use-Backups-Window.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+        <h2>How to Resolve Markup Issues Manually</h2>
+        <ol>
+            <li>View the markup suggestions.</li>
+            <li>
+                <p>You can open any file in the list to view or modify it in an editor. <MadCap:snippetText src="../../../../Resources/Snippets/Flare/General/Double-Click-Right-Click-Open.flsnp" /> </p>
+            </li>
+            <li>If necessary, you can open the file in the Internal Text Editor to work directly in the markup.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Analysis/Reports/Note-Can-Include-Info-Reports.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can customize the suggestions that are shown in the Markup Suggestions window pane. See <MadCap:xref href="Customizing-Markup-Suggestions-Shown.htm">Customizing Markup Suggestions Shown</MadCap:xref>.</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Analysis-Guide" />
+    </body>
+</html>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Whenever you click on certain content or select it in the XML Editor, the Style Inspector adjusts, showing the following information:</p>
+        <ul>
+            <li>
+                <p class="SetOffFirstLevel">Name of Style</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p>If you click <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Select-Parent-Node-btn.png" alt="" title="" class="ReduceButtonSize" /> next to the style name, the content for the parent tag will be selected and its style and properties will be shown in the window pane instead.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Local Formatting </span>If the selected content has any local formatting, this is indicated under the red “Local style attributes” area.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>If you want to keep the look of the content, but use styles instead of local formatting, you can create a new style class based on the formatting. This can be done by using <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Create-Style-Class-btn1.png" alt="" title="" class="ReduceButtonSize" /> in the local toolbar or the right-click menu. <MadCap:conditionalText MadCap:conditions="Products.Flare">See <MadCap:xref href="../../../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Style-Inspector/Creating-Style-Classes.htm">Creating Style Classes</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Contributor-Online-Only">See <MadCap:xref href="../../../../../Contributor/Styles/More/Using-Style-Inspector.htm#CreatingStyleClasses">Creating Style Classes</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Style Properties and Values </span>Below any local attributes, the Style Inspector shows all of the properties and values that are explicitly set for the style.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Stylesheet(s) </span>To the right of the style name, you can see the stylesheet where the properties are set.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p>If you hover over the stylesheet name, you can see its path.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p MadCap:conditions="Products.Flare">If stylesheets have been linked<MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Products.Flare-Online-Only"> (see <MadCap:xref href="../../../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Stylesheets/Linking-Stylesheets.htm">Linking Stylesheets</MadCap:xref>)</MadCap:conditionalText>, you might see properties that are coming from more than one stylesheet.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Inherited Properties </span>In addition to the style for the selected content, you will also see parent styles in the Style Inspector. These are tags that the current tag is placed within; therefore, the style for the selected content will inherit style settings from those parent styles, as well as using its own settings. Every tag you add to a content file<MadCap:conditionalText MadCap:conditions="Products.Flare"> (i.e., topic, snippet, template page)</MadCap:conditionalText> is found within the &lt;body&gt; tag, so at the very least, your style will be inheriting property values from the body style. But your tag might also appear within other tags, therefore inheriting from those styles as well. <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Products.Flare-Online-Only">For more information, see <MadCap:xref href="../../../../../Flare/Styles/Basics-CSS/Inheritance.htm">Inheritance</MadCap:xref>.</MadCap:conditionalText></p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p>If you see a property that is crossed out, it means the value was being inherited but has been overridden in the child style.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p>If you see a property in gray, it means the property is inherited but is not currently being used by the content in the child tag.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Property Description </span>Similar to the Stylesheet Editor, a description of each property is shown at the bottom when you click on it.</p>
+                <p MadCap:conditions="Products.Flare">
+                    <img src="../../../../Images/Flare/Styles/Style-Inspector14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

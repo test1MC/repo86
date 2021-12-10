@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Videos/Flare-Zendesk.flmsp');">
+    <head>
+        <meta name="description" content="Create a separate TOC and target for Zendesk, and confirm the destination file is configured for Zendesk before publishing." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Publishing:destinations;Destinations:Zendesk;Zendesk" />
+            <MadCap:concept term="FilterFeatures" />Publishing to Zendesk</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5-Clean-XHTML-Note-Side-Top-Nav.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>After you have completed the other tasks for publishing to Zendesk (i.e., <a href="Before-You-Start-Zendesk.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">reviewing best practices</a>, <a href="Installing-MadCap-Connect-Zendesk.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">installing MadCap Connect for Zendesk</a>, <a href="Configuring-TOC-Zendesk.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">configuring the TOC</a>, <a href="Creating-Destination-File-Zendesk2.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">creating a destination file</a>), you can complete the following steps to build to generate output files and copy them to Zendesk. You must be an Administrator or Team Leader in Zendesk to publish output to Zendesk.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:microContent id="microcontent1">
+            <div>
+                <h2>How to Publish to Zendesk</h2>
+                <p class="micro-content-only">Following are steps for copying output files to Zendesk. For more information, and other parts of the process, see <MadCap:xref href="Zendesk.htm">Zendesk Publishing</MadCap:xref>.</p>
+                <ol>
+                    <li>(Optional) If you want to publish multimedia files to Zendesk, make sure to allow this in Zendesk:<ol><li>In Zendesk, go to <span class="Emphasis">Settings &gt; Guide settings</span>.</li><li>Select <span class="Emphasis">Spam filter</span>.</li><li>Select <span class="Emphasis">Display unsafe content</span>.</li><li>Click <span class="Emphasis">Update</span>.</li></ol></li>
+                    <li> In Flare, open your Clean XHTML or skinless HTML5 target. In the Target Editor, select the <span class="Emphasis">General</span> tab and in the <span class="Emphasis">Primary TOC</span> field, choose the table of contents you are using for Zendesk. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../TOCs/Process/Associating-Primary-TOC-Target.htm">Associating a Primary TOC With a Target</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>On the <span class="Emphasis">Publishing</span> tab, select the destination file you created for Zendesk. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Publishing-Destinations/Process/Associating-Publishing-Destinations-Targets.htm">Associating Destination Files With Targets</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>(Optional) On the <span class="Emphasis">Advanced</span> tab, select the <span class="Emphasis">Content to include</span> drop-down. Then select one of the options to limit the files included in the output. You can include files linked directly or indirectly from the target, or you can include only files linked directly from the TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Step4-Developing-Targets/More/Including-Specifically-Linked-Content.htm">Including Specifically Linked Content</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+                    </li>
+                    <li>
+                        <p>In the local toolbar of the Target Editor, click <span class="Emphasis">Build</span>.</p>
+                    </li>
+                    <li>
+                        <p>After the build successfully completes, click <span class="Emphasis">Publish</span>.</p>
+                    </li>
+                    <li class="topic-only">When the publish is completed,  review your content in the Zendesk Help Center.</li>
+                </ol>
+                <div class="topic-only">
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">During the build and publish processes, you may see messages in the Compile Status Column of the Builds window pane  about category and section translations. These messages are a function of the Zendesk publishing process, and are displayed even if there are no translated files. These messages are also displayed in the build log when the publish is completed.</p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>
+            <MadCap:xref href="Installing-Zendesk-Themes.htm">Installing Zendesk Themes</MadCap:xref>
+        </p>
+    </body>
+</html>

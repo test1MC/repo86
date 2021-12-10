@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus.flsnp" />
+        <p>
+            <MadCap:snippetText src="../Images/Remove-Unreferenced-Images-Skin.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Skins-Guide" />
+        <h2>How to Remove Unreferenced Embedded Images From a Skin</h2>
+        <ol>
+            <li>Open a skin.</li>
+            <li>On the <span class="Emphasis">General</span> tab of the Skin Editor, select <span class="Emphasis">Remove On Save</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You add your company's logo to a skin, like this.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Unreferenced-Image1.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Skins-Guide" />
+            <p>Later you replace that image with another.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Unreferenced-Image2.png" class="MaxWidth90Percent" />
+            </p>
+            <p>Even though you are no longer using the original image, you still see it whenever you try to select an image from a field anywhere in the Skin Editor.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Unreferenced-Image3.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Images-Guide,Flare-Guides.Flare-Skins-Guide" />
+            <p>Therefore, you open the General tab in the Skin Editor and select the option to remove unreferenced images the next time you save.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Unreferenced-Image4.png" class="MaxWidth100Percent" />
+            </p>
+            <p>Then you save the skin. Now when you try to select an image in the skin, you will no longer see the original image listed, because it's been removed from the skin.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Unreferenced-Image5.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Removing unreferenced embedded images from skins is an action that cannot be undone.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This option is not available in HTML Top Navigation skins. It is available only in HTML5 Tripane skins.</p>
+        </div>
+    </body>
+</html>

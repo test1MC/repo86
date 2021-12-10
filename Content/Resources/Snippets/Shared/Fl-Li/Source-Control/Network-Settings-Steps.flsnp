@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Network Settings</b>.</li>
+                    <li MadCap:conditions="Products.Flare">
+                        <span class="SetOffFirstLevel">Right-Click </span>If you have the Content Explorer, Project Organizer, Pending Changes window pane, or File List open, right-click on any file and select <span class="Emphasis">Source Control &gt; Project &gt; Network Settings</span>.</li>
+                    <li MadCap:conditions="Products.Lingo">
+                        <span class="SetOffFirstLevel">Right-Click </span>If you have the File List open, right-click on any file and select <span class="Emphasis">Source Control &gt; Project &gt; Network Settings</span>.</li>
+                    <li MadCap:conditions="Products.Lingo">
+                        <span class="SetOffFirstLevel">Local Toolbar </span>In the local toolbar of the File List, click <img src="../../../../Images/Shared/Ce-Fl-Li/Interface/Buttons/Source-Control-btn.png" />, then select <span class="Emphasis">Project &gt; Network Settings</span>.</li>
+                    <li>
+                        <span class="SetOffFirstLevel">Source Control Explorer </span> From the <span class="Emphasis">View</span> ribbon, open the Source Control Explorer. From the drop-down, select the <span class="Emphasis">Home</span> pane. Click <span class="Emphasis">Network Settings</span>.</li>
+                </ul>
+                <p>The Network Settings dialog opens.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="Network-Settings1.flsnp" />
+            </li>
+            <li>
+                <p>(Optional) If you entered a custom group name, in the <span class="Emphasis" MadCap:conditions="Snippets.Snippet1">Remote Host</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Remote Host/Pattern</span> field, enter the name of the domain to which the network settings should apply.</p>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:snippetText src="Network-Settings-Subversion.flsnp" />
+                    </p>
+                </div>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git,Flare-Guides.Flare-Source-Control-Guide-Subversion,Lingo-Guides.Lingo-Source-Control-Guide-Git,Lingo-Guides.Lingo-Source-Control-Guide-Subversion" />
+        <ol MadCap:continue="true">
+            <li>
+                <p>
+                    <MadCap:snippetText src="Network-Settings2.flsnp" />
+                </p>
+                <p class="Subheading" MadCap:conditions="Snippets.Snippet1">Git Network Settings</p>
+                <MadCap:snippetBlock src="Git-Network-Settings.flsnp" MadCap:conditions="Snippets.Snippet1" />
+                <p class="Subheading" MadCap:conditions="Snippets.Snippet2">Subversion Network Settings</p>
+                <MadCap:snippetBlock src="Subversion-Network-Settings.flsnp" MadCap:conditions="Snippets.Snippet2" />
+            </li>
+            <li>Click <span class="Emphasis">Save</span>.</li>
+        </ol>
+    </body>
+</html>

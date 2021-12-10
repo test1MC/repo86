@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ol>
+            <li>
+                <MadCap:conditionalText MadCap:conditions="Products.Contributor">Open the document or topic.</MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="Products.Flare">Open the content file.</MadCap:conditionalText>
+            </li>
+            <li>Place your cursor where you want to insert the character or symbol. </li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <span class="SetOffFirstLevel">Ribbon </span>Select <b>Insert &gt; Character &gt; Recently Used &gt; [character or symbol]</b>. </li>
+                    <li>
+                        <span class="SetOffFirstLevel">Local Toolbar</span> In the local toolbar of the XML Editor, click the  down arrow next to the <span class="Emphasis">Character</span> button   <img src="../../../../Images/Shared/Co-Fl-Li/Interface/Buttons/Quick-Character-btn.png" class="ReduceButtonSize" /> and select a character or symbol listed under <span class="Emphasis">Recently Used</span>.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

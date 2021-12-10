@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul type="1">
+            <li><span class="SetOffFirstLevel">Convert all tables to "auto-fit to contents" </span>Select this option if you want to automatically set tables to "Auto-Fit to Contents" when they are imported into <MadCap:variable name="Other.Product" />. This ensures that column widths are not specified on the imported tables.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Set first row of each table as a header row </span>Select this option if you want Flare to convert the first row of every table into a header row. This makes styling tables more efficient. If you do not select this option, only tables that already have header rows in the Word document will become header rows in Flare. Tables without header rows will be imported just as they are.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a Word document with two tables.</p>
+                    <p>In the first table, the first row has been set to repeat as a header row.</p>
+                    <p>In the second table, the first row has not been set to repeat as a header row.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Micro-Content/Word-First-Row-Header-Row2.png" class="MaxWidth90Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Import-Guide" />
+                    <p>First, you import the Word document but you <span class="EmphasisItalic">do not enable</span> the option to set the first row of each table as a header row. As a result, the first row in the first table continues to be a header row, just as it was in the Word document. And the first row in the second table continues to be a regular row, just as it was in the Word document.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Micro-Content/Word-First-Row-Header-Row3.png" class="MaxWidth90Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Topics-Guide,Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Import-Guide" />
+                    <p>Next, you import the Word document but you <span class="EmphasisItalic">do enable</span> the option to set the first row of each table as a header row. As a result, the first row of each table is now a header row.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Micro-Content/Word-First-Row-Header-Row1.png" class="MaxWidth90Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+            <li><b>[Table styles]</b>
+                <ul>
+                    <li>
+                        <p><b>Create CSS table styles as regular stylesheet </b>This finds table formatting in the Word documents and creates styles accordingly in the regular stylesheet in Flare.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Create-CSS-Table-Styles1.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><b>Convert table styles to Flare table styles </b>This finds table formatting in the Word documents and creates a special table stylesheets accordingly in Flare.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Create-CSS-Table-Styles3.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">To use this feature, the table must have been created in Microsoft Word 2007 or later.  Also, open the Options dialog (<span class="Emphasis">File &gt; Options</span>), select the <span class="Emphasis">General</span> tab, and make sure that <span class="Emphasis">Import/Export Word Files without MS Office</span> is <span class="EmphasisItalic">disabled</span>.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p><b>Apply a selected table stylesheet to all imported tables </b>This lets you select an existing Flare table stylesheet and apply it to all imported tables.</p>
+                        <p>
+                            <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Create-CSS-Table-Styles2.png" alt="" title="" class="MaxWidth100Percent" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><b>Remove all table styles </b>This removes styling from all tables found in the Word documents. You can keep them as plain tables in Flare or apply styles to them later.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

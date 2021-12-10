@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;"><MadCap:variable name="Other.Product" />'s online Help uses the HTML5 Side Navigation output. If you open the full Help system, you will see a header at the top of every page.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Runtime-Skins8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>We wanted to use this same output for the Dynamic Help window pane within <MadCap:variable name="Other.Product" />, but we did not want any page (except for the Home page) to display a header. </p>
+            <p>So in addition to our regular skin, we created another one and removed the header section from it. We also provided our developers with the IDs for each skin.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <p>Therefore, if you have your cursor in the Content Explorer, the Dynamic Help will display the Content Explorer topic, without the page header.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Runtime-Skins9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Skins-Guide" />
+            <p>But if you open the topic in your browser…</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Dynamic-Help.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide,Flare-Guides.Flare-Skins-Guide" />
+            <p>… the topic will look like this, with the header section at the top.</p>
+            <p>
+                <img src="../../../Images/Flare/Skins/Runtime-Skins10.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>It's the same output file, just using two different skins.</p>
+        </div>
+    </body>
+</html>

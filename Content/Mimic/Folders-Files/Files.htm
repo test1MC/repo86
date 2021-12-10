@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords=".bmp;.jpg;.jpeg;jpeg;.gif;.png.;png;.props;(.mimov;(.miprj" class="" style="mc-master-page: url('../../Resources/TemplatePages/Mimic/PDF-Topics/Mimic-Movie-Generation.flmsp');">
+    <head><title></title>
+        <meta name="description" content="Understanding MadCap Mimic file types." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Files;Output:files;MadCap Mimic:files;Files:MadCap Mimic" />
+            <MadCap:concept term="FilterFeatures" />MadCap Mimic Files</h1>
+        <p>When you use Mimic to create movies, a few types of files are at work.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Mimic-Guides.Mimic-Movie-Generation-Guide" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Mimic-Guides.Mimic-Movie-Generation-Guide" />
+        <h2>Files for Developing Collections and Movies</h2>
+        <ul>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Mi/Folders-Files/MIPRJ-Item.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Mi/Folders-Files/MIMOV-Item.flsnp" />
+            </li>
+        </ul>
+        <h2 class="NoPageBreakBefore">Output Files for the HTML5 Format</h2>
+        <ul>
+            <li>
+                <p><span class="SetOffFirstLevel"><MadCap:keyword term="HTM" />HTM </span>This is the main entry file for the output in the <MadCap:variable name="Outputs.HTML5" /> format if the movie is to be viewed in a browser. The HTM file is named after each movie (e.g., myfirstmovie.htm, mysecondmovie.htm).</p>
+            </li>
+            <li><span class="SetOffFirstLevel">MCMV </span>This file is used by Flare when linking to a Mimic movie.</li>
+            <li>
+                <p><span class="SetOffFirstLevel">Support Files for Browsers </span> In addition to the main output file, there are also various support folders and files that you will need in order for your movies to play in browsers correctly.</p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../Resources/Images/Mimic/Output/HTML5-Output1.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Single Video Files </span>These are extra standalone MP4 and WEBM files that are created if you select an option to produce them (see <MadCap:xref href="../Output/Selecting-Single-Files-Output.htm">Selecting Single Files for the Output</MadCap:xref>). They are stored in the "videos" output subfolder and can be distributed by themselves, without any support folders or files. The regular browser-related support files are necessary to view your movies in the correct browser. On the other hand, the single video files—WEBM or MP4—can be used to play movies in a standalone player, such as <MadCap:keyword term="Windows Media" />Windows Media Player or <MadCap:keyword term="QuickTime" />QuickTime. Single MP4 files can be used to view movies on the iPhone. You can play single MP4 or WebM files on YouTube.</p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../Resources/Images/Mimic/Output/HTML5-Output2.png" class="MaxWidth100Percent" />
+                    <MadCap:conditionalText MadCap:conditions="General.Future">xxx replace all three pics</MadCap:conditionalText>
+                </p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../Resources/Images/Mimic/Output/HTML5-Output3.png" class="MaxWidth100Percent" />
+                </p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../Resources/Images/Mimic/Output/HTML5-Output4.png" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In order to generate single video files for HTML5, you must have Internet Explorer (IE) 9 or higher installed. </p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

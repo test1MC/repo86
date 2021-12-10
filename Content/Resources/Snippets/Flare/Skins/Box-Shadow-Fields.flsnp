@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="Can-Change-Any-Following-Box-Shadow.flsnp" />
+        <ul>
+            <li><span class="SetOffFirstLevel">Horizontal Shadow Length </span>
+                <MadCap:snippetText src="Horizontal-Shadow-Length-Option.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Vertical Shadow Length </span>
+                <MadCap:snippetText src="Vertical-Shadow-Length-Option.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Shadow Blur Length </span>
+                <MadCap:snippetText src="Shadow-Blur-Length-Option.flsnp" />
+            </li>
+            <li>
+                <p><span class="SetOffFirstLevel">Shadow Color </span>
+                    <MadCap:snippetText src="Shadow-Color-Option.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="Color-Fields-Table.flsnp" />
+            </li>
+            <li><span class="SetOffFirstLevel">Shadow Inset </span>
+                <MadCap:snippetText src="Shadow-Insert-Option.flsnp" />
+            </li>
+        </ul>
+    </body>
+</html>

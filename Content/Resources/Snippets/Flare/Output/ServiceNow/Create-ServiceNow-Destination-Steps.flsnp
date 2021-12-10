@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol type="1">
+            <li>
+                <MadCap:snippetText src="../../General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../Destinations/Open-Add-Destination.flsnp" />
+            </li>
+            <li>In the Destination Editor, click in the <span class="Emphasis">Type</span> drop-down field, and select <span class="Emphasis">MadCap Connect for ServiceNow<span class="Registered-Trademark">®</span></span>.</li>
+            <li>
+                <p>Activate your ServiceNow<span class="Registered-Trademark">®</span> license.</p>
+                <ol type="1" style="list-style-type: lower-alpha;">
+                    <li>Click <span class="Emphasis">Activate</span>. A wizard opens.</li>
+                    <li>Enter the license key, then click <span class="Emphasis">Next</span>. </li>
+                    <li>Enter the name and email of the user associated with the license key. Then click <span class="Emphasis">Next</span>.</li>
+                    <li>Select either <span class="Emphasis">Internet Activation</span> or <span class="Emphasis">Manual Activation</span>. Then click <span class="Emphasis">Next</span>.<ul><li>If you choose Internet Activation,  a confirmation displays to indicate that your  license has been activated. Click <span class="Emphasis">Finish</span>.</li><li>If you choose Manual Activation, follow the instructions on-screen to copy and paste the information in an email to customerservice@madcapsoftware.com.</li></ul></li>
+                </ol>
+            </li>
+            <li>In the Destination Editor, click  <span class="Emphasis">Login Credentials</span>.</li>
+            <li>In the first field, enter the ServiceNow<span class="Registered-Trademark">®</span> <span class="Emphasis">Instance</span>. </li>
+            <li>Paste the <span class="Emphasis">Client ID</span> and <span class="Emphasis">Client secret</span><MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../../Flare/Step5-Building-Publishing-Output/ServiceNow/Retrieving-ServiceNow-Credentials.htm">Retrieving ServiceNow® Credentials</MadCap:xref>)</MadCap:conditionalText>. Then click <span class="Emphasis">Next</span>.</li>
+            <li>Enter your ServiceNow<span class="Registered-Trademark">®</span> <span class="Emphasis">User name</span> and <span class="Emphasis">Password</span>. Then click <span class="Emphasis">Finish</span>.</li>
+            <li>
+                <p>Complete the <MadCap:dropDownHotspot>MadCap Connect for ServiceNow<span class="Registered-Trademark">®</span></MadCap:dropDownHotspot> fields. Most of these fields are optional, but you must select a default knowledge base.</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Use TOC to define categories </span>Select this if you want the resulting categories in ServiceNow<span class="Registered-Trademark">®</span> to be based on your TOC structure. Otherwise, the topics will be published to the default category that is selected.</li>
+                    <li><span class="Emphasis">Default knowledge base </span>Select the ServiceNow<span class="Registered-Trademark">®</span> knowledge base to store the published files.</li>
+                    <li><span class="Emphasis">Default category </span>If you have existing categories on the knowledge base, you can choose one to hold the published files.</li>
+                    <li><span class="Emphasis">Exclusions </span>You can enter any files (separated by commas) that you want to exclude from the publication process.</li>
+                    <li><span class="Emphasis">Workflow </span>Select the workflow (Draft, Review, or Published) for the output files being uploaded to ServiceNow<span class="Registered-Trademark">®</span>.</li>
+                    <li><span class="Emphasis">Generate keywords </span>You can choose how the published files affect keywords on ServiceNow<span class="Registered-Trademark">®</span>.<ul><li><span class="Emphasis">Use Flare keywords for ServiceNow<span class="Registered-Trademark">®</span> keywords </span>Flare keywords will become ServiceNow<span class="Registered-Trademark">®</span> keywords after the files are published. Only Flare keywords without spaces can be added to ServiceNow<span class="Registered-Trademark">®</span>.</li><li><span class="Emphasis">Use Flare concepts for ServiceNow<span class="Registered-Trademark">®</span> keywords </span>Flare concepts will become ServiceNow<span class="Registered-Trademark">®</span> keywords after the files are published. Only Flare concepts without spaces can be added to ServiceNow.</li><li><span class="Emphasis">Delete stale ServiceNow<span class="Registered-Trademark">®</span> keywords </span>You might have previously published files to ServiceNow<span class="Registered-Trademark">®</span> that resulted in keywords. If those keywords or concepts no longer exist in the Flare files being published, selecting this option will remove the out-of-date keywords from ServiceNow<span class="Registered-Trademark">®</span>.</li><li><span class="Emphasis">Default keywords </span>Enter keywords (separated by commas) that you want to be associated with <span class="EmphasisItalic">all</span> published articles in ServiceNow<span class="Registered-Trademark">®</span> (even in multiple languages), whether or not those keywords or concepts were part of the topics in Flare.</li></ul></li>
+                    <li><span class="Emphasis">Generate tags </span>You can choose how the published files affect tags on ServiceNow<span class="Registered-Trademark">®</span>.<ul><li><span class="Emphasis">Use Flare keywords for ServiceNow<span class="Registered-Trademark">®</span> tags </span>Flare keywords will become ServiceNow<span class="Registered-Trademark">®</span> tags after the files are published.</li><li><span class="Emphasis">Use Flare concepts for ServiceNow<span class="Registered-Trademark">®</span> tags </span>Flare concepts will become ServiceNow<span class="Registered-Trademark">®</span> tags after the files are published.</li><li><span class="Emphasis">Delete stale ServiceNow<span class="Registered-Trademark">®</span> tags </span>You might have previously published files to ServiceNow<span class="Registered-Trademark">®</span> that resulted in tags. If those keywords or concepts no longer exist in the Flare files being published, selecting this option will remove the out-of-date tags from ServiceNow<span class="Registered-Trademark">®</span>.</li><li><span class="Emphasis">Default tags </span>Enter tags (separated by commas) that you want to be associated with <span class="EmphasisItalic">all</span> published articles in ServiceNow<span class="Registered-Trademark">®</span> (even in multiple languages), whether or not those keywords or concepts were part of the topics in Flare.</li></ul></li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../Destinations/View-URL-Field.flsnp" />
+            </li>
+            <li>
+                <p>(Optional) You can select the following upload options. The <span class="Emphasis">Upload Log File</span> option is automatically selected for ServiceNow<span class="Registered-Trademark">®</span>.</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../Destinations/Upload-Only-Changed-Files.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../Destinations/Remove-Outdated-Published-Files.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

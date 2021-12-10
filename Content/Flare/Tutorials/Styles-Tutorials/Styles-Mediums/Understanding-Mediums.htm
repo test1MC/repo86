@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video9-Mediums-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Understanding the importance of mediums, and learning out to select and view mediums side by side in the Stylesheet Editor." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-Mediums.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Understanding Mediums</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Co-Fl/Styles/Mediums-Media-Queries-Summary.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Co-Fl/Styles/Medium-Type-Summary1.flsnp" />&#160;<MadCap:snippetText src="../../../../Resources/Snippets/Flare/Styles/Mediums1.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1]" /></p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Select Mediums in the Stylesheet Editor</h2>
+        <ol>
+            <li>
+                <p>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>, and double-click the <span class="Emphasis">Styles.css</span> file.</p>
+            </li>
+            <li>
+                <p>From the local toolbar of the Stylesheet Editor, make sure the first button is labeled <span class="Emphasis">View: Advanced</span>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can select a medium in the editor’s Simplified view. In that case, whichever medium you choose becomes the editable one. When working in the Advanced view, the medium you select opens in a new pane in the Stylesheet Editor. </p>
+                </div>
+            </li>
+            <li>
+                <p>In the local toolbar, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Styles-Alphabetical-View-btn.png" alt="" title="" class="ReduceButtonSize" /> (Alphabetical view) to switch to <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Styles-Group-View-btn.png" alt="" title="" class="ReduceButtonSize" /> (Grouped view). (Your view might already be set to the Grouped view.)</p>
+            </li>
+            <li>
+                <p>From the local toolbar, click the <span class="Emphasis">Medium</span> drop-down. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-MediumDropDown.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>Out-of-the-box, Flare includes a “default” medium, where most of the styles are set. <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Tutorials/Styles-Online-Print-Mediums.flsnp" /> (The tablet and mobile items in the Medium drop-down are media queries.)</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click the check box next to the <span class="Emphasis">Medium: print</span> item. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-PrintCheckbox.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>In the drop-down, if you click the check box next to medium it opens beside the one already displayed in the editor. If you click the name of the medium, it opens and the other closes. If multiple mediums are open, the succeeding medium always opens next to the others. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Selecting-Mediums-Media-Queries.htm">Selecting Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+        </ol>
+        <h2>How to View Mediums Side by Side</h2>
+        <p>Multiple mediums can be open at the same time in the Advanced view of the Stylesheet Editor. The medium you give focus to becomes editable. </p>
+        <p>
+            <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-View-SidebySide.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>Mediums inherit styles from the “default” medium unless you specifically change the other medium styles to something else.</p>
+        <ol>
+            <li>
+                <p>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">Paragraph Styles</span>.</p>
+            </li>
+            <li>
+                <p>In the left pane tree structure, select the <span class="Emphasis">p</span> style.</p>
+            </li>
+            <li>
+                <p>In the local toolbar, select from the <span class="Emphasis">Show</span> drop-down, <span class="Emphasis">Show: All Properties</span>.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>In the Medium: (default) window pane, expand the <span class="Emphasis">Font</span> property group.</p>
+                <p>While viewing the two mediums side by side, you can see the default medium font-size label is a darker text, and the print medium font-size label is shown in light gray text. The light gray text indicates that the style is inherited from somewhere else. Furthermore, if you hover your cursor over the font-size property in the print medium, a pop-up displays showing what medium the style is coming from. </p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Mediums/Styles4-View-SidebySide-Inherit.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Notice how the Medium: print window pane is synchronized with the active default window pane. For example, the font property group for the print medium expanded when you expanded it in the default medium window pane. Because of this, you can easily compare styles for different outputs.</p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

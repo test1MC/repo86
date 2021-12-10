@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <div>
+            <h2>How to Add the Test Results Skin Component</h2>
+            <p>Adding a test results skin component to your project is not necessary in order for the eLearning course to work. But if you want to control the look and feel of the results, then the test results skin component allows for its customization. </p>
+            <ol>
+                <li>
+                    <MadCap:snippetBlock src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                    <ul>
+                        <li>
+                            <p><span class="Emphasis">Ribbon </span>Select <span class="Emphasis">Project &gt; New &gt; Add Skin</span>.</p>
+                        </li>
+                        <li>
+                            <p><span class="Emphasis">Right-Click </span>From the Project Organizer, right-click the <span class="Emphasis">Skins</span> folder, and select <span class="Emphasis">Add Skin</span>.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>From the Add File dialog, expand <span class="Emphasis">Factory Templates</span>, and select <span class="Emphasis">HTML5 Component – Test Results</span>. Give it a file name (e.g., Results), and click <span class="Emphasis">Add</span>. The Test Results Skin Editor opens.</p>
+                    <p>
+                        <img src="../../../Images/Flare/LMS/LMS-Add-Results-Skin.png" alt="" title="" class="MaxWidth75Percent" />
+                    </p>
+                </li>
+            </ol>
+            <h2>How to Edit the Test Results Skin Component</h2>
+            <p>Edit the Test Results skin component to apply customizations to the page. In the Test Results Skin Editor, there are three tabs where you can make changes to different sections of the test results page.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</MadCap:conditionalText></p>
+            <ol>
+                <li>
+                    <p>Open the Test Results Skin Editor.</p>
+                </li>
+                <li>
+                    <p>Select the <span class="Emphasis">Setup</span> tab, and choose the test result options to include in the test results page.</p>
+                    <table class="TableStyle-Fancy" style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+                        <col class="TableStyle-Fancy-Column-Regular" style="width: 44px;" />
+                        <col class="TableStyle-Fancy-Column-Regular" />
+                        <tbody>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Show Passed / Failed</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">Select to display whether the learner passed or failed the course.</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Show Score</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">Select to display the learner's score. If shown, select from the drop-down either Percentage Correct (e.g., 80%) or Total Correct (e.g., 7 of 10 Correct). </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Show Questions</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                    <p class="TableText">Select to display the test questions in the results page. If shown, select to display learner answers, correct answers, and feedback for questions.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <p>Select the <span class="Emphasis">Styles</span> tab. Using this tab you can  customize the look and feel of the test results title, score, questions, answers, incomplete test warnings, and more.</p>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="Skin-Styles-Select-Medium1.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Responsive-Design/Responsive-Skins.htm">Responsive Skins</MadCap:xref>.</MadCap:conditionalText></p>
+                </li>
+                <li>
+                    <p>On the left side of the editor, in the <span class="Emphasis">Test Results</span> section, expand any of the style groups. </p>
+                    <div class="tip">
+                        <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">To quickly find a style  to edit, from the local toolbar, click the <span class="Emphasis">Highlight</span> button. This enables Highlight mode, where the right panel in the editor is a live preview. Click any part of the live preview and it locates the corresponding style in the left panel to edit. Once a style is updated, it displays as such in the live preview. </p>
+                    </div>
+                    <table class="TableStyle-Fancy" style="mc-table-style: url('../../../TableStyles/Shared/Fancy.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+                        <col class="TableStyle-Fancy-Column-Regular" />
+                        <col class="TableStyle-Fancy-Column-Regular" />
+                        <tbody>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Test Results</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls the look and feel of the entire test results page.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Results-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Title</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the test title container looks. </p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Title.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Score Title</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the score container looks. </p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Score-Title.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Score</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the score container looks, according to percent complete or total complete. (To change the score type, select it from the <span class="Emphasis">Setup</span> tab, <span class="Emphasis">Show Score</span> drop-down.)</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Score.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Score2.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Result</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the test results container looks, including a successful or unsuccessful attempt. You can also customize how the Failed versus the Passed results show.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Result-Passed.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Result-Failed.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Question Container</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the entire question container looks.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Question-Container.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">First Question Container </p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">You can change the way the first question container looks compared to the others.</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Last Question Container </p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">You can change the way the last question container looks compared to the others.</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Question</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the questions appear in the test results page.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Question.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Answer Container</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the answers look in the test results.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Answer-Container.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Answer title</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the titles for the answers display. You can also create a different look for the correct answer versus the user answer.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Answer-Title.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Answer Content</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the answer container looks for the content. You can also create a different look for the correct answer versus the user answer.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Answer-Content.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Answer Content Item</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how the content for the answer looks. You can also create a different look for the correct answer versus the user answer.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Answer-Content-Item.png" alt="" title="" class="MaxWidth100Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Question Feedback</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls how feedback for a question displays in the test results page. You can adjust  how the correct versus incorrect feedback looks.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Question-Feedback.png" alt="" title="" class="MaxWidth80Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Maxed Attempts Warning</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls the look for the container that alerts the learner to reaching the maximum amount of test attempts.</p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Maxed-Attempts-Warning.png" alt="" title="" class="MaxWidth80Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Incomplete Test Warning</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                    <p class="TableText">This controls the look for the container that alerts the learner of an incomplete test (if they navigate to the results page before the test is completed). </p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Incomplete-Warning.png" alt="" title="" class="MaxWidth80Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Fancy-Body-LightRows">
+                                <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                    <p class="TableTextEmphasis">Incomplete Page Link</p>
+                                </td>
+                                <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                    <p class="TableText">This controls how the page links look when the Incomplete Test Warning displays. </p>
+                                    <p class="TableText">
+                                        <img src="../../../Images/Flare/Skins/Skin-Test-Incomplete-Page-Link.png" alt="" title="" class="MaxWidth80Percent" />
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="Expand-Nodes-Complete-Fields.flsnp" /> <MadCap:snippetText src="Nodes-Depend-Style.flsnp">&#160;</MadCap:snippetText></p>
+                    <p class="Subheading">Background</p>
+                    <MadCap:snippetBlock src="Background-Fields.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                    <p class="Subheading">Border</p>
+                    <MadCap:snippetBlock src="Border-Fields.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                    <p class="Subheading">Font</p>
+                    <MadCap:snippetBlock src="Font-Fields.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+                    <p class="Subheading">LAYOUT</p>
+                    <MadCap:snippetBlock src="Display-Field.flsnp" />
+                    <p class="Subheading">Margin</p>
+                    <MadCap:snippetBlock src="Margin.flsnp" />
+                    <p class="Subheading">Padding</p>
+                    <MadCap:snippetBlock src="Padding.flsnp" />
+                    <p class="Subheading">Style</p>
+                    <p>
+                        <MadCap:snippetText src="Style2.flsnp" />
+                    </p>
+                </li>
+                <li>
+                    <p>Select the <span class="Emphasis">UI&#160;Text</span> tab. Use this tab to customize a list of text strings for the test results page. This includes text for the score, results, answer labels, warnings, and more.</p>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can customize the text used for a different language in the output. From the <span class="Emphasis">Language</span> drop-down, select the language, and then modify the text in each row.</p>
+                    </div>
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+            <h2>How to Associate the Test Results Skin Component With a Target</h2>
+            <ol>
+                <li>
+                    <p>Open the target from the Project Organizer.</p>
+                </li>
+                <li>
+                    <p>Select the <span class="Emphasis">Skin</span> tab.</p>
+                </li>
+                <li>
+                    <p>From the <span class="Emphasis">Component Default Skins</span> section, select the <span class="Emphasis">Test Results</span> drop-down, and choose the skin component that you want to associate with the target.</p>
+                </li>
+                <li>
+                    <MadCap:snippetBlock src="../../Shared/All/General/Save-File.flsnp" />
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>

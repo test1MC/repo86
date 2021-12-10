@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="505" MadCap:lastWidth="828">
+    <body>
+        <p>To avoid duplicate context IDs when using automatically generated context IDs, you can customize the context ID numbers in each child project. This will guarantee that your context-sensitive Help  will work properly for all of the child projects within your modular hub project.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Customize Context IDs</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Open a child project. </li>
+                    <li>Select the <span class="Emphasis">Project</span> ribbon.</li>
+                    <li>
+                        <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">At the bottom of the <span class="Emphasis">Project</span> group, click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />.</MadCap:conditionalText>
+                        <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Click the <span class="Emphasis">Project Settings</span> button.</MadCap:conditionalText> The Project Settings dialog opens.</li>
+                    <li>In the <span class="Emphasis">Context IDs</span> section, enter a number in the <span class="Emphasis">ID Offset</span> field. For example, you could make this 1000; then 1000 will be added to each automatic ID generated.</li>
+                    <li>Build the target, then close the project.</li>
+                    <li>Open another child project. </li>
+                    <li>Open the Project Settings dialog, and enter a different number in the ID Offset field (e.g., 2000).</li>
+                    <li>Build the target, and close the project.</li>
+                    <li>Repeat these steps for all child projects.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

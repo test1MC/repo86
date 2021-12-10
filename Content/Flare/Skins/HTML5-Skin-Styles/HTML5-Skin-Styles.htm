@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Skins.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Ways to style skins for HTML5 output." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="Styles:skins;Skins:styles" />
+            <MadCap:keyword term="HTML5:skins;Skins:HTML5" />
+            <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide">HTML5 </MadCap:conditionalText>Skin Styles</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>There are many ways to style your HTML5 skin, whether it be a Side Navigation, Top Navigation, or Tripane skin, or one of the skin components. If you enable the skin to produce responsive output—meaning that the look of the output can automatically adjust depending on the size of the end user's device—there are additional features for making the output look the way you it want to. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Responsive-Design/Responsive-Web-Design.htm">Responsive Web Design</MadCap:xref> and <MadCap:xref href="../../Responsive-Design/Responsive-Skins.htm">Responsive Skins</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+        <h2>Mediums</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Responsive-Design/Responsive-Output-Skin-Styles.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1] " />
+        <h2>Enabling Responsive Output</h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Responsive-Design/Responsive-Design-Enabling.flsnp" /> You do not need to enable responsive output for Side Navigation, Top Navigation, or skinless output, because it is always enabled in those cases. However, you can adjust settings in the Target Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Responsive-Design/Responsive-Web-Design.htm">Responsive Web Design</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Responsive-Design/Responsive-Design-Enabling2.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+        <h2><a name="Interact"></a>Interactive Live Preview</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/HTML5-Skin-Interactive-Preview.flsnp" />
+        <h2><a name="StylePrint"></a><a name="Style"></a>Style Sections and Root/Child Properties</h2>
+        <p>When you open the Skin Editor to make changes to skin styles, you will see the styles organized in different sections.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Sections.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>Within these sections are the different styles you can adjust. You can expand any of these styles to see the properties within it that can be changed.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties1.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties2.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+        <p>You may see two kinds of properties under a style—root and children.</p>
+        <p>Root properties are at the first level. If you make changes to a root style, all of the children styles below inherit those changes. So if you want all of the children to have the same setting, it's best to make your modifications to the root properties. The easiest way to tell the difference between root and children styles is by looking at the expand/collapse icons next to them; root styles have a white triangle icon, whereas children styles have a blue triangle icon.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a Tripane skin and want to change the background color of all of your navigation panels from black to dark red in the Web medium. First, in the <span class="Emphasis">Navigation</span> section, you expand the <span class="Emphasis">Navigation Panel</span> style. Under this style, you see three root property nodes—Background, Padding, and Border. Under these root nodes are five child nodes that represent each of the five kinds of panels you can include in your output—Browse Sequences, Community, Glossary, Index, TOC. (In the Tablet and Mobile mediums you would see Browse Sequences, Glossary, Index, Search Filters, and TOC.)</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties3.png" alt="" title="" class="MaxWidth60Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Skins-Guide" />
+            <p>Because you want each of those five panels to have the same color, you expand the root <span class="Emphasis">Background</span> node. There are a few different fields that can control the background color. There are Gradient fields that let you add an effect where the progresses from one to another in the panel. There is a Color field, which lets you add a color without a gradient. And then there is an Image field, which lets you select an image to display in the background. The Image field has the highest precedence, which means that if you enter settings in all of the Background fields, the image will win. Gradient has the next highest precedence. If you want to use the Color field, you need to make sure the Gradient fields are set to transparent and that there is no image selected.</p>
+            <p>Let's say you use the Color field to choose a dark red color.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <p>Regardless of the panel you select, it is red.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+        <p>If you expand a child node, you will see the same properties that you see above in the root node.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties6.png" alt="" title="" class="MaxWidth85Percent" />
+        </p>
+        <p>If you make changes to child properties, those settings override anything inherited from the root, and they pertain only to that child.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have set the root Background property to show the navigation panel in dark red, as described in the previous example.</p>
+            <p>If you want the Glossary panel to show in green instead, you can expand the <span class="Emphasis">Glossary</span> node, and then expand the <span class="Emphasis">Background</span> property within it.</p>
+            <p>In the <span class="Emphasis">Color</span> field, you select a green color.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <p>As a result, the Glossary pane is green.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>But all of the other panes remain red.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Properties9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <h2>Default Values in Gray</h2>
+        <p>When making changes to skin styles in HTML5 skins, you may notice that some fields display text or numbers in gray. This is the default value for that particular field. If you enter a different value, the font displays in a darker font.</p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Default-Values.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <h2>Medium-Specific Styles</h2>
+        <p>Responsive output lets you place settings on styles using any of the three mediums—Web, Tablet, and Mobile. However, not all styles and properties are necessarily pertinent to all mediums. That's why only see some styles and properties when you have a particular medium selected and not another.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have a Top Navigation skin and want to change the slide out button that you see when the output is shown in a tablet or mobile phone size.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Mediums1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <p>When you select either the <span class="Emphasis">Tablet</span> or <span class="Emphasis">Mobile Medium</span>, you can see and adjust the <span class="Emphasis">Navigation Slide Out Button</span>.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/HTML5-Skin-Styles-Mediums2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>But when you select the Web medium, this style is not available because it isn't used in larger web browser views of the output.</p>
+        </div>
+        <h2>Activities for HTML5 Skins and Components</h2>
+        <p>You might perform the following style activities if you are working in an <MadCap:variable name="Outputs.HTML5" /> skin or a skin component.</p>
+        <div class="IndentMedium">
+            <h3>Global—All HTML5 Skins</h3>
+            <p>This section contains the Main Page style for Side Navigation, Top Navigation, and Tripane skins. See <MadCap:xref href="Main-Page-HTML5-Skins.htm">Main Page in HTML5 Skins</MadCap:xref>.</p>
+            <p class="Subheading">Side and Top Side Navigation Skins</p>
+            <p>For Side and Top Navigation skins, you can control the padding and maximum width for the page.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Main-Page-HTML5-2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p class="Subheading">Tripane Skins</p>
+            <p>For Tripane skins, you can control the font and background color for the page. </p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Main-Page-HTML5-1.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3>Header—All HTML5 Skins</h3>
+            <p>This is the area at the top of the screen for Side Navigation, Top Navigation, and Tripane skins. See <MadCap:xref href="Header-HTML5-Skins.htm">Headers in HTML5 Skins</MadCap:xref>.</p>
+            <p class="Subheading">Side Navigation Skins</p>
+            <p>For Side Navigation skins, this area displays a logo, search bar, and Central account link (if you are producing private output).</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Header-HTML5-3.png" alt="" title="" class="MaxWidth95Percent" />
+            </p>
+            <p class="Subheading">Top Navigation Skins</p>
+            <p>For Top Navigation skins, this area displays a logo, the search bar, top menu, and Central account link (if you are producing private output).</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Header-HTML5-2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <p class="Subheading">Tripane Skins</p>
+            <p>For Tripane skins, this area displays a logo, search bar, and Central account link (if you are producing private output).</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Header-HTML5-1.png" class="MaxWidth80Percent" />
+            </p>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to style items for search results, you can use the Search section in the Skin Editor. Alternatively, you can use the Search Results skin component, which works with a Search Results proxy.</p>
+            </div>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/Tripane-Themes.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3>Central Account Link Skin Component</h3>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Output/HTML5/HTML5-Skin-Component-Styles-Central-Account-Link.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3><a name="SearchBarSkinComponents"></a>Search Bar Skin Component</h3>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Output/HTML5/HTML5-Skin-Component-Styles-Search-Bar.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3><a name="MenuSkinComponents"></a>Menu—Side/Top Navigation Skins, Menu Skin Components</h3>
+            <p>You can control the look of the menu that is included with a Side or Top Navigation skin, as well as additional menus that you add through the Menu proxy. See <MadCap:xref href="Menus-HTML5-Skins.htm">Menus in HTML5 Skins</MadCap:xref>.</p>
+            <p class="Subheading">Side Navigation Skins</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/HTML5-Menu-Side-Nav-Skins.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <p class="Subheading">Top Navigation Skins</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/HTML5-Menu-Top-Nav-Skins.flsnp" />
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Skins-Guide" />
+            <p class="Subheading">Menu Skin Components</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/HTML5-Menu-Skin-Components.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3>Navigation—All HTML5 Skins</h3>
+            <p>For Side Navigation, Top Navigation, and Tripane skins, this section is used to control the look of navigation elements, which allow users to open different parts of your output. See <MadCap:xref href="Navigation-HTML5-Skins.htm">Navigation in HTML5 Skins</MadCap:xref>.</p>
+            <p class="Subheading">Side and Top Navigation Skins</p>
+            <p>For Side and Top Navigation skins, this section is used to control the look of the side flyout navigation pane when being displayed on a tablet or mobile device. Therefore, it is not shown if you are working in Web Medium view in the Skin Editor, but rather only in the Tablet and Mobile mediums.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Navigation-HTML5-2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <p class="Subheading">Tripane Skins</p>
+            <p>For Tripane skins, this section is available in all three mediums, although there are different options available for the Tablet and Mobile mediums.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Navigation-HTML5-1.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3>Topic—Tripane Skins</h3>
+            <p>For Tripane skins, this section is used to control the look of the topic area of the output. This includes the container holding the topic content. It also includes the toolbar just above the topic content. See <MadCap:xref href="Topics-HTML5-Skins.htm">Topics in HTML5 Skins</MadCap:xref>.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Topic-HTML5.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3><a name="SearchResultsComponents"></a>Search Results—All HTML5 Skins, Search Results Components</h3>
+            <p>You can use a Side Navigation, Top Navigation, or Tripane skin to change the appearance of search result items. You can also do this with a smaller Search Results skin component. See <MadCap:xref href="Search-Results-HTML5-Skins.htm">Search Results in HTML5 Skins</MadCap:xref>.</p>
+            <p class="Subheading">Side and Top Navigation Skins</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/HTML5-Skin-Search-Results-Top-Nav.flsnp" />
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Search-Results2.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <p class="Subheading">Tripane Skins</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/HTML5-Skin-Search-Results-Tripane.flsnp" />
+            <p class="Subheading">Search Results Skin Components</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Skins/HTML5-Search-Results-Skin-Components.flsnp" />
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to style the search bar and its elements, you can use the Header section in the Skin Editor, or you can use a Search Bar skin component.</p>
+            </div>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3>Feedback—Tripane Skins</h3>
+            <p>For Tripane skins, these are styles for elements that are displayed if you integrate your output with MadCap Feedback. See <MadCap:xref href="Feedback-HTML5-Skins.htm">Feedback in HTML5 Skins</MadCap:xref>.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Feedback.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3>eLearning Toolbar Skin Components</h3>
+            <p>The eLearning Toolbar skin component dictates the general appearance for the navigation elements in your course. You can edit the eLearning Toolbar skin component to select which buttons are included in the course and control how they look and feel in the output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="eLearning-Toolbar-HTML5-Skins1.htm">eLearning Toolbar in HTML5 Skin Components</MadCap:xref>.</MadCap:conditionalText></p>
+            <p>
+                <img src="../../../Resources/Images/Flare/LMS/eLearning-Toolbar-Skin-Editor-Ex.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3>Test Results Skin Components</h3>
+            <p>The  autogenerated test results page includes many sections that are visible by default. You can use the Test Results Skin Editor to determine which sections display in the output, and also to customize the look and feel of the test results page.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="Test-Results-HTML5-Skins1.htm">Test Results in HTML5 Skin Components</MadCap:xref>.</MadCap:conditionalText></p>
+            <p>
+                <img src="../../../Resources/Images/Flare/LMS/LMS-Test-Results-Skin-Editor.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+            <h3>Topic Toolbar Skin Components</h3>
+            <p>In Topic Toolbar skin components, you can use skin styles used to control the look of a toolbar you add via a proxy. See <MadCap:xref href="Topic-Toolbars-HTML5-Skins1.htm">Topic Toolbars in HTML5 Skin Components</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only"> and <MadCap:xref href="../../Nav-Links/Toolbars/Topic-Toolbars/Process/Inserting-Editing-Topic-Toolbar.htm">Inserting and Editing a Topic Toolbar Proxy</MadCap:xref></MadCap:conditionalText>.</p>
+            <p>
+                <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Topic-Toolbar.png" alt="" title="" class="MaxWidth60Percent" />
+            </p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" MadCap:conditions="General.Online-Only" />
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to change labels for some of these styles, or if you want to display the output user interface in a particular language, you can use the UI Text tab in the Skin Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Other-Activities/HTML5/Changing-Text-Strings-HTML5-Skins.htm">Changing Text Strings in HTML5 Skins</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+    </body>
+</html>

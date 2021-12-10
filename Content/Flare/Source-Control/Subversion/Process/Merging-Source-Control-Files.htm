@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Subversion.flmsp');">
+    <head>
+        <meta name="description" content="Steps for merging source control files, and how to resolve conflicting changes." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:keyword term="Source control:merging;Merging:source control" />
+            <MadCap:concept term="FilterFeatures" />Merging Source Control Files<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Subversion</MadCap:conditionalText></h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Merging-Commit-Summary.flsnp" />
+        <h2>How to Merge Source Control Files</h2>
+        <ol>
+            <li>Go through the process of updating files from source control or committing files. See <MadCap:xref href="Updating-Source-Control-Files-Subversion.htm">Manually Updating Source Control Files—Subversion</MadCap:xref> and <MadCap:xref href="Committing-Source-Control-Files-Subversion.htm">Committing Source Control Files</MadCap:xref>. If your local copy of the file is different from the server copy (e.g., another author  has already committed the same file), the Resolve Conflicts dialog opens.</li>
+            <li>
+                <p>Click <span class="Emphasis">Auto Merge All</span>. If changes from the other author do not conflict with your changes, this will merge all changes. A message lets you know that a backup of your local copy has been made. This lets you restore that file if you do not want to keep the merged version<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../Backups/Backups.htm">About Backups</MadCap:xref>) </MadCap:conditionalText>. You do not need to complete the rest of the steps below.</p>
+                <p>However, if your changes conflict with those from another author, a message displays to tell you. In this case, continue with the next step.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Click-Ok-Conflict-Message.flsnp" /> </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Resolve-Conflicts-Dialog-Click-Resolve.flsnp" />
+                <ul>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Merge-Changes-For-Me.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Merge-Changes-Merge-Tool.flsnp" />
+                        <br />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Undo-My-Local-Changes.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Discard-External-Changes.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Option-Use-Merge-Tool-Merge-Changes-Dialog.flsnp" />
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Click-Change-Remote-Local.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Type-Content.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Previous-Next-Conflict.flsnp" />
+                    </li>
+                </ul>
+                <div class="note">
+                    <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/If-Selected-Merge-As-Text.flsnp" />
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/After-All-Conflicts-Resolved.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+        <div class="example">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Example-No-Conflicting-Changes.flsnp" />
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files8.png" class="MaxWidth100Percent" /> </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">— Conflicting Changes</p>
+            <p>Two authors—Bob and Jill—are working on the same project, using source control to manage the files.</p>
+            <p>Bob starts making changes to the "FAQs" topic.</p>
+            <p>Jill also makes some changes to the "FAQs" topic. Jill's changes are in the same paragraph in the topic as Bob's changes; thus, there is a conflict. She finishes before Bob and commits the file to source control.</p>
+            <p>Bob finishes his changes and tries to commit the file. Before the file can be committed, Bob is prompted with a dialog, indicating that changes from another author have already been committed.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files1.png" class="MaxWidth100Percent" /> </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+            <p>Bob selects <span class="Emphasis">Auto Merge All</span>. However, he receives another message, stating that his changes conflict with those of Jill.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files2.png" class="MaxWidth75Percent" />
+            </p>
+            <p>Bob clicks <span class="Emphasis">OK</span>. Then in the Resolve Conflicts dialog he clicks <span class="Emphasis">Resolve</span>. This opens the Resolve Version Conflict dialog. From this dialog, Bob can choose from a few different options.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files3.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+            <p>Bob selects <span class="Emphasis">Merge changes in merge tool</span>. The Merge Changes dialog opens.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files4.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+            <p>So what action can Bob take at this point for merging the file changes?</p>
+            <p>Bob can right-click on the icon next to the change on either the local or server side. This displays a context menu, which lets Bob either keep or ignore a particular change.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files5.png" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files6.png" class="MaxWidth90Percent" />
+            </p>
+            <p>Another way of accomplishing the same thing is to left-click on an icon. When you do this, the change from one side is kept and the change from the other side is ignored. If you left-click the icon again, the results are toggled; the first change is ignored and the other is kept.</p>
+            <p>What if Bob wants to use his changes as well as Jill's, and possibly tweak the paragraph a bit more? He can click in the area at the bottom of the dialog and simply type content.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Subversion" />
+            <p>When he is finished resolving the first conflict, Bob can use the "Previous Conflict" and "Next Conflict" buttons at the bottom of the dialog to work on other conflicts in the file.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Merging-Files7.png" class="MaxWidth90Percent" />
+            </p>
+            <p>After all conflicts have been resolved, Bob clicks <span class="Emphasis">OK</span>. The merged topic is now committed to source control.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Select <b>View &gt; File List</b>, or press <span class="Emphasis">CTRL+SHIFT+J</span>. The File List window pane opens.</li>
+            <li>(Optional) From the <span class="Emphasis">Filter</span> drop-down list in the local toolbar, you can select topic, template page, or snippet files to limit the results in the grid.</li>
+            <li>Select the files to which you want to apply a stylesheet. <MadCap:snippetText src="../../Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /> However, if you select multiple files, they must be of the same type (e.g., only topic files, only template pages).</li>
+            <li>In the local toolbar, click <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />.</li>
+            <li>In the Properties dialog, do one of the following, depending on whether you are associating the stylesheet with topics, template pages, or snippets:<ul type="1"><li><span class="SetOffFirstLevel">Topics </span>Click the <span class="Emphasis">Topic Properties</span> tab. Then in the <span class="Emphasis">Stylesheet</span> field, click <span class="Emphasis">Select</span>. The Stylesheet Links dialog opens.</li><li><span class="SetOffFirstLevel">Template Pages or Snippets </span>Click the <span class="Emphasis">Stylesheet Links</span> tab.</li></ul></li>
+            <li>Double-click the stylesheet(s) that you want to associate with the topic. The stylesheet is added to the Current Links section on the right.<MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Note-Associate-Stylesheet-File1.flsnp" /><div class="topic-only"><MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Note-Associate-Stylesheet-File2.flsnp" /></div></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> If you are working with template pages or snippets, this is the last step.</li>
+            <li>(Optional for Topics) If you have a primary stylesheet at the project or target level and no longer want to use it, you can select <span class="Emphasis">Disable project and target stylesheets</span>. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more about how primary and local stylesheets work in the same project, see <MadCap:xref href="../../../../Flare/Styles/General-Information/Primary-Local-Stylesheets-Precedence.htm">Primary and Local Stylesheets (and Precedence)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only">For more about how primary and local stylesheets work in the same project, see <MadCap:xref href="../../../../Print-Only-Topics/Flare/Styles/Precedence-Stylesheets.htm">Primary and Local Stylesheets (and Precedence)</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

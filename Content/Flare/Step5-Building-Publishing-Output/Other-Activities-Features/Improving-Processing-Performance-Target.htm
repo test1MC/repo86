@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides-Videos/Flare-Targets.flmsp');">
+    <head><title></title>
+        <meta name="description" content="Ways to improve the speed of output loads for end users." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Building:improving performance;Targets:performance;Output:performance;Performance:targets;WebHelp:performance;WebHelp Plus:performance" />Improving the Processing Performance of the Target</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5-WebHelp-WH-Plus.flsnp" />
+        <p>You can improve the speed that your output loads for end users in several ways.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Targets-Guide" />
+        <h2>How to Improve the Processing Performance of a Target</h2>
+        <ol>
+            <li>Open a target.</li>
+            <li>In the Target Editor select the <span class="Emphasis">Performance</span> tab </li>
+            <li>
+                <p> Select the option(s) that you want to use:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel"><MadCap:keyword term="JavaScript:condensing" />Condense JavaScript Files </span>You can condense any JavaScript files in your output. This causes all of the output's runtime scripts to be merged into one file and improves web server performance by causing there to be fewer requests when loading the output.</li>
+                    <li>
+                        <p><span class="SetOffFirstLevel"><MadCap:keyword term="Images:pre-loading" />Pre-load Images </span>You can pre-load your images that are not initially visible when output is opened. When those images are triggered to be displayed, they will appear faster since they were pre-loaded. This happens at the cost of the output taking slightly longer to initially open since it must download more content. On the other hand, disabling pre-loading images will cause the output to open faster. Instead they will have to be downloaded when they are triggered to be displayed.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This option is not available for HTML5 targets.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:keyword term="Chunking;Tables of contents:chunking;Search:chunk files;Indexes:chunking" /><span class="SetOffFirstLevel">Chunk Large Index/TOC/Glossary Files </span>You can control the size of "chunks" used when generating the index, TOC, and glossary files for a target. After you choose this option, select the number of bytes for each chunk. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Search/Chunk-Size.flsnp" /></p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The option for chunking large glossary files is only available in HTML 5 targets.</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Build and publish the output.</li>
+            <li>Open the output from the published destination to test the loading performance of the output.</li>
+        </ol>
+    </body>
+</html>

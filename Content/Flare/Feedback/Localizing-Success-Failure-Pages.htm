@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head><title></title>
+        <meta name="description" content="How to use a server-side scripting page to localize the end user registraton pages for MadCap Feedback Server." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Translation:Feedback success page" />
+            <MadCap:keyword term="Translation:Feedback failure page" />
+            <MadCap:concept term="FilterFeatures" />Localizing Activation Success and Failure Pages</h1>
+        <p>When you configure the Feedback Server Admin, you can enter URLs to be displayed if the registration process is successful or when it is not successful (see <MadCap:xref href="Configuring-Maintaining-MadCap-Feedback-Server-Admin.htm">Configuring the MadCap Feedback Server Admin</MadCap:xref>). If you want these pages to be displayed in different languages, you can localize them by using a server-side scripting page (ASPX, PHP).</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">This example is a guideline (not necessarily the actual code) for how you might accomplish this based on ASP.NET. The client’s language preferences can be accessed from an ASP.NET page using the following.</p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: ASPX;">this.Context.Request.UserLanguages</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <p>The UserLanguages property is a string array which contains the client’s language preferences. You can use this information during the Page_Load event, for example. Here’s an example ASP.NET code snippet.</p>
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: ASPX;">protected void Page_Load( object sender, EventArgs e ){
+string language = this.Context.Request.UserLanguages[0];
+string newPage = "FinishActivateUserComplete";
+if ( !string.IsNullOrEmpty( language ) )
+{
+newPage += ("_" + language);
+}
+newPage += ".htm";
+this.Response.Redirect( newPage );
+}</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+            <p>In this example, the ASP.NET page is redirected to a new page called "FinishActivateUserComplete." The code checks if the client language preference is available. If it is, an underscore and the language code is appended to the new page’s filename. Finally, the ".htm" extension is added to the filename and the page is redirected. This example script relies on a web page existing with the filename that is calculated in the script. The idea is to redirect the user to a web page that has content tailored to the web browser language preference.</p>
+        </div>
+    </body>
+</html>

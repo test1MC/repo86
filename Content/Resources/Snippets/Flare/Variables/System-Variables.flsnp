@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>You can add a system variable by selecting <span class="Emphasis">Insert &gt; Variable</span>. Then select <span class="Emphasis">System</span> and choose the specific variable.</p>
+        <ul>
+            <li>
+                <p>
+                    <MadCap:keyword term="Volumes:auto-numbers;Autonumbers:volumes;Chapters:auto-numbers;Autonumbers:chapters;Sections:auto-numbers;Autonumbers:sections" /><span class="SetOffFirstLevel">Chapter/Section/Volume Number </span>For <MadCap:variable name="Outputs.PDF" />  output, you can insert system variables in page layout frames that display your chapter, section, or volume numbers (if you are using autonumbers to identify the various parts of a manual). See <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Inserting-Chapter-Section-Volume-Number-Variables-Frames1.htm">Inserting Chapter, Section, and Volume Number Variables into Frames</MadCap:xref><MadCap:conditionalText MadCap:conditions="General.Online-Only"> and <MadCap:xref href="../../../../Flare/Autonumbers/Autonumbers1.htm">Autonumbers</MadCap:xref></MadCap:conditionalText>.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li><span class="SetOffSecondLevel">ChapterNumber </span>This displays the current chapter number.</li>
+                        <li><span class="SetOffSecondLevel">SectionNumber </span>This displays the current section number.</li>
+                        <li><span class="SetOffSecondLevel">VolumeNumber </span>This displays the current volume number.</li>
+                    </ul>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Variables-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Date/Time </span>The global format in windows controls the format dates and times in variables.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li><span class="SetOffSecondLevel">LongDate </span>Example: Thursday, December 8, 2017</li>
+                        <li><span class="SetOffSecondLevel">LongTime </span>Example: 2:49:00 PM</li>
+                        <li><span class="SetOffSecondLevel">ShortDate </span>Example: 12/8/2017</li>
+                        <li><span class="SetOffSecondLevel">ShortTime </span>Example: 2:50 PM</li>
+                    </ul>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+            <li>
+                <p><span class="SetOffFirstLevel">Linked Title/Header/File </span>In tables of contents (TOC) and browse sequences, you can insert system variables that are tied to information in the linked topic. These variables ensure that your TOC or browse sequence entries are always in sync with your topic titles, headers, or file names. When one of these variables is used in the TOC or Browse Sequence, the text displays in blue to indicate a system variable is being used (the text will not be blue in the output). <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/TOCs/Process/Creating-TOCs/Creating-TOC-Manually.htm">Creating a TOC</MadCap:xref> and <MadCap:xref href="../../../../Flare/Browse-Sequences/Creating-Browse-Sequence-Manually.htm">Creating a Browse Sequence</MadCap:xref>.</MadCap:conditionalText></p>
+                <div class="topic-only">
+                    <p>These variables can be seen in the Variables dialog only if you access the dialog from the Properties dialog for a TOC or browse sequence entry.</p>
+                    <ul>
+                        <li><span class="SetOffSecondLevel">LinkedFile </span>This displays the entry using the name of linked source file, without the file extension.</li>
+                        <li><span class="SetOffSecondLevel">LinkedHeader </span>This displays the entry using the name of the first heading in the linked source file.</li>
+                        <li><span class="SetOffSecondLevel">LinkedTitle </span>This displays the entry using the title information within the title tag in the linked source file.</li>
+                    </ul>
+                </div>
+            </li>
+            <li><span class="SetOffFirstLevel">Page </span>For print-based outputs, you can use variables to show the page count (total number of pages in the output) or the page number.</li>
+            <li><span class="SetOffFirstLevel">SourceFile </span>This displays the name of the file where the variable is inserted.</li>
+            <li><span class="SetOffFirstLevel">Title </span>This lets you display the title of a glossary, if you've added one, or the title of a topic.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have to generate online output for a device with a small screen. You want to see how the output might look with a narrower width than what the factory mobile media query breakpoint offers (at 767px). One way to do this is to experiment with the width settings on the layout resizer.</p>
+            <p>You open a topic in the XML Editor. By default, the layout resizer is disabled. From the bottom local toolbar, you can click <img src="../../../../../Images/Flare/Interface/Buttons/Toggle-Layout-Resizer-btn.png" alt="" title="" class="ReduceButtonSize" /> to enable it. It displays at the top of the editor. </p>
+            <p>You ensure the top toolbar indicates an online layout. Notice the default mobile media query breakpoint displays as a small gray rectangle on the slider.  </p>
+            <p>
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Resizer-Ex1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You can select a unit of measurement (e.g., pixel, point, centimeter, inch, or em) to gauge your screen size, but you decide to compare it to the mobile breakpoint, and use pixels. </p>
+            <p>As you move the hand cursor along the slider bar, a gray “thumb” matches the cursor position. You can use the horizontal ruler to help you find an exact location.</p>
+            <p>
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Resizer-Ex2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Then, click the gray thumb to the slider at about 350px. A blue thumb marks the new position, and the content responds to it. The location is not saved (you can move the blue thumb as much as you want). </p>
+            <p>
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Resizer-Ex3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You settle on a max-width of 325 px for your small screen size.  So, you click the three vertical dots drop-down to the right of the slider, and select <span class="Emphasis">Add New Media Query</span>. The new media query saves to your stylesheet.</p>
+            <p>
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Resizer-Ex4.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <p>Notice a new gray rectangle displays on the slider indicating the breakpoint of your media query. (Click anywhere else on the slider to see the new rectangle better.)</p>
+            <p>
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Resizer-Ex5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>In addition, you need the font to be smaller and red for this output. To see how this might look, you can open the new media query in your stylesheet and edit its styles. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Selecting-Mediums-Media-Queries.htm">Selecting Mediums and Media Queries</MadCap:xref>, and <MadCap:xref href="../../../../../../Flare/Styles/Main-Activities/Editing-Styles.htm">Editing Styles in a Regular Stylesheet</MadCap:xref>.</MadCap:conditionalText> </p>
+            <p>
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Resizer-Ex6.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>
+                <img src="../../../../../Images/Flare/Interface/Editors/Layout-Resizer-Ex7.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

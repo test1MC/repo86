@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <meta name="description" content="The background for each term found in a topic from the result of an online search can be highlighted in a different color." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Search:highlighted terms" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Search:highlighted terms;Highlighted:search terms;Styles:highlighted search terms;Styles:search terms;Color:highlighted search terms;Color:search terms" />
+            <MadCap:concept term="FilterDesign" />Customizing the Highlight Color for Search Hits</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="Search:highlighted terms" />Customizing the Highlight Color for Search Hits</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-HTML5-WebHelp-WH-Plus.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms-Summary.flsnp" />  In <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms-Summary2.flsnp" /></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Search/Highlighted-Search-Terms-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2 MadCap:conditions="General.Online-Only">Example</h2>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Styles/Example-Styles-Highlighted-Search-Terms.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Customize Search Highlight Colors</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Complete-Following-Advanced-Simplified.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Advanced-Simplified-Views.flsnp" />
+            </li>
+            <p class="Subheading">If Using Simplified View</p>
+            <ol class="LowerAlpha">
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Advanced-Button-Shown.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Filter-Character-Styles1.flsnp" />
+                </li>
+                <li>(Optional) <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms1.flsnp" /><p class="Subheading">To Import These Classes From a Flare Factory Stylesheet</p><ol class="LowerRoman"><li>In the local toolbar, click the <span class="Emphasis">Options</span> button and select <span class="Emphasis">Import Styles</span>. The Import Styles dialog opens.</li><li>In the <span class="Emphasis">Library Folders</span> section, make sure <span class="Emphasis">Factory Stylesheets</span> is selected.</li><li>In the <span class="Emphasis">Stylesheets</span> section, select <span class="Emphasis">SearchHighlight</span>.</li><li>(Optional) In the <span class="Emphasis">[Medium]</span> drop-down list, <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Import-Styles-Select-Medium.flsnp" /></li><li>In the section below, click the <span class="Emphasis">Import</span> check box next to each style class named <span class="Emphasis">span.SearchHighlight</span> followed by a number. There are 10 of these style classes.</li><li><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The style classes are added to the current stylesheet.</li></ol><p class="Subheading">To Create These Classes Manually</p><ol class="LowerRoman"><li>From the grid in the bottom portion of the Stylesheet Editor, select the <span class="Emphasis">span</span> tag.</li><li><MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms2.flsnp" /></li><li><MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms3.flsnp" /></li><li><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /></li></ol></li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms4.flsnp" /> If you select the main <span class="Emphasis">SearchHighlight</span> class, the same color will be used for all search terms found. Otherwise, you can select a numbered SearchHighlight class (e.g., SearchHighlight1, SearchHighlight2) to set individual colors for different terms found.</li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Local-Toolbar-Click-Properties-Style.flsnp" />
+                </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Use-Tabs-Fields-Change-Style-Properties.flsnp" />
+                    </p>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to change the background color for the class span.SearchHighlight1. After you select that class on the left you can select the <span class="Emphasis">Font</span> tab in the Properties dialog. Then click the down arrow in the <span class="Emphasis">Background</span> field and choose the color you want.</p>
+                    </div>
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/General/Properties-Dialog-Click-OK.flsnp" />
+                </li>
+            </ol>
+            <p class="Subheading">If Using Simplified View</p>
+            <ol class="LowerAlpha">
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Filter-Generated-Content-Styles1.flsnp" />
+                </li>
+                <li>(Optional) <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms1.flsnp" /><p class="Subheading">To Import These Classes From a Flare Factory Stylesheet</p><ol class="LowerRoman"><li>In the local toolbar, click the <span class="Emphasis">Options</span> button and select <span class="Emphasis">Import Styles</span>. The Import Styles dialog opens.</li><li>In the <span class="Emphasis">Library Folders</span> section, make sure <span class="Emphasis">Factory Stylesheets</span> is selected.</li><li>In the <span class="Emphasis">Stylesheets</span> section, select <span class="Emphasis">SearchHighlight</span>.</li><li>(Optional) In the <span class="Emphasis">[Medium]</span> drop-down list, <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Import-Styles-Select-Medium.flsnp" /></li><li>In the section below, click the <span class="Emphasis">Import</span> check box next to each style class named <span class="Emphasis">span.SearchHighlight</span> followed by a number. There are 10 of these style classes.</li><li><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The style classes are added to the current stylesheet.</li></ol><p class="Subheading">To Import Create These Classes Manually</p><ol class="LowerRoman"><li>On the left side of the editor, select the <span class="Emphasis">span</span> tag.</li><li><MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms2.flsnp" /></li><li><MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms3.flsnp" /></li><li><MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /></li></ol></li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Styles-Highlighted-Search-Terms4.flsnp" />  If you select the main <span class="Emphasis">SearchHighlight</span> class, the same color will be used for all search terms found. Otherwise, you can select a numbered SearchHighlight class (e.g., SearchHighlight1, SearchHighlight2) to set individual colors for different terms found.</li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+                </li>
+                <li>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" /> Not only can you change the background color, but you can change any other property for the class as well. </li>
+                <li>
+                    <p>
+                        <MadCap:snippetText src="../../../Resources/Snippets/Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                    </p>
+                    <div class="example">
+                        <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to change the background color for the class span.SearchHighlight1. After you select that class on the left you can open the <span class="Emphasis">Background</span> property group on the right side of the editor. Then to the right of <span class="Emphasis">background-color</span>, click <img src="../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" />, then choose the color you want.</p>
+                    </div>
+                </li>
+            </ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide" />
+        <h2>How to Customize Search Highlight Colors—HTML5 Tripane Only</h2>
+        <p>Use the following steps if you are creating HTML5 Tripane output. If you are creating HTML5 Side Navigation, Top Navigation, or skinless output, use the steps above for doing this in a stylesheet.</p>
+        <ol>
+            <li>In the Project Organizer, open the <span class="Emphasis">Skins</span> folder.</li>
+            <li>Open the desired HTML5 Tripane skin.</li>
+            <li>In the Skin Editor, click the <span class="Emphasis">Styles</span> tab.</li>
+            <li>On the left side of the editor, in the <span class="Emphasis">Search Results</span> section, expand the <span class="Emphasis">Search Highlight</span> style.</li>
+            <li>If you want the setting(s) to be applied to all of the items, complete the fields under the main <span class="Emphasis">Search Highlight</span> style itself. Otherwise, expand any of the child styles (Search Highlight 01 to 10) to apply settings to them individually. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Search/Search-Highlight-Numbers.flsnp" /><MadCap:conditionalText MadCap:conditions="General.Online-Only"> For more information about root and children properties, see <MadCap:xref href="../../Skins/HTML5-Skin-Styles/HTML5-Skin-Styles.htm">HTML5 Skin Styles</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Search/Note-Search-Highlighting-Eclipse.flsnp" />
+    </body>
+</html>

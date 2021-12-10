@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="384" MadCap:lastWidth="969">
+    <body>
+        <p>Windows PowerShell 2.0 can be added via the operating system. You will use the Server Manager to add this feature.</p>
+        <ol>
+            <li>On systems running Windows Server 2008, log in to the server as an administrator. </li>
+            <li>Click <b>Start &gt; Administrative Tools</b> and select <span class="Emphasis">Server Manager</span> from the context menu.</li>
+            <li>Under <span class="Emphasis">Server Manager</span>, highlight <span class="Emphasis">Features</span>. The Add Features Wizard opens. </li>
+            <li>In the Features Summary page, click <span class="Emphasis">Add Features</span>.</li>
+            <li>
+                <p>In the Select Features page, place a check mark next to the <span class="Emphasis">Windows PowerShell</span> box. </p>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed230;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If the Windows PowerShell box is grayed out and unavailable, a message will indicate that PowerShell is already installed. </p>
+            </li>
+            <li>In the Select Features box, click <span class="Emphasis">Next</span>.</li>
+            <li>In the Confirmation box, review any informational messages. When ready, click <span class="Emphasis">Install</span>. A progress indicator shows you the status of the installation. </li>
+            <li>In the Installation Results page, look for the Installation Succeeded message. Then click <span class="Emphasis">Close</span>.</li>
+        </ol>
+    </body>
+</html>

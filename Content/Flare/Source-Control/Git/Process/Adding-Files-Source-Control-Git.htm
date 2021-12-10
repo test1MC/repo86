@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-Git.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Describes how to add files to the Git source control system." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:adding files;Multi-authoring" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />Adding Files to Source Control<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Git</MadCap:conditionalText></h1>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Source-Control/Source-Control-Add-Files-Summary-Git.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Add Files to Source Control</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li><span class="SetOffFirstLevel">Ribbon</span>Select <b>Source Control &gt; Add</b>.</li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>If you have the Content Explorer, Project Organizer, Pending Changes window pane, or File List open, right-click the file you want to add and select <span class="Emphasis">Source Control &gt; Add</span>.</li>
+                </ul>
+                <p>The Commit dialog opens. The selected files are listed with check boxes next to them.</p>
+            </li>
+            <li>(Optional) <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Ce-Fl-Li/Source-Control/Source-Control-Commit-Comment-Option.flsnp" /></li>
+            <li>(Optional) If you want to see all files with pending changes (rather than only those you selected), click <img src="../../../../Resources/Images/Shared/Ce-Fl-Li/Interface/Buttons/Show-All-Pending-Changes-btn.png" class="ReduceButtonSize" />.</li>
+            <li>Make sure to click the check box next to each file you want to commit so that it contains a check mark.</li>
+            <li>Click <span class="Emphasis">Commit</span>.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git" />
+        <h2>How to Add Files to Source Control Using the Explorer</h2>
+        <ol>
+            <li>Select <b>View &gt; Source Control Explorer</b>. The Source Control Explorer opens.</li>
+            <li>
+                <p>From the drop-down or the Home pane, select <span class="Emphasis"><MadCap:keyword term="Source Control Explorer:Pending Changes pane" />Pending Changes</span>.</p>
+                <p>The Pending Changes pane opens. Files that will be committed are listed under <span class="Emphasis"><MadCap:keyword term="Source control:include changes" />Included Changes</span>, and files that will not be committed are listed under <span class="Emphasis"><MadCap:keyword term="Source control:exclude changes" />Excluded Changes</span>. You can identify newly added files because they say <span class="Emphasis">[add]</span> next to the file name.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Source-Control/Source-Control-Explorer-New-Vs-Edit-Git.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>(Optional) <MadCap:snippetText src="../../../../Resources/Snippets/Shared/Fl-Li/Source-Control/Source-Control-Explorer-Add-Comment-Commit.flsnp" /></li>
+            <li>(Optional) If you want to select the files or folders that you include in the commit, right-click a file or folder and select one of the following options from the context menu.<ul><li><p><span class="SetOffFirstLevel">Exclude </span> Excludes the selected file from the commit</p></li><li><p><span class="SetOffFirstLevel">Exclude Unselected </span> Excludes all unselected files from the commit</p></li><li><p><span class="SetOffFirstLevel">Include </span> Includes the selected file in the commit</p></li><li><p><span class="SetOffFirstLevel">Include Unselected </span> Includes all unselected files in the commit</p></li></ul></li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-Git" />
+            <li>
+                <p>Click <span class="Emphasis">Commit</span> to commit all of the files in the <span class="Emphasis">Included Changes </span> list. The Messages pane opens and displays a list of files that were committed.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Adding files from other areas of the <MadCap:variable name="Other.Product" /> interface (e.g., Pending Changes window pane, Source Control ribbon) will only add new files. However, if you use the Source Control Explorer to commit your files, it will commit all of your pending changes: both new files and modified files. If you do not want to include all of your files in the commit, you can right-click them and select <span class="Emphasis">Exclude</span>. Files you exclude will not be committed.</p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

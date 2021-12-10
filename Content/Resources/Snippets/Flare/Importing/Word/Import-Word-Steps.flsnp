@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li>Select <span class="Emphasis">Project &gt; Import &gt; MS Word Documents</span>.</li>
+            <li>
+                <p>In the wizard, choose either <span class="Emphasis">Import into a new project</span> (and complete the fields below) or <span class="Emphasis">Import into this project</span>. However, if you do not have a project currently open, the file(s) will automatically be imported into a new project.</p>
+                <div class="topic-only">
+                    <ul>
+                        <li><span class="Emphasis">Project name</span> Type a name for the new <MadCap:variable name="Other.Product" /> project that will be created after you perform the import.</li>
+                        <li><span class="Emphasis">Project folder</span> Accept the default location for the new project or click <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" /> to find and select a folder.</li>
+                        <li>
+                            <p><span class="Emphasis">Output type</span> Select the primary target for your project.</p>
+                            <MadCap:snippetBlock src="../../Targets/Primary-Target-Step-Explanation.flsnp" MadCap:conditions="General.Online-Only" />
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p>Click <b>Add file</b> to choose Word documents. You can also select other options as necessary.</p>
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../Import-Add-Files-Button-Options3.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1]" />
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide,Flare-Guides.Flare-Import-Guide" />
+                <div class="topic-only">
+                    <MadCap:snippetBlock src="../Note-DOCX.flsnp" />
+                </div>
+            </li>
+            <li>
+                <p><span class="micro-content-only"> (Optional) On the left, select <b>Styles</b>. You can use this page to associate the project with an external stylesheet, discard the styles from the Word files, map the Word styles to Flare styles, and choose which styles should be the start of new topics. </span><span class="topic-only">(Optional) On the left, select <b>Styles</b>. You can use this page for various style settings.</span>
+                </p>
+                <div class="topic-only">
+                    <p class="Subheading">Associate a Stylesheet</p>
+                    <p>This is purely optional. You can choose an existing stylesheet by clicking <img src="../../../../Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />. After doing this, styles from that stylesheet become available in the mapping drop-down fields below, so that you can map Word styles to those from the stylesheet you chose.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Associate-Stylesheet.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide" />
+                    <p class="Subheading">Style Mapping</p>
+                    <ul type="1">
+                        <li><b>Discard MS&#160;Word styles</b> By default, styles from the Word documents are mapped in such a way that their names are retained and appended to Flare styles. However, you can click this button, which will map to the Flare style but not keep the Word style name or its formatting.</li>
+                        <li>
+                            <p><b>Restore defaults</b> If you change your mind, you can click this button, which will once again retain the Word style names.</p>
+                            <div class="example">
+                                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In your Word document, second-level headings use the “Heading 2” style. But in Flare, it is named “h2.” So when the Word style is mapped to the Flare style, the resulting name will be “h2.Heading2.”</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Discard-Restore1.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                                <p>If you click <b>Discard MS Word styles</b>, the mapping remains in place, but now the resulting name will be “h2” and any formatting from Word for that style is not retained.</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Discard-Restore2.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                                <p>If you click <b>Restore defaults</b>, the mapping will once again result in the name “h2.Heading2” and its formatting will be retained.</p>
+                                <p>
+                                    <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Discard-Restore3.png" alt="" title="" class="MaxWidth90Percent" />
+                                </p>
+                            </div>
+                        </li>
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                        <li>
+                            <p><b>Paragraph/Character</b> You can expand these sections to see the styles found in the Word document(s).</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Expand-Collapse-Mapping1.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                            <p>In these sections, you can map a paragraph or character style from the Word document(s) to another style. Click the drop-down in a cell to select a style. Flare styles are listed in the top part of the drop-down menu, while Word styles are listed on the bottom.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Map-Paragraphs.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                            <p>If you want to specify that new topics should start with certain paragraph styles, simply click the check box next to that style. The h1 style is selected by default (most authors start new topics on heading styles), but you can choose any paragraph-level styles that you like.</p>
+                            <p>
+                                <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Styles-Start-New-Topics.png" alt="" title="" class="MaxWidth100Percent" />
+                            </p>
+                        </li>
+                    </ul>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <p class="Subheading">Preview</p>
+                    <p>When you select a style row in either the Paragraph or Character section, a preview is shown at the bottom so you can see how it looks. The design of the original Word style is shown on the left, and the look of the mapped style is shown on the right.</p>
+                    <p>
+                        <img src="../../../../Images/Flare/Importing/Word/Import-Word-Wizard-Map-Preview.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+            <li>
+                <p>(Optional) On the left, select <b>Advanced Options</b>. You can use this page to set various options. <span class="micro-content-only">Click the quick Help buttons <img src="../../../../Images/Shared/All/Interface/Buttons/Quick-Help-btn.png" alt="" title="" /> next to each section for more information.</span></p>
+                <div class="topic-only">
+                    <p class="Subheading">Styles</p>
+                    <MadCap:snippetBlock src="Import-Word-Options-Styles.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <p class="Subheading">Topics</p>
+                    <MadCap:snippetBlock src="Import-Word-Options-Topics.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <p class="Subheading">Tables</p>
+                    <MadCap:snippetBlock src="Import-Word-Options-Tables.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <p class="Subheading">Lists</p>
+                    <p>
+                        <p><b>Use standard list style type </b>This will use standard bullets (e.g., square, disc) and numbering (e.g., decimal), whether they were used in the Word documents or not.</p>
+                        <MadCap:snippetBlock src="Import-Word-Options-Lists.flsnp" />
+                    </p>
+                    <p class="Subheading">Equations</p>
+                    <p>
+                        <p><span class="SetOffFirstLevel">Convert equations to MathML </span>
+                            <MadCap:snippetText src="../Convert-MathML-Word.flsnp" />
+                        </p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">To use this feature, the equation must have been created in Microsoft Word 2007 or later.  Also, open the Options dialog (<span class="Emphasis">File &gt; Options</span>), select the <span class="Emphasis">General</span> tab, and make sure that <span class="Emphasis">Import/Export Word Files without MS Office</span> is <span class="EmphasisItalic">disabled</span>.</p>
+                        </div>
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <p class="Subheading">Page Layouts</p>
+                    <p><span class="SetOffFirstLevel">Create a page layout for each section header/footer </span>Select this option if you want Flare to create new page layouts when you import Word documents that have section breaks, along with headers or footers. For each new section in the Word document that has a different header or footer than the previous section, Flare creates a unique page layout. After the import is finished, you can open and edit the page layouts if necessary<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../../Flare/Page-Layouts/Page-Layouts.htm">Page Layouts</MadCap:xref> and <MadCap:xref href="../../../../../Flare/Page-Layouts/Process/Editing-Pages.htm">Editing Pages</MadCap:xref>)</MadCap:conditionalText>. You can then create chapter breaks for your print-based output and assign these page layouts to the different topics in the output<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../../Flare/Page-Layouts/Process/Specifying-Chapter-Breaks1.htm">Specifying Chapter and Page Layout Breaks</MadCap:xref>)</MadCap:conditionalText>.</p>
+                    <p class="Subheading">Page Breaks</p>
+                    <MadCap:snippetBlock src="Import-Word-Options-Page-Breaks.flsnp" />
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Import-Guide,Flare-Guides.Flare-Project-Creation-Guide" />
+                    <p class="Subheading">Reimport</p>
+                    <MadCap:snippetBlock src="Import-Word-Options-Reimport.flsnp" />
+                </div>
+            </li>
+            <li>Click <b>Finish</b>, then <b>Accept</b>.</li>
+        </ol>
+    </body>
+</html>

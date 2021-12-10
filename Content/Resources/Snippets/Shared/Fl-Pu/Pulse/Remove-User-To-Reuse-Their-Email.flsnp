@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Deleting a Pulse user removes all access to Pulse and keeps the user information in the Pulse database. To give a user the ability to re-use the email address in Pulse, you must first delete the user from the dbo.Users and dbo.Login tables in SQL&#160;Server. Once the entries are deleted, the email can be used to create a new Pulse account.</p>
+    </body>
+</html>

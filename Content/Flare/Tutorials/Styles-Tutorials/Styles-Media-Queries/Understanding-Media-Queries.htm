@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video10-Media-Queries-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Getting familiar with using media queries in a project." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-UsingMediaQueries.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Understanding Media Queries</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Co-Fl/Styles/Media-Queries1.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Tutorials/CSS-Media-Queries8.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Select Media Queries in the Stylesheet Editor</h2>
+        <p>One of the most common ways to use a media query is to identify a width setting for a device with a different screen size. Let’s take a look at the media queries that come with Flare. </p>
+        <ol>
+            <li>
+                <p>From the Content Explorer, expand <span class="Emphasis">Resources &gt; Stylesheets</span>, and double-click the <span class="Emphasis">Styles.css</span> file.</p>
+            </li>
+            <li>
+                <p>From the local toolbar of the Stylesheet Editor, make sure the first  button is labeled <span class="Emphasis">View: Advanced</span>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can select a media query in the editor’s Simplified view. In that case, whichever media query you choose becomes the editable one. </p>
+                </div>
+            </li>
+            <li>
+                <p>In the left pane tree structure, select <span class="Emphasis">p</span>.</p>
+            </li>
+            <li>
+                <p>From the local toolbar, click the <span class="Emphasis">Medium</span> drop-down.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-MediaQuery-Menu.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Styles/Tablet-Mobile-Media-Queries1.flsnp" /> <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Styles/Tablet-Mobile-Media-Queries2.flsnp" /> (The print item in the drop-down is actually a medium, not a media query. The default is a medium but can also be considered a media query in its relationship with the tablet and mobile items.) <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Styles/Other-Features-Activities/Mediums-Media-Queries/Main-Activities/Mediums-Media-Queries.htm">Mediums and Media Queries</MadCap:xref>.</MadCap:conditionalText></p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click the check box next to the <span class="Emphasis">Medium: tablet</span> item. The media query opens in a new window pane next to the default medium in the editor.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-MediaQuery-Tablet-Menu.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the drop-down again, and click the check box next to the <span class="Emphasis">Medium: mobile</span> item. It opens in the editor.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-MediaQuery-Mobile-Menu.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Expand different property groups in the media query window panes. Notice how the styles are initially inherited from the default medium.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-MediaQueries-Inherit.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Edit Tablet and Mobile Breakpoints</h2>
+        <p>
+            <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Tutorials/Tablet-Mobile-Media-Queries3.flsnp" />
+        </p>
+        <ol>
+            <li>
+                <p>From the Project Organizer, expand <span class="Emphasis">Targets</span>, and double-click <span class="Emphasis">All-About-Austin-HTML5</span>.</p>
+            </li>
+            <li>
+                <p>In the Target Editor, select the <span class="Emphasis">Skin</span> tab.</p>
+            </li>
+            <li>
+                <p>The default tablet breakpoint is 1279px, and the default mobile breakpoint is 767px. Let’s round those numbers down respectively, type <span class="TypedEntry">1200</span> pixels (tablet), and type <span class="TypedEntry">700</span> pixels (mobile).</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-TargetEditor-Breakpoints.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Notice the option for <span class="Emphasis">Use device width media queries</span>. <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Tutorials/Device-Width-Media-Queries2.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Responsive-Design/Responsive-Skins.htm">Responsive Skins</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">HTML5 Side and Top Navigation skins are always enabled for responsive output. If you prefer using Tripane HTML5 output, you can set breakpoints in the skin.</p>
+        </div>
+    </body>
+</html>

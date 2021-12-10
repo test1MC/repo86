@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1391" MadCap:lastWidth="1537">
+    <body>
+        <p>Groups can be built quickly and easily using the Index and Groups view in the Doc-To-Help Project Panel<MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">, and the Topics window in Doc-To-Help</MadCap:conditionalText>.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Nav-Links/Groups/Groups.htm">About Groups</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Nav-Links/About-Groups.htm">About Groups</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Group</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>In <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-to-Help</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word</MadCap:conditionalText>, open the Index and Groups view in the Doc-To-Help Project panel.</p>
+                        <p>
+                            <img src="../../../../Images/D2H/Nav-Links/Index-Groups5.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" />
+                        </p>
+                    </li>
+                    <li>Click the <span class="Emphasis">Groups</span> button <img src="../../../../Images/D2H/Interface/Buttons/Groups-btn.png" class="ReduceButtonSize" />.</li>
+                    <li>In the Groups pane, click the <span class="Emphasis">Add New Group</span> button <img src="../../../../Images/D2H/Interface/Buttons/Add-Group-btn.png" class="ReduceButtonSize" /> in the local toolbar. </li>
+                    <li>An editable group name will be created, titled "New Group." Type the new group name within the box.</li>
+                    <li>(Optional) Groups can be renamed or removed using the <span class="Emphasis">Rename</span> or <span class="Emphasis">Remove Group</span> toolbar buttons.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Assign a Topic to a Group</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Create a group.</li>
+                    <li>In the Keywords/Groups view, select the group to highlight it.</li>
+                    <li>Drag a topic from the Topics window into the bottom half of the Keywords/Groups view.</li>
+                </ol>
+                <p class="note">Groups should always have more than one topic assigned to them.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note" MadCap:conditions="General.Online-Only,Snippets.Snippet1">
+                    <p class="Note-Text">For a complete listing of options, see <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Index-Groups-Window-Pane.htm">Index and Groups Window Pane (Word)</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="General.Online-Only,Snippets.Snippet2">
+                    <p class="Note-Text">For a complete listing of options, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Index-Groups-Pane.htm">Index and Groups Window Pane (Doc-To-Help)</MadCap:xref>.</p>
+                </div>
+                <p class="note" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">For a complete listing of options, see the Index and Groups Window View topic in the online Help.</p>
+                <p class="note" MadCap:conditions="General.Online-Only">Any new groups created using this method will also be added to the Index and Groups window pane in the Doc-To-Help Project panel. You can create links to groups by dragging and dropping a group from this window pane into your document. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Index-Groups-Window-Pane.htm">Index and Groups Window Pane (Word)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2,General.Online-Only"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Index-Groups-Pane.htm">Index and Groups Window Pane (Doc-To-Help)</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+    </body>
+</html>

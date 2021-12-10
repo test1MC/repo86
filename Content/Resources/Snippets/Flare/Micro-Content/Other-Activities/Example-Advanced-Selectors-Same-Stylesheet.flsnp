@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have the following set of steps in a topic, and you want to create new micro content from them.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Single-Source-Micro-Content1.png" alt="" title="" class="MaxWidth75Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>You right-click the <b>ol</b> structure bar and select <b>Create Micro Content</b>.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Single-Source-Micro-Content2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>In the dialog, you enter a micro content phrase and click <b>OK</b>. The phrase is added to the micro content file and linked to the set of steps, as indicated by the extra structure bar in the XML Editor.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Single-Source-Micro-Content3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>When the steps are shown in the topic in the output, you want them to look just as they do in the XML Editor. However, when the steps are shown in micro content search results, you want the comment after Step 2 to be hidden. Also, you want to use a smaller font and less space between the steps.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>So in your stylesheet, you create the following complex selectors:</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Single-Source-Micro-Content4.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <p>In the XML Editor, you click on the paragraph after Step 2 and apply the <b>.topic-only</b> class to it.</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Single-Source-Micro-Content5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Micro-Content-Guide" />
+            <p>When you generate and view the output, the topic looks like this:</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Single-Source-Micro-Content6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>And the micro content search result looks like this:</p>
+            <p>
+                <img src="../../../../Images/Flare/Micro-Content/Single-Source-Micro-Content7.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

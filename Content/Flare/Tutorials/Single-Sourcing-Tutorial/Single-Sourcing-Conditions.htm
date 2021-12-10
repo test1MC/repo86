@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Key-Features-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Briefly going over conditions and associating them with targets in support of single-sourcing." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Single-Sourcing.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Conditions</h1>
+        <p>A condition is a single-sourcing feature that gets applied to content for producing different output. Conditions are great for filtering content for certain  audiences or output formats. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Conditions/Conditions.htm">Conditions</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Create a Condition Tag Set</h2>
+        <p>The first thing to do is create a condition tag set and add conditions to it. Even though the Austin project already includes a default condition set, we are going to create a new one. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Conditions/Process/Adding-Condition-Tag-Sets.htm">Adding Condition Tag Set Files</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        <ol>
+            <li>
+                <p>From the Project Organizer, right-click the <span class="Emphasis">Conditional Text</span> folder, and select <span class="Emphasis">Add Condition Tag Set</span>. </p>
+            </li>
+            <li>In the <span class="Emphasis">File Name</span> field of the dialog, enter <span class="TypedEntry">Single-Sourcing-Conditions</span>, and then click <span class="Emphasis">Add</span>. The Condition Tag Set Editor opens.</li>
+            <li>In the local toolbar, click <span class="Emphasis">New item</span> <img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/New-Item-btn.png" class="ReduceButtonSize" />. A new row is added and selected.</li>
+            <li>Press <span class="Emphasis">F2</span>, select the text, type <span class="TypedEntry">Austin-Online</span>, and then press <span class="Emphasis">ENTER</span>.</li>
+            <li>Remove the other conditions that were automatically added when you created the new condition tag set.</li>
+            <li>
+                <p>Repeat steps 3 and 4 to create another condition called <span class="TypedEntry">Austin-PDF</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/Single-Sourcing-CondTagSet.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>From the Project Organizer, expand the <span class="Emphasis">Conditional Text</span> folder. </li>
+            <li>Remove the default conditions. Right-click <span class="Emphasis">Default</span>, and select <span class="Emphasis">Delete</span>.</li>
+            <li>In the Delete dialog, click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <p>In the Link Update dialog, select <span class="Emphasis">Remove Links</span>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Conditions are indicated by color, which makes them easy to see and identify at a glance. You can change the background color in the Condition Tag Set Editor at any time.</p>
+                </div>
+            </li>
+        </ol>
+        <h2>How to Apply a Condition to Content</h2>
+        <ol>
+            <li>From the Content Explorer, double-click <span class="Emphasis">Austin-City-Limits.htm</span>. The topic opens in the XML Editor.</li>
+            <li>
+                <p>To set conditions to several blocks of content, we need to select the content. Select from the "Format" heading to the end of the topic.</p>
+            </li>
+            <li>From the <span class="Emphasis">Home</span> ribbon, select <span class="Emphasis">Conditions</span>. The Condition Tags dialog opens.</li>
+            <li>
+                <p>Select <span class="Emphasis">Austin-Online</span>. Click <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Content-Condition.png" alt="" title="" class="MaxWidth50Percent" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-Content-Condition2.png" alt="" title="" class="MaxWidth50Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">There are many ways to apply a condition. Keep in mind that topics, project files, and content of all types (paragraphs, links, images, glossary terms, etc.) can be marked with a condition. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Conditions/Process/Applying-Conditions-Content1.htm">Applying Conditions to Content</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        </div>
+        <h2>How to Apply a Condition to a Folder</h2>
+        <ol>
+            <li>
+                <p>In the Content Explorer, expand <span class="Emphasis">Print-Only-Topics</span>. The Title-Page.htm topic is applicable to  PDF output only, so let's add a condition to the folder. By applying a condition to a folder, that condition is automatically applied to all files under it. If more topics get added to this folder in the future, the condition on the folder will be used for each topic file.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Take care as to where you apply conditions in the Content Explorer to avoid conflicts. Otherwise, files might be included when you intended them to be excluded. For example, you might have applied a condition to individual topics, and you've told the target to <span class="EmphasisItalic">exclude</span> that condition. But you've also applied a condition to the folder, and you've told the target to <span class="EmphasisItalic">include</span> that condition. As a result, the topics will be <span class="EmphasisItalic">included</span> in the output. The opposite will also result in included files (i.e., if you tell Flare to exclude the condition set on the folder and include the conditions set on the topics, the topics will be included).</p>
+                </div>
+            </li>
+            <li>Right-click the <span class="Emphasis">Print-Only-Topics</span> folder, and select <span class="Emphasis">Properties</span>.</li>
+            <li>
+                <p>In the Properties dialog, select the <span class="Emphasis">Conditional Text</span> tab, and select <span class="Emphasis">Austin-PDF</span>. Click <span class="Emphasis">OK</span>. The folder now has a red square next to it, representing the Austin-PDF condition.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/Single-Sourcing-Folder-Cond.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you do not see the condition squares, from the Content Explorer's local toolbar click <span class="Emphasis">Hide/Show indicators for condition tags</span> <img src="../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Hide-Show-Conditional-Indicators-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                </div>
+            </li>
+        </ol>
+        <h2>How to Associate a Condition With a Target</h2>
+        <p>Once conditions are applied, they need to be associated with a target, by including or excluding them as necessary. In other words, you have to tell Flare what to do with the condition tags.</p>
+        <ol>
+            <li>From the Project Organizer, expand the <span class="Emphasis">Targets</span> folder.</li>
+            <li>Double-click the <span class="Emphasis">All-About-Austin-HTML5 (Primary)</span> target. The Target Editor opens to the right.</li>
+            <li>Click the <span class="Emphasis">Conditional Text</span> tab. The Single-Sourcing-Conditions tag set displays. </li>
+            <li>
+                <p>Since this is the HTML5 target, select the <span class="Emphasis">Austin-PDF</span> row. From the <span class="Emphasis">Action</span> section, select <span class="Emphasis">Exclude</span>.</p>
+            </li>
+            <li>
+                <p>Click the <span class="Emphasis">Austin-Online</span> row, and from the <span class="Emphasis">Action</span> section, select <span class="Emphasis">Include</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-HTML5-Conditions.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If there were multiple tag sets in the project, (show all tags) would display  tags for all the condition tag sets.</p>
+                </div>
+            </li>
+            <li>Under the Project Organizer <span class="Emphasis">Targets</span> folder, double-click the <span class="Emphasis">All-About-Austin-PDF</span> target. The Target Editor opens to the right.</li>
+            <li>Click  the <span class="Emphasis">Conditional Text</span> tab.</li>
+            <li>Since this is the PDF target, select the <span class="Emphasis">Austin-Online</span> row. From the <span class="Emphasis">Action</span> section, select <span class="Emphasis">Exclude</span>.</li>
+            <MadCap:pageBreak />
+            <li>
+                <p>Click the <span class="Emphasis">Austin-PDF</span> row, and from the <span class="Emphasis">Action</span> section, select <span class="Emphasis">Include</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/SSrc-PDF-Conditions.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-All-Files.flsnp" /> </li>
+            <li>From  the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</li>
+        </ol>
+        <h2>How to Create a Table of Contents With Conditions</h2>
+        <p>We need to add the two topics we created at the beginning of the tutorial to a table of contents (TOC). In a project you can have many TOC files—perhaps one for each target, or you can have a single TOC for multiple targets. In the spirit of single-sourcing content, let’s use one  TOC and apply conditions to it. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../TOCs/TOCs.htm">Tables of Contents</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The number of TOCs you use depends on the complexity of the TOC. The TOC in this tutorial is simple. There are just a handful of files altogether, and there are just a couple of differences between the online and print output. In this case, one TOC is easy to manage. On the other hand, imagine one TOC containing hundreds of topics for 25 different outputs. If all the outputs had only a third of the files in common and the rest were marked with conditions, then the TOC might be more time consuming to manage. For that case, it would be better to create multiple TOCs.</p>
+        </div>
+        <ol>
+            <li>From the Project Organizer, expand the <span class="Emphasis">TOCs</span> folder. The Austin project includes separate TOCs for the online and print outputs, but we're going to use only one. </li>
+            <li>Right-click on the <span class="Emphasis">Print-TOC</span> file, and from the context menu select <span class="Emphasis">Rename</span>. We are renaming the Print-TOC file to use as a base for a new TOC because it already includes the necessary settings for PDF output (as well as online output).</li>
+            <li>Give the TOC a new name. Type <span class="TypedEntry">Austin-TOC</span>, and press <span class="Emphasis">ENTER</span>.</li>
+            <li>In the Link Update dialog, click <span class="Emphasis">Update Links</span>.</li>
+            <li>Right-click on the <span class="Emphasis">Online-TOC (Primary)</span> file, and from the context menu select <span class="Emphasis">Delete</span>. </li>
+            <li>From the Delete dialog, click <span class="Emphasis">OK</span>.</li>
+            <li>In the Link Update dialog, click <span class="Emphasis">Remove Links</span>.</li>
+            <li>Double-click the <span class="Emphasis">Austin-TOC</span> file to open it for editing.</li>
+            <li>From the Content Explorer, drag the new topics and drop them logically into the TOC Editor.<ol><li>Select <span class="Emphasis">Austin-Plants.htm</span>, and drop it in the TOC as a new section after <span class="Emphasis">Famous Austin Folks</span>.</li><li><p>Select <span class="Emphasis">Garden-Tools.htm</span>, and drop it under <span class="Emphasis">Plants in Austin</span> so that it is indented under it (i.e., it is a "child" of "Plants in Austin").</p><div class="note"><p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In order to align TOC items correctly you might have to use the TOC arrow keys in the toolbar to move items up, down, to the right, or to the left in the TOC structure. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Interface/Editors/TOC-Editor.htm">TOC Editor</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p></div></li></ol></li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Let's say we want the Garden Tools topic to show in the PDF output only.  From the TOC Editor, right-click <span class="Emphasis">Garden Tools</span>, and select <span class="Emphasis">Properties</span>.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If the condition is set in the TOC and not  on the file in the Content Explorer, searching for that content online is still possible.</p>
+                </div>
+            </li>
+            <li>
+                <p>In the Properties dialog, select the <span class="Emphasis">Conditional Text</span> tab, and then select <span class="Emphasis">Austin-PDF</span>. Click <span class="Emphasis">OK</span>. The TOC should look like this when you are done:</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Single-Sourcing/Single-Sourcing-TOC.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>You might be wondering why the topic Title-Page.htm from the Print-Only-Topics folder does not show its associated condition tag in the TOC. Since the Austin-PDF condition has already been set in the Content Explorer, and that condition is designed to include the file in the PDF output only, it is not necessary to mark it again in the TOC Editor. Flare will exclude the file from online output, and it will also automatically exclude the reference to it from the TOC in online output.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It is recommended to step through the Snippet Conditions Tutorial. It shows you how to create condition tags sets, and how to use snippet conditions for single-sourcing. Snippet conditions allow you to add conditions to snippets and then include or exclude the content at the topic level. This feature provides more flexibility to customize the use and look of content. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../Snippet-Conditions-Tutorial/Snippet-Conditions-Tutorial.htm">Snippet Conditions Tutorial</MadCap:xref> and <MadCap:xref href="../../Snippets/Main-Activities/Using-Snippet-Conditions1.htm">Using Snippet Conditions</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../../Resources/Snippets/Flare/General/See-Flare-Online-Help.flsnp" MadCap:conditions="General.Print-Only" /></p>
+        </div>
+    </body>
+</html>

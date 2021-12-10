@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Print.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>
+            <MadCap:snippetText src="../../Shared/Co-Fl/Lists/List-Page-Breaks-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>How to Insert a Manual Page Break for a List</h2>
+        <MadCap:snippetBlock src="Insert-Manual-Page-Break-List.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1]" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>How to Use a Style to Set a Page or Column Break for Lists</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Medium1.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Select-Medium2.flsnp" />
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Remembers-Last-Medium.flsnp" />
+                </p>
+                <p MadCap:conditions="General.Online-Only">
+                    <img src="../../../Images/Shared/Co-Fl/General/Medium.png" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-List-Styles1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Lists/List-Select-Style1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Print-Support-Group1.flsnp" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-Any-Following.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p>To the right of <span class="Emphasis">page-break-before</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and select one of the options for setting a page break <span class="EmphasisItalic">before</span> the list item.</p>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Lists/Page-Break-Before-Options.flsnp" />
+                    </li>
+                    <li>
+                        <p>To the right of <span class="Emphasis">page-break-after</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and select one of the options for setting a page break <span class="EmphasisItalic">after</span> the list item:</p>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Lists/Page-Break-After-Options.flsnp" />
+                    </li>
+                    <li>
+                        <p>To the right of <span class="Emphasis">page-break-inside</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" /> and select one of the options for setting a page break <span class="EmphasisItalic">inside</span> the "rendering box" of the list item:</p>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Lists/Page-Break-Inside-Options.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>In the content file where you have inserted a list, click the structure bar where you want to apply the style. In other words, if you want to apply it to the entire list, click the <span class="Emphasis">ol</span> or <span class="Emphasis">ul</span> bar. If you want to apply it to a list item, click the <span class="Emphasis">li</span> bar. Then select the style class (e.g., from the Home ribbon or Styles window pane). <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Styles/Main-Activities/Applying-Styles-Content1.htm">Applying Styles to Content</MadCap:xref>.</MadCap:conditionalText></li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Lists-Guide" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                <MadCap:snippetText src="../../Shared/Co-Fl/Lists/Note-Paragraph-Tag-After-ListI-tem.flsnp" />
+                <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Lists/Main-Activities/Working-With-Paragraphs-Simple-List-Items.htm">Adding Notes or Comments Between List Items</MadCap:xref>.</MadCap:conditionalText>
+            </p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It is also possible to use styles to set breaks on tables. <MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide,General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Setting-Page-Column-Frame-Breaks-Tables1.htm">Setting Page Layout Breaks on Tables</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../Shared/Co-Fl/General/See-Online-Help-Styles-Guide.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /></p>
+        </div>
+    </body>
+</html>

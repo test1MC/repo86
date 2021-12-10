@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>It is possible to map specific Help topics to your software application based on the user's location in the interface. This Help is most commonly accessed using a dialog Help button or icon, or by pressing the F1 button to open a Help window. </p>
+        <p>Topics are mapped to the software application using context IDs, which can be specified by the author or the software developer. If the context IDs will be supplied by the author, Doc-To-Help can be set (if desired) to automatically generate context IDs and assign them to specified topic types or paragraph styles. If the context IDs will be supplied by the software developer, the author can easily map them to topics in HTML Help or NetHelp targets.</p>
+        <p>If your context IDs were assigned in Doc-To-Help, the appropriate context ID file type for your software application will be automatically generated and stored in your project. You can also export the IDs to Microsoft Excel or a text (TXT) file.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Topics/Printing-Exporting-Topic-List.htm">Printing and Exporting the Topic List</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Topics/Printing-Topic-List.htm">Printing the Topic List</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Topics/Exporting-Topic-List.htm">Exporting the Topic List</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> For more, see the online Help or the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-CSH-Guide">How to Automatically Generate Context IDs</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>How to Automatically Generate Context IDs</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>On the <span class="Emphasis">Project</span> ribbon, click <span class="Emphasis" MadCap:conditions="Snippets.Snippet1">Styles</span><span class="Emphasis" MadCap:conditions="Snippets.Snippet2">Project Styles</span>. The Project Styles dialog opens.</li>
+                    <li>Select a topic type or paragraph style that you would like auto context IDs to be assigned to.</li>
+                    <li>Select the <span class="Emphasis">Auto Context ID</span> check box in the Behavior section.</li>
+                    <li>Repeat for all relevant topic types and paragraph styles. (You may want to start out by selecting the Heading 1, Heading 2, and Heading 3 paragraph styles only.) </li>
+                    <li>Click <span class="Emphasis">OK</span>.</li>
+                    <li MadCap:conditions="Snippets.Snippet2">On the <span class="Emphasis">Project</span> ribbon, at the bottom of the <span class="Emphasis">Project</span> group, click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Project Settings dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">On the <span class="Emphasis">Project</span> ribbon, click <span class="Emphasis">Project Settings</span>. The Project Settings dialog opens.</li>
+                    <li>Select the <span class="Emphasis">Generate context IDs automatically</span> check box in the Context IDs section.</li>
+                    <li>If you are creating a modular project (i.e., one that contains multiple projects), you may want to assign an ID offset to avoid duplicate IDs across your projects.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Projects/Modular/Modifying-Context-IDs-Modular-Projects.htm">Modifying Context IDs in Modular Projects</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Projects/Modifying-Context-IDs-Modular-Projects.htm">Modifying Context IDs in Modular Projects</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> See the online Help or the <span class="EmphasisItalic">Project Management Guide</span>.</MadCap:conditionalText></li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+                <p>Context IDs will be generated for all selected topic types and paragraph styles. They can be viewed in the Topics window. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-CSH-Guide">How to View, Edit, or Assign a Topic's Context ID for HTML Help and NetHelp</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>How to View, Edit, or Assign a Topic's Context ID for HTML Help and NetHelp</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Open the Topics window.</li>
+                    <li>Right-click on a topic. From the menu, choose <span class="Emphasis">Properties</span>. The Topic Properties dialog opens. </li>
+                    <li>If a context ID has already been assigned to the topic, that ID will appear in the Context ID field. You may edit this field or assign a new ID. Even auto-assigned context IDs may be edited.</li>
+                    <li>
+                        <p>If you would like to assign more than one context ID to a topic, enter them with plus signs separating them (e.g., 45 + 46 + 47). </p>
+                        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You can assign multiple context IDs to a single topic, but you cannot assign the same ID to multiple topics.</p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-CSH-Guide">Locations and Names</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Locations and Names</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The context ID files are stored in your project, in the appropriate target folder. The appropriate file should be given to the software developer to implement context-sensitivity. The folder names provided below are the defaults; if you have changed the target folder names in your project they will be saved to those folders instead.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>HTML Help</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">Project Folder Name </span>HTMLHelp</li>
+                            <li><span class="SetOffFirstLevel">File Name </span>projectname.h</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>NetHelp</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">Project Folder Name </span>NetHelp</li>
+                            <li><span class="SetOffFirstLevel">File Name </span>context.xml</li>
+                            <li><span class="SetOffFirstLevel">Additional File Needed </span>D2H_ctxt.*, located in <MadCap:snippetText src="../../Projects/D2H-Path.flsnp" />Context-Sensitive Help</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>JavaHelp</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">Project Folder Name </span>JavaHelp</li>
+                            <li><span class="SetOffFirstLevel">File Name </span>projectname.jhm</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-CSH-Guide" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-CSH-Guide">What's This? Help</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>What's This? Help</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>"What's this?" Help is context-sensitive documentation that is accessed by clicking a question mark icon in a dialog and then selecting a field or other object in the dialog. "What's this?" Help then appears in a popup. </p>
+                <p>For HTML Help, apply the <span class="Emphasis">WhatsThis</span> style to the topics and map them like any-other context-sensitive Help topic using context IDs. In the Document Properties dialog of the source documents containing these topics, set <span class="Emphasis">Plain Text Popups</span> to <span class="Emphasis">yes</span>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Future">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Dynamic Help</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If you are developing a desktop application in .NET, you can use dynamic Help.&#160;This is a Visual Studio control included with Doc-To-Help that software developers can include in your software application to create a Help window pane. Then you can map any HTML Help (CHM) or NetHelp file to the software interface visually. You do not need to use context IDs for dynamic Help.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Online-Only">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Additional Target-specific Information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>For more information about specific targets, see the following:</p>
+                <ul MadCap:conditions="Snippets.Snippet1">
+                    <li><span class="SetOffFirstLevel">JavaHelp </span>See <MadCap:xref href="../../../../../D2H/CSH/CSH-JavaHelp.htm">Context-Sensitive Help in JavaHelp</MadCap:xref>.</li>
+                    <li><span class="SetOffFirstLevel">Microsoft Help 2.0 </span>See <MadCap:xref href="../../../../../D2H/CSH/CSH-MS-Help-20.htm">Context-Sensitive Help in Microsoft Help 2.0</MadCap:xref>.</li>
+                    <li><span class="SetOffFirstLevel">Microsoft Help Viewer </span>See <MadCap:xref href="../../../../../D2H/CSH/CSH-MS-Help-Viewer.htm">Context-Sensitive Help in Microsoft Help Viewer</MadCap:xref>.</li>
+                    <li><span class="SetOffFirstLevel">NetHelp </span>See <MadCap:xref href="../../../../../D2H/CSH/CSH-NetHelp.htm">Context-Sensitive Help in NetHelp</MadCap:xref>.</li>
+                </ul>
+                <ul MadCap:conditions="Snippets.Snippet2">
+                    <li><span class="SetOffFirstLevel">JavaHelp </span>See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/CSH-JavaHelp.htm">Context-Sensitive Help in JavaHelp</MadCap:xref>.</li>
+                    <li><span class="SetOffFirstLevel">Microsoft Help 2.0 </span>See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/CSH-MS-Help-20.htm">Context-Sensitive Help in Microsoft Help 2.0</MadCap:xref>.</li>
+                    <li><span class="SetOffFirstLevel">Microsoft Help Viewer </span>See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/CSH-MS-Help-Viewer.htm">Context-Sensitive Help in Microsoft Help Viewer</MadCap:xref>.</li>
+                    <li><span class="SetOffFirstLevel">NetHelp </span>See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/CSH/CSH-NetHelp.htm">Context-Sensitive Help in NetHelp</MadCap:xref>.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: Black;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">You can also embed NetHelp targets into web pages.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Output/NetHelp/Embedding-NetHelp-Targets-Web-Pages.htm">Embedding NetHelp Targets Into Web Pages</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Embedding-NetHelp-Targets-into-Web-Pages.htm">Embedding NetHelp Targets into Web Pages</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> See the online Help or the <span class="EmphasisItalic">Targets Guide</span>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

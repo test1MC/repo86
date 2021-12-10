@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="etc.)?;Examples...;FAQs;this.&quot;;CSS;Stylesheets;F;alternative...;F3;F1;F2;C;F4;F6;F7;F8;F9;F10;F12;J;K;P;W;Y;Z;(.flmsp;Indexing.&quot;;editors...;ConditionTagSet;SearchFilterSet;Stylesheet;TableStyle;VariableSet;tools...;Unformat;etc.);p;topic.);.pdf,;.doc,;.txt),;TocEntry;ToolbarItem;Practice.&quot;;b;Page...;Editor...;panes...;Organizer...;Explorer...;tags.&quot;;hidden.&quot;;none.&quot;;effect.);a.,;b.,;c.,;d.,;A.,;B.,;C.,;D.,;i.,;ii.,;iii.,;iv.,;I.,;II.,;III.,;IV.,;information.);keyword.&quot;;table...;(.flprj);file.);xls;right.);this...;Editor.);s;style.);Software.&quot;;.htm,;.html,;.xhtm,;xhtm;.xml,;.xhtml,;skins.&quot;;movie...;dialog.&quot;;Dialog.&quot;;Main.&quot;;Dialogs.&quot;;MyWebProject.mcwebhelp,&quot;;MyHtmlHelp.chm&quot;).;Close.&quot;;markers.);example...;Tollfree;MadCap1;Wizard...;program.);target.&quot;;'Empty';(.css;MySubhead;MySubhead.Subheading&quot;;EmphasisBlue;EmphasisGreen;EmphasisGreen.EmphasisBlue&quot;;(.mpj,;.xpj,;.hhp;Reimport;project...;MyProject.flprj).;Report.&quot;;Reports.htm;Report.htm).;.jpg,;.gif,;.bmp).;(.flsnp;TimeSheets.&quot;;TimeSheets;dialog...;Pets.&quot;;dogs.&quot;;Dog.&quot;;etc.).;NewTopic;www.acme.com).;(.chm;temp.hhc,&quot;;MyHelp.chm#MyToc.hhc).;TestFolder;MyHelp.chm,;AnotherHelpSystem.chm).;Master.mchelp,;AnotherHelpSystem;AnotherHelpSystem.mchelp).;Help.);file.&quot;;IdentifierName.&quot;;allowed.);n;reimport;flsfs;mcvariable;VariableSet.VariableName;MyVariables.CompanyName;flbrs" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides-Tutorials-Videos/Flare-CSH.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Assigning topic IDs (topic identifiers)&#160;to topics for context-sensitive help systems. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Context-sensitive Help:identifiers;Identifiers:creating and assigning" />Creating and Assigning Identifiers</h1>
+        <MadCap:microContent id="microcontent1">
+            <div MadCap:conditions="General.Online-Only">
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Micro-Content-Toolbars/Cheat-Sheets-User-Guides-Tutorials-Videos/Context-Sensitive-Help.flsnp" />
+                <div class="Tiles-6-6">
+                    <div>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/CSH/Creating-Assigning-IDs-Summary.flsnp" />
+                        <p>
+                            <MadCap:snippetText src="../../../Resources/Snippets/Flare/CSH/CSH-ID-Description.flsnp" />
+                        </p>
+                    </div>
+                    <div>
+                        <div class="center">
+                            <div class="video" MadCap:conditions="General.Server-Only">
+                                <p class="buttonT32-play"><a href="https://youtu.be/nRxI87e98Ik" data-lity="true" class="buttonT32-play-link">WATCH&#160;THE&#160;VIDEO</a>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="center">
+                            <img src="../../../Resources/Images/Flare/CSH/CSH-IDs.png" alt="" title="" class="ThumbnailMicroContent" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </MadCap:microContent>
+        <div MadCap:conditions="General.Print-Only">
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/CSH/Creating-Assigning-IDs-Summary.flsnp" />
+            <p>
+                <MadCap:snippetText src="../../../Resources/Snippets/Flare/CSH/CSH-ID-Description.flsnp" />
+            </p>
+            <p>
+                <img src="../../../Resources/Images/Flare/CSH/CSH-IDs.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <ul>
+            <li>If it is decided that you are responsible for creating the header file in CSH, you need to open the Alias Editor to create <span class="EmphasisItalic">and</span> assign IDs to topics or micro content phrases.</li>
+            <li>If it is decided that the software developer is responsible for creating the header file in CSH, you only need to assign the IDs, which should already be contained in the header file that the developer provides for you. Before assigning the IDs to topics or micro content phrases, you must first import the header file from the developer so that it is located in the Advanced folder in the Project Organizer. <MadCap:conditionalText MadCap:conditions="Products.Flare">See <MadCap:xref href="../Other-Activities/Header-Files/Importing-Header-Files.htm">Importing Header Files</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+        <h2><a name="HowToAutomaticallyAllTopics"></a>How to Automatically Generate IDs</h2>
+        <p>You might use these steps if you are just getting started with a header and alias file, and you need to create IDs for all or many topics or phrases.</p>
+        <ol>
+            <li>Open the alias file that you created.</li>
+            <li>(Optional) You can set options for new IDs in advance. This will supply some of the information (e.g., starting value, prefix, include topic in ID name, assign skin) for you automatically as you create new IDs. See <MadCap:xref href="../Other-Activities/Alias-Files/Setting-Identifier-Options.htm">Setting Identifier Options</MadCap:xref>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>In the local toolbar of the Alias Editor click <img src="../../../Resources/Images/Flare/Interface/Buttons/Generate-Identifiers-btn.png" class="ReduceButtonSize" />.</li>
+                    <li>Right-click in the <span class="Emphasis">Identifiers</span> side of the editor, and from the context menu select <span class="Emphasis">Auto Generate</span>.</li>
+                </ul>
+                <p>The Generate Identifiers dialog opens.</p>
+            </li>
+            <li>In the <span class="Emphasis">Header File</span> area on the left, select whether to create a new header file from a template or choose an existing header file.</li>
+            <li>
+                <p>(Optional) On the right side, in the <span class="Emphasis">Identifier Options</span> area, you can override values that are already set in the Identifier Options dialog (see Step 2).</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+                <p class="Subheading">Starting Value </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/CSH/Starting-Value.flsnp" />
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/CSH-Starting-Value.png" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+                <p class="Subheading">Prefix </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/CSH/Prefix.flsnp" />
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/CSH-Prefix.png" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+                <p class="Subheading">Include File or Phrase Name in Identifier Name </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/CSH/Include-File-Phrase-Name-ID.flsnp" />
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/CSH-Include-Topic-Name.png" class="MaxWidth80Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+                <p class="Subheading">Capitalize Identifier Names </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/CSH/Capitalize-Identifier-Names.flsnp" />
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/CSH-Caplitalize-ID-Names.png" class="MaxWidth80Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+                <p class="Subheading">Skins </p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/CSH/Default-Skin.flsnp" />
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/CSH-Default-Skin.png" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+                <p class="Subheading">Value Format</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/CSH/Value-Format.flsnp" />
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/CSH-Value-Format1.png" class="MaxWidth100Percent" />
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/CSH-Value-Format2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the <span class="Emphasis">Generate Identifiers for</span> field, select one of the options, depending on whether you want to create IDs for all topics and/or micro content, or only for those that are not yet assigned to IDs.</li>
+            <li>
+                <p>If you selected one of the "All" options in the previous step, choose one of the following in the <span class="Emphasis">Existing Identifiers</span> field:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Keep</span> Select this if you want to keep the IDs that you already have in the header file. As a result, you will have some topics that are assigned to multiple IDs (i.e., the old ID and the new one).</li>
+                    <li><span class="SetOffFirstLevel">Delete</span> Select this if you want to delete the existing IDs in the header file, creating new ones instead. This way, you will not have any topics that are assigned to multiple IDs.</li>
+                </ul>
+            </li>
+            <li>Click <span class="Emphasis">Create</span>. In the Alias Editor, the header file is automatically selected in the local toolbar. Also, new rows are added in the Alias Editor with <img src="../../../Resources/Images/Flare/Interface/Icons/Assigned-ico.png" class="ReduceButtonSize" /> (instead of <img src="../../../Resources/Images/Flare/Interface/Icons/Not-Assigned-ico.png" class="ReduceButtonSize" />) next to them. The green icon indicates that the IDs are assigned to topics. </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+            <li>(Optional) If you want a certain ID to point to a specific bookmark or header in the assigned topic, do the following:<ol class="LowerAlpha"><li>Select the ID row. </li><li>Click the <img src="../../../Resources/Images/Flare/Interface/Buttons/Select-Bookmark-btn.png" class="ReduceButtonSize" /> button located above the ID list. </li><li>In the dialog that opens, select a bookmark or header within the topic. </li><li>Click <span class="Emphasis">OK</span>.</li></ol></li>
+            <li>
+                <p>(Optional) If you want to make changes (e.g., modify the ID name or number), click in the appropriate cell and type the new information. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Make sure you use underscores between words because spaces are not allowed.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+        <h2><a name="HowToCreateAssignSameTime"></a>How to Create and Assign a New ID Manually</h2>
+        <p>You might use these steps if you already have a header and alias file that you've been working on for some time. Instead of creating lots of new IDs automatically, you can just create them manually as necessary.</p>
+        <ol>
+            <li>Open the alias file that you created.</li>
+            <li>(Optional) You can set options for new IDs in advance. This will supply some of the information (e.g., starting value, prefix, include topic in ID name, assign skin) for you automatically as you create new IDs. See <MadCap:xref href="../Other-Activities/Alias-Files/Setting-Identifier-Options.htm">Setting Identifier Options</MadCap:xref>.</li>
+            <li>
+                <p>If you have more than one header file in your project, click the down arrow on the left side of the Alias Editor toolbar, and select the header file for which you want to create IDs. Otherwise, you can just leave <span class="EmphasisItalic">(all identifiers)</span> in the field.</p>
+                <p>What if you have multiple header files in your project and you do not select a header file, leaving <span class="EmphasisItalic">(all identifiers)</span> shown in the drop-down field? In that case, the changes you made in the Alias Editor are applied to the primary header file that you have selected when setting ID options. See <MadCap:xref href="../Other-Activities/Alias-Files/Setting-Identifier-Options.htm">Setting Identifier Options</MadCap:xref>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/All-Identifiers-Primary-Header.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>
+                        <p>On the left side of the editor, select a topic or micro content phrase, and click the <span class="Emphasis">Assign to a new identifier</span><img src="../../../Resources/Images/Flare/Interface/Buttons/Assign-New-btn.png" class="ReduceButtonSize" /> button located above the file list.</p>
+                    </li>
+                    <li>On the left side of the editor, right-click a topic or micro content phrase, and select <span class="Emphasis">Assign to New Identifier</span>.</li>
+                </ul>
+                <p>A new row is added with <img src="../../../Resources/Images/Flare/Interface/Icons/Assigned-ico.png" class="ReduceButtonSize" /> (instead of <img src="../../../Resources/Images/Flare/Interface/Icons/Not-Assigned-ico.png" class="ReduceButtonSize" />) next to it. The green icon indicates that the ID is assigned to a topic or micro content phrase.</p>
+                <p class="TableText">
+                    <img src="../../../Resources/Images/Flare/CSH/Alias-Editor1.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+            <li>(Optional) If you want the ID to point to a specific bookmark or header in the topic, do the following:<ol class="LowerAlpha"><li>Select the ID row.</li><li>Click the <img src="../../../Resources/Images/Flare/Interface/Buttons/Select-Bookmark-btn.png" class="ReduceButtonSize" /> button located above the ID list. </li><li>In the dialog that opens, select a bookmark or header within the topic.</li><li>Click <span class="Emphasis">OK</span>.</li></ol></li>
+            <li>
+                <p>(Optional) If you want to make changes (e.g., modify the ID name or number), click in the appropriate cell and type the new information. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Make sure you use underscores between words because spaces are not allowed.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+        <h2><a name="HowToAssignIDTopics"></a>How to Assign IDs</h2>
+        <p>You might use these steps if the developer initially created the header file and you imported it. The IDs therefore already exist. You just need to assign them to the correct topics or micro content phrases.</p>
+        <ol>
+            <li>Open the alias file that you created.</li>
+            <li>(Optional) If you want to see only the IDs that are not yet assigned to topics, click <img src="../../../Resources/Images/Flare/Interface/Buttons/Hide-Assigned-Identifiers-btn.png" class="ReduceButtonSize" /> in the local toolbar of the Alias Editor. This hides IDs that are already assigned to topics in the editor until you click the button again.</li>
+            <li>On the right side of the Alias Editor, select an ID that you want to assign to a topic or phrase.</li>
+            <li>
+                <p>On the left side of the Alias Editor, find a topic or micro content phrase that you want to assign to the ID. </p>
+                <p class="TableText">
+                    <img src="../../../Resources/Images/Flare/CSH/Alias-Editor1.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+            <li>Do one of the following:<ul><li><p>Double-click the topic or phrase.</p></li><li><p>Click the <img src="../../../Resources/Images/Flare/Interface/Buttons/Assign-btn.png" class="ReduceButtonSize" /> button located above the file list.</p></li><li>Right-click the topic or phrase, and select <span class="Emphasis">Assign to Selected Identifier</span> from the context menu.</li></ul><p>The topic or phrase name is added to the ID row on the right side of the Alias Editor, and a green icon <img src="../../../Resources/Images/Flare/Interface/Icons/Assigned-ico.png" class="ReduceButtonSize" /> (instead of <img src="../../../Resources/Images/Flare/Interface/Icons/Not-Assigned-ico.png" class="ReduceButtonSize" />) is displayed next to it. The green icon indicates that the ID is assigned.</p></li>
+            <li>(Optional) If you want the ID to point to a specific bookmark or header in the topic, do the following:<ol class="LowerAlpha"><li>Select the ID row.</li><li>Click the <img src="../../../Resources/Images/Flare/Interface/Buttons/Select-Bookmark-btn.png" class="ReduceButtonSize" /> button located above the ID list. </li><li>In the dialog that opens, select a bookmark or header within the topic.</li><li>Click <span class="Emphasis">OK</span>.</li></ol></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-CSH-Guide" />
+        <h2><a name="HowAssociateSkinsIDs"></a>How to Associate Skins With IDs</h2>
+        <p>You can use these steps for IDs assigned to topics only, not micro content phrases.</p>
+        <ol>
+            <li>Open the alias file that you created.</li>
+            <li>Select the ID row(s). <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Hold-SHIFT-CTRL-Keys.flsnp" /></li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Do-One-Following.flsnp" />
+                <ul>
+                    <li>
+                        <p>Click the arrow in the <span class="Emphasis">Select skin</span> button <img src="../../../Resources/Images/Flare/Interface/Drop-Downs/Select-Skin-dd.png" class="ReduceButtonSize" /> (located above the ID list) and choose a skin from the drop-down.</p>
+                    </li>
+                    <li>Right-click somewhere in the list. From the context menu select <b>Assign Skin</b> and then from the submenu choose the name of the skin.</li>
+                </ul>
+                <p>
+                    <img src="../../../Resources/Images/Flare/CSH/Select-Skin.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>Button and Context Menu Explanations</h2>
+        <p>Following are explanations of the various buttons and context menu options in the Alias Editor, some of which have been included in the steps above.</p>
+        <table class="TableStyle-Fancy" style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');" cellspacing="0">
+            <col style="width: 10%;" class="TableStyle-Fancy-Column-Regular" />
+            <col style="width: 90%;" class="TableStyle-Fancy-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Hide-Assigned-Identifiers-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Hide IDs that already have topics or phrases assigned to them. By doing this, you can concentrate solely on unassigned IDs.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/New-Identifier-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Create a new ID.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking in the <span class="Emphasis">Identifiers</span> side of the editor, and from the context menu selecting <span class="Emphasis">New Identifier</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Delete-Identifier-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Delete the selected ID.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking a selection in the <span class="Emphasis">Identifiers</span> side of the editor, and selecting <span class="Emphasis">Delete Identifier</span> from the context menu.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Generate-Identifiers-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Automatically generate new IDs for all or many of the topics or phrases in your project. </p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking in the <span class="Emphasis">Identifiers</span> side of the editor, and from the context menu selecting <span class="Emphasis">Auto Generate</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Change-Identifier-Options-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Specify options in advance for how new IDs are created. See <MadCap:xref href="../Other-Activities/Alias-Files/Setting-Identifier-Options.htm">Setting Identifier Options</MadCap:xref>.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking in the <span class="Emphasis">Identifiers</span> side of the editor, and from the context menu selecting <span class="Emphasis">Options</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Identifier-Warning-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This lets you see if there are any issues with IDs in the editor, such as IDs that are not yet assigned to topics or phrases.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Previous-Warning-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This highlights the previous ID in the list that has an issue.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Next-Warning-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This highlights the next ID in the list that has an issue.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Assign-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Assign the topic or phrase to an ID.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking on the topic or phrase, and from the context menu selecting <span class="Emphasis">Assign to Selected Identifier</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Assign-New-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Create a new ID and assign the topic or phrase to it at the same time.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking on the topic or phrase, and from the context menu selecting <span class="Emphasis">Assign to New Identifier</span>. </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Shared/Co-Fl-Li/Interface/Buttons/Open-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Open the selected topic or micro content file.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking on the topic or phrase, and from the context menu selecting <span class="Emphasis">Open</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Locate-Topic-Header-File-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This displays all header files where the selected topic or phrase is assigned to an ID.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking on the topic or phrase, and from the context menu selecting <span class="Emphasis">Locate the in Header Files</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Unassign-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Unassign the topic or phrase from the ID.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking in the <span class="Emphasis">Identifiers</span> side of the editor, and from the context menu selecting <span class="Emphasis">Unassign</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Buttons/Select-Bookmark-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Select a bookmark in the selected topic.</p>
+                        <p class="TableText">First you can select an ID row that has already been assigned to a topic and then click this new button. A dialog opens, letting you select a bookmark within that topic.</p>
+                        <div class="note">
+                            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also perform this task by right-clicking in the <span class="Emphasis">Identifiers</span> side of the editor, and from the context menu selecting <span class="Emphasis">Select Bookmark</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Drop-Downs/Select-Skin-dd.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">You can click the down arrow in the <span class="Emphasis">Select Skin</span> button and choose the appropriate skin for the ID.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Icons/Not-Assigned-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This icon displays next to any IDs that are not assigned to a topic or phrase.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Icons/Assigned-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">This icon displays next to any IDs that have already been assigned to a topic or phrase.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../Resources/Images/Flare/Interface/Icons/Duplicate-ico.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">This icon displays next to any IDs with broken links.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are generating Eclipse Help, there are additional steps that you need to complete in Eclipse. See <MadCap:xref href="../Other-Activities/Additional-Steps-Eclipse-Help.htm">Additional Steps for Eclipse Help</MadCap:xref>.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can move IDs from one header file to another by using the right-click context menu. See <MadCap:xref href="../Other-Activities/Alias-Files/Moving-Identifiers-Different-Headers.htm" target="" title="" alt="">Moving Identifiers to Different Headers</MadCap:xref>.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You cannot have the same identifier more than once in the same alias file.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">
+            <MadCap:xref href="Associating-Alias-File-Target.htm">Associating an Alias File With a Target</MadCap:xref>
+        </p>
+    </body>
+</html>

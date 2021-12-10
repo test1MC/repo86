@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Print-EPUB.flsnp" />
+        <p>
+            <MadCap:snippetText src="../Page-Layouts/Associate-Page-Layouts-Summary1.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet5]" />
+        </p>
+        <p>Following are steps for creating chapter breaks and associating page layouts with TOC entries. Before completing these steps, you must first create an outline TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/TOCs/Process/Creating-TOCs/Creating-TOC-Manually.htm">Creating a TOC</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide">See <MadCap:xref href="../../../../Flare/Printed-Output/Adding-Print-Topics-Outline-TOC.htm">Adding Print Topics to an Outline TOC</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>In addition to specifying page layouts, chapter breaks also allow you to generate output in multiple files (as opposed to just one file), although a "multi-chapter" output can also be contained in a single file, depending on the output type. With chapter breaks, you can also take advantage of autonumbering at the chapter level and automatically include endnotes at the end of each chapter. Finally, setting a chapter break can have an effect on whether a generated TOC can be included in the output (if you are producing Word output).</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+        <h2>How to Specify Chapter Breaks and Page Layouts</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../General/Open-Project-Organizer.flsnp" />
+            </li>
+            <li>Double-click the TOCs folder. </li>
+            <li>Double-click the TOC that you plan to use for the printed output. The TOC Editor opens to the right.</li>
+            <li>Select the entry in the TOC where you want to insert a chapter or page layout break. </li>
+            <li>In the local toolbar, click <img src="../../../Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Run-Properties-btn2.png" class="ReduceButtonSize" />. </li>
+            <li>Click the <span class="Emphasis">Printed Output</span> tab.</li>
+            <li>
+                <p>In the <span class="Emphasis">Break Type</span> field, select one of the following.</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">None </span>This prevents a break from being used for the outline TOC entry.</li>
+                    <li><span class="SetOffFirstLevel">Chapter Break </span>This creates a chapter break on the outline TOC entry. You can then select the page layout to be used until another break occurs in the outline TOC. The chapter break also allows chapter autonumber settings to be applied.</li>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Page Layout Break </span>This lets you change the page layout used, starting at a certain outline TOC entry, without creating a new chapter. You might use this option, for example, if you have a wide table in the middle of a chapter and need to switch to a landscape page layout on the pages displaying that table.</p>
+                    </li>
+                </ul>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have an outline TOC for print-based output that looks like this.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Output/Page-Layout-Break1.png" class="MaxWidth90Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+                    <p>This is actually easier to see in Grid View (click the toggle button in the local toolbar of the TOC Editor to switch views), and by customizing the columns to remove those you don't want to display<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Interface/Customizing-Workspace/Customizing-Column-Information.htm">Customizing Column Information</MadCap:xref>)</MadCap:conditionalText>.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Output/Page-Layout-Break3.png" class="MaxWidth90Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+                    <p>If you build print-based output such as PDF, the results would look something like this.</p>
+                    <p>
+                        <img src="../../../Images/Flare/Output/Page-Layout-Break2.png" class="MaxWidth100Percent" />
+                    </p>
+                </div>
+            </li>
+            <li>If you selected a chapter or page layout break type, click in the <span class="Emphasis">Page Layout</span> field and select the layout that you want to use.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+            <li>
+                <p>(Optional) If you want a particular page type from the layout to be used for the <span class="EmphasisItalic">first</span> page that is displayed, select it from the <span class="Emphasis">Page Type</span> field. Depending on the pages that have been included in the selected page layout, any of the following may be available in this drop-down field. </p>
+                <p MadCap:conditions="General.Online-Only">For details and graphics that show how breaks and page  types work together to create output that flows the way you want, see <MadCap:xref href="../../../../Flare/Page-Layouts/Process/Page-Type-Flow-Scenarios.htm">Page Type Flow Scenarios</MadCap:xref>.</p>
+                <p MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide,Flare-Guides.Flare-Printed-Output-Guide">For details and graphics that show how breaks and page types work together to create output that flows the way you want, see the online Help.</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">(default) </span>This lets Flare choose the default page type for you, depending on the type of break.</li>
+                    <li><span class="SetOffFirstLevel">(continue L/R) </span> Select this option to specify a Left/Right page sequence, using whichever page comes next in the normal flow.</li>
+                    <li><span class="SetOffFirstLevel">(continue FL/FR) </span>Select this option to continue the First Left/First Right page sequence, using whichever page comes next in the normal flow.</li>
+                </ul>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Page-Layouts/Page-Type-Options-List.flsnp" MadCap:conditionTagExpression="exclude[Snippets.Snippet1]" />
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">It is recommended that you do not use more than one of each kind of page type in a page layout. If you have more than one instance of a page type, you will not be able to specify which type to use for a particular entry in the TOC Editor.</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:snippetText src="Print-Output/Inject-Empty-Pages-Instead-Of-Auto-End.flsnp" /> <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Pages/Using-Empty-Pages.htm">Using Empty Pages</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /></p>
+                </div>
+            </li>
+            <li>
+                <p>(Optional) If you want to specify a particular file name for the chapter being created, enter it in the <span class="Emphasis">Chapter File Name</span> field.</p>
+                <MadCap:snippetBlock src="Print-Output/Inject-Empty-Pages-Instead-Of-Auto-End.flsnp" />
+                <p>For PDF and Word outputs, the default setting is to create a single file for the entire output. However, you can use an option in the Advanced tab of the Target Editor to generate a new PDF or Word file for each chapter break. The Chapter File Name field in the Properties dialog would be applicable if you decide to generate multiple PDF or Word files instead of just one.</p>
+            </li>
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Page Number</span> section, you can specify how you want page numbers treated (if you have inserted them into the page layout).</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Reset to </span>To set the first page number in the chapter to begin at a specific number, select this option and enter the number in the field. Select the "text" option from the Format field, to type any kind of text into this field. That text will be used instead of numbering.</li>
+                    <li><span class="SetOffFirstLevel">Format </span>For a particular format of numbering to be used (e.g., decimal, upper Roman, lower alpha, text), select it from this drop-down. Select the "text" option to type any kind of text into the "Reset to" field. That text will be used instead of numbering.</li>
+                    <li><span class="SetOffFirstLevel">Increment number </span> If you want the first page number in the page layout to continue from the previous layout, you can select this option.</li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you want to include autonumbers in the page numbering (e.g., the chapter autonumber followed by a period and then the page number), you can do so using a couple of different methods. With the first method, you can insert the appropriate autonumber variable next to the page number variable in a page layout<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Inserting-Chapter-Section-Volume-Number-Variables-Frames1.htm">Inserting Chapter, Section, and Volume Number Variables into Frames</MadCap:xref>)</MadCap:conditionalText>. With the second method, you can use the "Reset to" and "Format" fields on this tab. First, you can select "text" from the Format field. Then in the "Reset to" field, you can enter the appropriate codes for the autonumbering. For example, if you want each page to show the chapter autonumber followed by a period and the page number, you would type {chapnum}.{n} in the "Reset to" field. Using this second method ensures that your page autonumbers are also displayed accurately in a print index. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Proxies/Indexes/Including-Autonumbers-Print-Indexes1.htm">Including Page Autonumbers in Print Indexes</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /></p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <p>Repeat these steps for each area in the content where you want to specify a new chapter or page layout break. </p>
+                <div class="tip">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">If you want to apply the same settings to many TOC entries, you can hold down the CTRL or SHIFT key and select those entries. Then open the Properties dialog and specify the settings.</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You do not have to follow these steps for every single TOC entry within that chapter—only for the TOC entries where you want a chapter or page layout break. The page layout will be used in the print-based output starting at that location in the content and continuing to the end of the document, or until it comes across another chapter or page layout break.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+        <h2>How Chapter Breaks Affect the Output Types</h2>
+        <p>When creating chapter breaks, you should keep the following in mind.</p>
+        <div class="IndentMedium">
+            <h3>
+                <MadCap:keyword term="Chapter breaks:Microsoft Word;Microsoft Word:chapter breaks" />Word Output</h3>
+            <p>The following points are relevant if you are sending output to Word.</p>
+            <p class="Subheading">if you select the option to create a chapter break</p>
+            <ul>
+                <li>It determines where a new chapter will be created at this point in the output TOC. However, it will not necessarily create a new Word file in the output for each chapter. If you want multiple Word documents in the output, you must also select the "Generate multiple documents for native PDF output" option in the Advanced tab of the Target Editor. If you do not select the "Generate multiple documents for native PDF output" option, only one Word document will be created in the output (but it will contain chapter breaks). </li>
+                <li>You will <span class="EmphasisItalic">not</span> be able to include a generated TOC in the Word output (if you also select the"Generate multiple documents for native PDF output" option in the Target Editor). However, if you create a chapter break in the Properties dialog but do not select the"Generate multiple documents for native PDF output" option in the Target Editor, you will be able to include a generated TOC in the Word output. In other words, you must have only a single Word document in order to have a generated TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="../../../../Flare/Proxies/TOCs/Creating-TOC-Manually-Print.htm" target="" title="" alt="">Creating a TOC for Print-Based Output</MadCap:xref>.</MadCap:conditionalText> </li>
+                <li>You will be able to use chapter autonumbering, even if you only have one Word document as a result of the output. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information see <MadCap:xref href="../../../../Flare/Autonumbers/Autonumbers1.htm">Autonumbers</MadCap:xref>.</MadCap:conditionalText></li>
+                <li>You will be able to insert footnotes in your topics that are consolidated and placed at the end of each chapter. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Footnotes/Footnotes.htm">Footnotes</MadCap:xref>.</MadCap:conditionalText></li>
+            </ul>
+            <p class="Subheading">if you do not select this option for any of your toc entries</p>
+            <ul>
+                <li>Only one Word file will be created when you build your output. Even if you select the "Generate multiple documents for native PDF output" option in the Advanced tab of the Target Editor, only one Word file will be created, because you must create a chapter break in the Properties dialog to tell <MadCap:variable name="Other.Product" /> where you want new documents to start. </li>
+                <li>You will be able to include a generated TOC in the Word output (because only one Word document will be generated). </li>
+                <li>You will <span class="EmphasisItalic">not</span> be able to use chapter autonumbering (because no chapter breaks exist). </li>
+            </ul>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Tables-of-Contents-Guide" />
+            <h3>EPUB Output</h3>
+            <p>The following points are relevant if you are sending output to EPUB.</p>
+            <p class="Subheading">if you select the option to create a chapter break</p>
+            <ul>
+                <li>A new HTM file is created at each point where a chapter break occurs. This can be seen if you extract the EPUB file using another tool</li>
+            </ul>
+            <p class="Subheading">if you do not select this option for any of your toc entries</p>
+            <ul>
+                <li>The EPUB contains just one HTM file.</li>
+            </ul>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-of-Contents-Guide" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Some aspects of this feature (e.g., page layouts) are used only in the print-based outputs. EPUB&#160;supports this feature only in the sense that it uses chapter breaks to determine how many HTM files are created as a result.</p>
+        </div>
+        <MadCap:snippetBlock src="../Page-Layouts/Note-Precedence-Page-Layouts.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <MadCap:snippetBlock src="Print-Output/Note-Meaning-Chapter.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you extract the EPUB file using another tool, you will find that it contains one or more HTM files. If you have used chapter breaks in the outline TOC, a new HTM file is created at each point where a chapter break occurs. If you do not use chapter breaks, the EPUB contains just one HTM file.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After you specify chapter and page layout breaks for your printed output, you can move on to any of the remaining tasks for creating printed output. See <MadCap:xref href="../../../../Flare/Printed-Output/Creating-Printed-Output.htm" target="" title="" alt="">Creating Print-Based Output</MadCap:xref>.</p>
+    </body>
+</html>

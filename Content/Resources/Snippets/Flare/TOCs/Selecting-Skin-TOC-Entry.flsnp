@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/HTML-Help.flsnp" />
+        <p>
+            <MadCap:snippetText src="Select-Skin-Summary.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2 or Snippets.Snippet3]" />
+        </p>
+        <h2>How to Select a Skin for a TOC Entry</h2>
+        <MadCap:snippetBlock src="Select-Skin-Steps.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet1], exclude[Snippets.Snippet2]" />
+    </body>
+</html>

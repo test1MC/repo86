@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video1-Intro-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Examining why local formatting is not recommended, and then using a stylesheet for applying styles." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-Basic.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Using Stylesheets vs. Local Formatting</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/Co-Fl/Local-Formatting/Local-Formatting-Summary2.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Apply Local Formatting</h2>
+        <ol>
+            <li>From the Content Explorer, open <span class="Emphasis">Music.htm</span>. We decide the paragraph text looks too small, and we want to make it bigger in all topics. Let’s start changing it.</li>
+            <li>Select (left-click) the <span class="Emphasis">p</span> structure bar so that the entire paragraph is highlighted.</li>
+            <li>
+                <p>From the <span class="Emphasis">Home</span> ribbon, click the <span class="Emphasis">Font Size</span> drop-down, and choose <span class="Emphasis">14pt</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Inline1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open <span class="Emphasis">South-by-Southwest.htm</span>.</li>
+            <li>Select the two paragraphs. (You can click and drag to select the text. Or you can press and hold <span class="Emphasis">SHIFT</span>, and then click the <span class="Emphasis">p</span> structure bars to select the text.)</li>
+            <li>From the <span class="Emphasis">Home</span> ribbon, click the <span class="Emphasis">Font Size</span> drop-down, and choose <span class="Emphasis">14pt</span>.</li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Remove Local Formatting</h2>
+        <p>Since we added local formatting to a couple files in our project, let's remove that formatting  before using a stylesheet.<MadCap:conditionalText MadCap:conditions="General.Online-Only">  See <MadCap:xref href="../../../Local-Formatting/Removing-Inline-Formatting.htm">Removing Local Formatting</MadCap:xref>.</MadCap:conditionalText></p>
+        <ol>
+            <li>Open <span class="Emphasis">Music.htm</span>.</li>
+            <li>Press <span class="Emphasis">CTRL+A</span> to select all of the topic's content.</li>
+            <li>From the <span class="Emphasis">Home</span> ribbon, <span class="Emphasis">Font</span> section, click <img class="ReduceButtonSize" src="../../../../Resources/Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Remove-Inline-Formatting-btn.png" />. </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Open <span class="Emphasis">South-by-Southwest.htm</span>. Repeat the above steps to remove the local formatting. </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Removing local formatting is important because of style precedence. <MadCap:snippetText src="../../../../Resources/Snippets/Flare/Styles/Primary-Local-Stylesheets-Precedence-Summary.flsnp" /> In general, the closer something is to the source, the higher its precedence will be. For example, local formatting is close, whereas a factory stylesheet installed with Flare is farther away.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../Styles/General-Information/Primary-Local-Stylesheets-Precedence.htm">Primary and Local Stylesheets (and Precedence)</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+            </li>
+        </ol>
+        <h2>How to Use a Stylesheet for Applying Styles</h2>
+        <p>Changing the style by local formatting was quick for the first two topics. But this could get time-consuming if we continue to change the font size for every paragraph in all the topics. Is there a more efficient way? Yes, and that way is through using a stylesheet.</p>
+        <ol>
+            <li>Open the <span class="Emphasis">Styles.css</span> file. Let’s work in the Advanced view.</li>
+            <li>
+                <p>From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">Paragraph Styles</span>, and select the <span class="Emphasis">p</span> style.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Advanced6.png" alt="" title="" />
+                </p>
+            </li>
+            <li>Expand the <span class="Emphasis">Font</span> group.</li>
+            <li>Find <span class="Emphasis">font-size</span>, and click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 16px;height: 10px;" />.</li>
+            <li>
+                <p>From the pop-up window, change the font size to <span class="Emphasis">14pt</span>, and select <span class="Emphasis">OK</span>.</p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Since there are some list items in the project, let’s change the font size on the list styles so all the text appears as the same size. From the <span class="Emphasis">Styles</span> drop-down, select <span class="Emphasis">List Styles</span>, and then select <span class="Emphasis">li</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Advanced5.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>From the local toolbar, <span class="Emphasis">Show</span> drop-down, select <span class="Emphasis">Show: Assorted Relevant Properties</span>. (Your view might already show this filter.)</li>
+            <li>Expand the <span class="Emphasis">Font</span> group, and next to <span class="Emphasis">font-size</span>, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" style="width: 16px;height: 10px;" />.</li>
+            <li>
+                <p>From the pop-up window, change the font size to <span class="Emphasis">14pt</span>, and select <span class="Emphasis">OK</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Understanding-Basics/Styles-Advanced3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Open any topic file and see the text has been styled to the larger size—all at once! Using a stylesheet will make the maintenance, and any future updates, easier to manage.</li>
+            <li>From the <span class="Emphasis">Window</span> ribbon, select <span class="Emphasis">Close All Documents</span>.</li>
+        </ol>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You are working on a project that has 100 topics. Your corporate style guide says to use a red, italic font style for text referring to an interface item. As you are writing content, it seems natural and easy to use local formatting from the Home ribbon to style the necessary text (which appears in half your topics). A few weeks after you finish the project, the corporate style guide is updated to write interface items in a bold font style. You have to go back through all your content to find the 50 topics referring to the interface, and manually make edits.</p>
+        </div>
+    </body>
+</html>

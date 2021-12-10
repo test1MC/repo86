@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Mimic/PDF-Topics/Mimic-Movie-Generation.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:keyword term="Building:output;Movies:building output;Output:building movies;Command line:building output" />Building Output Using the Command Line</h1>
+        <p>Use the following steps if you want to build a collection, standalone movie, or target from your operating system's command line. Using this method, you do not have to open Mimic at all. </p>
+        <p>Depending on the command(s) used, you can build a movie or collection and accomplish any of the following.</p>
+        <ul>
+            <li>Build output using the default output format specified in Mimic.</li>
+            <li>Build output based on a target in your movie or collection.</li>
+            <li>Build output using a particular output format, overriding the default format specified in Mimic.</li>
+        </ul>
+        <p>
+            <MadCap:snippettext src="../../Resources/Snippets/Shared/Li-Mi/Output/Best-Way-Command-Line-Batch.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Use the Command Line to Build a Collection, Movie or Target</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Compile-First-Steps.flsnp" />
+        <ol>
+            <li value="3" class="PageBreakBefore">
+                <p>Type one of the following commands and press <span class="Emphasis">ENTER</span> on your keyboard (entering the path/name of your collection, movie, target, output format, or variable file in place of the section in angle brackets).</p>
+                <div class="tip" MadCap:conditions="General.Online-Only">
+                    <p class="Tip-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #bed420;&quot; class=&quot;mcFormatColor&quot;&gt;Tip &lt;/span&gt;&lt;/b&gt;">Some operating systems allow you to drag a folder or file from the Windows location to the Command Prompt window. This will add the path of the folder or file within quotation marks for you.</p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If there are spaces anywhere in the path/name of your collection, movie, output format, or variable file, you need to use quotation marks around it. </p>
+                </div>
+                <p class="Subheading">To Build a Collection or Movie Using the Default Output Format</p>
+                <p>Here is the command:</p>
+                <p><span class="TypedEntry">console.mimiccompiler.exe -file [collection or movie]</span>
+                </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>If you have a Mimic collection called "My Big Collection" that you have stored in your Documents\My Mimic Movies folder, you would type this:</p>
+                    <p><span class="TypedEntry">console.mimiccompiler.exe -file "c:\documents and settings\myname\documents\my mimic movies\my big collection\my big collection.miprj"</span>
+                    </p>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>If you have a Mimic movie called "My Little Movie" that you have stored in your Documents\My Mimic Movies folder, you would type this:</p>
+                    <p><span class="TypedEntry">console.mimiccompiler.exe -file "c:\documents and settings\myname\documents\my mimic movies\my little movie.mimovf\my little movie.mimov"</span>
+                    </p>
+                </div>
+                <p class="Subheading">To Build a Collection or Movie Using a Particular Target</p>
+                <p>Here is the command:</p>
+                <p><span class="TypedEntry">console.mimiccompiler.exe -file [collection or movie] -target [target name]</span>
+                </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>Let's say you have a Mimic collection called "My Big Collection" that you have stored in your Documents\My Mimic Movies folder. If that collection contains a target called "Demo," you would type this:</p>
+                    <p><span class="TypedEntry">console.mimiccompiler.exe -file "c:\documents and settings\myname\documents\my mimic movies\my big collection\my big collection.miprj" -target Demo</span>
+                    </p>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>Let's say you have a Mimic movie called "My Little Movie" that you have stored in your Documents\My Mimic Movies folder. If that movie contains a target called "Practice Movie," you would type this:</p>
+                    <p><span class="TypedEntry">console.mimiccompiler.exe -file "c:\documents and settings\myname\documents\my mimic movies\my little movie.mimovf\my little movie.mimov" - target "Practice Movie"</span>
+                    </p>
+                </div>
+                <p class="Subheading">To Build a Collection or Movie Using a Particular Output Format, Overriding the Default Format</p>
+                <p>Here are the possible commands:</p>
+                <p><span class="TypedEntry">console.mimiccompiler.exe -file [collection or movie] -output-type html5</span>
+                </p>
+                <p><span class="TypedEntry">console.mimiccompiler.exe -file [collection or movie] -output-type pdf</span>
+                </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>Let's say you have a Mimic collection called "My Big Collection" that you have stored in your Documents\My Mimic Movies folder. If the default output format for the collection is the PDF format, but you want to build output for the HTML5 format instead, you would type this:</p>
+                    <p><span class="TypedEntry">console.mimiccompiler.exe -file "c:\documents and settings\myname\documents\my mimic movies\my big collection\my big collection.mcmvf" -output-type html5</span>
+                    </p>
+                </div>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+                    <p>Let's say you have a Mimic movie called "My Little Movie" that you have stored in your Documents\My Mimic Movies folder. If the default output format for the movie is HTML5 but you want to build output for PDF instead, you would type this:</p>
+                    <p><span class="TypedEntry">console.mimiccompiler.exe -file "c:\documents and settings\myname\documents\my mimic movies\my little movie.mimovf\my little movie.mimov" -output-type pdf</span>
+                    </p>
+                </div>
+                <p class="Subheading">Now What?</p>
+                <p>If you are using the command prompt window for any of the commands just described, the output generates immediately, and the files are copied to the Output subfolder for the collection or movie. </p>
+                <p>If you are creating a batch file in Notepad, it might look something like this:</p>
+                <p>
+                    <img src="../../Resources/Images/Mimic/Output/Batch-File.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>Batch Files and Task Scheduler</h2>
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Scheduled-Task.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Li-Mi/Output/Command-Line-Scheduled-Task-Steps.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Mi/Output/Warning-Build-Errors-AV-Scan.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">By default, if you use the command line feature to generate movie output, the movie is compiled the first time you run the command. If you do not make any changes to the movie and attempt to run the command again, the movie is not generated. However, you can force the movie to be recompiled in situations such as this. To do this, you can add the following flag at the end of your command:</p>
+            <p>-recompile</p>
+        </div>
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">After you build your final output, you can then move on to the final step, <MadCap:xref href="Distributing-Output.htm">Distributing Output</MadCap:xref>.</p>
+    </body>
+</html>

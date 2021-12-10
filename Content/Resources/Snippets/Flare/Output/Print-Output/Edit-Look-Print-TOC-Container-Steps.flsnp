@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Some of the necessary style properties can also be changed in the Simplified view in the Stylesheet Editor.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+            </li>
+            <li>On the left side of the editor, scroll down and select the <span class="Emphasis">MadCap|tocProxy</span> style or a class that you have created under it (e.g., MadCap|tocProxy.myclass). </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Co-Fl/Styles/Locate-Select-Property1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                <p>For example, if you want to change the width of the entire TOC, you would first expand the <span class="Emphasis">Box</span> property group. Then to the right of the <span class="Emphasis">width</span> property, you would click <img src="../../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" class="ReduceButtonSize" />  and set the value in the popup.</p>
+                <MadCap:snippetBlock src="../../Styles/Note-More-Info-Components-Props-Stylesheet-Editor.flsnp" MadCap:conditions="General.Online-Only" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

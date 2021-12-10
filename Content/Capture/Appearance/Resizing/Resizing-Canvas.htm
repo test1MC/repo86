@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="s;W;C;n;es;Y;.tiff.;F;F1;F4;P;Z;Tollfree;MadCap1;F11;F3;F7;NewWord;MadCap's;MyProfile;taskbar;filename1;filename2;filename3;1filename;2filename;3filename;Highcolor;Truecolor;truecolor" style="mc-master-page: url('../../../Resources/TemplatePages/Capture/PDF-Topics/Capture-Editing-Images.flmsp');">
+    <head><title></title>
+        <style>/**/</style>
+        <meta name="description" content="Resizing the canvas in MadCap Capture. The canvas is the area behind an image, where the image rests. How to adjust the canvas size." />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="Images:resizing;Resizing:images;Resizing:canvas;Canvas:resizing" />Resizing the Canvas</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Capture/Appearance/Resize-Canvas-Summary.flsnp" />
+        <p>If the image is resized for the output (e.g., on the Format tab), the canvas size is adjusted automatically.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Example</h2>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>Let's say you have captured an image like this:</p>
+            <p>
+                <img src="../../../Resources/Images/Capture/Appearance/Resize-Canvas1.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Capture-Guides.Capture-Editing-Images-Guide" />
+            <p>Currently, the size of the image is 260 x 260 pixels. If you double-click the image, you can use the <span class="Emphasis">Appearance</span> tab to change the canvas size.</p>
+            <p>
+                <img src="../../../Resources/Images/Capture/Appearance/Resize-Canvas2.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Capture-Guides.Capture-Editing-Images-Guide" />
+            <p>As a result, here is how the image now looks:</p>
+            <p>
+                <img src="../../../Resources/Images/Capture/Appearance/Resize-Canvas3.png" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Capture-Guides.Capture-Editing-Images-Guide" />
+            <p>Now let's say that you use the <span class="Emphasis">Format</span> tab to resize the image to 150 x 150 pixels. As a result, here is how the image looks in the output. Notice that the canvas was reduced in size along with the actual image.</p>
+            <p>
+                <img src="../../../Resources/Images/Capture/Appearance/Resize-Canvas4.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+        <h2>How to Resize the Canvas Manually</h2>
+        <ol>
+            <li>Capture or open an image, or open a new blank image.</li>
+            <li>
+                <p>Click and drag the white handles around the canvas edges to resize the canvas.</p>
+                <ul>
+                    <li> If you drag the handles so the canvas is larger than the image, you will see a transparent background around the image.</li>
+                    <li> If you drag the handles so the canvas is smaller than the original image, you can effectively crop the edges of the image (see <MadCap:xref href="../../Cropping/Cropping-Images.htm">Cropping Images</MadCap:xref>).</li>
+                    <li>
+                        <p>If you place an image object or object (such as a callout or shape) outside of the canvas's current boundaries, a dotted line appears to indicate the true edge of the canvas. See <MadCap:xref href="#how">How to Auto-Adjust the Canvas Size to Include Objects </MadCap:xref></p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Set the Canvas Size for an Individual Image</h2>
+        <ol>
+            <li>Capture or open an image.</li>
+            <li>Double-click the image (not the shape).</li>
+            <li>In the File Properties dialog, select the <span class="Emphasis">Appearance</span> tab.</li>
+            <li>In the <span class="Emphasis">Canvas Size</span> section, enter numbers in the <span class="Emphasis">Width</span> and <span class="Emphasis">Height</span> fields to set the size of the canvas (in pixels).</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to Set the Canvas Size for a Profile</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Capture/Profiles/Open-Profile-Step.flsnp" /> <MadCap:snippetText src="../../../Resources/Snippets/Capture/General/See-Online-Help-Creating-Images-Guide.flsnp" MadCap:conditions="Capture-Guides.Capture-Editing-Images-Guide" /></li>
+            <li>In the Profiles Editor, select the <span class="Emphasis">Appearance</span> tab.</li>
+            <li>In the <span class="Emphasis">Canvas Size</span> section, enter numbers in the <span class="Emphasis">Width</span> and <span class="Emphasis">Height</span> fields to set the size of the canvas (in pixels).</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2><a name="how"></a>How to Auto-Adjust the Canvas Size to Include Objects</h2>
+        <ol>
+            <li>Capture or open an image.</li>
+            <li>Double-click the image (not the shape).</li>
+            <li>In the File Properties dialog, select the <span class="Emphasis">Appearance</span> tab.</li>
+            <li>In the <span class="Emphasis">Canvas Size</span> section, select <span class="Emphasis">Canvas Auto-Adjust to Include Objects</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> If you disable Auto-Adjust and add an object outside of the true canvas, it appears in the Capture workspace.</p>
+        </div>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;"> If you are using a drawing tool and Auto-Adjust is enabled, you will not be able to draw outside of the true canvas. The cursor changes to a no symbol to indicate areas outside of the true canvas boundaries where drawing tools are disabled.</p>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Capture/Appearance/Examples-Resizing.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/Ca-Mi/General/Whats-Next-After-Edit.flsnp" MadCap:conditions="General.Online-Only" />
+    </body>
+</html>

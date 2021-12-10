@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">In FrameMaker, you must create two distinct paragraph tags to handle automatic list numbering—one tag to apply to the first step in the list and another tag to apply to the remaining steps.</p>
+            <p>
+                <img src="../../../../Images/Flare/Importing/FrameMaker/FM-Numbered-Lists-Paragraph-Tags.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Transition-from-FM-Guide,Flare-Guides.Flare-Autonumbers-Guide" />
+            <p>Because Flare uses standard HTML code (where an ordered list starts with the &lt;ol&gt; tag and each list item starts with the &lt;li&gt; tag), there is no need to create distinct paragraph styles to handle list numbering. You simply apply the desired numbered list format using the quick list drop-down menu shown below. <MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only">See <MadCap:xref href="../../../../../Flare/Lists/Lists.htm">About Lists</MadCap:xref>. </MadCap:conditionalText></p>
+            <p>
+                <img src="../../../../Images/Flare/Importing/FrameMaker/Quick-List-Drop-Down-Menu.png" class="MaxWidth100Percent" />
+            </p>
+            <p>Once the list numbering is set, you don't need worry about it again. The example below shows you a simple numbered list in the Flare XML&#160;Editor:</p>
+            <p>
+                <img src="../../../../Images/Flare/Importing/FrameMaker/Numbered-Lists-XML-Editor.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Transition-from-FM-Guide,Flare-Guides.Flare-Autonumbers-Guide" />
+            <p>The Flare Text Editor lets you see how ordered lists and list items are formatted in HTML:</p>
+            <p>
+                <img src="../../../../Images/Flare/Importing/FrameMaker/Numbered-Lists-Text-Editor.png" class="MaxWidth100Percent" />
+            </p>
+        </div>
+    </body>
+</html>

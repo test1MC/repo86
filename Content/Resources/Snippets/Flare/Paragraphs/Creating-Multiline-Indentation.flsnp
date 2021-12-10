@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/PDF.flsnp" />
+        <p>
+            <MadCap:snippetText src="../Output/Print-Output/Multiline-Indents.flsnp" />
+            <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Proxies/Indexes/Editing-Look-Print-Index1.htm" target="" title="" alt="">Determining the Look of Your Print Index</MadCap:xref>, <MadCap:xref href="../../../../Flare/Proxies/TOCs/Editing-Look-Print-TOC1.htm" target="" title="" alt="">Using Styles to Determine the Look of a Print TOC</MadCap:xref>, and <MadCap:xref href="../../../../Flare/Proxies/Mini-TOCs/Editing-Look-MiniTOC1.htm">Using Styles to Determine the Look of a Mini-TOC</MadCap:xref>.</MadCap:conditionalText>
+        </p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>How to Use a Style to Create Multiline Indentation</h2>
+        <ol>
+            <MadCap:snippetBlock src="../Styles/Edit-Style1.flsnp" />
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-All-Styles1.flsnp" />
+            </li>
+            <li>
+                <p>Select the appropriate style. For example, you might select any of the following.</p>
+                <ul type="1">
+                    <li><span class="SetOffFirstLevel">p.Index</span> These styles (from p.Index1 through p.Index9) control the different levels of index entries in print-based output.</li>
+                    <li><span class="SetOffFirstLevel">p.TOC</span> These styles (from p.TOC1 through p.TOC9) control the different levels of TOC entries in print-based output.</li>
+                    <li><span class="SetOffFirstLevel">p.MiniTOC</span> These styles (from p.MiniTOC1 through p.MiniTOC9) control the different levels of mini-TOC entries in print-based output.</li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>If you are using the group view, expand the <span class="Emphasis">Unclassified</span> group. </li>
+            <li>To the right of <span class="Emphasis">mc-multiline-indent</span>, click <img src="../../../Images/Shared/Co-Fl/Interface/Buttons/Browse-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+            <li>Use the lower-left area of the popup to enter a number. </li>
+            <li>Use the lower-right area to select a unit of measurement. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Styles/UOM.htm">Units of Measurement</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The following images show how the mc-multiline-indent style property works alongside the margin-left property in a print index and TOC.</p>
+            <p>
+                <img src="../../../Images/Flare/Paragraphs/MC-Multiline-Indent-Index.png" class="MaxWidth70Percent" />
+            </p>
+            <p>
+                <img src="../../../Images/Flare/Paragraphs/MC-Multiline-Indent-TOC.png" class="MaxWidth70Percent" />
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div>
+            <div class="warning">
+                <p class="Warning-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #ff6b31;&quot; class=&quot;mcFormatColor&quot;&gt;Warning &lt;/span&gt;&lt;/b&gt;">It is recommended that you be careful with which compiler warnings you choose to ignore. Only ignore warnings that you are certain you do not need to receive.</p>
+            </div>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can only ignore warnings; you cannot ignore errors, which prevent output from being generated.</p>
+            </div>
+            <div class="note">
+                <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you open a target that contains old accessibility warning settings from previous versions of <MadCap:variable name="Other.Product" />, that target file will become "dirty" (i.e., an asterisk is shown next to the file name in the Target Editor) and you will see a message indicating that <MadCap:variable name="Other.Product" /> is updating the file to use the new report warning system. You can then simply save the target file with the new settings. This does not affect your target in any other way.</p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Here is an example of a search with Importance turned on.</p>
+            <p>
+                <img src="../../../Images/Flare/Search/Search-Importance-On.png" alt="" title="" class="MaxWidth70Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Targets-Guide" />
+            <p>Here is an example of a search in the same content with Importance turned off.</p>
+            <p>
+                <img src="../../../Images/Flare/Search/Search-Importance-Off.png" alt="" title="" class="MaxWidth100Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Search-Guide,Flare-Guides.Flare-Targets-Guide" />
+            <p>Notice how the search results are different. This is because in the first example, with Importance turned on, the search engine considers the number of links to that topic when ranking the search results. In the second example, the results are ranked only using the location of the search term in the topic (e.g., in a heading, in an index keyword, in the body text). </p>
+            <p>If you want your users to be able to find a topic that you refer to—and link to—often in your content, you should turn on the Importance setting so the topic appears higher in the search rankings.</p>
+        </div>
+    </body>
+</html>

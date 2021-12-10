@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/HTML-Help.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Skins-Guide" />
+        <p>
+            <MadCap:snippetText src="Include-Bookmarks-Index-Entries-Summary.flsnp" />
+        </p>
+        <p>However, by pointing to the individual index markers, the index may not display the way you want if the index term points to multiple topics and you also have created a binary index <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Skins-Guide">(see <MadCap:xref href="../../../../Flare/Skins/Other-Activities/HTML-Help/Creating-Binary-Index1.htm">Creating a Binary Index</MadCap:xref>)</MadCap:conditionalText>. In other words, index entries pointing to multiple topics will display the index terms repeated instead of the topic title. A workaround is to deselect the binary index option in the Skin Editor. However, keep in mind that a binary index is required if you want to merge CHM files.</p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Include Bookmarks in Index Entries</h2>
+        <ol>
+            <li>Open a Standard skin.</li>
+            <li>Select the <span class="Emphasis">HTML Help Setup</span> tab.</li>
+            <li>Click the <span class="Emphasis">Index Options</span> button.</li>
+            <li>In the HTML Help Index Options dialog, select <span class="Emphasis">Include bookmarks with index entries</span>. </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2 MadCap:conditions="General.Online-Only">What's Next?</h2>
+        <p MadCap:conditions="General.Online-Only">Make sure that you associate the skin with the target. See <MadCap:xref href="../../../../Flare/Skins/Process/Associating-Skins-Targets1.htm" target="" title="" alt="">Associating Skins with Targets</MadCap:xref>.</p>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>Assuming you are already using a primary stylesheet for all topics<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Styles/Main-Activities/Associating-Primary-Stylesheets-All-Files.htm">Associating Primary Stylesheets With All Files</MadCap:xref>)</MadCap:conditionalText>, make sure the option to <span class="Emphasis">Allow local stylesheets</span> is selected.</li>
+            <li>Create a new stylesheet to be used for the topic where you want to hide the search bar.</li>
+            <li>
+                <p>Open the new stylesheet in the <MadCap:xref href="../../../../Flare/Interface/Editors/Internal-Text-Editor.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Internal Text Editor</MadCap:xref> (i.e., in the Content Explorer, right-click it and select <span class="Emphasis">Open with &gt; Internal Text Editor</span>). Then, copy and paste the following into it.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">.nav-search
+{
+	display: none;
+}</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Associate the topic with the new stylesheet. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Styles/Main-Activities/Associating-Stylesheets-Specific-Files1.htm">Associating Stylesheets Locally With Specific Files</MadCap:xref>.</MadCap:conditionalText></li>
+        </ol>
+    </body>
+</html>

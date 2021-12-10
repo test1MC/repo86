@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div>
+            <table style="width: 100%; margin-left: 0; margin-right: auto; mc-table-style: url('../../../../TableStyles/Shared/Fancy.css'); mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+                <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+                <tbody>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">[a-z]</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Matches any lowercase letter</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">[A-Z]</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Matches any uppercase letter</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">\d</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Matches any decimal digit</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">\D</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Matches any non-digit</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">\s</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Matches any white-space character</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">{…}</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Explicit quantifier</p>
+                            <p class="TableText">For example,<span class="Emphasis"> a{3}</span> finds "<span class="YellowBackground">aaa</span>"</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">|</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Alternation</p>
+                            <p class="TableText">For example, <span class="Emphasis">gray|grey</span> finds "<span class="YellowBackground">gray</span>" or "<span class="YellowBackground">grey</span>"</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                            <p class="TableTextEmphasis">(…)</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                            <p class="TableText">Logical grouping</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Fancy-Body-LightRows">
+                        <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                            <p class="TableTextEmphasis">?</p>
+                        </td>
+                        <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                            <p class="TableText">0 or 1 of previous expression; forces minimal matching when expression might match several strings within a search string</p>
+                            <p class="TableText">For example, <span class="Emphasis">reg(ular expressions?|ex(p|es?)</span> finds "<span class="YellowBackground">regular expression</span>," "<span class="YellowBackground">regular expressions</span>," <span class="YellowBackground">regex</span>, <span class="YellowBackground">regexp</span>, or "<span class="YellowBackground">regexes</span>"</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>For more examples and information about regular expressions, see the following:</p>
+        </div>
+        <p><a href="http://www.regular-expressions.info/" target="_blank">http://www.regular-expressions.info/</a>
+        </p>
+        <p><a href="http://regexlib.com/CheatSheet.aspx" target="_blank">http://regexlib.com/CheatSheet.aspx</a>
+        </p>
+    </body>
+</html>

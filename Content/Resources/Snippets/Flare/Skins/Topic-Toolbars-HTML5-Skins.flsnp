@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/HTML5.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>In Topic Toolbar skin components, you can use skin styles to control the look of a toolbar you add via a proxy.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Flare/Nav-Links/Toolbars/Topic-Toolbars/Process/Inserting-Editing-Topic-Toolbar.htm">Inserting and Editing a Topic Toolbar Proxy</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <img src="../../../Images/Flare/Skins/Skin-Styles-Topic-Toolbar.png" alt="" title="" class="MaxWidth60Percent" />
+        </p>
+        <MadCap:snippetBlock src="More-Info-Toolbars.flsnp" />
+        <h2>How to Edit an HTML5 Topic Toolbar Skin Component</h2>
+        <ol>
+            <li>Open an <MadCap:variable name="Outputs.HTML5" /> Topic Toolbar skin component.</li>
+            <li>Select the <span class="Emphasis">Setup</span> tab, and choose the buttons you want to include in the toolbar, moving them to the right side of the tab. You can also add custom buttons<MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Navigation-Links-Guide"> (see <MadCap:xref href="../../../../Flare/Nav-Links/Toolbars/Topic-Toolbars/Process/Adding-Custom-Buttons-Toolbar.htm">Adding Custom Buttons to a Toolbar</MadCap:xref>)</MadCap:conditionalText>.</li>
+            <li>Select the <span class="Emphasis">Styles</span> tab.</li>
+            <li>
+                <MadCap:snippetText src="Skin-Styles-Select-Medium1.flsnp" />&#160;<MadCap:snippetText src="Skin-Styles-More-Info-Responsive-Output.flsnp" /></li>
+            <li>
+                <p>On the left side of the editor, in the <span class="Emphasis">Toolbar</span> section, expand any of the following styles:</p>
+                <table style="width: 100%;mc-table-style: url('../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Toolbar</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This controls the look of the entire toolbar, such as its alignment and margins.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Toolbar Button</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This controls the look of individual buttons in the toolbar. If you set the properties directly under this style, they will be used for all buttons. If you want specific values for a particular button, expand the style for that button and then set the properties under it.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                                <p class="TableTextEmphasis">Toolbar Button Separator</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This controls the look of the separator between buttons.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                                <p class="TableTextEmphasis">Toolbar Button Drop-down</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">This controls the look of the toolbar button drop-down menu. You can also set properties for menu items, such as hover properties and fonts.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="Expand-Nodes-Complete-Fields.flsnp" />&#160;<MadCap:snippetText src="Nodes-Depend-Style.flsnp" /></p>
+                <p class="Subheading">Alignment</p>
+                <MadCap:snippetBlock src="Alignment-Option.flsnp" />
+                <p class="Subheading">Background</p>
+                <MadCap:snippetBlock src="Can-Change-Any-Following-Background.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Gradient </span>
+                            <MadCap:snippetText src="Gradient-Option.flsnp" />
+                        </p>
+                        <MadCap:snippetBlock src="Color-Fields-Table.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Color </span>
+                        <MadCap:snippetText src="Color-Option.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Image </span>
+                        <MadCap:snippetText src="Image-Option.flsnp" />
+                        <br />
+                    </li>
+                    <li><span class="SetOffFirstLevel">Repeat </span>
+                        <MadCap:snippetText src="Repeat-Option.flsnp" />
+                    </li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:snippetText src="Background-Precedence.flsnp" />
+                        <br />
+                    </p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide,Flare-Guides.Flare-Skins-Guide" />
+                <p class="Subheading">Border</p>
+                <MadCap:snippetBlock src="Border-Fields.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">Box Shadow</p>
+                <MadCap:snippetBlock src="Box-Shadow-Fields.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">Event</p>
+                <p>You can enter a special JavaScript command that is triggered when an end user clicks a button. For example, the following command opens the <MadCap:variable name="Other.CompanyName" /> website when a user clicks the button:</p>
+                <p><span class="TypedEntry">window.open("http://www.madcapsoftware.com");</span>
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Font</p>
+                <MadCap:snippetBlock src="Font-Fields.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">General</p>
+                <MadCap:snippetBlock src="General-Fields.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Height</p>
+                <MadCap:snippetBlock src="Height-Field.flsnp" />
+                <p class="Subheading">Layout</p>
+                <MadCap:snippetBlock src="Display-Field.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Navigation-Links-Guide" />
+                <p class="Subheading">Margin</p>
+                <MadCap:snippetBlock src="Margin.flsnp" />
+                <p class="Subheading">Padding</p>
+                <MadCap:snippetBlock src="Padding.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-HTML5-Guide" />
+                <p class="Subheading">Size</p>
+                <MadCap:snippetBlock src="Size.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide" />
+                <p class="Subheading">Text Shadow</p>
+                <MadCap:snippetBlock src="Text-Shadow-Fields.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="803" MadCap:lastWidth="1537">
+    <body>
+        <p>In Doc-To-Help, targets are built to produce the final output of your project. You can generate several types of output with Doc-To-Help. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Output/Targets.htm">About Targets</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Output/Output-Types.htm">Output Types</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/About-Targets.htm">About Targets</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Output-Types-D2H.htm">Output Types</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>The Help Targets dialog is used to specify the targets that you would like to create and specify key settings for each output. You may create more than one output of a specific type (e.g., you could have two different HTML Help outputs, one for "Administrator HTML Help" and one for "Manager HTML Help"). Simply add those targets to the list and configure each as you wish. To make the content in each unique, use conditional text and variables.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Conditions/Conditions.htm">About Conditions</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Variables/Variables.htm">About Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Conditions/About-Conditions-D2H.htm">About Conditions</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Variables/About-Variables-D2H.htm">About Variables</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> See the online Help or the <span class="EmphasisItalic">Documents, Templates, and Content Guide</span>.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How To add a Target </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">In Doc-To-Help, open the <span class="Emphasis">Home</span> ribbon, and at the bottom of the <span class="Emphasis">Target</span> group click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Help Targets dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">In Word, click the <span class="Emphasis">Target Properties</span> button on the <span class="Emphasis">Target</span> ribbon. The Help Targets dialog opens.</li>
+                    <li>In the box on the left, click <span class="Emphasis">Add New Target</span>, and from the drop-down list, select the desired target type. The Add New Target dialog opens.</li>
+                    <li>Enter the new target name and choose to either use the default target properties, or copy the properties from an existing target.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> The new target is added to the list. The target can be further customized by editing the fields.</li>
+                </ol>
+                <p>After creating a target, you can build output for it. You can build output from the Doc-To-Help application or from Word. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Output/Building-Target.htm">Building Targets</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Building-Target.htm">Building Targets</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Targets-Guide" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How To delete a Target </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="Snippets.Snippet2">In Doc-To-Help, open the <span class="Emphasis">Home</span> ribbon, and at the bottom of the <span class="Emphasis">Target</span> group click <img src="../../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" />. The Help Targets dialog opens.</li>
+                    <li MadCap:conditions="Snippets.Snippet1">In Word, click the <span class="Emphasis">Target Properties</span> button on the <span class="Emphasis">Target</span> ribbon. The Help Targets dialog opens.</li>
+                    <li>In the box on the left, select the target you want to delete and click <span class="Emphasis">Remove Target</span>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

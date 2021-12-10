@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials-Videos\Flare-Responsive-Output-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Creating and applying character-level styles. The character-level element only applies to selected text and is used within a block element." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Tutorials/Responsive-Output.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Responsive Conditions</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Responsive-Design/Responsive-Content1.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Conditions/Responsive-Conditions-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Apply Responsive Conditions to Content</h2>
+        <p>Let's create content in a topic as an appropriate sample of responsive content.</p>
+        <ol>
+            <li>
+                <p>From the Content Explorer, double-click <span class="Emphasis">South-by-Southwest.htm</span>.</p>
+            </li>
+            <li>
+                <p>At the end of the existing content, create an empty paragraph.</p>
+            </li>
+            <li>
+                <p>Copy and paste this example text to the line:</p>
+                <p><span class="TypedEntry">Click Tap here for more information.</span>
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Content-ClickTap.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Because you can interact with UI in several ways, it is acceptable to change your terminology. For example, using “click” makes sense for larger screens, and using “tap” makes sense for tablets or mobile screens.</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the Project Organizer, expand the <span class="Emphasis">Conditional Text</span> folder, and then double-click <span class="Emphasis">Default</span>. The project’s default conditions open in the Condition Tag Set Editor. You can see that condition tags already exist for the Web, Tablet, and Mobile media queries.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Conditions.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Go back to the <span class="Emphasis">South by Southwest</span> topic.</p>
+            </li>
+            <li>
+                <p>Select the word <span class="Emphasis">Click</span> plus one space beyond it, and then right-click. </p>
+            </li>
+            <li>
+                <p>From the context menu, select <span class="Emphasis">Conditions</span>.</p>
+            </li>
+            <li>
+                <p>From the Condition Tags dialog, select <span class="Emphasis">Web</span>. Then click <span class="Emphasis">OK</span>.</p>
+            </li>
+            <li>
+                <p>Do the same for the word <span class="Emphasis">Tap</span>, but instead apply both the <span class="Emphasis">Tablet</span> and <span class="Emphasis">Mobile</span> conditions to it. You should end up with the following conditions applied in the topic.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Conditions-Text.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>
+                <p>Close the Condition Tag Set Editor and the South by Southwest file.</p>
+            </li>
+        </ol>
+        <h2>How to Associate Responsive Conditions to a Target</h2>
+        <ol>
+            <li>
+                <p>Open the <span class="Emphasis">All-About-Austin-HTML5</span> target.</p>
+            </li>
+            <li>
+                <p>In the Target Editor, select the <span class="Emphasis">Conditional Text</span> tab.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Tags</span> area, select the <span class="Emphasis">Default.Mobile</span> tag.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Action</span> area, select <span class="Emphasis">Display by Media Query</span>, and then select <span class="Emphasis">Mobile</span>.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Tags</span> area, select the <span class="Emphasis">Default.Tablet</span> tag.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Action</span> area, select <span class="Emphasis">Display by Media Query</span>, and then select <span class="Emphasis">Tablet</span>.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Tags</span> area, select the <span class="Emphasis">Default.Web</span> tag.</p>
+            </li>
+            <li>
+                <p>In the <span class="Emphasis">Action</span> area, select <span class="Emphasis">Display by Media Query</span>, and then select <span class="Emphasis">Web</span>. The tags should look like this when you are done.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Target-TagSets.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">
+                        <MadCap:snippetText src="../../../Resources/Snippets/Flare/Conditions/Renaming-Conditions.flsnp" />
+                    </p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2>How to View Responsive Conditions in Output</h2>
+        <p>Responsive output works by automatically changing the display once the viewer reaches a certain width. </p>
+        <ol>
+            <li>
+                <p>Select the <span class="Emphasis">Project</span> ribbon. Then from the <span class="Emphasis">Build Primary</span> drop-down, select <span class="Emphasis">Build All-About-Austin-HTML5</span>. The Builds window pane opens at the bottom of the Flare interface, and the target begins to generate. When the build finishes successfully, the Build Progress cell turns dark green.</p>
+            </li>
+            <li>
+                <p>Select the build row, and from the <span class="Emphasis">Builds</span> local toolbar, click <span class="Emphasis">View Output</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Builds-ViewOutput.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the context menu, select <span class="Emphasis">Tablet</span> or <span class="Emphasis">Smartphone</span>. Since the device screen size is smaller, navigate to the main menu by clicking the icon in the upper-right corner. </p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Smartphone-Flyout.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>From the flyout menu, select the <span class="Emphasis">South by Southwest</span> topic.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Smartphone-Flyout2.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Notice the word “tap” appears for the smaller screen sizes.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Smartphone.png" alt="" title="" class="MaxWidth55Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Close the Smartphone (or Tablet) Preview window pane.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Smartphone-Close.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+            <li>
+                <p>From the Builds window pane, double-click the build row to open the HTML5 output, and view it in a regular browser with the window maximized. </p>
+            </li>
+            <li>
+                <p>Select <span class="Emphasis">Music</span>, and then choose <span class="Emphasis">South by Southwest</span>. Notice the word “click” appears when viewing at a larger screen size.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Tutorials/Responsive-Output/Responsive-Content-Conditions/Responsive-Browser.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

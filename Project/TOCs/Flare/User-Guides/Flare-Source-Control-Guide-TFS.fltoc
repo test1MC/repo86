@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="Products.Flare">
+  <TocEntry
+    Title="ComingSoonTitlePage"
+    Link="/Content/Print-Only-Topics/Shared/Coming-Soon-Title-Page.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    conditions="General.Future"></TocEntry>
+  <TocEntry
+    Title="Title"
+    Link="/Content/Print-Only-Topics/Shared/Title-Page-Green.htm"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    PageNumber="(multiple)"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageType="normal"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print-Only-Topics/Shared/Copyright.htm"
+    StartSection="false"
+    PageType="normal"
+    PageNumberReset="reset"
+    PageNumber="(multiple)"
+    StartPageLayout="true"
+    BreakPageLayout="/Content/Resources/PageLayouts/Copyright.flpgl"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Copyright/Copyright.flpgl"></TocEntry>
+  <TocEntry
+    Title="PrintTOC"
+    Link="/Content/Print-Only-Topics/Shared/Print-TOC.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/Shared/TOCs/TOC-Green.flpgl"
+    PageType="first"
+    PageNumberFormat="lower-roman"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"></TocEntry>
+  <TocEntry
+    Title="CH 1"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="About Microsoft Team Foundation Server"
+    Link="/Content/Print-Only-Topics/Flare/Source-Control/Microsoft-Team-Foundation-Server.htm"
+    BreakType="none"
+    PageNumber="(multiple)"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    ChapterNumberReset="continue"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="CH 2"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Flare/Source-Control/TFS/General-Information/General-Information-TFS.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Source-Control/TFS/General-Information/Common-Source-Control-Terms.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Flare/Source-Control/TFS/General-Information/Source-Control-Icons.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH3"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Flare/Source-Control/TFS/Process/Process-TFS.htm">
+    <TocEntry
+      Title="Binding a Project to Microsoft Team Foundation Server"
+      Link="/Content/Flare/Source-Control/TFS/Process/Binding-Project-Source-Control-TFS.htm" />
+    <TocEntry
+      Title="Importing a Project From Microsoft Team Foundation Server"
+      Link="/Content/Flare/Source-Control/TFS/Process/Importing-Project-Source-Control-TFS.htm" />
+    <TocEntry
+      Title="Getting the Latest Version of Source Control Files"
+      Link="/Content/Flare/Source-Control/TFS/Process/Getting-Latest-Version-Source-Control-Files-TFS.htm" />
+    <TocEntry
+      Title="Checking Out Source Control Files"
+      Link="/Content/Flare/Source-Control/TFS/Process/Checking-Out-Source-Control-Files-TFS.htm" />
+    <TocEntry
+      Title="Checking In Source Control Files"
+      Link="/Content/Flare/Source-Control/TFS/Process/Checking-In-Source-Control-Files-TFS.htm" />
+    <TocEntry
+      Title="Merging Source Control Files"
+      Link="/Content/Flare/Source-Control/TFS/Process/Merging-Source-Control-Files-TFS.htm" />
+    <TocEntry
+      Title="Adding Files to Source Control"
+      Link="/Content/Flare/Source-Control/TFS/Process/Adding-Files-Source-Control-TFS.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CH 4"
+    Link="/Content/Print-Only-Topics/Shared/Chapter-Number.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Flare/Source-Control/TFS/Other-Activities/Other-TFS-Activities.htm">
+    <TocEntry
+      Title="Binding a Project to Microsoft Visual Studio Team Services"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Binding-Microsoft-Visual-Studio-Online-TFS.htm" />
+    <TocEntry
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Deleting-Source-Control-Files-TFS.htm"
+      Title="Deleting Source Control Files" />
+    <TocEntry
+      Title="Disabling the Get Latest Prompt for Source Control"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Disabling-Get-Latest-Prompt-tfs.htm" />
+    <TocEntry
+      Title="Disconnecting From Source Control"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Disconnecting-Source-Control-TFS.htm" />
+    <TocEntry
+      Title="Enabling Source Control Status Checks"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Enabling-Source-Control-Status-Checks-TFS.htm" />
+    <TocEntry
+      Title="Importing a Project From Microsoft Visual Studio Team Services"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Importing-Project-Microsoft-Visual-Studio-Online.htm" />
+    <TocEntry
+      Title="Publishing to Source Control"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Publishing-Source-Control-TFS.htm" />
+    <TocEntry
+      Title="Rolling Back to an Earlier Version of a File"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Rolling-Back-Earlier-Version-File-TFS.htm" />
+    <TocEntry
+      Title="Setting Color Options for Project File Differences"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Setting-Color-Options-Project-File-Differences-TFS.htm" />
+    <TocEntry
+      Title="Unbinding a Project From Source Control"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Unbinding-Project-Source-Control-TFS.htm" />
+    <TocEntry
+      Title="Undeleting Source Control Files"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Undeleting-Source-Control-Files-TFS.htm" />
+    <TocEntry
+      Title="Undoing a Checkout of Source Control Files"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Undoing-Check-Out-Source-Control-Files-TFS.htm" />
+    <TocEntry
+      Title="Viewing Differences in Source Control Files"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Viewing-Differences-Source-Control-Files-TFS.htm"
+      MarkAsNew="false" />
+    <TocEntry
+      Title="Viewing Files That are Checked Out"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Viewing-Files-Checked-Out-TFS.htm"
+      MarkAsNew="false" />
+    <TocEntry
+      Title="Viewing the History of Source Control Files"
+      Link="/Content/Flare/Source-Control/TFS/Other-Activities/Viewing-History-Source-Control-Files-TFS.htm"
+      MarkAsNew="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/Print-Only-Topics/Shared/Appendix.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="PDF Library"
+    Link="/Content/Flare/PDF-Guides/PDF-Guides-Flare.htm"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Chapters/Chapters-Green.flpgl"
+    StartPageLayout="false"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartSection="false"
+    AutoEndOnLeftPage="disabled"
+    ComputeToc="false"
+    PageType="first"
+    BreakType="none"></TocEntry>
+</CatapultToc>

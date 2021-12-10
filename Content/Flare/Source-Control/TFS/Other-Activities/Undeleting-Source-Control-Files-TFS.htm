@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../../Resources/TemplatePages/Shared/Fl-Li/Source-Control-TFS.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Steps for undeleting TFS source control files." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Source control:undeleting files" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />Undeleting Source Control Files<MadCap:conditionalText MadCap:conditions="General.Online-Only">—Team Foundation Server</MadCap:conditionalText></h1>
+        <p>If you have a file marked as "Deleted" but then want to add it to source control, you can undelete the file, which then lets you do this. You might encounter this situation if you rename a file and then create a new file with that name, or if you rename a file to the name of a previously deleted file.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can only undelete files from <MadCap:keyword term="Microsoft Team Foundation Server" />Microsoft Team Foundation Server and <MadCap:keyword term="Perforce Helix Core" />Perforce Helix Core. When you delete files from other source control providers, they are removed from the source control repository.</p>
+        </div>
+        <h2>How to Undelete a Source Control File</h2>
+        <ol>
+            <li>In one of the window panes (e.g., Content Explorer, Project Organizer, Pending Changes window pane), select the relevant file(s).</li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Source Control &gt; Undelete</b>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>If you have the Content Explorer, Project Organizer, or Pending Changes window pane open, right-click the file you want to undelete and select <span class="Emphasis">Source Control &gt; Undelete</span>.</li>
+                </ul>
+            </li>
+            <li>The Undelete dialog opens. Select the files you want to undelete.</li>
+            <li>Click <span class="Emphasis">OK</span>.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Source-Control-Guide-TFS" />
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You open the Content Explorer and delete one of the topics. Then you create a topic with the same name in the same folder. That new topic has a "Deleted" status and must be undeleted before it is added to source control.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Undelete-TFS1.png" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Undelete-TFS2.png" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Undelete-TFS3.png" class="MaxWidth90Percent" />
+            </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Source-Control/Undelete-TFS4.png" class="MaxWidth90Percent" />
+            </p>
+            <p>In order to add the new file to source control, you need to remove the "Deleted" status. Therefore, you right-click on the file, select <span class="Emphasis">Source Control</span>, and choose <span class="Emphasis">Undelete</span>.</p>
+        </div>
+    </body>
+</html>

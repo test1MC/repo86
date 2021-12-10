@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;caption-side: top;width: 100%;" cellspacing="0" class="TableStyle-Fancy">
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 10%;" />
+            <col class="TableStyle-Fancy-Column-Regular" style="width: 90%;" />
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Analysis-Project-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Scans your project so that the latest current issues are displayed in the Summary window pane and the most recent information is shown in other window panes in the application.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Advanced-Scan-Options-btn.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Opens the advanced scan options dialog, which lets you enable or disable the collection of different types of information when your project is scanned for possible issues and problems. Also, by disabling scans, you may find that your system performance is improved somewhat. See <MadCap:xref href="../../../../../Flare/Analysis/Enabling-Analysis-Scans.htm">Enabling Analysis Scans</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Export-Data-CSV-Text-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Exports all the data in the window pane to a CSV file.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableText">
+                            <img src="../../../../Images/Flare/Interface/Buttons/Export-Selected-Data-CSV-btn.png" alt="" title="" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Exports selected data in the window pane to a CSV file.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Project</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the name and path of the project that you are scanning.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Last Scan Date</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the most recent date and time that  your project was scanned.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasis">Status</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                        <p class="TableText">Displays the status of a scan on your project (e.g., "Scanning," "Up-To-Date").</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasis">Summary</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableText">This section displays any current issues that the project analysis module has found after scanning your project. From the Summary window pane, you can double-click any of the issue rows. Doing this opens the appropriate window pane in the interface so that you can see more information about the reported issues and take action (e.g., fix broken links).</p>
+                        <ul>
+                            <li><span class="SetOffFirstLevel">Category</span> Displays the group into which the issue fits. For example, if there is a broken link, the category is "Link." If the analysis is suggesting that you create a snippet from specific content, the category is "Suggestion."</li>
+                            <li><span class="SetOffFirstLevel">Issue</span> Displays the exact kind of issue found.</li>
+                            <li><span class="SetOffFirstLevel">Count</span> Displays the number of places where the issue is found.</li>
+                            <li><span class="SetOffFirstLevel">Status</span> Displays the status of the issue. In other words, a cell may display "Loading…" if the analysis tool is still scanning for the issue. </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

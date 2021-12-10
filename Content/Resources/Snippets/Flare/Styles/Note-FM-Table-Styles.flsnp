@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are importing Adobe FrameMaker documents and have tables that you have formatted in a certain way, you can create matching table styles as a result of the import. This can be specified on the Options page of the Import FrameMaker Wizard. In the <MadCap:variable name="Other.Product" /> project, the new table styles will be named after the format named applied to the table in FrameMaker (e.g., "Format_A.css," "Format_B.css," and so on). You can rename these table stylesheets in <MadCap:variable name="Other.Product" /> after the import. Even if you do not use this mapping feature, the table formatting still comes across when you import the files. The only difference is that table stylesheets make it easier to maintain the formatting of your tables within <MadCap:variable name="Other.Product" />. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Importing/Other-Applications-Files/FrameMaker/Importing-FM-Files.htm">Importing FrameMaker Files</MadCap:xref>.</MadCap:conditionalText></p>
+        </div>
+    </body>
+</html>

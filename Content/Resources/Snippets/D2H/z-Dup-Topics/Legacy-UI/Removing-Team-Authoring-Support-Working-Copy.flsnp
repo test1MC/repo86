@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="708" MadCap:lastWidth="1537">
+    <body>
+        <p>You can remove team-authoring support from a local, working copy of a project. </p>
+        <p>Removing team authoring support is different from disabling team authoring support (usually done when building a target) or working offline<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> (see <MadCap:xref href="../../../../../D2H/Team-Authoring/Working-Offline.htm">Working Offline</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> (see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Working-Offline.htm">Working Offline</MadCap:xref>)</MadCap:conditionalText>. If you want to detach your working copy of the project from the repository and remove all team authoring functions (including the Team Authoring tab and Team Authoring window) use C1D2HTeamAdmin.exe<MadCap:conditionalText MadCap:conditions="Snippets.Snippet1"> (see <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2"> (see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>)</MadCap:conditionalText>. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Remove Team Authoring Support from a Working Copy</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Double-click <span class="Emphasis">C1D2HTeamAdmin.exe</span>. </li>
+                    <li>Select <span class="Emphasis">Tools &gt; Detach local project from repository (remove team authoring support)</span>.</li>
+                    <li>Locate and select the local project you want to detach from the repository. </li>
+                    <li>Click <span class="Emphasis">Open</span>. A dialog opens, confirming team authoring support has been removed from your project.</li>
+                    <li>
+                        <MadCap:snippetText src="../../../Shared/All/General/Click-OK.flsnp" /> Your local project becomes a regular, single-author project without team authoring support. This action only changes your local project; it does not change the repository team project or other authors' projects.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Note</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="note" MadCap:conditions="Snippets.Snippet1">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</p>
+                </div>
+                <div class="note" MadCap:conditions="Snippets.Snippet2">
+                    <p class="Note-Text">For other tasks, see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Team-Authoring/Team-Authoring-Administrative-Functions.htm">Team Authoring Administrative Functions</MadCap:xref>.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

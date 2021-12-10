@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Online-PDF-EPUB.flsnp" />
+        <p>For  most output formats, you can use CSS3 border-radius  style properties to create rounded borders on block elements, such as paragraphs and blockquotes.  You can also use set rounded borders on tables.</p>
+        <p>
+            <img src="../../../Images/Shared/Co-Fl/Paragraphs/Tip-Rounded-Corners.png" class="MaxWidth75Percent" />
+        </p>
+        <p>
+            <img src="../../../Images/Flare/Paragraphs/Rounded-Borders3.png" alt="" title="" class="MaxWidth75Percent" />
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Rounded Borders and Block Elements</h2>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Paragraphs/Rounded-Borders-Block-Elements.flsnp" />
+        <h2>Rounded Borders and Tables</h2>
+        <MadCap:snippetBlock src="Borders/Rounded-Borders-Tables1.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+        <div class="IndentMedium">
+            <h3>Regular Stylesheet</h3>
+            <MadCap:snippetBlock src="Borders/Rounded-Borders-Tables2.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+            <h3>Table Stylesheet</h3>
+            <MadCap:snippetBlock src="Borders/Rounded-Borders-Tables3.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+            <h3>Additional Required Settings for Rounded Borders on Tables</h3>
+            <MadCap:snippetBlock src="Borders/Rounded-Borders-Tables4.flsnp" />
+            <MadCap:snippetBlock src="Borders/Rounded-Borders-Tables5.flsnp" />
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+            <div class="example">
+                <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You have set up a table stylesheet to use rounded corners. If you view the output on a Chrome browser, it looks like this:</p>
+                <p>
+                    <img src="../../../Images/Flare/Paragraphs/Rounded-Borders11.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>As you can see, the rounded borders are shown.</p>
+                <p>But then you view the same table in Internet Explorer. It looks like this:</p>
+                <p>
+                    <img src="../../../Images/Flare/Paragraphs/Rounded-Borders12.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>Notice that the rounded corners are obstructed by the background color.</p>
+                <p>To solve this issue, you remove the background colors from the table. After you do that, the table looks like this in Internet Explorer, as well as in other browsers:</p>
+                <p>
+                    <img src="../../../Images/Flare/Paragraphs/Rounded-Borders13.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </div>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+            <MadCap:snippetBlock src="Borders/Rounded-Borders-Tables6.flsnp" />
+            <MadCap:snippetBlock src="Borders/Example-Rounded-Borders-Tables.flsnp" />
+        </div>
+        <h2 MadCap:conditions="General.Online-Only">How to Use a Style to Set Rounded Borders on Block Elements</h2>
+        <ol MadCap:conditions="General.Online-Only">
+            <li>
+                <p>
+                    <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Edit-Styles2.flsnp" />
+                <p class="Subheading">If Using Simplified View</p>
+                <ol class="LowerAlpha">
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Advanced-Button-Shown.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-Paragraph-Styles1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Paragraph-Select-Style1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Local-Toolbar-Click-Properties-Style.flsnp" />
+                    </li>
+                    <li>Select the <span class="Emphasis">Borders</span> tab.</li>
+                    <li>
+                        <p>Set the options in the <span class="Emphasis">Border Radius</span> section.</p>
+                        <ol class="LowerRoman">
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders1.flsnp" />
+                                </p>
+                                <p>
+                                    <MadCap:snippetText src="../../Shared/Co-Fl/General/Formatting-Borders2.flsnp" />
+                                </p>
+                                <p>
+                                    <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders3.flsnp" />
+                                </p>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders2.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders4.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders5.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/General/Properties-Dialog-Click-OK.flsnp" />
+                    </li>
+                </ol>
+                <p class="Subheading">If Using Advanced View</p>
+                <ol class="LowerAlpha">
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-Paragraph-Styles1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Paragraph-Select-Style1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Border-Group1.flsnp" />&#160;</li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Locate-Border-Radius-Property1.flsnp" />
+                    </li>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                        </p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders3-Adv-View.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Table-Group1.flsnp" />&#160;</li>
+                    <li>For the <span class="Emphasis">border-collapse</span> property, select <span class="Emphasis">separate</span>.</li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Positioning-Group1.flsnp" />&#160;</li>
+                    <li>For the <span class="Emphasis">overflow</span> property, select <span class="Emphasis">hidden</span>.</li>
+                </ol>
+            </li>
+            <li value="3">
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+        <h2 MadCap:conditions="General.Print-Only">How to Use a Style to Set Rounded Borders on Block Elements</h2>
+        <ol MadCap:conditions="General.Print-Only">
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../Styles/Note-Steps-Using-Simplified.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-Paragraph-Styles1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Paragraph-Select-Style1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Border-Group1.flsnp" />&#160;</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Locate-Border-Radius-Property1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders3-Adv-View.flsnp" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Table-Group1.flsnp" />&#160;</li>
+            <li>For the <span class="Emphasis">border-collapse</span> property, select <span class="Emphasis">separate</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Positioning-Group1.flsnp" />&#160;</li>
+            <li>For the <span class="Emphasis">overflow</span> property, select <span class="Emphasis">hidden</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2 MadCap:conditions="General.Online-Only">How to Use Local Formatting to Set Rounded Borders on Block Elements</h2>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Paragraphs/Paragraphs-Modify-First-Steps.flsnp" MadCap:conditions="General.Online-Only" />
+        <ol MadCap:conditions="General.Online-Only">
+            <li value="3">
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Home &gt; <img src="../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" /></b> (at the bottom of the <span class="Emphasis">Paragraph</span> section). </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+ALT+B</span>. </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Right-Click-Paragraph-Properties.flsnp" />
+                    </li>
+                </ul>
+                <p>The Paragraph Properties dialog opens.</p>
+            </li>
+            <li>Select the <span class="Emphasis">Borders</span> tab.</li>
+            <li>
+                <p>Set the options in the <span class="Emphasis">Border Radius</span> section.</p>
+                <ol class="LowerAlpha">
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders1.flsnp" />
+                        </p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/General/Formatting-Borders2.flsnp" />
+                        </p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders3.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders2.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders4.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders5.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </li>
+            <li>In the Paragraph Properties dialog, click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+        <h2>How to Use a Table Stylesheet to Set Rounded Borders on Tables</h2>
+        <ol>
+            <li>Open the table stylesheet that you want to edit. This can be found in the <span class="Emphasis">Resources &gt; TableStyles</span> subfolder in the Content Explorer, but you can store table stylesheets in other folders in the Content Explorer if you like.</li>
+            <li>In the Table Style Editor, select the <span class="Emphasis">General</span> tab.</li>
+            <li>In the <span class="Emphasis">Cell Border Collapse</span> area, select <span class="Emphasis">Do not collapse cell borders</span>.</li>
+            <li>
+                <p>Set the options in the <span class="Emphasis">Border Radius</span> section.</p>
+                <ol class="LowerAlpha">
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders-Tables1.flsnp" />
+                        </p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/General/Formatting-Borders2.flsnp" />
+                        </p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders3.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders2.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders4.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders5.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </li>
+            <li>Scroll down to the bottom of the tab, and in the <span class="Emphasis">Advanced</span> area, click in the <span class="Emphasis">Overflow</span> drop-down and select <span class="Emphasis">Hidden</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+        <h2 MadCap:conditions="General.Print-Only">How to Use a Regular Stylesheet to Set Rounded Borders on Tables</h2>
+        <ol MadCap:conditions="General.Print-Only">
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../Styles/Note-Steps-Using-Simplified.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-Table-Styles1.flsnp" />
+            </li>
+            <li>In the grid below, select <span class="Emphasis">table</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Border-Group1.flsnp" />&#160;</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Locate-Border-Radius-Property1.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Change-Properties1.flsnp" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders3-Adv-View.flsnp" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <h2 MadCap:conditions="General.Online-Only">How to Use Local Formatting to Set Rounded Borders on Tables</h2>
+        <ol MadCap:conditions="General.Online-Only">
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl-Li/Topics/Open-Content-File.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Tables/Click-Inside-Table1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Home &gt; Table Properties</b>.  </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Right-click</span> Right-click the table and from the context menu, select <span class="Emphasis">Table Properties</span>.</li>
+                </ul>
+            </li>
+            <li>Select the <span class="Emphasis">General</span> tab.</li>
+            <li>In the <span class="Emphasis">Cell Border Collapse</span> area, select <span class="Emphasis">Do not collapse cell borders</span>.</li>
+            <li>
+                <p>Set the options in the <span class="Emphasis">Border Radius</span> section.</p>
+                <ol class="LowerAlpha">
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders-Tables1.flsnp" />
+                        </p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/General/Formatting-Borders2.flsnp" />
+                        </p>
+                        <p>
+                            <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders3.flsnp" />
+                        </p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders2.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders4.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Formatting-Rounded-Borders5.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+                    </li>
+                </ol>
+            </li>
+            <li>In the <span class="Emphasis">Advanced</span> area, click in the <span class="Emphasis">Overflow</span> drop-down and select <span class="Emphasis">Hidden</span>.</li>
+            <li>In the Table Properties dialog, click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Noteworthy.flsnp" />
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Some older browsers may not support rounded borders, so even if you create the rounded borders for your content, they may display as rounded in some browsers but square in others.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Styles/Note-Rounded-Table-Borders-Captions.flsnp" />
+        <div class="note" MadCap:conditions="General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also set rounded borders on page layout frames. See <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Specifying-Frame-Borders.htm">Specifying Frame Borders</MadCap:xref>.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">
+            <MadCap:snippetText src="../../Shared/Co-Fl/General/Whats-Next-After-Edit-Style.flsnp" />
+        </p>
+    </body>
+</html>

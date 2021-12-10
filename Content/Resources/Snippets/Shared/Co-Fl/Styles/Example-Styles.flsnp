@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #5308be;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">The heading<MadCap:conditionalText MadCap:conditions="General.Online-Only"> above</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Print-Only"> at the beginning of this section</MadCap:conditionalText> is using the <MadCap:conditionalText MadCap:conditions="General.Online-Only">h1</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Printed-Output-Guide">h2</MadCap:conditionalText> style (which is short for a <MadCap:conditionalText MadCap:conditions="General.Online-Only">first</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Styles-Guide,Flare-Guides.Flare-Printed-Output-Guide">second</MadCap:conditionalText>-level heading). Properties have been assigned to this style to affect its look (such as the font type and its size). We can apply this style to any block type of content (e.g., headings or paragraphs). If we were to change the color to purple in the style, every heading or paragraph<MadCap:conditionalText MadCap:conditions="Products.Flare"> in the project</MadCap:conditionalText> that uses that style would change to purple immediately.</p>
+        </div>
+    </body>
+</html>

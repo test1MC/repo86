@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="Example-Text">— Auto Merging</p>
+        <p>Let's say two <MadCap:conditionalText MadCap:conditions="Products.Flare">authors </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Lingo">translators</MadCap:conditionalText>—Bob and Jill—are working on the same project, using source control to manage the files.</p>
+        <p MadCap:conditions="Products.Flare">Bob checks out the "FAQs" topic and starts making changes to it.</p>
+        <p MadCap:conditions="Products.Lingo">Bob checks out the glossary and starts making changes to it.</p>
+        <p MadCap:conditions="Products.Flare">Jill also checks out the "FAQs" topic and makes some changes to it. Jill's changes are in a different location in the topic than Bob's changes; there are no conflicts. She finishes before Bob and submits the file to source control.</p>
+        <p MadCap:conditions="Products.Lingo">Jill also checks out the glossary and makes some changes to it. Jill's changes are in a different segment in the glossary than Bob's changes; there are no conflicts. She finishes before Bob and submits the file to source control.</p>
+        <p>Bob finishes his changes and tries to submit the file. Before the file can be submitted, Bob is prompted with a dialog, indicating that changes from another <MadCap:conditionalText MadCap:conditions="Products.Flare">author </MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Products.Lingo">user </MadCap:conditionalText>have already been submitted.</p>
+        <p>Bob selects <span class="Emphasis">Auto Merge All</span>. The changes from Bob and Jill are now both shown in the merged topic.</p>
+    </body>
+</html>

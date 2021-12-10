@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroContentSet Comment="Default micro content set for chat bots.">
+    <MicroContent id="analysis">
+        <MicroContentPhrase>analysis</MicroContentPhrase>
+        <MicroContentPhrase>feedback</MicroContentPhrase>
+        <MicroContentPhrase>google analytics</MicroContentPhrase>
+        <MicroContentPhrase>analyzer</MicroContentPhrase>
+        <MicroContentPhrase>reports</MicroContentPhrase>
+        <MicroContentPhrase>data analytics</MicroContentPhrase>
+        <MicroContentPhrase>analytics</MicroContentPhrase>
+        <MicroContentPhrase>add analytics to a project</MicroContentPhrase>
+        <MicroContentPhrase>analyser</MicroContentPhrase>
+        <MicroContentPhrase>target analytics</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Analysis-Reporting.flsnp" />
+    </MicroContent>
+    <MicroContent id="title-page">
+        <MicroContentPhrase>title page</MicroContentPhrase>
+        <MicroContentPhrase>set look of title page in page layouts</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Title-Page.flsnp" />
+    </MicroContent>
+    <MicroContent id="master-project">
+        <MicroContentPhrase>parent project</MicroContentPhrase>
+        <MicroContentPhrase>master project</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Parent-Project.flsnp" />
+    </MicroContent>
+    <MicroContent id="popups">
+        <MicroContentPhrase>popups</MicroContentPhrase>
+        <MicroContentPhrase>text popups</MicroContentPhrase>
+        <MicroContentPhrase>topic popups</MicroContentPhrase>
+        <MicroContentPhrase>using popups</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Popups.flsnp" />
+    </MicroContent>
+    <MicroContent id="unbind">
+        <MicroContentPhrase>unbind</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Unbind.flsnp" />
+    </MicroContent>
+    <MicroContent id="accessibility">
+        <MicroContentPhrase>accessibility</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Accessibility/Accessibility.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="csh">
+        <MicroContentPhrase>csh</MicroContentPhrase>
+        <MicroContentPhrase>context-sensitive help context-sensitive help</MicroContentPhrase>
+        <MicroContentPhrase>context sensitive help context sensitive help</MicroContentPhrase>
+        <MicroContentPhrase>creating context sensitive help</MicroContentPhrase>
+        <MicroContentPhrase>chs</MicroContentPhrase>
+        <MicroContentPhrase>context sensitive help for html 5 output</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/CSH/CSH.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="autonumber">
+        <MicroContentPhrase>autonumber</MicroContentPhrase>
+        <MicroContentPhrase>auto numbering</MicroContentPhrase>
+        <MicroContentPhrase>auto-number</MicroContentPhrase>
+        <MicroContentPhrase>autonumbering</MicroContentPhrase>
+        <MicroContentPhrase>numbered headings</MicroContentPhrase>
+        <MicroContentPhrase>output numbering</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Autonumbers/Autonumbers1.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="alias-file">
+        <MicroContentPhrase>alias file</MicroContentPhrase>
+        <MicroContentPhrase>map id</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/CSH/General-Information/Alias-Files.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="central">
+        <MicroContentPhrase>central</MicroContentPhrase>
+        <MicroContentPhrase>madcap central</MicroContentPhrase>
+        <MicroContentPhrase>central integration</MicroContentPhrase>
+        <MicroContentPhrase>vanity url</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Central/Central-Flare.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="concepts">
+        <MicroContentPhrase>concepts</MicroContentPhrase>
+        <MicroContentPhrase>concept link</MicroContentPhrase>
+        <MicroContentPhrase>see also</MicroContentPhrase>
+        <MicroContentPhrase>see also links</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Concepts/Concepts.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="conditions">
+        <MicroContentPhrase>conditions</MicroContentPhrase>
+        <MicroContentPhrase>condition tag</MicroContentPhrase>
+        <MicroContentPhrase>conditional text</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Conditions/Conditions.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="cross-reference">
+        <MicroContentPhrase>cross-reference</MicroContentPhrase>
+        <MicroContentPhrase>cross reference</MicroContentPhrase>
+        <MicroContentPhrase>xref</MicroContentPhrase>
+        <MicroContentPhrase>crossreference</MicroContentPhrase>
+        <MicroContentPhrase>cross reference link</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Cross-References/Cross-References.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="css-variables">
+        <MicroContentPhrase>css variables</MicroContentPhrase>
+        <MicroContentPhrase>style variables</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/CSS-Variables/CSS-Variables.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="drop-down">
+        <MicroContentPhrase>drop-down</MicroContentPhrase>
+        <MicroContentPhrase>drop down</MicroContentPhrase>
+        <MicroContentPhrase>dropdown</MicroContentPhrase>
+        <MicroContentPhrase>drop-down text</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Drop-Down-Text/Drop-Down-Text.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="elasticsearch">
+        <MicroContentPhrase>elasticsearch</MicroContentPhrase>
+        <MicroContentPhrase>elastic search</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Search/Search-Engines/Elasticsearch/Elasticsearch.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="expanding-text">
+        <MicroContentPhrase>expanding text</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Expanding-Text/Expanding-Text.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="file-tags">
+        <MicroContentPhrase>file tags</MicroContentPhrase>
+        <MicroContentPhrase>file tagging</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/File-Tagging/File-Tagging.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="git">
+        <MicroContentPhrase>git git</MicroContentPhrase>
+        <MicroContentPhrase>source control git</MicroContentPhrase>
+        <MicroContentPhrase>github</MicroContentPhrase>
+        <MicroContentPhrase>gitlab</MicroContentPhrase>
+        <MicroContentPhrase>cloudforge</MicroContentPhrase>
+        <MicroContentPhrase>bitbucket</MicroContentPhrase>
+        <MicroContentPhrase>git for windows</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Source-Control/Git/Git.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="global-project-linking">
+        <MicroContentPhrase>global project linking</MicroContentPhrase>
+        <MicroContentPhrase>global project</MicroContentPhrase>
+        <MicroContentPhrase>gpl</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Global-Project-Linking/Global-Project-Linking.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="html5">
+        <MicroContentPhrase>html5</MicroContentPhrase>
+        <MicroContentPhrase>html5 output</MicroContentPhrase>
+        <MicroContentPhrase>html5 target</MicroContentPhrase>
+        <MicroContentPhrase>default.htm</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/HTML5-Output.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="hyperlinks">
+        <MicroContentPhrase>hyperlinks hyperlinks</MicroContentPhrase>
+        <MicroContentPhrase>text hyperlinks</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Text-Hyperlinks/Text-Hyperlinks.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="glossary">
+        <MicroContentPhrase>glossary</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Glossaries/Glossaries.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="images">
+        <MicroContentPhrase>images</MicroContentPhrase>
+        <MicroContentPhrase>graphics</MicroContentPhrase>
+        <MicroContentPhrase>pictures</MicroContentPhrase>
+        <MicroContentPhrase>animated gif</MicroContentPhrase>
+        <MicroContentPhrase>image formats</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Images/Images.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="import">
+        <MicroContentPhrase>import</MicroContentPhrase>
+        <MicroContentPhrase>import project</MicroContentPhrase>
+        <MicroContentPhrase>importing</MicroContentPhrase>
+        <MicroContentPhrase>"import"</MicroContentPhrase>
+        <MicroContentPhrase>supported import formats</MicroContentPhrase>
+        <MicroContentPhrase>import files</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Importing/Importing.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="index">
+        <MicroContentPhrase>index</MicroContentPhrase>
+        <MicroContentPhrase>index keyword</MicroContentPhrase>
+        <MicroContentPhrase>keyword</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Indexes/Indexes.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="lists">
+        <MicroContentPhrase>lists</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Lists/Lists.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="master-page">
+        <MicroContentPhrase>template page template page</MicroContentPhrase>
+        <MicroContentPhrase>masterpage</MicroContentPhrase>
+        <MicroContentPhrase>master pages</MicroContentPhrase>
+        <MicroContentPhrase>templatepage</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Template-Pages/Template-Pages.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="merging-projects">
+        <MicroContentPhrase>merging projects</MicroContentPhrase>
+        <MicroContentPhrase>merge output</MicroContentPhrase>
+        <MicroContentPhrase>runtime merging</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/TOCs/Other-Activities/Merging-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="micro-content">
+        <MicroContentPhrase>micro content</MicroContentPhrase>
+        <MicroContentPhrase>chat bots</MicroContentPhrase>
+        <MicroContentPhrase>chatbots</MicroContentPhrase>
+        <MicroContentPhrase>featured snippets</MicroContentPhrase>
+        <MicroContentPhrase>microcontent</MicroContentPhrase>
+        <MicroContentPhrase>creating micro content</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Micro-Content/Micro-Content.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="page-layout">
+        <MicroContentPhrase>page layout page layout</MicroContentPhrase>
+        <MicroContentPhrase>pagelayout</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Page-Layouts/Page-Layouts.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="pdf">
+        <MicroContentPhrase>pdf</MicroContentPhrase>
+        <MicroContentPhrase>pdf output</MicroContentPhrase>
+        <MicroContentPhrase>pdf target</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step4-Developing-Targets/Output-Types/PDF-Output/PDF-Output.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="proxies">
+        <MicroContentPhrase>proxies</MicroContentPhrase>
+        <MicroContentPhrase>proxy</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Proxies/Proxies1.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="publish">
+        <MicroContentPhrase>publish</MicroContentPhrase>
+        <MicroContentPhrase>publishing</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step5-Building-Publishing-Output/Building-Publishing-Output.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="build">
+        <MicroContentPhrase>build</MicroContentPhrase>
+        <MicroContentPhrase>build target</MicroContentPhrase>
+        <MicroContentPhrase>build output</MicroContentPhrase>
+        <MicroContentPhrase>generate</MicroContentPhrase>
+        <MicroContentPhrase>output</MicroContentPhrase>
+        <MicroContentPhrase>online output</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step5-Building-Publishing-Output/Building-Publishing-Output.htm#microcontent2" />
+    </MicroContent>
+    <MicroContent id="qr-code">
+        <MicroContentPhrase>qr code</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/QR-Codes/QR-Codes.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="related-topics">
+        <MicroContentPhrase>related topics</MicroContentPhrase>
+        <MicroContentPhrase>related topics links</MicroContentPhrase>
+        <MicroContentPhrase>related topics controls</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Related-Topics-Links/Related-Topics-Links.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="relationship-table">
+        <MicroContentPhrase>relationship table</MicroContentPhrase>
+        <MicroContentPhrase>relationship links</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Relationship-Links/Relationship-Tables.htm#microcontent2" />
+    </MicroContent>
+    <MicroContent id="responsive-content">
+        <MicroContentPhrase>responsive content</MicroContentPhrase>
+        <MicroContentPhrase>responsive conditions</MicroContentPhrase>
+        <MicroContentPhrase>media query condition tags</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Responsive-Design/Responsive-Content.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="responsive-layout">
+        <MicroContentPhrase>responsive layout</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Responsive-Design/Responsive-Layouts.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="responsive-web-design">
+        <MicroContentPhrase>responsive web design</MicroContentPhrase>
+        <MicroContentPhrase>responsive design</MicroContentPhrase>
+        <MicroContentPhrase>rwd</MicroContentPhrase>
+        <MicroContentPhrase>responsive</MicroContentPhrase>
+        <MicroContentPhrase>mobile</MicroContentPhrase>
+        <MicroContentPhrase>tablet</MicroContentPhrase>
+        <MicroContentPhrase>smart phone</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Responsive-Design/Responsive-Web-Design.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="salesforce">
+        <MicroContentPhrase>salesforce</MicroContentPhrase>
+        <MicroContentPhrase>salesforce connect</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step5-Building-Publishing-Output/Salesforce/Salesforce.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="search">
+        <MicroContentPhrase>search</MicroContentPhrase>
+        <MicroContentPhrase>search results</MicroContentPhrase>
+        <MicroContentPhrase>about search</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Search/Search.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="sharepoint">
+        <MicroContentPhrase>sharepoint</MicroContentPhrase>
+        <MicroContentPhrase>publish to sharepoint</MicroContentPhrase>
+        <MicroContentPhrase>sharepoint online</MicroContentPhrase>
+        <MicroContentPhrase>sharepoint 365</MicroContentPhrase>
+        <MicroContentPhrase>add sharepoint</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/SharePoint/SharePoint-Integration.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="skin">
+        <MicroContentPhrase>skin skin skin</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Skins/Skins.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="table">
+        <MicroContentPhrase>table</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Tables/Tables.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="templates">
+        <MicroContentPhrase>templates templates templates</MicroContentPhrase>
+        <MicroContentPhrase>project template</MicroContentPhrase>
+        <MicroContentPhrase>topic template</MicroContentPhrase>
+        <MicroContentPhrase>templates</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Templates/Templates.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="tfs">
+        <MicroContentPhrase>tfs</MicroContentPhrase>
+        <MicroContentPhrase>team foundation server</MicroContentPhrase>
+        <MicroContentPhrase>azure devops</MicroContentPhrase>
+        <MicroContentPhrase>azure devops source control support</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Source-Control/TFS/Microsoft-Team-Foundation-Server.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="toggler">
+        <MicroContentPhrase>toggler</MicroContentPhrase>
+        <MicroContentPhrase>toggle</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Togglers/Togglers.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="troubleshooting">
+        <MicroContentPhrase>troubleshooting</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Troubleshooting/Troubleshooting.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="word-output">
+        <MicroContentPhrase>word output</MicroContentPhrase>
+        <MicroContentPhrase>word target</MicroContentPhrase>
+        <MicroContentPhrase>export to word</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step4-Developing-Targets/Output-Types/Word-Output/Word-Output.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="zendesk">
+        <MicroContentPhrase>zendesk</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step5-Building-Publishing-Output/Zendesk/Zendesk.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="variable">
+        <MicroContentPhrase>variable</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Variables/Variables.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="reviews">
+        <MicroContentPhrase>reviews</MicroContentPhrase>
+        <MicroContentPhrase>topic review</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Reviews-Contributions/Central/Central-Review-Process.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="frequent-segments">
+        <MicroContentPhrase>frequent segments</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Analysis/Suggestions/Frequent-Segments/Frequent-Segments.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="dita">
+        <MicroContentPhrase>dita</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/DITA/DITA.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="footnotes">
+        <MicroContentPhrase>footnotes footnotes</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Footnotes/Footnotes.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="widow">
+        <MicroContentPhrase>widow</MicroContentPhrase>
+        <MicroContentPhrase>orphan</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Paragraphs/Widows-Orphans.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="scripts">
+        <MicroContentPhrase>scripts</MicroContentPhrase>
+        <MicroContentPhrase>button</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Scripts/Scripts.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="dictionaries">
+        <MicroContentPhrase>dictionaries</MicroContentPhrase>
+        <MicroContentPhrase>change dictionary</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Editor-Tools/Dictionaries/Dictionaries.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="equations">
+        <MicroContentPhrase>equations</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Equations/Equations.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="track-changes">
+        <MicroContentPhrase>track changes</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Reviews-Contributions/Track-Changes/Track-Changes.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="synonyms">
+        <MicroContentPhrase>synonyms</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Search/Synonyms/Synonyms.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="auto-suggestion">
+        <MicroContentPhrase>auto suggestion</MicroContentPhrase>
+        <MicroContentPhrase>auto-suggestion</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Editor-Tools/Auto-Suggestion/Auto-Suggestion.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="macro">
+        <MicroContentPhrase>macro</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Editor-Tools/Macros/Macros.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="browse-sequence">
+        <MicroContentPhrase>browse sequence</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Browse-Sequences/Browse-Sequences.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="search-filter-set">
+        <MicroContentPhrase>search filter set</MicroContentPhrase>
+        <MicroContentPhrase>search bar filter</MicroContentPhrase>
+        <MicroContentPhrase>concept search filter</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Search/Search-Filter-Sets/Search-Filter-Sets.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="external-resources">
+        <MicroContentPhrase>external resources</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/External-Resources/External-Resources.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="slideshow">
+        <MicroContentPhrase>slideshow</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Slideshows/Slideshows.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="redacted-text">
+        <MicroContentPhrase>redacted text</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Redacted-Text/Redacted-Text.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="links">
+        <MicroContentPhrase>links</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Links.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="bookmark">
+        <MicroContentPhrase>bookmark</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Bookmarks/Bookmarks.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="help-control">
+        <MicroContentPhrase>help control</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Help-Controls.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="3d-model">
+        <MicroContentPhrase>3d model</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Multimedia/3D-Models/3D-Models.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="audio">
+        <MicroContentPhrase>audio</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Multimedia/Audio/Audio.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="multimedia">
+        <MicroContentPhrase>multimedia</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Multimedia/Multimedia.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="movies">
+        <MicroContentPhrase>movies movies</MicroContentPhrase>
+        <MicroContentPhrase>video video</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Multimedia/Movies/Movies.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="search-engine">
+        <MicroContentPhrase>search engine</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Search/Search-Engines/Setting-Up-Search-Engine.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="backup">
+        <MicroContentPhrase>backup</MicroContentPhrase>
+        <MicroContentPhrase>replace all backup</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Backups/Backups.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="paragraph-formatting">
+        <MicroContentPhrase>paragraph formatting</MicroContentPhrase>
+        <MicroContentPhrase>paragraphs</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Paragraphs/Paragraph-Formatting.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="fonts">
+        <MicroContentPhrase>fonts</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Fonts/Fonts.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="numbering">
+        <MicroContentPhrase>numbering</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Printed-Output/Numbering/Numbering.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="project-management">
+        <MicroContentPhrase>project management</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Introduction/Features/Project-Management.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="release-notes">
+        <MicroContentPhrase>release notes</MicroContentPhrase>
+        <MicroContentPhrase>what's new</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Introduction/Whats-New/Whats-New.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="preferences">
+        <MicroContentPhrase>preferences</MicroContentPhrase>
+        <MicroContentPhrase>options</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Interface/Interface-Files/Preferences.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="interface">
+        <MicroContentPhrase>interface</MicroContentPhrase>
+        <MicroContentPhrase>workspace</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Interface/Interface-Files/Interface-Files.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="target">
+        <MicroContentPhrase>target</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step4-Developing-Targets/Develop-Targets.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="topics">
+        <MicroContentPhrase>topics</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Topics/Topics.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="snippet">
+        <MicroContentPhrase>snippet snippet snippet</MicroContentPhrase>
+        <MicroContentPhrase>nested snippets</MicroContentPhrase>
+        <MicroContentPhrase>insert snippet into snippet</MicroContentPhrase>
+        <MicroContentPhrase>snippet files</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Snippets/Snippets.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="table-stylesheet">
+        <MicroContentPhrase>table stylesheet</MicroContentPhrase>
+        <MicroContentPhrase>table style sheet</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Styles/Other-Features-Activities/Table-Stylesheets/Table-Stylesheets.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="toc">
+        <MicroContentPhrase>toc</MicroContentPhrase>
+        <MicroContentPhrase>primary toc</MicroContentPhrase>
+        <MicroContentPhrase>table of contents</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/TOCs/TOCs.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="styles">
+        <MicroContentPhrase>styles styles styles</MicroContentPhrase>
+        <MicroContentPhrase>css</MicroContentPhrase>
+        <MicroContentPhrase>style sheets</MicroContentPhrase>
+        <MicroContentPhrase>stylesheets</MicroContentPhrase>
+        <MicroContentPhrase>styles and stylesheets</MicroContentPhrase>
+        <MicroContentPhrase>css styles</MicroContentPhrase>
+        <MicroContentPhrase>flare styles</MicroContentPhrase>
+        <MicroContentPhrase>style</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Styles/Styles.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="style-inspector">
+        <MicroContentPhrase>style inspector</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Styles/Other-Features-Activities/Regular-Stylesheets/Style-Inspector/Style-Inspector.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="medium">
+        <MicroContentPhrase>medium</MicroContentPhrase>
+        <MicroContentPhrase>stylesheet medium</MicroContentPhrase>
+        <MicroContentPhrase>style medium</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Mediums/Mediums1.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="media-query">
+        <MicroContentPhrase>media query</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Styles/Other-Features-Activities/Mediums-Media-Queries/Media-Queries/Media-Queries.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="font-set">
+        <MicroContentPhrase>font set</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Fonts/Main-Activities/Font-Sets/Font-Sets.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="side-navigation">
+        <MicroContentPhrase>side navigation</MicroContentPhrase>
+        <MicroContentPhrase>html side navigation</MicroContentPhrase>
+        <MicroContentPhrase>side nav</MicroContentPhrase>
+        <MicroContentPhrase>side navigation skin</MicroContentPhrase>
+        <MicroContentPhrase>sidenav</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/Output-Formats/HTML5-Side-Nav/HTML5-Side-Nav.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="top-navigation">
+        <MicroContentPhrase>top navigation</MicroContentPhrase>
+        <MicroContentPhrase>html5 top navigation</MicroContentPhrase>
+        <MicroContentPhrase>top nav</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/Output-Formats/HTML5-Top-Nav/HTML5-Top-Navigation-Output.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="tripane">
+        <MicroContentPhrase>tripane</MicroContentPhrase>
+        <MicroContentPhrase>html5 tripane</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/Output-Formats/HTML5-Tripane/HTML5-Tripane-Output.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="source-control">
+        <MicroContentPhrase>source control</MicroContentPhrase>
+        <MicroContentPhrase>version control</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Source-Control/Source-Control.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="what-madcap-doc-team-does">
+        <MicroContentPhrase>what madcap doc team does</MicroContentPhrase>
+        <MicroContentPhrase>doc team</MicroContentPhrase>
+        <MicroContentPhrase>documentation team</MicroContentPhrase>
+        <MicroContentPhrase>team does</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-What-MadCap-Doc-Team-Does.flsnp" />
+    </MicroContent>
+    <MicroContent id="alt-attributes">
+        <MicroContentPhrase>alt attributes</MicroContentPhrase>
+        <MicroContentPhrase>title attributes</MicroContentPhrase>
+        <MicroContentPhrase>screen tip</MicroContentPhrase>
+        <MicroContentPhrase>tooltips</MicroContentPhrase>
+        <MicroContentPhrase>tool tip</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Accessibility/Content/Alt-Text-Title-Attributes.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="export">
+        <MicroContentPhrase>export</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Export.flsnp" />
+    </MicroContent>
+    <MicroContent id="command-line">
+        <MicroContentPhrase>command line</MicroContentPhrase>
+        <MicroContentPhrase>command line build</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Commnd-Line.flsnp" />
+    </MicroContent>
+    <MicroContent id="framemaker">
+        <MicroContentPhrase>framemaker</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Importing/Other-Applications-Files/FrameMaker/Importing-FM.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="subversion">
+        <MicroContentPhrase>subversion</MicroContentPhrase>
+        <MicroContentPhrase>svn</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Source-Control/Subversion/Apache-Subversion.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="spell-check">
+        <MicroContentPhrase>spell check</MicroContentPhrase>
+        <MicroContentPhrase>spellcheck</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Editor-Tools/Spell-Check/Spell-Check.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="preview">
+        <MicroContentPhrase>preview</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:head>
+                    <xhtml:link xhtml:href="../../TableStyles/Shared/Fancy.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" />
+                </xhtml:head>
+                <xhtml:body>
+                    <xhtml:div>
+                        <xhtml:div xhtml:class="Tiles-6-6">
+                            <xhtml:div>
+                                <xhtml:p>You can preview different elements in Flare, most notably topics, where it is possible to preview based on a particular target or condition settings.</xhtml:p>
+                                <xhtml:table xhtml:style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../TableStyles/Shared/Fancy.css');" xhtml:class="TableStyle-Fancy" xhtml:cellspacing="0">
+                                    <xhtml:col xhtml:class="TableStyle-Fancy-Column-Regular" xhtml:style="width: 100%;" />
+                                    <xhtml:thead>
+                                        <xhtml:tr xhtml:class="TableStyle-Fancy-Head-Header1">
+                                            <xhtml:th xhtml:class="TableStyle-Fancy-HeadD-Regular-Header1">
+                                                <xhtml:p xhtml:class="TableTextHead">Preview Options</xhtml:p>
+                                            </xhtml:th>
+                                        </xhtml:tr>
+                                    </xhtml:thead>
+                                    <xhtml:tbody>
+                                        <xhtml:tr xhtml:class="TableStyle-Fancy-Body-LightRows">
+                                            <xhtml:td xhtml:class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                                <xhtml:ul>
+                                                    <xhtml:li>
+                                                        <MadCap:xref xhtml:href="../../../Flare/Topics/Main-Activities/Previewing-Topics.htm">Previewing Topics</MadCap:xref> and <MadCap:xref xhtml:href="../../../Flare/Conditions/Other-Activities/Previewing-Files-Conditions.htm">Previewing Files With Conditions Set</MadCap:xref></xhtml:li>
+                                                    <xhtml:li>
+                                                        <MadCap:xref xhtml:href="../../../Flare/Multimedia/Movies/Other-Activities/Previewing-Movies.htm">Previewing Movies</MadCap:xref>
+                                                    </xhtml:li>
+                                                    <xhtml:li>
+                                                        <MadCap:xref xhtml:href="../../../Flare/Images/Main-Activities/Editing-Images/Previewing-Thumbnails.htm">Previewing Thumbnail Images</MadCap:xref>
+                                                    </xhtml:li>
+                                                    <xhtml:li>
+                                                        <MadCap:xref xhtml:href="../../../Flare/Skins/Other-Activities/General/Previewing-Skin-Specific-Output-Type.htm">Previewing the Skin for a Specific Output Type</MadCap:xref>
+                                                    </xhtml:li>
+                                                </xhtml:ul>
+                                            </xhtml:td>
+                                        </xhtml:tr>
+                                    </xhtml:tbody>
+                                </xhtml:table>
+                            </xhtml:div>
+                            <xhtml:div>
+                                <xhtml:p xhtml:class="center">
+                                    <xhtml:img xhtml:src="../../Images/Flare/Topics/Preview-Topic.gif" />
+                                </xhtml:p>
+                            </xhtml:div>
+                        </xhtml:div>
+                    </xhtml:div>
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="find-and-replace">
+        <MicroContentPhrase>find and replace</MicroContentPhrase>
+        <MicroContentPhrase>find</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Editor-Tools/Find-Replace/Find-Replace.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="code-snippet">
+        <MicroContentPhrase>code snippet code snippet</MicroContentPhrase>
+        <MicroContentPhrase>syntax highlighting</MicroContentPhrase>
+        <MicroContentPhrase>code examples</MicroContentPhrase>
+        <MicroContentPhrase>code snippet editor with syntax highlighting</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Code-Snippets/Code-Snippets.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="servicenow-publishing">
+        <MicroContentPhrase>servicenow publishing</MicroContentPhrase>
+        <MicroContentPhrase>integration with servicenow</MicroContentPhrase>
+        <MicroContentPhrase>integration with service now</MicroContentPhrase>
+        <MicroContentPhrase>servicenow</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step5-Building-Publishing-Output/ServiceNow/ServiceNow.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="translation">
+        <MicroContentPhrase>translation</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Translation-Localization/Translation-Localization.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="translation-best-practices">
+        <MicroContentPhrase>translation best practices</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Translation-Localization/General-Information/Translation-Best-Practices/Translation-Best-Practices.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="context-sensitive-help-calls">
+        <MicroContentPhrase>context-sensitive help calls</MicroContentPhrase>
+        <MicroContentPhrase>context-sensitive help for developers</MicroContentPhrase>
+        <MicroContentPhrase>context sensitive help for developers</MicroContentPhrase>
+        <MicroContentPhrase>csh calls</MicroContentPhrase>
+        <MicroContentPhrase>csh developers</MicroContentPhrase>
+        <MicroContentPhrase>include javascript for csh</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/CSH/Process/Making-CSH-Calls.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="analytics">
+        <MicroContentPhrase>central analytics</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Central/General-Information/Central-Analytics/Central-Analytics.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="language-skins">
+        <MicroContentPhrase>language skins language skins</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Translation-Localization/General-Information/Language-Skins/Language-Skins.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="publishing-destination">
+        <MicroContentPhrase>destination destination</MicroContentPhrase>
+        <MicroContentPhrase>publishing destination publishing destination</MicroContentPhrase>
+        <MicroContentPhrase>setting up a publish folder and destinations</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step5-Building-Publishing-Output/Publishing-Destinations/Publishing-Destinations.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="capture">
+        <MicroContentPhrase>capture</MicroContentPhrase>
+        <MicroContentPhrase>madcap capture</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Architecture/External-Architecture/Images-Videos.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="import-flare-project">
+        <MicroContentPhrase>import flare project</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Importing/Other-Flare-Projects/Other-Flare-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="topic-properties">
+        <MicroContentPhrase>topic properties</MicroContentPhrase>
+        <MicroContentPhrase>advanced topic properties</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Interface/Dialogs/Properties-Dialog-Topics.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="madcap-styles-properties">
+        <MicroContentPhrase>madcap styles properties</MicroContentPhrase>
+        <MicroContentPhrase>madcap-specific styles</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Styles/General-Information/MadCap-Specific-Styles-Properties.htm#microcontent167" />
+    </MicroContent>
+    <MicroContent id="hotspot">
+        <MicroContentPhrase>hotspot</MicroContentPhrase>
+        <MicroContentPhrase>hot spots</MicroContentPhrase>
+        <MicroContentPhrase>dynamic effects</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Hotspots.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="online-help">
+        <MicroContentPhrase>online help</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Online-Help.flsnp" />
+    </MicroContent>
+    <MicroContent id="database">
+        <MicroContentPhrase>database</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Database.flsnp" />
+    </MicroContent>
+    <MicroContent id="java">
+        <MicroContentPhrase>Java</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Java.flsnp" />
+    </MicroContent>
+    <MicroContent id="get-started">
+        <MicroContentPhrase>get started</MicroContentPhrase>
+        <MicroContentPhrase>getting started guide</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Introduction/Get-Started.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="ribbons">
+        <MicroContentPhrase>ribbons</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Interface/Ribbons-Toolbars-Menus/Ribbons/Ribbons.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="breaks">
+        <MicroContentPhrase>breaks</MicroContentPhrase>
+        <MicroContentPhrase>line breaks</MicroContentPhrase>
+        <MicroContentPhrase>frame breaks</MicroContentPhrase>
+        <MicroContentPhrase>section breaks</MicroContentPhrase>
+        <MicroContentPhrase>insert page break</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Printed-Output/Breaks/Breaks.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="pending-changes">
+        <MicroContentPhrase>pending changes</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Source-Control/Linked-Topics/Viewing-Files.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="reimport">
+        <MicroContentPhrase>reimport</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Reimport.flsnp" />
+    </MicroContent>
+    <MicroContent id="indent">
+        <MicroContentPhrase>indent</MicroContentPhrase>
+        <MicroContentPhrase>indentation</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Indentation.flsnp" />
+    </MicroContent>
+    <MicroContent id="perforce-helix-core">
+        <MicroContentPhrase>perforce helix core</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Source-Control/Perforce/Perforce.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="book">
+        <MicroContentPhrase>book</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Book.flsnp" />
+    </MicroContent>
+    <MicroContent id="anchor">
+        <MicroContentPhrase>anchor</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Anchor.flsnp" />
+    </MicroContent>
+    <MicroContent id="single-source-create-micro-content">
+        <MicroContentPhrase>single source create micro content</MicroContentPhrase>
+        <MicroContentPhrase>single sourcing micro content</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Micro-Content/Other-Activities/Single-Sourcing-Micro-Content.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="mark-as-new">
+        <MicroContentPhrase>mark as new</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Mark-New.flsnp" />
+    </MicroContent>
+    <MicroContent id="binding-to-source-control">
+        <MicroContentPhrase>binding to source control</MicroContentPhrase>
+        <MicroContentPhrase>binding</MicroContentPhrase>
+        <MicroContentPhrase>bind</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Source-Control/Linked-Topics/Binding-Projects.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="table-of-contents-styles">
+        <MicroContentPhrase>table of contents styles</MicroContentPhrase>
+        <MicroContentPhrase>toc styles</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/TOCs/Process/Editing-TOCs/Editing-Look-TOCs-Styles-Skins.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="master-page-layout">
+        <MicroContentPhrase>primary page layout layout</MicroContentPhrase>
+        <MicroContentPhrase>set primary page layout</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Primary-Page-Layouts.flsnp" />
+    </MicroContent>
+    <MicroContent id="new-phrase">
+        <MicroContentPhrase>breakpoint</MicroContentPhrase>
+        <MicroContentPhrase>use device with media queries</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Breakpoint.flsnp" />
+    </MicroContent>
+    <MicroContent id="micro-content-properties">
+        <MicroContentPhrase>micro content properties</MicroContentPhrase>
+        <MicroContentPhrase>properties micro content</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Micro-Content/General-Information/Phrases.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="creating-publishing-destinations">
+        <MicroContentPhrase>creating publishing destinations</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Step5-Building-Publishing-Output/Publishing-Destinations/Process/Creating-Destinations.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="padding">
+        <MicroContentPhrase>padding</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Padding.flsnp" />
+    </MicroContent>
+    <MicroContent id="positioning">
+        <MicroContentPhrase>positioning</MicroContentPhrase>
+        <MicroContentPhrase>image next to text</MicroContentPhrase>
+        <MicroContentPhrase>image beside text</MicroContentPhrase>
+        <MicroContentPhrase>image side by side with text</MicroContentPhrase>
+        <MicroContentPhrase>position on page</MicroContentPhrase>
+        <MicroContentPhrase>floating images</MicroContentPhrase>
+        <MicroContentResponse href="../../Snippets/Flare/Micro-Content/Mini-Landing-Pages/MLP-Positioning.flsnp" />
+    </MicroContent>
+    <MicroContent id="topic-toolbar">
+        <MicroContentPhrase>topic toolbar</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Toolbars/Topic-Toolbars/Process/Topic-Toolbars1.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="toolbars">
+        <MicroContentPhrase>toolbars</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/Nav-Links/Toolbars/Toolbars1.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="learning-and-development">
+        <MicroContentPhrase>learning and development</MicroContentPhrase>
+        <MicroContentPhrase>L&amp;D</MicroContentPhrase>
+        <MicroContentPhrase>eLearning</MicroContentPhrase>
+        <MicroContentPhrase>LMS</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/LMS/LMS.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent id="iframe">
+        <MicroContentPhrase>IFrame</MicroContentPhrase>
+        <MicroContentResponse href="../../../Flare/IFrame/IFrame.htm#microcontent1" />
+    </MicroContent>
+</MicroContentSet>

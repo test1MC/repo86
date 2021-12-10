@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>
+            <MadCap:snippetText src="List-Of-Proxy-Summary.flsnp" />
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Create a List of Tables</h2>
+        <ol>
+            <li>Add a new topic as you normally would.</li>
+            <li>At the top of the topic, enter a title for your list (e.g., "List of Tables"). </li>
+            <li>Select <span class="Emphasis">Insert &gt; Proxy &gt; Insert List-Of Proxy</span>. The List-Of Proxy dialog opens.</li>
+            <li>
+                <p>In the <span class="Emphasis">Tag Name</span> field, select the parent tag to be used for creating the list. </p>
+                <p>If you used <MadCap:variable name="Other.Product" />'s built-in caption feature when inserting your tables, you can select <span class="Emphasis">Caption</span> from this field. The generated list will display the caption that you provided for each table.</p>
+                <p>If you did not use <MadCap:variable name="Other.Product" />'s built-in caption feature when inserting your tables, but rather created your own caption, you can select the style that you used for it.</p>
+            </li>
+            <li>(Optional) In the <span class="Emphasis">Tag Class</span> field, you can select the style class to be used for creating the list. If you selected "Caption" in the previous step, you probably do not need to select a class in this field. If you used a different style for a custom caption, you can select the class from this field (if you created one in the Stylesheet Editor).</li>
+            <li>(Optional) In the <span class="Emphasis">Stylesheet class for each generated entry</span> field, you can select yet another style class. This class can be used to determine how each item in the generated list looks. You would use this style class, for example, if you want to change the font of the entries or add a leader (e.g., series of dots) between the entries and the page numbers. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Printed-Output/Styles/Editing-Look-List-Elements.htm">Using Styles to Determine the Look of a List of Elements</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Tables-Guide">For more information about using styles, including steps, see the online Help or the <MadCap:variable name="Other.Product" /><i> Styles Guide</i>.</MadCap:conditionalText></li>
+            <li>
+                <p>(Optional) In the <span class="Emphasis">Stylesheet class for proxy</span> field, you can select a class to affect the look of the entire list. </p>
+                <p>You might create and use a proxy style class, for example, if you want to add a border around the generated list. If you do not select a class from this field, the generated list will use the style settings from the parent MadCap|listOfProxy style. You have the option of creating a class for this proxy style in the Stylesheet Editor. To do this, select the <span class="Emphasis">MadCap|listOfProxy</span> style and in the local toolbar click <span class="Emphasis">Add Selector</span> to create a class. The class will then be available from this field.</p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The proxy is added to the topic.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="Note-Proxies-Exclude-Content.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" />
+        <p>If you are creating print-based output, make sure to add the topic with the proxy to the outline TOC. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/TOCs/Process/Creating-TOCs/Creating-TOC-Manually.htm">Creating a Table of Contents</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Tables-Guide" /></p>
+    </body>
+</html>

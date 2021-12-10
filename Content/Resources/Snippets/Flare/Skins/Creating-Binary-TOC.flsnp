@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/HTML-Help.flsnp" />
+        <p>
+            <MadCap:snippetText src="Skin-Binary-TOC-Summary.flsnp" />
+        </p>
+        <p>If you use this feature, please keep in mind that binary content files:</p>
+        <ul>
+            <li>Do not work with external TOC files</li>
+            <li>Only support TOC book and entry icons (not custom icons)</li>
+            <li>Do not support TOC style options such as borders and plus/minus squares</li>
+            <li>Do not support custom fonts</li>
+        </ul>
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Create a Binary TOC</h2>
+        <ol>
+            <li>Create a TOC.</li>
+            <li>Open a Standard skin.</li>
+            <li>Select the <span class="Emphasis">HTML Help Setup</span> tab.</li>
+            <li>Click the <span class="Emphasis">TOC Options</span> button.</li>
+            <li>In the HTML Help TOC Options dialog, select <span class="Emphasis">Binary</span>. </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note" MadCap:conditions="Flare-Guides.Flare-Skins-Guide,General.Online-Only">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also create a binary index in Flare. See <MadCap:xref href="../../../../Flare/Skins/Other-Activities/HTML-Help/Creating-Binary-Index1.htm">Creating a Binary Index</MadCap:xref>.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">Make sure that you associate the skin with the target. See <MadCap:xref href="../../../../Flare/Skins/Process/Associating-Skins-Targets1.htm" target="" title="" alt="">Associating Skins with Targets</MadCap:xref>.</p>
+    </body>
+</html>

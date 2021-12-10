@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\Cheat-Sheets-User-Guides-Tutorials-Videos\Flare-Styles-Video10-Media-Queries-Tutorial.flmsp');">
+    <head>
+        <meta name="description" content="Editing styles for media queries, and then viewing how the styles work in the output." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Styles-UsingMediaQueries.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:concept term="FilterIntroduction" />Editing Styles for Media Queries</h1>
+        <p>Let's view the output to see the results of how media queries work. But first, let’s edit the h1 styles for each media query by giving them a vibrant background, so the breakpoints are easy to identify in the web browser.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="General.Print-Only" />
+        <h2>How to Edit a Media Query Style</h2>
+        <ol>
+            <li>Go back to the <span class="Emphasis">Styles.css</span> file.</li>
+            <li>In the left pane tree structure, select the <span class="Emphasis">h1</span> style.</li>
+            <li>In the local toolbar, select the <span class="Emphasis">Show</span> drop-down, and choose <span class="Emphasis">Show: All Properties</span>.</li>
+            <li>In the Medium: tablet window pane, expand the <span class="Emphasis">Background</span> property group. (The media query you give focus to becomes editable.)</li>
+            <li>
+                <p>Next to the top <span class="Emphasis">Background</span> property, type <span class="TypedEntry">aqua</span>, and press <span class="Emphasis">ENTER</span>. Notice the property is no longer inheriting its style from the default medium.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-MediaQuery-Styles1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>In the Medium: mobile window pane, locate the same <span class="Emphasis">Background</span> property.</li>
+            <li>
+                <p>Type <span class="TypedEntry">yellow</span>, and press <span class="Emphasis">ENTER</span>. Notice the property is no longer inheriting its style from the default medium or from the tablet media query.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-MediaQuery-Styles2.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">When working with media queries, the following is applicable regarding inheritance. When a screen is larger than a tablet, then styles associated with the default medium are used. Tablet-sized screens inherit from the default medium, but if there are any conflicts between files, then the styles from the tablet media query will win.  Mobile-sized screens inherit from the default medium and the tablet media query. If there are any conflicts, then the mobile media query will win.</p>
+            <p>
+                <MadCap:annotation MadCap:createDate="2020-11-16T09:38:32.0040699-08:00" MadCap:creator="pstoecklein" MadCap:initials="PS" MadCap:comment="Let's talk about this. I think it still needs to be more specific when talking about inheritance from the tablet media query." MadCap:editor="pstoecklein" MadCap:editDate="2020-11-16T09:39:06.3622918-08:00">Even though you may not see the inheritance reflected in the stylesheet when editing mediums and media queries, it is happening.</MadCap:annotation>
+            </p>
+        </div>
+        <h2>How to View Screen Sizes With a Web Browser</h2>
+        <p>Let’s build the HTML5 output to view the responsive output as it displays for the default web medium, and for the tablet and mobile media query breakpoint screen settings.</p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You don’t need to have a tablet or a mobile device on hand to test responsive output. It can all be simulated using the generated output in your web browser.</p>
+        </div>
+        <ol>
+            <li>
+                <p>Select the <span class="Emphasis">Project</span> ribbon. Then from the <span class="Emphasis">Build Primary</span> drop-down, select <span class="Emphasis">Build All-About-Austin-HTML5</span>. The Builds window pane opens at the bottom of the Flare interface, and the target begins to generate. When the build finishes successfully, the Build Progress cell turns dark green.</p>
+            </li>
+            <li>
+                <p>Double-click the row to open the HTML5 output, and view it in a regular browser with the window maximized. You will see the settings for the default web medium.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-Web-Screen.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click and drag the browser window to reduce it. Once the width of the browser window reaches 1200 pixels of width, the display changes to show the tablet media query (with a bright aqua background for the h1 style element).</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-Tablet-Screen.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you are working the styles tutorials in a sequential order without creating a new project each time, keep in mind that the background color and text do not respond as nicely as they do when working this tutorial individually. </p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="General.Print-Only" />
+            <li>
+                <p>Click and drag the browser window to reduce it further. Once the width of the browser window reaches 700 pixels, the display changes to show the mobile media query (with a yellow background for the h1 style element).</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Styles/Styles-Media-Queries/Styles5-Mobile-Screen.png" alt="" title="" class="MaxWidth95Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">As you reduce the size of the browser window, look for other differences as well. Noticeably, the table of contents disappears from the left side (and appears as a flyout menu in the upper-right corner), and the repositioning of the search bar.</p>
+                </div>
+            </li>
+            <li>
+                <p>Close the HTML5 output.</p>
+            </li>
+        </ol>
+    </body>
+</html>

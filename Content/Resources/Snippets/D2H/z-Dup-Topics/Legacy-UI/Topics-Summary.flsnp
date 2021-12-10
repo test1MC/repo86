@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>To make your Word document more useful for online output, it is broken up into smaller elements called "topics," which are based on the heading styles in the document. After you create a Doc-To-Help project and build some output from it<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> (see <MadCap:xref href="../../../../../D2H/Output/Building-Target.htm">Building Targets</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Output/Building-Target.htm">Building Targets</MadCap:xref>)</MadCap:conditionalText>, <MadCap:variable name="Other.Product" /> automatically creates multiple topics as a result, structuring the content for online documentation. Heading 1 styles in your Word document automatically become parent topics, and all of the Heading 2 styles under a Heading 1 style become subtopics. Just keep in mind that these topics are not created until you build at least one target in your project.</p>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Example</h2>
+        <p MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Following is an example of topics in Doc-To-Help.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="example">
+                    <p class="Example-Text">&#160;</p>
+                    <p>The following shows a project containing two Word documents, one that contains the main content and a second being used as a glossary. No targets in this project have been generated yet. Therefore, no topics exist right now.</p>
+                    <p>
+                        <img src="../../../../Images/D2H/Topics/Structure-Topics1.png" alt="" title="" class="MaxWidth90Percent" MadCap:conditions="Snippets.Snippet2" />
+                        <img src="../../../../Images/D2H/Topics/Empty-Topics-Panel.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" MadCap:conditions="Snippets.Snippet1" />
+                    </p>
+                    <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Getting-Started-Guide,D2H-Guides.D2H-Documents-Templates-Content" />
+                    <p>After building a target, notice that the Topics panel is populated, based on the heading styles in the Word source document. In this case, multiple topics were created from the two source documents. It also shows the structure of the table of contents that will be created in the output.</p>
+                    <p>
+                        <img src="../../../../Images/D2H/Topics/Structure-Topics2.png" alt="" title="" class="MaxWidth90Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+                    <p>The Contents window view in the Doc-To-Help Project panel in Word is also populated. You can use the Contents view in the Doc-To-Help Project panel to quickly view the structure of the document, jump to locations in the source document, or create links.</p>
+                    <p>
+                        <img src="../../../../Images/D2H/Topics/Structure-Topics11.png" alt="" title="" class="MaxWidth60Percent" />
+                    </p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content" />
+        <h2 MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Windows</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Windows</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Topics can be managed a number of ways in Doc-To-Help. This includes specifying topic properties and conditions, as well as creating indexes and tables of contents. </p>
+                <p>The primary location for working with topics is the Topics window.<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet1"> See <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Topics-Window-Pane.htm">Topics Window Panel (Word)</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Topics-Window.htm">Topics Window Panel (Doc-To-Help)</MadCap:xref>.</MadCap:conditionalText></p>
+                <p MadCap:conditions="General.Online-Only">The Topics window works along with <MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2">the Topics ribbon<MadCap:conditionalText MadCap:conditions="General.Online-Only,Snippets.Snippet2"> (see <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Ribbons-In-D2H.htm">Ribbons</MadCap:xref>)</MadCap:conditionalText>, as well as</MadCap:conditionalText> the following window panels in <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help and</MadCap:conditionalText> Word (in the Doc-To-Help Project panel):</p>
+                <ul MadCap:conditions="General.Online-Only">
+                    <li MadCap:conditions="Snippets.Snippet2">
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Index-Groups-Pane.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Index and Groups Window View (Doc-To-Help)</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet2">
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Contents-Pane.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Contents Window View (Doc-To-Help)</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet1">
+                        <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Contents-Window-Pane.htm">Contents Window View (Word)</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet1">
+                        <MadCap:xref href="../../../../../D2H/Interface/Window-Panes/Related-Topics-Window-Pane.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Related Topics Window View (Word)</MadCap:xref>
+                    </li>
+                    <li MadCap:conditions="Snippets.Snippet2">
+                        <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Interface/Related-Topics-Pane.htm" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Related Topics Window View (Doc-To-Help)</MadCap:xref>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2 MadCap:conditions="D2H-Guides.D2H-Documents-Templates-Content">Tasks Associated With Topics</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Tasks Associated With Topics</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are the primary tasks associated with topics:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Add, Rename, and Delete </span>Topics may be added, renamed, and deleted from a Word document using the Doc-To-Help ribbon. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Topics/Adding-Renaming-Deleting-Topics.htm">Adding, Renaming, and Deleting Topics</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Topics/Adding-Renaming-Deleting-Topics.htm">Adding, Renaming, and Deleting Topics</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Assign Topics to Index Keywords </span>Within your Doc-To-Help project, you can create index keywords and assign topics to them. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Indexes/Creating-Index-Keywords-Project.htm">Creating Index Keywords in a Project</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Indexes/Creating-Index-Keywords-in-Project.htm">Creating Index Keywords in a Project</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Create Custom Tables of Contents </span>You can create a custom table of contents (you can even have different TOCs for different targets). <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/TOCs/Creating-TOC.htm">Creating a Table of Contents</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/TOCs/Creating-TOC.htm">Creating a Table of Contents</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Print or Export Topic List </span>You may print your entire topic list, and also export it to Microsoft<span class="Registered-Trademark">®</span> Excel<span class="Registered-Trademark">®</span> or text (TXT) if you wish. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Topics/Printing-Exporting-Topic-List.htm">Printing and Exporting the Topic List</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Topics/Printing-Topic-List.htm">Printing the Topic List</MadCap:xref> and <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Topics/Exporting-Topic-List.htm">Exporting the Topic List</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Set D2HML Topic Properties </span>Specific topic properties may be set using D2HML. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Topics/Setting-D2HML-Topic-Properties.htm">Setting D2HML Topic Properties</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Topics/Setting-D2HML-Topic-Properties.htm">Setting D2HML Topic Properties</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">View and Change Topic Properties </span>The properties of specific topics—for example, the topic title and type (conceptual, procedural, etc.), and condition—may be reviewed and edited. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/Topics/Viewing-Changing-Topic-Properties.htm">Viewing/Changing Topic Properties</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/Topics/Viewing-Changing-Topic-Properties.htm">Viewing/Changing Topic Properties</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

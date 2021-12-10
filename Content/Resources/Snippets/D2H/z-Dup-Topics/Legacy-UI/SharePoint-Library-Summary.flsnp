@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1723" MadCap:lastWidth="1403">
+    <body>
+        <p>Uploading your content to a SharePoint Library lets you take advantage of SharePoint’s management and workflow features. Doc-To-Help works with SharePoint’s check in/check out features and permissions, so you get a complete source control and version control system.</p>
+        <p>A wizard will take you through the steps of uploading your documents to a SharePoint Library. After they are uploaded, they can be checked in and out of the SharePoint Library from Doc-To-Help, using right-click menus. It is not necessary&#160; to open SharePoint to access your documents. </p>
+        <p>Doc-To-Help automatically checks for document updates on your machine, and those in the SharePoint Library, and suggests documents that need to be synchronized. You can do this manually by clicking the Synchronize button. You also have the option to merge documents if the local Doc-To-Help copy and the SharePoint Library copy differ.</p>
+        <p>You can temporarily turn off synchronization using the Work Offline button.</p>
+        <p>
+            <img id="_x0000_i1025" src="../../../../Images/D2H/SharePoint/Collaboration-Ribbon-Group.png" height="76" class="MaxWidth100Percent" MadCap:conditions="Snippets.Snippet2" />
+            <img src="../../../../Images/D2H/SharePoint/SharePoint-Documents.png" class="MaxWidth100Percent" style="mc-thumbnail: popup;" MadCap:conditions="Snippets.Snippet1" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Tasks Associated With the SharePoint Library</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Following are the primary tasks for using the SharePoint Library:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Add SharePoint Documents to Project </span>You can add any existing&#160; document stored in a SharePoint Library to your Doc-To-Help projects. The document can remain in its existing library after import for check in/check out, or it can be downloaded with no connection to SharePoint.  <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Adding-SharePoint-Library-Docs-Project.htm">Adding SharePoint Library Documents to a Doc-To-Help Project     </MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Adding-SharePoint-Library-Docs-to-Project.htm">Adding SharePoint Library Documents to a Doc-To-Help Project</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Check Documents In and Out </span>You can check documents in and out of the SharePoint Library to work on them. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Checking-Docs-In-Out-SharePoint-Library.htm">Checking Documents In and Out of the SharePoint Library</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Checking-Docs-In-Out-SharePoint-Library.htm">Checking Documents In and Out of the SharePoint Library</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Merge Documents </span>If both versions of a document (the SharePoint Library version and the version on your machine—the local copy) are different, and you trying to save, open, close, or synchronize a single Word document, a dialog will give you the option to overwrite one of the documents, or merge the two documents. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Merging-Word-Documents.htm">Merging Word Documents</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Stop Sharing a Document </span>If you no longer wish to share a document with the SharePoint Library, you can stop sharing using the right-click menu. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Stop-Sharing-Document.htm">Stop Sharing a Document        </MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Stop-Sharing-Document.htm">Stop Sharing a Document        </MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Synchronize Documents </span>Doc-To-Help automatically synchronizes the documents changed in the SharePoint Library with those on your machine. However, you can also synchronize documents manually. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Synchronizing-Documents.htm">Synchronizing Documents        </MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Synchronizing-Documents.htm">Synchronizing Documents        </MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Upload Project Documents to SharePoint </span>You can upload Doc-To-Help documents to a SharePoint Library. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Uploading-Documents-SharePoint-Library.htm">Uploading Documents to a SharePoint Library</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Uploading-Documents-to-SharePoint-Library.htm">Uploading Documents to a SharePoint Library</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Work Offline </span>You can turn off the synchronization with the SharePoint Library server and work offline. <MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">See <MadCap:xref href="../../../../../D2H/SharePoint/Working-Offline.htm">Working Offline        </MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">See <MadCap:xref href="../../../../../D2H/Legacy-HTML5/SharePoint/Working-Offline.htm">Working Offline        </MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>Notes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="note">Once a document has been shared, it cannot be renamed or converted to HTML5.</p>
+                <p class="note">You can edit Word documents—even the source documents in your project—while Doc-To-Help builds a target. If you choose to edit a source document that has been shared to SharePoint, it can only be edited locally and all automatic operations with the SharePoint server are disabled.</p>
+                <p class="note">You cannot share  D2H files.</p>
+                <div class="note">
+                    <p class="Note-Text">If you change your SharePoint password after uploading documents, you will no longer be able to synchronize your documents. You can fix this by clearing your Windows credentials.</p>
+                    <ol>
+                        <li>In Windows, open the <span class="Emphasis">Control Panel &gt; User Accounts and Family Safety &gt; Credential Manager</span>. (This is the path for Windows 7.)</li>
+                        <li>Find the SharePoint Server credentials and remove them.</li>
+                        <li>Restart <MadCap:conditionalText MadCap:conditions="Snippets.Snippet2">Doc-To-Help</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Snippets.Snippet1">Word</MadCap:conditionalText>. <br /></li>
+                    </ol>
+                    <p>You will be prompted to enter your new password the next time you try to connect to SharePoint.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="D2H-Guides.D2H-Project-Management-Guide" />
+    </body>
+</html>

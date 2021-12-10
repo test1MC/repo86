@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Skins.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Ways to setting controls in standard skins for output." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:concept term="FilterDesign" />
+            <MadCap:keyword term="MadCap Feedback;Server:MadCap Feedback" />
+            <MadCap:keyword term="Styles:WebHelp;Output:WebHelp;Skins:styles;Skins:WebHelp;WebHelp:styles;Styles:WebHelp Plus;Output:WebHelp Plus;Skins:WebHelp Plus;WebHelp Plus:styles;Styles:WebHelpAIR;Skins:WebHelp AIR;WebHelp AIR:styles;Styles:HTML Help;Output:HTML Help;Skins:HTML Help;HTML Help:styles" />
+            <MadCap:keyword term="Controls:styles" />Controls  in Standard Skins</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML-Help-WebHelp-WH-Plus.flsnp" />
+        <p>Various controls may be part of the skin in your output, such as buttons, labels, and the input boxes. Usually these controls are displayed within the various accordion items (e.g., the search box, "Search" button, and "Add topic to favorites" button that are shown at the top of the Search accordion item). <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Skins-Guide">See <MadCap:xref href="../Other-Activities/General/Specifying-Tabs-Accordion-Items-Include-Output-Window.htm">Specifying Navigation Elements to Include in the Output Window</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>Styles for many of the controls are supported only in <MadCap:variable name="Outputs.WebHelp" /> and <MadCap:variable name="Outputs.WebHelp Plus" /> outputs. The controls related to MadCap Feedback are supported only in <MadCap:variable name="Outputs.WebHelp" />, <MadCap:variable name="Outputs.WebHelp Plus" />, and <MadCap:variable name="Outputs.HTMLHelp" />. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Feedback/MadCap-Feedback.htm">MadCap Feedback</MadCap:xref>.</MadCap:conditionalText></p>
+        <p>
+            <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Controls1.png" class="MaxWidth80Percent" />
+        </p>
+        <h2>How to Specify Style Settings for Controls</h2>
+        <ol>
+            <li>Open a Standard skin.</li>
+            <li>Select the <span class="Emphasis">Styles</span> tab.</li>
+            <li>
+                <p>In the <span class="Emphasis">Styles</span> section, expand the <span class="Emphasis">Control</span> node.</p>
+                <p>
+                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Controls2.png" class="MaxWidth60Percent" />
+                </p>
+            </li>
+            <li>
+                <p>Select the item that you want to edit. If you want the setting(s) to be applied to all of the items, select the <span class="Emphasis">Control</span> node itself.</p>
+                <p>The items under this node represent the different kinds of controls that may be found in your output. </p>
+                <table style="mc-table-style: url('../../../Resources/TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;" class="TableStyle-Fancy" cellspacing="0">
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 20%;" />
+                    <col class="TableStyle-Fancy-Column-Regular" style="width: 80%;" />
+                    <tbody>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Add Search To Favorites Button</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the button at the top of the Search pane that lets users add their search string to the Favorites pane.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Add-Search-Fav.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Comment Node</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the area that shows MadCap Feedback comments in the output. In order to use this feature, you must enable MadCap Feedback. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Feedback/MadCap-Feedback.htm">MadCap Feedback</MadCap:xref>.</MadCap:conditionalText></p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Comment-Node.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Comment Reply Node</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the area that shows MadCap Feedback comments that have received replies. In order to use this feature, you must enable MadCap Feedback. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Feedback/MadCap-Feedback.htm">MadCap Feedback</MadCap:xref>.</MadCap:conditionalText></p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Comment-Reply-Node.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Comments Add Button</p>
+                                <p class="TableTextEmphasisPreWhiteSpace">Comments Refresh Button</p>
+                                <p class="TableTextEmphasisPreWhiteSpace">Comments Reply Button</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are buttons at the top of the Comments area that let users add, reply to, and refresh MadCap Feedback comments. In order to use this feature, you must enable MadCap Feedback. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Feedback/MadCap-Feedback.htm">MadCap Feedback</MadCap:xref>.</MadCap:conditionalText></p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Comments-Add.png" class="MaxWidth80Percent" />
+                                </p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Comments-Refresh.png" class="MaxWidth80Percent" />
+                                </p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Comments-Reply.png" class="MaxWidth80Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">DropDown Image</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the hotspot image that is used for drop-down effects.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Control-Drop-Down.png" class="MaxWidth80Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Empty Search Favorites Label</p>
+                                <p class="TableTextEmphasisPreWhiteSpace">Empty Topic Favorites Label</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are the text labels that users see if they open the Favorites pane and no favorite searches or topics have yet been saved.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Empty-Search-Favorites.png" class="MaxWidth85Percent" />
+                                </p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Empty-Topic-Favorites.png" class="MaxWidth85Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Expanding Image</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the hotspot image that is used for expanding text effects.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Control-Expanding.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Index Search Box</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the field in the Index pane where users enter words to search for in the index. You can provide a floating tooltip for this field, which displays when users hover the cursor over it.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Index-Search-Box.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Messages</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are the text labels that users see when certain messages are displayed (e.g., if they search for a term and no topics are found).</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Messages.png" class="MaxWidth85Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Navigation Link Bottom</p>
+                                <p class="TableTextEmphasisPreWhiteSpace">Navigation Link Top</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are the navigation links that users may see at the top or bottom of topics if they open those topics as standalone files. In order to add these links to the output, you must enable them on the WebHelp Setup tab of the Skin Editor. <MadCap:conditionalText MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Skins-Guide">See <MadCap:xref href="../Other-Activities/General/Showing-Navigation-Links-Standalone-Topics.htm">Showing Navigation Links in Standalone Topics</MadCap:xref>.</MadCap:conditionalText></p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Navigation-Links-Bottom.png" class="MaxWidth90Percent" />
+                                </p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Navigation-Links-Top.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Search Box</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the field in the Search pane where users enter words to include in a search. You can provide a floating tooltip for this field, which displays when users hover the cursor over it.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Search-Box.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Search Button</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">This is the button in the Search pane that people use to initiate a search.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Search-Button.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Search Favorites Delete Button</p>
+                                <p class="TableTextEmphasisPreWhiteSpace">Topic Favorites Delete Button</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are the buttons in the Favorites pane that people use to delete saved search strings or topics.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Search-Favorites-Delete.png" class="MaxWidth90Percent" />
+                                </p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Topic-Favorites-Delete.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Search Favorites Label</p>
+                                <p class="TableTextEmphasisPreWhiteSpace">Topic Favorites Label</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are the labels in the Favorites pane that are shown at the top of the favorite searches and topics.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Search-Favorites-Label.png" class="MaxWidth90Percent" />
+                                </p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Topic-Favorites-Label.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Search Filters Label</p>
+                                <p class="TableTextEmphasisPreWhiteSpace">Search Unfiltered Label</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are the labels in the Search pane that are used to identify search filters. In order to see these labels in the output, you must include search filters in your project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../Search/Search-Filter-Sets/Creating-Search-Filters.htm">Creating Search Filters</MadCap:xref>.</MadCap:conditionalText></p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Search-Filters-Label.png" class="MaxWidth90Percent" />
+                                </p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Search-Unfiltered-Label.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyE-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Search Results</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyD-Regular-LightRows">
+                                <p class="TableText">These are the labels in the Search pane that are used to identify search results.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Skin-Styles-Search-Results3.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Fancy-Body-LightRows">
+                            <td class="TableStyle-Fancy-BodyB-Regular-LightRows" style="font-weight: bold;">
+                                <p class="TableTextEmphasisPreWhiteSpace">Toggler Image</p>
+                            </td>
+                            <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                                <p class="TableText">This is the hotspot image that is used for toggler effects.</p>
+                                <p MadCap:conditions="General.Online-Only">
+                                    <img src="../../../Resources/Images/Flare/Skins/Control-Toggler.png" class="MaxWidth90Percent" />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+            <li>Select the <span class="Emphasis">Property Groups</span> or <span class="Emphasis">Alphabetical List</span> option to display the properties for the style item.</li>
+            <li>
+                <p>In the <span class="Emphasis">Properties</span> section, set the values for the properties that you want modify.</p>
+                <p class="Subheading">Background Color </p>
+                <p>To change the background color of the item:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right and change the value in the <span class="Emphasis">Background Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">Body Font Color </p>
+                <p> To change the color of the font used for the body of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">BodyFont</span> property group on the right and change the value in the <span class="Emphasis">Body Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">Body Font Family </p>
+                <p>To select a specific font family (e.g., Arial, Tahoma, Verdana) used for the body of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">BodyFont</span> property group on the right and change the value in the <span class="Emphasis">Body Font Family</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Family.flsnp" /></p>
+                <p class="Subheading">Body Font Size</p>
+                <p>To change the size of the font used for the body of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">BodyFont</span> property group on the right and change the value in the <span class="Emphasis">Body Font Size</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Size.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Body Font Style</p>
+                <p> To change the style of the font (e.g., make it italic) used for the body of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">BodyFont</span> property group on the right and change the value in the <span class="Emphasis">Body Font Style</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Style.flsnp" /></p>
+                <p class="Subheading">Body Font Weight</p>
+                <p> To change the weight of the font (e.g., make it bold) used for the body of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">BodyFont</span> property group on the right and change the value in the <span class="Emphasis">Body Font Weight</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Weight.flsnp" /></p>
+                <p class="Subheading">Collapsed Alt Text</p>
+                <p> To change the alternate (alt) text that is associated with the item when it is in a collapsed state:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">CollapsedAltText</span> field.</p>
+                <p class="Subheading">Expanded Alt Text</p>
+                <p> To change the alternate (alt) text that is associated with the item when it is in an expanded state:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">ExpandedAltText</span> field.</p>
+                <p class="Subheading">Font Background Color</p>
+                <p> To change the color of the area behind the font:</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Background Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Font Color</p>
+                <p>To change the color of the font:</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">Font Family</p>
+                <p>To select a specific font family (e.g., Arial, Tahoma, Verdana):</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Font Family</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Family.flsnp" /></p>
+                <p class="Subheading">Font Size</p>
+                <p> To change the size of the font:</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Font Size</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Size.flsnp" /></p>
+                <p class="Subheading">Font Style</p>
+                <p>To change the style of the font (e.g., make it italic):</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Font Style</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Style.flsnp" /></p>
+                <p class="Subheading">Font Weight</p>
+                <p>To change the weight of the font (e.g., make it bold):</p>
+                <p>Expand the <span class="Emphasis">Font</span> property group on the right and change the value in the <span class="Emphasis">Font Weight</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Weight.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Hover Icon</p>
+                <p>To select a different icon image to be used when the user hovers the cursor over the item:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and select an image from the <span class="Emphasis">Hover Icon</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Icon-Image-Description.flsnp" /></p>
+                <p class="Subheading">Icon</p>
+                <p>To select a different icon image:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and select an image from the <span class="Emphasis">Icon</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Icon-Image-Description.flsnp" /></p>
+                <p class="Subheading">Label</p>
+                <p> To change the text that appears on the item:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Label</span> field.</p>
+                <p class="Subheading">Messages Invalid Token</p>
+                <p>To change the text for the message that displays when an invalid search is performed:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Invalid Token</span> field.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If a user wants to search for "topics and images," but does not enter the search string correctly (e.g., entering "topics and," leaving off the second term), an invalid token will result.</p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Messages Loading</p>
+                <p>To change the text for the message that displays when the search pane is loading data:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Loading</span> field.</p>
+                <p class="Subheading">Messages Loading Alternate Text</p>
+                <p> To change the alternate text for the message that displays when the search pane is loading data—can be used to describe the image being loaded<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../Accessibility/Accessibility.htm">Accessibility</MadCap:xref>)</MadCap:conditionalText>:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Loading Alternate Text</span> field.</p>
+                <p class="Subheading">Messages No Topics Found</p>
+                <p>To change the text for the message that displays when no topics are found in a search:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">No Topics Found</span> field.</p>
+                <p class="Subheading">Messages Quick Search External</p>
+                <p> To change the text for the message that displays when the "Quick Search" feature is disabled in external topics. </p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Quick Search External</span> field.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The default message is "Quick search is disabled in external topics." You can modify the message to say whatever you want, or to localize it for your audience. </p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Messages Quick Search IE 5.5</p>
+                <p>To change the text for the message informing users that the "Quick Search" feature is disabled in Internet Explorer 5.5 (due to limitations with that browser): </p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Quick Search IE 5.5</span> field.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can modify the message to say whatever you want, or to localize it for your audience. </p>
+                </div>
+                <p class="Subheading">Messages Remove Highlight IE 5.5</p>
+                <p>To change the text for the message informing users that the "Search Highlight Removal" feature is disabled in Internet Explorer 5.5 (due to limitations with that browser):</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Remove Highlight IE 5.5</span> field.</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can modify the message to say whatever you want, or to localize it for your audience. </p>
+                </div>
+                <p class="Subheading">Pressed Icon</p>
+                <p>To select a different icon image to be used when the item is pressed:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and select an image from the <span class="Emphasis">Pressed Icon</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Icon-Image-Description.flsnp" /></p>
+                <p class="Subheading">Rank Label</p>
+                <p>To change the text that appears at the top of the column used to display the ranking of topics found after a search:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Rank Label</span> field.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Subject Font Color</p>
+                <p> To change the color of the font used for the subject of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">SubjectFont</span> property group on the right and change the value in the <span class="Emphasis">Subject Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">Subject Font Family</p>
+                <p>To select a specific font family (e.g., Arial, Tahoma, Verdana) used for the subject of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">SubjectFont</span> property group on the right and change the value in the <span class="Emphasis">Subject Font Family</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Family.flsnp" /></p>
+                <p class="Subheading">Subject Font Size</p>
+                <p>To change the size of the font used for the subject of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">SubjectFont</span> property group on the right and change the value in the <span class="Emphasis">Subject Font Size</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Size.flsnp" /></p>
+                <p class="Subheading">Subject Font Style</p>
+                <p> To change the style of the font (e.g., make it italic) used for the subject of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">SubjectFont</span> property group on the right and change the value in the <span class="Emphasis">Subject Font Style</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Style.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Subject Font Weight</p>
+                <p> To change the weight of the font (e.g., make it bold) used for the subject of a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">SubjectFont</span> property group on the right and change the value in the <span class="Emphasis">Subject Font Weight</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Weight.flsnp" /></p>
+                <p class="Subheading">Table Summary</p>
+                <p> To change the text for a table summary, which is used by screen readers to assist with accessibility<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../Accessibility/Accessibility.htm">Accessibility</MadCap:xref>)</MadCap:conditionalText>: </p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Table Summary</span> field.</p>
+                <p class="Subheading">Text Image Relation</p>
+                <p>To select the location of a label in relation to the image used for the item:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and select an option from the <span class="Emphasis">Text Image Relation</span> field. You can select any of the following:<ul><li><span class="SetOffSecondLevel">ImageAboveText</span> This displays the button image on top of the label text.</li><li><span class="SetOffSecondLevel">ImageBeforeText</span> This displays the button image to the left of the label text.</li><li><span class="SetOffSecondLevel">Overlay</span> This displays the label text and the button image in the same space.</li><li><span class="SetOffSecondLevel">TextAboveImage</span> This displays the label text on top of the button image.</li><li><span class="SetOffSecondLevel">TextBeforeImage</span> This displays the label text to the left of the button image.</li></ul></p>
+                <p class="Subheading">Time Stamp Font Color</p>
+                <p> To change the color of the font used for the time stamp in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">TimestampFont</span> property group on the right and change the value in the <span class="Emphasis">Timestamp Color</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Time Stamp Font Family</p>
+                <p>To select a specific font family (e.g., Arial, Tahoma, Verdana) used for the time stamp in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">TimestampFont</span> property group on the right and change the value in the <span class="Emphasis">Timestamp Font Family</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Family.flsnp" /></p>
+                <p class="Subheading">Time Stamp Font Size</p>
+                <p> To change the size of the font used for the time stamp in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">TimestampFont</span> property group on the right and change the value in the <span class="Emphasis">Timestamp Font Size</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Size.flsnp" /></p>
+                <p class="Subheading">Time Stamp Font Style</p>
+                <p>To change the style of the font (e.g., make it italic) used for the time stamp in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">TimestampFont</span> property group on the right and change the value in the <span class="Emphasis">Timestamp Font Style</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Style.flsnp" /></p>
+                <p class="Subheading">Time Stamp Font Weight</p>
+                <p> To change the weight of the font (e.g., make it bold) used for the time stamp in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">TimestampFont</span> property group on the right and change the value in the <span class="Emphasis">Timestamp Font Weight</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Weight.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">Title Label</p>
+                <p>To change the text that appears at the top of the column used to display the names of topics found after a search:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Title Label</span> field.</p>
+                <p class="Subheading">Tooltip</p>
+                <p> To change the tooltip text that appears when users hover the cursor over the item:</p>
+                <p>Expand the <span class="Emphasis">General</span> property group on the right side of the editor and enter new text in the <span class="Emphasis">Tooltip</span> field.</p>
+                <p class="Subheading">User Info Font Color</p>
+                <p> To change the color of the font used for the user information in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">UserInfoFont</span> property group on the right and change the value in the <span class="Emphasis">UserInfoColor</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Styles/Select-Color.flsnp" /></p>
+                <p class="Subheading">User Info Font Family</p>
+                <p>To select a specific font family (e.g., Arial, Tahoma, Verdana) used for the user information in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">UserInfoFont</span> property group on the right and change the value in the <span class="Emphasis">User Info Font Family</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Family.flsnp" /></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Skins-Guide,Flare-Guides.Flare-Styles-Guide" />
+                <p class="Subheading">User Info Font Size</p>
+                <p>To change the size of the font used for the user information in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">UserInfoFont</span> property group on the right and change the value in the <span class="Emphasis">User Info Font Size</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Size.flsnp" /></p>
+                <p class="Subheading">User Info Font Style</p>
+                <p> To change the style of the font (e.g., make it italic) used for the user information in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">UserInfoFont</span> property group on the right and change the value in the <span class="Emphasis">User Info Font Style</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Style.flsnp" /></p>
+                <p class="Subheading">User Info Font Weight</p>
+                <p> To change the weight of the font (e.g., make it bold) used for the user information in a MadCap Feedback comment:</p>
+                <p>Expand the <span class="Emphasis">UserInfoFont</span> property group on the right and change the value in the <span class="Emphasis">User Info Font Weight</span> field. <MadCap:snippetText src="../../../Resources/Snippets/Flare/Fonts/Select-Font-Weight.flsnp" /></p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

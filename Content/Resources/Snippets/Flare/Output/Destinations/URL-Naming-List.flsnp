@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li><span class="Emphasis">Generate a unique URL </span>The URL is generated from the topic title followed by a unique hash number.  This number is generated based on the destination name, project name, target name, and relative URL of the topic in the output folder.  This is the same as the method used previously.</li>
+            <li><span class="Emphasis">Use CSH identifiers </span>The URL is generated from the context-sensitive Help (CSH)&#160;identifiers found in the alias file associated with the target (on the Advanced tab of the Target Editor).</li>
+            <li>
+                <p><span class="Emphasis">Topic title with suffix </span>The URL generated will use the topic title followed by a hyphen and suffix set in the destination file. </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your topic title is <span class="Emphasis">Smart Phones</span>, and you enter <span class="Emphasis">5g</span> as the suffix. The end result is:</p>
+                    <p class="EmphasisItalic">Smart-Phones-5g</p>
+                </div>
+            </li>
+            <li>
+                <p><span class="Emphasis">Topic title with prefix </span>The URL generated will use the prefix set in the destination file followed by a hyphen and  topic title.  </p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your custom prefix is <span class="Emphasis">5g</span>, and your topic title is <span class="Emphasis">Smart Phones</span>. The end result is:</p>
+                    <p class="EmphasisItalic">5g-Smart-Phones</p>
+                </div>
+            </li>
+            <li>
+                <p><span class="Emphasis">Topic path with suffix </span>The URL generated will use the topic path followed by a hyphen and suffix set in the destination file.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your topic path is <span class="Emphasis">Content &gt; Computers &gt; Smart Phones.htm</span>, and you enter <span class="Emphasis">5g</span> as the suffix. The end result is:</p>
+                    <p class="EmphasisItalic">Content-Computers-Smart-Phones-5g</p>
+                </div>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <li>
+                <p><span class="Emphasis">Topic path with prefix </span>The URL generated will use the prefix set in the destination file followed by a hyphen and  topic title.</p>
+                <div class="example">
+                    <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">Your custom prefix is <span class="Emphasis">5g</span>, and your topic path is <span class="Emphasis">Content &gt; Computers &gt; Smart Phones.htm</span>. The end result is:</p>
+                    <p class="EmphasisItalic">5g-Content-Computers-Smart-Phones</p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

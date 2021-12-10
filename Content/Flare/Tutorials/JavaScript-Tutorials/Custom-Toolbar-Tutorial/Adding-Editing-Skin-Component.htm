@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Custom-Toolbar.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="The script you will be inserting into the project depends on some special styles." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Custom-Toolbar.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:JavaScript;JavaScript:tutorial;Toolbars:tutorial;Tutorials:toolbar" />
+            <MadCap:concept term="FilterIntroduction" />Adding and Editing a Skin Component</h1>
+        <p>Now you need to add a skin component to the project and modify it.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Flare-Guides.Flare-Custom-Toolbar-Tutorial" />
+        <h2>How to Add a Toolbar Skin Component</h2>
+        <ol>
+            <li>In the Project Organizer, right-click the <span class="Emphasis">Skins</span> folder and select <span class="Emphasis">Add Skin</span>.</li>
+            <li>
+                <p>In the dialog, select <span class="Emphasis">HTML5 Component - Topic Toolbar</span>, and in the <span class="Emphasis">File Name</span> field enter <span class="TypedEntry">Toolbar</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar3.png" alt="" title="" class="MaxWidth60Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">Add</span>. The file is added to the Project Organizer and opens to the right.</li>
+            <li>In the Topic Toolbar Skin Editor, select the <span class="Emphasis">Setup</span> tab.</li>
+            <li>
+                <p>The "PreviousTopic" and "NextTopic" buttons are already added on the right side of the editor, so you don't need to select them. But let's remove the other button. Double-click <span class="Emphasis">CurrentTopicIndex</span>, moving it to the left side.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar4.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Add Custom Buttons</h2>
+        <ol>
+            <li>
+                <p>At the lower-left of the editor, click <img src="../../../../Resources/Images/Flare/Interface/Buttons/Add-Custom-Toolbar-Item-btn.png" alt="" title="" class="ReduceButtonSize" />.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar5.png" alt="" title="" />
+                </p>
+            </li>
+            <li>In the dialog, enter <span class="TypedEntry">Email</span> as the name of the new button, then click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <p>On the left side of the editor, double-click <span class="Emphasis">Email</span> to move it to the right. Then at the bottom of the right side, click <img src="../../../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Down-btn.png" alt="" title="" class="ReduceButtonSize" /> to move it to the bottom of the list of buttons. This means the button will display third in the toolbar.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar6.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Click <img src="../../../../Resources/Images/Flare/Interface/Buttons/Add-Custom-Toolbar-Item-btn.png" alt="" title="" class="ReduceButtonSize" /> again.</li>
+            <li>In the dialog, enter <span class="TypedEntry">Help</span> as the name of the new button, then click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <p>On the left side of the editor, double-click <span class="Emphasis">Help</span> to move it to the right. Then at the bottom of the right side, click <img src="../../../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Down-btn.png" alt="" title="" class="ReduceButtonSize" /> to move it to the bottom of the list of buttons. This means the button will display fourth in the toolbar.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar7.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <h2>How to Add JavaScript to the Custom Buttons</h2>
+        <ol>
+            <li>
+                <p>Copy the following.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">function sendMail() {
+var email=('myname@company.com');
+var ccemail=('othername@company.com');
+var subject="Feedback from topic: " + document.title;
+var body="Feedback from topic: " + document.title + " (" + window.location.href + ")";
+var link = "mailto:" + email
+		+ "?cc=" + ccemail
+		+ "&amp;subject=" + subject
+		+ "&amp;body=" + body;
+window.location.href = link;
+}</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </li>
+            <li>On the right side of the Topic Toolbar Skin Editor, select <span class="Emphasis">Email</span>.</li>
+            <li>
+                <p>On the lower-right, click <span class="Emphasis">Edit</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Custom-Toolbar-Tutorial" />
+            <li>
+                <p>In the dialog, paste the code that you copied.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar9.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Let's leave the code as it is, but in an actual project, you would replace the email addresses, as well as the subject and body text, with whatever you want.</p>
+                </div>
+            </li>
+            <li>Click <span class="Emphasis">OK</span>. The code displays on the right side of the editor.</li>
+            <li>On the left side of the editor, select the <span class="Emphasis">Styles</span> tab.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Custom-Toolbar-Tutorial" />
+            <li>
+                <p>Expand <span class="Emphasis">Toolbar Button</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar10.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Custom-Toolbar-Tutorial" />
+            <li>
+                <p>Scroll down and expand <span class="Emphasis">Email &gt; Background</span>.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar11.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Custom-Toolbar-Tutorial" />
+            <li>To the right of the <span class="Emphasis">Image</span> field, click <img src="../../../../Resources/Images/Shared/Co-Fl/Interface/Buttons/Insert-Image-btn2.png" alt="" title="" class="ReduceButtonSize" />.</li>
+            <li>
+                <p>In the dialog, click <img src="../../../../Resources/Images/Shared/All/Interface/Buttons/Browse-Ellipses-btn.png" class="ReduceButtonSize" />, then find and select the <span class="Emphasis">Email</span> image you downloaded and saved to your computer. After you find it in the dialog, select <span class="Emphasis">Open</span>, then <span class="Emphasis">OK</span>. The image file is shown in the field.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar12.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Expand <span class="Emphasis">Event</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Custom-Toolbar-Tutorial" />
+            <li>
+                <p>Copy the following extra piece of JavaScript and paste it into the <span class="Emphasis">Click</span> field.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">sendMail(); return false</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>Expand <span class="Emphasis">Help</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Custom-Toolbar-Tutorial" />
+            <li>
+                <p>Repeat the steps above to select the <span class="Emphasis">Help</span> image you downloaded, and copy/paste the following JavaScript into the <span class="Emphasis">Event &gt; Click</span> field.</p>
+                <MadCap:codeSnippet>
+                    <MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">window.open('https://docs.madcapsoftware.com/doc-team/Source-Control.pdf'); return</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Custom-Toolbar/Custom-Toolbar14.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This particular piece of JavaScript opens a MadCap Software PDF. But in an actual project, you can replace the URL with your own.</p>
+                </div>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Build and view the <span class="Emphasis">All-About-Austin-HTML5</span> target.</li>
+            <li>Open any topic other than the Home page.</li>
+            <li>Click the buttons in the toolbar at the top of any topic to test them.</li>
+        </ol>
+        <div MadCap:conditions="General.Online-Only">
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Ta-Da.flsnp" />
+            <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Tutorials/Tutorial-Congratuations-End.flsnp" />
+        </div>
+    </body>
+</html>

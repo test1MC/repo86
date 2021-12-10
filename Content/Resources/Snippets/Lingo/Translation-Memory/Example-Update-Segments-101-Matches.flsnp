@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+            <p>Let's say you have a source file with the term "Car." Now suppose this term and has already been translated to "Carro" in Spanish and added to the TM. When you click in a segment with the term "Car," Lingo shows that it has a 101% match.</p>
+            <p>
+                <img src="../../../Images/Lingo/Translation-Memory/Updating-Segments-101-Matches1.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+            <p>If you change the translation to "Coche," confirm it, click back in that cell, and look down at the TM Suggestions area, you will see both the old translation (Carro) and the new one (Coche) as 101% matches.</p>
+            <p>
+                <img src="../../../Images/Lingo/Translation-Memory/Updating-Segments-101-Matches2.png" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Lingo-Guides.Lingo-Translation-Guide" />
+            <p>This is the default behavior, which is what happens when the check box in the Options dialog is <span class="EmphasisItalic">not</span> selected.</p>
+            <p>If you select the check box in the Options dialog, create a new project, and follow the same steps, you would see only one 101% match, the new one (Coche).</p>
+            <p>
+                <img src="../../../Images/Lingo/Translation-Memory/Updating-Segments-101-Matches3.png" class="MaxWidth90Percent" />
+            </p>
+        </div>
+    </body>
+</html>

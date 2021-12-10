@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <p>After opening the Reports page, notice the various types of reports and statistics on the left side of the page.</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Reports/Reports8.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Critical Reports</p>
+                <MadCap:snippetBlock src="Critical-Reports.flsnp" />
+                <MadCap:snippetBlock src="Report-Types.flsnp" />
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Stats</p>
+                <MadCap:snippetBlock src="Statistics.flsnp" />
+            </li>
+            <li>
+                <p>To see data for a particular report or statistical category, click it. The area to the right is then populated with a chart and grid.</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Reports/Reports9.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+                <p>The chart shows a count history of the item, with each bar representing a different push of changes to Central. You might see many bars with the same date, because you might have pushed changes to Central multiple times throughout the day.</p>
+                <p>A drop-down lets you choose how many of the most recent scans to show in the chart (default is 10). If you hover over a bar, you will see the date, time, and count for a particular scan of the selected item.</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Reports/Reports10.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+                <p>Unlike the chart, the grid below it does not show a history of pushes. Instead, it shows results for the most recent scan and displays all of the instances of the selected item in the project. For example, if you selected the Broken Links report, each row of the grid will show a broken link that was found in the latest scan of the project. The Folder and File columns on the left tell you where the issue was found. The rest of the columns are different for each type of report and provide information to track down the problem.</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Reports/Reports11.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+                <p>You can click the arrow in any column heading to sort the information according to that column.</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Reports/Reports12.png" alt="" title="" class="MaxWidth100Percent">
+                    </img>
+                </p>
+                <p>When you select a statistical category, the grid will show a count history for all of the categories. However, the chart above represents the count history for only the selected item.</p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Reports/Reports13.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../../Resources/TemplatePages/Flare/Cheat-Sheets-User-Guides/Flare-Search.flmsp');">
+    <head>
+        <meta name="description" content="With the IIS Web Server configured, it is necessary to gather the required files from Flare and copy them to the remote server." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Search:Elasticsearch;Elasticsearch:installation" />Gathering Required Files for the Remote Server</h1>
+        <p>With the IIS Web Server configured, it is necessary to gather the required files from Flare and copy them to the remote server. </p>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Copy Files to the Remote Server</h2>
+        <ol>
+            <li>From the computer where Flare is installed, use Windows File Explorer to navigate to the <span class="Emphasis">Elasticsearch</span> folder  (e.g., C:\Program Files\MadCap Software\MadCap Flare <MadCap:variable name="Other.VersionNumber" />\Flare.app\Resources\Elasticsearch).</li>
+            <li>
+                <p>Copy the <span class="Emphasis">Elasticsearch</span> folder to the remote server computer (e.g., C:\Elasticsearch). (If you copy files to this location, you may receive a message requiring administrative permission for this action. Click <span class="Emphasis">Continue</span>.)</p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The Elasticsearch folder can be copied anywhere on the computer. It is also better to keep the Elasticsearch folder outside of the web server for security purposes. </p>
+                </div>
+            </li>
+            <li>Navigate to the <span class="Emphasis">Web.ContentServices</span> folder from the location where you have Flare installed (e.g., C:\Program Files\MadCap Software\MadCap Flare <MadCap:variable name="Other.VersionNumber" />\Flare.app\Resources\WebHelp2\ContentServices\Web.ContentServices).</li>
+            <li>
+                <p>Copy the <span class="Emphasis">Web.ContentServices</span> folder to the web server folder of the remote server (e.g., C:\inetpub\wwwroot). (If you copy files to this location, you may receive a message requiring administrative permission. Click <span class="Emphasis">Continue</span>.)</p>
+                <p>
+                    <img src="../../../../../Resources/Images/Flare/Search/Installing-Elasticsearch-Remote-Server/Elasticsearch-FlareFilestoServer.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../../../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" />
+        <p>
+            <MadCap:xref href="Installing-Elasticsearch-Setup-Server.htm">Setting Up the Elasticsearch Server and Content Portal</MadCap:xref>.</p>
+    </body>
+</html>

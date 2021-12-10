@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/All-Print.flsnp" />
+        <p MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Printed-Output-Guide">
+            <MadCap:snippetText src="../../Shared/Co-Fl/Variables/Heading-Variables-Summary.flsnp" />&#160;<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> See <MadCap:xref href="../../../../Flare/Variables/Other-Activities/Heading-Variables.htm">Heading Variables</MadCap:xref>, <MadCap:xref href="../../../../Flare/Variables/Other-Activities/Running-HF-Variables.htm">Running Head Variables</MadCap:xref>, and <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Inserting-Running-Head-Variables-Frames1.htm">Inserting Running Head Variables Into Frames</MadCap:xref>.</MadCap:conditionalText></p>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Heading-Vs-Running-Head-Variables.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,General.Online-Only" />
+        <p>Following are steps for inserting a Heading variable into a page layout frame.</p>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>How to Insert a Heading Variable Into a Page Layout Frame</h2>
+        <ol>
+            <snippetBlock src="../../Shared/Co-Fl/Page-Layouts/Open-Frame-Contents-Window-Steps.flsnp" />
+            <li value="5">
+                <MadCap:snippetText src="../../Shared/Co-Fl/Page-Layouts/Click-Frame-Contents-Window.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Insert &gt; Variable</b>.  </p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Local Toolbar</span> Click <img src="../../../Images/Shared/Ca-Co-Fl-Mi/Interface/Buttons/Insert-Variable-btn.png" class="ReduceButtonSize" />.</li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut</span> On your keyboard press <span class="Emphasis">CTRL+SHIFT+V</span>.</li>
+                </ul>
+                <p>The Variables dialog opens, with the variable set(s) on the left and the variables associated with the selected set on the right. </p>
+            </li>
+            <li>Select the <span class="Emphasis">Heading</span> variable set.</li>
+            <li>
+                <p>Select the variable you want to add. Much of the information that follows pertains to projects and are primarily for the authors of those projects.</p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Any-Level.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/First-Glossary-Page-Heading.flsnp" />
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Variables-Guide" />
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-First-Glossary-Page-Heading.flsnp" />
+                    </li>
+                    <li class="PageBreakBefore">
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/First-Glossary-Page-Term.flsnp" />
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-First-Glossary-Page-Term.flsnp" />
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Variables-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/First-Index-Heading.flsnp" />
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-First-Index-Heading.flsnp" />
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Variables-Guide" />
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/First-Index-Term.flsnp" />
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-First-Index-Term.flsnp" />
+                    </li>
+                    <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Variables-Guide,Flare-Guides.Flare-Printed-Output-Guide" />
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Last-Glossary-Page-Heading.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Last-Glossary-Page-Term.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Last-Index-Heading.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Last-Index-Term.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level1.flsnp" />
+                        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide,Flare-Guides.Flare-Variables-Guide" />
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Example-Level1.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level2.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level3.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level4.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level5.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetBlock src="../../Shared/Co-Fl/Variables/Level6.flsnp" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Click-OK.flsnp" /> The variable is added to the Frame Contents window pane.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" /> The variable can now be seen in the frame.</li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+    </body>
+</html>

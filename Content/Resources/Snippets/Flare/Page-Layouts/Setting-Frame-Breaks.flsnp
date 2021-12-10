@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:snippetBlock src="../Banners/Feature-Supported/PDF.flsnp" />
+        <MadCap:snippetBlock src="Frame-Breaks-Summary1.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Page-Layouts/Frame-Breaks-Summary2.flsnp" />
+        <MadCap:snippetBlock src="../../Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2>How to Use a Style to Set a Frame Break</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../Styles/Edit-Style1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Simplified-Button-Shown.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Filter-Paragraph-Styles1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Page-Layouts/Frame-Breaks-Style1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Select-Show-All-Properties1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Styles-Toggle-Group-Alphabetical.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/Co-Fl/Styles/Expand-Print-Support-Group1.flsnp" />
+            </li>
+            <li>
+                <p>Select the appropriate property and set a value for it.</p>
+                <p class="Subheading">Frame-Break-Before</p>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Frame-Break-Before.flsnp" /> </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">always </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Always.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">auto </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Automatic.flsnp" />A</li>
+                    <li><span class="SetOffFirstLevel">avoid </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Avoid.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">inherit </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                    </li>
+                </ul>
+                <p class="Subheading">Frame-Break-After</p>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Frame-Break-After.flsnp" />
+                </p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">always </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Always.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">auto </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Automatic.flsnp" />
+                    </li>
+                    <li><span class="SetOffFirstLevel">avoid </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Avoid.flsnp" /> </li>
+                    <li><span class="SetOffFirstLevel">inherit </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" />
+                    </li>
+                </ul>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                <p class="Subheading">Frame-Break-Inside</p>
+                <p>
+                    <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Frame-Break-Inside.flsnp" />&#160;<ul><li><span class="SetOffFirstLevel">automatic </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Automatic.flsnp" /></li><li><span class="SetOffFirstLevel">avoid </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Avoid.flsnp" /></li><li><span class="SetOffFirstLevel">inherit </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inherit.flsnp" /></li></ul></p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+        <h2 MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Printed-Output-Guide">How to Use Local Formatting to Set a Frame Break</h2>
+        <MadCap:snippetBlock src="../../Shared/Co-Fl/Paragraphs/Paragraphs-Modify-First-Steps.flsnp" MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Printed-Output-Guide" />
+        <ol MadCap:conditions="General.Online-Only,Flare-Guides.Flare-Printed-Output-Guide">
+            <li value="3">
+                <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                <ul>
+                    <li>
+                        <p><span class="SetOffFirstLevel">Ribbon </span>Select <b>Home &gt; <img src="../../../Images/Shared/Co-D2-Fl/Interface/Buttons/Arrow-btn.png" class="ReduceButtonSize" /></b>.</p>
+                    </li>
+                    <li><span class="SetOffFirstLevel">Keyboard Shortcut</span> Press <span class="Emphasis">CTRL+ALT+B</span>. </li>
+                    <li><span class="SetOffFirstLevel">Right-Click </span>
+                        <MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Right-Click-Paragraph-Properties.flsnp" />
+                    </li>
+                </ul>
+                <p>The Paragraph Properties dialog opens.</p>
+            </li>
+            <li>Select the <span class="Emphasis">Breaks</span> tab.</li>
+            <li>
+                <p>Use the <span class="Emphasis">Frame Break</span> section to specify the settings.</p>
+                <p class="Subheading">Before</p>
+                <p>&#160;You can select one of the options for setting a frame break before the element.<ul><li><span class="SetOffFirstLevel">Automatic </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Automatic.flsnp" />A</li><li><span class="SetOffFirstLevel">Always </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Always.flsnp" /></li><li><span class="SetOffFirstLevel">Avoid </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Before-Avoid.flsnp" /></li></ul></p>
+                <p class="Subheading">After</p>
+                <p>&#160;You can select one of the options for setting a frame break after the element.<ul><li><span class="SetOffFirstLevel">Automatic </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Automatic.flsnp" /></li><li><span class="SetOffFirstLevel">Always </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Always.flsnp" /></li><li><span class="SetOffFirstLevel">Avoid </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-After-Avoid.flsnp" /> </li></ul></p>
+                <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" />
+                <p class="Subheading">Inside</p>
+                <p>&#160;You can select one of the options for setting a frame break inside the "rendering box" of the element.<ul><li><span class="SetOffFirstLevel">Automatic </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Automatic.flsnp" /></li><li><span class="SetOffFirstLevel">Avoid </span><MadCap:snippetText src="../../Shared/Co-Fl/Paragraphs/Break-Inside-Avoid.flsnp" /></li></ul></p>
+            </li>
+            <li>In the Paragraph Properties dialog, click <span class="Emphasis">OK</span>.</li>
+            <li>
+                <MadCap:snippetText src="../../Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">You can also set frame breaks on tables. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Flare/Page-Layouts/Frames/Setting-Page-Column-Frame-Breaks-Tables1.htm">Setting Page, Column, and Frame Breaks on Tables</MadCap:xref>.</MadCap:conditionalText><MadCap:snippetText src="../../Shared/All/General/See-Online-Help.flsnp" MadCap:conditions="Flare-Guides.Flare-Printed-Output-Guide" /></p>
+        </div>
+        <MadCap:snippetBlock src="../../Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">
+            <MadCap:snippetText src="../../Shared/Co-Fl/General/Whats-Next-After-Edit-Style.flsnp" />
+        </p>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>After your target has been published, go to Windows Explorer and navigate to the folder where your Zendesk output resides.</li>
+            <li>In your Zendesk Help Center dashboard, click the icon to customize the design. The Themes page is displayed.</li>
+            <li>Hover over the customized theme, and click <span class="Emphasis">View Theme</span>.</li>
+            <li>
+                <p>Click <span class="Emphasis">Edit Code</span>.</p>
+                <p>
+                    <img src="../../../../Images/Flare/Output/Zendesk-Custom-Theme-Edit-Code.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>From your Flare project's output folder, add all files  from the assets folder  to Zendesk. </li>
+            <li>In the templates subfolder of your theme, open the <b>document_head.hbs</b> file in a text editor.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Whats-New-Guide" />
+            <li>
+                <p>If you added, deleted, or renamed any of the links listed in this file, update the respective links</p>
+                <ul>
+                    <li>If you added any new CSS files, add a new &lt;link&gt; tag for each new file.</li>
+                    <li>If you added any new JavaScript files, add a new &lt;script&gt; tag for each new file.</li>
+                </ul>
+            </li>
+            <li>Save the changes in the document_head.hbs file.</li>
+            <li>In the top-right corner in the Zendesk Themes page, click <span class="Emphasis">Publish</span>.</li>
+        </ol>
+        <div class="note">
+            <p class="Note-Text">For more information on working with themes in Zendesk, please refer to the Zendesk documentation.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Plugin-API.flmsp');">
+    <head>
+        <meta name="description" content="The IHost interface represents the host application." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />IHost Interface</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Information-Developers.flsnp" MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <p>The IHost interface represents the host application. An instance of IHost is be passed in as a parameter to the Initialize() method in the IPlugin interface. See <MadCap:xref href="IPlugin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IPlugin Interface</MadCap:xref>.</p>
+        <h2>Methods</h2>
+        <ul>
+            <li><span class="EmphasisItalic">string </span><span class="Emphasis">GetCompany() </span>Returns the name of the company.</li>
+            <li><span class="EmphasisItalic">IEditorContext </span><span class="Emphasis">GetEditorContext() </span>Returns the active IEditorContext object. See <MadCap:xref href="IEditorContext.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">IEditorContext Interface</MadCap:xref>.</li>
+            <li><span class="EmphasisItalic">string </span><span class="Emphasis">GetName() </span>Returns the name of the active application.</li>
+            <li><span class="EmphasisItalic">INavContext </span><span class="Emphasis">GetNavContext() </span>Returns  the active INavContext object. See <MadCap:xref href="INavContext.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">INavContext Interface</MadCap:xref>.</li>
+            <li><span class="EmphasisItalic">void </span><span class="Emphasis">Dispose() </span>Cleans up the instance of IHost after usage. This must be called whenever the plug-in is disabled.</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Plugin-API-Guide" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </body>
+</html>

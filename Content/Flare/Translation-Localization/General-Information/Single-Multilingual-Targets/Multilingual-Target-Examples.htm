@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../../Resources/TemplatePages/Flare/User-Guides/Flare-Translation.flmsp');">
+    <head>
+        <meta name="description" content="Examples of how to create multilingual targets in two ways—by linking to Flare projects and by linking to Lingo projects." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Translation" />Multilingual Target Examples</h1>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Feature-Supported/All.flsnp" MadCap:conditions="General.Online-Only" />
+        <p>Following are examples of how to create multilingual targets in two ways—by linking to Flare projects and by linking to Lingo projects.</p>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>Linking to Flare Projects</h2>
+        <p>In the  example below, a Flare target points to other Flare projects that have been translated. This example  illustrates the process of adding a button (via a skin) so users can switch between languages in online output. It also shows how PDF output is generated from a multilingual project.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want to create HTML5 and PDF&#160;outputs in US&#160;English, Spanish, and Japanese. You have already worked with a translator to translate your documents, so you have three different Flare projects:&#160;one for each language.</p>
+            <p>Before you can create your multilingual output in Flare,  you make sure each Flare project has both an HTML5 and a PDF&#160;target available. This allows your parent project to build from the targets in the other two linked projects. You open the Project Organizer in each project, and then open the Targets folder. If you already have the targets you need, you do not need to create any new ones. If you do not have both targets in all three projects, you can create the missing targets from the Add File dialog. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Step4-Developing-Targets/Process/Adding-Targets.htm">Adding Targets</MadCap:xref>.</MadCap:conditionalText></p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p> Because you want to build multilingual HTML5 output where users can manually switch between languages, you need to make sure that each of your projects has the Select Language button in its HTML5 toolbar.</p>
+            <p>So you open the Project Organizer. In the <span class="Emphasis">Skins</span> folder, you open the <b>Topic Toolbar</b> skin component. On the <span class="Emphasis">Setup</span> tab, you select the <span class="Emphasis">Select Language</span> button, click <img src="../../../../Resources/Images/Shared/Ca-Co-Fl-Li-Mi/Interface/Buttons/Move-Item-Right-btn.png" alt="" title="" /> to add it to your skin, and then save your work. </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Next, you insert a Topic Toolbar proxy in the template page(s), and when doing so, you choose the Topic Toolbar skin component that you created. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../Nav-Links/Toolbars/Topic-Toolbars/Process/Inserting-Editing-Topic-Toolbar.htm">Inserting and Editing a Topic Toolbar Proxy</MadCap:xref> and <MadCap:xref href="../../../Skins/HTML5-Skin-Styles/Topic-Toolbars-HTML5-Skins1.htm">Topic Toolbars in HTML5 Skin Components</MadCap:xref>.
+</MadCap:conditionalText></p>
+            <p>Now you can prepare your multilingual target. In the parent project (in this case, the US&#160;English project), you expand the <span class="Emphasis">Targets</span> folder and open the <b>HTML5</b> target. In the Target Editor, you select the <span class="Emphasis">Language</span> tab. This is where you will link your other two projects. On the right side of the tab, you click <img src="../../../../Resources/Images/Flare/Interface/Buttons/Add-Language-Row-btn.png" alt="" title="" class="ReduceButtonSize" /> to add a new row. </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <p>Then you click the link (ellipsis) in the <span class="Emphasis">Linked Flare Project</span> column.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>In the dialog that opens, you navigate to the Spanish project and click <span class="Emphasis">Open</span>. This links the Spanish project to the US&#160;English project. The Language drop-down automatically updates when Flare detects the default Spanish language settings in your linked project.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual5.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <p>Then you link to the Japanese project in the same way.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual6.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You want the Japanese project to display second in the Help system (after US English), so you select the Japanese project and click  <img src="../../../../Resources/Images/Shared/Ca-Co-Fl-Li/Interface/Buttons/Move-Item-Up-btn.png" alt="" title="" /> to rearrange the projects. </p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual7.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Now the Japanese project is listed before the Spanish project.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual8.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>You are ready to build, so you save your work and build the target. When you open the HTML5 output, it defaults to the US&#160;English Help because that is your browser’s default setting.</p>
+            <p>But remember the Select Language button you added to your Topic Toolbar skin component? You can use that button to change the language setting using a drop-down menu.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual11.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <p>Next you open the PDF&#160;target in the Target Editor and adjust it in the same way you did the HTML5 output. Since you want the Japanese output to display immediately after the US&#160;English output, you add that project first, then you add the Spanish project.</p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <p>You save the PDF&#160;target and build it. When you look in the Output folder, you only see one document. This is because Flare stitched all three documents together into a single PDF.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual10.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <p>When you open the PDF, you see all three languages in the document’s table of contents. Each language has its own title page so you can find it quickly.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Multilingual9.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+        <h2>Linking to Lingo Projects</h2>
+        <p>In the following example, a Flare target points directly to Lingo projects. This is a more direct approach because it doesn't require the creation of additional Flare projects.</p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">You want your US English Flare project to be translated into Arabic, French, German, and Spanish. You have one translator who knows French, German, and Spanish, and you have a second translator who knows Arabic.</p>
+            <p>Because the first translator knows three languages, there is no reason to have multiple Lingo projects for each language. Instead, the translator adds all three languages to a single Lingo project and translates the files.</p>
+            <p>Meanwhile, the second translator creates a Lingo project and uses it to translate the Flare project into Arabic.</p>
+            <p>Both translators keep their Lingo projects on a server where you have access them. When the translation work is finished, you open the target in Flare, and on the <span class="Emphasis">Language</span> tab, add a row for each language.</p>
+            <p>In the first row, you link to the Lingo project that was used for the French, German, and Spanish translations. After you add the first row, you notice that you can select any of the three languages.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Link-Lingo-Project1.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <p>For the first row, you select <span class="Emphasis">French</span>, and then add a second row. This time, you can only select German or Spanish (because French has already been used).</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Link-Lingo-Project2.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <p>For the second row, you choose <span class="Emphasis">German</span>, and then you add a third row. <span class="Emphasis">Spanish</span> is automatically chosen for that row, because it is the only one left.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Link-Lingo-Project3.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+            <p>Finally, you create a fourth row and link it to the Lingo project used for the <span class="Emphasis">Arabic</span> translation.</p>
+            <p>
+                <img src="../../../../Resources/Images/Flare/Targets/Link-Lingo-Project4.png" alt="" title="" class="MaxWidth90Percent" />
+            </p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Language-Support-Guide" />
+    </body>
+</html>

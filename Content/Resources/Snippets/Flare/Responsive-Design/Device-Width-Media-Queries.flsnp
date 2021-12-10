@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>In addition to the fields in the Skin Editor, there are additional responsive output settings in the Target Editor that are available for Side and Top Navigation<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/Output-Formats/HTML5-Top-Nav/HTML5-Top-Navigation-Output.htm">HTML5 Top Navigation Output</MadCap:xref> and <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/Output-Formats/HTML5-Side-Nav/HTML5-Side-Nav.htm">HTML5  Side Navigation Output</MadCap:xref>)</MadCap:conditionalText>, as well as Tripane outputs<MadCap:conditionalText MadCap:conditions="General.Online-Only"> (see <MadCap:xref href="../../../../Flare/Step4-Developing-Targets/Output-Types/HTML5-Output/Output-Formats/HTML5-Tripane/HTML5-Tripane-Output.htm">HTML5 Tripane Output</MadCap:xref>)</MadCap:conditionalText>. One setting lets you enable <span class="Emphasis">device width media queries</span> for responsive output.</p>
+        <p>
+            <img src="../../../Images/Flare/Responsive-Design/Top-Nav-Output6.png" alt="" title="" class="MaxWidth100Percent">
+            </img>
+        </p>
+        <MadCap:snippetBlock src="../../Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Flare-Guides.Flare-HTML5-Guide,Flare-Guides.Flare-Whats-New-Guide">
+        </MadCap:snippetBlock>
+        <p>
+            <MadCap:snippetText src="../Tutorials/Device-Width-Media-Queries2.flsnp" />
+        </p>
+        <p>Similar to the fields in the Skin Editor, you can set values to tell Flare at which sizes to change the display. </p>
+        <ul>
+            <li><span class="SetOffFirstLevel">Tablet Breakpoint </span>Enter the number of pixels for the maximum width of a Tablet view.</li>
+            <li><span class="SetOffFirstLevel">Mobile Breakpoint </span>Enter the number of pixels for the maximum width of a Mobile (or phone) view.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" style="mc-master-page: url('../../Resources/TemplatePages/Flare/User-Guides-Videos/Flare-SharePoint.flmsp');">
+    <head>
+        <link href="../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="After you connect to a SharePoint server, you can copy any of the SharePoint files to your project, mapping them to the source files at the same time." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Microsoft SharePoint;Microsoft SharePoint:copying files;Microsoft SharePoint:mapping files" />
+            <MadCap:concept term="FilterFeatures" />Copying and Mapping<MadCap:conditionalText MadCap:conditions="General.Online-Only"> SharePoint</MadCap:conditionalText> Files</h1>
+        <p>After you connect to a SharePoint server, you can copy any of the SharePoint files to your project, mapping them to the source files at the same time.</p>
+        <p>This is a different process than that of importing files, which you can do elsewhere in <MadCap:variable name="Other.Product" />. Files that are brought into a project using a traditional import process can be connected to the source file, but only in one direction (i.e., files can be updated from the source to the imported file in the project). On the other hand, files that are copied from the SharePoint Explorer can be connected via mappings to the source files in two directions (i.e., files can be updated from the source to the copied file or from the copied file to the source).</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-SharePoint-Guide" />
+        <h2>How to Copy and Map SharePoint Files</h2>
+        <ol>
+            <li>Select <b>View &gt; SharePoint Explorer</b>. The SharePoint Explorer opens.</li>
+            <li>
+                <p>Locate the file that you want to add to the project. You can use the "multi-view" to do this.</p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Co-Fl/SharePoint/Multi-View-Table.flsnp" />
+            </li>
+            <li>Right-click on the file and from the context menu select <span class="Emphasis">Copy to Project</span>.</li>
+            <li>In the dialog that opens, find and select the location in your project that you want to add the file. Again, you can use the multi-view buttons to navigate to folders in your project.</li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>In the Copy to Project dialog select <span class="Emphasis">Keep file synchronized (create mapping)</span>.</li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-SharePoint-Guide" />
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" /> The file is added to the project, as you can see by opening the Content Explorer. If you selected to map the file, a small icon <img src="../../Resources/Images/Flare/Interface/Icons/Mapped-Resource-ico.png" class="ReduceButtonSize" /> is shown next to it.</p>
+                <p>
+                    <img src="../../Resources/Images/Flare/SharePoint/Mapped-Files.png" class="MaxWidth100Percent" />
+                </p>
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Whats-Next.flsnp" MadCap:conditions="General.Online-Only" />
+        <p MadCap:conditions="General.Online-Only">After you map project files to source files located in SharePoint, you can synchronize them to ensure that each file contains the same content. This process lets you import content from SharePoint files, export content from files in the project, or keep the most recently modified content. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="Synchronizing-SharePoint-Files.htm">Synchronizing SharePoint Files and Folders</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

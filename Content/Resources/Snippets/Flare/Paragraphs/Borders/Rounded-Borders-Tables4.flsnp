@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../Stylesheets/Shared/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p>When setting rounded borders on tables, it is essential that you also set two other style properties.</p>
+        <p>First, you must set the border-collapse property to "separate" (in a regular stylesheet) or "Do not collapse cell borders" (in a table stylesheet or the Table Properties dialog).</p>
+        <p>
+            <img src="../../../../Images/Flare/Paragraphs/Rounded-Borders9.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../../Images/Flare/Paragraphs/Rounded-Borders7.png" alt="" title="" class="MaxWidth75Percent" />
+        </p>
+        <p>Second, you must set the overflow property to "hidden." This property prevents a background color in the table from obstructing the rounded corners, thus making the table look as if it still has square corners.</p>
+        <p>
+            <img src="../../../../Images/Flare/Paragraphs/Rounded-Borders10.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+        <p>
+            <img src="../../../../Images/Flare/Paragraphs/Rounded-Borders8.png" alt="" title="" class="MaxWidth100Percent" />
+        </p>
+    </body>
+</html>

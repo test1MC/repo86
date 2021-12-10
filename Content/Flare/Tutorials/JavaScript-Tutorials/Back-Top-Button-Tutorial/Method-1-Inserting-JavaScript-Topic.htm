@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-template-page: url('..\..\..\..\Resources\TemplatePages\Flare\User-Guides-Tutorials\Flare-Back-Top-Button-Tutorial.flmsp');">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Method 1: If you want some JavaScript to work in a single topic in a project, you can insert the code directly into the topic." />
+    </head>
+    <body>
+        <MadCap:snippetBlock src="../../../../Resources/Snippets/Flare/Banners/Tutorials/Back-Top-Button.flsnp" MadCap:conditions="General.Online-Only" />
+        <h1>
+            <MadCap:keyword term="Tutorials:JavaScript;JavaScript:tutorial" />
+            <MadCap:concept term="FilterIntroduction" />Method 1: Inserting JavaScript Into a Topic</h1>
+        <p>If you want some JavaScript to work in a single topic in a project, you can insert the code directly into the topic.</p>
+        <h2>How to Insert JavaScript Into a Topic</h2>
+        <ol>
+            <li>From the Content Explorer, double-click the <span class="Emphasis">Attractions.htm</span> topic. The topic opens in the XML Editor.</li>
+            <li>
+                <p>Scroll down and add an empty paragraph at the bottom of the topic, with your cursor placed in it. If you don't want the script in its own empty paragraph, you can just place your cursor next to a block element (e.g., heading, paragraph, image).</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Back-Top/Back-Top-Button-Tutorial3.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">In some situations (depending on the script), the location of the script in the topic body might be more important. But in most cases, including this one, the exact location of the cursor in the body doesn't make much difference. You can insert the script somewhere else if you like (e.g., at the very top). </p>
+                    <p>If you are inserting a link to a script file (instead of inserting the actual code, which we are doing here), you can alternatively use the Internal Text Editor to place the script inside the &lt;head&gt; tags, which is often preferred over inserting the script in the body area; later, we will use this technique when inserting a script in a template page.</p>
+                </div>
+            </li>
+            <li>Select the <span class="Emphasis">Insert</span> ribbon, and near the right end of the ribbon click <span class="Emphasis">Script</span>.</li>
+            <li>From the <span class="Emphasis">Language</span> drop-down, select <span class="Emphasis">text/javascript</span>.</li>
+            <li><a href="Before-We-Begin.htm#Copying" MadCap:conditions="General.Online-Only" MadCap:excludeAction="unbind">Copy the JavaScript code provided</a> and paste it in the <span class="Emphasis">Script Code</span> field. <MadCap:conditionalText MadCap:conditions="General.Print-Only">See <MadCap:xref href="Before-We-Begin.htm#Copying">Copying the JavaScript Code</MadCap:xref>.</MadCap:conditionalText></li>
+            <li>
+                <p>Click <span class="Emphasis">OK</span>. A small icon displays at the location where you inserted the script.</p>
+                <p>
+                    <img src="../../../../Resources/Images/Flare/Tutorials/Back-Top/Back-Top-Button-Tutorial1.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+            <li>Build and view the <span class="Emphasis">All-About-Austin-HTML5</span> target.</li>
+            <li>In the output, open the <span class="Emphasis">Attractions</span> topic and scroll down. Notice the button in the lower-right labeled "Top." Click it to scroll to the top. If you open any other topic and scroll down, you will not see this button, because the script was added only to the Attractions topic.</li>
+            <li>Let's delete the inserted script before continuing in this tutorial. So in the <span class="Emphasis">Attractions.htm</span> topic in Flare, right-click the JavaScript icon, and delete it.</li>
+            <li>
+                <MadCap:snippetText src="../../../../Resources/Snippets/Shared/All/General/Save-File.flsnp" />
+            </li>
+        </ol>
+    </body>
+</html>

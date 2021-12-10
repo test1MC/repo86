@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../../TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>These settings give the Pulse server the ability to connect to Microsoft Exchange Web Services for incoming email (i.e., email replies to Pulse notifications):</p>
+        <table style="mc-table-style-original: url('../../../../TableStyles/Shared/Fancy.css');margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../../../../TableStyles/Shared/Fancy.css');" class="TableStyle-Fancy" cellspacing="0">
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <col class="TableStyle-Fancy-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-Fancy-Head-Header1">
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Setting</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Description</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadE-Regular-Header1">
+                        <p class="TableTextHead">Typical Setting/Format</p>
+                    </th>
+                    <th class="TableStyle-Fancy-HeadD-Regular-Header1">
+                        <p class="TableTextHead">Additional Information</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasisSmallNoIndent">EWS&#160;URL</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextSmall">Type the URL&#160;for your Exchange Web Services endpoint.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextSmall">https://mail.mycompany.com/ews/exchange.asmx</p>
+                        <p class="TableTextSmall">mail.us.example.com</p>
+                        <p class="TableTextSmall">mail.emea.example.com</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyD-Regular-LightRows" rowspan="4">
+                        <p class="TableTextSmall">Obtain this information from your Email Administrator or EWS&#160;Provider. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasisSmallNoIndent">EWS</p>
+                        <p class="TableTextEmphasisSmallNoIndent">Domain</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextSmall">Type the domain name for your Exchange Web Server.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextSmall">CORP</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasisSmallNoIndent">EWS</p>
+                        <p class="TableTextEmphasisSmallNoIndent">Username</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextSmall">Type the user name of a valid account. For example, enter the user name of an account that has an Exchange inbox. This account should not be a real user’s account. Additionally, the account name is usually 
+how your name appears in 
+emails sent from this email 
+configuration.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextSmall">accountname@example.com</p>
+                        <p class="TableTextSmall">PulseRegistration@example.com</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextEmphasisSmallNoIndent">EWS </p>
+                        <p class="TableTextEmphasisSmallNoIndent">Password</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextSmall">Type the password for the account.</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyE-Regular-LightRows">
+                        <p class="TableTextSmall">&lt;password&gt;</p>
+                        <p class="TableTextSmall">p@ssword1</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Fancy-Body-LightRows">
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextEmphasisSmallNoIndent">EWS&#160;Poll Task</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextSmall">This defines how frequently incoming mail is pulled by the server. </p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyB-Regular-LightRows">
+                        <p class="TableTextSmall">1</p>
+                    </td>
+                    <td class="TableStyle-Fancy-BodyA-Regular-LightRows">
+                        <p class="TableTextSmall">This is set to 0 by default. It is recommended that you set the value to 1. </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

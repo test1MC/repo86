@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Shared/All/General/Do-One-Following-Depending-UI.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="Home-Project-Dashboard-Options-List.flsnp" />
+            </li>
+            <li>In the toolbar click <img src="../../../Images/Central/Interface/Buttons/Add-Widgets-btn.png" alt="" title="" class="ReduceButtonSize" />.</li>
+            <li>
+                <p>Select the widget(s) you want to add to the dashboard.</p>
+                <p class="Subheading">Bookmarks</p>
+                <p>The Bookmarks widget lets you quickly jump to the dashboard for your favorite projects. In the upper-right corner, click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> to select projects.</p>
+                <p>
+                    <img src="../../../Images/Central/Widgets/Widget-Bookmarks.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Data will not display in this widget until you select projects.</p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Build Activity</p>
+                <p>The Build Activity widget lets you see all of the builds that are in various states (e.g., failed, completed, canceled, queued). The most recent build appears at the top of the widget. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Builds.htm">Builds</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>In the upper-right corner, click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> to filter the widget for a single project, as well as for particular states. The 10 most recent builds are displayed by default, but you can change this setting from the menu.</p>
+                <p>
+                    <img src="../../../Images/Central/Widgets/Widget-All-Builds-Activity.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>In this widget, you can view the following:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">[Icon]</span> Click the project icon to open a dialog where you can view information about it and edit it if you have permissions.</li>
+                    <li><span class="SetOffFirstLevel">Project</span> The name of the project. Click the name to open the Project dashboard. This column is not shown if the widget is filtered to show only one project.</li>
+                    <li><span class="SetOffFirstLevel">Target</span> The name of the target, which you can click to open the Builds page.</li>
+                    <li><span class="SetOffFirstLevel">Start Date</span> The date and time the build was started.</li>
+                    <li><span class="SetOffFirstLevel">State</span> The state of the build (e.g., building, canceled, failed, complete).</li>
+                    <li><span class="Emphasis">Progress</span> The progress of the build towards completion. This column displays a colored bar, depending on what happens with the build.<ul><li><span class="SetOffSecondLevel">Light Green </span>The build is in progress.</li><li><span class="SetOffSecondLevel">Dark Green </span>The build finished with no errors (although there may be warnings).</li><li><span class="SetOffSecondLevel">Yellow </span>The build was canceled.</li><li><span class="SetOffSecondLevel">Red </span>An error prevented the build from finishing. </li></ul></li>
+                    <li><span class="SetOffFirstLevel">Warnings</span> The number of warnings found while building the project. For more information, click the project name to open the Project dashboard, then open the build log. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Other-Activities/Opening-Build-Log.htm">Opening the Build Log</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Errors</span> The number of errors found while building the project, which prevent the build from being completed. For more information, click the project name to open the Project dashboard, then open the build log. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Other-Activities/Opening-Build-Log.htm">Opening the Build Log</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Data will not display in this widget until you generate a target in Central.</p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Build History</p>
+                <p>The Build History widget displays a graph of the recent build history for the selected target. In the upper-right corner, click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> to select a project and target for the widget. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Builds.htm">Builds</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>Each bar in the graph represents a different build for the target, with the oldest build on the left and the most recent one on the right. The color of each bar indicates the success of the build:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Green Bar </span>The build finished with no errors or warnings (although there may be ignored warnings).</li>
+                    <li><span class="SetOffSecondLevel">Yellow Bar </span>The build was canceled.</li>
+                    <li><span class="SetOffSecondLevel">Red Bar </span>An error prevented the build from finishing. </li>
+                </ul>
+                <p>The information below the bar graph will change, depending on the bar selected (indicated by an arrow under the bar). You can click any bar in the graph to see its details.</p>
+                <p>
+                    <img src="../../../Images/Central/Widgets/Widget-Builds.png" alt="" title="" class="MaxWidth80Percent" />
+                </p>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p>For each bar, you can view the following details:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">State</span> The state of the build (e.g., completed, failed, canceled).</li>
+                    <li><span class="SetOffFirstLevel">By</span> The person who initiated the build.</li>
+                    <li><span class="SetOffFirstLevel">Duration</span> The length of time it took to complete the build.</li>
+                    <li><span class="SetOffFirstLevel">Warnings</span> The number of warnings found while building the project.</li>
+                    <li><span class="SetOffFirstLevel">Errors</span> The number of errors found while building the project, which prevent the build from completing.</li>
+                    <li><span class="SetOffFirstLevel">Queued</span> The date and time that the build was queued.</li>
+                    <li><span class="SetOffFirstLevel">Started</span> The date and time that the build started.</li>
+                    <li><span class="SetOffFirstLevel">Finished</span> The date and time that the build finished.</li>
+                </ul>
+                <p>You can also use the buttons at the bottom of the widget:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">View Log </span>Opens the log for the selected build so that you can see information about warnings or errors.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Other-Activities/Opening-Build-Log.htm">Opening the Build Log</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">View Target </span>Opens the output for the selected build. <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Main-Activities/Viewing-Output.htm">Viewing Output</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Download </span>Lets you download the output files for the selected build. <MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Other-Activities/Downloading-Builds.htm">Downloading Builds</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Data will not display in this widget until you select a project and target, and until you generate the target in Central.</p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Checklist</p>
+                <p>The Checklist widget displays a progress summary for a checklist. In the upper-right corner, click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> to select a project and checklist for the widget. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Checklists/Checklists.htm">Checklists</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../Images/Central/Widgets/Project-Checklists-Widget4.png" alt="" title="" class="MaxWidth45Percent" />
+                </p>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Data will not display in this widget until you select a project and checklist.</p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Live Sites</p>
+                <p>The Live Sites widget shows all of the sites that are currently set as “live.” In the upper-right corner, you can click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> to filter the widget by project and the most recent number of sites to display. You can also click a row to expand that site to see the URL.</p>
+                <p>
+                    <img src="../../../Images/Central/Widgets/Widget-Live-Sites.png" alt="" title="" class="MaxWidth90Percent" />
+                </p>
+                <p>In this widget, you can view or do the following:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">Name</span> The name of the site. Click the name to open the Sites page.</li>
+                    <li><span class="SetOffFirstLevel">[Download Icon]</span> Clicking the icon downloads the output to your computer. Multi-file outputs are downloaded as a ZIP&#160;file. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Builds/Other-Activities/Downloading-Builds.htm">Downloading Builds</MadCap:xref>.</MadCap:conditionalText></li>
+                    <li><span class="SetOffFirstLevel">Target</span> The name of the target, which you can click to open the Builds page.</li>
+                    <li><span class="SetOffFirstLevel">Vanity</span> The vanity for the live site (if one has been set).</li>
+                    <li><span class="SetOffFirstLevel">Live Date</span> The date the site was set as “live.”</li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Data will not display in this widget until you set a site to "live."</p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Project Properties</p>
+                <p>The Project Properties widget shows important information about the selected project. In the upper-right corner, click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> to select a project. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Projects-Central.htm">Projects</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../Images/Central/Widgets/Widget-Project-Properties.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>In this widget, you can view the following:</p>
+                <ul>
+                    <li><span class="Emphasis">Created</span> The date the project was created (i.e., added to Central)</li>
+                    <li><span class="SetOffFirstLevel">Modified</span> The date the project was last modified (i.e., changes were uploaded to Central, or changes made in Central)</li>
+                    <li><span class="SetOffFirstLevel">Total</span> The total size of all the source files and all builds<ul><li><span class="SetOffFirstLevel">Builds</span> The size of the output files</li><li><span class="SetOffFirstLevel">Project Files</span> The size of the source files of the project (Content and Project Folders)</li></ul></li>
+                    <li><span class="SetOffFirstLevel">Live Builds</span> The number of sites set to "live"&#160;for this project</li>
+                    <li><span class="SetOffFirstLevel">Targets</span> The total number of targets in this project</li>
+                    <li><span class="SetOffFirstLevel">Total Builds</span> The total number of builds in this project</li>
+                </ul>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you have this widget on a Project dashboard, you can quickly copy it to the Home dashboard by clicking <img src="../../../Images/Central/Interface/Buttons/Copy-Widget-btn.png" alt="" title="" class="ReduceButtonSize" /> in the toolbar. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Widgets/Duplicating-Widgets.htm">Duplicating Widgets</MadCap:xref>.</MadCap:conditionalText></p>
+                </div>
+                <div class="note">
+                    <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">Data will not display in this widget until you select a project.</p>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Reports</p>
+                <p>The Report widgets are small tiles, each representing a different report. The number on each widget represents the quantity of issues found in the latest scan for that report. You can click the number and the Reports page will open with that report automatically selected. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Reports/Reports.htm">Reports and Statistics</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../Images/Central/Projects/Reports/Reports18.png" alt="" title="" class="MaxWidth100Percent" />
+                </p>
+                <p>The following types of reports can be included in widgets:</p>
+                <MadCap:snippetBlock src="../Projects/Report-Types.flsnp" />
+                <p>When you add a new Reports widget to a dashboard, it will initially be empty. You need to select a project to populate it. To do this, click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> in the upper-right corner and a project and report.</p>
+                <p>However, it is recommended that you open the Reports page and add widgets from there instead. The reason for this is that you can select multiple reports (rather than one at a time), and you can add them to both the Home and Project dashboard simultaneously. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Projects/Page-Views/Reports/Report-Widgets.htm">Report Widgets</MadCap:xref>.</MadCap:conditionalText></p>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide" />
+                <div MadCap:conditions="Central-Guides.Central-Widgets-Guide,General.Online-Only">
+                    <p class="Subheading">Storage and Usage</p>
+                    <p>The Storage and Usage widget shows important information about the MadCap Central license. This widget is visible to all users, but buying additional seats or space requires the “Purchasing” permission.<MadCap:conditionalText MadCap:conditions="General.Online-Only"> See <MadCap:xref href="../../../../Central/Users/Main-Activities/Setting-Permissions.htm">Setting User Permissions</MadCap:xref>.</MadCap:conditionalText></p>
+                    <p>
+                        <img src="../../../Images/Shared/Ce-Fl/Central/Storage-Usage-Widget.png" alt="" title="" class="MaxWidth100Percent" />
+                    </p>
+                    <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide" />
+                    <p>In this widget, you can view or do the following, depending on your permissions:</p>
+                    <ul>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Storage</span> The amount of storage space used and the amount allowed.</p>
+                            <MadCap:snippetBlock src="../Server/Note-Trial-Buy-Space.flsnp" />
+                        </li>
+                        <li>
+                            <p><span class="SetOffFirstLevel">Authors, Subject Matter Experts, and Viewers</span> The number of users currently in the system and the number of users allowed. There is a unique bar for each type of user.</p>
+                            <MadCap:snippetBlock src="../Server/Note-Trial-Buy-Seats.flsnp" />
+                        </li>
+                        <li><span class="SetOffFirstLevel">Purchase</span> Click this button if you wish to purchase Central storage space or seats.</li>
+                    </ul>
+                    <div class="note">
+                        <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">This widget is only available on the Home page.</p>
+                    </div>
+                </div>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Task Calendar</p>
+                <p>The Task Calendar widget shows tasks that are due in a given month. In the upper-right corner, you can click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> to filter the widget by project, user, and priority. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Tasks.htm">Tasks</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../Images/Central/Widgets/Widget-Task-Calendar.png" alt="" title="" class="MaxWidth50Percent" />
+                </p>
+                <p>In this widget, you can view the following:</p>
+                <ul>
+                    <li><span class="SetOffFirstLevel">[Calendar]</span> Colored circles indicate tasks that are due on that date. The color of each circle represents the priority of the task due (red=high, yellow=medium, green=low). Use the arrows on the header bar to navigate between months. </li>
+                    <li><span class="SetOffFirstLevel">[Tasks Cards]</span> If you click on a day in the calendar that contains colored circles, the area below has cards for those tasks that are due. Initially, the task cards are collapsed, but you can expand them to see more information. And if you click the name of the task, you can edit it and see even more details.</li>
+                </ul>
+                <MadCap:pageBreak MadCap:conditions="Central-Guides.Central-Widgets-Guide,Central-Guides.Central-Projects-and-Builds-Guide" />
+                <p class="Subheading">Task Summary</p>
+                <p>The Task Summary widget shows a doughnut chart that breaks down the percentage of tasks in each milestone and storage area (To Do, In Progress, Complete, Archive, Backlog). To the right of the doughnut chart, you can see a summary with the number of tasks at each priority level (High, Medium, Low). In the upper-right corner, you can click <img src="../../../Images/Central/Interface/Buttons/Settings-btn1.png" alt="" title="" class="ReduceButtonSize" /> to filter the widget by project and user. <MadCap:conditionalText MadCap:conditions="General.Online-Only">See <MadCap:xref href="../../../../Central/Tasks/Tasks.htm">Tasks</MadCap:xref>.</MadCap:conditionalText></p>
+                <p>
+                    <img src="../../../Images/Central/Widgets/Widget-Task-Summary.png" alt="" title="" class="MaxWidth60Percent" />
+                </p>
+            </li>
+            <li>Click <span class="Emphasis">Add</span>. The widgets are added to the dashboard.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li><span class="SetOffFirstLevel">Outer Borders </span>Click in any of the individual fields (<span class="Emphasis">Left</span>, <span class="Emphasis">Right</span>, <span class="Emphasis">Top</span>, <span class="Emphasis">Bottom</span>) to specify the settings for the table border. If you click the down arrow to the right of all the fields, the settings will be applied to all of the border fields. When you click the down arrow or in one of the individual fields, a small popup displays. Use the lower-left area of the popup to enter a number for the thickness of the border. Use the lower-middle area to select a unit of measurement (e.g., point, pixel, centimeter) for the number you entered. Use the upper-right area to select a color for the border. And use the lower-right area to select a line type (e.g., solid, double, dashed) for the border. When you are finished, click <span class="Emphasis">OK</span> in the small popup.</li>
+        </ul>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Tables-Guide" />
+        <ul>
+            <li><span class="SetOffFirstLevel">Border Radius </span>These fields let you create rounded corners on the table<MadCap:conditionalText MadCap:conditions="Products.Flare-Online-Only"> (see <MadCap:xref href="../../../../../Flare/Paragraphs/Creating-Rounded-Borders.htm">Creating Rounded Borders</MadCap:xref>)</MadCap:conditionalText>. <MadCap:snippetText src="../Paragraphs/Formatting-Rounded-Borders-Tables1.flsnp" />&#160;<MadCap:snippetText src="../General/Formatting-Borders2.flsnp" /> <MadCap:snippetText src="../Paragraphs/Formatting-Rounded-Borders3.flsnp" /> <MadCap:snippetText src="../Paragraphs/Formatting-Rounded-Borders2.flsnp" /><MadCap:snippetText src="../Paragraphs/Formatting-Rounded-Borders4.flsnp" /> <MadCap:snippetText src="../Paragraphs/Formatting-Rounded-Borders5.flsnp" /> When you are finished, click <span class="Emphasis">OK</span> in the small popup.</li>
+            <li><span class="SetOffFirstLevel">Cell Border Collapse </span>Select whether you want to collapse the cell borders in the table. If you collapse the cell borders, the row and cell borders of a table are joined in a single border. If you do not collapse the cell borders, the row and cell borders of a table are detached. If you use the border radius properties to create rounded borders, this must be set to "Do not collapse cell borders."</li>
+            <li><span class="SetOffFirstLevel">Cell Border Spacing </span>Use this area to increase or decrease the amount of spacing for a cell border (in pixels).</li>
+        </ul>
+    </body>
+</html>

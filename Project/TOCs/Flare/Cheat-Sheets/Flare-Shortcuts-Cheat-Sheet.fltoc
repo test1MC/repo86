@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="Products.Flare">
+  <TocEntry
+    Title="ComingSoonTitlePage"
+    Link="/Content/Print-Only-Topics/Shared/Coming-Soon-Title-Page.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Titles/Title.flpgl"
+    conditions="General.Future"></TocEntry>
+  <TocEntry
+    Title="Shortcut Keys"
+    Link="/Content/Print-Only-Topics/Flare/Shortcuts/Keyboard-Shortcuts-Keys.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Cheat-Sheets/Cheat-Sheet-Legal-1st-Page-1Col-and-3Col-Taller-Flare.flpgl"
+    PageNumberReset="continue"
+    PageType="first" />
+  <TocEntry
+    Title="Shortcuts Keys2"
+    Link="/Content/Print-Only-Topics/Flare/Shortcuts/Keyboard-Shortcuts-Keys2.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Cheat-Sheets/Cheat-Sheet-Legal-3Col.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print-Only-Topics/Flare/Shortcuts/Keyboard-Shortcuts-Keys3.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Cheat-Sheets/Cheat-Sheet-Legal-3Col.flpgl" />
+  <TocEntry
+    Title="Shortcuts Tasks"
+    Link="/Content/Print-Only-Topics/Flare/Shortcuts/Keyboard-Shortcuts-Tasks.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Cheat-Sheets/Cheat-Sheet-Legal-1Col-and-3Col.flpgl"
+    PageType="first"></TocEntry>
+  <TocEntry
+    Title="Shortcuts Tasks 2"
+    Link="/Content/Print-Only-Topics/Flare/Shortcuts/Keyboard-Shortcuts-Tasks2.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Cheat-Sheets/Cheat-Sheet-Legal-3Col.flpgl"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print-Only-Topics/Flare/Shortcuts/Keyboard-Shortcuts-Tasks3.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Cheat-Sheets/Cheat-Sheet-Legal-3Col.flpgl" />
+  <TocEntry
+    Title="Custom_Shortcuts"
+    Link="/Content/Print-Only-Topics/Shared/Custom-Shortcuts.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Shared/Cheat-Sheets/Cheat-Sheet-Legal-1Col.flpgl" />
+</CatapultToc>

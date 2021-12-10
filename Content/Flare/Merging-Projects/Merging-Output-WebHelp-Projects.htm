@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="etc.)?;Examples...;FAQs;this.&quot;;CSS;Stylesheets;F;alternative...;F3;F1;F2;C;F4;F6;F7;F8;F9;F10;F12;J;K;P;W;Y;Z;(.flmsp;Indexing.&quot;;editors...;ConditionTagSet;SearchFilterSet;Stylesheet;TableStyle;VariableSet;tools...;Unformat;etc.);p;topic.);.pdf,;.doc,;.txt),;TocEntry;ToolbarItem;Practice.&quot;;b;Page...;Editor...;panes...;Organizer...;Explorer...;tags.&quot;;hidden.&quot;;none.&quot;;effect.);a.,;b.,;c.,;d.,;A.,;B.,;C.,;D.,;i.,;ii.,;iii.,;iv.,;I.,;II.,;III.,;IV.,;information.);keyword.&quot;;table...;(.flprj);file.);xls;right.);this...;Editor.);s;style.);Software.&quot;;.htm,;.html,;.xhtm,;xhtm;.xml,;.xhtml,;skins.&quot;;movie...;dialog.&quot;;Dialog.&quot;;Main.&quot;;Dialogs.&quot;;MyWebProject.mcwebhelp,&quot;;MyHtmlHelp.chm&quot;).;Close.&quot;;markers.);example...;Tollfree;MadCap1;Wizard...;program.);target.&quot;;'Empty';(.css;MySubhead;MySubhead.Subheading&quot;;EmphasisBlue;EmphasisGreen;EmphasisGreen.EmphasisBlue&quot;;(.mpj,;.xpj,;.hhp;Reimport;project...;MyProject.flprj).;Report.&quot;;Reports.htm;Report.htm).;.jpg,;.gif,;.bmp).;(.flsnp;TimeSheets.&quot;;TimeSheets;dialog...;Pets.&quot;;dogs.&quot;;Dog.&quot;;etc.).;NewTopic;www.acme.com).;(.chm;temp.hhc,&quot;;MyHelp.chm#MyToc.hhc).;TestFolder;MyHelp.chm,;AnotherHelpSystem.chm).;Master.mchelp,;AnotherHelpSystem;AnotherHelpSystem.mchelp).;Help.);file.&quot;;IdentifierName.&quot;;allowed.);option...;default.);CorporateGlossary.&quot;;CorporateGlossary.flglo&quot;;MyGlossary.&quot;;change.&quot;;Snippets.&quot;;page...;system...;footer...;NameOfMasterPage.flmsp);clickable;Contact.&quot;;Contact.fltoc&quot;;TOC.&quot;;acme.com).;hhc;MyToc.hhc).;MyToc;TOC.);*.mchelp);AnotherHelpSystem.mchelp),;Master.mcwebhelp,;AnotherHelpSystem.mcwebhelp).;*.mcwebhelp);AnotherHelpSystem.mcwebhelp),;*.mcwebhelp;n;reimport;flsfs;mcvariable;VariableSet.VariableName;MyVariables.CompanyName;flbrs;flali;flglo;VariableName;h;hh" class="" style="mc-master-page: url('../../Resources/TemplatePages/Shared/All/Main-No-Breadcrumbs.flmsp');">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterOutput" />
+            <MadCap:concept term="FilterProjects" />
+            <MadCap:concept term="FilterFeatures" />
+            <MadCap:keyword term="Linking:WebHelp;Tables of contents:linking;Projects:merging;Merging:projects;External Help systems:tables of contents;WebHelp:merging;Tables of contents:merging;Merging:tables of contents" />Runtime Merging Output From Flare WebHelp Projects</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Banners/Feature-Supported/HTML5-WebHelp-WH-Plus-Note-Tripane-Skins.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/TOCs-Merge-WebHelp.flsnp" />
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems1.flsnp" />
+        </p>
+        <div class="example">
+            <p class="Example-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Example &lt;/span&gt;&lt;/b&gt;">If the parent project's output files are being published to:</p>
+            <p> C:\MyHelpSystem\Parent\Parent.mcwebhelp</p>
+            <p>The output folders and files for the child project should be copied to the folder:</p>
+            <p> C:\MyHelpSystem\Parent\webSubsystems </p>
+            <p>(e.g., C:\MyHelpSystem\Parent\Subsystems\AnotherHelpSystem\AnotherHelpSystem.mcwebhelp)</p>
+            <p>In this example, "AnotherHelpSystem" is the target folder that you generated, which holds the output folders and files, and "AnotherHelpSystem.mcwebhelp" is the main output file for the child project that was created. Not only does the main .mcwebhelp output file need to be included in this folder, but also the ancillary output folders and files (e.g., Content, Data, Skin).</p>
+        </div>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+        <p>You can merge WebHelp outputs using an automatic or manual method.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Menu-Proxy-Headings-Online-Depth3.flsnp" />
+        <h2>How to Merge Output From Web Projects (Automatic Method)</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems9.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help1.flsnp" />
+                </p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Can-Also-Merge-Browse-Sequence.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1 or Snippets.Snippet3]" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help3.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help4.flsnp" />
+            </li>
+            <li>Click <span class="Emphasis">Browse</span>. </li>
+            <li>In the <span class="Emphasis">Files of type</span> field, click the down arrow and select <span class="Emphasis">MadCap Web Help Files (*.mcwebhelp)</span>. Then find and select the MCWEBHELP output file to which you want to link.</li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+                </p>
+                <p>The full path to the file is displayed in the field.</p>
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+            <li>(Optional) If you want the merged TOC to replace the entry that you selected, do the following:<ol class="LowerAlpha"><li>Select the <span class="Emphasis">Advanced</span> tab.</li><li>Click the check box labeled <span class="Emphasis">When merging, replace node with merged TOC</span>.</li></ol><p>For example, you might have a TOC in your parent project that looks like this:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects-WH1.png" class="MaxWidth100Percent" /></p><p>If you select the option in this step to replace the node, the merged TOC would look like this in the output:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects-WH2.png" class="MaxWidth70Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" /><p>And if you do not select this option, your merged TOC would look like this:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects-WH3.png" class="MaxWidth80Percent" /></p></li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/General/Properties-Dialog-Click-OK.flsnp" />
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help5.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+                </p>
+                <p>Flare automatically <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems14.flsnp" />web<MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems15.flsnp" />&#160;<MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help6.flsnp" /></p>
+            </li>
+        </ol>
+        <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+        <h2>How to Merge Output From Web Projects (Manual Method)</h2>
+        <ol>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems9.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help2.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1 or Snippets.Snippet3]" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help3.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help4.flsnp" />
+            </li>
+            <li>Type the name of the child <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems18.flsnp" />webhelp).</li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/All/General/Click-OK.flsnp" />
+            </li>
+            <li>(Optional) If you want the merged TOC to replace the entry that you selected, do the following:<ol class="LowerAlpha"><li>Select the <span class="Emphasis">Advanced</span> tab.</li><li>Click the check box labeled <span class="Emphasis">When merging, replace node with merged TOC</span>.</li></ol><p>For example, you might have a TOC in your parent project that looks like this:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects-WH1.png" class="MaxWidth100Percent" /></p><MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" /><p>If you select the option in this step to replace the node, the merged TOC would look like this in the output:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects-WH2.png" class="MaxWidth75Percent" /></p><p>And if you do not select this option, your merged TOC would look like this:</p><p><img src="../../Resources/Images/Flare/TOCs/Merged-Projects-WH3.png" class="MaxWidth75Percent" /></p></li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Shared/Co-Fl/General/Properties-Dialog-Click-OK.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/TOCs-Merging-Help5.flsnp" MadCap:conditionTagExpression="include[Snippets.Snippet2], exclude[Snippets.Snippet1]" />
+            </li>
+            <MadCap:pageBreak MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide" />
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems20.flsnp" />&#160;<MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems21.flsnp" /></li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems22.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems23.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/Flare/TOCs/Note-Link-Help-Systems24.flsnp" />
+            </li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/General/Whats-Noteworthy.flsnp" />
+        <p>
+            <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Merge-Projects-Unique-Filename.flsnp" />
+        </p>
+        <div class="note">
+            <p class="Note-Text" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #242729;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">If you plan to use Mark of the Web (MOTW) and are merging output from multiple Flare WebHelp projects, make sure you enable MOTW in all of the subprojects to be included in the merge. Otherwise, the output will not load smoothly into the browser window for the user. <MadCap:conditionalText MadCap:conditions="General.Online-Only">For more information about MOTW, see <MadCap:xref href="../Step4-Developing-Targets/More/Adding-MOTW.htm">Adding Mark of the Web</MadCap:xref> and Microsoft's MSDN website.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Flare-Guides.Flare-Project-Creation-Guide">For more information about MOTW, see Microsoft's MSDN website.</MadCap:conditionalText></p>
+        </div>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/Nav-Links/Note-External-Links.flsnp" MadCap:conditions="General.Online-Only" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Merged-WebHelp-Plus.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Flare/TOCs/Note-Merge-Projects-Synonyms.flsnp" />
+    </body>
+</html>

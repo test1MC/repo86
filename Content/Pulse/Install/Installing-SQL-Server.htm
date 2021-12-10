@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="18" MadCap:lastHeight="14912" MadCap:lastWidth="1271" class="">
+    <head>
+        <link href="../../Resources/TableStyles/Shared/Fancy.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Use these instructions to Microsoft SQL&#160;Server 2008 or Microsoft SQL&#160;Server 2008 R2 to use as the MadCap Pulse database. " />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="SQL Server" />Installing&#160;Microsoft SQL&#160;Server</h1>
+        <h1 class="Invisible" MadCap:conditions="General.Online-Only">
+            <MadCap:keyword term="SQL Server" />Installing Microsoft SQL&#160;Server</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Banners/Information-Network-Administrators.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Install-SQL-Server-Summary.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Chapter-Discusses-Following.flsnp" MadCap:conditions="Pulse-Guides.Pulse-Installation-Guide,Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+        <h2 MadCap:conditions="General.Print-Only">Before You Begin</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>before you begin</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Before-Installation-Login-Server.flsnp" />
+                <ul>
+                    <li>
+                        <p> <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Built-In-Administrator-Account-Windows-Server.flsnp" /></p>
+                        <p>OR</p>
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Windows-User-Account-Local-Administrator.flsnp" />
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:pageBreak MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+        <h2 MadCap:conditions="General.Print-Only">Installing SQL Server</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="OnlineOnly">
+                <MadCap:dropDownHotspot>installing sql server</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installing-SQL-Server.flsnp" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="OnlineOnly">
+                        <MadCap:dropDownHotspot>Important</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Important-Windows-SQL-Server-2012.flsnp" />
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:pageBreak MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>How to Install Microsoft SQL Server</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Obtain-Installation-Media.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Login-Server-Administrator.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Run-Setup-From-CD-Or-Network.flsnp" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot>if you are installing from a network</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/If-Installing-From-Network.flsnp" />
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/SQL2008-Program-Compatibility-Assistant.flsnp" />
+                                </p>
+                                <p>
+                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008_program_compability_assistant.png" class="MaxWidth100Percent" />
+                                </p>
+                            </li>
+                        </ol>
+                        <MadCap:pageBreak MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                        <ol MadCap:continue="true">
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Planning-Page-Installation-Center.flsnp" />
+                                </p>
+                                <p>
+                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2_planning.png" class="MaxWidth100Percent" />
+                                </p>
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/SQL-Server-New-Installation.flsnp" />
+                                <p>
+                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_express_adv_installation_page.png" class="MaxWidth100Percent" />
+                                </p>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Dialog-Security-Warning-Click-Run.flsnp" />
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Wizard-Checks-System-Potential-Issues.flsnp" />
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Setup-Support-Rules-Dialog.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Warning-Click-Show-Details.flsnp" />
+                                        <p>OR</p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Wizard-Passes-System-Check-Click-OK.flsnp" />
+                                        <p>
+                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2_setup_support_rules.png" class="MaxWidth100Percent" />
+                                        </p>
+                                    </li>
+                                </ul>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Wizard-Ensures-Valid-Product-Key.flsnp" />
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Product-Key-Page-Validate-SQL-Instance.flsnp" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead class="OnlineOnly">
+                                        <MadCap:dropDownHotspot>how to validate an sql instance </MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <ol class="LowerAlpha">
+                                            <li>
+                                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Product-Key-Page-Select-Enter-Product-Key.flsnp" />
+                                            </li>
+                                            <li>
+                                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Type-Microsoft-License-Key.flsnp" />
+                                                <p>
+                                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2_productkey.png" class="MaxWidth100Percent" />
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Click-Next-Open-License-Terms.flsnp" />
+                                            </li>
+                                            <li>
+                                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Check-I-Accept-License-Terms.flsnp" />
+                                            </li>
+                                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                                            <li>
+                                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Optional-Send-Feature-Usage-Data.flsnp" />
+                                                <p>
+                                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_express_adv_license_terms.png" class="MaxWidth100Percent" />
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Click-Next-If-System-Requires-Updates.flsnp" />
+                                            </li>
+                                            <li>
+                                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Depending-SQL-Version-Click-Install.flsnp" />
+                                            </li>
+                                        </ol>
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Setup-Support-Rules-Page.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Issues-Found-Click-Show-Details.flsnp" />
+                                        <p>
+                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2_setup_support_rules2.png" class="MaxWidth90Percent" />
+                                        </p>
+                                        <p>OR</p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Setup-Support-Rules-System-Passed-Click-Next.flsnp" />
+                                    </li>
+                                </ul>
+                            </li>
+                            <li MadCap:conditions="Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide,General.Online-Only">
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Setup-Role-Page-Choose-Installation-Type.flsnp" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot>how to choose an installation type</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Not-Familiar-With-SQL-Choose-Following.flsnp" />
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/How-To-Choose-Installation-Type.flsnp" />
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                                <MadCap:dropDown class="ThirdLevel" MadCap:conditions="General.Online-Only">
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">Note</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <div class="note">
+                                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/You-Will-Not-See-Step-SQL2008.flsnp" />
+                                        </div>
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Feature-Selection-Page.flsnp" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot>how to install the minimum required features</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <p>At a minimum, you should:</p>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Use-Default-Shared-Directory.flsnp" />
+                                        <ol class="LowerAlpha">
+                                            <li>
+                                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Select-Check-Boxes-Minimum-Required-Features.flsnp" />
+                                                <MadCap:dropDown>
+                                                    <MadCap:dropDownHead>
+                                                        <MadCap:dropDownHotspot>SQL Server 2008/2008R2 Example</MadCap:dropDownHotspot>
+                                                    </MadCap:dropDownHead>
+                                                    <MadCap:dropDownBody>
+                                                        <p>
+                                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2_feature_selection.png" class="MaxWidth50Percent" />
+                                                        </p>
+                                                    </MadCap:dropDownBody>
+                                                </MadCap:dropDown>
+                                                <MadCap:dropDown>
+                                                    <MadCap:dropDownHead>
+                                                        <MadCap:dropDownHotspot>SQL&#160;Server 2012 Example</MadCap:dropDownHotspot>
+                                                    </MadCap:dropDownHead>
+                                                    <MadCap:dropDownBody>
+                                                        <p>
+                                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2012_feature_selection.PNG" class="MaxWidth85Percent" />
+                                                        </p>
+                                                    </MadCap:dropDownBody>
+                                                </MadCap:dropDown>
+                                            </li>
+                                            <li>
+                                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Use-Default-Shared-Directory.flsnp" />
+                                            </li>
+                                            <li>
+                                                <p>Click <span class="Emphasis">Next</span>. </p>
+                                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Setup-Checks-Potential-Issues.flsnp" />
+                                            </li>
+                                        </ol>
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <li MadCap:conditions="Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide,General.Online-Only">
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Rules-Page-One-Of-Following.flsnp" />
+                                <MadCap:dropDown MadCap:conditions="General.Online-Only" class="ThirdLevel">
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">Note</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <div class="note">
+                                            <p class="Note-Text">
+                                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/You-Will-Not-See-Step-SQL2008.flsnp" />
+                                            </p>
+                                        </div>
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Instance-Configuration-Page-Select-One-Following.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Default-Instance-Instance-Configuration.flsnp" />
+                                        <p>OR</p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Named-Instance-Instance-Configuration.flsnp" />
+                                        <p>
+                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_express_adv_instance_config.png" class="MaxWidth100Percent" />
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Click-Next-Disk-Space-Requirements.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Server-Configuration-Service-Accounts.flsnp" />
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot>how to provision sql service accounts</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Important-Contact-Administrator-Service-Accounts.flsnp" />
+                                        <ol class="LowerAlpha">
+                                            <li>
+                                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Provision-Accounts-List-SQL-Services.flsnp" />
+                                            </li>
+                                            <li>
+                                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Startup-Type-Service.flsnp" />
+                                                <MadCap:dropDown>
+                                                    <MadCap:dropDownHead>
+                                                        <MadCap:dropDownHotspot>SQL&#160;Server2008 Example</MadCap:dropDownHotspot>
+                                                    </MadCap:dropDownHead>
+                                                    <MadCap:dropDownBody>
+                                                        <p>
+                                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008_service_accounts.png" class="MaxWidth90Percent" />
+                                                        </p>
+                                                    </MadCap:dropDownBody>
+                                                </MadCap:dropDown>
+                                                <MadCap:dropDown>
+                                                    <MadCap:dropDownHead>
+                                                        <MadCap:dropDownHotspot>SQL&#160;Server 2008R2 Example</MadCap:dropDownHotspot>
+                                                    </MadCap:dropDownHead>
+                                                    <MadCap:dropDownBody>
+                                                        <p>
+                                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2_service_accounts.png" class="MaxWidth95Percent" />
+                                                        </p>
+                                                    </MadCap:dropDownBody>
+                                                </MadCap:dropDown>
+                                                <MadCap:dropDown>
+                                                    <MadCap:dropDownHead>
+                                                        <MadCap:dropDownHotspot>SQL&#160;Server 2012 Example</MadCap:dropDownHotspot>
+                                                    </MadCap:dropDownHead>
+                                                    <MadCap:dropDownBody>
+                                                        <p>
+                                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2012_service_accounts.PNG" class="MaxWidth100Percent" />
+                                                        </p>
+                                                    </MadCap:dropDownBody>
+                                                </MadCap:dropDown>
+                                            </li>
+                                        </ol>
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Database-Engine-Configuration-Account-Provisioning.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Windows-Authentication-Mode-Server-Configuration.flsnp" />
+                                        <MadCap:dropDown>
+                                            <MadCap:dropDownHead>
+                                                <MadCap:dropDownHotspot>SQL&#160;Server 2008/2008R2 Example</MadCap:dropDownHotspot>
+                                            </MadCap:dropDownHead>
+                                            <MadCap:dropDownBody>
+                                                <p>
+                                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2_database_engine_windows_auth.png" class="MaxWidth100Percent" />
+                                                </p>
+                                            </MadCap:dropDownBody>
+                                        </MadCap:dropDown>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                                        <MadCap:dropDown>
+                                            <MadCap:dropDownHead>
+                                                <MadCap:dropDownHotspot>SQL&#160;Server 2012 Example</MadCap:dropDownHotspot>
+                                            </MadCap:dropDownHead>
+                                            <MadCap:dropDownBody>
+                                                <p>
+                                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2012_server_configuration_tab.PNG" class="MaxWidth100Percent" />
+                                                </p>
+                                            </MadCap:dropDownBody>
+                                        </MadCap:dropDown>
+                                    </li>
+                                    <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Mixed-Mode-Server-Configuration.flsnp" />
+                                        <p>
+                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2_database_engine_sql.png" class="MaxWidth100Percent" />
+                                        </p>
+                                        <p>When finished, click <span class="Emphasis">Next</span>.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Error-Reporting-Page.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Configuration-Rules-Do-Following.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Ready-Install-Page-Click-Install.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Succeeded-Click-Close.flsnp" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead class="OnlineOnly">
+                                        <MadCap:dropDownHotspot>notes</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <div class="note">
+                                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Note-If-Failure-Troubleshooting-KB.flsnp" />
+                                        </div>
+                                        <div class="note">
+                                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Check-Administrator-Installation-Errors.flsnp" />
+                                        </div>
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown class="SecondLevel" MadCap:conditions="General.Future">
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>how to install sql server 2008 express with advanced services</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Install-SQL2008-Express-Advanced-Services.flsnp" />
+                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Download-Microsoft-Download-Center.flsnp" />
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">important</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Important-Install-Express-Edition-Advanced-Services.flsnp" />
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Important-Express-Max-Database-10GB.flsnp" />
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Important-Install-PowerShell-Express-Edition.flsnp" />
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <ol>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Login-Server-Administrator.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Optional-Create-Directory-Server.flsnp" />
+                            </li>
+                            <li>
+                                <p>
+                                    <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Download-Microsoft-Download-Center.flsnp" />
+                                </p>
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">note</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <div class="note">
+                                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Store-Installation-Media-Store-Server-Folder.flsnp" />
+                                        </div>
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Run-Setup-Administrator.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/64-Bit-Platforms.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/32-Bit-Platforms.flsnp" />
+                                    </li>
+                                </ul>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2012-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2008-Installation-Guide" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot>how to run the setup program as an administrator</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <ol style="list-style-type: lower-alpha;">
+                                            <li>
+                                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/If-Not-Logged-As-Administrator.flsnp" /> </li>
+                                            <li>
+                                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Right-Click-Setup-Run-As-Administrator.flsnp" />
+                                                <p>
+                                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008expressadv_run_as_admin.png" class="MaxWidth100Percent" />
+                                                </p>
+                                            </li>
+                                        </ol>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Setup-Extracts-Files-SQL-Installation-Opens.flsnp" />
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Page-Click-New-Installation.flsnp" />
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Setup-Support-Files-Page.flsnp" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">note</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Note-Setup-Support-Rules-Complete-Click-OK.flsnp" />
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Type-Page-Select-New-Installation.flsnp" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead>
+                                        <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">note</MadCap:dropDownHotspot>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/SQL2008R2-Express-No-License-Terms.flsnp" />
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Feature-Selection-Page-Check-These-Boxes.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Database-Engine-Services.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Management-Tools-Basic.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Full-Text-Search.flsnp" />
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/SQL-Client-Connectivity-SDK.flsnp" />
+                                        </p>
+                                        <p>
+                                            <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008r2expressadv_feature_selection.png" class="MaxWidth100Percent" />
+                                        </p>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                                        <MadCap:dropDown>
+                                            <MadCap:dropDownHead><span class="Emphasis" MadCap:conditions="General.Online-Only">notes</span>
+                                            </MadCap:dropDownHead>
+                                            <MadCap:dropDownBody>
+                                                <div class="note">
+                                                    <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Note-SQL-Default-Settings.flsnp" />
+                                                </div>
+                                                <div class="note">
+                                                    <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Note-Gray-Checkmark-Feature-Installed.flsnp" />
+                                                </div>
+                                            </MadCap:dropDownBody>
+                                        </MadCap:dropDown>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Feature-Selection-Page-Click-Next.flsnp" />
+                                <MadCap:dropDown>
+                                    <MadCap:dropDownHead><span class="Emphasis" MadCap:conditions="General.Online-Only">note</span>
+                                    </MadCap:dropDownHead>
+                                    <MadCap:dropDownBody>
+                                        <div class="note">
+                                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Resolve-Issues-Click-Next-Instance-Configuration.flsnp" />
+                                        </div>
+                                    </MadCap:dropDownBody>
+                                </MadCap:dropDown>
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Instance-Configuration-Page-Select-Button.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Default-Instance-Instance-Configuration_1.flsnp" />
+                                        <p>OR</p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Named-Instance-Instance-Configuration_1.flsnp" />
+                                        <MadCap:dropDown>
+                                            <MadCap:dropDownHead>
+                                                <MadCap:dropDownHotspot MadCap:conditions="General.Online-Only">note</MadCap:dropDownHotspot>
+                                            </MadCap:dropDownHead>
+                                            <MadCap:dropDownBody>
+                                                <div class="note">
+                                                    <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Note-SQL-Express-Maximum-10GB.flsnp" />
+                                                </div>
+                                            </MadCap:dropDownBody>
+                                        </MadCap:dropDown>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Click-Next-Server-Configuration.flsnp" />
+                            </li>
+                            <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Server-Configuration-Service-Accounts-Startup-Type.flsnp" />
+                                <p>
+                                    <img src="../../Resources/Images/Shared/Fl-Pu/pulse_sql_2008_service_accounts.png" class="MaxWidth100Percent" />
+                                </p>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/All/Print-Output/Empty-Page-Break-After.flsnp" MadCap:conditions="Pulse-Guides.2008-Installation-Guide,Pulse-Guides.2008R2-Installation-Guide,Pulse-Guides.2012-Installation-Guide" />
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Service-Accounts-Start-Type-Table.flsnp" />
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/When-Finished-Click-Next.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Database-Engine-Configuration-Choose-Option.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Windows-Authentication-Mode-Database-Engine.flsnp" />
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Mixed-Mode-Database-Engine-Configuration.flsnp" />
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/When-Finished-Click-Next.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Reporting-Services-Configuration-Install-Native-Mode.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Error-Reporting-Page-Click-Next.flsnp" />
+                                <ul>
+                                    <li>
+                                        <MadCap:snippetBlock src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Rules-Page-Installation-Begins.flsnp" />
+                                        <p>OR</p>
+                                    </li>
+                                    <li>
+                                        <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Address-Issues-Click-Next.flsnp" />
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Server-Configuration-Click-Next.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Rules-Page-Click-Next.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Ready-Install-Page-Click-Install_1.flsnp" />
+                            </li>
+                            <li>
+                                <MadCap:snippetText src="../../Resources/Snippets/Shared/Fl-Pu/Pulse/Installation-Succeeded-Click-Close_1.flsnp" />
+                            </li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

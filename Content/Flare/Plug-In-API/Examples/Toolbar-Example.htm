@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html style="mc-master-page: url('../../../Resources/TemplatePages/Flare/User-Guides/Flare-Plugin-API.flmsp');">
+    <head>
+        <meta name="description" content="Example of adding a custom toolbar, assuming your class instance of INavContext is named &quot;mNav.&quot;" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="FilterFeatures" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />Toolbar Example</h1>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Flare/Banners/Information-Developers.flsnp" MadCap:conditions="General.Online-Only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <p>To add a custom toolbar, you need to use the INavContext interface. See <MadCap:xref href="../Interfaces/INavContext.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">INavContext Interface</MadCap:xref>.</p>
+        <p>Here is an example assuming your class instance of INavContext is named “mNav.”</p>
+        <MadCap:codeSnippet xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSharp;">private void CreateCustombar()
+{
+	ICustomToolBar toolBar = mNav.CreateCustomToolBar("My ToolBar");
+	toolBar.AddButton("My Button",newButtonCommand());
+	toolBar.AddSeparator();
+	toolBar.AddMenuButton(MyViewModel.MenuData);
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>ButtonCommand and MyViewModel are defined as follows.</p>
+        <MadCap:codeSnippet xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSharp;">public classButtonCommand :ICommand
+{
+	public bool CanExecute(object parameter)
+	{
+		return true;
+	}
+	public voidExecute(object parameter)
+	{
+		MessageBox.Show("I got pressed!");
+	}
+}
+public static classRibbonViewModel
+{
+	private static RibbonMenuData _menuData;
+	public staticRibbonMenuData MenuData
+	{
+		get
+		{
+			if (_menuData ==null)
+			{
+				BitmapImage image =new BitmapImage(new Uri("&lt;ICON PATH&gt;"));
+				_menuData =new RibbonMenuData()
+				{
+					Label ="My Menu",
+					SmallImage = image,
+					KeyTip ="D"
+				};
+				_menuData.ControlDataCollection.Add(new RibbonControlData()
+				{
+					MenuLabel = "item1"
+				});
+				_menuData.ControlDataCollection.Add(new RibbonControlData()
+				{
+					MenuLabel = "item2"
+				});
+			}
+			return _menuData;
+		}
+	}
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <div class="note">
+            <p class="Note-Text" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #fdc80b;&quot; class=&quot;mcFormatColor&quot;&gt;Note &lt;/span&gt;&lt;/b&gt;">The custom toolbar is only visible when the Flare interface is in “Tool Strip” mode.</p>
+        </div>
+    </body>
+</html>
